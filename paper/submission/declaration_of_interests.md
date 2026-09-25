@@ -1,5 +1,3 @@
-# Declaration of competing interests — author confirmation required
+# Declaration of competing interests
 
-[Author to confirm or replace before submission: “The author declares no known competing financial interests or personal relationships that could have appeared to influence the work.”]
-
-This draft is not an attestation on the author's behalf.
+The author-confirmed statement is `competing_interest_final.txt`. This file is retained only as a pointer for earlier package references.

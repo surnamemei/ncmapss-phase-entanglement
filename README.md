@@ -22,6 +22,14 @@ See `docs/AUTHORITATIVE_RESULTS.md` before citing numbers. Obsolete Phase 3 repo
 
 Code and analysis materials are available at https://github.com/surnamemei/ncmapss-phase-entanglement. Raw NASA N-CMAPSS data are not included.
 
+## License
+
+This repository is released under the MIT License. See `LICENSE` for details. The MIT License applies to the code and repository materials authored for this project; NASA N-CMAPSS data remain subject to their original source terms and are not redistributed here.
+
+## Citation
+
+If you use this repository, please cite the accompanying manuscript and/or the repository metadata in `CITATION.cff`.
+
 ## Reproduction commands
 
 Use the configured CUDA-enabled research Python (see `docs/ENVIRONMENT.md`). All reproduction wrappers default to a read-only dry run. An authorized full run requires `--execute` and a **new**, nonexisting output path; it can be computationally expensive. These commands document reproduction and were not run during the repository-cleanup freeze:

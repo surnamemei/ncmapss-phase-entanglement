@@ -1,5 +1,3 @@
-# Author contributions — author confirmation required
+# Author contributions
 
-Provisional single-author CRediT roles for Jinghang Mei: Conceptualization; Methodology; Software; Formal analysis; Validation; Data curation; Visualization; Writing — original draft; Writing — review and editing.
-
-[Author to confirm each role before submission. No supervision, funding acquisition, or project-administration role is inferred.]
+The author-confirmed CRediT statement is `credit_author_statement.md`. This file is retained only as a pointer for earlier package references.
