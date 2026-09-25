@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import h5py
@@ -24,8 +25,8 @@ from second_stage_audit import (
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results/phase3_dynamic_correction"
-FIG = ROOT / "figures/phase3"
+OUT = Path(os.environ.get("NCMAPSS_DS02_CORRECTION_DIR", ROOT / "results/phase3_dynamic_correction"))
+FIG = Path(os.environ.get("NCMAPSS_DS02_FIGURES_DIR", ROOT / "figures/phase3"))
 SCHEMES = ("static", "static_derivative", "history")
 WINDOWS = (30, 120)
 CHUNK = 100_000

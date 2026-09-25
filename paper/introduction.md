@@ -1,0 +1,23 @@
+# Auditing Flight-Phase Dependence in Unsupervised Aero-Engine Anomaly Detection: A Discovery-and-Confirmation Study on N-CMAPSS
+
+## I. Introduction
+
+Aero-engine health monitoring must identify developing faults early while keeping false alarms manageable. A threshold that detects weak changes but repeatedly alarms during healthy operation can impose unnecessary review and reduce the usefulness of the warning stream. False-alarm probability has therefore long been an explicit design consideration in engine anomaly detection and alert-threshold placement [2](https://doi.org/10.1155/2011/942576), [11](https://doi.org/10.36001/phme.2014.v2i1.1542). The present study concerns the healthy-alarm side of that trade-off; it does not evaluate fault-detection sensitivity or operational response.
+
+Full-flight monitoring complicates the interpretation of a sensor departure. A measured vector may be viewed schematically as \(x_t=f(h_t,o_t,d_t,\epsilon_t)\), where \(h_t\) denotes engine health, \(o_t\) the operating point, \(d_t\) normal operating dynamics, and \(\epsilon_t\) measurement and model error. This expression is conceptual, not an identified causal model. Earlier C-MAPSS studies often used restricted operating snapshots, whereas N-CMAPSS simulates complete flights driven by recorded flight conditions, including climb, cruise, and descent [1](https://doi.org/10.3390/data6010005). Variation with operating context can therefore alter healthy anomaly scores even when health state is unchanged [2](https://doi.org/10.1155/2011/942576), [10](https://arxiv.org/abs/2607.19380).
+
+An aggregate calibration target does not itself guarantee stable conditional performance. In particular, \(P(\mathrm{alarm}\mid\mathrm{healthy})\) is an exposure-weighted mixture of \(P(\mathrm{alarm}\mid\mathrm{healthy},\mathrm{phase})\) over the phases represented in the calibration set. The aggregate may satisfy its nominal target while climb, cruise, and descent have materially different healthy false-positive rates (FPRs). Thresholds learned in one healthy phase may likewise transfer unevenly to another. The phase labels in this study are retrospective full-flight strata, not outputs of an online phase detector.
+
+Flight-condition-aware monitoring, normalization, regime-specific models, and adaptive thresholds are established prior art [3](https://doi.org/10.1016/j.ast.2011.03.002), [4](https://doi.org/10.4050/VFS-F62-051), [6](https://doi.org/10.1061/(ASCE)AS.1943-5525.0001483). N-CMAPSS has also been used for anomaly detection and for increasingly sophisticated temporal modelling [7](https://doi.org/10.36001/IJPHM.2024.v15i1.3589), [8](https://doi.org/10.1016/j.ymssp.2025.112403), [9](https://doi.org/10.3390/math14183413). The question here is narrower than improving a detector: whether a nominal pooled healthy-alarm calibration remains stable across normal flight phases under full-flight operation.
+
+DS02 supplied exploratory discovery, including correction-specification robustness and cross-detector checks. The detector, correction, phase, calibration, endpoint, and directional interpretation rules were then frozen before a one-shot evaluation on the independent DS03 confirmatory subset. The DS03 official-test arrays were not used for method development. Healthy-state labels restrict retrospective healthy evaluation and are not detector inputs; the study consequently makes no claim about fault sensitivity or real-aircraft deployment.
+
+The study addresses three research questions: RQ1, do healthy anomaly scores and false-alarm rates vary systematically across flight phases? RQ2, do the tested static, derivative-based, and finite-history operating-condition corrections eliminate the observed dependence? RQ3, does the pooled directional pattern reproduce across three tested detector implementations and a frozen confirmatory N-CMAPSS subset?
+
+The contributions are:
+
+1. A controlled audit of phase-dependent healthy false-alarm calibration under full-flight N-CMAPSS operation, including cross-phase threshold transfer.
+2. A falsification-oriented robustness analysis showing that the observed DS02 dependence is not eliminated by the tested static, derivative-based, or finite-history correction schemes and is observed across three tested detector implementations.
+3. A discovery-and-confirmation design in which the protocol developed on DS02 was frozen before a one-shot directional evaluation on previously unseen DS03 official-test data.
+
+These contributions concern calibration-stability evidence in the specified simulated N-CMAPSS subsets, not a new detector, a causal explanation, or deployment validation.

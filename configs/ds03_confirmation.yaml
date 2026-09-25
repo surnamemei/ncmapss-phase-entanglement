@@ -1,0 +1,30 @@
+# Frozen-value snapshot of frozen_protocol.md and executed DS03 run_config.
+# Engine IDs below document the executed, ID-only assignment, not a new split.
+dataset: N-CMAPSS_DS03-012.h5
+role: frozen_confirmation
+development_engines: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+model_fit_engines: [1, 2, 3, 5, 6, 7, 9]
+threshold_calibration_engines: [4, 8]
+epoch_selection_fit_engines: [1, 2, 3, 5, 6, 7]
+epoch_selection_validation_engine: 9
+official_test_engines: [10, 11, 12, 13, 14, 15]
+phase_primary_altitude_fraction: 0.90
+correction: history
+correction_history_windows_seconds: [30, 120]
+correction_ridge_alpha: 1.0
+pca_components: 5
+isolation_forest_trees: 200
+isolation_forest_max_samples: 8192
+lstm_encoder_hidden: 16
+lstm_bottleneck: 8
+lstm_decoder_hidden: 16
+lstm_sequence_length: 256
+lstm_batch_size: 256
+lstm_max_epochs: 600
+lstm_patience: 6
+lstm_min_delta: 0.0001
+seeds: [0, 1, 2]
+nominal_fpr_targets: [0.005, 0.01, 0.02]
+primary_nominal_fpr_target: 0.01
+hierarchical_bootstrap_replicates: 2000
+hierarchical_bootstrap_seed: 20260925

@@ -1,0 +1,22 @@
+{
+  "status": "DS03 confirmatory",
+  "source_paths": [
+    "results/confirmation_ds03/canonical_results.csv"
+  ],
+  "evidence_ids": [
+    "E010947",
+    "E010948",
+    "E010949",
+    "E012858",
+    "E012859",
+    "E012860",
+    "E013131",
+    "E013132",
+    "E013133"
+  ],
+  "generation_script": "scripts/build_submission_package.py",
+  "formats": [
+    "paper/figures/figure_4_ds03_phase_fpr.svg",
+    "paper/figures/figure_4_ds03_phase_fpr.png"
+  ]
+}

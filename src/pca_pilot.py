@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import h5py
@@ -19,7 +20,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "N-CMAPSS/N-CMAPSS_DS02-006.h5"
+DATA = Path(os.environ.get("NCMAPSS_DS02_H5", ROOT / "N-CMAPSS/N-CMAPSS_DS02-006.h5"))
 RESULTS = ROOT / "results"
 FIGURES = ROOT / "figures"
 TRAIN_UNITS = (2, 5, 10, 16)

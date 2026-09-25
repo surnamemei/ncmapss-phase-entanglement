@@ -1,0 +1,22 @@
+{
+  "status": "DS02 exploratory",
+  "source_paths": [
+    "results/final_validation/canonical_results.csv"
+  ],
+  "evidence_ids": [
+    "E000107",
+    "E000108",
+    "E000109",
+    "E002627",
+    "E002628",
+    "E002629",
+    "E002987",
+    "E002988",
+    "E002989"
+  ],
+  "generation_script": "scripts/build_submission_package.py",
+  "formats": [
+    "paper/figures/figure_2_ds02_phase_fpr.svg",
+    "paper/figures/figure_2_ds02_phase_fpr.png"
+  ]
+}

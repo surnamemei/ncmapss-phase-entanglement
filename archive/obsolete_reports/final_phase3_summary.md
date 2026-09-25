@@ -1,4 +1,6 @@
-> **OBSOLETE — DO NOT CITE.** This file contains superseded expected/inaccurate Phase 3 values. Use `results/final_validation/canonical_results.csv` and `results/final_validation/FINAL_VALIDATION_REPORT.md`, generated from the executed final validation, as the authoritative sources.
+> **OBSOLETE — DO NOT USE FOR MANUSCRIPT NUMBERS.**
+>
+> **OBSOLETE — DO NOT CITE.** This file contains superseded expected/inaccurate Phase 3 values. Use `results/final_validation/canonical_results.csv`, generated from the executed final validation, as the authoritative source.
 
 # Phase 3 Analysis Summary
 

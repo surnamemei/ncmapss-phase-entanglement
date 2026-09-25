@@ -1,0 +1,24 @@
+{
+  "status": "DS02 exploratory cross-phase transfer; not pooled phase FPR",
+  "source_paths": [
+    "results/final_validation/executed_threshold_transfer_matrix.csv",
+    "results/final_validation/canonical_results.csv"
+  ],
+  "evidence_ids": [
+    "E004814",
+    "E004818",
+    "E004822",
+    "E004862",
+    "E004866",
+    "E004870",
+    "E004910",
+    "E004914",
+    "E004918",
+    "E000113"
+  ],
+  "generation_script": "scripts/build_submission_package.py",
+  "formats": [
+    "paper/figures/figure_3_cross_phase_transfer.svg",
+    "paper/figures/figure_3_cross_phase_transfer.png"
+  ]
+}

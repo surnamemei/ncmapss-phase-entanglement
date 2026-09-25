@@ -1,0 +1,21 @@
+{
+  "status": "conceptual design; DS02 exploratory / DS03 confirmatory",
+  "source_paths": [
+    "results/final_validation/frozen_protocol.md",
+    "paper/evidence_ledger.csv"
+  ],
+  "evidence_ids": [
+    "M0020",
+    "M0021",
+    "M0022",
+    "M0025",
+    "M0026",
+    "M0027",
+    "M0034"
+  ],
+  "generation_script": "scripts/build_submission_package.py",
+  "formats": [
+    "paper/figures/figure_1_study_design.svg",
+    "paper/figures/figure_1_study_design.png"
+  ]
+}

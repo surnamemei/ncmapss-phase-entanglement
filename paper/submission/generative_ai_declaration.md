@@ -1,0 +1,5 @@
+# Declaration of generative AI and AI-assisted technologies in the manuscript preparation process — draft
+
+During the preparation of this work, the author used OpenAI ChatGPT and Codex to support code development, debugging, literature organization, and manuscript drafting and editing. The author independently reviewed and verified the generated code, analyses, references, numerical results, interpretations, and manuscript text, and takes full responsibility for the content of the publication.
+
+**AUTHOR MUST REVIEW AGAINST CURRENT JOURNAL POLICY BEFORE SUBMISSION.** Elsevier's [journal policy](https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals) requires a separate manuscript declaration immediately before the references for substantive manuscript-preparation use. It also calls for AI-assisted research coding to be described in Methods, where applicable. The author must verify the scope and accuracy of this draft, determine whether any figure-specific disclosure is required, and insert the approved declaration into the final manuscript before submission. This draft does not assert that those author checks are complete.

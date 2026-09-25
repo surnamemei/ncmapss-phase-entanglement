@@ -1,0 +1,86 @@
+{
+  "S1": {
+    "source": "results/phase3_dynamic_correction/correction_comparison.csv",
+    "packaged_file": "paper/submission/supplementary/table_s1_phase3_dynamic_correction_correction_comparison.csv",
+    "sha256": "37226920fa435c5b8387a6e834c3dd242ded18c486901856c9a7fc0d823859c5",
+    "byte_identical_copy": true
+  },
+  "S2": {
+    "source": "results/final_validation/canonical_results.csv",
+    "packaged_file": "paper/submission/supplementary/table_s2_final_validation_canonical_results.csv",
+    "sha256": "7f259d016c00e5dcdd418b8a60dcb7e17247f8cc728b460c76f2a329492478a4",
+    "byte_identical_copy": true
+  },
+  "S3": {
+    "source": "results/final_validation/per_engine_phase_fpr.csv",
+    "packaged_file": "paper/submission/supplementary/table_s3_final_validation_per_engine_phase_fpr.csv",
+    "sha256": "e5262f33538c7832f63077e388a2f39a649e41b534ab80643bd3b2ca4e747992",
+    "byte_identical_copy": true
+  },
+  "S4": {
+    "source": "results/confirmation_ds03/canonical_results.csv",
+    "packaged_file": "paper/submission/supplementary/table_s4_confirmation_ds03_canonical_results.csv",
+    "sha256": "6911385cbe8945af878424d2f9e4704092215d198cd91f703a009c4a31fa6062",
+    "byte_identical_copy": true
+  },
+  "S5": {
+    "source": "results/final_validation/canonical_results.csv",
+    "packaged_file": "paper/submission/supplementary/table_s5_final_validation_canonical_results.csv",
+    "sha256": "7f259d016c00e5dcdd418b8a60dcb7e17247f8cc728b460c76f2a329492478a4",
+    "byte_identical_copy": true
+  },
+  "S5ci": {
+    "source": "results/final_validation/hierarchical_bootstrap_ci.csv",
+    "packaged_file": "paper/submission/supplementary/table_s5ci_final_validation_hierarchical_bootstrap_ci.csv",
+    "sha256": "2735ca4b273df4cb800c608548656fa991e1e8fa6a0eb55329421a9f4b6c8b28",
+    "byte_identical_copy": true
+  },
+  "S6": {
+    "source": "results/confirmation_ds03/canonical_results.csv",
+    "packaged_file": "paper/submission/supplementary/table_s6_confirmation_ds03_canonical_results.csv",
+    "sha256": "6911385cbe8945af878424d2f9e4704092215d198cd91f703a009c4a31fa6062",
+    "byte_identical_copy": true
+  },
+  "S6ci": {
+    "source": "results/confirmation_ds03/hierarchical_bootstrap_ci.csv",
+    "packaged_file": "paper/submission/supplementary/table_s6ci_confirmation_ds03_hierarchical_bootstrap_ci.csv",
+    "sha256": "29b8a033601fdbf4776918a916e827eab36fcc485e182e1c5375b4f8611343c9",
+    "byte_identical_copy": true
+  },
+  "S7a": {
+    "source": "results/final_validation/canonical_results.csv",
+    "packaged_file": "paper/submission/supplementary/table_s7a_final_validation_canonical_results.csv",
+    "sha256": "7f259d016c00e5dcdd418b8a60dcb7e17247f8cc728b460c76f2a329492478a4",
+    "byte_identical_copy": true
+  },
+  "S7b": {
+    "source": "results/confirmation_ds03/canonical_results.csv",
+    "packaged_file": "paper/submission/supplementary/table_s7b_confirmation_ds03_canonical_results.csv",
+    "sha256": "6911385cbe8945af878424d2f9e4704092215d198cd91f703a009c4a31fa6062",
+    "byte_identical_copy": true
+  },
+  "S8a": {
+    "source": "results/final_validation/lstm_training_history.csv",
+    "packaged_file": "paper/submission/supplementary/table_s8a_final_validation_lstm_training_history.csv",
+    "sha256": "f2ebd424385d08bf83f1f62e4abe88168c226cf59fb33747faa3385dfbb47320",
+    "byte_identical_copy": true
+  },
+  "S8b": {
+    "source": "results/confirmation_ds03/lstm_training_history.csv",
+    "packaged_file": "paper/submission/supplementary/table_s8b_confirmation_ds03_lstm_training_history.csv",
+    "sha256": "af3700b7f675fc6d7d404d3539255f19638d766c8c92faffedb4e8c426194121",
+    "byte_identical_copy": true
+  },
+  "S9": {
+    "source": "results/final_validation/lstm_boundary_audit.csv",
+    "packaged_file": "paper/submission/supplementary/table_s9_final_validation_lstm_boundary_audit.csv",
+    "sha256": "ec8a0824a85456392aaee53b97942369e7be8be197cf500c8872ef972891465b",
+    "byte_identical_copy": true
+  },
+  "S8note": {
+    "source": "results/final_validation/seed0_last100_loss.md",
+    "packaged_file": "paper/submission/supplementary/ds02_seed0_last100_loss_executed.md",
+    "sha256": "1daccd2113f6653f4a4916b4f075d4d77eb4be17987f5e1b806860da419d638b",
+    "byte_identical_copy": true
+  }
+}

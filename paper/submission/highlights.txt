@@ -1,0 +1,5 @@
+- Healthy false-alarm calibration varied across N-CMAPSS flight phases.
+- Healthy-phase thresholds transferred nonuniformly to other phases.
+- Tested DS02 corrections did not eliminate phase-dependent false alarms.
+- The pattern appeared across PCA, Isolation Forest, and causal LSTM reconstruction.
+- Frozen DS03 evaluation reproduced the pooled directional pattern.

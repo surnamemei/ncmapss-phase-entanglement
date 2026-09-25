@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import gc
 import json
+import os
 from pathlib import Path
 
 import h5py
@@ -38,8 +39,8 @@ from second_stage_audit import SENSORS, W_NAMES
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "N-CMAPSS/N-CMAPSS_DS03-012.h5"
-OUT = ROOT / "results/confirmation_ds03"
+DATA = Path(os.environ.get("NCMAPSS_DS03_H5", ROOT / "N-CMAPSS/N-CMAPSS_DS03-012.h5"))
+OUT = Path(os.environ.get("NCMAPSS_DS03_RESULTS_DIR", ROOT / "results/confirmation_ds03"))
 CHECKPOINTS = OUT / "checkpoints"
 ATTEMPT = OUT / "official_test_opened.json"
 

@@ -41,7 +41,7 @@ from second_stage_audit import (
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results/final_validation"
+OUT = Path(os.environ.get("NCMAPSS_DS02_RESULTS_DIR", ROOT / "results/final_validation"))
 CHECKPOINTS = OUT / "checkpoints"
 MAX_EPOCHS = 600
 PATIENCE = 6
