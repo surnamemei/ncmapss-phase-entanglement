@@ -438,6 +438,23 @@ for method_id, metric, value, lines, definition in (
                 source_rows=lines, evidence_status="confirmatory")
     ledger.append(item)
 
+# Added after outcome IDs are fixed so existing evidence references remain stable.
+for method_id, metric, value, unit, lines in (
+    ("M0035", "alternative_altitude_fraction", "0.85", "fraction", "63-69"),
+    ("M0036", "alternative_centered_rate_window", "60", "seconds", "58-66"),
+    ("M0037", "alternative_absolute_altitude_rate_limit", "2.0", "altitude units per second", "66-69"),
+):
+    item = dict.fromkeys(FIELDS, "")
+    item.update(claim_id=method_id, dataset="DS02 discovery", detector="protocol",
+                seed_or_seed_aggregation="not applicable", phase_rule="alt_rate",
+                nominal_fpr_target="not applicable", evaluation_unit="not applicable",
+                analysis_detail="executed exploratory phase-rule configuration, not an outcome",
+                metric=metric, metric_definition=f"Executed alternative phase-rule parameter: {metric.replace('_', ' ')}.",
+                exact_numeric_value=value, value_unit=unit,
+                source_file="src/second_stage_audit.py", source_rows=lines,
+                evidence_status="exploratory")
+    ledger.append(item)
+
 
 def eid(dataset, detector, seed, phase, target, unit, metric, detail="canonical"):
     if str(seed).startswith("mean(") and detail == "canonical":
@@ -514,12 +531,14 @@ claim("C08", "Descent-phase healthy-flight alarm burden",
                  "false_alarm_events_per_healthy_flight_descent")])
 
 claim("C09", "DS02 alternative phase-rule sensitivity",
-      "DS02 discovery contains both primary and alt_rate phase-rule results; comparison is exploratory and DS03 confirmation evaluated primary only.",
+      "Under the exploratory DS02 altitude-rate alternative, pooled directional contrasts remained positive for all three tested implementations; worst off-diagonal transfer FPRs are separately reported. DS03 confirmation evaluated the primary phase rule only.",
       "The alternative phase rule was independently confirmed on DS03.",
-      [eid("DS02 discovery", d, s, rule, "0.01", "pooled", "descent_minus_climb")
+      [eid("DS02 discovery", d, s, rule, "0.01", "pooled", metric)
        for d, s in (("pca", "-1"), ("isolation_forest", "mean(seeds 0,1,2)"),
                     ("lstm_autoencoder", "mean(seeds 0,1,2)"))
-       for rule in ("primary", "alt_rate")])
+       for rule in ("primary", "alt_rate")
+       for metric in ("descent_minus_climb", "descent_minus_cruise",
+                      "worst_cross_phase_transfer_fpr")])
 
 claim("C10", "DS02 LSTM seed-0 convergence limit",
       "DS02 LSTM seed 0 selected the 600-epoch ceiling, with negative fitted validation-loss slopes in the final 20, 50, and 100 epochs; the fit had not demonstrably plateaued by this criterion.",
@@ -553,12 +572,26 @@ claim("C13", "Scope of inference",
        eid("DS03 confirmation", "pca", "-1", "primary", "0.01", "pooled", "descent_fpr")])
 
 claim("C14", "DS02 correction-specification comparison",
-      "The executed DS02 PCA comparison separately reports static, derivative, and finite-history correction under the primary phase rule and 1% target; it remains exploratory.",
-      "The correction comparison was independently confirmed on DS03, or the three specifications prove a causal mechanism.",
+      "In exploratory DS02 PCA analysis only, static, derivative-based, and finite-history corrections did not eliminate the phase-dependent FPR pattern. Cross-detector consistency was evaluated under the selected finite-history correction.",
+      "Correction-scheme robustness was established for Isolation Forest or LSTM, independently confirmed on DS03, or proves a causal mechanism.",
       [eid("DS02 discovery", "pca", "-1", "primary", "0.01", "pooled",
            "descent_minus_climb",
            f"executed Phase 3A PCA correction comparison; correction={correction}")
        for correction in ("static", "static_derivative", "history")])
+
+claim("C15", "Limited audit-engine counts and heterogeneity",
+      "The official audit sets contain three DS02 and six DS03 engines. Individual-engine directional reversals are material relative to those sets; bootstrap intervals summarize uncertainty for the observed engine sets.",
+      "Engine-level reversals are negligible edge cases or bootstrap intervals provide precise population-level effects.",
+      ["M0022", "M0027", *[eid("DS03 confirmation", "lstm_autoencoder", "2", "primary", "0.01", unit, metric)
+                             for unit, metric in (("engine_12", "descent_minus_climb"),
+                                                  ("engine_13", "descent_minus_cruise"),
+                                                  ("engine_15", "descent_minus_cruise"))]])
+
+claim("C16", "Fixed-three-seed mean uncertainty gap",
+      "Stochastic-detector seed means are descriptive point summaries rather than inferential estimates. Executed hierarchical intervals exist for individual seeds, but no valid interval for the fixed three-seed arithmetic mean is available from the retained summary outputs.",
+      "A mean of per-seed interval endpoints is a 95% interval for the seed mean, or the three seeds form an independent population bootstrap sample.",
+      [eid("DS03 confirmation", "lstm_autoencoder", str(seed), "primary", "0.01", "pooled", "descent_minus_cruise")
+       for seed in (0, 1, 2)])
 
 
 OUT.mkdir(exist_ok=True)

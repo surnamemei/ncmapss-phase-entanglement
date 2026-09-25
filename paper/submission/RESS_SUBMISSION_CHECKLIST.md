@@ -4,7 +4,7 @@ This is a pre-submission checklist, not evidence that any file has been uploaded
 
 ## Files and author declarations
 
-- [x] Final RESS-style manuscript PDF: `paper/output/NCMAPSS_Flight_Phase_RESS_Final.pdf` (19 pages).
+- [x] Final RESS-style manuscript PDF: `paper/output/NCMAPSS_Flight_Phase_RESS_Final.pdf` (20 pages).
 - [x] Editable LaTeX source and verified bibliography: `paper/ress/main.tex`, `paper/ress/references.bib`.
 - [x] Four main figure files: `paper/ress/figures/`.
 - [x] Five highlights: `paper/submission/highlights.txt`; lengths including bullet prefix are 71, 68, 73, 84, and 67 characters, respectively.
@@ -30,7 +30,7 @@ This is a pre-submission checklist, not evidence that any file has been uploaded
 - [x] All 12 verified references resolve to numbered citations; no orphan or duplicate bibliography entries were found in the source audit.
 - [x] No unresolved citation or stray DOI-citation artifact appears in the final PDF.
 - [x] No unsupported scientific claim was introduced by this finalization; manuscript changes are limited to confirmed corresponding-author metadata and the approved AI declaration.
-- [x] Main figures and tables are beside their intended sections; all 19 pages rendered and visually reviewed.
+- [x] Main figures and tables are beside their intended sections; all 20 pages rendered and visually reviewed.
 - [x] No raw NASA HDF5/ZIP files or model checkpoints are included in `paper/submission/` or `paper/ress/`.
 - [x] No API-key/private-key pattern was found in those package directories.
 - [x] No raw NASA data or model checkpoints are staged in this cleanup.

@@ -81,10 +81,10 @@ def include(group, key, item, correction="history"):
     })
 
 
-def get(dataset, detector, seed, metric, *, unit="pooled", detail="canonical"):
+def get(dataset, detector, seed, metric, *, unit="pooled", detail="canonical", phase="primary"):
     if seed.startswith("mean(") and detail == "canonical":
         detail = "arithmetic seed mean"
-    return index[(dataset, detector, seed, "primary", "0.01", unit, detail, metric)]
+    return index[(dataset, detector, seed, phase, "0.01", unit, detail, metric)]
 
 
 PRIMARY_METRICS = (
@@ -133,6 +133,15 @@ for correction, label in (("static", "STATIC"),
         item = get("DS02 discovery", "pca", "-1", metric, detail=detail)
         include("DS02 correction specification comparison",
                 f"D02-CORR-{label}-{metric}", item, correction=correction)
+
+# Existing executed DS02 phase-rule sensitivity: directional contrasts and
+# transfer endpoint only. This is exploratory and not a DS03 confirmation row.
+for detector, seed, label in DET_SET:
+    for metric in ("descent_minus_climb", "descent_minus_cruise",
+                   "worst_cross_phase_transfer_fpr"):
+        include("DS02 exploratory alternative phase rule",
+                f"D02-ALT-{label}-{metric}",
+                get("DS02 discovery", detector, seed, metric, phase="alt_rate"))
 
 # The frozen interpretation rule requires reporting every per-engine exception
 # to both directional contrasts. Scan the complete prespecified DS03 engine set.

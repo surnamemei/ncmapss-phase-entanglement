@@ -1,0 +1,21 @@
+# Targeted reviewer-response strengthening audit
+
+The frozen DS03 primary point estimates and confirmation rule were not changed. This pass used executed DS02/DS03 summaries and protocol metadata only. No model was retrained and no new score or bootstrap result was produced.
+
+| Concern | Status | Analysis/manuscript change | Remaining caveat |
+| --- | --- | --- | --- |
+| Small engine sets and heterogeneity | Partially addressed | Results §E now states the three DS02 and six DS03 official audit engines before interpreting intervals. DS02 engine-14 LSTM reversals and DS03's 3/42 seed/engine exceptions remain explicit. The claim audit now links the engine counts and exceptions (C15; M0022, M0027, E012536, E012550, E012576). | Three and six engines remain small. Cluster-aware intervals summarize these observed engine sets, not precise population effects. |
+| No confidence intervals for stochastic-detector seed means | Remains a limitation | Results and Discussion explicitly state that seed means are descriptive point summaries rather than inferential estimates and distinguish individual-seed intervals from intervals for the fixed three-seed arithmetic mean (C16). No interval was inferred by averaging per-seed limits. All individual-seed DS03 LSTM descent-minus-cruise intervals are reported as including zero. | The retained bootstrap CSVs contain only per-seed means and percentile endpoints, not synchronized replicate draws. The author elected not to reopen the frozen analysis. |
+| PCA-only correction-scheme sensitivity | Partially addressed | Results, Discussion, and claim audit now restrict the static/derivative/history comparison to exploratory DS02 PCA. Cross-detector consistency is separately described under the selected finite-history correction (C14; E021498, E021511, E021524). | Correction-scheme sensitivity for Isolation Forest and LSTM was not tested. No new correction experiments were run. |
+| Retrospective phase-definition dependence | Partially addressed | Results §G elevates the executed DS02 altitude-rate alternative. Nine alternative-rule contrasts/transfer endpoints were selected from existing ledger records into the core-results CSV (E000290, E000291, E000293, E002810, E002811, E002813, E003170, E003171, E003173); rule parameters were linked to executed code metadata (M0035–M0037). | This sensitivity is exploratory DS02 evidence. DS03 used only the frozen primary retrospective 90%-altitude rule; no post-hoc DS03 phase reanalysis was run. |
+| Practical guidance without a resolved mechanism | Partially addressed | Discussion now recommends phase-conditional FPR, cross-context transfer audits, engine-level review, and fault-sensitivity checks before context-specific calibration. It calls for independently sourced or real full-flight validation. | These are evaluation recommendations, not a tested alternative threshold policy or evidence of a causal mechanism. |
+
+## Seed-mean interval limitation
+
+The requested interval is the percentile interval of replicate-wise arithmetic averages across the **fixed** seeds 0, 1, and 2, using a shared engine/flight resampling plan and threshold re-estimation for each seed within each replicate. It would describe **hierarchical engine/flight sampling uncertainty propagated through the fixed three-seed arithmetic mean**, not uncertainty over a population of seeds. The existing per-seed percentile summaries cannot recover the cross-seed dependence needed for that interval.
+
+The author decided not to reopen the frozen scientific analysis. The two proposed `seed_mean_hierarchical_bootstrap_ci.csv` files were **not** created, no seed-mean interval was added to the ledger or tables, and the manuscript reports stochastic-detector seed means as descriptive point summaries rather than inferential estimates. For DS03 LSTM, all three individual-seed descent-minus-cruise intervals include zero. This limitation remains attached to the pooled directional interpretation.
+
+The frozen DS03 confirmation verdict is unchanged: the pre-specified pooled directional pattern was reproduced, with material engine- and seed-level heterogeneity.
+
+The manuscript Markdown and RESS LaTeX sources and final RESS PDF were rebuilt to carry the bounded wording above. No scientific output or frozen DS03 confirmation verdict changed.
