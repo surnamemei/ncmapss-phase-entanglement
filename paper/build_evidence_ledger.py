@@ -420,6 +420,24 @@ for metric, value, definition in (
         ds03_canonical_path, [line for line, _ in ds03_engine_rows],
         definition, "engine-detector-seed rows")
 
+# Confirmation provenance is stated by the authoritative executed report.
+for method_id, metric, value, lines, definition in (
+    ("M0033", "official_nasa_distribution", "1", "3",
+     "The executed confirmation report identifies the source as the official NASA N-CMAPSS DS03 distribution."),
+    ("M0034", "official_test_array_open_count", "1", "5",
+     "The executed confirmation report states that official-test arrays were opened once, after model fitting and calibration thresholds were locked."),
+):
+    item = dict.fromkeys(FIELDS, "")
+    item.update(claim_id=method_id, dataset="DS03 confirmation", detector="protocol",
+                seed_or_seed_aggregation="not applicable", phase_rule="primary",
+                nominal_fpr_target="not applicable", evaluation_unit="not applicable",
+                analysis_detail="executed confirmation provenance, not an outcome",
+                metric=metric, metric_definition=definition,
+                exact_numeric_value=value, value_unit="boolean/count",
+                source_file="results/confirmation_ds03/CONFIRMATION_REPORT.md",
+                source_rows=lines, evidence_status="confirmatory")
+    ledger.append(item)
+
 
 def eid(dataset, detector, seed, phase, target, unit, metric, detail="canonical"):
     if str(seed).startswith("mean(") and detail == "canonical":
