@@ -1,0 +1,10 @@
+unit,flight_class,rows,healthy_rows,source
+2,3,853142,188863,development
+5,3,1033420,188550,development
+10,3,952711,188050,development
+16,3,765295,194619,development
+18,3,890719,193289,development
+20,3,768160,193354,development
+11,3,663495,213306,official_test
+14,1,156778,72268,official_test
+15,2,433470,147539,official_test

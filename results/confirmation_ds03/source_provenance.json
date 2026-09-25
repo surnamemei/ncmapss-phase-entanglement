@@ -1,0 +1,12 @@
+{
+  "source": "NASA Prognostics Center of Excellence, Turbofan Engine Degradation Simulation Data Set 2",
+  "archive_url": "https://phm-datasets.s3.amazonaws.com/NASA/17.+Turbofan+Engine+Degradation+Simulation+Data+Set+2.zip",
+  "archive_bytes": 15760443389,
+  "nested_member": "17. Turbofan Engine Degradation Simulation Data Set 2/data_set.zip",
+  "nested_member_crc32": "fe845723",
+  "dataset_member": "data_set/N-CMAPSS_DS03-012.h5",
+  "dataset_bytes": 3693395776,
+  "dataset_crc32": "09436ac4",
+  "dataset_md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+  "verification": "Nested ZIP and DS03 member CRC32 verified by zipfile during extraction; dataset size and MD5 recorded after extraction"
+}

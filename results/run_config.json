@@ -1,0 +1,31 @@
+{
+  "train_healthy_rows": 760082,
+  "validation_healthy_rows": 386643,
+  "test_healthy_rows": 433113,
+  "pca_components": 5,
+  "pca_explained_variance_ratio": [
+    0.7713214830440174,
+    0.22386270863890337,
+    0.00278370921975056,
+    0.0014854008470866968,
+    0.0004624639560093344
+  ],
+  "pooled_validation_threshold": 0.0007468840663910171,
+  "detector_inputs": [
+    "T24",
+    "T30",
+    "T48",
+    "T50",
+    "P15",
+    "P2",
+    "P21",
+    "P24",
+    "Ps30",
+    "P40",
+    "P50",
+    "Nf",
+    "Nc",
+    "Wf"
+  ],
+  "phase_probe": "depth-3 balanced decision tree on log10(score), trained on validation engines"
+}

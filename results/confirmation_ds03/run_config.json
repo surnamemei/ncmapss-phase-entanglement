@@ -1,0 +1,104 @@
+{
+  "source": "NASA official N-CMAPSS Data Set 2 archive",
+  "dataset": "N-CMAPSS_DS03-012.h5",
+  "development_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "model_fit_units": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9
+  ],
+  "threshold_calibration_units": [
+    4,
+    8
+  ],
+  "epoch_selection_fit_units": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "epoch_selection_validation_unit": 9,
+  "epoch_selection_rule": {
+    "maximum_epochs": 600,
+    "patience": 6,
+    "min_delta": 0.0001
+  },
+  "phase": "primary retrospective 90% within-flight altitude",
+  "targets": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260925,
+  "oracle_healthy_only": true,
+  "selected_epochs": {
+    "0": 170,
+    "1": 200,
+    "2": 230
+  },
+  "descriptors": [
+    "alt",
+    "Mach",
+    "TRA",
+    "T2",
+    "d_alt",
+    "d_Mach",
+    "d_TRA",
+    "d_T2",
+    "mean30_alt",
+    "mean30_Mach",
+    "mean30_TRA",
+    "mean30_T2",
+    "std30_alt",
+    "std30_Mach",
+    "std30_TRA",
+    "std30_T2",
+    "slope30_alt",
+    "slope30_Mach",
+    "slope30_TRA",
+    "slope30_T2",
+    "mean120_alt",
+    "mean120_Mach",
+    "mean120_TRA",
+    "mean120_T2",
+    "std120_alt",
+    "std120_Mach",
+    "std120_TRA",
+    "std120_T2",
+    "slope120_alt",
+    "slope120_Mach",
+    "slope120_TRA",
+    "slope120_T2"
+  ],
+  "official_test_units": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "directional_pattern_reproduced": true
+}

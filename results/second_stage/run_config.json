@@ -1,0 +1,51 @@
+{
+  "data": "D:\\Research\\ncmapss-phase-entanglement\\N-CMAPSS\\N-CMAPSS_DS02-006.h5",
+  "train_units": [
+    2,
+    5,
+    10,
+    16
+  ],
+  "calibration_units": [
+    18,
+    20
+  ],
+  "official_test_units": [
+    11,
+    14,
+    15
+  ],
+  "detector_sensor_inputs": [
+    "T24",
+    "T30",
+    "T48",
+    "T50",
+    "P15",
+    "P2",
+    "P21",
+    "P24",
+    "Ps30",
+    "P40",
+    "P50",
+    "Nf",
+    "Nc",
+    "Wf"
+  ],
+  "operating_regression_inputs": [
+    "alt",
+    "Mach",
+    "TRA",
+    "T2"
+  ],
+  "operating_regression": "standardized W; complete degree-3 polynomial with interactions; multi-output ridge",
+  "ridge_alpha_fixed": 1.0,
+  "pca_components": 5,
+  "primary_phase": "first/last crossing of 90% within-flight altitude range",
+  "alternative_phase": "first/last row above 85% altitude range with |centered 60-s altitude rate| <= 2 ft/s",
+  "threshold": "higher empirical 99th percentile of pooled healthy calibration rows",
+  "temporal_event": "start of a contiguous run of above-threshold rows within a flight or phase segment",
+  "pca_explained_variance": {
+    "raw_pca": 0.9999157657057673,
+    "condition_corrected_pca": 0.9482553786793666
+  }
+}

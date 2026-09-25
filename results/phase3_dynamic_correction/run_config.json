@@ -1,0 +1,55 @@
+{
+  "windows_seconds": [
+    30,
+    120
+  ],
+  "causal": true,
+  "descriptors": [
+    "alt",
+    "Mach",
+    "TRA",
+    "T2",
+    "d_alt",
+    "d_Mach",
+    "d_TRA",
+    "d_T2",
+    "mean30_alt",
+    "mean30_Mach",
+    "mean30_TRA",
+    "mean30_T2",
+    "std30_alt",
+    "std30_Mach",
+    "std30_TRA",
+    "std30_T2",
+    "slope30_alt",
+    "slope30_Mach",
+    "slope30_TRA",
+    "slope30_T2",
+    "mean120_alt",
+    "mean120_Mach",
+    "mean120_TRA",
+    "mean120_T2",
+    "std120_alt",
+    "std120_Mach",
+    "std120_TRA",
+    "std120_T2",
+    "slope120_alt",
+    "slope120_Mach",
+    "slope120_TRA",
+    "slope120_T2"
+  ],
+  "regression_basis": "cubic instantaneous W; linear and squared added descriptors; W*dW interactions",
+  "ridge_alpha": {
+    "static": 1.0,
+    "static_derivative": 1.0,
+    "history": 1.0
+  },
+  "pca_components": 5,
+  "ridge_selection": "dynamic schemes selected by normalized sensor MSE on training unit 16 after fitting units 2,5,10",
+  "selection_for_phase3b": "history correction, selected a priori as the most comprehensive causal correction",
+  "pca_explained_variance": {
+    "static": 0.9482553943742059,
+    "static_derivative": 0.9338117120256776,
+    "history": 0.933344081180273
+  }
+}

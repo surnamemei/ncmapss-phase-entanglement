@@ -1,0 +1,56 @@
+{
+  "source": "NASA official N-CMAPSS Data Set 2 archive",
+  "dataset": "N-CMAPSS_DS03-012.h5",
+  "development_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "model_fit_units": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9
+  ],
+  "threshold_calibration_units": [
+    4,
+    8
+  ],
+  "epoch_selection_fit_units": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "epoch_selection_validation_unit": 9,
+  "epoch_selection_rule": {
+    "maximum_epochs": 600,
+    "patience": 6,
+    "min_delta": 0.0001
+  },
+  "phase": "primary retrospective 90% within-flight altitude",
+  "targets": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260925,
+  "oracle_healthy_only": true
+}

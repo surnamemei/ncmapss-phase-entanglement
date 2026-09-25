@@ -1,0 +1,67 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "nominal_fpr_targets": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "phase_definitions": [
+    "primary",
+    "alt_rate"
+  ],
+  "correction": "history from Phase 3A",
+  "history_descriptors": [
+    "alt",
+    "Mach",
+    "TRA",
+    "T2",
+    "d_alt",
+    "d_Mach",
+    "d_TRA",
+    "d_T2",
+    "mean30_alt",
+    "mean30_Mach",
+    "mean30_TRA",
+    "mean30_T2",
+    "std30_alt",
+    "std30_Mach",
+    "std30_TRA",
+    "std30_T2",
+    "slope30_alt",
+    "slope30_Mach",
+    "slope30_TRA",
+    "slope30_T2",
+    "mean120_alt",
+    "mean120_Mach",
+    "mean120_TRA",
+    "mean120_T2",
+    "std120_alt",
+    "std120_Mach",
+    "std120_TRA",
+    "std120_T2",
+    "slope120_alt",
+    "slope120_Mach",
+    "slope120_TRA",
+    "slope120_T2"
+  ],
+  "isolation_forest": {
+    "n_estimators": 200,
+    "max_samples": 8192
+  },
+  "lstm_autoencoder": {
+    "causal": true,
+    "layers": "LSTM16-Dense8-LSTM16-Dense14",
+    "sequence_length": 256,
+    "epochs": 3,
+    "batch_size": 256,
+    "optimizer": "Adam 1e-3"
+  },
+  "bootstrap": {
+    "unit": "flight",
+    "repetitions": 500
+  }
+}

@@ -1,0 +1,47 @@
+# Raw datasets
+data/
+datasets/
+N-CMAPSS/
+*.h5
+*.hdf5
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Models / checkpoints
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.keras
+*.h5model
+
+# Large temporary outputs
+cache/
+tmp/
+temp/
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
