@@ -4,4 +4,5 @@ title: "Auditing Flight-Phase Dependence in Unsupervised Aero-Engine Anomaly Det
 authors:
   - family-names: Mei
     given-names: Jinghang
+    orcid: https://orcid.org/0009-0007-2901-3285
 repository-code: https://github.com/surnamemei/ncmapss-phase-entanglement

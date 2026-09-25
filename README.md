@@ -29,6 +29,7 @@ This repository is released under the MIT License. See `LICENSE` for details. Th
 ## Citation
 
 If you use this repository, please cite the accompanying manuscript and/or the repository metadata in `CITATION.cff`.
+The citation metadata includes Jinghang Mei's confirmed ORCID: https://orcid.org/0009-0007-2901-3285.
 
 ## Reproduction commands
 

@@ -18,6 +18,7 @@ This is a pre-submission checklist, not evidence that any file has been uploaded
 - [x] Confirmed AI declaration appears immediately before References in the manuscript.
 - [x] Frozen supplementary material: `paper/submission/supplementary/` (Tables S1–S9, Figures S1–S2, byte-identical source copies, provenance manifest).
 - [x] Corresponding-author email: `surnamemei05@gmail.com`.
+- [x] Author-confirmed ORCID `0009-0007-2901-3285` recorded in `CITATION.cff` and `author_metadata.md` for submission-portal entry; the current `elsarticle` class does not natively display it in the PDF.
 - [x] Repository URL and public access confirmed: https://github.com/surnamemei/ncmapss-phase-entanglement (HTTP 200 checked).
 - [x] Standard MIT `LICENSE` is present; it does not license NASA N-CMAPSS data.
 - [x] Author metadata presently required by the manuscript, corresponding-author designation, and affiliation details confirmed.
