@@ -12,7 +12,9 @@
 \begin{document}
 \begin{frontmatter}
 \title{Auditing Flight-Phase Dependence in Unsupervised Aero-Engine Anomaly Detection: A Discovery-and-Confirmation Study on N-CMAPSS}
-\author[usyd]{Jinghang Mei}
+\author[usyd]{Jinghang Mei\corref{cor1}}
+\cortext[cor1]{Corresponding author}
+\ead{surnamemei05@gmail.com}
 \address[usyd]{School of Electrical and Computer Engineering, The University of Sydney, Sydney, Australia}
 \begin{abstract}
 Full-flight aero-engine anomaly scores may reflect normal operating-phase variation as well as health. Prior work has addressed changing operating conditions primarily through model adaptation and detection-performance improvements, while the stability of nominal healthy false-alarm calibration across flight phases has been less directly audited. Using N-CMAPSS, we treated DS02 as exploratory discovery data and evaluated residual PCA, Isolation Forest, and a causal LSTM sequence-reconstruction network. We examined operating-condition correction sensitivity, phase-wise healthy row-level false-positive rates (FPRs), and cross-phase threshold transfer before applying a frozen protocol once to the DS03 independent confirmatory subset. At the primary nominal 1\% pooled calibration target, DS02 climb/\allowbreak cruise/\allowbreak descent FPRs were 0.125\%/\allowbreak 0.428\%/\allowbreak 3.459\% for PCA, 0.268\%/\allowbreak 0.558\%/\allowbreak 2.487\% for the Isolation Forest seed mean, and 0.488\%/\allowbreak 0.729\%/\allowbreak 2.080\% for the LSTM seed mean. In exploratory DS02 PCA sensitivity analysis, the tested static, derivative-based, and finite-history correction schemes did not eliminate the observed dependence. On DS03, the corresponding FPRs were 0.877\%/\allowbreak 0.912\%/\allowbreak 1.977\%, 0.409\%/\allowbreak 1.104\%/\allowbreak 2.142\%, and 0.751\%/\allowbreak 1.889\%/\allowbreak 2.215\%; the pre-specified pooled directional pattern was reproduced. Engine- and seed-level heterogeneity remained, and some LSTM descent-minus-cruise bootstrap intervals included zero. These results motivate explicit phase-stability auditing alongside aggregate anomaly-detection evaluation under nonstationary operating conditions.
@@ -276,6 +278,9 @@ The engine sets are limited. Hierarchical-bootstrap intervals resample engines a
 This study asked whether nominal pooled healthy FPR calibration remains stable across normal flight phases during full-flight aero-engine operation. In the exploratory N-CMAPSS DS02 analysis, healthy phase-wise FPR differed across climb, cruise, and descent for PCA, Isolation Forest, and the causal LSTM sequence-reconstruction network. In the exploratory DS02 PCA comparison, the tested static, derivative-based, and finite-history operating-condition correction schemes did not eliminate the observed dependence. Under the frozen one-shot DS03 protocol, the pre-specified pooled directional pattern was reproduced on the independent confirmatory subset.
 
 Aggregate healthy FPR can therefore conceal operating-context-dependent alarm behaviour, and calibration stability across normal conditions warrants explicit auditing. The evidence remains limited to simulated N-CMAPSS data, retrospective phase labels, and small engine sets. It does not assess fault recall or detection delay, establish independence among the tested implementations, or identify a causal mechanism. Future work should test the calibration-audit question on real or independently sourced full-flight data and evaluate whether context-aware calibration can reduce phase dependence without compromising fault sensitivity.
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work, the author used OpenAI ChatGPT and Codex to support code development, debugging, literature organization, and manuscript drafting and editing. The author independently reviewed and verified the generated code, analyses, references, numerical results, interpretations, and manuscript text, and takes full responsibility for the content of the publication.
 
 \begin{thebibliography}{12}
 \small\setlength{\itemsep}{0pt}

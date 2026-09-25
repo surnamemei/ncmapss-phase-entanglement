@@ -21,4 +21,4 @@ School of Electrical and Computer Engineering
 The University of Sydney  
 Sydney, Australia
 
-**AUTHOR MUST CONFIRM BEFORE SUBMISSION:** originality, prior publication, exclusive consideration, author metadata, and the final package description.
+Email: surnamemei05@gmail.com

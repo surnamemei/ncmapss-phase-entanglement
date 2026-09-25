@@ -185,6 +185,15 @@ def build() -> Path:
     if body.count(r"\begin{figure}") != 4 or body.count(r"\begin{table}") != 3:
         raise ValueError("Exhibit count changed during conversion")
 
+    declaration_text = (ROOT / "paper/submission/generative_ai_declaration.md").read_text(encoding="utf-8")
+    declaration_parts = declaration_text.strip().split("\n\n")
+    if len(declaration_parts) != 2 or not declaration_parts[1].startswith("During the preparation of this work,"):
+        raise ValueError("Expected one finalized AI declaration paragraph")
+    ai_declaration = (
+        r"\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}"
+        + "\n" + declaration_parts[1] + "\n"
+    )
+
     head = rf"""\documentclass[preprint,12pt]{{elsarticle}}
 \usepackage{{graphicx,amsmath,amssymb,array,booktabs,url,hyperref}}
 \hypersetup{{hidelinks}}
@@ -199,7 +208,9 @@ def build() -> Path:
 \begin{{document}}
 \begin{{frontmatter}}
 \title{{{title.group(1)}}}
-\author[usyd]{{Jinghang Mei}}
+\author[usyd]{{Jinghang Mei\corref{{cor1}}}}
+\cortext[cor1]{{Corresponding author}}
+\ead{{surnamemei05@gmail.com}}
 \address[usyd]{{School of Electrical and Computer Engineering, The University of Sydney, Sydney, Australia}}
 \begin{{abstract}}
 {abstract.group(1).replace('/', r'/\allowbreak ')}
@@ -211,7 +222,7 @@ def build() -> Path:
 \thispagestyle{{plain}}
 
 """
-    result = head + body.strip() + "\n\n" + bib_block.strip() + "\n\n\\end{document}\n"
+    result = head + body.strip() + "\n\n" + ai_declaration + "\n" + bib_block.strip() + "\n\n\\end{document}\n"
     for forbidden in ("Email: [to be added]", "draft 1", "draft 2", "Publisher.", "Author manuscript."):
         if forbidden in result:
             raise ValueError(f"Draft artifact in converted source: {forbidden}")
