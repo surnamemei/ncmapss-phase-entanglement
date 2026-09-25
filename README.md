@@ -14,8 +14,13 @@ Raw N-CMAPSS data are **not redistributed**. Obtain DS02 and DS03 through the NA
 - `scripts/`: guarded reproduction and manuscript-generation entry points.
 - `tests/`: synthetic and static leakage/provenance checks.
 - `archive/obsolete_reports/`: superseded narrative reports, retained only for provenance.
+- `archive/historical_reports/`: early screening reports, not manuscript numeric sources.
 
 See `docs/AUTHORITATIVE_RESULTS.md` before citing numbers. Obsolete Phase 3 reports and superseded cross-detector outputs must not be used for manuscript claims.
+
+## Code availability
+
+Code and analysis materials are available at https://github.com/surnamemei/ncmapss-phase-entanglement. Raw NASA N-CMAPSS data are not included.
 
 ## Reproduction commands
 

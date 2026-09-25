@@ -1,3 +1,5 @@
+# HISTORICAL SCREENING REPORT — NOT AN AUTHORITATIVE MANUSCRIPT SOURCE
+
 # DS02 healthy PCA phase-calibration pilot
 
 ## Purpose and decision

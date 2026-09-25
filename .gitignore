@@ -43,5 +43,9 @@ Thumbs.db
 # Logs
 *.log
 
+# Generated manuscript builds; retain only the audited final RESS PDF.
+paper/output/*
+!paper/output/NCMAPSS_Flight_Phase_RESS_Final.pdf
+
 # Jupyter
 .ipynb_checkpoints/

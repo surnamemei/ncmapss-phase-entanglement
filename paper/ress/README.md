@@ -8,6 +8,6 @@ From the repository root, with Tectonic and its standard bundle installed:
 tectonic --keep-logs --keep-intermediates -o paper/output paper/ress/main.tex
 ```
 
-This produces `paper/output/main.pdf` and `paper/output/main.log`. For a clean rebuild, direct output to a new empty directory so `.aux` and `.out` files are regenerated. The citation-corrected, audited output is `paper/output/NCMAPSS_Flight_Phase_RESS_Clean.pdf` with its corresponding `.log`. A standard TeX distribution with `elsarticle` can also compile `main.tex` with two LaTeX passes. No RESS-specific class or unpublished requirement is assumed.
+This produces transient `paper/output/main.pdf` and `paper/output/main.log`, which are Git-ignored. For a clean rebuild, direct output to a new empty directory so `.aux` and `.out` files are regenerated. The retained, audited artifact is `paper/output/NCMAPSS_Flight_Phase_RESS_Final.pdf`; earlier draft/intermediate builds are not retained. A standard TeX distribution with `elsarticle` can also compile `main.tex` with two LaTeX passes. No RESS-specific class or unpublished requirement is assumed.
 
 The source is generated without changing experimental outputs by `python scripts/build_ress_package.py` from the frozen clean LaTeX package. The script applies only the two requested wording edits and layout conversions.

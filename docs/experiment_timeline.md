@@ -4,7 +4,7 @@ Dates below are as recorded in repository history or frozen artifacts; no more p
 
 | Stage | Record | Status |
 | --- | --- | --- |
-| DS02 exploratory discovery | `src/pca_pilot.py`, `EXPERIMENT_REPORT.md` | Historical screening; not an approved manuscript numeric source. |
+| DS02 exploratory discovery | `src/pca_pilot.py`, `archive/historical_reports/EXPERIMENT_REPORT.md` | Historical screening; not an approved manuscript numeric source. |
 | Operating-condition correction robustness | `src/phase3_dynamic.py`, `results/phase3_dynamic_correction/` | Executed DS02 exploratory comparison; ledger-reconciled entries only. |
 | Cross-detector validation | `src/phase3_cross_detector.py`, historical outputs | Superseded by final-validation detector runs. |
 | Final-validation cleanup | `src/final_validation.py`, `results/final_validation/` | Canonical DS02 discovery outputs, converged/final LSTM, hierarchical uncertainty. Seed 0 reached the 600-epoch ceiling while validation loss was improving. |

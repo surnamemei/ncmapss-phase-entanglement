@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and this code repository."
+title: "Auditing Flight-Phase Dependence in Unsupervised Aero-Engine Anomaly Detection"
+authors:
+  - family-names: Mei
+    given-names: Jinghang
+repository-code: https://github.com/surnamemei/ncmapss-phase-entanglement

@@ -12,12 +12,12 @@ This is a pre-submission checklist, not evidence that any file has been uploaded
 - [ ] Author-confirmed competing-interest declaration; `competing_interest_draft.txt` is internal only.
 - [ ] Author-confirmed funding statement; `funding_draft.txt` is internal only.
 - [x] Data-availability draft with the official NASA source: `data_availability_final.md`.
-- [ ] Code-availability statement with confirmed public repository URL; `code_availability_final.md` retains `[REPOSITORY URL]`.
+- [x] Code-availability statement with confirmed public repository URL: `code_availability_final.md`.
 - [ ] Author-confirmed CRediT roles; `credit_author_statement.md` is a draft.
 - [ ] Author-approved AI declaration conforming to current Elsevier policy; `generative_ai_declaration.md` is a draft and the approved text must be incorporated before references in the submitted manuscript.
 - [x] Frozen supplementary material: `paper/submission/supplementary/` (Tables S1–S9, Figures S1–S2, byte-identical source copies, provenance manifest).
 - [ ] Corresponding-author email.
-- [ ] Confirmed repository URL and public/reviewer access.
+- [x] Repository URL and public access confirmed: https://github.com/surnamemei/ncmapss-phase-entanglement (HTTP 200 checked).
 - [ ] All author metadata, correspondence designation, and affiliation details confirmed.
 - [ ] Originality, prior-publication status, and exclusive consideration confirmed for the cover letter.
 
@@ -31,8 +31,8 @@ This is a pre-submission checklist, not evidence that any file has been uploaded
 - [x] Main figures and tables are beside their intended sections; all 18 pages rendered and visually reviewed.
 - [x] No raw NASA HDF5/ZIP files or model checkpoints are included in `paper/submission/` or `paper/ress/`.
 - [x] No API-key/private-key pattern was found in those package directories.
-- [x] No files are staged in Git.
-- [x] Repository checks: 13 tests passed (`test_paper_pipeline.py`, `test_submission_package.py`, `test_leakage_guards.py`).
+- [x] No raw NASA data or model checkpoints are staged in this cleanup.
+- [x] Repository checks: 14 data-free static/synthetic unittests passed in the validated research environment.
 - [ ] Author to recheck the live RESS submission portal's file categories and current journal instructions before upload.
 
 NASA data source: [NASA Prognostics Center of Excellence Data Set Repository, entry 17](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/). Elsevier policy check: [Generative AI policies for journals](https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals).

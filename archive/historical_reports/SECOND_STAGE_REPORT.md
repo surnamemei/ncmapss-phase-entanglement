@@ -1,3 +1,5 @@
+# HISTORICAL SCREENING REPORT — NOT AN AUTHORITATIVE MANUSCRIPT SOURCE
+
 # Second-stage falsification audit: operating-condition-corrected PCA
 
 ## Decision
