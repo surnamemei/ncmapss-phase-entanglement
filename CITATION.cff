@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite it using these metadata and cite the associated article when it is available."
 title: "False-alarm calibration transport across engines in full-flight aero-engine anomaly detection (N-CMAPSS): code, frozen protocols and evidence"
 version: 1.1.0
-# doi: to be added after the v1.1.0 release is archived (Zenodo); see docs/release/v1.1.0/RELEASE_NOTES.md
+doi: 10.5281/zenodo.23033552
+date-released: 2026-09-29
 authors:
   - family-names: Mei
     given-names: Jinghang

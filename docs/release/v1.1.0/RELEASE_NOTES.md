@@ -146,4 +146,4 @@ NASA N-CMAPSS data remain subject to their original terms and are not redistribu
 
 - Cite the repository through `CITATION.cff`.
 - Cite the article if a version of record is published.
-- The Zenodo DOI for this release will be added to `CITATION.cff` and `README.md` after the release is archived.
+- This release is archived on Zenodo with the DOI [10.5281/zenodo.23033552](https://doi.org/10.5281/zenodo.23033552), which is also given in `CITATION.cff` and `README.md`.

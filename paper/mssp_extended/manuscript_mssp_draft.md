@@ -247,7 +247,7 @@ N-CMAPSS is publicly available from the NASA Prognostics Center of Excellence Da
 
 ## Code availability
 
-Code, frozen protocols and plans, locks, run records, derived outputs, the evidence ledger, and scripts that re-derive the reported results are available in the public v1.1.0 release at https://github.com/surnamemei/ncmapss-phase-entanglement. Project-authored software and code are released under the MIT License. A Zenodo DOI for this release is pending and will be added to the manuscript record when available.
+Code, frozen protocols and plans, locks, run records, derived outputs, the evidence ledger, and scripts that re-derive the reported results are available in the public v1.1.0 release at https://github.com/surnamemei/ncmapss-phase-entanglement. Project-authored software and code are released under the MIT License. The release is archived on Zenodo with the DOI https://doi.org/10.5281/zenodo.23033552.
 
 ## Declaration of competing interest
 

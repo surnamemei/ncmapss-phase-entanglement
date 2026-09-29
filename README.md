@@ -1,5 +1,7 @@
 # False-alarm calibration transport in full-flight aero-engine anomaly detection (N-CMAPSS)
 
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23033552.svg)](https://doi.org/10.5281/zenodo.23033552)
+
 This repository holds the code, frozen protocols, locks, run records, derived outputs and evidence ledgers for an audit of nominal healthy false-alarm calibration on the NASA N-CMAPSS benchmark. It also holds the author preprint of the accompanying manuscript.
 
 **Release.** v1.1.0, "Calibration Transport Manuscript and Reproducibility Release" (public snapshot). The release notes are in [`docs/release/v1.1.0/RELEASE_NOTES.md`](docs/release/v1.1.0/RELEASE_NOTES.md).
@@ -30,10 +32,14 @@ d51ec1cef13b4a8e4515252013eafc00c4314c05716ead19d5842fc90db3b701  paper/mssp_ext
 
 Every distributed file is listed with its SHA-256 in [`docs/release/v1.1.0/PUBLIC_RELEASE_MANIFEST.sha256`](docs/release/v1.1.0/PUBLIC_RELEASE_MANIFEST.sha256).
 
-**Update after the release.** After the `v1.1.0` tag, `main` received one author-approved editorial update of the manuscript.
-- **What changed.** It changed wording only: the Abstract, Highlights, Discussion and Conclusion; the Table 4 label of the H4 verdict; and the Code availability statement.
+**Updates after the release.** After the `v1.1.0` tag, `main` received two author-approved updates: an editorial update of the manuscript, and the Zenodo DOI of the release.
+- **What changed in the manuscript.** Wording only:
+  - the Abstract, Highlights, Discussion and Conclusion;
+  - the Table 4 label of the H4 verdict;
+  - the Code availability statement, which now also gives the Zenodo DOI.
+- **Where else the DOI was added.** The citation metadata in `CITATION.cff` (`doi` and `date-released`), this README and the release notes.
 - **What did not change.** No number, decision, figure content, protocol or earlier ledger entry changed.
-- **Where to check.** The files it changed are listed with their current SHA-256 in [`docs/release/v1.1.0/POST_RELEASE_CHANGES.sha256`](docs/release/v1.1.0/POST_RELEASE_CHANGES.sha256). The tag `v1.1.0` matches the release manifest exactly.
+- **Where to check.** The files these updates changed are listed with their current SHA-256 in [`docs/release/v1.1.0/POST_RELEASE_CHANGES.sha256`](docs/release/v1.1.0/POST_RELEASE_CHANGES.sha256). The tag `v1.1.0` matches the release manifest exactly.
 
 ## Study design
 
@@ -167,7 +173,7 @@ The MIT License applies to project-authored software and code. Manuscript text a
 
 - Use the metadata in [`CITATION.cff`](CITATION.cff) for this repository.
 - Cite the article if a version of record is published.
-- A Zenodo DOI for this release will be added after the release is archived.
+- The v1.1.0 release is archived on Zenodo with the DOI [10.5281/zenodo.23033552](https://doi.org/10.5281/zenodo.23033552).
 
 ## Earlier releases
 
