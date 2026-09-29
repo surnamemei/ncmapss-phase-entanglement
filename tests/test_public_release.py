@@ -48,8 +48,15 @@ RESS_ADMIN = {f"paper/submission/{name}" for name in (
     "generative_ai_declaration.md", "graphical_abstract_plan.md", "ress_conversion_audit.md")}
 
 # The only differences from the private source commit, apart from the files left out.
-PUBLIC_CHANGES = {"README.md", ".zenodo.json", ".gitignore", ".github/workflows/tests.yml",
-                  "paper/mssp_extended/README.md", "docs/release/v1.1.0/RELEASE_NOTES.md"}
+PUBLIC_CHANGES = {
+    "README.md",
+    ".zenodo.json",
+    ".gitignore",
+    ".github/workflows/tests.yml",
+    "paper/mssp_extended/README.md",
+    "docs/release/v1.1.0/RELEASE_NOTES.md",
+    "tests/test_mssp_adversarial.py",
+}
 PUBLIC_ADDITIONS = {"docs/release/v1.1.0/PUBLIC_RELEASE_MANIFEST.sha256", "scripts/run_public_tests.py",
                     "tests/test_public_release.py"}
 
