@@ -1,6 +1,6 @@
 {
   "outputs": {
-    "paper/mssp_extended/figures/fig4_composition.pdf": "7d291693ca6def84b9f6fb30f335371b11ef6437125a50f20145bb621ad85041",
+    "paper/mssp_extended/figures/fig4_composition.pdf": "ba705d3df1f01616c3ea946126bceb343ee4a2cbd5a9ba8e1ab65e6ea9c4bbf4",
     "paper/mssp_extended/figures/fig4_composition.png": "96ffc4cb7066024fa4272785e75e024cf50e28832f6f00e1c675c08764da8e27"
   },
   "inputs": {
@@ -8,7 +8,7 @@
     "results/extension/summary/composition_run_summary.csv": "c39ade20c471ac2e6e11ecae6796bbb2d5c0e0bbaa55ca74b710d8eb255c9973"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "Fixed calibration volume N; draw means; \u03b1 = 1%. Positive in (a) = coverage helps.",
-  "built_utc": "2026-09-29T02:48:44+00:00"
+  "built_utc": "2026-09-29T07:23:39+00:00"
 }

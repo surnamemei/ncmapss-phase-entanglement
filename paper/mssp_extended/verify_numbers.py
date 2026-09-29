@@ -44,7 +44,7 @@ FAMILY = {"DS01": "F1", "DS04": "F2", "DS05": "F3", "DS06": "F3", "DS07": "F3", 
 ALPHA = 0.01
 MINUS = "−"
 WORDS = {0: "none", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven"}
-ABSTRACT_WORDS = (200, 245)
+ABSTRACT_WORDS = (200, 250)
 HIGHLIGHTS = (3, 5)
 HIGHLIGHT_CHARS = 85
 KEYWORDS = (1, 7)
@@ -467,7 +467,7 @@ def derive_validation(src):
     cC, cP, cQ = c1["phase_conditioned"], c1["pooled"], c1["quantile_regression_W"]
     assert all(v["engines"] == 30 and v["families_showing_excess"] == 5 for v in c1.values())
     assert summary["transport_claim"] == "STRENGTHENED"
-    claim(f"exceeded each engine's cross-fitted self-calibration error in {cC['clearly_exceeding']} of 30 engines")
+    claim(f"exceeded each engine's cross-fitted self-calibration reference in {cC['clearly_exceeding']} of 30 engines")
     claim(f"They exceeded the engine's own reference in {cC['clearly_exceeding']} of 30 engines under C, "
           f"{cP['clearly_exceeding']} under P and {cQ['clearly_exceeding']} under Q, in all five families")
     eng = src.csv(root / "engine_summary.csv")
@@ -556,8 +556,9 @@ def sections(text):
 
 
 def ledger_hash_check(src):
-    ledger = pd.read_csv(LEDGER)
-    recorded = ledger.groupby("source_file").source_sha256.agg(lambda s: set(s))
+    ledger = pd.read_csv(LEDGER, dtype=str, keep_default_na=False)
+    _, superseded, _ = registry_in_force(ledger)
+    recorded = ledger[~ledger.ex_id.isin(superseded)].groupby("source_file").source_sha256.agg(lambda s: set(s))
     problems = []
     for path in sorted(src.used):
         rel = str(path.relative_to(ROOT))
@@ -570,6 +571,21 @@ def ledger_hash_check(src):
 
 CLAIM_STAT, TABLE_STAT, FIGURE_STAT = "manuscript claim", "manuscript table", "manuscript figure"
 REGISTRY_STATS = (CLAIM_STAT, TABLE_STAT, FIGURE_STAT)
+SUPERSEDES = re.compile(r"supersedes (EX\d{6})")
+
+
+def registry_in_force(ledger):
+    """Registry rows in force. The ledger is append-only: a row leaves force only when a later registry row of the same
+    statistic names it ('supersedes EX…' in its aggregation field); the superseded row itself is never edited."""
+    registry = ledger[ledger.statistic.isin(REGISTRY_STATS)]
+    statistic = dict(zip(registry.ex_id, registry.statistic))
+    superseded, problems = {}, []
+    for row in registry.itertuples():
+        for old in SUPERSEDES.findall(row.aggregation):
+            if statistic.get(old) != row.statistic or old >= row.ex_id or old in superseded:
+                problems.append(f"ledger {row.ex_id}: invalid supersession of {old}")
+            superseded[old] = row.ex_id
+    return registry[~registry.ex_id.isin(superseded)], superseded, problems
 LEDGER_COLUMNS = ("ex_id", "statistic", "value", "subset", "family", "engine", "detector", "seed", "target", "arm", "rule",
                   "aggregation", "source_file", "source_sha256", "commit", "status", "tier", "claim")
 
@@ -622,43 +638,71 @@ def registry_items(body):
     return items
 
 
-def ledger_registry(items, register=False):
-    """Check every item against its ledger row; with register=True, append the missing rows (append-only)."""
+def ledger_registry(items, register=False, reason=None):
+    """Check every item against its ledger row in force; with register=True, append the missing rows (append-only).
+
+    Registering never edits a row. It supersedes an earlier row, by a new row that names it, in two cases only:
+    - a table or figure whose content hash changed (same caption);
+    - a claim whose wording changed while its displayed numbers, source file, source hash and category did not, when the
+      pairing with the no-longer-cited row is unique.
+    Superseding needs a --reason, which is recorded in the new row. Anything else stays a problem."""
     import csv
     import subprocess
     ledger = pd.read_csv(LEDGER, dtype=str, keep_default_na=False)
-    rows = {(r.statistic, r.claim): r for r in ledger[ledger.statistic.isin(REGISTRY_STATS)].itertuples()}
-    problems, missing, current = [], [], set()
+    in_force, superseded, problems = registry_in_force(ledger)
+    rows = {}
+    for r in in_force.itertuples():
+        if (r.statistic, r.claim) in rows:
+            problems.append(f"ledger {r.ex_id}: duplicate registry row in force for {r.claim[:80]!r}")
+        rows[(r.statistic, r.claim)] = r
+    missing, changed, current = [], [], set()
     for item in items:
         key = (item["statistic"], item["claim"])
         current.add(key)
         source_file, source_sha = source_fields(item["source"])
         row = rows.get(key)
         if row is None:
-            missing.append((item, source_file, source_sha))
+            missing.append((item, source_file, source_sha, None))
             continue
-        for field, expected in (("value", item["value"]), ("source_file", source_file), ("source_sha256", source_sha),
-                                ("status", item["status"])):
-            if getattr(row, field) != expected:
-                problems.append(f"ledger {row.ex_id} ({item['statistic']}): {field} differs from the manuscript "
-                                f"({getattr(row, field)!r} vs {expected!r})")
-    for key, row in rows.items():
-        if key not in current:
-            problems.append(f"ledger {row.ex_id}: registered {key[0]} no longer in the manuscript: {key[1][:80]!r}")
-    if missing and register:
+        diffs = [f"{field} differs from the manuscript ({getattr(row, field)!r} vs {expected!r})"
+                 for field, expected in (("value", item["value"]), ("source_file", source_file),
+                                         ("source_sha256", source_sha), ("status", item["status"]))
+                 if getattr(row, field) != expected]
+        if diffs and item["statistic"] in (TABLE_STAT, FIGURE_STAT):
+            changed.append((item, source_file, source_sha, row.ex_id))
+        problems += [f"ledger {row.ex_id} ({item['statistic']}): {d}" for d in diffs]
+    stale = {key: row for key, row in rows.items() if key not in current}
+    reworded = []
+    for item, source_file, source_sha, _ in missing:
+        if item["statistic"] != CLAIM_STAT:
+            continue
+        partners = [row for (statistic, _), row in stale.items() if statistic == CLAIM_STAT
+                    and (row.value, row.source_file, row.source_sha256, row.status)
+                    == (item["value"], source_file, source_sha, item["status"])]
+        if len(partners) == 1:
+            reworded.append((item, source_file, source_sha, partners[0].ex_id))
+    for key, row in stale.items():
+        problems.append(f"ledger {row.ex_id}: registered {key[0]} no longer in the manuscript: {key[1][:80]!r}")
+    if missing and register or changed and register:
+        if (changed or reworded) and not reason:
+            sys.exit("superseding a registry row needs --reason")
+        pairs = {id(item): old for item, _, _, old in reworded}
+        appended = [(item, f, s, pairs.get(id(item))) for item, f, s, _ in missing] + changed
         commit = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
         start = len(ledger)
         with LEDGER.open("a", encoding="utf-8", newline="") as stream:
             writer = csv.DictWriter(stream, fieldnames=list(ledger.columns), lineterminator="\n")
-            for i, (item, source_file, source_sha) in enumerate(missing, start=1):
+            for i, (item, source_file, source_sha, old) in enumerate(appended, start=1):
+                aggregation = item["aggregation"] + (f"; supersedes {old} ({reason})" if old else "")
                 writer.writerow({"ex_id": f"EX{start + i:06d}", "statistic": item["statistic"], "value": item["value"],
                                  "subset": "", "family": "", "engine": "", "detector": "", "seed": "", "target": ALPHA,
-                                 "arm": "", "rule": "", "aggregation": item["aggregation"], "source_file": source_file,
+                                 "arm": "", "rule": "", "aggregation": aggregation, "source_file": source_file,
                                  "source_sha256": source_sha, "commit": commit, "status": item["status"],
                                  "tier": "manuscript", "claim": item["claim"]})
-        print(f"registered {len(missing)} manuscript items in the ledger (EX{start + 1:06d}-EX{start + len(missing):06d})")
+        print(f"registered {len(appended)} manuscript items in the ledger (EX{start + 1:06d}-EX{start + len(appended):06d}); "
+              f"{sum(1 for *_, old in appended if old)} supersede earlier rows")
         return ledger_registry(items, register=False)
-    problems += [f"not registered in the ledger: {item['statistic']}: {item['claim'][:80]!r}" for item, _, _ in missing]
+    problems += [f"not registered in the ledger: {item['statistic']}: {item['claim'][:80]!r}" for item, *_ in missing]
     return problems, ledger
 
 
@@ -690,6 +734,7 @@ def main():
     parser.add_argument("--print", action="store_true", help="list the derived claims")
     parser.add_argument("--register", action="store_true",
                         help="append missing manuscript claims, tables and figures to the evidence ledger (append-only)")
+    parser.add_argument("--reason", help="with --register: why earlier registry rows are superseded (recorded in the ledger)")
     args = parser.parse_args()
     text = DRAFT.read_text(encoding="utf-8")
     body, abstract, keywords, highlights, results = sections(text)
@@ -749,11 +794,12 @@ def main():
     ledger_problems, covered = ledger_hash_check(src)
     problems += ledger_problems
     items = registry_items(body)
-    registry_problems, ledger = ledger_registry(items, register=args.register)
+    registry_problems, ledger = ledger_registry(items, register=args.register, reason=args.reason)
     problems += registry_problems
     support, n_tokens = independent_support(ledger)
     print(f"ledger registry: {sum(i['statistic'] == CLAIM_STAT for i in items)} claims, "
-          f"{sum(i['statistic'] == TABLE_STAT for i in items)} tables, {sum(i['statistic'] == FIGURE_STAT for i in items)} figures; "
+          f"{sum(i['statistic'] == TABLE_STAT for i in items)} tables, {sum(i['statistic'] == FIGURE_STAT for i in items)} figures "
+          f"({len(registry_in_force(ledger)[1])} earlier registry rows superseded, none edited); "
           f"independent support: {support} of {n_tokens} displayed numbers also occur in pre-existing ledger rows")
     print(f"claims checked: {len(claims) + len(frozen_claims)}; numbers allowed: {len(allowed)}; "
           f"abstract words: {n_words}; highlights: {len(highlights)} (max {max(len(h) for h in highlights)} chars); "

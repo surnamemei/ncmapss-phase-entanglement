@@ -27,6 +27,8 @@ import test_focused_validation  # noqa: E402
 EXT, PRE = ROOT / "paper/mssp_extended", ROOT / "paper/mssp"
 RELEASE = ROOT / "docs/release/v1.1.0"
 MANIFEST, NOTES = RELEASE / "PUBLIC_RELEASE_MANIFEST.sha256", RELEASE / "RELEASE_NOTES.md"
+POST_RELEASE = RELEASE / "POST_RELEASE_CHANGES.sha256"  # files updated on main after the tag, with their current SHA-256
+RELEASE_TAG = "v1.1.0"
 README, CITATION, ZENODO = ROOT / "README.md", ROOT / "CITATION.cff", ROOT / ".zenodo.json"
 BASELINE = ROOT / "docs/mssp/frozen_baseline.sha256"
 SOURCE_COMMIT = "54b25ee0934a2c0570428f1e84894603ea1a0f70"  # private provenance commit the snapshot was cut from
@@ -92,9 +94,15 @@ def has_ref(ref):
     return git("rev-parse", "--verify", "--quiet", ref).returncode == 0
 
 
-def manifest_entries():
-    return {path: digest for digest, path in
-            (line.split("  ", 1) for line in MANIFEST.read_text(encoding="utf-8").splitlines())}
+def manifest_entries(path=MANIFEST):
+    if not path.exists():
+        return {}
+    return {name: digest for digest, name in
+            (line.split("  ", 1) for line in path.read_text(encoding="utf-8").splitlines())}
+
+
+def post_release_entries():
+    return manifest_entries(POST_RELEASE)
 
 
 def flat(text):
@@ -118,7 +126,8 @@ def load(path, name):
 
 
 def baseline_status():
-    """Entries of the 186-file frozen-baseline manifest: (count, changed distributed entries, absent entries)."""
+    """Entries of the 186-file frozen-baseline manifest: (count, changed entries, absent entries). Every entry present
+    on disk must verify, distributed or not: a local checkout may also hold the git-ignored checkpoints."""
     entries = [line.split("  ", 1) for line in BASELINE.read_text(encoding="utf-8").splitlines() if line.strip()]
     absent = {path for _, path in entries if not (ROOT / path).exists()}
     changed = [path for digest, path in entries if path not in absent and sha256(ROOT / path) != digest]
@@ -126,10 +135,10 @@ def baseline_status():
 
 
 def public_baseline_gate():
-    """The runners' frozen-baseline gate on the public snapshot: every distributed entry must verify, and the absent
-    entries must be exactly the documented checkpoints and RESS submission-administration files."""
+    """The runners' frozen-baseline gate on the public snapshot: every entry on disk must verify, and only the documented
+    checkpoints and RESS submission-administration files may be absent."""
     count, changed, absent = baseline_status()
-    if count != 186 or changed or absent != CHECKPOINTS | RESS_ADMIN:
+    if count != 186 or changed or not absent <= CHECKPOINTS | RESS_ADMIN:
         raise ec.ExtensionError(f"Public frozen-baseline gate failed: changed {changed}, absent {sorted(absent)}")
     return True
 
@@ -146,19 +155,29 @@ class PublicGate:
 
 class ReleaseManifest(unittest.TestCase):
     def test_every_distributed_file_is_listed_once_with_its_hash(self):
-        lines = MANIFEST.read_text(encoding="utf-8").splitlines()
-        entries = manifest_entries()
-        self.assertEqual([line.split("  ", 1)[1] for line in lines], sorted(entries), "one sorted entry per file")
-        own = MANIFEST.relative_to(ROOT).as_posix()
-        self.assertNotIn(own, entries)
+        # The release manifest stays as released. Files updated on main after the tag are listed with their current
+        # SHA-256 in POST_RELEASE_CHANGES.sha256; every other file must still match the release manifest.
+        entries, updated = manifest_entries(), post_release_entries()
+        for path, listing in ((MANIFEST, entries), (POST_RELEASE, updated)):
+            if path.exists():
+                lines = path.read_text(encoding="utf-8").splitlines()
+                self.assertEqual([line.split("  ", 1)[1] for line in lines], sorted(listing), f"{path.name}: one sorted entry per file")
+        release_manifest, update_list = MANIFEST.relative_to(ROOT).as_posix(), POST_RELEASE.relative_to(ROOT).as_posix()
+        self.assertFalse({release_manifest, update_list} & (set(entries) | set(updated)))
         for path, digest in entries.items():
+            if path in updated:
+                self.assertNotEqual(updated[path], digest, f"{path} is listed as updated but equals the release")
+            else:
+                self.assertEqual(sha256(ROOT / path), digest, path)
+        for path, digest in updated.items():
             self.assertEqual(sha256(ROOT / path), digest, path)
         tracked = git("ls-files", "-z")
         if tracked.returncode == 0:
-            self.assertEqual(set(entries), {p for p in tracked.stdout.split("\0") if p} - {own})
+            files = {p for p in tracked.stdout.split("\0") if p} - {release_manifest, update_list}
+            self.assertEqual(files, set(entries) | set(updated))
 
     def test_no_submission_material_raw_data_or_binaries(self):
-        for path in manifest_entries():
+        for path in set(manifest_entries()) | set(post_release_entries()):
             for pattern in NOT_DISTRIBUTED:
                 self.assertIsNone(re.search(pattern, path), f"{path} matches {pattern}")
             head = (ROOT / path).read_bytes()[:8]
@@ -167,7 +186,7 @@ class ReleaseManifest(unittest.TestCase):
 
     def test_no_credentials_in_text_files(self):
         patterns = {name: re.compile(p) for name, p in SECRETS.items()}
-        for path in manifest_entries():
+        for path in set(manifest_entries()) | set(post_release_entries()):
             data = (ROOT / path).read_bytes()
             if path.endswith((".pdf", ".png")) or b"\0" in data[:4096]:
                 continue
@@ -179,12 +198,19 @@ class ReleaseManifest(unittest.TestCase):
 class FrozenRecords(unittest.TestCase):
     def test_distributed_frozen_baseline_entries_verify_and_absences_are_documented(self):
         # Replaces the inherited full-manifest checks: the 186-file manifest also lists the git-ignored LSTM
-        # checkpoints and the RESS submission-administration files, which are not distributed.
+        # checkpoints and the RESS submission-administration files, which are not distributed (a local checkout may
+        # still hold the ignored checkpoints; any entry on disk must verify).
         count, changed, absent = baseline_status()
         self.assertEqual(count, 186)
         self.assertEqual(changed, [])
-        self.assertEqual(absent, CHECKPOINTS | RESS_ADMIN)
-        self.assertEqual(count - len(absent), 155)
+        self.assertLessEqual(absent, CHECKPOINTS | RESS_ADMIN)
+        tracked = git("ls-files", "-z")
+        if tracked.returncode == 0:
+            files = {p for p in tracked.stdout.split("\0") if p}
+            entries = {path for _, path in (line.split("  ", 1) for line in
+                                            BASELINE.read_text(encoding="utf-8").splitlines() if line.strip())}
+            self.assertEqual(entries - files, CHECKPOINTS | RESS_ADMIN)
+            self.assertEqual(len(entries & files), 155)
         self.assertTrue(public_baseline_gate())
 
     def test_frozen_plans_protocols_and_freeze_record(self):
@@ -226,24 +252,36 @@ class FrozenRecords(unittest.TestCase):
             self.assertEqual(result.stdout.strip(), "", f"distributed files differ from {tag}")
 
     def test_snapshot_equals_the_private_source_commit_apart_from_documented_changes(self):
-        if not has_ref(SOURCE_COMMIT + "^{commit}"):
-            self.skipTest("the private source commit is not available in this clone")
+        # The release (tag v1.1.0) against the private source commit; later updates are checked against the tag below.
+        if not (has_ref(SOURCE_COMMIT + "^{commit}") and has_ref(f"refs/tags/{RELEASE_TAG}")):
+            self.skipTest("the private source commit or the release tag is not available in this clone")
         changed = {}
-        for line in git("diff", "--name-status", "--no-renames", SOURCE_COMMIT, "HEAD").stdout.splitlines():
+        for line in git("diff", "--name-status", "--no-renames", SOURCE_COMMIT, RELEASE_TAG).stdout.splitlines():
             status, path = line.split("\t", 1)
             changed.setdefault(status, set()).add(path)
         self.assertEqual(set(changed) - {"A", "M", "D"}, set())
         self.assertEqual(changed.get("M", set()), PUBLIC_CHANGES)
         self.assertEqual(changed.get("A", set()), PUBLIC_ADDITIONS)
 
+    def test_changes_since_the_release_tag_are_exactly_the_listed_updates(self):
+        if not has_ref(f"refs/tags/{RELEASE_TAG}"):
+            self.skipTest("the release tag is not available in this clone")
+        changed = {p for p in git("diff", "--name-only", "--no-renames", RELEASE_TAG, "HEAD").stdout.splitlines() if p}
+        listed = set(post_release_entries()) | ({POST_RELEASE.relative_to(ROOT).as_posix()} if POST_RELEASE.exists() else set())
+        self.assertEqual(changed, listed)
+
 
 class Preprint(unittest.TestCase):
     def test_preprint_and_supplement_hashes(self):
+        # README and release notes give the SHA-256 of the released PDFs; on main a PDF may be a listed post-release update.
         notes, readme = NOTES.read_text(encoding="utf-8"), README.read_text(encoding="utf-8")
+        released, updated = manifest_entries(), post_release_entries()
         preprint, supplement, part_b = EXT / "latex/main.pdf", EXT / "supplement/supplement.pdf", PRE / "supplement/supplement.pdf"
         for path in (preprint, supplement):
-            self.assertIn(sha256(path), notes, path.name)
-            self.assertIn(sha256(path), readme, path.name)
+            key = path.relative_to(ROOT).as_posix()
+            self.assertIn(released[key], notes, path.name)
+            self.assertIn(released[key], readme, path.name)
+            self.assertEqual(sha256(path), updated.get(key, released[key]), path.name)
         record = json.loads((EXT / "supplement/supplement.provenance.json").read_text(encoding="utf-8"))
         self.assertEqual(record["outputs"]["paper/mssp_extended/supplement/supplement.pdf"], sha256(supplement))
         self.assertEqual(record["inputs"]["paper/mssp/supplement/supplement.pdf"], sha256(part_b))

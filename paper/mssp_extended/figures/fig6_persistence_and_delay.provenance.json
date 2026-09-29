@@ -1,6 +1,6 @@
 {
   "outputs": {
-    "paper/mssp_extended/figures/fig6_persistence_and_delay.pdf": "ec0198bd1e971e8c86d9001df9f5c36ac15dbbff666e03819e7999e139d4b3fc",
+    "paper/mssp_extended/figures/fig6_persistence_and_delay.pdf": "7edafb8ca91405829f905b190d209962139c8003c17e65afcb9f61a175432fcf",
     "paper/mssp_extended/figures/fig6_persistence_and_delay.png": "234488dd296064d746773a9df1a24759a9120a2c8c1440a08a0e2dc0a8f56072"
   },
   "inputs": {
@@ -17,7 +17,7 @@
     "results/extension/summary/matched_labels_alpha_0.01.csv": "83c8ddc14b32f1fb8d31e6fdadd8afa5abaeb253e2ec011ab2ea3cf16455a0c8"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "Median (marker) and range (bar) over 7 residual runs; \u03b1 = 1%. Grey band: post hoc median-to-95th-percentile worst-engine rate of a perfectly calibrated fleet.",
-  "built_utc": "2026-09-29T02:48:45+00:00"
+  "built_utc": "2026-09-29T07:23:42+00:00"
 }

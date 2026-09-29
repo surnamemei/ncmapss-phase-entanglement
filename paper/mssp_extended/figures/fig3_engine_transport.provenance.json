@@ -1,6 +1,6 @@
 {
   "outputs": {
-    "paper/mssp_extended/figures/fig3_engine_transport.pdf": "d5f904ad25c77af40424925fc6f0d27dc2f0d58e5ea854dc1a95411d011b1598",
+    "paper/mssp_extended/figures/fig3_engine_transport.pdf": "1dd9b56673b02884eb4a1d744a2cfd02b10a146a1d2d6b6799ab37e9a894dcac",
     "paper/mssp_extended/figures/fig3_engine_transport.png": "1fb9d06e2e85686b5a604aff696c58c1284cdf0614c4b72ffbbe2bffca2ef554"
   },
   "inputs": {
@@ -25,7 +25,7 @@
     "results/extension/DS08c/lock/calibration_lock.json": "50ce8d467484502bab5787d843ea2e093f32907e2be1888b7cec0dcba6215752"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "Median (marker) and range (bar) over the 7 residual runs; \u03b1 = 1%. Grey tick: post hoc 95th percentile of the A2 of a perfectly calibrated engine (median over runs, arm P).",
-  "built_utc": "2026-09-29T02:48:43+00:00"
+  "built_utc": "2026-09-29T07:23:38+00:00"
 }

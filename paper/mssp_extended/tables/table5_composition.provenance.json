@@ -17,7 +17,7 @@
     "results/extension/summary/composition_run_summary.csv": "c39ade20c471ac2e6e11ecae6796bbb2d5c0e0bbaa55ca74b710d8eb255c9973"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "Coverage = other-class minus same-class single-engine A2 per audit engine (positive = coverage helps); volume = gain from full versus N rows of an other-class engine; \u03b1 = 1%.",
-  "built_utc": "2026-09-29T02:48:45+00:00"
+  "built_utc": "2026-09-29T07:23:42+00:00"
 }

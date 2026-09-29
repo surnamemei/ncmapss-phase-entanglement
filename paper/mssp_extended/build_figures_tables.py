@@ -463,7 +463,7 @@ def table4_decisions(rec):
         ("H4 calibration-class coverage", "coverage effect > 0 in ≥ 7/10 runs (P and C) and balance check, ≥ 3/4 families",
          f"coverage {h4['families_supporting_coverage']}/4; balance {h4['families_passing_balance']}/4; "
          f"median effect P {eff('pooled')}, C {eff('phase_conditioned')}",
-         h4["verdict"] + " (beyond volume; weak under P)"),
+         h4["verdict"] + " (at fixed row volume; weak under P)"),
         ("H5 CVAE does not guarantee transport", "worst-engine error ≥ 0.5α in most CVAE runs, ≥ 3/5 families",
          f"{h5['families_WE_material_majority']}/5 families; substantial improvement {h5['families_substantially_improves_b']}/5",
          h5["verdict"]),

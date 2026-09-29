@@ -1,5 +1,5 @@
 Pooled thresholds left a material phase error in 3 of 5 fleets, once under-alarming
 Context-conditioned thresholds improved only about half of held-out engines
 A fleet-trained CVAE conditioned on operating descriptors did not improve transport
-Largest failures lay outside the calibration fleet's flight classes or envelope
+Large failures arose outside fleet coverage and where conditioning backfired
 Fleet errors exceeded engine self-calibration in 27 of 30 engines, mostly below 1 pp

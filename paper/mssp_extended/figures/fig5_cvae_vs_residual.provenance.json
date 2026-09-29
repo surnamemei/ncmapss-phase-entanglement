@@ -1,6 +1,6 @@
 {
   "outputs": {
-    "paper/mssp_extended/figures/fig5_cvae_vs_residual.pdf": "4c712d2920d3fdf4769d3b98a3ecfda90191e3fb3524d21e771abe7d338bfc33",
+    "paper/mssp_extended/figures/fig5_cvae_vs_residual.pdf": "386b4bdc5e85d24b4b0a9db0a0b68b208f70b06bb956d5e92e178fad474dc55e",
     "paper/mssp_extended/figures/fig5_cvae_vs_residual.png": "7032205c7555eb6dc0246c4d0a759928fa552208296d5320364e864afef3254c"
   },
   "inputs": {
@@ -15,7 +15,7 @@
     "results/extension/DS08c/audit/transport_summary.csv": "4bdea1618014028ec44422f566c0ac18641d2490f54d0f6d8f6ff23488fda18b"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "Individual runs (PCA one run; three seeds otherwise); \u03b1 = 1%.",
-  "built_utc": "2026-09-29T02:48:44+00:00"
+  "built_utc": "2026-09-29T07:23:41+00:00"
 }

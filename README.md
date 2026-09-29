@@ -30,6 +30,11 @@ d51ec1cef13b4a8e4515252013eafc00c4314c05716ead19d5842fc90db3b701  paper/mssp_ext
 
 Every distributed file is listed with its SHA-256 in [`docs/release/v1.1.0/PUBLIC_RELEASE_MANIFEST.sha256`](docs/release/v1.1.0/PUBLIC_RELEASE_MANIFEST.sha256).
 
+**Update after the release.** After the `v1.1.0` tag, `main` received one author-approved editorial update of the manuscript.
+- **What changed.** It changed wording only: the Abstract, Highlights, Discussion and Conclusion; the Table 4 label of the H4 verdict; and the Code availability statement.
+- **What did not change.** No number, decision, figure content, protocol or earlier ledger entry changed.
+- **Where to check.** The files it changed are listed with their current SHA-256 in [`docs/release/v1.1.0/POST_RELEASE_CHANGES.sha256`](docs/release/v1.1.0/POST_RELEASE_CHANGES.sha256). The tag `v1.1.0` matches the release manifest exactly.
+
 ## Study design
 
 The results, the pre-specified decisions H1–H7 and their limitations are reported in the preprint and in `docs/extension/FINAL_EXTENSION_REPORT.md`. This README describes only the design and where each record is.
@@ -78,6 +83,12 @@ No step below reads N-CMAPSS data.
 
    ```bash
    sha256sum -c docs/release/v1.1.0/PUBLIC_RELEASE_MANIFEST.sha256
+   ```
+
+   On `main`, this check reports the files updated after the release as changed. Verify those files against the update list:
+
+   ```bash
+   sha256sum -c docs/release/v1.1.0/POST_RELEASE_CHANGES.sha256
    ```
 
 2. Run the data-free test suite.

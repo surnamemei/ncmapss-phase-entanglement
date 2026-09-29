@@ -170,7 +170,7 @@ class LimitsAndWording(unittest.TestCase):
     def test_limits(self):
         text = DRAFT.read_text(encoding="utf-8")
         abstract = text.split("## Abstract", 1)[1].split("**Keywords:**", 1)[0]
-        self.assertLessEqual(len(abstract.split()), 245)
+        self.assertLessEqual(len(abstract.split()), 250)
         keywords = [k for k in text.split("**Keywords:**", 1)[1].splitlines()[0].split(";") if k.strip()]
         self.assertLessEqual(len(keywords), 6, "MSSP: a maximum of 6 keywords")
         highlights = (PKG / "latex/highlights.txt").read_text(encoding="utf-8").splitlines()

@@ -24,7 +24,7 @@
     "results/extension/DS08c/audit/transport_summary.csv": "4bdea1618014028ec44422f566c0ac18641d2490f54d0f6d8f6ff23488fda18b"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "Counts over 10 detector runs (7 residual + 3 CVAE); ME-A2/WE-A2 = median over the 7 residual runs; \u03b1 = 1%.",
-  "built_utc": "2026-09-29T02:48:45+00:00"
+  "built_utc": "2026-09-29T07:23:42+00:00"
 }

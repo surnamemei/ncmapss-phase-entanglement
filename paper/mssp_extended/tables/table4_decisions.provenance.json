@@ -1,14 +1,14 @@
 {
   "outputs": {
-    "paper/mssp_extended/tables/table4_decisions.csv": "9b77b24f28f391f5501aec411d0a73e8f6cf8344b74fccccd7381906fe0a9b8b",
-    "paper/mssp_extended/tables/table4_decisions.tex": "7c2be89fb71a9a5e4bd69be25bdec27e67f89357fa85763958e862b4b11e303b"
+    "paper/mssp_extended/tables/table4_decisions.csv": "176ae8d26790a9ba661b983ed62cb63443c028bb74b004ab8509acf029dec061",
+    "paper/mssp_extended/tables/table4_decisions.tex": "527b25c657b1c1e3302e83e235283ea1f2c4354744bd248b90c669511d5254d4"
   },
   "inputs": {
     "results/extension/summary/composition_bootstrap.csv": "bf1be6dce21c084e46637388f8fb820acc1db7b01cf1afbeafa09dfd0b0b7aa6",
     "results/extension/summary/decisions.json": "089d74b05841e3b492fbfb127ef9664b6cf1705abc72bc7ce04f05c76fa4bed4"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "From results/extension/summary/decisions.json; \u03b1 = 1%; families F1\u2013F5.",
-  "built_utc": "2026-09-29T02:48:45+00:00"
+  "built_utc": "2026-09-29T07:23:42+00:00"
 }

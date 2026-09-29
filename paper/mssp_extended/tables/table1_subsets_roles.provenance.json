@@ -24,7 +24,7 @@
     "results/extension/DS08c/lock/calibration_lock.json": "50ce8d467484502bab5787d843ea2e093f32907e2be1888b7cec0dcba6215752"
   },
   "builder": "paper/mssp_extended/build_figures_tables.py",
-  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "builder_sha256": "be71f29ddbf7c988cc2d2d608bcfdd9edd36e57597e45d343d58f6b478c23014",
   "note": "From committed locks and audit records.",
-  "built_utc": "2026-09-29T02:48:45+00:00"
+  "built_utc": "2026-09-29T07:23:42+00:00"
 }
