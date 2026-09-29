@@ -1,0 +1,563 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    10
+   ]
+  ],
+  "date-time": "2026-09-10T02:06:59Z",
+  "timestamp": 1789006019624,
+  "version": "build-2803163510"
+ },
+ "reference-count": 30,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2018-01-01T00:00:00Z",
+    "timestamp": 1514764800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2018-01-01T00:00:00Z",
+    "timestamp": 1514764800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2017,
+      4,
+      25
+     ]
+    ],
+    "date-time": "2017-04-25T00:00:00Z",
+    "timestamp": 1493078400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100000266",
+   "name": "UK Engineering and Physical Sciences Research Council",
+   "doi-asserted-by": "crossref",
+   "award": [
+    "EP/J016942/1"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "EP/J016942/1"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100000266",
+     "id-type": "DOI",
+     "asserted-by": "crossref"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100000266",
+   "name": "UK Engineering and Physical Sciences Research Council",
+   "doi-asserted-by": "crossref",
+   "award": [
+    "EP/K003836/2"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "EP/K003836/2"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100000266",
+     "id-type": "DOI",
+     "asserted-by": "crossref"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2018,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2017.04.022",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2017,
+    5,
+    5
+   ]
+  ],
+  "date-time": "2017-05-05T17:08:46Z",
+  "timestamp": 1494004126000
+ },
+ "page": "139-156",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 129,
+ "special_numbering": "C",
+ "title": [
+  "On switching response surface models, with applications to the structural health monitoring of bridges"
+ ],
+ "prefix": "10.1016",
+ "volume": "98",
+ "author": [
+  {
+   "given": "K.",
+   "family": "Worden",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "E.J.",
+   "family": "Cross",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0005",
+   "series-title": "Structural Health Monitoring: A Machine Learning Perspective",
+   "author": "Farrar",
+   "year": "2013"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0010",
+   "unstructured": "C. Farrar, W. Baker, T. Bell, K. Cone, T. Darling, T. Duffey, Damage characterization and damage detection in the I-40 bridge over the Rio Grande, Tech. Rep., Los Alamos National Laboratories Report, LA-12767-MS, 2005."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0015",
+   "doi-asserted-by": "crossref",
+   "first-page": "539",
+   "DOI": "10.1098/rsta.2006.1935",
+   "article-title": "Effects of environmental and operational variability on structural health monitoring",
+   "volume": "365",
+   "author": "Sohn",
+   "year": "2007",
+   "journal-title": "Philos. Trans. Roy. Soc. – Ser. A"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0020",
+   "doi-asserted-by": "crossref",
+   "first-page": "16",
+   "DOI": "10.1016/j.ymssp.2012.08.026",
+   "article-title": "Long-term monitoring and data analysis of the Tamar Bridge",
+   "volume": "35",
+   "author": "Cross",
+   "year": "2013",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "1762",
+   "DOI": "10.1016/j.engstruct.2005.02.020",
+   "article-title": "Correlating modal properties with temperature using long-term monitoring data and support vector machine technique",
+   "volume": "27",
+   "author": "Ni",
+   "year": "2005",
+   "journal-title": "Eng. Struct."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0030",
+   "doi-asserted-by": "crossref",
+   "first-page": "1290",
+   "DOI": "10.1061/(ASCE)ST.1943-541X.0000050",
+   "article-title": "Generalization capability of neural network models for temperature-frequency correlation using monitoring data",
+   "volume": "135",
+   "author": "Ni",
+   "year": "2009",
+   "journal-title": "J. Struct. Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0035",
+   "series-title": "Pattern Recognition and Machine Learning",
+   "author": "Bishop",
+   "year": "2013"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0040",
+   "series-title": "Gaussian Processes for Machine Learning",
+   "author": "Rasmussen",
+   "year": "2006"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0045",
+   "doi-asserted-by": "crossref",
+   "first-page": "1301",
+   "DOI": "10.1016/j.ress.2005.11.028",
+   "article-title": "Case studies in Gaussian process modelling of computer codes",
+   "volume": "91",
+   "author": "Kennedy",
+   "year": "2006",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0050",
+   "doi-asserted-by": "crossref",
+   "first-page": "1499",
+   "DOI": "10.1016/j.jbiomech.2011.03.008",
+   "article-title": "Bayesian sensitivity analysis of a model of the aortic valve",
+   "volume": "44",
+   "author": "Becker",
+   "year": "2011",
+   "journal-title": "J. Biomech."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0055",
+   "doi-asserted-by": "crossref",
+   "first-page": "1036",
+   "DOI": "10.1177/0954411911420002",
+   "article-title": "Computational model of an infant brain subjected to periodic motion: simplified modelling and bayesian sensitivity analysis",
+   "volume": "225",
+   "author": "Batterbee",
+   "year": "2011",
+   "journal-title": "Proc. Inst. Mech. Eng., Part H, J. Eng. Med."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "1589",
+   "DOI": "10.1109/JPROC.2016.2573596",
+   "article-title": "Some recent developments in SHM based on nonstationary time series analysis",
+   "volume": "104",
+   "author": "Worden",
+   "year": "2016",
+   "journal-title": "Proc. IEEE"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0065",
+   "doi-asserted-by": "crossref",
+   "first-page": "2712",
+   "DOI": "10.1098/rspa.2011.0023",
+   "article-title": "Cointegration: a novel approach for the removal of environmental trends in structural health monitoring data",
+   "volume": "467",
+   "author": "Cross",
+   "year": "2011",
+   "journal-title": "Proc. Roy. Soc. – Ser. A"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0070",
+   "doi-asserted-by": "crossref",
+   "first-page": "4098",
+   "DOI": "10.1098/rspa.2012.0031",
+   "article-title": "Features for damage detection with insensitivity to environmental and operational variations",
+   "volume": "468",
+   "author": "Cross",
+   "year": "2012",
+   "journal-title": "Proc. Roy. Soc. – Ser. A"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0075",
+   "series-title": "Classification and Regression Trees",
+   "author": "Breiman",
+   "year": "1984"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0080",
+   "doi-asserted-by": "crossref",
+   "first-page": "935",
+   "DOI": "10.1080/01621459.1998.10473750",
+   "article-title": "Bayesian cart model search",
+   "volume": "93",
+   "author": "Chipman",
+   "year": "1998",
+   "journal-title": "J. Am. Stat. Assoc."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0085",
+   "doi-asserted-by": "crossref",
+   "first-page": "299",
+   "DOI": "10.1023/A:1013916107446",
+   "article-title": "Bayesian treed models",
+   "volume": "48",
+   "author": "Chipman",
+   "year": "2002",
+   "journal-title": "Mach. Learn."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0090",
+   "doi-asserted-by": "crossref",
+   "unstructured": "R. Gramacy, Bayesian Treed Gaussian Process Models, PhD Thesis, University of California, 2005.",
+   "DOI": "10.32614/CRAN.package.tgp"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0095",
+   "doi-asserted-by": "crossref",
+   "first-page": "439",
+   "DOI": "10.2307/1425829",
+   "article-title": "The intrinsic random functions and their applications",
+   "volume": "5",
+   "author": "Matheron",
+   "year": "1973",
+   "journal-title": "Adv. Appl. Probab."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0100",
+   "unstructured": "W. Becker, Uncertainty Propagation Through Large Nonlinear Models, PhD Thesis, Department of Mechanical Engineering, University of Sheffield, 2011."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0105",
+   "doi-asserted-by": "crossref",
+   "unstructured": "R. Gramacy, TGP: an R package for Bayesian nonstationary, semiparametric nonlinear regression and design by treed Gaussian process models, J. Stat. Software, vol. 19.",
+   "DOI": "10.18637/jss.v019.i09"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0110",
+   "doi-asserted-by": "crossref",
+   "first-page": "123",
+   "DOI": "10.1016/j.csda.2008.06.020",
+   "article-title": "Gaussian processes and limiting linear models",
+   "volume": "53",
+   "author": "Gramacy",
+   "year": "2008",
+   "journal-title": "Comput. Stat. Data Anal."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0115",
+   "unstructured": "C. Kramer, C.D. Smet, G.D. Roeck, Z24 Bridge damage tests, in: Proceedings of 17th International Modal Analysis Conference (IMAC), Kissimmee, Florida, 1999."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "127",
+   "DOI": "10.1002/stc.20",
+   "article-title": "The state-of-the-art of damage detection by vibration monitoring: the SIMCES experience",
+   "volume": "10",
+   "author": "Roeck",
+   "year": "2003",
+   "journal-title": "J. Struct. Control"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0125",
+   "doi-asserted-by": "crossref",
+   "first-page": "865",
+   "DOI": "10.1016/j.ymssp.2004.12.003",
+   "article-title": "Structural damage diagnosis under varying environmental conditions. Part II: local PCA for non-linear cases",
+   "volume": "19",
+   "author": "Yan",
+   "year": "2005",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0130",
+   "doi-asserted-by": "crossref",
+   "first-page": "133",
+   "DOI": "10.1006/mssp.2002.1550",
+   "article-title": "Damage assessment using vibration analysis on the Z24 Bridge",
+   "volume": "17",
+   "author": "Maeck",
+   "year": "2003",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0135",
+   "doi-asserted-by": "crossref",
+   "first-page": "143",
+   "DOI": "10.1006/mssp.2002.1552",
+   "article-title": "Stochastic subspace-based structural identification and damage detection and localisation - application to the Z24 Bridge benchmark",
+   "volume": "17",
+   "author": "Mevel",
+   "year": "2003",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0140",
+   "doi-asserted-by": "crossref",
+   "first-page": "152",
+   "DOI": "10.1006/mssp.2002.1553",
+   "article-title": "Identification and up-dating over the Z24 benchmark",
+   "volume": "17",
+   "author": "Garibaldi",
+   "year": "2003",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0145",
+   "doi-asserted-by": "crossref",
+   "first-page": "163",
+   "DOI": "10.1006/mssp.2002.1555",
+   "article-title": "Damage detection of the Z24 Bridge using control charts",
+   "volume": "17",
+   "author": "Kullaa",
+   "year": "2003",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.04.022_b0150",
+   "doi-asserted-by": "crossref",
+   "first-page": "149",
+   "DOI": "10.1002/1096-9845(200102)30:2<149::AID-EQE1>3.0.CO;2-Z",
+   "article-title": "One-year monitoring of the Z24-Bridge: environmental effects versus damage events",
+   "volume": "30",
+   "author": "Peeters",
+   "year": "2001",
+   "journal-title": "Earthq. Eng. Struct. Dynam."
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327017302170?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327017302170?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2025-10-10T23:34:51Z",
+  "timestamp": 1760139291000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327017302170"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2018,
+    1
+   ]
+  ]
+ },
+ "references-count": 30,
+ "alternative-id": [
+  "S0888327017302170"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2017.04.022",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2018,
+    1
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "On switching response surface models, with applications to the structural health monitoring of bridges",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2017.04.022",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2017 The Authors. Published by Elsevier Ltd.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ]
+}

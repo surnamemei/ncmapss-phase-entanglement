@@ -1,0 +1,16 @@
+split,unit,role,flight_class,flight_class_constant,rows,healthy_rows,abnormal_rows,flights,healthy_flights,post_onset_flights,mixed_flights,first_cycle,onset_cycle,eol_cycle,hs_binary,ls1_monotone_single_transition,ls2_flight_constant,ls3_cycles_contiguous,flight_cycles_unique,engine_rows_contiguous,eligible_s1_s3_s4,eligible_s2,eligible_d,delay_flag_mixed_flight
+dev,1,model_fit,1,True,308489,156353,152136,72,36,36,0,1,37,72,True,True,True,True,True,True,True,True,True,False
+dev,2,model_fit,2,True,647164,217631,429533,73,23,50,0,1,24,73,True,True,True,True,True,True,True,True,True,False
+dev,3,model_fit,2,True,589837,211470,378367,67,24,43,0,1,25,67,True,True,True,True,True,True,True,True,True,False
+dev,4,calibration,2,True,539087,206884,332203,60,23,37,0,1,24,60,True,True,True,True,True,True,True,True,True,False
+dev,5,model_fit,1,True,401143,151763,249380,93,37,56,0,1,38,93,True,True,True,True,True,True,True,True,True,False
+dev,6,model_fit,3,True,946509,268557,677952,63,17,46,0,1,18,63,True,True,True,True,True,True,True,True,True,False
+dev,7,model_fit,2,True,699860,224485,475375,80,24,56,0,1,25,80,True,True,True,True,True,True,True,True,True,False
+dev,8,calibration,3,True,1075006,251221,823785,71,17,54,0,1,18,71,True,True,True,True,True,True,True,True,True,False
+dev,9,model_fit,1,True,364182,160907,203275,84,36,48,0,1,37,84,True,True,True,True,True,True,True,True,True,False
+test,10,audit,3,True,951109,249848,701261,66,17,49,0,1,18,66,True,True,True,True,True,True,True,True,True,False
+test,11,audit,3,True,824492,261207,563285,59,18,41,0,1,19,59,True,True,True,True,True,True,True,True,True,False
+test,12,audit,1,True,405409,155440,249969,93,36,57,0,1,37,93,True,True,True,True,True,True,True,True,True,False
+test,13,audit,3,True,1106892,251673,855219,77,18,59,0,1,19,77,True,True,True,True,True,True,True,True,True,False
+test,14,audit,1,True,345484,159581,185903,76,35,41,0,1,36,76,True,True,True,True,True,True,True,True,True,False
+test,15,audit,2,True,618174,216930,401244,67,24,43,0,1,25,67,True,True,True,True,True,True,True,True,True,False

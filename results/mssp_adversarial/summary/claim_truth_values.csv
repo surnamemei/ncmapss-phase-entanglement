@@ -1,0 +1,673 @@
+dataset,claim,detector,seed,nominal_fpr,holds
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),pca,-1,0.005,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),pca,-1,0.01,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),pca,-1,0.02,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,0,0.005,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,0,0.01,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,0,0.02,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,1,0.005,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,1,0.01,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,1,0.02,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,2,0.005,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,2,0.01,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,2,0.02,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,0,0.005,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,0,0.01,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,0,0.02,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,1,0.005,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,1,0.01,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,1,0.02,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,2,0.005,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,2,0.01,True
+ds02,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,2,0.02,True
+ds02,R2 C reduces between-phase disparity (A1),pca,-1,0.005,True
+ds02,R2 C reduces between-phase disparity (A1),pca,-1,0.01,True
+ds02,R2 C reduces between-phase disparity (A1),pca,-1,0.02,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,0,0.005,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,0,0.01,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,0,0.02,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,1,0.005,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,1,0.01,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,1,0.02,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,2,0.005,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,2,0.01,True
+ds02,R2 C reduces between-phase disparity (A1),isolation_forest,2,0.02,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,0,0.005,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,0,0.01,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,0,0.02,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,1,0.005,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,1,0.01,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,1,0.02,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,2,0.005,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,2,0.01,True
+ds02,R2 C reduces between-phase disparity (A1),lstm_autoencoder,2,0.02,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),pca,-1,0.005,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),pca,-1,0.01,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),pca,-1,0.02,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,0,0.005,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,0,0.01,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,0,0.02,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,1,0.005,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,1,0.01,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,1,0.02,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,2,0.005,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,2,0.01,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,2,0.02,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.005,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.01,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.02,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.005,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.01,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.02,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.005,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.01,True
+ds02,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.02,True
+ds02,R4 C reduces RMS nominal calibration error (A3),pca,-1,0.005,True
+ds02,R4 C reduces RMS nominal calibration error (A3),pca,-1,0.01,True
+ds02,R4 C reduces RMS nominal calibration error (A3),pca,-1,0.02,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,0,0.005,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,0,0.01,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,0,0.02,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,1,0.005,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,1,0.01,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,1,0.02,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,2,0.005,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,2,0.01,True
+ds02,R4 C reduces RMS nominal calibration error (A3),isolation_forest,2,0.02,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.005,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.01,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.02,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.005,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.01,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.02,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.005,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.01,True
+ds02,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.02,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.005,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.01,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.02,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.005,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.01,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.02,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.005,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.01,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.02,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.005,False
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.01,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.02,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.005,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.01,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.02,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.005,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.01,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.02,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.005,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.01,True
+ds02,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.02,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.005,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.01,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.02,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.005,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.01,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.02,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.005,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.01,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.02,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.005,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.01,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.02,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.005,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.01,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.02,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.005,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.01,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.02,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.005,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.01,True
+ds02,R6 C abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.02,True
+ds02,R8 C is not earlier than P at matched false-flag burden,pca,-1,0.005,True
+ds02,R8 C is not earlier than P at matched false-flag burden,pca,-1,0.01,True
+ds02,R8 C is not earlier than P at matched false-flag burden,pca,-1,0.02,False
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,0,0.005,True
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,0,0.01,False
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,0,0.02,False
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,1,0.005,True
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,1,0.01,False
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,1,0.02,False
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,2,0.005,True
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,2,0.01,False
+ds02,R8 C is not earlier than P at matched false-flag burden,isolation_forest,2,0.02,False
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.005,False
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.01,True
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.02,True
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.005,False
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.01,True
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.02,True
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.005,False
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.01,True
+ds02,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.02,True
+ds02,R2 C' reduces between-phase disparity (A1),pca,-1,0.005,True
+ds02,R2 C' reduces between-phase disparity (A1),pca,-1,0.01,True
+ds02,R2 C' reduces between-phase disparity (A1),pca,-1,0.02,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,0,0.005,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,0,0.01,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,0,0.02,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,1,0.005,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,1,0.01,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,1,0.02,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,2,0.005,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,2,0.01,True
+ds02,R2 C' reduces between-phase disparity (A1),isolation_forest,2,0.02,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,0,0.005,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,0,0.01,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,0,0.02,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,1,0.005,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,1,0.01,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,1,0.02,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,2,0.005,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,2,0.01,True
+ds02,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,2,0.02,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),pca,-1,0.005,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),pca,-1,0.01,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),pca,-1,0.02,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,0,0.005,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,0,0.01,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,0,0.02,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,1,0.005,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,1,0.01,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,1,0.02,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,2,0.005,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,2,0.01,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,2,0.02,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.005,False
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.01,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.02,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.005,False
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.01,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.02,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.005,False
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.01,True
+ds02,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.02,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),pca,-1,0.005,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),pca,-1,0.01,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),pca,-1,0.02,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,0,0.005,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,0,0.01,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,0,0.02,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,1,0.005,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,1,0.01,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,1,0.02,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,2,0.005,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,2,0.01,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,2,0.02,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.005,False
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.01,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.02,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.005,False
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.01,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.02,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.005,False
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.01,True
+ds02,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.02,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.005,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.01,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.02,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.005,False
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.01,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.02,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.005,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.01,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.02,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.005,False
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.01,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.02,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.005,False
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.01,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.02,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.005,False
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.01,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.02,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.005,False
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.01,True
+ds02,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.02,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.005,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.01,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.02,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.005,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.01,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.02,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.005,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.01,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.02,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.005,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.01,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.02,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.005,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.01,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.02,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.005,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.01,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.02,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.005,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.01,True
+ds02,R6 C' abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.02,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,pca,-1,0.005,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,pca,-1,0.01,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,pca,-1,0.02,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,0,0.005,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,0,0.01,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,0,0.02,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,1,0.005,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,1,0.01,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,1,0.02,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,2,0.005,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,2,0.01,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,2,0.02,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.005,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.01,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.02,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.005,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.01,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.02,False
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.005,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.01,True
+ds02,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),pca,-1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),pca,-1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),pca,-1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,0,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,0,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,0,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,2,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,2,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,2,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,0,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,0,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,0,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,2,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,2,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,2,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),pca,-1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),pca,-1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),pca,-1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,0,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,0,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,0,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,2,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,2,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,2,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,0,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,0,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,0,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,2,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,2,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,2,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),pca,-1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),pca,-1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),pca,-1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,0,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,0,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,0,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,2,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,2,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,2,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,0,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,0,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,0,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,1,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,1,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,1,0.02,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,2,0.005,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,2,0.01,True
+ds02,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,2,0.02,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),pca,-1,0.005,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),pca,-1,0.01,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),pca,-1,0.02,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,0,0.005,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,0,0.01,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,0,0.02,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,1,0.005,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,1,0.01,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,1,0.02,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,2,0.005,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,2,0.01,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),isolation_forest,2,0.02,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,0,0.005,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,0,0.01,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,0,0.02,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,1,0.005,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,1,0.01,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,1,0.02,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,2,0.005,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,2,0.01,True
+ds03,R1 descent is the highest pooled healthy-FPR phase (P),lstm_autoencoder,2,0.02,True
+ds03,R2 C reduces between-phase disparity (A1),pca,-1,0.005,True
+ds03,R2 C reduces between-phase disparity (A1),pca,-1,0.01,True
+ds03,R2 C reduces between-phase disparity (A1),pca,-1,0.02,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,0,0.005,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,0,0.01,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,0,0.02,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,1,0.005,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,1,0.01,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,1,0.02,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,2,0.005,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,2,0.01,True
+ds03,R2 C reduces between-phase disparity (A1),isolation_forest,2,0.02,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,0,0.005,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,0,0.01,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,0,0.02,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,1,0.005,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,1,0.01,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,1,0.02,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,2,0.005,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,2,0.01,True
+ds03,R2 C reduces between-phase disparity (A1),lstm_autoencoder,2,0.02,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),pca,-1,0.005,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),pca,-1,0.01,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),pca,-1,0.02,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,0,0.005,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,0,0.01,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,0,0.02,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,1,0.005,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,1,0.01,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,1,0.02,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,2,0.005,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,2,0.01,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),isolation_forest,2,0.02,False
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.005,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.01,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.02,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.005,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.01,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.02,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.005,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.01,True
+ds03,R3 C reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.02,True
+ds03,R4 C reduces RMS nominal calibration error (A3),pca,-1,0.005,True
+ds03,R4 C reduces RMS nominal calibration error (A3),pca,-1,0.01,False
+ds03,R4 C reduces RMS nominal calibration error (A3),pca,-1,0.02,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,0,0.005,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,0,0.01,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,0,0.02,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,1,0.005,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,1,0.01,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,1,0.02,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,2,0.005,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,2,0.01,True
+ds03,R4 C reduces RMS nominal calibration error (A3),isolation_forest,2,0.02,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.005,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.01,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.02,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.005,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.01,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.02,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.005,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.01,True
+ds03,R4 C reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.02,False
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.005,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.01,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.02,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.005,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.01,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.02,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.005,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.01,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.02,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.005,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.01,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.02,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.005,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.01,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.02,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.005,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.01,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.02,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.005,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.01,True
+ds03,R5 C mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.02,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.005,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.01,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.02,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.005,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.01,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.02,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.005,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.01,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.02,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.005,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.01,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.02,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.005,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.01,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.02,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.005,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.01,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.02,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.005,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.01,True
+ds03,R6 C abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.02,True
+ds03,R8 C is not earlier than P at matched false-flag burden,pca,-1,0.005,True
+ds03,R8 C is not earlier than P at matched false-flag burden,pca,-1,0.01,True
+ds03,R8 C is not earlier than P at matched false-flag burden,pca,-1,0.02,False
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,0,0.005,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,0,0.01,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,0,0.02,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,1,0.005,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,1,0.01,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,1,0.02,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,2,0.005,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,2,0.01,True
+ds03,R8 C is not earlier than P at matched false-flag burden,isolation_forest,2,0.02,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.005,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.01,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.02,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.005,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.01,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.02,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.005,False
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.01,True
+ds03,R8 C is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.02,True
+ds03,R2 C' reduces between-phase disparity (A1),pca,-1,0.005,True
+ds03,R2 C' reduces between-phase disparity (A1),pca,-1,0.01,True
+ds03,R2 C' reduces between-phase disparity (A1),pca,-1,0.02,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,0,0.005,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,0,0.01,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,0,0.02,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,1,0.005,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,1,0.01,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,1,0.02,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,2,0.005,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,2,0.01,True
+ds03,R2 C' reduces between-phase disparity (A1),isolation_forest,2,0.02,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,0,0.005,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,0,0.01,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,0,0.02,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,1,0.005,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,1,0.01,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,1,0.02,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,2,0.005,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,2,0.01,True
+ds03,R2 C' reduces between-phase disparity (A1),lstm_autoencoder,2,0.02,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),pca,-1,0.005,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),pca,-1,0.01,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),pca,-1,0.02,False
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,0,0.005,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,0,0.01,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,0,0.02,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,1,0.005,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,1,0.01,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,1,0.02,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,2,0.005,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,2,0.01,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),isolation_forest,2,0.02,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.005,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.01,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,0,0.02,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.005,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.01,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,1,0.02,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.005,False
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.01,True
+ds03,R3 C' reduces max-abs nominal calibration error (A2),lstm_autoencoder,2,0.02,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),pca,-1,0.005,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),pca,-1,0.01,False
+ds03,R4 C' reduces RMS nominal calibration error (A3),pca,-1,0.02,False
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,0,0.005,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,0,0.01,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,0,0.02,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,1,0.005,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,1,0.01,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,1,0.02,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,2,0.005,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,2,0.01,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),isolation_forest,2,0.02,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.005,False
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.01,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,0,0.02,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.005,False
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.01,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,1,0.02,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.005,False
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.01,True
+ds03,R4 C' reduces RMS nominal calibration error (A3),lstm_autoencoder,2,0.02,False
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.005,False
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.01,False
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,pca,-1,0.02,False
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.005,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.01,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,0,0.02,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.005,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.01,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,1,0.02,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.005,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.01,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,isolation_forest,2,0.02,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.005,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.01,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,0,0.02,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.005,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.01,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,1,0.02,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.005,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.01,True
+ds03,R5 C' mainly redistributes: |overall FPR change| < 0.5 x |A1 change|,lstm_autoencoder,2,0.02,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.005,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.01,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,0,0.02,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.005,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.01,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,1,0.02,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.005,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.01,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,isolation_forest,2,0.02,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.005,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.01,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,0,0.02,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.005,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.01,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,1,0.02,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.005,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.01,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,lstm_autoencoder,2,0.02,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.005,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.01,True
+ds03,R6 C' abnormal-state row alarm-rate ratio >= 0.9,pca,-1,0.02,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,pca,-1,0.005,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,pca,-1,0.01,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,pca,-1,0.02,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,0,0.005,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,0,0.01,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,0,0.02,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,1,0.005,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,1,0.01,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,1,0.02,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,2,0.005,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,2,0.01,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,isolation_forest,2,0.02,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.005,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.01,False
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,0,0.02,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.005,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.01,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,1,0.02,True
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.005,False
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.01,False
+ds03,R8 C' is not earlier than P at matched false-flag burden,lstm_autoencoder,2,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),pca,-1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),pca,-1,0.01,False
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),pca,-1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,0,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,0,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,0,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,1,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,2,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,2,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),isolation_forest,2,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,0,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,0,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,0,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,1,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,2,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,2,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (P),lstm_autoencoder,2,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),pca,-1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),pca,-1,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),pca,-1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,0,0.005,False
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,0,0.01,False
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,0,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,1,0.005,False
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,1,0.01,False
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,2,0.005,False
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,2,0.01,False
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),isolation_forest,2,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,0,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,0,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,0,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,1,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,2,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,2,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C),lstm_autoencoder,2,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),pca,-1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),pca,-1,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),pca,-1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,0,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,0,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,0,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,1,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,2,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,2,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),isolation_forest,2,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,0,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,0,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,0,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,1,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,1,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,1,0.02,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,2,0.005,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,2,0.01,True
+ds03,R7 realized pooled healthy-flight FFR exceeds nominal 5% (C'),lstm_autoencoder,2,0.02,True

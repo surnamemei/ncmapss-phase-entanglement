@@ -1,0 +1,12 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/adversarial_error_decomposition.csv": "747bff30d211af5bcfc01aa59181d46a5e23a76f235eb66ccc49597e810bca95"
+  },
+  "inputs": {
+    "results/mssp_adversarial/summary/post_plan_error_decomposition.csv": "747bff30d211af5bcfc01aa59181d46a5e23a76f235eb66ccc49597e810bca95"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 1 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/adversarial_robustness_classification.csv": "38f1b75e380bc4d5be7beffdf519d7fdf83c72361c4cf3ca25d33039173a629f"
+  },
+  "inputs": {
+    "results/mssp_adversarial/summary/robustness_classification.csv": "38f1b75e380bc4d5be7beffdf519d7fdf83c72361c4cf3ca25d33039173a629f"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 1 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

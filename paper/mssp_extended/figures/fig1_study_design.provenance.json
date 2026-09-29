@@ -1,0 +1,11 @@
+{
+  "outputs": {
+    "paper/mssp_extended/figures/fig1_study_design.pdf": "e96df90810cbaed4b21d11a0daa411a6d706672c38d1ba15921db1c306542501",
+    "paper/mssp_extended/figures/fig1_study_design.png": "d14907b835fc774a23ddc9369ccdd5cdd12e2040572a3da8e21641812b2c370f"
+  },
+  "inputs": {},
+  "builder": "paper/mssp_extended/build_figures_tables.py",
+  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "note": "Schematic; counts from docs/extension/SUBSET_SELECTION_LOCK.md.",
+  "built_utc": "2026-09-29T02:48:42+00:00"
+}

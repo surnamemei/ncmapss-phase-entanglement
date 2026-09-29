@@ -1,0 +1,311 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    24
+   ]
+  ],
+  "date-time": "2026-09-24T22:38:09Z",
+  "timestamp": 1790289489535,
+  "version": "4.1.0"
+ },
+ "publisher-location": "New York, NY, USA",
+ "reference-count": 17,
+ "publisher": "ACM",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      1999,
+      8,
+      1
+     ]
+    ],
+    "date-time": "1999-08-01T00:00:00Z",
+    "timestamp": 933465600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "dl.acm.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    1999,
+    8
+   ]
+  ]
+ },
+ "DOI": "10.1145/312129.312195",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2004,
+    2,
+    3
+   ]
+  ],
+  "date-time": "2004-02-03T12:05:38Z",
+  "timestamp": 1075809938000
+ },
+ "page": "53-62",
+ "update-policy": "https://doi.org/10.1145/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 245,
+ "title": [
+  "Activity monitoring"
+ ],
+ "prefix": "10.1145",
+ "author": [
+  {
+   "given": "Tom",
+   "family": "Fawcett",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Bell Atlantic Science and Technology, 500 Westchester Ave, White Plains, New York"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Foster",
+   "family": "Provost",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Bell Atlantic Science and Technology, 500 Westchester Ave, White Plains, New York"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "320",
+ "published-online": {
+  "date-parts": [
+   [
+    1999,
+    8
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_3_2_1_1_2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/290941.290954"
+  },
+  {
+   "key": "e_1_3_2_1_2_2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1023/A:1007400206189"
+  },
+  {
+   "key": "e_1_3_2_1_3_2",
+   "first-page": "164",
+   "volume-title": "KDD-98",
+   "author": "CHAN P.",
+   "year": "1998"
+  },
+  {
+   "key": "e_1_3_2_1_4_2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1023/A:1009740009307"
+  },
+  {
+   "key": "e_1_3_2_1_5_2",
+   "first-page": "5",
+   "volume-title": "Predicting the Future: AI Approaches to Time Series Problems (July",
+   "author": "DAVISON B. D.",
+   "year": "1998"
+  },
+  {
+   "key": "e_1_3_2_1_6_2",
+   "first-page": "189",
+   "volume-title": "KDD-98",
+   "author": "MOUCHEL W.",
+   "year": "1998"
+  },
+  {
+   "key": "e_1_3_2_1_7_2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1023/A:1009700419189"
+  },
+  {
+   "key": "e_1_3_2_1_8_2",
+   "first-page": "22",
+   "volume-title": "National Computer Security Conference (October",
+   "volume": "1",
+   "author": "FRANK J.",
+   "year": "1994"
+  },
+  {
+   "key": "e_1_3_2_1_9_2",
+   "volume-title": "Department of Computer Sciences",
+   "author": "KUMAR S.",
+   "year": "1995"
+  },
+  {
+   "key": "e_1_3_2_1_10_2",
+   "first-page": "259",
+   "volume-title": "KDD-98",
+   "author": "LANE T.",
+   "year": "1998"
+  },
+  {
+   "key": "e_1_3_2_1_11_2",
+   "first-page": "66",
+   "volume-title": "KDD-98",
+   "author": "LEE W.",
+   "year": "1998"
+  },
+  {
+   "key": "e_1_3_2_1_12_2",
+   "first-page": "43",
+   "volume-title": "Proceedings of KDD-97",
+   "author": "PROVOST F.",
+   "year": "1997"
+  },
+  {
+   "key": "e_1_3_2_1_13_2",
+   "volume-title": "ICML-98",
+   "author": "PROVOST F.",
+   "year": "1998"
+  },
+  {
+   "key": "e_1_3_2_1_14_2",
+   "first-page": "49",
+   "volume-title": "KDD-97",
+   "author": "RUBINSTEIN Y. D.",
+   "year": "1997"
+  },
+  {
+   "key": "e_1_3_2_1_15_2",
+   "volume-title": "AI Approaches to Fraud Detection and Risk Management",
+   "author": "RYAN J.",
+   "year": "1997"
+  },
+  {
+   "key": "e_1_3_2_1_16_2",
+   "first-page": "453",
+   "volume-title": "KDD-9~",
+   "author": "SASISEKHARAN",
+   "year": "1994"
+  },
+  {
+   "key": "e_1_3_2_1_17_2",
+   "first-page": "359",
+   "volume-title": "KDD-98",
+   "author": "WEISS G.",
+   "year": "1998"
+  }
+ ],
+ "event": {
+  "name": "KDD99: The First Annual International Conference on Knowledge Discovery in Data",
+  "location": "San Diego California USA",
+  "acronym": "KDD99",
+  "sponsor": [
+   "SIGMOD ACM Special Interest Group on Management of Data",
+   "SIGAI ACM Special Interest Group on Artificial Intelligence",
+   "SIGKDD ACM Special Interest Group on Knowledge Discovery in Data",
+   "AAAI Am Assoc for Artifical Intelligence"
+  ]
+ },
+ "container-title": [
+  "Proceedings of the fifth ACM SIGKDD international conference on Knowledge discovery and data mining"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://dl.acm.org/doi/10.1145/312129.312195",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://dl.acm.org/doi/pdf/10.1145/312129.312195",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    17
+   ]
+  ],
+  "date-time": "2025-06-17T23:39:27Z",
+  "timestamp": 1750203567000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.acm.org/doi/10.1145/312129.312195"
+  }
+ },
+ "subtitle": [
+  "noticing interesting changes in behavior"
+ ],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    1999,
+    8
+   ]
+  ]
+ },
+ "references-count": 17,
+ "alternative-id": [
+  "10.1145/312129.312195",
+  "10.1145/312129"
+ ],
+ "URL": "https://doi.org/10.1145/312129.312195",
+ "relation": {},
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    1999,
+    8
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "1999-08-01",
+   "order": 2,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ]
+}

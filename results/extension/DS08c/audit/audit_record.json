@@ -1,0 +1,60 @@
+{
+ "audit_fingerprints": {
+  "cvae:0": "ff885e8ffa07fa6eb647e91e202131846edd9f9342eb584a4845e36a2abcc319",
+  "cvae:1": "50362cd8d3a9964b86b3401f9cfa69f5540ae927da8597fe59a4222a7bf27b18",
+  "cvae:2": "dbc44a288435e83a9f431c2e3aac3dde12036ce3021102175eb0335a7ccf76c6",
+  "isolation_forest:0": "292aa92778b547a4a5ec20543216aacb70e14a734f035c792941737248c5a079",
+  "isolation_forest:1": "653fb3cb5c3c9835aa0562afed073dde39237e0a73f14b8783b629c37c686d13",
+  "isolation_forest:2": "9e36f4fdf92e3063600fb6f7745d4910165f0863e27c655280ccb2b4deac985b",
+  "lstm_autoencoder:0": "e3d94f031660bde5f2afbe0e5a3bea123a5ab6dbf59e9a2320b245b154d42223",
+  "lstm_autoencoder:1": "d2c516d7958736f821deb4bfbd44dd8140f37fa8763633ccb3e65c96e9108727",
+  "lstm_autoencoder:2": "2a18a8abee6e04e2afbbf4f20deda282e350750f2a68da23181b0b725e96cc52",
+  "pca:-1": "1506b65a9ff28a9a79b2c63a6881a6d4e6703add7e277a9fd348b9bfe035ea83"
+ },
+ "audit_rows": 2117819,
+ "calibration_lock_sha256": "50ce8d467484502bab5787d843ea2e093f32907e2be1888b7cec0dcba6215752",
+ "code": {
+  "cvae_spec_sha256": "8fe45498a9f194d42a5e67fe3b871694e814bb3dfab69ecadbf2bee5b914bba7",
+  "files": {
+   "src/ext_calibration.py": "4f3009102b038cf2b192edf0c36008fe43da72280d8a2e60cc1cea7f05c02918",
+   "src/ext_common.py": "8b33f760c113f661fb4ce338656eac36b0197e8bfea2858e470d33e181e57f4c",
+   "src/ext_cvae.py": "7db4ca5c099d5db1b8ecc78276478e65872ea2206e4c9b94d589f474f90725fe",
+   "src/ext_endpoints.py": "3599f31faab73f6b8685b6746a93e10a890f87c70dfb7c7c7fced7f8edcf928f",
+   "src/ext_models.py": "e0cd2e307d480af6532fc468db2e53dc71ee6afc7469453ad1878781c30e292b",
+   "src/ext_pipeline.py": "16c1e795d4e8ced57f946186c889a4d12766923c4d37c478168d1c446f874404",
+   "src/ext_qfit.py": "465b352952b9e6e55090cc29a25bd453b841519b0023e6237c3d3ed98dd9d922",
+   "src/ext_summary.py": "1219cc017d9afc2e58d9ec6318914bfd06b53896f2c9b491c01203f89546753d"
+  },
+  "git_head": "73e4555ad79c27fc5538b95d5df3afe81ab4f0cf",
+  "protocol_sha256": "72ff84e198fcc4c466f898159c7bc04b879f55036c5d425a2a7285cffc3d3bce"
+ },
+ "duplicate_digests_audit": {},
+ "finished_utc": "2026-09-28T15:37:32Z",
+ "healthy_rows": 758018,
+ "outputs_sha256": {
+  "abnormal_alarm_rates": "2f6ee32b119bd9a31538729e2179ffc1a6eb9e6be7059caebad0818050f6570a",
+  "audit_flights": "595db85ab925ac92d2f8e8dcfdc8858b539ae06ba26f5cb8fd5b52cc7d76c8ff",
+  "bootstrap_uext1_ci": "a2ef9ebd89620b796d060080767f46f7c58c1cecf92d6624b2fe7cd36cba4a07",
+  "bootstrap_uext1_replicates_alpha_0.01": "87d2a8f07e09ffc2ce78e6ec42aed23f7b7bf01a033cd9f30288ce85918fa0c1",
+  "calibration_quality": "58eae1ffed90d0dbdb663e97aacbbde7bee11e304be865a9f7273b634b985e44",
+  "curve_level_summary": "9691471080d048a4d147c795901f6113ebae8f174a002f2a03386e1d7568ad0d",
+  "detection_delay": "3df78fcb6944bd1f8d3ad3c7cd649a3c4468c1396b0dd8c4d47098543eea8eab",
+  "flight_false_flags": "8951e477756da7c5dec82e54089f8d3c107a933a9889ee1dfec461755cf8d615",
+  "flight_trajectories": "ee12e23f9cbf107e1215007d46142f3047d9a6d31d5003793b88c78d64cb7612",
+  "locked_operating_points": "7cc6a323c4bf3f9344ff641346f08f61a4414f65933fe0e27994ebe9370fb828",
+  "matched_comparisons": "9080fea64e14a5a666b630a102b96e64e8a92d97d10922e2817e02bdee7b7dba",
+  "matched_labels": "de439f341feb99a01ea9b3f501615118a743fb67846f2e89b88fb2a88972fbde",
+  "matched_operating_points": "1e133a00a6e24849c8ee276ffda2c731cf14f0442b97292a00d5607c591ac71e",
+  "paired_transport": "2e92cca7f360648feff190fef19dfd2ba43fb98689371729c22c03b1b0076276",
+  "paired_transport_engines": "5976ad33b599f7ef2bd0f8992e9aad7a451c5b7a42e0ac4ae656a9bf6a6b5148",
+  "persistence_calibration": "d372365626ae5a05699b0e46298b7bc14d1fcea7cccc364b167fcef1be4f114e",
+  "phase_fpr": "c23af001c5e6ed1574cf1fca9bc28d2033a7c7815b12bf8174ac895e63535b2b",
+  "transfer_matrix": "5d6c228d41fce6f79014e2f6ce2c60bfb4cbabe995c5a323d3fc738d44f5c10d",
+  "transport_summary": "4bdea1618014028ec44422f566c0ac18641d2490f54d0f6d8f6ff23488fda18b"
+ },
+ "post_onset_rows": 1359801,
+ "reproduction_only": false,
+ "seconds": 118.5,
+ "started_utc": "2026-09-28T15:35:34Z",
+ "subset": "DS08c"
+}

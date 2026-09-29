@@ -1,0 +1,212 @@
+{
+  "dataset": "ds02",
+  "plan_sha256": "d993dd3f9e5ab28615f22e8559af4fe33548a853ddfce3ce765a9043bb217cfd",
+  "parts": {
+    "A": {
+      "folder": "results/mssp_adversarial/ds02/calibration_quality",
+      "outputs_sha256": {
+        "calibration_quality_metrics": "6ca1752c977b4fcc34fe1bc1b569c08c7a39d9cfe04cea89680cdceb4be2f04c",
+        "calibration_quality_paired": "cd5dfcfad4e4745cdb4630dffe0973f51d0ec197a69dd6b2e251bca7e5d265c7",
+        "calibration_quality_family_means": "c75cb9d8a0aafc20311df4c6953376cdc9b2ea38293665b8f2c6d5507ccd3146",
+        "calibration_quality_u1_ci": "7dc3902f0223583dbfdafe3a4e05f87591d19ac2dd7053e0e8ce071d2cebe72c"
+      },
+      "details": {
+        "spread_reproduction_max_abs_diff": 0.0,
+        "mpce_reproduction_max_abs_diff": 0.0,
+        "extended_u1_self_check_max_abs_diff": 0.0
+      },
+      "seconds": 100.0
+    },
+    "B": {
+      "folder": "results/mssp_adversarial/ds02/matched_delay",
+      "outputs_sha256": {
+        "calibration_flight_fractions": "1736c44370fe6302a8e304f1da3f51d22c0480b82e76f9efc25a5bc76f464019",
+        "operating_points": "dadf2a9c7ae98ed14901da35950872915c643cce5795e88401b1800ea5b64f84",
+        "matched_false_flag_comparisons": "591268a0b1f3196261b588cc825df3862cc80e38b400f8fa85f680aed82301a7",
+        "locked_operating_points": "0af82180d7434d9fa3aa33d4e6ab569ebcc58b42c8428b7515a283fe3c983e93",
+        "curve_level_summary": "b4708e0028c1f287543024245f3f8d7c56d7c073d5ca418e64fc1795584a46c4",
+        "matched_labels": "b2490e560158fcace821a634e218d3e408624fe4cbb29961dffb0a90c5b59ee4",
+        "early_window_row_alarm_rates": "c71b988ca772933a41c5c11328d38af70979bae035b46b060e39728ffd45f366"
+      },
+      "details": {
+        "trajectory_reproduction": {
+          "engine_rows_checked": 189,
+          "exact": true
+        },
+        "healthy_audit_flights": 76,
+        "engines": [
+          11,
+          14,
+          15
+        ],
+        "min_supported_anchors_at_1pct": 3
+      },
+      "seconds": 4.2
+    },
+    "C": {
+      "folder": "results/mssp_adversarial/ds02/support_transport",
+      "outputs_sha256": {
+        "support_cells": "68763f23a67c69b6787abea1bb4cf334d1164e49ed5ca9876e036f8fe86e745b",
+        "support_flight_class": "060f7eee6d8e52abdce925bef89b78892749d4d5bc20be860c827b789a63b266",
+        "support_reference_calibration": "6dfcf9b041bcd2f0800bf55f76e23b041add3cae75ff9d345f6424d6e0408fba",
+        "calibration_phase_effect": "84b66d4142fc69fa219350e6fb570888abb4d0dc573acee471e30b49198a18d6",
+        "support_associations": "b1afbd58505dddc6c6e618f6ae6f0e109900eafb6a2081ecf632b3a7906e74f1",
+        "support_engines": "18c7aaeb4def6a8c00b44ad070adec787dcccc9ae73cf2085c9153323d889fc6"
+      },
+      "details": {
+        "standardization_4d": {
+          "mean": [
+            21833.169404334232,
+            0.6220970102988412,
+            68.31170587291562,
+            475.0706300062426
+          ],
+          "sd": [
+            6464.12397678175,
+            0.07873535304207495,
+            14.370781467551796,
+            17.297102620642875
+          ]
+        },
+        "standardization_8d": {
+          "mean": [
+            21833.169404334232,
+            0.6220970102988412,
+            68.31170587291562,
+            475.0706300062426,
+            0.06911778181914835,
+            -1.7854158122462499e-07,
+            -0.003707860234944283,
+            -0.0002534902157985476
+          ],
+          "sd": [
+            6464.12397678175,
+            0.07873535304207495,
+            14.370781467551796,
+            17.297102620642875,
+            4.185638001477996,
+            8.590403594020899e-05,
+            0.0470879324053553,
+            0.013120337343067381
+          ]
+        },
+        "support_reference_threshold_q95": {
+          "d_phase": [
+            0.28797645144168954,
+            1.3114707356136006,
+            0.5544871377969073
+          ],
+          "d8_phase": [
+            0.7547096447089237,
+            1.5199002696811768,
+            1.172076951581948
+          ],
+          "d_all": 0.3452241580192318
+        },
+        "calibration_flight_classes": [
+          3
+        ],
+        "audit_rows": 433113,
+        "calibration_rows": 386643,
+        "operating_variables": [
+          "alt",
+          "Mach",
+          "TRA",
+          "T2"
+        ],
+        "dynamic_variables": [
+          "slope120_alt",
+          "slope120_Mach",
+          "slope120_TRA",
+          "slope120_T2"
+        ]
+      },
+      "seconds": 4.4
+    }
+  },
+  "abnormal_rows_read": false,
+  "stage_d_count_reproduction": {
+    "rows_compared": 1008,
+    "max_abs_rate_difference": 0.0,
+    "exact": true
+  },
+  "mitigation_lock_sha256": "2c3e9e66ee153b132706805d510e3ba32724e1bbeed53c713653814a192b0a3f",
+  "timings": {
+    "load_healthy_blocks": 0.3,
+    "fit_detectors": 14.2,
+    "score_healthy_rows": 12.8
+  },
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS02-006.h5",
+    "h5_md5": "61056251b36290e11371e017eed70eac",
+    "h5_bytes": 2450472504
+  },
+  "manifest_after": {
+    "manifest": "docs/mssp/frozen_baseline.sha256",
+    "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+    "entries": 186,
+    "missing": [],
+    "mismatched": [],
+    "skipped_absent_git_ignored": [],
+    "ok": true
+  },
+  "started_utc": "2026-09-27T16:30:35+00:00",
+  "finished_utc": "2026-09-27T16:32:57+00:00",
+  "seconds": 142.1,
+  "environment": {
+    "python": "3.12.3",
+    "executable": "/home/mei/global-python/bin/python",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "requirements_lock": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "lock_mismatches": {},
+    "cuda_runtime": "13.0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "cudnn": 92400,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "provenance": {
+    "plan": "docs/mssp/adversarial_validation_plan.md",
+    "plan_sha256": "d993dd3f9e5ab28615f22e8559af4fe33548a853ddfce3ce765a9043bb217cfd",
+    "module_sha256": "9c9484dc4ef91b31835b94a9cdb7d054686624b3f9ea99e7a8e6e29fd7931aa5",
+    "frozen_module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "39a5f8188d48dd42563b7bcfe512d36d76762392",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_adversarial/",
+        "scripts/run_mssp_adversarial.py",
+        "src/mssp_adversarial.py"
+      ]
+    }
+  }
+}

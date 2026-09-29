@@ -1,0 +1,65 @@
+{
+ "audit_fingerprints": {
+  "cvae:0": "50d5a45f512c13d286bb3b112cd0d1bea1d7a362f091ec7fdeda76e5c256d381",
+  "cvae:1": "d666975d1f2ccd3a493a5d348f01e5ac7b1273b63b77cfce745443edc4285635",
+  "cvae:2": "2b8173f7e6e891c697be463dde3dddd67c8b128ea17e4580e989d0e76c2f273e",
+  "isolation_forest:0": "d2e4b43b503e398e5d1d9f870c7e3c872c2aa708ff51bcbf5f55ed421d8ae38d",
+  "isolation_forest:1": "31ae149573f4684a01a6eacac3068c6983151c57bbcc67b6a01904c2a17a6a4f",
+  "isolation_forest:2": "1886a9f294a94c05f11dd7943c9b33263be4d18844946fd90bad3c3c7be52556",
+  "lstm_autoencoder:0": "d371e9d83ca18b7197a74137623e2b65f18d26e06c54453aa43897e4d19de3e0",
+  "lstm_autoencoder:1": "09b219f76c5d64b3f376a3a765ae7e9d4a5b9fb95d23aae42c5c23762e097908",
+  "lstm_autoencoder:2": "d259089f9c9d9987434fae0832be6c256d93c089f59d3512392df9cc6d6a5ec7",
+  "pca:-1": "b7722ddb232ba6fb90cdb0850677fbbda9e13c14b6b8f0f563e76722e34c501d"
+ },
+ "audit_rows": 1253743,
+ "calibration_lock_sha256": "5729c40ebb7c8208b9ddbc3ec7f13b090df5e8e7294f1ab2e19db1a321471c3a",
+ "code": {
+  "cvae_spec_sha256": "8fe45498a9f194d42a5e67fe3b871694e814bb3dfab69ecadbf2bee5b914bba7",
+  "files": {
+   "src/ext_calibration.py": "4f3009102b038cf2b192edf0c36008fe43da72280d8a2e60cc1cea7f05c02918",
+   "src/ext_common.py": "8b33f760c113f661fb4ce338656eac36b0197e8bfea2858e470d33e181e57f4c",
+   "src/ext_cvae.py": "7db4ca5c099d5db1b8ecc78276478e65872ea2206e4c9b94d589f474f90725fe",
+   "src/ext_endpoints.py": "3599f31faab73f6b8685b6746a93e10a890f87c70dfb7c7c7fced7f8edcf928f",
+   "src/ext_models.py": "e0cd2e307d480af6532fc468db2e53dc71ee6afc7469453ad1878781c30e292b",
+   "src/ext_pipeline.py": "16c1e795d4e8ced57f946186c889a4d12766923c4d37c478168d1c446f874404",
+   "src/ext_qfit.py": "465b352952b9e6e55090cc29a25bd453b841519b0023e6237c3d3ed98dd9d922",
+   "src/ext_summary.py": "1219cc017d9afc2e58d9ec6318914bfd06b53896f2c9b491c01203f89546753d"
+  },
+  "git_head": "b0ee43ceceb9822bc116c9d59b5667783be5cfa0",
+  "protocol_sha256": "72ff84e198fcc4c466f898159c7bc04b879f55036c5d425a2a7285cffc3d3bce"
+ },
+ "finished_utc": "2026-09-28T15:01:45Z",
+ "gates": {
+  "adversarial_part_d_q_healthy_counts": "equal (336 cells)",
+  "stage_c_healthy_audit_fingerprints": "equal (7 residual runs)",
+  "stage_e_trajectory_alarm_counts": "equal (42 run x target x arm checks)"
+ },
+ "healthy_rows": 433113,
+ "outputs_sha256": {
+  "abnormal_alarm_rates": "64c740797dde66d8b5792caba635448917e9d93f33493bb1667d54da78407863",
+  "audit_flights": "22f184f325119da6ebc0d36298c51c85a44200cbe8db64c6997c36597f4014e6",
+  "bootstrap_uext1_ci": "7a003327ac26a53e054d7692a41615088261e82380ad560b2ad289e614b5842a",
+  "bootstrap_uext1_replicates_alpha_0.01": "ded25196f42779019ff5f5d11118f7900fe92fe850b8034302f0d2b5edd6d830",
+  "calibration_quality": "1c9bc48305a0666b93d157187b2cbaf17a558bc034521cff4f9145a507ae6b64",
+  "composition_metrics": "99379215d2c596e17c49459c7a4f931ef2872cd549945a2d4b982d8b84667a80",
+  "curve_level_summary": "6ef1b8014425cc55840e09be65cc8fe455d0c4d46796d3dcd22da3ee658c87a3",
+  "detection_delay": "be44a60c95801e6e3b1f0cfa2b301db9a94f18550db7968b1d8924bf1f3750d8",
+  "flight_false_flags": "55b2a9b68187b66e263f40c061a96a4cb0d85c346cffe789b2d529d43d0ddef7",
+  "flight_trajectories": "b9b54e8b22e2a59b23445ff4fdb437f160060ccb5e2b7e1c6a37cef15ff5ec3b",
+  "locked_operating_points": "a6fc716be8e831f0aa53674d1a5c65b7421f688fe65cbd86afefc4d76fcd772c",
+  "matched_comparisons": "b8a8f02fa2d2a60f059a23265e8b3252ae0dd3c5bd3371f4b153efbc488d29b9",
+  "matched_labels": "b48f32297111f9c95cc21da39a7e7952e62b7b103b7d78654c6b34383147d6a6",
+  "matched_operating_points": "d00958212e86ff6194030859cf4cd7b4ebb78e5a4d76067875fe48571aa432c8",
+  "paired_transport": "0f787c134bfb292385ef5b9085ff522fc7a7d9fd4eb23c444bb21192fdee4216",
+  "paired_transport_engines": "345ce2e0bc799c3bbe571c8dc1966294606584a501a02e459093d0002e2e9924",
+  "persistence_calibration": "e8c3d7b64c8ab9ba302d9374103eb5bbc56a19f0694695aabfc2fbc122e3fa09",
+  "phase_fpr": "6cd49d1df795d86c80417250726d1cc41da5384ecdf51dbf3b332e857a40f95d",
+  "transfer_matrix": "1c5f028db069440ea5371d33971060ff4b2d93ac53a94108f03ad3d22dcb4b60",
+  "transport_summary": "1cfdb6155a341d08f5bf03604d5cbea46371e2e1110f6a8d97378ff5222767f0"
+ },
+ "post_onset_rows": 820630,
+ "reference": true,
+ "seconds": 2215.0,
+ "started_utc": "2026-09-28T14:24:50Z",
+ "subset": "DS02"
+}

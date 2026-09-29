@@ -1,0 +1,101 @@
+{
+  "stage": "E",
+  "dataset": "ds03",
+  "mitigation_lock_sha256": "8e8473507f4cfea7e808e0b32b1f31db8405a9ad6203bae35df33984d65e9eda",
+  "abnormal_rows_read": 2956881,
+  "abnormal_blocks": [
+    [
+      249848,
+      951109
+    ],
+    [
+      1212316,
+      1775601
+    ],
+    [
+      1931041,
+      2181010
+    ],
+    [
+      2432683,
+      3287902
+    ],
+    [
+      3447483,
+      3633386
+    ],
+    [
+      3850316,
+      4251560
+    ]
+  ],
+  "eligible_engines": {
+    "s1_s3_s4": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "s2": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "d": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "outputs_sha256": {
+    "abnormal_alarm_rates": "a733572e0f8627fb0c15e3cdf204cb421df8063f9f14884e93e65f95a4e7c21c",
+    "flight_alarm_fraction_trajectories": "9186f9adea0388aeccc0ddbd2b1c65da1b587070704c7d265c59d1f5d0cc7822",
+    "detection_delay": "ac526cdbaa837354bd93fa32411ba9dd548c268278ccda6d854675c83ea1c390",
+    "healthy_flight_false_flags_with_delay": "fcdba367f284f75a3c38dd11b0fb2cf8cb46449ea75c8ebef5f0fe5c19c50c85",
+    "separability_pauc": "ed6af513cb79fa9907504cca7c83553b6514da97ddb1fe80eb242f175319864a",
+    "guardrails": "557caf3848e84ef41ed30c811c5e0dc38837bd976d305102a0c9011c86afdf78",
+    "u2_bootstrap_ci": "36319e5ce4a0555c82c4db19f48e903a8b4c35ffc2c166549b765b005931d7bf"
+  },
+  "started_utc": "2026-09-27T14:55:39+00:00",
+  "finished_utc": "2026-09-27T14:58:08+00:00",
+  "seconds": 149.4,
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS03-012.h5",
+    "h5_md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+    "h5_bytes": 3693395776
+  },
+  "provenance": {
+    "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md",
+    "protocol_sha256": "b4a669cdd00d40753b4b7cca3576ab701f69a19b333a5ff216e21be86a33cacb",
+    "config_sha256": "23bb3b04559162f3538f6eaa3bdd14d5324df316b97f0d49be3ac11361cee144",
+    "module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "032f2f8e18617c3ca222322adb862a8ce3087e6a",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_mitigation/ds02/stage_e/",
+        "results/mssp_mitigation/ds03/stage_e/"
+      ]
+    }
+  }
+}

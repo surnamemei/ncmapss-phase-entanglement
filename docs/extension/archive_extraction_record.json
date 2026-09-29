@@ -1,0 +1,308 @@
+{
+  "started_utc": "2026-09-28T02:45:12Z",
+  "outer_archive": "nasa_dataset2_official.zip",
+  "outer_bytes": 15760443389,
+  "outer_member": "17. Turbofan Engine Degradation Simulation Data Set 2/data_set.zip",
+  "hdf5_opened": false,
+  "note": "Bytes copied and CRC/size-checked only; no HDF5 file was opened by this script.",
+  "inner_zip_directory": {
+    "bytes": 15814385805,
+    "crc32": "fe845723"
+  },
+  "inner_zip_extract_seconds": 51.3,
+  "inner_members": [
+    {
+      "name": "data_set/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "crc32": "00000000",
+      "date_time": [
+        2022,
+        9,
+        17,
+        22,
+        0,
+        22
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS01-005.h5",
+      "bytes": 2873351432,
+      "compressed_bytes": 1598811454,
+      "crc32": "ddff9029",
+      "date_time": [
+        2021,
+        1,
+        13,
+        16,
+        0,
+        20
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS02-006.h5",
+      "bytes": 2450472504,
+      "compressed_bytes": 1354959187,
+      "crc32": "e85c00fc",
+      "date_time": [
+        2021,
+        1,
+        13,
+        16,
+        21,
+        14
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS03-012.h5",
+      "bytes": 3693395776,
+      "compressed_bytes": 2053763427,
+      "crc32": "09436ac4",
+      "date_time": [
+        2021,
+        1,
+        13,
+        11,
+        53,
+        36
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS04.h5",
+      "bytes": 3752493952,
+      "compressed_bytes": 2118877988,
+      "crc32": "ab3ca572",
+      "date_time": [
+        2021,
+        1,
+        13,
+        16,
+        53,
+        58
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS05.h5",
+      "bytes": 2599166216,
+      "compressed_bytes": 1445207667,
+      "crc32": "1f65f636",
+      "date_time": [
+        2021,
+        1,
+        12,
+        12,
+        29,
+        20
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS06.h5",
+      "bytes": 2549159720,
+      "compressed_bytes": 1417024398,
+      "crc32": "09f6f33b",
+      "date_time": [
+        2021,
+        1,
+        13,
+        15,
+        12,
+        4
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS07.h5",
+      "bytes": 2714714776,
+      "compressed_bytes": 1509219937,
+      "crc32": "9b8b410c",
+      "date_time": [
+        2021,
+        1,
+        13,
+        15,
+        34,
+        58
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS08a-009.h5",
+      "bytes": 3236762200,
+      "compressed_bytes": 1801568073,
+      "crc32": "b823a8fe",
+      "date_time": [
+        2021,
+        1,
+        13,
+        17,
+        21,
+        22
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS08c-008.h5",
+      "bytes": 2413078176,
+      "compressed_bytes": 1339877574,
+      "crc32": "f4a5f8c5",
+      "date_time": [
+        2021,
+        1,
+        13,
+        17,
+        43,
+        0
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_DS08d-010.h5",
+      "bytes": 2885034848,
+      "compressed_bytes": 1172637423,
+      "crc32": "c3acd78a",
+      "date_time": [
+        2021,
+        1,
+        13,
+        18,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "data_set/N-CMAPSS_Example_data_loading_and_exploration.ipynb",
+      "bytes": 4598892,
+      "compressed_bytes": 1670702,
+      "crc32": "d448c935",
+      "date_time": [
+        2021,
+        1,
+        14,
+        11,
+        33,
+        32
+      ]
+    },
+    {
+      "name": "data_set/Run_to_Failure_Simulation_Under_Real_Flight_Conditions_Dataset.pdf",
+      "bytes": 857554,
+      "compressed_bytes": 765471,
+      "crc32": "71ef9af6",
+      "date_time": [
+        2021,
+        1,
+        14,
+        11,
+        32,
+        34
+      ]
+    }
+  ],
+  "hdf5_files": {
+    "N-CMAPSS_DS01-005.h5": {
+      "member": "data_set/N-CMAPSS_DS01-005.h5",
+      "zip_bytes": 2873351432,
+      "zip_crc32": "ddff9029",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 5.1,
+      "bytes": 2873351432,
+      "md5": "2f6b9940deb081b3984820554e100383",
+      "sha256": "3abdcee2a3c8136e8880e5d43ac8cdf12ab9f7f3ab37145f23b24c11335afbed",
+      "crc32": "ddff9029"
+    },
+    "N-CMAPSS_DS02-006.h5": {
+      "member": "data_set/N-CMAPSS_DS02-006.h5",
+      "zip_bytes": 2450472504,
+      "zip_crc32": "e85c00fc",
+      "action": "verified existing project copy (already opened by the frozen study)",
+      "bytes": 2450472504,
+      "md5": "61056251b36290e11371e017eed70eac",
+      "sha256": "47971a68b239ecb756833218a95d68ded6eb7e63ee84e86671c8b188de1ca765",
+      "crc32": "e85c00fc"
+    },
+    "N-CMAPSS_DS03-012.h5": {
+      "member": "data_set/N-CMAPSS_DS03-012.h5",
+      "zip_bytes": 3693395776,
+      "zip_crc32": "09436ac4",
+      "action": "verified existing project copy (already opened by the frozen study)",
+      "bytes": 3693395776,
+      "md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+      "sha256": "f67cc4bd0cf927f09eb8e0198bd62c777e1c6213177cfc46d81cc43bba52c333",
+      "crc32": "09436ac4"
+    },
+    "N-CMAPSS_DS04.h5": {
+      "member": "data_set/N-CMAPSS_DS04.h5",
+      "zip_bytes": 3752493952,
+      "zip_crc32": "ab3ca572",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 10.6,
+      "bytes": 3752493952,
+      "md5": "8a31abc41cba1df040e322310c218411",
+      "sha256": "2b58cbb78497679fadafe0761203b2ae3b0e4e1193039dc34ca25f17ecaeb2e6",
+      "crc32": "ab3ca572"
+    },
+    "N-CMAPSS_DS05.h5": {
+      "member": "data_set/N-CMAPSS_DS05.h5",
+      "zip_bytes": 2599166216,
+      "zip_crc32": "1f65f636",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 7.6,
+      "bytes": 2599166216,
+      "md5": "0eaa6a22cabbfdff9bcbee5802c56d99",
+      "sha256": "ef99ead42ac184503035895797c16e9a7e42554a08074aa760d0bba39db42e23",
+      "crc32": "1f65f636"
+    },
+    "N-CMAPSS_DS06.h5": {
+      "member": "data_set/N-CMAPSS_DS06.h5",
+      "zip_bytes": 2549159720,
+      "zip_crc32": "09f6f33b",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 6.5,
+      "bytes": 2549159720,
+      "md5": "2650cd7fe2aaf4c54cd30a7455bfa451",
+      "sha256": "91ccf478b21dd6337cfa608f20b647ec04228d59cf4ee59be87fad5f08b17b20",
+      "crc32": "09f6f33b"
+    },
+    "N-CMAPSS_DS07.h5": {
+      "member": "data_set/N-CMAPSS_DS07.h5",
+      "zip_bytes": 2714714776,
+      "zip_crc32": "9b8b410c",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 5.8,
+      "bytes": 2714714776,
+      "md5": "65954ffb0f3702247487e03ea34c2639",
+      "sha256": "2f88abc61a532d2e30a6e5ff100a511be4921484a6c7071bc8504e300da4d3bd",
+      "crc32": "9b8b410c"
+    },
+    "N-CMAPSS_DS08a-009.h5": {
+      "member": "data_set/N-CMAPSS_DS08a-009.h5",
+      "zip_bytes": 3236762200,
+      "zip_crc32": "b823a8fe",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 7.9,
+      "bytes": 3236762200,
+      "md5": "785aba8f80d91cc5bb2854bf33a09066",
+      "sha256": "10ddf52e5441a05e3d0d8d797a34e0e5a9ac73dce8ae35d7b22d1ef224d24836",
+      "crc32": "b823a8fe"
+    },
+    "N-CMAPSS_DS08c-008.h5": {
+      "member": "data_set/N-CMAPSS_DS08c-008.h5",
+      "zip_bytes": 2413078176,
+      "zip_crc32": "f4a5f8c5",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 6.6,
+      "bytes": 2413078176,
+      "md5": "0df8dbaefeb7699f2be89c6a9de35fca",
+      "sha256": "150bf696dcf4bbac84518f439ac0d491410037881e214c5b10c048a71770bb38",
+      "crc32": "f4a5f8c5"
+    },
+    "N-CMAPSS_DS08d-010.h5": {
+      "member": "data_set/N-CMAPSS_DS08d-010.h5",
+      "zip_bytes": 2885034848,
+      "zip_crc32": "c3acd78a",
+      "action": "extracted (bytes only)",
+      "extract_seconds": 6.0,
+      "bytes": 2885034848,
+      "md5": "4f188a7e0d01d7a4c7cecb081f0a0c5d",
+      "sha256": "693b035be5e78d50d5da58bcac559e44ee371159efdebe2fac433e567a8af884",
+      "crc32": "c3acd78a"
+    }
+  },
+  "finished_utc": "2026-09-28T02:47:46Z"
+}

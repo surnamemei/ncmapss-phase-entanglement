@@ -1,0 +1,43 @@
+\begin{footnotesize}
+\begin{longtable}{p{0.27\textwidth}p{0.44\textwidth}l}
+\caption{Provenance of the analyses reported in the article. Each run record also names the analysis-module version that produced its outputs.}\label{tab:s1_provenance}\\
+\toprule
+Artefact & Path & SHA-256 (first 16 hex) \\
+\midrule
+\endfirsthead
+\multicolumn{3}{l}{\emph{(continued)}}\\
+\toprule
+Artefact & Path & SHA-256 (first 16 hex) \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Frozen baseline manifest (186 files) & \path{docs/mssp/frozen_baseline.sha256} & \texttt{37c0cef26826bef2} \\
+\midrule
+Post-confirmation protocol v1.0 & \path{docs/mssp/post_confirmation_mitigation_protocol.md} & \texttt{b4a669cdd00d4075} \\
+\midrule
+Protocol amendments & \path{docs/mssp/AMENDMENTS.md} & \texttt{60522a5b4eb5be60} \\
+\midrule
+Adversarial validation plan & \path{docs/mssp/adversarial_validation_plan.md} & \texttt{d993dd3f9e5ab286} \\
+\midrule
+Final story lock & \path{docs/mssp/FINAL_STORY_LOCK.md} & \texttt{f6c5b2cf2d067ed0} \\
+\midrule
+Post-confirmation module & \path{src/mssp_mitigation.py} & \texttt{2764f27113a0c7af} \\
+\midrule
+Adversarial-validation module & \path{src/mssp_adversarial.py} & \texttt{0b2db2b4ad60e509} \\
+\midrule
+DS02 endpoint record (abnormal rows read once) & \path{results/mssp_mitigation/ds02/stage_e/stage_e_record.json} & \texttt{a2ecfaa0eea41074} \\
+\midrule
+DS03 endpoint record (abnormal rows read once) & \path{results/mssp_mitigation/ds03/stage_e/stage_e_record.json} & \texttt{e95e80c76d154ec7} \\
+\midrule
+DS02 adversarial run record (A--C) & \path{results/mssp_adversarial/ds02/run_record_ABC.json} & \texttt{f676c2189422e2b8} \\
+\midrule
+DS03 adversarial run record (A--C) & \path{results/mssp_adversarial/ds03/run_record_ABC.json} & \texttt{5fdd9e77f976964c} \\
+\midrule
+DS02 baseline run record (D) & \path{results/mssp_adversarial/ds02/run_record_D.json} & \texttt{df0d765dd5ed67dd} \\
+\midrule
+DS03 baseline run record (D) & \path{results/mssp_adversarial/ds03/run_record_D.json} & \texttt{1c48684e825e8c9c} \\
+\midrule
+Adversarial summary record & \path{results/mssp_adversarial/summary/summary_record.json} & \texttt{1a59f7170292eead} \\
+\end{longtable}
+\end{footnotesize}

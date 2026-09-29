@@ -1,0 +1,16 @@
+family,arm,engines,clearly_exceeding,share,shows_excess,cvae_clearly_exceeding
+F1,phase_conditioned,4,3,0.75,True,4
+F1,pooled,4,4,1.0,True,4
+F1,quantile_regression_W,4,4,1.0,True,4
+F2,phase_conditioned,4,4,1.0,True,4
+F2,pooled,4,4,1.0,True,3
+F2,quantile_regression_W,4,4,1.0,True,3
+F3,phase_conditioned,12,11,0.9166666666666666,True,11
+F3,pooled,12,12,1.0,True,10
+F3,quantile_regression_W,12,12,1.0,True,12
+F4,phase_conditioned,6,5,0.8333333333333334,True,6
+F4,pooled,6,5,0.8333333333333334,True,6
+F4,quantile_regression_W,6,4,0.6666666666666666,True,6
+F5,phase_conditioned,4,4,1.0,True,4
+F5,pooled,4,4,1.0,True,4
+F5,quantile_regression_W,4,4,1.0,True,3

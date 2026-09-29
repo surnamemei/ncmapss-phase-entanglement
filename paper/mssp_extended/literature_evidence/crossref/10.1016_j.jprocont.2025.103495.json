@@ -1,0 +1,849 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    16
+   ]
+  ],
+  "date-time": "2026-09-16T06:41:40Z",
+  "timestamp": 1789540900143,
+  "version": "build-2803163510"
+ },
+ "reference-count": 48,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/100007673",
+   "name": "ArcelorMittal Maizières Research SA",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/100007673",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/100007677",
+   "name": "Arcelor",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/100007677",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100014674",
+   "name": "La Région Grand Est",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100014674",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Journal of Process Control"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2025,
+    8
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.jprocont.2025.103495",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    7,
+    2
+   ]
+  ],
+  "date-time": "2025-07-02T13:57:21Z",
+  "timestamp": 1751464641000
+ },
+ "page": "103495",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 14,
+ "special_numbering": "C",
+ "title": [
+  "Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders"
+ ],
+ "prefix": "10.1016",
+ "volume": "152",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0009-0000-2410-1760",
+   "authenticated-orcid": false,
+   "given": "Abdoul Rahime",
+   "family": "Diallo",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Lazhar",
+   "family": "Homri",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jean-Yves",
+   "family": "Dantan",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib1",
+   "doi-asserted-by": "crossref",
+   "first-page": "69",
+   "DOI": "10.1016/j.jprocont.2016.08.007",
+   "article-title": "Comparative study on monitoring schemes for non-Gaussian distributed processes",
+   "volume": "67",
+   "author": "Li",
+   "year": "2018",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.jprocont.2025.103495_bib2",
+   "doi-asserted-by": "crossref",
+   "first-page": "409",
+   "DOI": "10.1016/j.cirp.2022.04.005",
+   "article-title": "Data augmentation-based prognostics for predictive maintenance of industrial system",
+   "volume": "71",
+   "author": "Gay",
+   "year": "2022",
+   "journal-title": "CIRP Ann."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "255",
+   "DOI": "10.1016/j.jprocont.2022.06.011",
+   "article-title": "Perspectives on nonstationary process monitoring in the era of industrial artificial intelligence",
+   "volume": "116",
+   "author": "Zhao",
+   "year": "2022",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.jprocont.2025.103495_bib4",
+   "doi-asserted-by": "crossref",
+   "first-page": "221",
+   "DOI": "10.1007/s13748-016-0094-0",
+   "article-title": "Learning from imbalanced data: open challenges and future directions",
+   "volume": "5",
+   "author": "Krawczyk",
+   "year": "2016",
+   "journal-title": "Prog. Artif. Intell."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib5",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jprocont.2025.103408",
+   "article-title": "Cross-domain knowledge transfer in industrial process monitoring: A survey",
+   "volume": "149",
+   "author": "Chai",
+   "year": "2025",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib6",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jprocont.2024.103267",
+   "article-title": "Category-tree-guided hierarchical knowledge transfer framework for zero-shot fault diagnosis",
+   "volume": "141",
+   "author": "Zhang",
+   "year": "2024",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib7",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jprocont.2023.103069",
+   "article-title": "Multi-scale Transformer-CNN domain adaptation network for complex processes fault diagnosis",
+   "volume": "130",
+   "author": "Zhu",
+   "year": "2023",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib8",
+   "author": "Shewhart",
+   "year": "1931",
+   "journal-title": "Econ. Control Qual. Manuf. Prod."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.jprocont.2025.103495_bib9",
+   "doi-asserted-by": "crossref",
+   "first-page": "359",
+   "DOI": "10.1080/00401706.1959.10489868",
+   "article-title": "Quality Control Methods for Several Related Variables",
+   "volume": "1",
+   "author": "Jackson",
+   "year": "1959",
+   "journal-title": "Technometrics"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.jprocont.2025.103495_bib10",
+   "doi-asserted-by": "crossref",
+   "first-page": "233",
+   "DOI": "10.1002/aic.690370209",
+   "article-title": "Nonlinear principal component analysis using autoassociative neural networks",
+   "volume": "37",
+   "author": "Kramer",
+   "year": "1991",
+   "journal-title": "AIChE J."
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.jprocont.2025.103495_bib11",
+   "doi-asserted-by": "crossref",
+   "first-page": "1443",
+   "DOI": "10.1162/089976601750264965",
+   "article-title": "Estimating the Support of a High-Dimensional Distribution",
+   "volume": "13",
+   "author": "Schölkopf",
+   "year": "2001",
+   "journal-title": "Neural Comput."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib12",
+   "series-title": "2008 Eighth IEEE International Conference on Data Mining",
+   "first-page": "413",
+   "article-title": "Isolation Forest",
+   "author": "Liu",
+   "year": "2008"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib13",
+   "doi-asserted-by": "crossref",
+   "first-page": "63",
+   "DOI": "10.1016/j.arcontrol.2016.09.008",
+   "article-title": "Bridging data-driven and model-based approaches for process fault diagnosis and health monitoring: A review of researches and future challenges",
+   "volume": "42",
+   "author": "Tidriri",
+   "year": "2016",
+   "journal-title": "Annu Rev. Control"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib14",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.chemolab.2022.104711",
+   "article-title": "A review on autoencoder based representation learning for fault detection and diagnosis in industrial processes",
+   "volume": "231",
+   "author": "Qian",
+   "year": "2022",
+   "journal-title": "Chemom. Intell. Lab. Syst."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib15",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2021.110460",
+   "article-title": "Autoencoder-based representation learning and its application in intelligent fault diagnosis: A review",
+   "volume": "189",
+   "author": "Yang",
+   "year": "2022",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib16",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jprocont.2023.103143",
+   "article-title": "Improved fault detection based on kernel PCA for monitoring industrial applications",
+   "volume": "133",
+   "author": "Attouri",
+   "year": "2024",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.jprocont.2025.103495_bib17",
+   "doi-asserted-by": "crossref",
+   "first-page": "1567",
+   "DOI": "10.1016/j.jprocont.2012.06.009",
+   "article-title": "A comparison study of basic data-driven fault diagnosis and process monitoring methods on the benchmark Tennessee Eastman process",
+   "volume": "22",
+   "author": "Yin",
+   "year": "2012",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "issue": "8–9",
+   "key": "10.1016/j.jprocont.2025.103495_bib18",
+   "doi-asserted-by": "crossref",
+   "first-page": "480",
+   "DOI": "10.1002/cem.800",
+   "article-title": "Statistical process monitoring: basics and beyond",
+   "volume": "17",
+   "author": "Joe Qin",
+   "year": "2003",
+   "journal-title": "J. Chemom."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib19",
+   "article-title": "“CONFORMAL ANOMALY DETECTION Detecting abnormal trajectories in surveillance applications,”",
+   "author": "Laxhammar",
+   "year": "2014",
+   "journal-title": "Univ. Sk. övde"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103495_bib20",
+   "doi-asserted-by": "crossref",
+   "first-page": "789",
+   "DOI": "10.1177/193229681300700324",
+   "article-title": "Turn it Off!’: Diabetes Device Alarm Fatigue Considerations for the Present and the Future",
+   "volume": "7",
+   "author": "Shivers",
+   "year": "2013",
+   "journal-title": "J. Diabetes Sci. Technol."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.jprocont.2025.103495_bib21",
+   "doi-asserted-by": "crossref",
+   "first-page": "268",
+   "DOI": "10.2345/0899-8205-46.4.268",
+   "article-title": "Monitor alarm fatigue: an integrative review",
+   "volume": "46",
+   "author": "Cvach",
+   "year": "2012",
+   "journal-title": "Biomed. Instrum. Technol."
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.jprocont.2025.103495_bib22",
+   "doi-asserted-by": "crossref",
+   "first-page": "1283",
+   "DOI": "10.1080/001401300421743",
+   "article-title": "Behavioural implications of alarm mistrust as a function of task workload",
+   "volume": "43",
+   "author": "Bliss",
+   "year": "2000",
+   "journal-title": "Ergonomics"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.jprocont.2025.103495_bib23",
+   "doi-asserted-by": "crossref",
+   "first-page": "2300",
+   "DOI": "10.1080/00140139508925269",
+   "article-title": "Human probability matching behaviour in response to alarms of varying reliability",
+   "volume": "38",
+   "author": "Bliss",
+   "year": "1995",
+   "journal-title": "Ergonomics"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.jprocont.2025.103495_bib24",
+   "doi-asserted-by": "crossref",
+   "first-page": "220",
+   "DOI": "10.1016/j.arcontrol.2012.09.004",
+   "article-title": "Survey on data-driven industrial process monitoring and diagnosis",
+   "volume": "36",
+   "author": "Qin",
+   "year": "2012",
+   "journal-title": "Annu Rev. Control"
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.jprocont.2025.103495_bib25",
+   "doi-asserted-by": "crossref",
+   "first-page": "1593",
+   "DOI": "10.1016/j.automatica.2009.02.027",
+   "article-title": "Reconstruction-based contribution for process monitoring",
+   "volume": "45",
+   "author": "Alcala",
+   "year": "2009",
+   "journal-title": "Automatica"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib26",
+   "series-title": "Fault detection and diagnosis in industrial systems",
+   "author": "Chiang",
+   "year": "2000"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib27",
+   "first-page": "52",
+   "article-title": "Issues and Advances in Anomaly Detection Evaluation for Joint Human-Automated Systems",
+   "volume": "595",
+   "author": "Rieth",
+   "year": "2018"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.jprocont.2025.103495_bib28",
+   "doi-asserted-by": "crossref",
+   "first-page": "211",
+   "DOI": "10.1007/s00521-022-08017-3",
+   "article-title": "Challenges and opportunities of deep learning-based process fault detection and diagnosis: a review",
+   "volume": "35",
+   "author": "Yu",
+   "year": "2023",
+   "journal-title": "Neural Comput. Appl."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib29",
+   "series-title": "Algorithmic Learning in a Random World",
+   "author": "Vovk",
+   "year": "2005"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.jprocont.2025.103495_bib30",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1214/22-AOS2244",
+   "article-title": "Testing for outliers with conformal p-values",
+   "volume": "51",
+   "author": "Bates",
+   "year": "2023",
+   "journal-title": "Ann. Stat."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib31",
+   "article-title": "“The efficiency of conformal predictors for anomaly detection,”",
+   "author": "Smith",
+   "year": "2016",
+   "journal-title": "Univ. Lond."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib32",
+   "doi-asserted-by": "crossref",
+   "first-page": "591",
+   "DOI": "10.1016/j.neucom.2021.08.016",
+   "article-title": "Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets",
+   "volume": "462",
+   "author": "Farouq",
+   "year": "2021",
+   "journal-title": "Neurocomputing"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib33",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2022.116864",
+   "article-title": "A conformal anomaly detection based industrial fleet monitoring framework: A case study in district heating",
+   "volume": "201",
+   "author": "Farouq",
+   "year": "2022",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib34",
+   "series-title": "2020 ACM/IEEE 11th International Conference on Cyber-Physical Systems (ICCPS",
+   "first-page": "174",
+   "article-title": "Real-time out-of-distribution detection in learning-enabled cyber-physical systems",
+   "author": "Cai",
+   "year": "2020"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib35",
+   "doi-asserted-by": "crossref",
+   "first-page": "39738",
+   "DOI": "10.1109/ACCESS.2025.3546451",
+   "article-title": "Conformal anomaly detection for predictive maintenance in thermal power plants",
+   "volume": "13",
+   "author": "Kundacina",
+   "year": "2025",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103495_bib36",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1145/1541880.1541882",
+   "article-title": "Anomaly detection",
+   "volume": "41",
+   "author": "Chandola",
+   "year": "2009",
+   "journal-title": "ACM Comput. Surv."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103495_bib37",
+   "doi-asserted-by": "crossref",
+   "first-page": "341",
+   "DOI": "10.1080/00401706.1979.10489779",
+   "article-title": "Control Procedures for Residuals Associated with Principal Component Analysis",
+   "volume": "21",
+   "author": "Jackson",
+   "year": "1979",
+   "journal-title": "Technometrics"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.jprocont.2025.103495_bib38",
+   "doi-asserted-by": "crossref",
+   "first-page": "88",
+   "DOI": "10.1080/00224065.1992.12015232",
+   "article-title": "Multivariate control charts for individual observations",
+   "volume": "24",
+   "author": "Tracy",
+   "year": "1992",
+   "journal-title": "J. Qual. Technol."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib39",
+   "unstructured": "A.N. Angelopoulos and S. Bates, “A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification,” Jul. 2021, Accessed: Jan. 09, 2024. [Online]. Available: 〈http://arxiv.org/abs/2107.07511〉."
+  },
+  {
+   "issue": "2–3",
+   "key": "10.1016/j.jprocont.2025.103495_bib40",
+   "first-page": "349",
+   "article-title": "Conditional validity of inductive conformal predictors",
+   "volume": "92",
+   "author": "Vovk",
+   "year": "2012",
+   "journal-title": "Mach. Learn"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103495_bib41",
+   "doi-asserted-by": "crossref",
+   "first-page": "642",
+   "DOI": "10.1214/aoms/1177728174",
+   "article-title": "Asymptotic minimax character of the sample distribution function and of the classical",
+   "volume": "27",
+   "author": "Dvoretzky",
+   "year": "1956",
+   "journal-title": "Ann. Math. Stat."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103495_bib42",
+   "doi-asserted-by": "crossref",
+   "first-page": "1269",
+   "DOI": "10.1214/aop/1176990746",
+   "article-title": "The Tight Constant in the Dvoretzky-Kiefer-Wolfowitz Inequality",
+   "volume": "18",
+   "author": "Massart",
+   "year": "1990",
+   "journal-title": "Ann. Probab."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.jprocont.2025.103495_bib43",
+   "doi-asserted-by": "crossref",
+   "first-page": "337",
+   "DOI": "10.1214/009053607000000550",
+   "article-title": "Generalizing Simes’ test and Hochberg’s stepup procedure",
+   "volume": "36",
+   "author": "Sarkar",
+   "year": "2008",
+   "journal-title": "Ann. Stat."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103495_bib44",
+   "doi-asserted-by": "crossref",
+   "first-page": "245",
+   "DOI": "10.1016/0098-1354(93)80018-I",
+   "article-title": "A plant-wide industrial process control problem",
+   "volume": "17",
+   "author": "Downs",
+   "year": "1993",
+   "journal-title": "Comput. Chem. Eng."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib45",
+   "article-title": "Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation",
+   "author": "Rieth",
+   "year": "2017",
+   "journal-title": "Harv. Dataverse"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib46",
+   "doi-asserted-by": "crossref",
+   "first-page": "198328",
+   "DOI": "10.1109/ACCESS.2020.3034550",
+   "article-title": "Monitoring statistics and tuning of Kernel principal component analysis with radial basis function Kernels",
+   "volume": "8",
+   "author": "Tan",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib47",
+   "first-page": "1",
+   "article-title": "PyOD: a python toolbox for scalable outlier detection",
+   "volume": "20",
+   "author": "Zhao",
+   "year": "2019",
+   "journal-title": "J. Mach. Learn. Res."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103495_bib48",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.25080/Majora-92bf1922-011",
+   "article-title": "Statsmodels: econometric and statistical modeling with python",
+   "author": "Seabold",
+   "year": "2010",
+   "journal-title": "Proc. 9th PYTHON Sci. CONF"
+  }
+ ],
+ "container-title": [
+  "Journal of Process Control"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0959152425001234?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0959152425001234?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    7,
+    15
+   ]
+  ],
+  "date-time": "2025-07-15T17:11:04Z",
+  "timestamp": 1752599464000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959152425001234"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    8
+   ]
+  ]
+ },
+ "references-count": 48,
+ "alternative-id": [
+  "S0959152425001234"
+ ],
+ "URL": "https://doi.org/10.1016/j.jprocont.2025.103495",
+ "relation": {},
+ "ISSN": [
+  "0959-1524"
+ ],
+ "issn-type": [
+  {
+   "value": "0959-1524",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    8
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Journal of Process Control",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.jprocont.2025.103495",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "103495"
+}

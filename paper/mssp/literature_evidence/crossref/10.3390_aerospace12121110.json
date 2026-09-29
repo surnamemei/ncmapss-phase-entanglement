@@ -1,0 +1,499 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2025,
+    12,
+    18
+   ]
+  ],
+  "date-time": "2025-12-18T05:25:51Z",
+  "timestamp": 1766035551246,
+  "version": "3.48.0"
+ },
+ "reference-count": 37,
+ "publisher": "MDPI AG",
+ "issue": "12",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      16
+     ]
+    ],
+    "date-time": "2025-12-16T00:00:00Z",
+    "timestamp": 1765843200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100003626",
+   "name": "Defense Acquisition Program Administration",
+   "doi-asserted-by": "crossref",
+   "award": [
+    "KRIT-CT-22-081"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "KRIT-CT-22-081"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100003626",
+     "id-type": "DOI",
+     "asserted-by": "crossref"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Aerospace"
+ ],
+ "abstract": "<jats:p>Conventional thresholding methods for rotorcraft Health and Usage Monitoring Systems (HUMS) often neglect flight-condition variability, resulting in frequent false alarms. To address this, a flight-state-driven threshold optimization framework that explicitly incorporates flight parameters and operational context is proposed. The proposed method combines proactive spike filtering with Principal Component Analysis (PCA) of flight parameters to distinguish flight-state-driven Condition Indicator (CI) variations from spike-like artifacts, and then re-estimates thresholds from the filtered CI distribution. The framework is evaluated using HUMS data collected from in-service rotorcraft, focusing on vibration- and fatigue-sensitive transmission components. Quantitative results show that the framework significantly reduces the Background Alarm Rate (BAR) to approximately 0.030 compared to the baseline of 0.202, while maintaining a high In-window Alarm Concentration (IAC) comparable to conventional methods. These validation results using real fault cases confirm the practical applicability of the approach to operational rotorcraft environments, indicating that the framework effectively reduces unnecessary alarms and enhances the stability and reliability of fault detection compared with conventional methods. The proposed framework offers an explainable, consistent, and operationally grounded basis for periodic threshold reviews in HUMS. It complements existing practices in Condition-Based Maintenance (CBM), providing a practical pathway to enhance confidence in vibration-based diagnostics under diverse flight conditions.</jats:p>",
+ "DOI": "10.3390/aerospace12121110",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    12,
+    16
+   ]
+  ],
+  "date-time": "2025-12-16T11:00:26Z",
+  "timestamp": 1765882826000
+ },
+ "page": "1110",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Flight-State-Driven Threshold Optimization Framework for Rotorcraft HUMS"
+ ],
+ "prefix": "10.3390",
+ "volume": "12",
+ "author": [
+  {
+   "given": "Gyeong Jun",
+   "family": "Lee",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Aerospace Engineering and the Program in Aerospace Systems Convergence, Inha University, 36, Gaetbeol-ro, Yeonsu-gu, Incheon 21999, Republic of Korea"
+    }
+   ],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Do Ye",
+   "family": "Park",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Aerospace Engineering, Inha University, 36, Gaetbeol-ro, Yeonsu-gu, Incheon 21999, Republic of Korea"
+    }
+   ],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-2712-8288",
+   "authenticated-orcid": false,
+   "given": "Seon Ho",
+   "family": "Jeong",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "AI Development Team, Korea Aerospace Industries, 309, Teheran-ro, Gangnam-gu, Seoul 06151, Republic of Korea"
+    }
+   ],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-7828-8364",
+   "authenticated-orcid": false,
+   "given": "Jeong Ho",
+   "family": "Kim",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Aerospace Engineering and the Program in Aerospace Systems Convergence, Inha University, 36, Gaetbeol-ro, Yeonsu-gu, Incheon 21999, Republic of Korea"
+    }
+   ],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2025,
+    12,
+    16
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Qi, X., Theilliol, D., Qi, J., Zhang, Y., and Han, J. (2013, January 28–31). A literature review on fault diagnosis methods for manned and unmanned helicopters. Proceedings of the 2013 International Conference on Unmanned Aircraft Systems (ICUAS), Atlanta, GA, USA.",
+   "DOI": "10.1109/ICUAS.2013.6564801"
+  },
+  {
+   "key": "ref_2",
+   "unstructured": "Antolick, L.J., Branning, J.S., Wade, D.R., and Dempsey, P.J. (2010, January 11–13). Evaluation of gear condition indicator performance on rotorcraft fleet. Proceedings of the AHS 66th Annual Forum and Technology Display: Rising to New Heights in Vertical Lift Technology (No. E-17255), Phoenix, AZ, USA."
+  },
+  {
+   "key": "ref_3",
+   "unstructured": "Delgado, I.R., Dempsey, P.J., Antolick, L.J., and Wade, D.R. (2013, January 11–13). Continued evaluation of gear condition indicator performance on rotorcraft fleet. Proceedings of the Airworthiness, Condition Based Maintenance (CBM), and Health and Usage Monitoring (HUMS) Conference (No. NASA/TM-2013-217876), Huntsville, AL, USA."
+  },
+  {
+   "key": "ref_4",
+   "unstructured": "Dempsey, P.J., Wade, D.R., Antolick, L.J., and Thomas, J. (2014). Investigation of Spiral Bevel Gear Condition Indicator Validation Via AC-29-2C Using Fielded Rotorcraft HUMS Data."
+  },
+  {
+   "key": "ref_5",
+   "unstructured": "Air Accidents Investigation Branch (AAIB) (2009). Report on the Accident to Aerospatiale Eurocopter AS332 L2 Super Puma, Registration G-REDL 11 nm NE of Peterhead, Scotland on 1 April 2009."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "first-page": "012040",
+   "DOI": "10.1088/1742-6596/2658/1/012040",
+   "article-title": "A Threshold Design Method of Aircraft Sensor Fault Detection Monitor",
+   "volume": "2658",
+   "author": "Yang",
+   "year": "2023",
+   "journal-title": "J. Phys. Conf. Ser."
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bechhoefer, E., and Bernhard, A.P. (2007, January 3–10). A generalized process for optimal threshold setting in HUMS. Proceedings of the 2007 IEEE Aerospace Conference, Big Sky, MT, USA.",
+   "DOI": "10.1109/AERO.2007.352867"
+  },
+  {
+   "key": "ref_8",
+   "unstructured": "Bechhoefer, E., and Mayhew, E. (2006, January 4–11). Mechanical Diagnostics System Engineering in IMD HUMS. Proceedings of the 2006 IEEE Aerospace Conference, Big Sky, MT, USA."
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "446",
+   "DOI": "10.12673/jant.2016.20.5.446",
+   "article-title": "Flight Safety Assurance Technology for Rotary Aircraft through Optimization of HUMS Vibration Thresholds",
+   "volume": "20",
+   "author": "Jun",
+   "year": "2016",
+   "journal-title": "J. Adv. Navig. Technol."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bechhoefer, E., and Bernhard, A.P. (2004, January 6–13). Setting HUMS condition indicator thresholds by modeling aircraft and torque band variance. Proceedings of the 2004 IEEE Aerospace Conference Proceedings (IEEE Cat. No. 04TH8720), Big Sky, MT, USA.",
+   "DOI": "10.1109/AERO.2004.1368176"
+  },
+  {
+   "key": "ref_11",
+   "unstructured": "Dempsey, P.J., Mosher, M., and Huff, E.M. (2003, January 6–8). Threshold assessment of gear diagnostic tools on flight and test rig data. Proceedings of the 59th Annual Forum and Technology Display (No. E-13812), Phoenix, AZ, USA."
+  },
+  {
+   "key": "ref_12",
+   "unstructured": "Tucker, B.E., and Dempsey, P.J. (2016, January 17–19). Health monitoring survey of bell 412EP transmissions. Proceedings of the American Helicopter Society International’s Annual Forum & Technology Display (No. GRC-E-DAA-TN30704), West Palm Beach, FL, USA."
+  },
+  {
+   "key": "ref_13",
+   "unstructured": "Byington, C.S., Watson, M., Kalgren, P., and Safa-Bakhsh, R. (2003, January 11–14). Metrics evaluation and tool development for health and usage monitoring system technology. Proceedings of the Third International Conference on Health and Usage Monitoring-HUMS2003, Melbourne, Australia."
+  },
+  {
+   "key": "ref_14",
+   "unstructured": "Dempsey, P.J., Keller, J.A., and Wade, D.R. (2008). Signal Detection Theory Applied to Helicopter Transmission Diagnostic Thresholds."
+  },
+  {
+   "key": "ref_15",
+   "unstructured": "(2025, June 23). Health and Usage Monitoring Systems (HUMS) Recommended Practice Guidance (Version 2.1, HO-HUMS-RP-v2.1). Available online: https://www.helioffshore.org."
+  },
+  {
+   "key": "ref_16",
+   "unstructured": "Mosher, M., and Huff, E. (2004, January 8–10). Analysis of In-Flight Vibration Measurements from Helicopter Transmissions. Proceedings of the 60th Forum of American Helicopter Society, Baltimore, MD, USA."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wei, Y., Chen, R., Yuan, Y., and Wang, L. (2023). Influence of Engine Dynamic Characteristics on Helicopter Handling Quality in Hover and Low-Speed Forward Flight. Aerospace, 11.",
+   "DOI": "10.3390/aerospace11010034"
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "439",
+   "DOI": "10.1007/s13272-024-00718-w",
+   "article-title": "On the effects of rotor induced vibrational stability on helicopter flight dynamics",
+   "volume": "15",
+   "author": "Saetti",
+   "year": "2024",
+   "journal-title": "CEAS Aeronaut. J."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "436",
+   "DOI": "10.1016/j.ast.2019.03.039",
+   "article-title": "In-flight health monitoring of helicopter blades via differential analysis",
+   "volume": "88",
+   "author": "Serafini",
+   "year": "2019",
+   "journal-title": "Aerosp. Sci. Technol."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "580",
+   "DOI": "10.1016/j.ast.2018.06.012",
+   "article-title": "Rotor blade shape reconstruction from strain measurements",
+   "volume": "79",
+   "author": "Bernardini",
+   "year": "2018",
+   "journal-title": "Aerosp. Sci. Technol."
+  },
+  {
+   "key": "ref_21",
+   "unstructured": "US Army Aviation Missile Command (AMCOM) (2009). Aeronautical Design Standard Handbook for Condition Based Maintenance Systems for, US Army Aircraft Systems, Aviation Engineering Directorate, AMCOM. Available online: https://www.dau.edu/sites/default/files/Migrated/CopDocuments/ads%2079a%201.pdf."
+  },
+  {
+   "key": "ref_22",
+   "unstructured": "Iglewicz, B., and Hoaglin, D.C. (1993). How to Detect and Handle Outliers, ASQC Quality Press."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "303",
+   "DOI": "10.1038/nbt0308-303",
+   "article-title": "What is principal component analysis?",
+   "volume": "26",
+   "year": "2008",
+   "journal-title": "Nat. Biotechnol."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cohen, I., Huang, Y., Chen, J., and Benesty, J. (2009). Noise Reduction in Speech Processing, Springer.",
+   "DOI": "10.1007/978-3-642-00296-0"
+  },
+  {
+   "key": "ref_25",
+   "first-page": "3249",
+   "article-title": "Spearman’s correlation coefficient in statistical analysis",
+   "volume": "13",
+   "year": "2022",
+   "journal-title": "Int. J. Nonlinear Anal. Appl."
+  },
+  {
+   "key": "ref_26",
+   "first-page": "87",
+   "article-title": "Comparison of values of Pearson’s and Spearman’s correlation coefficients on the same sets of data",
+   "volume": "30",
+   "author": "Hauke",
+   "year": "2011",
+   "journal-title": "Quaest. Geogr."
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sun, Z., Wang, X., Han, T., Liu, J., Wang, L., Wei, X., and Wu, Z. (Struct. Health Monit., 2025). Advanced prediction of pipeline vertical deformation and axial strain via multi-source data fusion and multi-task deep learning, Struct. Health Monit., online ahead of print.",
+   "DOI": "10.1177/14759217251385078"
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "first-page": "83",
+   "DOI": "10.1049/iet-wss.2016.0044",
+   "article-title": "Outlier detection for wireless sensor networks using density-based clustering approach",
+   "volume": "7",
+   "author": "Abid",
+   "year": "2017",
+   "journal-title": "IET Wirel. Sens. Syst."
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "first-page": "2275",
+   "DOI": "10.1007/s00607-021-00939-5",
+   "article-title": "Improved approaches for density-based outlier detection in wireless sensor networks",
+   "volume": "103",
+   "author": "Abid",
+   "year": "2021",
+   "journal-title": "Computing"
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "first-page": "433",
+   "DOI": "10.1002/wics.101",
+   "article-title": "Principal component analysis",
+   "volume": "2",
+   "author": "Abdi",
+   "year": "2010",
+   "journal-title": "Wiley Interdiscip. Rev. Comput. Stat."
+  },
+  {
+   "key": "ref_31",
+   "unstructured": "Shlens, J. (2014). A tutorial on principal component analysis. arXiv."
+  },
+  {
+   "key": "ref_32",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Jolliffe, I. (2011). Principal component analysis. International Encyclopedia of Statistical Science, Springer.",
+   "DOI": "10.1007/978-3-642-04898-2_455"
+  },
+  {
+   "key": "ref_33",
+   "unstructured": "Daga, A.P. (2019). Vibration Monitoring: Gearbox Identification and Faults Detection. [Ph.D. Thesis, Politecnico di Torino]. Available online: https://hdl.handle.net/20.500.14242/125448."
+  },
+  {
+   "key": "ref_34",
+   "doi-asserted-by": "crossref",
+   "first-page": "341",
+   "DOI": "10.1080/00401706.1979.10489779",
+   "article-title": "Control procedures for residuals associated with principal component analysis",
+   "volume": "21",
+   "author": "Jackson",
+   "year": "1979",
+   "journal-title": "Technometrics"
+  },
+  {
+   "key": "ref_35",
+   "doi-asserted-by": "crossref",
+   "first-page": "3",
+   "DOI": "10.1016/0169-7439(95)80036-9",
+   "article-title": "Process analysis, monitoring and diagnosis, using multivariate projection methods",
+   "volume": "28",
+   "author": "Kourti",
+   "year": "1995",
+   "journal-title": "Chemom. Intell. Lab. Syst."
+  },
+  {
+   "key": "ref_36",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ahmad, S., and Purdy, S. (2016). Real-time anomaly detection for streaming analytics. arXiv.",
+   "DOI": "10.1016/j.neucom.2017.04.070"
+  },
+  {
+   "key": "ref_37",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Lavin, A., and Ahmad, S. (2015, January 9–11). Evaluating real-time anomaly detection algorithms—The Numenta anomaly benchmark. Proceedings of the 2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA), Miami, FL, USA.",
+   "DOI": "10.1109/ICMLA.2015.141"
+  }
+ ],
+ "container-title": [
+  "Aerospace"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/2226-4310/12/12/1110/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    12,
+    18
+   ]
+  ],
+  "date-time": "2025-12-18T05:22:17Z",
+  "timestamp": 1766035337000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/2226-4310/12/12/1110"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    12,
+    16
+   ]
+  ]
+ },
+ "references-count": 37,
+ "journal-issue": {
+  "issue": "12",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     12
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "aerospace12121110"
+ ],
+ "URL": "https://doi.org/10.3390/aerospace12121110",
+ "relation": {},
+ "ISSN": [
+  "2226-4310"
+ ],
+ "issn-type": [
+  {
+   "type": "electronic",
+   "value": "2226-4310"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    12,
+    16
+   ]
+  ]
+ }
+}

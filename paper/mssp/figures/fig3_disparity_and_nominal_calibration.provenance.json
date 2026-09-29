@@ -1,0 +1,16 @@
+{
+  "outputs": {
+    "paper/mssp/figures/fig3_disparity_and_nominal_calibration.pdf": "10d93edc99229cb59e8b1b6337e6d3a6c507a737145601a2c8e379a3b5944ff4",
+    "paper/mssp/figures/fig3_disparity_and_nominal_calibration.png": "1d5a0633b5a8914ffe7f7f4cf3a7321a595671fa2a844f87eb539e49042fd4b0"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/calibration_quality/calibration_quality_metrics.csv": "6ca1752c977b4fcc34fe1bc1b569c08c7a39d9cfe04cea89680cdceb4be2f04c",
+    "results/mssp_adversarial/ds02/contextual_baseline/baseline_calibration_quality.csv": "fa2e1acba94485053ac7ac7fa225abaeab53a3a342d022e3ecdb7ff6dadb63fa",
+    "results/mssp_adversarial/ds03/calibration_quality/calibration_quality_metrics.csv": "89a317343043a582a7d47bb4758ceed28c0d6e3bb887972d36702b8504ef10b9",
+    "results/mssp_adversarial/ds03/contextual_baseline/baseline_calibration_quality.csv": "61a05c82a3c7346e2bc080d4aceb6424eceaf37f42f51b079165c96551688cc7"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "298f25c73ae0d9ee683d67202a6a19f6c7f75e1584a21d793b40e7acfa513fdc",
+  "note": "Validation A at the 1% target; one line per detector run (7 per dataset). Q = continuous contextual quantile-regression baseline (healthy side). Row-pooled unless stated. All paired U1 intervals (arm minus P) include zero.",
+  "built_utc": "2026-09-28T00:52:39+00:00"
+}

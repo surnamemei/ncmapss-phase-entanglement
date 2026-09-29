@@ -1,0 +1,16 @@
+{
+  "outputs": {
+    "paper/mssp/tables/table4_matched_false_flag_delay.csv": "92b0fb0f998b5fe629e4de426ed4d3071498d19ec1b29e4d782388bff05a41b4",
+    "paper/mssp/tables/table4_matched_false_flag_delay.tex": "366979c3b9596bd846358a1252e485872a2c2016396b94c01bece21618c91ae9"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/matched_delay/matched_false_flag_comparisons.csv": "591268a0b1f3196261b588cc825df3862cc80e38b400f8fa85f680aed82301a7",
+    "results/mssp_adversarial/ds02/matched_delay/matched_labels.csv": "b2490e560158fcace821a634e218d3e408624fe4cbb29961dffb0a90c5b59ee4",
+    "results/mssp_adversarial/ds03/matched_delay/matched_false_flag_comparisons.csv": "4a7091b7e84a2a6bb6256c845293850eb32b169fc3b0538d524df94f82ab52c7",
+    "results/mssp_adversarial/ds03/matched_delay/matched_labels.csv": "0b21870513e5d360db8ffc72fdc4c455f8c75da40516f25912ec6f84acd72937"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "be8a42efc746914e3cfe76208bf0ea41a94cdf20f6bdb733a94c9fc4f0cd096f",
+  "note": "Validation B outputs (nearest-anchor rule, one-flight support tolerance, supported anchors only); anchor cells are earlier/tie/later run counts of the paired lower-median per-engine difference.",
+  "built_utc": "2026-09-28T01:12:49+00:00"
+}

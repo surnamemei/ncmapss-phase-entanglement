@@ -1,0 +1,23 @@
+{
+  "outputs": {
+    "paper/mssp_extended/tables/table5_composition.csv": "42088d8551988cfae127cf296e17e77b8550bcc3fec1e2367a29907a2f0151de",
+    "paper/mssp_extended/tables/table5_composition.tex": "7588b3df0ecb7d37e0bf72ef83d1034e0473db8cb912287803c39d8de8408534"
+  },
+  "inputs": {
+    "results/extension/DS01/lock/calibration_lock.json": "ec0d79cb0f515df686bd30cdd05d32fa9d56de68c4557211592d639e36240d7f",
+    "results/extension/DS02/lock/calibration_lock.json": "5729c40ebb7c8208b9ddbc3ec7f13b090df5e8e7294f1ab2e19db1a321471c3a",
+    "results/extension/DS03/lock/calibration_lock.json": "8f97e4f2ed63b2c0548db28469c19c756d0de7ba62eaddcd30ddaadde49a8fa2",
+    "results/extension/DS04/lock/calibration_lock.json": "575629ef084502fc8af578f47373d20efe825df270836061221b8e343698c6e1",
+    "results/extension/DS05/lock/calibration_lock.json": "4fabae04df1495f3b518e7b300105904b1bd87a0f6501fe7855ce6d9388b660a",
+    "results/extension/DS06/lock/calibration_lock.json": "b6b4d6780ac077e918bff42834c05d19edf479e610a8ef55dd81125a069c4bfb",
+    "results/extension/DS07/lock/calibration_lock.json": "29c0897515a3900e58f0cbe255cd274cc639c541473e325725234ce92dc4cf10",
+    "results/extension/DS08a/lock/calibration_lock.json": "d874adf74a2c07974770636313e9ad9dbd3d4caf2dbe81378e33cba8599d27b8",
+    "results/extension/DS08c/lock/calibration_lock.json": "50ce8d467484502bab5787d843ea2e093f32907e2be1888b7cec0dcba6215752",
+    "results/extension/summary/composition_engine_effects.csv": "b014a3f8cdccad847b2abd3615c299f42a73953e0b88d7424a4bb2b413c672f5",
+    "results/extension/summary/composition_run_summary.csv": "c39ade20c471ac2e6e11ecae6796bbb2d5c0e0bbaa55ca74b710d8eb255c9973"
+  },
+  "builder": "paper/mssp_extended/build_figures_tables.py",
+  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "note": "Coverage = other-class minus same-class single-engine A2 per audit engine (positive = coverage helps); volume = gain from full versus N rows of an other-class engine; \u03b1 = 1%.",
+  "built_utc": "2026-09-29T02:48:45+00:00"
+}

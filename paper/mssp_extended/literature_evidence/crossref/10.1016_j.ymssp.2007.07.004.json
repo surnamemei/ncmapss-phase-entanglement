@@ -1,0 +1,548 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    26
+   ]
+  ],
+  "date-time": "2026-09-26T09:32:46Z",
+  "timestamp": 1790415166070,
+  "version": "4.1.0"
+ },
+ "reference-count": 37,
+ "publisher": "Elsevier BV",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2008,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2008-01-01T00:00:00Z",
+    "timestamp": 1199145600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2008,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2007.07.004",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2007,
+    7,
+    26
+   ]
+  ],
+  "date-time": "2007-07-26T07:19:39Z",
+  "timestamp": 1185434379000
+ },
+ "page": "34-56",
+ "source": "Crossref",
+ "is-referenced-by-count": 500,
+ "title": [
+  "Vibration-based structural health monitoring using output-only measurements under changing environment"
+ ],
+ "prefix": "10.1016",
+ "volume": "22",
+ "author": [
+  {
+   "given": "A.",
+   "family": "Deraemaeker",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "E.",
+   "family": "Reynders",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "G.",
+   "family": "De Roeck",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "J.",
+   "family": "Kullaa",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "9",
+   "key": "10.1016/j.ymssp.2007.07.004_bib1",
+   "doi-asserted-by": "crossref",
+   "first-page": "718",
+   "DOI": "10.1016/S0141-0296(96)00149-6",
+   "article-title": "Detection of structural damage through changes in frequency: a review",
+   "volume": "19",
+   "author": "Salawu",
+   "year": "1997",
+   "journal-title": "Engineering Structures"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2007.07.004_bib2",
+   "doi-asserted-by": "crossref",
+   "first-page": "91",
+   "DOI": "10.1177/058310249803000201",
+   "article-title": "A summary review of vibration-based damage identification methods",
+   "volume": "30",
+   "author": "Doebling",
+   "year": "1998",
+   "journal-title": "Shock and Vibration Digest"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "179",
+   "DOI": "10.1016/j.jsv.2005.07.036",
+   "article-title": "Assessment of vibration-based damage identification techniques",
+   "volume": "292",
+   "author": "Alvandi",
+   "year": "2006",
+   "journal-title": "Journal of Sound and Vibration"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2007.07.004_bib4",
+   "doi-asserted-by": "crossref",
+   "first-page": "295",
+   "DOI": "10.1177/0583102406065898",
+   "article-title": "A review of vibration-based structural health monitoring with special emphasis on composite materials",
+   "volume": "38",
+   "author": "Montalvao",
+   "year": "2006",
+   "journal-title": "Shock and Vibration Digest"
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2007.07.004_bib5",
+   "doi-asserted-by": "crossref",
+   "first-page": "855",
+   "DOI": "10.1006/mssp.1999.1249",
+   "article-title": "Reference-based stochastic subspace identification for output-only modal analysis",
+   "volume": "13",
+   "author": "Peeters",
+   "year": "1999",
+   "journal-title": "Mechanical Systems and Signal Processing"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib6",
+   "doi-asserted-by": "crossref",
+   "first-page": "477",
+   "DOI": "10.1016/j.comcom.2005.01.013",
+   "article-title": "A new energy efficient and fault-tolerant protocol for data propagation in smart dust networks using varying transmission range",
+   "volume": "29",
+   "author": "Boukerche",
+   "year": "2006",
+   "journal-title": "Computer Communications"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib7",
+   "unstructured": "A. Agogino, I. Tumer, Integrated systems health monitoring using smart dust mote sensor network, in: Final Report to NASA AMES 2006, 2006."
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib8",
+   "doi-asserted-by": "crossref",
+   "first-page": "878",
+   "DOI": "10.1002/(SICI)1096-9845(199908)28:8<879::AID-EQE845>3.0.CO;2-V",
+   "article-title": "An experimental study of temperature effect on modal parameters of the alamosa canyon bridge",
+   "volume": "28",
+   "author": "Sohn",
+   "year": "1999",
+   "journal-title": "Earthquake Engineering and Structural Dynamics"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2007.07.004_bib9",
+   "doi-asserted-by": "crossref",
+   "first-page": "63",
+   "DOI": "10.1006/mssp.1999.1271",
+   "article-title": "Effects of testing, analysis, damage and environment on modal parameters",
+   "volume": "14",
+   "author": "Alampalli",
+   "year": "2000",
+   "journal-title": "Mechanical Systems and Signal Processing"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib10",
+   "doi-asserted-by": "crossref",
+   "first-page": "518",
+   "DOI": "10.1088/0964-1726/10/3/314",
+   "article-title": "Vibration-based damage detection in civil engineering: excitation sources and temperature effects",
+   "volume": "10",
+   "author": "Peeters",
+   "year": "2001",
+   "journal-title": "Smart materials and Structures"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib11",
+   "doi-asserted-by": "crossref",
+   "first-page": "149",
+   "DOI": "10.1002/1096-9845(200102)30:2<149::AID-EQE1>3.0.CO;2-Z",
+   "article-title": "One-year monitoring of the z24-bridge: environmental effects versus damage events",
+   "volume": "30",
+   "author": "Peeters",
+   "year": "2001",
+   "journal-title": "Earthquake Engineering and Structural Dynamics"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib12",
+   "doi-asserted-by": "crossref",
+   "first-page": "61",
+   "DOI": "10.1016/S0022-460X(02)01440-2",
+   "article-title": "Spatial filters in structural control",
+   "volume": "265",
+   "author": "Preumont",
+   "year": "2003",
+   "journal-title": "Journal of Sound and Vibration"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib13",
+   "doi-asserted-by": "crossref",
+   "first-page": "1615",
+   "DOI": "10.1016/j.ymssp.2005.02.010",
+   "article-title": "Vibration based damage detection using large array sensors and spatial filters",
+   "volume": "20",
+   "author": "Deraemaeker",
+   "year": "2006",
+   "journal-title": "Mechanical Systems and Signal Processing"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib14",
+   "doi-asserted-by": "crossref",
+   "first-page": "1762",
+   "DOI": "10.1016/j.engstruct.2005.02.020",
+   "article-title": "Correlating modal properties with temperature using long-term monitoring data and support vector machine technique",
+   "volume": "27",
+   "author": "Ni",
+   "year": "2005",
+   "journal-title": "Engineering Structures"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib15",
+   "first-page": "127",
+   "article-title": "Adaptive modeling of environmental effects in modal parameters for damage detection in civil structures",
+   "volume": "vol. 3325",
+   "author": "Sohn",
+   "year": "1998"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib16",
+   "series-title": "Proceedings of the Second European Workshop on Structural Health Monitoring",
+   "first-page": "1262",
+   "article-title": "Structural health monitoring under variable environmental or operational conditions",
+   "author": "Kullaa",
+   "year": "2004"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib17",
+   "series-title": "Proceedings of the Third International Conference on Identification in Engineering Systems",
+   "article-title": "Identifying damage sensitive, environment insensitive features for damage detection",
+   "author": "Manson",
+   "year": "2002"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2007.07.004_bib18",
+   "doi-asserted-by": "crossref",
+   "first-page": "847",
+   "DOI": "10.1016/j.ymssp.2004.12.002",
+   "article-title": "Structural damaged diagnosis under varying environmental conditions —part I: a linear analysis",
+   "volume": "19",
+   "author": "Yan",
+   "year": "2005",
+   "journal-title": "Mechanical Systems and Signal Processing"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib19",
+   "doi-asserted-by": "crossref",
+   "first-page": "1033",
+   "DOI": "10.1016/j.jsv.2004.07.016",
+   "article-title": "A robust singular value decomposition for damage detection under changing operating conditions and structural uncertainties",
+   "volume": "284",
+   "author": "Vanlanduit",
+   "year": "2005",
+   "journal-title": "Journal of Sound and Vibration"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib20",
+   "series-title": "Subspace Identification for Linear Systems",
+   "author": "van Overschee",
+   "year": "1996"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib21",
+   "doi-asserted-by": "crossref",
+   "first-page": "47",
+   "DOI": "10.1080/174159700088027718",
+   "article-title": "Reference-based stochastic subspace identification in civil engineering",
+   "volume": "8",
+   "author": "Peeters",
+   "year": "2000",
+   "journal-title": "Inverse Problems in Engineering"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib22",
+   "unstructured": "E. Reynders, G. De Roeck, Reference–based combined deterministic–stochastic subspace identification for experimental and operational modal analysis, Mechanical Systems and Signal Processing, submitted for publication."
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib23",
+   "series-title": "Proceedings of the IMAC XXIV",
+   "article-title": "Modeling and removal of environmental effects for vibration based SHM using spatial filtering and factor analysis",
+   "author": "Deraemaeker",
+   "year": "2006"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib24",
+   "unstructured": "S. Shelley, L. Freudinger, R. Allemang, Development of an on-line parameter estimation system using the discrete modal filter, in: S.E.M. (Ed.), Proceedings of the IMAC X, San Diego, CA, 1992."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2007.07.004_bib25",
+   "doi-asserted-by": "crossref",
+   "first-page": "1013",
+   "DOI": "10.1006/jsvi.1999.2499",
+   "article-title": "Modal actuators and sensors",
+   "volume": "229",
+   "author": "Gawronski",
+   "year": "2000",
+   "journal-title": "Journal of Sound and Vibrations"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib26",
+   "doi-asserted-by": "crossref",
+   "first-page": "61",
+   "DOI": "10.1016/S0169-7439(03)00113-8",
+   "article-title": "A new approach to automated peak detection",
+   "volume": "69",
+   "author": "Jarman",
+   "year": "2003",
+   "journal-title": "Chemometrics and Intelligent Laboratory Systems"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib27",
+   "doi-asserted-by": "crossref",
+   "first-page": "167",
+   "DOI": "10.1016/S0003-2670(01)01574-4",
+   "article-title": "Matched filtering with background suppression for improved quality of base peak chromatograms and mass spectra in liquid chromatography-mass spectrometry",
+   "volume": "454",
+   "author": "Danielsson",
+   "year": "2002",
+   "journal-title": "Analytica Chemica Acta"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib28",
+   "series-title": "Ten Lectures on Wavelets",
+   "author": "Daubechies",
+   "year": "1992"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib29",
+   "series-title": "Proceedings of ISMA 2004",
+   "first-page": "484",
+   "article-title": "Eliminating environmental effects from lamb wave-based structural health monitoring",
+   "author": "Manson",
+   "year": "2004"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib30",
+   "series-title": "Applied Multivariate Techniques",
+   "author": "Sharma",
+   "year": "1996"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib31",
+   "series-title": "Proceedings of ISMA 2004",
+   "first-page": "457",
+   "article-title": "Structural health monitoring of a crane in variable configurations",
+   "author": "Kullaa",
+   "year": "2004"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib32",
+   "series-title": "Inverse Problem Theory",
+   "author": "Tarantola",
+   "year": "1987"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib33",
+   "series-title": "Introduction to Statistical Quality Control",
+   "author": "Montgomery",
+   "year": "1997"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2007.07.004_bib34",
+   "doi-asserted-by": "crossref",
+   "first-page": "163",
+   "DOI": "10.1006/mssp.2002.1555",
+   "article-title": "Damage detection of the Z24 bridge using control charts",
+   "volume": "17",
+   "author": "Kullaa",
+   "year": "2003",
+   "journal-title": "Mechanical Systems and Signal Processing"
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib35",
+   "unstructured": "SDTools, Structural Dynamics Toolbox, 〈http://www.sdtools.com/〉."
+  },
+  {
+   "key": "10.1016/j.ymssp.2007.07.004_bib36",
+   "doi-asserted-by": "crossref",
+   "first-page": "691",
+   "DOI": "10.1002/eqe.4290100506",
+   "article-title": "Frequency domain analysis of time integration operators",
+   "volume": "10",
+   "author": "Preumont",
+   "year": "1982",
+   "journal-title": "Earthquake Engineering and Structural Dynamics"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2007.07.004_bib37",
+   "doi-asserted-by": "crossref",
+   "first-page": "101",
+   "DOI": "10.1016/S0005-1098(99)00093-X",
+   "article-title": "Subspace-based fault detection algorithms for vibration monitoring",
+   "volume": "36",
+   "author": "Basseville",
+   "year": "2000",
+   "journal-title": "Automatica"
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327007001148?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327007001148?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2019,
+    1,
+    5
+   ]
+  ],
+  "date-time": "2019-01-05T15:55:59Z",
+  "timestamp": 1546703759000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327007001148"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2008,
+    1
+   ]
+  ]
+ },
+ "references-count": 37,
+ "journal-issue": {
+  "issue": "1",
+  "published-print": {
+   "date-parts": [
+    [
+     2008,
+     1
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S0888327007001148"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2007.07.004",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2008,
+    1
+   ]
+  ]
+ }
+}

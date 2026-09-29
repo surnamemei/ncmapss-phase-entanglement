@@ -1,0 +1,724 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    26
+   ]
+  ],
+  "date-time": "2026-09-26T17:24:22Z",
+  "timestamp": 1790443462595,
+  "version": "4.1.0"
+ },
+ "reference-count": 103,
+ "publisher": "Institute of Mathematical Statistics",
+ "issue": "1",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Ann. Statist."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2023,
+    2,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1214/22-aos2244",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    3,
+    24
+   ]
+  ],
+  "date-time": "2023-03-24T06:09:33Z",
+  "timestamp": 1679638173000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 86,
+ "title": [
+  "Testing for outliers with conformal p-values"
+ ],
+ "prefix": "10.1214",
+ "volume": "51",
+ "author": [
+  {
+   "given": "Stephen",
+   "family": "Bates",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Departments of Statistics and of EECS, University of California, Berkeley"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Emmanuel",
+   "family": "Candès",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Departments of Statistics and Mathematics, Stanford University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Lihua",
+   "family": "Lei",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Graduate School of Business, Stanford University"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Yaniv",
+   "family": "Romano",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Departments of Electrical Engineering and of Computer Science, Israel Institute of Technology"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Matteo",
+   "family": "Sesia",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Data Sciences and Operations, University of Southern California"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "108",
+ "reference": [
+  {
+   "key": "68",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>Sesia, M.</small> and <small>Candès, E. J.</small> (2020). A comparison of some conformal quantile regression methods. <i>Stat</i> <b>9</b> e261.",
+   "DOI": "10.1002/sta4.261"
+  },
+  {
+   "key": "45",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>Laxhammar, R.</small> and <small>Falkman, G.</small> (2015). Inductive conformal anomaly detection for sequential detection of anomalous sub-trajectories. <i>Ann. Math. Artif. Intell.</i> <b>74</b> 67–94.",
+   "DOI": "10.1007/s10472-013-9381-7"
+  },
+  {
+   "key": "48",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>Lei, J.</small>, <small>Rinaldo, A.</small> and <small>Wasserman, L.</small> (2015). A conformal prediction approach to explore functional data. <i>Ann. Math. Artif. Intell.</i> <b>74</b> 29–43.",
+   "DOI": "10.1007/s10472-013-9366-6"
+  },
+  {
+   "key": "21",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>Dvoretzky, A.</small>, <small>Kiefer, J.</small> and <small>Wolfowitz, J.</small> (1956). Asymptotic minimax character of the sample distribution function and of the classical multinomial estimator. <i>Ann. Math. Stat.</i> <b>27</b> 642–669.",
+   "DOI": "10.1214/aoms/1177728174"
+  },
+  {
+   "key": "54",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>MASSART, P.</small> (1990). The tight constant in the Dvoretzky–Kiefer–Wolfowitz inequality. <i>Ann. Probab.</i> <b>18</b> 1269–1283.",
+   "DOI": "10.1214/aop/1176990746"
+  },
+  {
+   "key": "43",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>KRISHNAMOORTHY, K.</small> and <small>MATHEW, T.</small> (2009). <i>Statistical Tolerance Regions</i>: <i>Theory, Applications, and Computation</i>. <i>Wiley Series in Probability and Statistics</i>. Wiley, Hoboken, NJ.",
+   "DOI": "10.1002/9780470473900"
+  },
+  {
+   "key": "90",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>WILKS, S. S.</small> (1941). Determination of sample sizes for setting tolerance limits. <i>Ann. Math. Stat.</i> <b>12</b> 91–96.",
+   "DOI": "10.1214/aoms/1177731788"
+  },
+  {
+   "key": "10",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>BENJAMINI, Y.</small>, <small>KRIEGER, A. M.</small> and <small>YEKUTIELI, D.</small> (2006). Adaptive linear step-up procedures that control the false discovery rate. <i>Biometrika</i> <b>93</b> 491–507.",
+   "DOI": "10.1093/biomet/93.3.491"
+  },
+  {
+   "key": "59",
+   "unstructured": "<small>Pedregosa, F.</small>, <small>Varoquaux, G.</small>, <small>Gramfort, A.</small> et al. (2011). Scikit-learn: Machine learning in Python. <i>J. Mach. Learn. Res.</i> <b>12</b> 2825–2830."
+  },
+  {
+   "key": "39",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>KIM, I.</small>, <small>RAMDAS, A.</small>, <small>SINGH, A.</small> and <small>WASSERMAN, L.</small> (2021). Classification accuracy as a proxy for two-sample testing. <i>Ann. Statist.</i> <b>49</b> 411–434.",
+   "DOI": "10.1214/20-AOS1962"
+  },
+  {
+   "key": "93",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>WILSON, D. J.</small> (2019). The harmonic mean <i>p</i>-value for combining dependent tests. <i>Proc. Natl. Acad. Sci. USA</i> <b>116</b> 1195–1200.",
+   "DOI": "10.1073/pnas.1814092116"
+  },
+  {
+   "key": "72",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>STOREY, J. D.</small>, <small>TAYLOR, J. E.</small> and <small>SIEGMUND, D.</small> (2004). Strong control, conservative point estimation and simultaneous conservative consistency of false discovery rates: A unified approach. <i>J. R. Stat. Soc. Ser. B. Stat. Methodol.</i> <b>66</b> 187–205.",
+   "DOI": "10.1111/j.1467-9868.2004.00439.x"
+  },
+  {
+   "key": "11",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>BENJAMINI, Y.</small> and <small>YEKUTIELI, D.</small> (2001). The control of the false discovery rate in multiple testing under dependency. <i>Ann. Statist.</i> <b>29</b> 1165–1188.",
+   "DOI": "10.1214/aos/1013699998"
+  },
+  {
+   "key": "67",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>SARKAR, S. K.</small> and <small>CHANG, C.-K.</small> (1997). The Simes method for multiple hypothesis testing with positively dependent test statistics. <i>J. Amer. Statist. Assoc.</i> <b>92</b> 1601–1608.",
+   "DOI": "10.2307/2965431"
+  },
+  {
+   "key": "5",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>BARBER, R. F.</small>, <small>CANDÈS, E. J.</small>, <small>RAMDAS, A.</small> and <small>TIBSHIRANI, R. J.</small> (2021). The limits of distribution-free conditional predictive inference. <i>Inf. Inference</i> <b>10</b> 455–482.",
+   "DOI": "10.1093/imaiai/iaaa017"
+  },
+  {
+   "key": "27",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>GUAN, L.</small> and <small>TIBSHIRANI, R.</small> (2022). Prediction and outlier detection in classification problems. <i>J. R. Stat. Soc. Ser. B. Stat. Methodol.</i> <b>84</b> 524–546.",
+   "DOI": "10.1111/rssb.12443"
+  },
+  {
+   "key": "31",
+   "unstructured": "<small>HECHTLINGER, Y.</small>, <small>PÓCZOS, B.</small> and <small>WASSERMAN, L.</small> (2018). Cautious deep learning. Available at <a href=\"https://arxiv.org/abs/arXiv:1805.09460\">arXiv:1805.09460</a>."
+  },
+  {
+   "key": "56",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>PAPADOPOULOS, H.</small>, <small>PROEDROU, K.</small>, <small>VOVK, V.</small> and <small>GAMMERMAN, A.</small> (2002). Inductive confidence machines for regression. In <i>Machine Learning</i>: <i>ECML</i> 2002. <i>Lecture Notes in Computer Science</i> <b>2430</b> 345–356. Springer, Berlin.",
+   "DOI": "10.1007/3-540-36755-1_29"
+  },
+  {
+   "key": "1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>AGGARWAL, C. C.</small> (2015). Outlier analysis. In <i>Data Mining</i> 237–263. Springer, Berlin.",
+   "DOI": "10.1007/978-3-319-14142-8_8"
+  },
+  {
+   "key": "2",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>AGRAWAL, S.</small> and <small>AGRAWAL, J.</small> (2015). Survey on anomaly detection using data mining techniques. <i>Proc. Comput. Sci.</i> <b>60</b> 708–713.",
+   "DOI": "10.1016/j.procs.2015.08.220"
+  },
+  {
+   "key": "3",
+   "unstructured": "<small>ANGELOPOULOS, A. N.</small>, <small>BATES, S.</small>, <small>MALIK, J.</small> and <small>JORDAN, M. I.</small> (2020). Uncertainty sets for image classifiers using conformal prediction. Preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2009.14193\">arXiv:2009.14193</a>."
+  },
+  {
+   "key": "4",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>BARBER, R. F.</small>, <small>CANDÈS, E. J.</small>, <small>RAMDAS, A.</small> and <small>TIBSHIRANI, R. J.</small> (2021). Predictive inference with the jackknife+. <i>Ann. Statist.</i> <b>49</b> 486–507.",
+   "DOI": "10.1214/20-AOS1965"
+  },
+  {
+   "key": "6",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>BATES, S.</small>, <small>ANGELOPOULOS, A.</small>, <small>LEI, L.</small>, <small>MALIK, J.</small> and <small>JORDAN, M.</small> (2021). Distribution-free, risk-controlling prediction sets. <i>J. ACM</i> <b>68</b> 43.",
+   "DOI": "10.1145/3478535"
+  },
+  {
+   "key": "7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>BATES, S.</small>, <small>CANDÈS, E.</small>, <small>LEI, L.</small>, <small>ROMANO, Y.</small> and <small>SESIA, M.</small> (2023). Supplement to “Testing for outliers with conformal p-values.” <a href=\"https://doi.org/10.1214/22-AOS2244SUPPA\">https://doi.org/10.1214/22-AOS2244SUPPA</a>, <a href=\"https://doi.org/10.1214/22-AOS2244SUPPB\">https://doi.org/10.1214/22-AOS2244SUPPB</a>",
+   "DOI": "10.1214/22-AOS2244SUPPB"
+  },
+  {
+   "key": "8",
+   "unstructured": "<small>BAYLE, P.</small>, <small>BAYLE, A.</small>, <small>MACKEY, L.</small> and <small>JANSON, L.</small> (2020). Cross-validation confidence intervals for test error. <i>Adv. Neural Inf. Process. Syst.</i> <b>33</b>."
+  },
+  {
+   "key": "12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>BROWN, M. B.</small> (1975). 400: A method for combining non-independent, one-sided tests of significance. <i>Biometrics</i> 987–992.",
+   "DOI": "10.2307/2529826"
+  },
+  {
+   "key": "13",
+   "unstructured": "<small>CAI, F.</small> and <small>KOUTSOUKOS, X.</small> (2020). Real-time out-of-distribution detection in learning-enabled cyber-physical systems. In 2020 <i>ACM/IEEE</i> 11<i>th International Conference on Cyber-Physical Systems</i> (<i>ICCPS</i>) 174–183. IEEE, Los Alamitos, CA."
+  },
+  {
+   "key": "15",
+   "unstructured": "<small>CAUCHOIS, M.</small>, <small>GUPTA, S.</small> and <small>DUCHI, J. C.</small> (2021). Knowing what you know: Valid and validated confidence sets in multiclass and multilabel prediction. <i>J. Mach. Learn. Res.</i> <b>22</b> 81."
+  },
+  {
+   "key": "16",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>CERIOLI, A.</small> (2010). Multivariate outlier detection with high-breakdown estimators. <i>J. Amer. Statist. Assoc.</i> <b>105</b> 147–156.",
+   "DOI": "10.1198/jasa.2009.tm09147"
+  },
+  {
+   "key": "17",
+   "unstructured": "<small>CHALAPATHY, R.</small> and <small>CHAWLA, S.</small> (2019). Deep learning for anomaly detection: A survey. Preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:1901.03407\">arXiv:1901.03407</a>."
+  },
+  {
+   "key": "18",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>CHERNOZHUKOV, V.</small>, <small>WÜTHRICH, K.</small> and <small>ZHU, Y.</small> (2021). Distributional conformal prediction. <i>Proc. Natl. Acad. Sci. USA</i> <b>118</b> e2107794118.",
+   "DOI": "10.1073/pnas.2107794118"
+  },
+  {
+   "key": "19",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>CLARKE, S.</small> and <small>HALL, P.</small> (2009). Robustness of multiple testing procedures against dependence. <i>Ann. Statist.</i> <b>37</b> 332–358.",
+   "DOI": "10.1214/07-AOS557"
+  },
+  {
+   "key": "20",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>DEMPSTER, A. P.</small> (1959). Generalized <math xmlns=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\" alttext=\"${D_{n}^{+}}$\"><msubsup><mrow><mi mathvariant=\"italic\">D</mi></mrow><mrow><mi mathvariant=\"italic\">n</mi></mrow><mrow><mo>+</mo></mrow></msubsup></math> statistics. <i>Ann. Math. Stat.</i> <b>30</b> 593–597.",
+   "DOI": "10.1214/aoms/1177706275"
+  },
+  {
+   "key": "22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>EICKER, F.</small> (1979). The asymptotic distribution of the suprema of the standardized empirical processes. <i>Ann. Statist.</i> <b>7</b> 116–138.",
+   "DOI": "10.1214/aos/1176344559"
+  },
+  {
+   "key": "23",
+   "unstructured": "<small>FEDOROVA, V.</small>, <small>GAMMERMAN, A.</small>, <small>NOURETDINOV, I.</small> and <small>VOVK, V.</small> (2012). Plug-in martingales for testing exchangeability on-line. In <i>Proceedings of the</i> 29<i>th International Coference on International Conference on Machine Learning</i>. <i>ICML’</i>12 923–930. Omnipress, Madison, WI."
+  },
+  {
+   "key": "24",
+   "unstructured": "<small>FISHER, R. A.</small> (1925). <i>Statistical Methods for Research Workers</i>. Oliver &amp; Boyd, Edinburgh."
+  },
+  {
+   "key": "25",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>FORTUNATO, F.</small>, <small>ANDERLUCC, L.</small> and <small>MONTANARI, A.</small> (2020). One-class classification with application to forensic analysis. <i>J. R. Stat. Soc. Ser. C. Appl. Stat.</i> <b>69</b> 1227–1249.",
+   "DOI": "10.1111/rssc.12438"
+  },
+  {
+   "key": "26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>FRIEDMAN, J.</small> (2004). On multivariate goodness-of-fit and two-sample testing Technical Report No. SLAC-PUB-10325. Stanford Linear Accelerator Center, Menlo Park, CA.",
+   "DOI": "10.2172/826696"
+  },
+  {
+   "key": "28",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>GUPTA, C.</small>, <small>KUCHIBHOTLA, A. K.</small> and <small>RAMDAS, A. K.</small> (2021). Nested conformal prediction and quantile out-of-bag ensemble methods. <i>Pattern Recognit.</i> 108496.",
+   "DOI": "10.1016/j.patcog.2021.108496"
+  },
+  {
+   "key": "29",
+   "unstructured": "<small>HAROUSH, M.</small>, <small>FROSTIG, T.</small>, <small>HELLER, R.</small> and <small>SOUDRY, D.</small> (2021). Statistical testing for efficient out of distribution detection in deep neural networks. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2102.12967\">arXiv:2102.12967</a>."
+  },
+  {
+   "key": "30",
+   "unstructured": "<small>HAWKINS, D. M.</small> (1980). <i>Identification of Outliers</i>. <i>Monographs on Applied Probability and Statistics</i>. CRC Press, London."
+  },
+  {
+   "key": "32",
+   "unstructured": "<small>HENDRYCKS, D.</small> and <small>GIMPEL, K.</small> (2017). A baseline for detecting misclassified and out-of-distribution examples in neural networks. <i>Proc. Int. Conf. Learn. Represent.</i>"
+  },
+  {
+   "key": "33",
+   "unstructured": "<small>HOLLAND, M. J.</small> (2020). Making learning more transparent using conformalized performance prediction. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2007.04486\">arXiv:2007.04486</a>."
+  },
+  {
+   "key": "34",
+   "unstructured": "<small>HU, X.</small> and <small>LEI, J.</small> (2020). A distribution-free test of covariate shift using conformal prediction. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2010.07147\">arXiv:2010.07147</a>."
+  },
+  {
+   "key": "35",
+   "unstructured": "<small>ISHIMTSEV, V.</small>, <small>BERNSTEIN, A.</small>, <small>BURNAEV, E.</small> and <small>NAZAROV, I.</small> (2017). Conformal <i>k</i>-NN anomaly detector for univariate data streams. In <i>Conformal and Probabilistic Prediction and Applications</i> 213–227. PMLR, Stockholm, Sweden."
+  },
+  {
+   "key": "36",
+   "unstructured": "<small>IZBICKI, R.</small>, <small>SHIMIZU, G.</small> and <small>STERN, R.</small> (2020). Flexible distribution-free conditional predictive bands using density estimators. In <i>International Conference on Artificial Intelligence and Statistics</i> 3068–3077. PMLR, Online."
+  },
+  {
+   "key": "37",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>KHAN, S. S.</small> and <small>MADDEN, M. G.</small> (2014). One-class classification: Taxonomy of study and review of techniques. <i>Knowl. Eng. Rev.</i> <b>29</b> 345–374.",
+   "DOI": "10.1017/S026988891300043X"
+  },
+  {
+   "key": "38",
+   "unstructured": "<small>KIM, B.</small>, <small>XU, C.</small> and <small>FOYGEL BARBER, R.</small> (2020). Predictive inference is free with the jackknife+-after-bootstrap. <i>Adv. Neural Inf. Process. Syst.</i> <b>33</b>."
+  },
+  {
+   "key": "40",
+   "unstructured": "<small>KIVARANOVIC, D.</small>, <small>JOHNSON, K. D.</small> and <small>LEEB, H.</small> (2020). Adaptive, distribution-free prediction intervals for deep networks. In <i>International Conference on Artificial Intelligence and Statistics</i> 4346–4356. PMLR, Online."
+  },
+  {
+   "key": "41",
+   "unstructured": "<small>KOLMOGOROV, A.</small> (1933). Sulla determinazione empirica di una legge di distribuzione. <i>Inst. Ital. Attuari, Giorn.</i> <b>4</b> 83–91."
+  },
+  {
+   "key": "42",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>KOST, J. T.</small> and <small>MCDERMOTT, M. P.</small> (2002). Combining dependent <i>p</i>-values. <i>Statist. Probab. Lett.</i> <b>60</b> 183–190.",
+   "DOI": "10.1016/S0167-7152(02)00310-3"
+  },
+  {
+   "key": "44",
+   "unstructured": "<small>KUCHIBHOTLA, A. K.</small> (2020). Exchangeability, conformal prediction, and rank tests. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2005.06095\">arXiv:2005.06095</a>."
+  },
+  {
+   "key": "46",
+   "unstructured": "<small>LEE, K.</small>, <small>LEE, H.</small>, <small>LEE, K.</small> and <small>SHIN, J.</small> (2018). Training confidence-calibrated classifiers for detecting out-of-distribution samples. In <i>International Conference on Learning Representations</i>."
+  },
+  {
+   "key": "47",
+   "unstructured": "<small>LEE, K.</small>, <small>LEE, K.</small>, <small>LEE, H.</small> and <small>SHIN, J.</small> (2018). A simple unified framework for detecting out-of-distribution samples and adversarial attacks. In <i>NeurIPS</i>."
+  },
+  {
+   "key": "50",
+   "unstructured": "<small>LIANG, S.</small>, <small>LI, Y.</small> and <small>SRIKANT, R.</small> (2017). Enhancing the reliability of out-of-distribution image detection in neural networks. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:1706.02690\">arXiv:1706.02690</a>."
+  },
+  {
+   "key": "51",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>LIU, F. T.</small>, <small>TING, K. M.</small> and <small>ZHOU, Z.-H.</small> (2008). Isolation forest. In 2008 <i>Eighth IEEE International Conference on Data Mining</i> 413–422.",
+   "DOI": "10.1109/ICDM.2008.17"
+  },
+  {
+   "key": "52",
+   "unstructured": "<small>LOPEZ-PAZ, D.</small> and <small>OQUAB, M.</small> (2017). Revisiting classifier two-sample tests. In <i>International Conference on Learning Representations</i>."
+  },
+  {
+   "key": "53",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>MARY, D.</small> and <small>ROQUAIN, E.</small> (2022). Semi-supervised multiple testing. <i>Electron. J. Stat.</i> <b>16</b> 4926–4981.",
+   "DOI": "10.1214/22-ejs2050"
+  },
+  {
+   "key": "55",
+   "unstructured": "<small>MOYA, M. M.</small>, <small>KOCH, M. W.</small> and <small>HOSTETLER, L. D.</small> (1993). One-class classifier networks for target recognition applications. <i>NASA STI/Recon Technical Report N</i> <b>93</b> 24043."
+  },
+  {
+   "key": "57",
+   "unstructured": "<small>PARK, S.</small>, <small>BASTANI, O.</small>, <small>MATNI, N.</small> and <small>LEE, I.</small> (2020). PAC confidence sets for deep neural networks via calibrated prediction. In <i>International Conference on Learning Representations</i>."
+  },
+  {
+   "key": "58",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>PATCHA, A.</small> and <small>PARK, J.-M.</small> (2007). An overview of anomaly detection techniques: Existing solutions and latest technological trends. <i>Comput. Netw.</i> <b>51</b> 3448–3470.",
+   "DOI": "10.1016/j.comnet.2007.02.001"
+  },
+  {
+   "key": "60",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>PIMENTEL, M. A.</small>, <small>CLIFTON, D. A.</small>, <small>CLIFTON, L.</small> and <small>TARASSENKO, L.</small> (2014). A review of novelty detection. <i>Signal Process.</i> <b>99</b> 215–249.",
+   "DOI": "10.1016/j.sigpro.2013.12.026"
+  },
+  {
+   "key": "61",
+   "unstructured": "<small>RAVA, B.</small>, <small>SUN, W.</small>, <small>JAMES, G. M.</small> and <small>TONG, X.</small> (2021). A burden shared is a burden halved: A fairness-adjusted approach to classification. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2110.05720\">arXiv:2110.05720</a>."
+  },
+  {
+   "key": "63",
+   "unstructured": "<small>ROMANO, Y.</small>, <small>PATTERSON, E.</small> and <small>CANDÈS, E.</small> (2019). Conformalized quantile regression. In <i>Advances in Neural Information Processing Systems</i> 32 3543–3553."
+  },
+  {
+   "key": "64",
+   "unstructured": "<small>ROMANO, Y.</small>, <small>SESIA, M.</small> and <small>CANDÈS, E. J.</small> (2020). Classification with valid and adaptive coverage. <i>Adv. Neural Inf. Process. Syst.</i> <b>33</b>."
+  },
+  {
+   "key": "65",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>SABOKROU, M.</small>, <small>KHALOOEI, M.</small>, <small>FATHY, M.</small> and <small>ADELI, E.</small> (2018). Adversarially learned one-class classifier for novelty detection. In <i>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</i> 3379–3388.",
+   "DOI": "10.1109/CVPR.2018.00356"
+  },
+  {
+   "key": "66",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>SARKAR, S. K.</small> (2008). Generalizing Simes’ test and Hochberg’s stepup procedure. <i>Ann. Statist.</i> <b>36</b> 337–363.",
+   "DOI": "10.1214/009053607000000550"
+  },
+  {
+   "key": "70",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>SMITH, J.</small>, <small>NOURETDINOV, I.</small>, <small>CRADDOCK, R.</small>, <small>OFFER, C.</small> and <small>GAMMERMAN, A.</small> (2015). Conformal anomaly detection of trajectories with a multi-class hierarchy. In <i>International Symposium on Statistical Learning and Data Sciences</i> 281–290. Springer, Berlin.",
+   "DOI": "10.1007/978-3-319-17091-6_23"
+  },
+  {
+   "key": "73",
+   "unstructured": "<small>STOUFFER, S. A.</small>, <small>SUCHMAN, E. A.</small>, <small>DEVINNEY, L. C.</small>, <small>STAR, S. A.</small> and <small>WILLIAMS JR, R. M.</small> (1949). The American soldier: Adjustment during army life. (Studies in social psychology in world war II), vol. 1."
+  },
+  {
+   "key": "74",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>STRUBE, M. J.</small> (1985). Combining and comparing significance levels from nonindependent hypothesis tests. <i>Psychol. Bull.</i> <b>97</b> 334.",
+   "DOI": "10.1037/0033-2909.97.2.334"
+  },
+  {
+   "key": "75",
+   "unstructured": "<small>TARASSENKO, L.</small>, <small>CLIFTON, D. A.</small>, <small>BANNISTER, P. R.</small>, <small>KING, S.</small> and <small>KING, D.</small> (2009). Novelty detection. In <i>Encyclopedia of Structural Health Monitoring</i> Wiley, Hoboken, NJ."
+  },
+  {
+   "key": "76",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>TARASSENKO, L.</small>, <small>HAYTON, P.</small>, <small>CERNEAZ, N.</small> and <small>BRADY, M.</small> (1995). Novelty detection for the identification of masses in mammograms. In 1995 <i>Fourth International Conference on Artificial Neural Networks</i> 442–447. IET, Cambridge, UK.",
+   "DOI": "10.1049/cp:19950597"
+  },
+  {
+   "key": "77",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>TUKEY, J. W.</small> (1947). Non-parametric estimation. II. Statistically equivalent blocks and tolerance regions–the continuous case. <i>Ann. Math. Stat.</i> <b>18</b> 529–539.",
+   "DOI": "10.1214/aoms/1177730343"
+  },
+  {
+   "key": "78",
+   "unstructured": "<small>VOVK, V.</small> (2012). Conditional validity of inductive conformal predictors. In <i>Proceedings of the Asian Conference on Machine Learning</i> <b>25</b> 475–490."
+  },
+  {
+   "key": "79",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>VOVK, V.</small> (2015). Cross-conformal predictors. <i>Ann. Math. Artif. Intell.</i> <b>74</b> 9–28.",
+   "DOI": "10.1007/s10472-013-9368-4"
+  },
+  {
+   "key": "80",
+   "unstructured": "<small>VOVK, V.</small> (2020). Testing for concept shift online. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2012.14246\">arXiv:2012.14246</a>."
+  },
+  {
+   "key": "81",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>VOVK, V.</small> (2021). Testing randomness online. <i>Statist. Sci.</i> <b>36</b> 595–611.",
+   "DOI": "10.1214/20-sts817"
+  },
+  {
+   "key": "82",
+   "unstructured": "<small>VOVK, V.</small>, <small>GAMMERMAN, A.</small> and <small>SAUNDERS, C.</small> (1999). Machine-learning applications of algorithmic randomness. In <i>International Conference on Machine Learning</i> 444–453."
+  },
+  {
+   "key": "84",
+   "unstructured": "<small>VOVK, V.</small>, <small>NOURETDINOV, I.</small> and <small>GAMMERMAN, A.</small> (2003). Testing exchangeability on-line. 768–775."
+  },
+  {
+   "key": "85",
+   "unstructured": "<small>VOVK, V.</small>, <small>NOURETDINOV, I.</small>, <small>MANOKHIN, V.</small> and <small>GAMMERMAN, A.</small> (2018). Cross-conformal predictive distributions. In <i>Conformal and Probabilistic Prediction and Applications</i> 37–51. PMLR, Maastricht, The Netherlands."
+  },
+  {
+   "key": "86",
+   "unstructured": "<small>VOVK, V.</small>, <small>PETEJ, I.</small>, <small>NOURETDINOV, I.</small>, <small>AHLBERG, E.</small>, <small>CARLSSON, L.</small> and <small>GAMMERMAN, A.</small> (2021). Retrain or not retrain: Conformal test martingales for change-point detection. In <i>Conformal and Probabilistic Prediction and Applications</i> 191–210. PMLR, Online."
+  },
+  {
+   "key": "87",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>WALD, A.</small> (1943). An extension of Wilks’ method for setting tolerance limits. <i>Ann. Math. Stat.</i> <b>14</b> 45–55.",
+   "DOI": "10.1214/aoms/1177731491"
+  },
+  {
+   "key": "88",
+   "unstructured": "<small>WEINSTEIN, A.</small>, <small>BARBER, R.</small> and <small>CANDES, E.</small> (2017). A power and prediction analysis for knockoffs with lasso statistics. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:1712.06465\">arXiv:1712.06465</a>."
+  },
+  {
+   "key": "89",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>WILCOXON, F.</small> (1992). Individual comparisons by ranking methods. In <i>Breakthroughs in Statistics</i> 196–202. Springer, Berlin.",
+   "DOI": "10.1007/978-1-4612-4380-9_16"
+  },
+  {
+   "key": "91",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>WILKS, S. S.</small> (1942). Statistical prediction with special reference to the problem of tolerance limits. <i>Ann. Math. Stat.</i> <b>13</b> 400–409.",
+   "DOI": "10.1214/aoms/1177731537"
+  },
+  {
+   "key": "92",
+   "unstructured": "<small>WILKS, S. S.</small> (1963). Multivariate statistical outliers. <i>Sankhya, Ser. A</i> <b>25</b> 407–426."
+  },
+  {
+   "key": "94",
+   "unstructured": "<small>WISNIEWSKI, W.</small>, <small>LINDSAY, D.</small> and <small>LINDSAY, S.</small> (2020). Application of conformal prediction interval estimations to market makers’ net positions. In <i>Conformal and Probabilistic Prediction and Applications</i> 285–301. PMLR, Online."
+  },
+  {
+   "key": "95",
+   "unstructured": "<small>YANG, C.-Y.</small>, <small>LEI, L.</small>, <small>HO, N.</small> and <small>FITHIAN, W.</small> (2021). BONuS: Multiple multivariate testing with a data-adaptive test statistic. ArXiv preprint. Available at <a href=\"https://arxiv.org/abs/arXiv:2106.15743\">arXiv:2106.15743</a>."
+  },
+  {
+   "key": "96",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>ZHANG, Y.</small> and <small>POLITIS, D. N.</small> (2022). Bootstrap prediction intervals with asymptotic conditional validity and unconditional guarantees. <i>Inf. Inference</i>.",
+   "DOI": "10.1093/imaiai/iaac017"
+  },
+  {
+   "key": "97",
+   "unstructured": "Amsterdam Library of Object Images (ALOI) Data Set. <a href=\"https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/literature/ALOI\">https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/literature/ALOI</a>. Not normalized, without duplicates. Accessed: January, 2021."
+  },
+  {
+   "key": "98",
+   "unstructured": "Covertype Data Set. <a href=\"http://odds.cs.stonybrook.edu/forestcovercovertype-dataset\">http://odds.cs.stonybrook.edu/forestcovercovertype-dataset</a>. Accessed: January, 2021."
+  },
+  {
+   "key": "99",
+   "unstructured": "Credit Card Fraud Detection Data Set. <a href=\"https://www.kaggle.com/mlg-ulb/creditcardfraud\">https://www.kaggle.com/mlg-ulb/creditcardfraud</a>. Accessed: January, 2021."
+  },
+  {
+   "key": "100",
+   "unstructured": "KDD Cup 1999 Data Set. <a href=\"https://www.kaggle.com/mlg-ulb/creditcardfraud\">https://www.kaggle.com/mlg-ulb/creditcardfraud</a>. Not normalized, without duplicates, categorial attributes removed. Accessed: January, 2021."
+  },
+  {
+   "key": "101",
+   "unstructured": "Mammography Data Set. <a href=\"http://odds.cs.stonybrook.edu/mammography-dataset/\">http://odds.cs.stonybrook.edu/mammography-dataset/</a>. Accessed: January, 2021."
+  },
+  {
+   "key": "102",
+   "unstructured": "Pen-Based Recognition of Handwritten Digits Data Set. <a href=\"http://odds.cs.stonybrook.edu/pendigits-dataset\">http://odds.cs.stonybrook.edu/pendigits-dataset</a>. Accessed: January, 2021."
+  },
+  {
+   "key": "103",
+   "unstructured": "Statlog (Shuttle) Data Set. <a href=\"http://odds.cs.stonybrook.edu/shuttle-dataset\">http://odds.cs.stonybrook.edu/shuttle-dataset</a>. Accessed: January, 2021."
+  },
+  {
+   "key": "71",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>Storey, J. D.</small> (2002). A direct approach to false discovery rates. <i>J. R. Stat. Soc. Ser. B. Stat. Methodol.</i> <b>64</b> 479–498.",
+   "DOI": "10.1111/1467-9868.00346"
+  },
+  {
+   "key": "9",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>Benjamini, Y.</small> and <small>Hochberg, Y.</small> (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. <i>J. Roy. Statist. Soc. Ser. B</i> <b>57</b> 289–300.",
+   "DOI": "10.1111/j.2517-6161.1995.tb02031.x"
+  },
+  {
+   "key": "62",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>Riani, M.</small>, <small>Atkinson, A. C.</small> and <small>Cerioli, A.</small> (2009). Finding an unknown number of multivariate outliers. <i>J. R. Stat. Soc. Ser. B. Stat. Methodol.</i> <b>71</b> 447–466.",
+   "DOI": "10.1111/j.1467-9868.2008.00692.x"
+  },
+  {
+   "key": "83",
+   "unstructured": "<small>Vovk, V.</small>, <small>Gammerman, A.</small> and <small>Shafer, G.</small> (2005). <i>Algorithmic Learning in a Random World</i>. Springer, New York."
+  },
+  {
+   "key": "14",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>Campos, G. O.</small>, <small>Zimek, A.</small>, <small>Sander, J.</small>, <small>Campello, R. J. G. B.</small>, <small>Micenková, B.</small>, <small>Schubert, E.</small>, <small>Assent, I.</small> and <small>Houle, M. E.</small> (2016). On the evaluation of unsupervised outlier detection: Measures, datasets, and an empirical study. <i>Data Min. Knowl. Discov.</i> <b>30</b> 891–927.",
+   "DOI": "10.1007/s10618-015-0444-8"
+  },
+  {
+   "key": "69",
+   "doi-asserted-by": "publisher",
+   "unstructured": "<small>Simes, R. J.</small> (1986). An improved Bonferroni procedure for multiple tests of significance. <i>Biometrika</i> <b>73</b> 751–754.",
+   "DOI": "10.1093/biomet/73.3.751"
+  },
+  {
+   "key": "49",
+   "doi-asserted-by": "crossref",
+   "unstructured": "<small>Li, A.</small> and <small>Barber, R. F.</small> (2019). Multiple testing with the structure-adaptive Benjamini–Hochberg algorithm. <i>J. R. Stat. Soc. Ser. B. Stat. Methodol.</i> <b>81</b> 45–74.",
+   "DOI": "10.1111/rssb.12298"
+  }
+ ],
+ "container-title": [
+  "The Annals of Statistics"
+ ],
+ "original-title": [],
+ "deposited": {
+  "date-parts": [
+   [
+    2023,
+    3,
+    24
+   ]
+  ],
+  "date-time": "2023-03-24T06:11:06Z",
+  "timestamp": 1679638266000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-51/issue-1/Testing-for-outliers-with-conformal-p-values/10.1214/22-AOS2244.full"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    2,
+    1
+   ]
+  ]
+ },
+ "references-count": 103,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     2,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1214/22-aos2244",
+ "relation": {},
+ "ISSN": [
+  "0090-5364"
+ ],
+ "issn-type": [
+  {
+   "value": "0090-5364",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    2,
+    1
+   ]
+  ]
+ }
+}

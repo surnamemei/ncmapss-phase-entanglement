@@ -1,0 +1,26 @@
+# Frozen-value snapshot of src/mssp_mitigation.py constants for
+# docs/mssp/post_confirmation_mitigation_protocol.md (FROZEN v1.0).
+# Post-confirmation exploratory analysis; not a tuning surface.
+ds02_model_fit_engines: [2, 5, 10, 16]
+ds02_calibration_engines: [18, 20]
+ds02_audit_engines: [11, 14, 15]
+ds03_model_fit_engines: [1, 2, 3, 5, 6, 7, 9]
+ds03_calibration_engines: [4, 8]
+ds03_audit_engines: [10, 11, 12, 13, 14, 15]
+nominal_fpr_targets: [0.005, 0.01, 0.02]
+primary_nominal_fpr_target: 0.01
+causal_regime_window_samples: 60
+causal_regime_rate_limit: 2.0
+flight_false_flag_target: 0.05
+early_window_flights: 10
+normalized_life_bins: [0.0, 0.25, 0.5, 0.75, 1.0]
+persistence_flights: 2
+pauc_max_fpr: 0.02
+exceedance_multiple: 2.0
+guardrail_alarm_rate_ratio: 0.9
+guardrail_median_delay_increase_flights: 1
+u1_bootstrap_seed: 20260925
+u2_bootstrap_seed: 20260927
+bootstrap_replicates: 2000
+lstm_threshold_rtol: 0.000001
+bootstrap_atol: 0.000000000001

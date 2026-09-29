@@ -1,0 +1,11 @@
+{
+  "outputs": {
+    "paper/mssp/figures/fig1_study_timeline.pdf": "46a06f6557dd6ba12a209619f266aefdefec2d53e34300c29a2859972b30a63c",
+    "paper/mssp/figures/fig1_study_timeline.png": "3e7fbfb0f9debe638253c7eae5475e8db9bc11fc2da226f1c1af7817de330979"
+  },
+  "inputs": {},
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "298f25c73ae0d9ee683d67202a6a19f6c7f75e1584a21d793b40e7acfa513fdc",
+  "note": "Schematic; no data.",
+  "built_utc": "2026-09-28T00:52:38+00:00"
+}

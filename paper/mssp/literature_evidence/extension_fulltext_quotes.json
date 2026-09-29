@@ -1,0 +1,138 @@
+{
+ "description": "Short verbatim quotes from the full texts of Chen et al. 2026 (RESS 267:111894, doi:10.1016/j.ress.2025.111894) and Asaadi et al. 2025 (J. Process Control 155:103536, doi:10.1016/j.jprocont.2025.103536), machine-checked against pdftotext output of the publisher PDFs supplied by the author (SHA-256 listed). The PDFs are not redistributed.",
+ "pdf_sha256": {
+  "chen2026": "64976c2b87dfb9fde22af43ed5e5c09eebcbd24bcbbede10cbe8fd6806bad2ae",
+  "asaadi2025": "193546dab01fd8fc3ca6f0dfd1b8e916735847f3bec46a8016693583b52babb9"
+ },
+ "normalization": "NFKC; soft hyphens and line-break hyphenation removed; whitespace collapsed",
+ "quotes": {
+  "CH1_multiple_pattern_normality": {
+   "source": "chen2026",
+   "quote": "The variation of OCs in normal operating states (OSs) can cause the multiple pattern normality to emerge in the monitoring data.",
+   "pages": [
+    3
+   ],
+   "verified": true
+  },
+  "CH2_no_universal_threshold": {
+   "source": "chen2026",
+   "quote": "Training AD models using data samples from different OCs cannot provide a universal HI threshold applicable to all conditions, and the missed alarm or false alarm rate rises.",
+   "pages": [
+    3
+   ],
+   "verified": true
+  },
+  "CH3_oc_conditional_inputs": {
+   "source": "chen2026",
+   "quote": "by incorporating OC variables as conditional inputs in the variational autoencoder (VAE) model, and decoupled modeling of equipment states and external OCs is achieved.",
+   "pages": [
+    1
+   ],
+   "verified": true
+  },
+  "CH4_contribution": {
+   "source": "chen2026",
+   "quote": "was proposed based on conditional variational autoencoder (CVAE) optimized with self-attention (SA) in this paper.",
+   "pages": [
+    1
+   ],
+   "verified": true
+  },
+  "CH5_ds02_units": {
+   "source": "chen2026",
+   "quote": "Our work focuses on DS02, from which six long-range flight engine units (U2, U5, U10, U16, U18, U20) are selected as the research subjects.",
+   "pages": [
+    8
+   ],
+   "verified": true
+  },
+  "CH6_split": {
+   "source": "chen2026",
+   "quote": "In dataset B, the first 10 flight cycles of each engine are considered healthy samples and used for training, while subsequent flight cycles of U5 and U16 are reserved for testing.",
+   "pages": [
+    8
+   ],
+   "verified": true
+  },
+  "CH7_dataset_b_task": {
+   "source": "chen2026",
+   "quote": "mainly used to evaluate the correlation between the constructed HI and the engine's actual health status.",
+   "pages": [
+    8
+   ],
+   "verified": true
+  },
+  "CH8_kde_threshold": {
+   "source": "chen2026",
+   "quote": "When confidence level is set at 95 %, the corresponding lower bound is utilized as the LRP threshold for AD",
+   "pages": [
+    6
+   ],
+   "verified": true
+  },
+  "CH9_inputs": {
+   "source": "chen2026",
+   "quote": "only 4 scenario descriptors and 14 sensor measurements are employed as model inputs.",
+   "pages": [
+    8
+   ],
+   "verified": true
+  },
+  "AS1_stationary_assumption": {
+   "source": "asaadi2025",
+   "quote": "Traditional alarm design methods often assume stationary, which limits their ability to reflect the evolving nature of incipient faults.",
+   "pages": [
+    1
+   ],
+   "verified": true
+  },
+  "AS2_time_variant_indices": {
+   "source": "asaadi2025",
+   "quote": "a non-stationary model should provide time-variant FAR and MAR, and the alarm system should be designed based on these time-variant indices, rather than relying on constant mean values.",
+   "pages": [
+    2
+   ],
+   "verified": true
+  },
+  "AS3_aad_misleading": {
+   "source": "asaadi2025",
+   "quote": "In particular, the AAD metric reflects realistic delay patterns and avoids the misleading interpretations often associated with stationary models.",
+   "pages": [
+    1
+   ],
+   "verified": true
+  },
+  "AS4_policies_change_indices": {
+   "source": "asaadi2025",
+   "quote": "However, when techniques such as Deadband, Filtering, and Delay Timers are introduced, we must recalculate the FAR, MAR, and AAD accordingly.",
+   "pages": [
+    4
+   ],
+   "verified": true
+  },
+  "AS5_zones_fault_progression": {
+   "source": "asaadi2025",
+   "quote": "When a process variable is affected by an incipient fault, its behavior can be divided into distinct operational zones that capture the progression of the fault and the system's response.",
+   "pages": [
+    2
+   ],
+   "verified": true
+  },
+  "AS6_univariate_tep": {
+   "source": "asaadi2025",
+   "quote": "The proposed method is validated through Monte Carlo simulations and demonstrated using the Tennessee Eastman Process benchmark.",
+   "pages": [
+    1
+   ],
+   "verified": true
+  },
+  "AS7_design_levers": {
+   "source": "asaadi2025",
+   "quote": "including adjustments in trip points, implementation of deadband mechanisms, utilization of delay timers, and application of signal filtering.",
+   "pages": [
+    15
+   ],
+   "verified": true
+  }
+ }
+}

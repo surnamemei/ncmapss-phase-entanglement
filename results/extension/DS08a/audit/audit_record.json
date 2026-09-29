@@ -1,0 +1,61 @@
+{
+ "audit_fingerprints": {
+  "cvae:0": "8194bf678f8e788f88b2a80e9d6ffa083bb1841811ca6b02d79c5e3e728b8001",
+  "cvae:1": "fe6775a4b21fb6eb31a49d8c915ccb603e4cec5c48f56022530cc3c2716aa39d",
+  "cvae:2": "1acd07fb699c2ad2deb447956f4f0bf753a75646303a0bf941c98163b8407f2b",
+  "isolation_forest:0": "8819d0b02fea6b6e0bbd72b27f4bdea532b7814fd202cf916af4c694f4ea1734",
+  "isolation_forest:1": "314d9e83bf659bcdec5d9034901eccdaaa0460afe683799d9721dd12a75ba925",
+  "isolation_forest:2": "baeefcbd135d63e79327646c3831800a501c0f0b2a1cde522c21a08c73c50cb9",
+  "lstm_autoencoder:0": "c748b99031af989c9e6c0ab80ecbf599192827dee0b5ba1fca59e57ba5aecb56",
+  "lstm_autoencoder:1": "a03ade935a4d42fa149ab6032ea1de4ef6621615af82e69b4f912885fb7cd445",
+  "lstm_autoencoder:2": "b2f5e2b279d31628471bffb7fcb399f077e73fddd41e529665d51fb4d7996448",
+  "pca:-1": "55416045d2d129e56c13943e8ea4a8e4a14b64708d67fd99788cc8abc344fbca"
+ },
+ "audit_rows": 3722997,
+ "calibration_lock_sha256": "d874adf74a2c07974770636313e9ad9dbd3d4caf2dbe81378e33cba8599d27b8",
+ "code": {
+  "cvae_spec_sha256": "8fe45498a9f194d42a5e67fe3b871694e814bb3dfab69ecadbf2bee5b914bba7",
+  "files": {
+   "src/ext_calibration.py": "4f3009102b038cf2b192edf0c36008fe43da72280d8a2e60cc1cea7f05c02918",
+   "src/ext_common.py": "8b33f760c113f661fb4ce338656eac36b0197e8bfea2858e470d33e181e57f4c",
+   "src/ext_cvae.py": "7db4ca5c099d5db1b8ecc78276478e65872ea2206e4c9b94d589f474f90725fe",
+   "src/ext_endpoints.py": "3599f31faab73f6b8685b6746a93e10a890f87c70dfb7c7c7fced7f8edcf928f",
+   "src/ext_models.py": "e0cd2e307d480af6532fc468db2e53dc71ee6afc7469453ad1878781c30e292b",
+   "src/ext_pipeline.py": "16c1e795d4e8ced57f946186c889a4d12766923c4d37c478168d1c446f874404",
+   "src/ext_qfit.py": "465b352952b9e6e55090cc29a25bd453b841519b0023e6237c3d3ed98dd9d922",
+   "src/ext_summary.py": "1219cc017d9afc2e58d9ec6318914bfd06b53896f2c9b491c01203f89546753d"
+  },
+  "git_head": "73e4555ad79c27fc5538b95d5df3afe81ab4f0cf",
+  "protocol_sha256": "72ff84e198fcc4c466f898159c7bc04b879f55036c5d425a2a7285cffc3d3bce"
+ },
+ "duplicate_digests_audit": {},
+ "finished_utc": "2026-09-28T15:35:30Z",
+ "healthy_rows": 1121583,
+ "outputs_sha256": {
+  "abnormal_alarm_rates": "8e0b719bc4cdc0bce6f9d79705386f78ccf851fe8d1a47df8ffb98dea3f40d2c",
+  "audit_flights": "ca59d46e633a1ce3bf24ac5865b20d6f95c3d8ab870a35f4e077f8d9a7fbed64",
+  "bootstrap_uext1_ci": "e75770ec007c1c5e28e43350422b36ad356c10a3a5a005bc9babb4e94208ac5b",
+  "bootstrap_uext1_replicates_alpha_0.01": "9da7acad1fa9ccb19dd0aab8e19d97413278104e16afe4023f8ff7e5eef92ab4",
+  "calibration_quality": "227d22787978b8bfe87be4790ec832049cdf4604d494d7b3bdc6cc0f321c8566",
+  "composition_metrics": "135c7a47348529d05b7d6f9acaa3781981e72841ef4e85e2d8825964752b91e4",
+  "curve_level_summary": "d2066b97bd78ca23278abc1804886ce5261a0d899447cd6c017129ea9288a447",
+  "detection_delay": "8ffe06d0834ad8e85d5895571ae2f7ae1d071f0b8c6efcf0ad090ec311f8f483",
+  "flight_false_flags": "9840cd5556bdcff9420b331b8f8452ffe9da399b4d18f1382d3a1d0d63e2b1ef",
+  "flight_trajectories": "f63b5ca58082609c88540882210d8a01780ad970b2b62a270261508a62873ffa",
+  "locked_operating_points": "3caf07794e030fd939b00e252ab6f2897b9a2467589bea803fd673fdda965d2f",
+  "matched_comparisons": "05a73840054af1ab4fd77cf4fd52d1e0587445b65a69944776d091192b254e38",
+  "matched_labels": "a7bc8da937fd344d1d9484bd17030d34d671252b735d5ace4de8a95e8050beea",
+  "matched_operating_points": "cabbfcdc78f4d040fc4d45d2d54cd1fa32868c7f3075488dca761860a67bb55b",
+  "paired_transport": "3ed33151cfc8e6f6832b42ef3f2f614782968567b0b1a347b19468add398c27f",
+  "paired_transport_engines": "04e057a9bc2e23a3b5e75bd9171a12cd5b1cdd258b0df94a6dcb2ae31ae7b14d",
+  "persistence_calibration": "e7b582690c4e61f99d2d4d2376b6a34d2f2ad72714f53fafcc0b570b207069ef",
+  "phase_fpr": "c46cf8d040b8696f317e53404d313e267ab659ec4dfbca72726f1b9f42519800",
+  "transfer_matrix": "cc35ac55587e12aae9c05d02966c62c6f95e4b3d5ce960450c4fab2658a1b8d4",
+  "transport_summary": "ae9c53cd0a7ae102b16955ff5428a7a1b872c5d17ce2a0f90f39d15dd547ec87"
+ },
+ "post_onset_rows": 2601414,
+ "reproduction_only": false,
+ "seconds": 196.0,
+ "started_utc": "2026-09-28T15:32:14Z",
+ "subset": "DS08a"
+}

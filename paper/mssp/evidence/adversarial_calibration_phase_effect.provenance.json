@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/adversarial_calibration_phase_effect.csv": "1b392b9f9022fb21c3746836bc071e5b959f739a620031c047c24e85455b459f"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/support_transport/calibration_phase_effect.csv": "84b66d4142fc69fa219350e6fb570888abb4d0dc573acee471e30b49198a18d6",
+    "results/mssp_adversarial/ds03/support_transport/calibration_phase_effect.csv": "11306d06f0d803ad633a3e17ac210021501734ccf7aac81779921a008a982310"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

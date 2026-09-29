@@ -1,0 +1,79 @@
+{
+  "stage": "E",
+  "dataset": "ds02",
+  "mitigation_lock_sha256": "2c3e9e66ee153b132706805d510e3ba32724e1bbeed53c713653814a192b0a3f",
+  "abnormal_rows_read": 820630,
+  "abnormal_blocks": [
+    [
+      213306,
+      663495
+    ],
+    [
+      735763,
+      820273
+    ],
+    [
+      967812,
+      1253743
+    ]
+  ],
+  "eligible_engines": {
+    "s1_s3_s4": [
+      11,
+      14,
+      15
+    ],
+    "s2": [
+      11,
+      14,
+      15
+    ],
+    "d": [
+      11,
+      14,
+      15
+    ]
+  },
+  "outputs_sha256": {
+    "abnormal_alarm_rates": "885a03b056099846045fb620f551a3e1db483364cc1d8188e0b8a9900f906a36",
+    "flight_alarm_fraction_trajectories": "6af76c39fa49132fe1473f3f6ca7cb0173fcfc5be44a67f6cc5a838d9e159705",
+    "detection_delay": "4d9fe7d59193cd4f9b818750e8b86b315171232bef788e3e6f4d3d1648a2e126",
+    "healthy_flight_false_flags_with_delay": "97ac881174463588c07e592114c335fb1ea1c6e0ae711c999bfa3968ce0e8259",
+    "separability_pauc": "ef2495478445b752e528a33df9a4f50610b61f75cd0fa21f797fb3ddb4f3cd53",
+    "guardrails": "085297e35d3a37f810cc0db1d04f26105b8473cd6f2c614c7102d982235c9eea",
+    "u2_bootstrap_ci": "20829bc183dae5adeab6ccfc87b92c88134a79ea8fbf2f1f3affdf3b1651d00b"
+  },
+  "started_utc": "2026-09-27T14:53:59+00:00",
+  "finished_utc": "2026-09-27T14:55:12+00:00",
+  "seconds": 72.9,
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS02-006.h5",
+    "h5_md5": "61056251b36290e11371e017eed70eac",
+    "h5_bytes": 2450472504
+  },
+  "provenance": {
+    "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md",
+    "protocol_sha256": "b4a669cdd00d40753b4b7cca3576ab701f69a19b333a5ff216e21be86a33cacb",
+    "config_sha256": "23bb3b04559162f3538f6eaa3bdd14d5324df316b97f0d49be3ac11361cee144",
+    "module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "032f2f8e18617c3ca222322adb862a8ce3087e6a",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_mitigation/ds02/stage_e/"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+dataset,family,scheme,nominal_fpr,alarm_rate_ratio_all_post_onset,alarm_rate_ratio_early_first_10,family_median_delay_change_flights,engines_censored_under_one_arm,guardrails_met,guardrail_note
+ds02,pca,phase_conditioned,0.01,1.161863900426886,2.1111764705882354,0.0,,True,"interpretive guardrail, not a non-inferiority margin"
+ds02,pca,causal_regime,0.01,1.1617439212552703,2.6326470588235296,0.0,,True,"interpretive guardrail, not a non-inferiority margin"
+ds02,isolation_forest,phase_conditioned,0.01,1.103757502953237,7.180220883534136,-2.0,,True,"interpretive guardrail, not a non-inferiority margin"
+ds02,isolation_forest,causal_regime,0.01,1.1144777198746523,7.570281124497993,-2.0,,True,"interpretive guardrail, not a non-inferiority margin"
+ds02,lstm_autoencoder,phase_conditioned,0.01,1.0133137844998328,2.3143603726425814,0.0,,True,"interpretive guardrail, not a non-inferiority margin"
+ds02,lstm_autoencoder,causal_regime,0.01,1.0441314916274405,2.8328788911611,0.0,,True,"interpretive guardrail, not a non-inferiority margin"

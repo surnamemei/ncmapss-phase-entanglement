@@ -1,0 +1,42 @@
+{
+  "stage": "L",
+  "dataset": "ds02",
+  "mitigation_lock_sha256": "2c3e9e66ee153b132706805d510e3ba32724e1bbeed53c713653814a192b0a3f",
+  "frozen_threshold_status": "exact",
+  "gate_status": "PASS",
+  "started_utc": "2026-09-27T14:39:28+00:00",
+  "finished_utc": "2026-09-27T14:39:53+00:00",
+  "seconds": 25.2,
+  "data_read": "healthy calibration and healthy audit row blocks only (fingerprint check)",
+  "abnormal_rows_read": false,
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS02-006.h5",
+    "h5_md5": "61056251b36290e11371e017eed70eac",
+    "h5_bytes": 2450472504
+  },
+  "provenance": {
+    "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md",
+    "protocol_sha256": "b4a669cdd00d40753b4b7cca3576ab701f69a19b333a5ff216e21be86a33cacb",
+    "config_sha256": "23bb3b04559162f3538f6eaa3bdd14d5324df316b97f0d49be3ac11361cee144",
+    "module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "7871de4546c49fb3420b6aa488fd8dff338672e4",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_mitigation/ds02/stage_l/"
+      ]
+    }
+  }
+}

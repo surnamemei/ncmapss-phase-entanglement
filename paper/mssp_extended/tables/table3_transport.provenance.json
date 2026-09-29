@@ -1,0 +1,30 @@
+{
+  "outputs": {
+    "paper/mssp_extended/tables/table3_transport.csv": "074bbe0a7a15a61a4d0158c5ca03f9518c81e35b108e53d6a83c2a7a17024c28",
+    "paper/mssp_extended/tables/table3_transport.tex": "546e1cb798069d189ec41045603854de1f8a5e5498dc5e4846d088a184988323"
+  },
+  "inputs": {
+    "results/extension/DS01/audit/paired_transport.csv": "1dd118e7d67f3ec9744e8f3206437296c7935e7ecf58623697c1d659852a55e2",
+    "results/extension/DS01/audit/transport_summary.csv": "e1ac8caceac596567be0bb0324205363dc99c1f5562ae3c9a9ac4730d73cc8a1",
+    "results/extension/DS02/audit/paired_transport.csv": "0f787c134bfb292385ef5b9085ff522fc7a7d9fd4eb23c444bb21192fdee4216",
+    "results/extension/DS02/audit/transport_summary.csv": "1cfdb6155a341d08f5bf03604d5cbea46371e2e1110f6a8d97378ff5222767f0",
+    "results/extension/DS03/audit/paired_transport.csv": "eab55cf0e0a6ba4385816d26c7287150c3abb477068398d993a177872fcf2def",
+    "results/extension/DS03/audit/transport_summary.csv": "23707c802894431838d8e49f9a524424e1191f0c07bc1e967e9c1b9d6369a0d1",
+    "results/extension/DS04/audit/paired_transport.csv": "740f053668135bd445344494e40d611064ab2661fd5bdc4aa4e941eaefb8245f",
+    "results/extension/DS04/audit/transport_summary.csv": "17051262dcde2c820cf6127420ae2dc9d523e74b4a5716a388ac086dc076fa57",
+    "results/extension/DS05/audit/paired_transport.csv": "b387da6f98588faeaeab2108ad8b70adb371938e2a45a2c44d0d4ed2898b38de",
+    "results/extension/DS05/audit/transport_summary.csv": "0523a2327c58fb6b274a0aaa66c917d8119500408f61afa5d0025ee4979bfdc1",
+    "results/extension/DS06/audit/paired_transport.csv": "986ba8f66c604fcc03339b56b4a6a1019b50675c5328d70e66abbd34aaeeb074",
+    "results/extension/DS06/audit/transport_summary.csv": "8606f6851124cdecfafde0239eb6b7e766a4210e8e5e836a39e4b589a79df0fd",
+    "results/extension/DS07/audit/paired_transport.csv": "607f76c2dcb89d0658413dc5482d5e91b8eb631bb1af1f4e7f769e44b6afdeed",
+    "results/extension/DS07/audit/transport_summary.csv": "b7bd9dbb7f77ed605a9faeefc07bc718a026b4bed10dec949021dde10950d3f0",
+    "results/extension/DS08a/audit/paired_transport.csv": "3ed33151cfc8e6f6832b42ef3f2f614782968567b0b1a347b19468add398c27f",
+    "results/extension/DS08a/audit/transport_summary.csv": "ae9c53cd0a7ae102b16955ff5428a7a1b872c5d17ce2a0f90f39d15dd547ec87",
+    "results/extension/DS08c/audit/paired_transport.csv": "2e92cca7f360648feff190fef19dfd2ba43fb98689371729c22c03b1b0076276",
+    "results/extension/DS08c/audit/transport_summary.csv": "4bdea1618014028ec44422f566c0ac18641d2490f54d0f6d8f6ff23488fda18b"
+  },
+  "builder": "paper/mssp_extended/build_figures_tables.py",
+  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "note": "Counts over 10 detector runs (7 residual + 3 CVAE); ME-A2/WE-A2 = median over the 7 residual runs; \u03b1 = 1%.",
+  "built_utc": "2026-09-29T02:48:45+00:00"
+}

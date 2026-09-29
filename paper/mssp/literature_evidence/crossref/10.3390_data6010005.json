@@ -1,0 +1,468 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    26
+   ]
+  ],
+  "date-time": "2026-09-26T18:17:08Z",
+  "timestamp": 1790446628498,
+  "version": "4.1.0"
+ },
+ "reference-count": 28,
+ "publisher": "MDPI AG",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      1,
+      13
+     ]
+    ],
+    "date-time": "2021-01-13T00:00:00Z",
+    "timestamp": 1610496000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001711",
+   "name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "PP00P2 176878"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "PP00P2 176878"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001711",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Data"
+ ],
+ "abstract": "<jats:p>A key enabler of intelligent maintenance systems is the ability to predict the remaining useful lifetime (RUL) of its components, i.e., prognostics. The development of data-driven prognostics models requires datasets with run-to-failure trajectories. However, large representative run-to-failure datasets are often unavailable in real applications because failures are rare in many safety-critical systems. To foster the development of prognostics methods, we develop a new realistic dataset of run-to-failure trajectories for a fleet of aircraft engines under real flight conditions. The dataset was generated with the Commercial Modular Aero-Propulsion System Simulation (CMAPSS) model developed at NASA. The damage propagation modelling used in this dataset builds on the modelling strategy from previous work and incorporates two new levels of fidelity. First, it considers real flight conditions as recorded on board of a commercial jet. Second, it extends the degradation modelling by relating the degradation process to its operation history. This dataset also provides the health, respectively, fault class. Therefore, besides its applicability to prognostics problems, the dataset can be used for fault diagnostics.</jats:p>",
+ "DOI": "10.3390/data6010005",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    13
+   ]
+  ],
+  "date-time": "2021-01-13T11:52:32Z",
+  "timestamp": 1610538752000
+ },
+ "page": "5",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 290,
+ "title": [
+  "Aircraft Engine Run-to-Failure Dataset under Real Flight Conditions for Prognostics and Diagnostics"
+ ],
+ "prefix": "10.3390",
+ "volume": "6",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-6134-3582",
+   "authenticated-orcid": false,
+   "given": "Manuel",
+   "family": "Arias Chao",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Chair of Intelligent Maintenance Systems, ETH Zürich, 8093 Zürich, Switzerland"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Chetan",
+   "family": "Kulkarni",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "KBR, Inc., NASA Ames Research Center, Mountain View, CA 94035, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0240-0943",
+   "authenticated-orcid": false,
+   "given": "Kai",
+   "family": "Goebel",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Operation and Maintenance, Luleå University of Technology, 971 87 Luleå, Sweden"
+    },
+    {
+     "name": "PARC, Intelligent Systems Lab, Palo Alto, CA 94043, USA"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9546-1488",
+   "authenticated-orcid": false,
+   "given": "Olga",
+   "family": "Fink",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Chair of Intelligent Maintenance Systems, ETH Zürich, 8093 Zürich, Switzerland"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    13
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "unstructured": "Goebel, K., Daigle, M., Saxena, A., Roychoudhury, I., and Sankararaman, S. (2017). Prognostics: The Science of Making Predictions, Createspace Independent Publishing Platform."
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "103678",
+   "DOI": "10.1016/j.engappai.2020.103678",
+   "article-title": "Potential, challenges and future directions for deep learning in prognostics and health management applications",
+   "volume": "92",
+   "author": "Fink",
+   "year": "2020",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "799",
+   "DOI": "10.1016/j.ymssp.2017.11.016",
+   "article-title": "Machinery health prognostics: A systematic review from data acquisition to RUL prediction",
+   "volume": "104",
+   "author": "Lei",
+   "year": "2018",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "first-page": "120",
+   "DOI": "10.1016/j.ress.2012.03.008",
+   "article-title": "Ensemble of data-driven prognostic algorithms for robust prediction of remaining useful life",
+   "volume": "103",
+   "author": "Hu",
+   "year": "2012",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "2306",
+   "DOI": "10.1109/TNNLS.2016.2582798",
+   "article-title": "Multiobjective deep belief networks ensemble for remaining useful life estimation in prognostics",
+   "volume": "28",
+   "author": "Zhang",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "first-page": "106612",
+   "DOI": "10.1016/j.ymssp.2019.106612",
+   "article-title": "Deep digital twins for detection, diagnostics and prognostics",
+   "volume": "140",
+   "author": "Booyse",
+   "year": "2020",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "first-page": "106682",
+   "DOI": "10.1016/j.ress.2019.106682",
+   "article-title": "Remaining useful lifetime prediction via deep domain adaptation",
+   "volume": "195",
+   "author": "Akcay",
+   "year": "2020",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Eker, Ö.F., Camci, F., and Jennions, I.K. (2012, January 3–6). Major challenges in prognostics: Study on benchmarking prognostic datasets. Proceedings of the 1st European Conference of the Prognostics and Health Management Society 2012, Dresden, Germany.",
+   "DOI": "10.36001/phme.2012.v1i1.1409"
+  },
+  {
+   "key": "ref_9",
+   "unstructured": "(2019, April 23). Prognostics Center of Excellence—Data Repository, Available online: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/."
+  },
+  {
+   "key": "ref_10",
+   "unstructured": "Saxena, A., and Goebel, K. (2019, April 23). PHM08 Challenge Data Set, Available online: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/."
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Saxena, A., Goebel, K., Simon, D., and Eklund, N. (2008, January 6–9). Damage propagation modeling for aircraft engine run-to-failure simulation. Proceedings of the 2008 International Conference on Prognostics and Health Management, Denver, CO, USA.",
+   "DOI": "10.1109/PHM.2008.4711414"
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1016/j.ress.2017.11.021",
+   "article-title": "Remaining useful life estimation in prognostics using deep convolution neural networks",
+   "volume": "172",
+   "author": "Li",
+   "year": "2018",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Yang, H., Zhao, F., Jiang, G., Sun, Z., and Mei, X. (2019). A Novel Deep Learning Approach for Machinery Prognostics Based on Time Windows. Appl. Sci., 9.",
+   "DOI": "10.3390/app9224813"
+  },
+  {
+   "key": "ref_14",
+   "first-page": "034",
+   "article-title": "Attention and long short-term memory network for remaining useful lifetime predictions of turbofan engine degradation",
+   "volume": "10",
+   "author": "Akcay",
+   "year": "2019",
+   "journal-title": "Int. J. Progn. Health Manag."
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "240",
+   "DOI": "10.1016/j.ress.2018.11.027",
+   "article-title": "Remaining useful life predictions for turbofan engine degradation using semi-supervised deep architecture",
+   "volume": "183",
+   "author": "Ushakov",
+   "year": "2019",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_16",
+   "unstructured": "(2020). Remaining Useful Life Prediction of Airplane Engine Based on PCA–BLSTM. Sensors, 20."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "107257",
+   "DOI": "10.1016/j.ress.2020.107257",
+   "article-title": "A dual-LSTM framework combining change point detection and remaining useful life prediction",
+   "volume": "205",
+   "author": "Shi",
+   "year": "2021",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "241",
+   "DOI": "10.1016/j.isatra.2019.07.004",
+   "article-title": "Data-driven remaining useful life prediction via multiple sensor signals and deep long short-term memory neural network",
+   "volume": "97",
+   "author": "Wu",
+   "year": "2020",
+   "journal-title": "ISA Trans."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "103182",
+   "DOI": "10.1016/j.compind.2019.103182",
+   "article-title": "An ensemble framework based on convolutional bi-directional LSTM with multiple time windows for remaining useful life estimation",
+   "volume": "115",
+   "author": "Xia",
+   "year": "2020",
+   "journal-title": "Comput. Ind."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhao, C., Huang, X., Li, Y., and Yousaf Iqbal, M. (2020). A Double-Channel Hybrid Deep Neural Network Based on CNN and BiLSTM for Remaining Useful Life Prediction. Sensors, 20.",
+   "DOI": "10.3390/s20247109"
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Xie, Z., Du, S., Lv, J., Deng, Y., and Jia, S. (2020). A Hybrid Prognostics Deep Learning Model for Remaining Useful Life Prediction. Electronics, 10.",
+   "DOI": "10.3390/electronics10010039"
+  },
+  {
+   "key": "ref_22",
+   "unstructured": "(2019, January 23). DASHlink—Flight Data For Tail 687, Available online: https://c3.nasa.gov/dashlink/resources/664/."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Frederick, D.K., Decastro, J.A., and Litt, J.S. (2007). User’s Guide for the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS), Technical Report.",
+   "DOI": "10.2514/6.2008-4579"
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "497",
+   "DOI": "10.1115/1.1850505",
+   "article-title": "Evaluation of an Enhanced Bank of Kalman Filters for In-Flight Aircraft Engine Sensor Fault Diagnostics",
+   "volume": "127",
+   "author": "Kobayashi",
+   "year": "2005",
+   "journal-title": "J. Eng. Gas Turbines Power"
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Borguet, S., and Leónard, O. (2008, January 9–13). A Generalised Likelihood Ratio Test for Adaptive Gas Turbine Health Monitoring. Proceedings of the ASME Turbo Expo 2008: Power for Land, Sea, and Air, Berlin, Germany.",
+   "DOI": "10.1115/GT2008-50117"
+  },
+  {
+   "key": "ref_26",
+   "unstructured": "Tian, Y., Arias Chao, M., Kulkarni, C., Goebel, K., and Fink, O. (2020). Real-Time Model Calibration with Deep Reinforcement Learning. arXiv."
+  },
+  {
+   "key": "ref_27",
+   "unstructured": "Arias Chao, M., Kulkarni, C., Goebel, K., and Fink, O. (2020). Fusing Physics-based and Deep Learning Models for Prognostics. arXiv."
+  },
+  {
+   "key": "ref_28",
+   "unstructured": "Willard, J., Jia, X., Xu, S., Steinbach, M., and Kumar, V. (2020). Integrating Physics-Based Modeling with Machine Learning: A Survey. arXiv."
+  }
+ ],
+ "container-title": [
+  "Data"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/2306-5729/6/1/5/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T05:10:51Z",
+  "timestamp": 1760159451000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/2306-5729/6/1/5"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    13
+   ]
+  ]
+ },
+ "references-count": 28,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     1
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "data6010005"
+ ],
+ "URL": "https://doi.org/10.3390/data6010005",
+ "relation": {},
+ "ISSN": [
+  "2306-5729"
+ ],
+ "issn-type": [
+  {
+   "value": "2306-5729",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    13
+   ]
+  ]
+ }
+}

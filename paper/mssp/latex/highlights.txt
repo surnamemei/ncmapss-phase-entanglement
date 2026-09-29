@@ -1,0 +1,5 @@
+A pooled alarm threshold left healthy false-alarm rates dependent on flight phase
+The phase pattern found on DS02 reproduced under a frozen one-shot DS03 protocol
+Per-phase thresholds cut pooled disparity in 14/14 runs; paired intervals span zero
+Pooled gains failed on 2 of 3 engines of a short-flight class absent from calibration
+At matched false-flag rates, conditioning gave no general detection-delay advantage

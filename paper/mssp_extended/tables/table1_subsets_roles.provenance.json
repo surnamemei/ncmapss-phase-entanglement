@@ -1,0 +1,30 @@
+{
+  "outputs": {
+    "paper/mssp_extended/tables/table1_subsets_roles.csv": "62dfb2e0e8a9d60cd6c61993c9ab27ac1804885b7074a9b9bbb7f0c7565bb6c4",
+    "paper/mssp_extended/tables/table1_subsets_roles.tex": "0e041e37b2d6ca282b72e1aa412ca6680192c6332823622d5bece374c6e697f8"
+  },
+  "inputs": {
+    "results/extension/DS01/audit/audit_record.json": "fbe71538a22361aba9a05d12dbeeb5fb5577e6eab2b403942f05bdaa2d9456d5",
+    "results/extension/DS01/lock/calibration_lock.json": "ec0d79cb0f515df686bd30cdd05d32fa9d56de68c4557211592d639e36240d7f",
+    "results/extension/DS02/audit/audit_record.json": "082cde78d0be6bf7272930b07ed95025393ae837b03b7df0af2f8601313415f8",
+    "results/extension/DS02/lock/calibration_lock.json": "5729c40ebb7c8208b9ddbc3ec7f13b090df5e8e7294f1ab2e19db1a321471c3a",
+    "results/extension/DS03/audit/audit_record.json": "ace08d63c3429fef8d24243a25dcefb9f83a611c20e0c4685493c6518578306b",
+    "results/extension/DS03/lock/calibration_lock.json": "8f97e4f2ed63b2c0548db28469c19c756d0de7ba62eaddcd30ddaadde49a8fa2",
+    "results/extension/DS04/audit/audit_record.json": "4b653ed8610a91234a8fce3bbb87aa86acfd9566e6949f0b3366378364e6d037",
+    "results/extension/DS04/lock/calibration_lock.json": "575629ef084502fc8af578f47373d20efe825df270836061221b8e343698c6e1",
+    "results/extension/DS05/audit/audit_record.json": "025efefcf1252db3aaaf474f821a9c27955443cc315a677c58a216d30e46cb9e",
+    "results/extension/DS05/lock/calibration_lock.json": "4fabae04df1495f3b518e7b300105904b1bd87a0f6501fe7855ce6d9388b660a",
+    "results/extension/DS06/audit/audit_record.json": "88391e13bf1a05f1267ab6ea750c1f10b18b6e93ca2286804091202d0afa66d6",
+    "results/extension/DS06/lock/calibration_lock.json": "b6b4d6780ac077e918bff42834c05d19edf479e610a8ef55dd81125a069c4bfb",
+    "results/extension/DS07/audit/audit_record.json": "022291ad26d5142996265ee834f24605546803240b286f80a6e2ba2e4de25ea9",
+    "results/extension/DS07/lock/calibration_lock.json": "29c0897515a3900e58f0cbe255cd274cc639c541473e325725234ce92dc4cf10",
+    "results/extension/DS08a/audit/audit_record.json": "9062209a3ba0527eb1b4db9b4c9beab0ecedcee93a594626e8e6cd8394bb1a46",
+    "results/extension/DS08a/lock/calibration_lock.json": "d874adf74a2c07974770636313e9ad9dbd3d4caf2dbe81378e33cba8599d27b8",
+    "results/extension/DS08c/audit/audit_record.json": "7e1480b39e47a2259a797a8899d5cfb711685ce239f7968b5b7e7d3e528dcfdf",
+    "results/extension/DS08c/lock/calibration_lock.json": "50ce8d467484502bab5787d843ea2e093f32907e2be1888b7cec0dcba6215752"
+  },
+  "builder": "paper/mssp_extended/build_figures_tables.py",
+  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "note": "From committed locks and audit records.",
+  "built_utc": "2026-09-29T02:48:45+00:00"
+}

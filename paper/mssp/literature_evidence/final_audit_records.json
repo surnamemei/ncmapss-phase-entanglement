@@ -1,0 +1,1284 @@
+[
+ {
+  "key": "chen2026_ress",
+  "task": 1,
+  "full_citation": {
+   "authors": "Chen, Dongchao; Li, Xiuxia; Xu, Jingquan; Wang, Zhong",
+   "title": "An anomaly detection method for gas turbines in power plants using conditional variational autoencoder optimized with self-attention",
+   "journal": "Reliability Engineering & System Safety",
+   "volume": "267 (Part A per RePEc handle)",
+   "pages_or_article": "111894",
+   "year": "2026 (issue March 2026; S2 lists online date 2025-11-01)"
+  },
+  "doi": "10.1016/j.ress.2025.111894",
+  "sources_accessed": [
+   {
+    "url": "https://api.crossref.org/works/10.1016/j.ress.2025.111894",
+    "obtained": "metadata + full 53-item reference list (no abstract)",
+    "file": "raw/chen2026.crossref.json"
+   },
+   {
+    "url": "https://api.openalex.org/works/doi:10.1016/j.ress.2025.111894",
+    "obtained": "metadata only (no abstract; oa_status closed)",
+    "file": "raw/chen2026.openalex.json"
+   },
+   {
+    "url": "https://ideas.repec.org/a/eee/reensy/v267y2026ipas0951832025010944.html",
+    "obtained": "publisher abstract + author keywords + partial reference list",
+    "file": "raw/chen2026.ideas.html / chen2026.ideas_abstract.txt"
+   },
+   {
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.ress.2025.111894",
+    "obtained": "metadata (publicationDate 2025-11-01; DBLP journals/ress/ChenLXW26); abstract=null (first attempts HTTP 429)",
+    "file": "raw/chen2026_retry.s2.json (+ chen2026.s2_earlier_session.json)"
+   },
+   {
+    "url": "https://www.sciencedirect.com/science/article/(abs/)pii/S0951832025010944",
+    "obtained": "HTTP 403 (curl and WebFetch); highlights and full text NOT accessed",
+    "file": "raw/ACCESS_LOG.txt"
+   }
+  ],
+  "access_level": "abstract only",
+  "problem_solved": "Anomaly detection for power-plant gas turbines operating under variable operating conditions (OCs).",
+  "model": "Conditional variational autoencoder (OC variables as conditional inputs) with embedded self-attention (SA-CVAE); logarithmic reconstruction probability (LRP) used as a unified health indicator.",
+  "uses_context_aware_model": {
+   "answer": "yes",
+   "quote": "the marginal distributions (MDs) of parameters were transformed into conditional probability distributions (CPDs) by incorporating OC variables as conditional inputs in the variational autoencoder (VAE) model, and decoupled modeling of equipment states and external OCs is achieved.",
+   "source_file": "raw/chen2026.ideas_abstract.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "unclear",
+   "note": "The abstract does not mention how the LRP health indicator is thresholded. The reference list (Crossref) includes a dynamic-threshold paper (bib0030) and a threshold-cyclic-update paper (bib0029), but whether/how Chen et al. use adaptive thresholds is NOT verified (full text not accessed)."
+  },
+  "regime_specific_threshold": {
+   "answer": "unclear",
+   "note": "Not stated in abstract; full text not accessed. No 'no universal threshold' statement could be verified."
+  },
+  "operating_zone_model": {
+   "answer": "no (not in the alarm-zone sense)",
+   "note": "Conditioning is on continuous OC variables inside the model; no operating-zone segmentation is described in the abstract."
+  },
+  "transport_evaluation_across_units": {
+   "answer": "unclear",
+   "quote": "Experiments were carried out on one synthetic, one public, and two real-world datasets, with SA-CVAE compared against six leading AD methods.",
+   "source_file": "raw/chen2026.ideas_abstract.txt",
+   "note": "Multiple datasets, but the abstract does not say whether thresholds/models are transferred across units/engines."
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "unclear",
+   "note": "Not stated in abstract."
+  },
+  "held_out_confirmation": {
+   "answer": "unclear",
+   "note": "Not stated in abstract."
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "unclear",
+   "quote": "The results demonstrate that under varying OCs, SA-CVAE exhibits superior performance in AD tasks, achieving leading or competitive results across key evaluation metrics.",
+   "source_file": "raw/chen2026.ideas_abstract.txt",
+   "note": "Metrics are not named in the abstract."
+  },
+  "overlap_with_our_work": "Moderate at the problem level: turbine anomaly detection under variable operating conditions with an operating-condition-conditioned model. The Crossref reference list cites the N-CMAPSS dataset paper (Arias Chao et al. 2021, Data 6(1):5) and the ARAMIS data challenge paper, and it also cites Yue et al. 2025 (MSSP 224:112209). So the 'one public' dataset MAY be N-CMAPSS, but this is not verified.",
+  "difference_from_our_work": "The paper is a detector-design (model) contribution evaluated by comparative AD metrics. Nothing in the accessible abstract indicates an audit of nominal healthy-FPR calibration, per-phase FPR, cross-phase threshold transfer, a frozen discovery-confirmation split, or cross-engine transport of thresholds.",
+  "verbatim_quotes": [
+   {
+    "quote": "An innovative anomaly detection (AD) framework designed for gas turbines (GTs) in power plants working under variable operating conditions (OCs) was proposed based on conditional variational autoencoder (CVAE) optimized with self-attention (SA) in this paper.",
+    "source_file": "raw/chen2026.ideas_abstract.txt"
+   },
+   {
+    "quote": "Second, by embedding SA modules, the method dynamically adjusts weight allocation of the parameters to capture complex dependencies among them",
+    "source_file": "raw/chen2026.ideas_abstract.txt"
+   },
+   {
+    "quote": "Third, the logarithmic reconstruction probability (LRP), derived from the probabilistic output of SA-CVAE, serves as a unified health indicator (HI) to evaluate the health condition of the GT.",
+    "source_file": "raw/chen2026.ideas_abstract.txt"
+   },
+   {
+    "quote": "Gas turbine; Variable operating conditions; Anomaly detection; Conditional variational autoencoder; Self-attention",
+    "source_file": "raw/chen2026.ideas.html"
+   },
+   {
+    "quote": "Aircraft engine run-to-failure dataset under real flight conditions for prognostics and diagnostics",
+    "source_file": "raw/chen2026.crossref.json"
+   },
+   {
+    "quote": "The aramis data challenge: prognostics and health management in evolving environments",
+    "source_file": "raw/chen2026.crossref.json"
+   },
+   {
+    "quote": "A new auto-encoder-based dynamic threshold to reduce false alarm rate for anomaly detection of steam turbines",
+    "source_file": "raw/chen2026.crossref.json"
+   },
+   {
+    "quote": "Partial sensing information-driven threshold cyclic update graph autoencoder for mechanical anomaly detection",
+    "source_file": "raw/chen2026.crossref.json"
+   },
+   {
+    "quote": "An anomaly detection method for gas turbines based on single-condition training with zero-fault sample",
+    "source_file": "raw/chen2026.crossref.json"
+   }
+  ],
+  "uncertainty_notes": "Highlights and full text were not accessible (ScienceDirect 403; no Wayback snapshot; no preprint found on Crossref/SSRN). Whether the paper uses condition-specific/adaptive thresholds, reports FAR per operating condition, evaluates transfer across units, or contains a 'no universal threshold' statement is NOT verified. The 'one public dataset' is not identified in the abstract; N-CMAPSS is cited in the reference list, but that does not establish that it was used."
+ },
+ {
+  "key": "asaadi2022_jpc",
+  "task": 2,
+  "full_citation": {
+   "authors": "Asaadi, Mohsen; Izadi, Iman; Hassanzadeh, Amin; Yang, Fan",
+   "title": "Assessment of alarm systems for mixture processes and intermittent faults",
+   "journal": "Journal of Process Control",
+   "volume": "114",
+   "pages_or_article": "120-130",
+   "year": "2022 (June)"
+  },
+  "doi": "10.1016/j.jprocont.2022.04.002",
+  "sources_accessed": [
+   {
+    "url": "https://api.crossref.org/works/10.1016/j.jprocont.2022.04.002",
+    "obtained": "metadata (no abstract)",
+    "file": "raw/asaadi2022.crossref.json"
+   },
+   {
+    "url": "https://api.openalex.org/works/doi:10.1016/j.jprocont.2022.04.002",
+    "obtained": "metadata (no abstract; closed)",
+    "file": "raw/asaadi2022.openalex.json"
+   },
+   {
+    "url": "https://web.archive.org/web/20240424103348id_/https://www.sciencedirect.com/science/article/abs/pii/S095915242200052X",
+    "obtained": "archived ScienceDirect abstract page: highlights, abstract, keywords, affiliations, section snippets (first lines of sections), acknowledgements",
+    "file": "raw/asaadi2022_sd_abs.wayback.html / asaadi2022_sd_abs.wayback_extract.txt"
+   },
+   {
+    "url": "https://ualberta.scholaris.ca/server/api/discover/search/objects?query=Asaadi (ERA, U. Alberta)",
+    "obtained": "1 hit, unrelated (no Asaadi thesis)",
+    "file": "raw/era_api_search_Asaadi_.json"
+   },
+   {
+    "url": "https://arxiv.org/search/?query=Mohsen+Asaadi+alarm",
+    "obtained": "no results",
+    "file": "raw/arxiv_search_asaadi_alarm.html"
+   }
+  ],
+  "access_level": "abstract only",
+  "problem_solved": "Performance assessment of univariate alarm systems for process variables with intermittent faults (IFs), with the faulty process variable modelled as a time-variant finite mixture.",
+  "model": "Time-variant finite mixture model of the process variable; alarm performance indices FAR, MAR(t) and AAD derived for the basic alarm mechanism and for deadband and moving-average-filter designs; Monte-Carlo validation.",
+  "uses_context_aware_model": {
+   "answer": "no (mixture models the fault/non-fault alternation, not operating context)",
+   "quote": "the Finite Mixture Model is utilized to model the behaviour of an Intermittent Fault (IF), which is a fault that alternates between faulty and non-faulty behaviour at discrete random intervals.",
+   "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "no evidence",
+   "quote": "Two different designing techniques were applied to the alarm system, deadband and moving average filter.",
+   "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt",
+   "note": "Designs assessed are deadband and moving-average filter; no adaptive/time-varying threshold is described in the accessible text."
+  },
+  "regime_specific_threshold": {
+   "answer": "no evidence",
+   "note": "Nothing in highlights/abstract/snippets indicates regime- or zone-specific thresholds."
+  },
+  "operating_zone_model": {
+   "answer": "no",
+   "note": "No operating-zone segmentation in the accessible text (contrast with Asaadi et al. 2025)."
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence",
+   "note": "Single-variable simulation study; no multi-unit data described."
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no evidence"
+  },
+  "held_out_confirmation": {
+   "answer": "no (simulation validation only)",
+   "quote": "Evaluating the utilized method by Monte-Carlo simulation.",
+   "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "yes (analytical indices)",
+   "quote": "This paper studied the performance assessment for uni-variate alarm systems based on three performance indices, namely, FAR, MAR(t), and AAD.",
+   "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+  },
+  "overlap_with_our_work": "Low-moderate: shares the idea that alarm performance (FAR, missed alarms, delay) must be assessed under non-stationary process-variable behaviour and over time.",
+  "difference_from_our_work": "Univariate alarm assessment for intermittent faults in a single simulated process variable; the non-stationarity comes from the fault process, not from operating phases; no residual anomaly detectors, no nominal-FPR calibration audit, no phase-wise FPR, no cross-regime or cross-unit threshold transport, no held-out confirmation.",
+  "verbatim_quotes": [
+   {
+    "quote": "A novel method to assess alarm system over the time.",
+    "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+   },
+   {
+    "quote": "Using time-variant finite mixture models to model the faulty process variables.",
+    "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+   },
+   {
+    "quote": "Statistical techniques are used to design an alarm system in three stages: creating a model for PV based on statistical features, calculating performance assessment indices (FAR, MAR, and AAD) in the presence of design scenarios, and selecting the optimum design policy using optimization algorithms. The first two steps are the topic of this article.",
+    "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+   },
+   {
+    "quote": "Finally, different scenarios are explored, and the designed alarm system is tested over time for each of them, with Monte-Carlo simulation being used for further validation.",
+    "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+   },
+   {
+    "quote": "{\"#name\":\"text\",\"_\":\"Non-stationary process\"}",
+    "source_file": "raw/asaadi2022_sd_abs.wayback.html"
+   },
+   {
+    "quote": "{\"#name\":\"text\",\"_\":\"Averaged alarm delay (AAD)\"}",
+    "source_file": "raw/asaadi2022_sd_abs.wayback.html"
+   },
+   {
+    "quote": "{\"#name\":\"text\",\"_\":\"Finite mixture models\"}",
+    "source_file": "raw/asaadi2022_sd_abs.wayback.html"
+   },
+   {
+    "quote": "This section discusses the mechanism of alarm state detection, the model used for process variables, and the calculation of alarm performance indices FAR, MAR, and AAD.",
+    "source_file": "raw/asaadi2022_sd_abs.wayback_extract.txt"
+   },
+   {
+    "quote": "Beijing National Research Centre for Information Science and Technology and Department of Automation, Tsinghua University, Beijing 100084, China",
+    "source_file": "raw/asaadi2022_sd_abs.wayback.html"
+   },
+   {
+    "quote": "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran",
+    "source_file": "raw/asaadi2022_sd_abs.wayback.html"
+   },
+   {
+    "quote": "\"totalElements\" : 1",
+    "source_file": "raw/era_api_search_Asaadi_.json"
+   },
+   {
+    "quote": "Assessing the N-Nitrosamine Formation Potential of Selected Ionic Liquids",
+    "source_file": "raw/era_api_search_Asaadi_.json"
+   }
+  ],
+  "uncertainty_notes": "The full text was not accessed. The page was captured by the Wayback Machine on 2024-04-24 and gives the highlights, abstract, keywords and section snippets only. The first author's affiliation in the paper is Tsinghua University, not the University of Alberta; the co-author Izadi is at Isfahan University of Technology. ERA (University of Alberta) contains no Asaadi thesis. No legally open copy of the paper or a thesis version was found. A ResearchGate entry exists but was not used, because it is not an approved source. Keywords (from the page's embedded JSON): Alarm system; Intermittent faults; Finite mixture models; Non-stationary process; Averaged alarm delay (AAD); False alarm rate (FAR); Missed alarm rate (MAR). This list is joined by us; individual keywords are quote-checked against the raw HTML."
+ },
+ {
+  "key": "asaadi2025_jpc",
+  "task": 3,
+  "full_citation": {
+   "authors": "Asaadi, Mohsen; Yang, Fan; Wu, Weichi",
+   "title": "Operational zone-specific univariate alarm design for incipient faults",
+   "journal": "Journal of Process Control",
+   "volume": "155",
+   "pages_or_article": "103536",
+   "year": "2025 (November)"
+  },
+  "doi": "10.1016/j.jprocont.2025.103536 (preprint: SSRN 10.2139/ssrn.5232115, posted 26 Apr 2025)",
+  "sources_accessed": [
+   {
+    "url": "https://api.crossref.org/works?query.bibliographic=Asaadi+alarm+operating+zones",
+    "obtained": "identification of the paper and its SSRN preprint",
+    "file": "raw/cr_search_asaadi_zones.json"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.1016/j.jprocont.2025.103536",
+    "obtained": "metadata (no abstract)",
+    "file": "raw/asaadi2025.crossref.json"
+   },
+   {
+    "url": "https://api.openalex.org/works/doi:10.1016/j.jprocont.2025.103536",
+    "obtained": "metadata (no abstract; closed)",
+    "file": "raw/asaadi2025.openalex.json"
+   },
+   {
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Operational+zone-specific+univariate+alarm+design+incipient+faults",
+    "obtained": "record found; abstract=null",
+    "file": "raw/asaadi2025.s2_search.json"
+   },
+   {
+    "url": "https://web.archive.org/web/20250430092901id_/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5232115",
+    "obtained": "archived SSRN abstract page of the preprint: abstract, keywords, affiliations, posting date (SSRN itself returns 403)",
+    "file": "raw/asaadi2025_ssrn.wayback.html / asaadi2025_ssrn.wayback_abstract.txt"
+   }
+  ],
+  "access_level": "abstract only",
+  "problem_solved": "Alarm design and assessment for process variables affected by incipient (gradually developing) faults, where stationary alarm-performance models mislead.",
+  "model": "Piecewise time-variant statistical model of the process variable. Narrowest-Over-Threshold change-point segmentation into 'operational zones' (NOZ, rising zone, fault zone, return to normal). Performance indices MAR, FAR and AAD are computed zone-wise/dynamically. Monte Carlo simulation and Tennessee Eastman Process demonstration.",
+  "uses_context_aware_model": {
+   "answer": "partly (time-variant model of the fault trajectory, not of operating context)",
+   "quote": "This study proposes a time-variant statistical modeling framework to characterize the behavior of process variables affected by incipient faults.",
+   "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "unclear",
+   "quote": "A new alarm system design methodology is introduced, guided by three key performance indices: Missed Alarm Rate (MAR), False Alarm Rate (FAR), and Average Alarm Delay (AAD).",
+   "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt",
+   "note": "The abstract says a design methodology is guided by the indices. It does not say whether the alarm threshold changes across zones or over time."
+  },
+  "regime_specific_threshold": {
+   "answer": "unclear",
+   "note": "'Zone-specific' in the abstract refers to zone-wise modelling and performance assessment. Zone-specific threshold values are not stated in the preprint abstract; the full text was not accessed."
+  },
+  "operating_zone_model": {
+   "answer": "yes, but the zones are fault-evolution segments of the monitored variable, not plant operating modes",
+   "quote": "The methodology uses the Narrowest Over Threshold change-point detection technique to segment the process into distinct operational zones, including the Normal Operating Zone (NOZ), Rising Zone (RZ), Fault Zone (FZ), and Return to Normal (RTN).",
+   "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence",
+   "note": "Monte Carlo simulation plus the TEP benchmark; no multi-unit transport is described."
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no evidence"
+  },
+  "held_out_confirmation": {
+   "answer": "no evidence",
+   "quote": "The proposed method is validated through Monte Carlo simulations and demonstrated using the Tennessee Eastman Process benchmark.",
+   "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "yes",
+   "quote": "In particular, the AAD metric reflects realistic delay patterns and avoids the misleading interpretations often associated with stationary models.",
+   "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+  },
+  "overlap_with_our_work": "Moderate on the concept: performance indices (FAR, MAR, delay) differ by zone, and stationary/pooled assessment can mislead. This parallels our point that a single pooled nominal FPR hides zone-wise (phase-wise) differences. FAR and AAD are evaluated jointly.",
+  "difference_from_our_work": "The 'operational zones' are stages of an incipient-fault trajectory (normal, rising, fault, return-to-normal) in a univariate process variable. They are not operating phases of healthy operation such as climb, cruise and descent. The paper does not calibrate detectors to a nominal healthy FPR, does not transfer thresholds across operating regimes, does not evaluate transport across units or engines, and has no frozen held-out confirmation.",
+  "verbatim_quotes": [
+   {
+    "quote": "Traditional alarm design methods often assume stationary, which limits their ability to reflect the evolving nature of incipient faults.",
+    "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+   },
+   {
+    "quote": "By employing a piecewise time-variant model, the alarm system’s performance is assessed in a manner that captures local trends and transitions.",
+    "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+   },
+   {
+    "quote": "The resulting indices are dynamic, offering a more detailed projection of the process variable’s behavior over time.",
+    "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+   },
+   {
+    "quote": "Results show that the time-variant model provides a more accurate and interpretable representation of process dynamics and alarm behavior than traditional approaches.",
+    "source_file": "raw/asaadi2025_ssrn.wayback_abstract.txt"
+   },
+   {
+    "quote": "Univariate Alarm System, Non-stationary Process, Incipient Fault, Piece-wise Change Detection, Narrowest Over Threshold",
+    "source_file": "raw/asaadi2025_ssrn.wayback.html"
+   },
+   {
+    "quote": "Mohsen Asaadi</a></h2><p>Tsinghua University</p>",
+    "source_file": "raw/asaadi2025_ssrn.wayback.html"
+   },
+   {
+    "quote": "Weichi Wu</a></h2><p>Tsinghua University</p>",
+    "source_file": "raw/asaadi2025_ssrn.wayback.html"
+   },
+   {
+    "quote": "Posted: 26 Apr 2025",
+    "source_file": "raw/asaadi2025_ssrn.wayback.html"
+   },
+   {
+    "quote": "Operational zone-specific univariate alarm design for incipient faults",
+    "source_file": "raw/asaadi2025.crossref.json"
+   }
+  ],
+  "uncertainty_notes": "Only the SSRN preprint abstract (posted 26 Apr 2025, captured by the Wayback Machine on 30 Apr 2025) was accessible. The published JPC abstract and full text were not accessed and may differ. The group is Fan Yang's at Tsinghua University (Department of Automation), with Weichi Wu. It is not Tongwen Chen's group at the University of Alberta, which the task brief had guessed. Related open abstracts from the same first author (supplementary records below): IFAC-PapersOnLine 58(14):841-846 (2024) and CCIS chapter (2023) on adaptive, runtime alarm design under distributional shift."
+ },
+ {
+  "key": "asaadi2024_ifac_related",
+  "task": "3 (related, same first author)",
+  "full_citation": {
+   "authors": "Asaadi, Mohsen; Aslanseefat, Koorosh; Izadi, Iman; Yang, Fan",
+   "title": "Adaptive Design of Alarm Systems in Industrial Processes",
+   "journal": "IFAC-PapersOnLine",
+   "volume": "58(14)",
+   "pages_or_article": "841-846",
+   "year": "2024"
+  },
+  "doi": "10.1016/j.ifacol.2024.08.442",
+  "sources_accessed": [
+   {
+    "url": "https://api.openalex.org/works/doi:10.1016/j.ifacol.2024.08.442",
+    "obtained": "abstract (OpenAlex inverted index); OA diamond per OpenAlex",
+    "file": "raw/asaadi2024_ifac.openalex_abstract.txt"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.1016/j.ifacol.2024.08.442",
+    "obtained": "metadata",
+    "file": "raw/asaadi2024_ifac.crossref.json"
+   },
+   {
+    "url": "https://link.springer.com/chapter/10.1007/978-981-99-7590-7_9 (companion CCIS 2023 chapter)",
+    "obtained": "abstract",
+    "file": "raw/asaadi2023_ccis.springer_abstract.txt"
+   }
+  ],
+  "access_level": "abstract only",
+  "problem_solved": "Runtime (adaptive) re-design of univariate alarm systems when the process variable undergoes distributional shift.",
+  "model": "Design phase on historical data (FAR/MAR indices) and application phase that adapts to real-time data; the 2023 chapter uses statistical distance measures.",
+  "uses_context_aware_model": {
+   "answer": "no evidence"
+  },
+  "adaptive_threshold": {
+   "answer": "yes",
+   "quote": "This paper introduces a novel methodology for the real-time optimization of alarm systems, particularly for distributional shifts in the process variables.",
+   "source_file": "raw/asaadi2024_ifac.openalex_abstract.txt"
+  },
+  "regime_specific_threshold": {
+   "answer": "no evidence"
+  },
+  "operating_zone_model": {
+   "answer": "no evidence"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no evidence"
+  },
+  "held_out_confirmation": {
+   "answer": "no evidence",
+   "quote": "The proposed method is validated using a simulated example.",
+   "source_file": "raw/asaadi2023_ccis.springer_abstract.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "partly (FAR and MAR named; delay not named in abstract)",
+   "quote": "the design phase, which uses historical data to establish key performance indices such as missed alarm rate and false alarm rate",
+   "source_file": "raw/asaadi2024_ifac.openalex_abstract.txt"
+  },
+  "overlap_with_our_work": "Low: shows the same group works on runtime-adaptive alarm thresholds under distribution shift.",
+  "difference_from_our_work": "Single process variable; adaptive redesign over time, not phase-conditioned calibration; no multi-unit transport and no held-out confirmation.",
+  "verbatim_quotes": [
+   {
+    "quote": "Our approach is divided into two phases: the design phase, which uses historical data to establish key performance indices such as missed alarm rate and false alarm rate; and the application phase, which adapts to real-time data with initially unknown statistical properties.",
+    "source_file": "raw/asaadi2024_ifac.openalex_abstract.txt"
+   },
+   {
+    "quote": "We propose an adaptive designing method to evaluate and enhance the performance of an alarm system at runtime in this research.",
+    "source_file": "raw/asaadi2023_ccis.springer_abstract.txt"
+   }
+  ],
+  "uncertainty_notes": "The 'two phases' in the IFAC paper are design and application phases of the method, not operating phases. Full texts were not accessed."
+ },
+ {
+  "key": "diallo2025_jpc",
+  "task": 4,
+  "full_citation": {
+   "authors": "Diallo, Abdoul Rahime; Homri, Lazhar; Dantan, Jean-Yves",
+   "title": "Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders",
+   "journal": "Journal of Process Control",
+   "volume": "152",
+   "pages_or_article": "103495",
+   "year": "2025 (August)"
+  },
+  "doi": "10.1016/j.jprocont.2025.103495",
+  "sources_accessed": [
+   {
+    "url": "https://api.crossref.org/works/10.1016/j.jprocont.2025.103495",
+    "obtained": "metadata (no abstract)",
+    "file": "raw/diallo2025.crossref.json"
+   },
+   {
+    "url": "https://api.openalex.org/works/doi:10.1016/j.jprocont.2025.103495",
+    "obtained": "metadata (no abstract; closed)",
+    "file": "raw/diallo2025.openalex.json"
+   },
+   {
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.jprocont.2025.103495",
+    "obtained": "metadata; abstract=null",
+    "file": "raw/diallo2025.s2.json"
+   },
+   {
+    "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:tel-05503471",
+    "obtained": "HAL record of the first author's PhD thesis (English/French abstracts)",
+    "file": "raw/diallo2025_thesis.hal_record.json"
+   },
+   {
+    "url": "https://pastel.hal.science/tel-05503471/file/ENSAM_DIALLO_2025_archivage.pdf",
+    "obtained": "full text of the PhD thesis (ENSAM, defended 2025-11-20; in French). Chapter III covers conformal-prediction threshold setting for PCA/AE on TEP and on an industrial case, and cites the JPC paper",
+    "file": "raw/diallo2025_thesis_tel-05503471.pdf/.txt"
+   }
+  ],
+  "access_level": "metadata only (JPC article); full text of the author's related PhD thesis",
+  "problem_solved": "Setting detection thresholds for PCA (SPE, T2) and autoencoder (reconstruction error) fault detectors so that the empirical false-alarm rate is controlled. Conformal prediction (marginal, and calibration-conditional/PAC variants) is compared with classical threshold setting. This description is based on the title and on thesis Chapter III, not on the JPC abstract.",
+  "model": "PCA and autoencoder detectors; split-conformal marginal thresholds and 'conditional' conformal variants (DKW, Simes, asymptotic; conditional in the Bates et al. 2023 training-conditional sense). Evaluated on the Tennessee Eastman Process and an industrial galvanizing-line case (thesis Chapter III).",
+  "uses_context_aware_model": {
+   "answer": "no evidence (thesis Ch. III)",
+   "note": "No operating-condition conditioning found in Chapter III (grep for mode/regime/operating-condition terms in Ch. III returned nothing relevant)."
+  },
+  "adaptive_threshold": {
+   "answer": "no (static calibrated quantile thresholds)",
+   "quote": "La phase de modélisation, effectuée hors-ligne, débute par l’entraînement du modèle de détection sur un premier ensemble de données de bon fonctionnement.",
+   "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+  },
+  "regime_specific_threshold": {
+   "answer": "no",
+   "quote": "Plus récemment, Bates et al. (2023) ont introduit une approche visant à assurer une validité conditionnelle, offrant un contrôle plus strict du taux de fausses alarmes.",
+   "source_file": "raw/diallo2025_thesis_tel-05503471.txt",
+   "note": "'Conditional' here means calibration/training-conditional validity (Bates et al. 2023), not conditioning on operating regime."
+  },
+  "operating_zone_model": {
+   "answer": "no evidence"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no evidence"
+  },
+  "held_out_confirmation": {
+   "answer": "partly: disjoint calibration and test sets (random splits), not a frozen confirmation",
+   "quote": "Afin de garantir une comparaison équitable et rigoureuse entre les approches classiques de réglage du seuil et celle fondée sur la prédiction conforme, un cadre d’évaluation structuré est mis en place.",
+   "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "no (FAR and detection rate; no delay found in Ch. III)",
+   "quote": "L’évaluation de la performance des deux méthodes de réglage de seuil repose sur deux indicateurs principaux : le taux de fausses alarmes et le taux de détection des défauts.",
+   "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+  },
+  "overlap_with_our_work": "Moderate on one element: it documents that classical thresholds nominally set at alpha give empirical FARs above alpha on held-out normal data. That is a nominal-vs-realized FAR calibration gap for PCA and autoencoder detectors.",
+  "difference_from_our_work": "Single-regime process benchmark (TEP) and one industrial line. The explanation offered is limited training/calibration size under the IID assumption, not operating-phase heterogeneity. There is no per-regime FPR, no cross-regime threshold transfer, no cross-unit transport and no detection-delay matching.",
+  "verbatim_quotes": [
+   {
+    "quote": "Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders",
+    "source_file": "raw/diallo2025.crossref.json"
+   },
+   {
+    "quote": "The thesis then adapts the detection threshold using conformal prediction to formally control the false alarm rate without strong distributional assumptions.",
+    "source_file": "raw/diallo2025_thesis.hal_record.json"
+   },
+   {
+    "quote": "Diallo, A. R., Homri, L., & Dantan, J.-Y. (2025). Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders.",
+    "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+   },
+   {
+    "quote": "L’objectif principal de ce chapitre est d’évaluer l’applicabilité de la prédiction conforme pour la fixation du seuil de détection dans le contexte de la surveillance des systèmes de production (SDP).",
+    "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+   },
+   {
+    "quote": "Cette garantie est assurée tant que les données de calibration et les nouvelles données de fonctionnement normal sont indépendantes et identiquement distribuées (IID).",
+    "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+   },
+   {
+    "quote": "les taux de fausses alarmes observés à chaque seuil dépassent largement les niveaux de risque",
+    "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+   },
+   {
+    "quote": "Le modèle AE+S1, basé sur une estimation par noyaux (KDE), dépasse légèrement le niveau de risque cible avec un FAR de 5,21 %.",
+    "source_file": "raw/diallo2025_thesis_tel-05503471.txt"
+   }
+  ],
+  "uncertainty_notes": "The JPC abstract was NOT accessed (ScienceDirect 403; no Wayback snapshot; no Crossref, OpenAlex or S2 abstract). A WebSearch engine summary suggested the abstract discusses setting detection thresholds and FAR control on TEP, but it is model-mediated and was not quoted. The PhD thesis (tel-05503471) is by the same first author and cites the JPC paper. Its Chapter III treats the same topic, but the thesis does not state that Chapter III reproduces the paper. Thesis quotes therefore characterise the author's related work, not the JPC text itself."
+ },
+ {
+  "key": "steland2026_arxiv",
+  "task": 5,
+  "full_citation": {
+   "authors": "Steland, Ansgar",
+   "title": "Context-Adaptive Thresholding for Conditionally Representative Monitoring and Classification",
+   "journal": "arXiv preprint arXiv:2609.26652 [math.ST] (cross-list stat.ML), v1",
+   "volume": "-",
+   "pages_or_article": "arXiv:2609.26652v1",
+   "year": "2026 (submitted 22 Sep 2026)"
+  },
+  "doi": "none (arXiv:2609.26652)",
+  "sources_accessed": [
+   {
+    "url": "https://arxiv.org/abs/2609.26652",
+    "obtained": "abstract page (title, author, date, subjects, submission history)",
+    "file": "raw/steland2026.arxiv_abs.html"
+   },
+   {
+    "url": "https://arxiv.org/pdf/2609.26652v1",
+    "obtained": "full text (PDF, 36 pp.)",
+    "file": "raw/steland2026.arxiv_v1.pdf / steland2026.arxiv_v1.txt"
+   }
+  ],
+  "access_level": "full text",
+  "problem_solved": "Adapting the threshold of any threshold-type classifier or monitoring rule to a covariate Z (context). The conditional alarm/label rate is made to match a reference (ground-truth) conditional law while the overall false-alarm rate is kept.",
+  "model": "Threshold function c(z) = Psi^-1(1 - pi(z)), estimated with a nonparametric sliding-window (rectangular-kernel) estimator. The paper gives non-asymptotic bounds, CLTs, functional CLTs, uniform confidence bands, tests of a reference or constant threshold, and change-point tests of the threshold function. The illustration uses FICO HELOC credit data with Z = log(loan amount).",
+  "uses_context_aware_model": {
+   "answer": "yes (threshold depends on context covariate; detector score itself is not conditioned)",
+   "quote": "We show how to modify any given threshold-type classifier resp. monitoring rule to achieve representative conditional label prediction by using adapting the threshold to a covariate Z (the context) to distribute sensitivity while maintaining the false alarm rate.",
+   "source_file": "raw/steland2026.arxiv_v1.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "yes (covariate-adaptive threshold function)",
+   "quote": "Clearly, in this setting a constant threshold c applied globally to X is generally insufficient necessitating a more nuanced approach.",
+   "source_file": "raw/steland2026.arxiv_v1.txt"
+  },
+  "regime_specific_threshold": {
+   "answer": "yes (continuous context; discrete-environment version in Steland et al. 2024)",
+   "quote": "Threshold adaptation of such rules has been introduced by Steland et al. (2024) for discrete Z.",
+   "source_file": "raw/steland2026.arxiv_v1.txt"
+  },
+  "operating_zone_model": {
+   "answer": "no"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no (but proposes tests of whether a constant/reference threshold function is adequate)",
+   "quote": "In many applications, there is some reference or baseline threshold (at least the constant one), so that one might wish to conduct a statistical test whether or not the reference threshold can be assumed.",
+   "source_file": "raw/steland2026.arxiv_v1.txt"
+  },
+  "held_out_confirmation": {
+   "answer": "random split only",
+   "quote": "When using 75% of the data for estimation and the remaining 25% as a test set for evaluation, the estimated accuracy in the test set (averaged over 10 runs) was 72.2%.",
+   "source_file": "raw/steland2026.arxiv_v1.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "no (classification accuracy; change-point tests are proposed for the threshold function, not delay evaluation)"
+  },
+  "overlap_with_our_work": "Methodological: context-dependent thresholds as an alternative to a single global threshold while controlling the marginal false-alarm rate. This is the statistical counterpart of our phase-conditioned and continuous-context (quantile-regression) thresholds. It also offers inferential tools (confidence bands, tests of a constant threshold) that could frame our comparison of pooled and conditioned thresholds.",
+  "difference_from_our_work": "Theory plus a credit-scoring illustration. The goal is to align the conditional alarm rate with a ground-truth conditional law (representative fairness), not equal healthy FPR per regime. There are no engineering or engine data, no transport across units, no cross-regime transfer experiment and no detection-delay evaluation. It is an unrefereed preprint posted 22 Sep 2026.",
+  "verbatim_quotes": [
+   {
+    "quote": "A primary objective in this context is to select c such that the alarm probability, P (X > c), remains below a pre-specified level under baseline (normal) operating conditions thus ensuring a controlled false-alarm rate.",
+    "source_file": "raw/steland2026.arxiv_v1.txt"
+   },
+   {
+    "quote": "threshold functions were identified and proposed which guarantee type I error (false alarm) rate, and simultaneously",
+    "source_file": "raw/steland2026.arxiv_v1.txt"
+   },
+   {
+    "quote": "Contrary to the intention of these works, in the present paper the threshold function is used to align the conditional alarm rate to a reference population resp. sample.",
+    "source_file": "raw/steland2026.arxiv_v1.txt"
+   },
+   {
+    "quote": "For the well known FICOS credit scoring example, often used in interpretable machine learning, threshold adaptation leads to an easily interpretable decision rule which can compete with state of the art methods including transformers, in terms of common classification metrics.",
+    "source_file": "raw/steland2026.arxiv_v1.txt"
+   },
+   {
+    "quote": "Tue, 22 Sep 2026 16:20:03 UTC (221 KB)",
+    "source_file": "raw/steland2026.arxiv_abs.html"
+   },
+   {
+    "quote": "Context-Adaptive Thresholding for Conditionally Representative Monitoring and Classification",
+    "source_file": "raw/steland2026.arxiv_abs.html"
+   }
+  ],
+  "uncertainty_notes": "arXiv id and title verified (v1, 22 Sep 2026; math.ST with stat.ML cross-list). Not peer-reviewed. Its predecessors are peer-reviewed: Steland, Rafajlowicz & Rafajlowicz 2024, Statistica Neerlandica 79(1):e12352 (discrete environments), and Steland 2026, Ann. Inst. Stat. Math., doi 10.1007/s10463-025-00970-9. See the Task 6 record."
+ },
+ {
+  "key": "hsu2023_phmconf",
+  "task": 6,
+  "criteria_hit": "(a) partly [aero-engine N-CMAPSS, healthy-data threshold, FPR] + (c) [FPR and detection delay]",
+  "full_citation": {
+   "authors": "Hsu, Chi-Ching; Frusque, Gaetan; Fink, Olga",
+   "title": "Comparison of Residual-based Methods on Fault Detection (PDF title: 'A Comparison of Residual-based Methods on Fault Detection')",
+   "journal": "Annual Conference of the PHM Society",
+   "volume": "15(1)",
+   "pages_or_article": "-",
+   "year": "2023"
+  },
+  "doi": "10.36001/phmconf.2023.v15i1.3444",
+  "sources_accessed": [
+   {
+    "url": "https://papers.phmsociety.org/index.php/phmconf/article/download/3444/phmc_23_3444",
+    "obtained": "full text (CC BY 3.0 US)",
+    "file": "raw/task6/hsu2023_phmconf.pdf/.txt"
+   },
+   {
+    "url": "https://api.openalex.org/works?filter=doi:... (batch)",
+    "obtained": "abstract",
+    "file": "raw/task6/10.36001_phmconf.2023.v15i1.3444.openalex_abstract.txt"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.36001/phmconf.2023.v15i1.3444",
+    "obtained": "metadata",
+    "file": "raw/task6/hsu2023.crossref.json"
+   }
+  ],
+  "access_level": "full text",
+  "problem_solved": "Compares residual-based unsupervised fault detection on N-CMAPSS: an autoencoder against an input-output model that maps operating conditions to sensors.",
+  "model": "AE and OC input-output MLP models. Sensor-wise and aggregated residual health indicators. Threshold mu + 3 sigma from healthy validation data, with a waiting rule of Nwait = 3 cycles.",
+  "uses_context_aware_model": {
+   "answer": "yes (OC model maps operating conditions to sensors)",
+   "quote": "we perform a comprehensive comparison between two residual-based approaches: autoencoders, and the input-output models that establish a mapping between operating conditions and sensor readings.",
+   "source_file": "raw/task6/hsu2023_phmconf.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "no",
+   "quote": "Thus, we can define the threshold τi for sensor i as:",
+   "source_file": "raw/task6/hsu2023_phmconf.txt",
+   "note": "Fixed tau_i = mu_i + 3 sigma_i from healthy data (Eq. 12)."
+  },
+  "regime_specific_threshold": {
+   "answer": "no (only cruise is analysed)",
+   "quote": "For this study, we solely consider the cruising phase of the flight as it exhibits a more stable behavior in comparison to the take-off or landing phases.",
+   "source_file": "raw/task6/hsu2023_phmconf.txt"
+  },
+  "operating_zone_model": {
+   "answer": "no"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no (same 30 units used for training and testing)",
+   "quote": "We arbitrarily selected the first 16 cycles of each unit to be the healthy data for training. The models are trained using healthy data from all 30 units from DS04, DS05, and DS07.",
+   "source_file": "raw/task6/hsu2023_phmconf.txt"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no"
+  },
+  "held_out_confirmation": {
+   "answer": "no (5 random validation splits; no held-out engines)",
+   "quote": "For each setting, we train the models 5 times with the validation set randomly split.",
+   "source_file": "raw/task6/hsu2023_phmconf.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "yes (unit-level FPR and detection delay)",
+   "quote": "FPR corresponds to the number of units with negative detection relative to all units.",
+   "source_file": "raw/task6/hsu2023_phmconf.txt"
+  },
+  "overlap_with_our_work": "Highest dataset/method overlap found: residual detectors on N-CMAPSS, a threshold set from healthy data, and joint reporting of false positives and detection delay. The authors restrict analysis to cruise because other phases are less stable. That is indirect support for phase-dependent healthy behaviour.",
+  "difference_from_our_work": "Cruise only, so there is no phase-wise FPR and no cross-phase transfer. FPR is unit-level (an alarm before fault onset), not a row-level nominal FPR. All 30 units contribute training data, so there is no engine-held-out or frozen confirmation. There is no calibration-transport analysis. It uses DS04/DS05/DS07, not DS02/DS03.",
+  "verbatim_quotes": [
+   {
+    "quote": "Fault detection is achieved by applying a threshold that is determined based on the healthy condition.",
+    "source_file": "raw/task6/hsu2023_phmconf.txt"
+   },
+   {
+    "quote": "both models are capable of detecting faults with an average delay of around 20 cycles and maintain a low false positive rate.",
+    "source_file": "raw/task6/hsu2023_phmconf.txt"
+   },
+   {
+    "quote": "In case the detection delay is negative (du < 0), it corresponds to a false positive alarm.",
+    "source_file": "raw/task6/hsu2023_phmconf.txt"
+   },
+   {
+    "quote": "The cruising phase is defined when the normalised flight altitude exceeds 0.85.",
+    "source_file": "raw/task6/hsu2023_phmconf.txt"
+   },
+   {
+    "quote": "However, the sensor-wise health indicators are more sensitive to false alarms, as the FPR is not null.",
+    "source_file": "raw/task6/hsu2023_phmconf.txt"
+   }
+  ],
+  "uncertainty_notes": "PHM Society conference paper (peer-reviewed proceedings)."
+ },
+ {
+  "key": "zhong2026_scirep",
+  "task": 6,
+  "criteria_hit": "(a) partly [per-flight-phase performance of an aero-engine detector with a single global threshold] + (c) partly [detection delay and MTBFA]",
+  "full_citation": {
+   "authors": "Zhong, Linfeng; Zhou, Ting; Liu, Xianming; Xu, Kaijun; Chen, Xiaoyang",
+   "title": "RPA-LSTM: Reversible normalization and prediction-assisted LSTM for aero-engine intake-system ECU anomaly detection",
+   "journal": "Scientific Reports",
+   "volume": "(Article in Press; Crossref online 2026-09-11)",
+   "pages_or_article": "-",
+   "year": "2026"
+  },
+  "doi": "10.1038/s41598-026-67776-4",
+  "sources_accessed": [
+   {
+    "url": "https://www.nature.com/articles/s41598-026-67776-4_reference.pdf",
+    "obtained": "full text (Article in Press PDF)",
+    "file": "raw/task6/zhong2026_scirep.pdf / zhong2026_scirep_pdf.txt"
+   },
+   {
+    "url": "https://www.nature.com/articles/s41598-026-67776-4",
+    "obtained": "abstract page",
+    "file": "raw/task6/zhong2026_scirep.html"
+   }
+  ],
+  "access_level": "full text",
+  "problem_solved": "Intake-system anomaly detection from ECU data of a turbocharged aviation piston engine (AE300) under variable flight phases.",
+  "model": "LSTM autoencoder with reversible instance normalisation (RevIN) and an auxiliary prediction branch. Threshold on reconstruction error set by the natural anomaly ratio (13%).",
+  "uses_context_aware_model": {
+   "answer": "partly (RevIN normalisation against phase-induced shifts)",
+   "quote": "Variable flight phases lead to obvious mean and variance shifts of ECU monitoring sequences, which easily make the LSTM encoder confuse normal load transitions with real intake faults.",
+   "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "no (fixed anomaly-ratio threshold; adaptive thresholding listed as future work)",
+   "quote": "Near-term deployment optimization includes integrating additional ECU monitoring variables and developing sliding-window adaptive thresholding algorithms to replace the fixed anomaly-ratio threshold.",
+   "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+  },
+  "regime_specific_threshold": {
+   "answer": "no (phase-adaptive strategies proposed as future work)",
+   "quote": "Medium-term model improvements focus on flight-phase-adaptive adjustment strategies, such as phase-aware fine-tuning or multi-expert ensembles, to boost detection accuracy during high-load climb conditions.",
+   "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+  },
+  "operating_zone_model": {
+   "answer": "no (phases defined as power-lever bands for evaluation only)"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no (cross-aircraft validation stated as a limitation)",
+   "quote": "cross-aircraft validation using data from other aircraft types and longer fullflight-cycle datasets is necessary to establish the generalizability of the framework.",
+   "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no"
+  },
+  "held_out_confirmation": {
+   "answer": "chronological split + Monte Carlo random subsampling; no held-out aircraft/engines",
+   "quote": "Chronological splitting is adopted to avoid future information leakage between training and test sets.",
+   "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "yes (mean detection delay and MTBFA)",
+   "quote": "Meanwhile, the Mean Time Between False Alarms (MTBFA) is defined as the average window gap separating two successive false alarm events",
+   "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+  },
+  "overlap_with_our_work": "An aero-engine detector evaluated per flight phase under a single global threshold. Performance is phase-dependent (climb worst), and phase-adaptive thresholds and cross-engine transfer are named as open problems.",
+  "difference_from_our_work": "Piston-engine ECU data (two variables). Phase results are classification metrics on mixed normal/fault test windows, not healthy FPR against a nominal calibration target. There is no calibration audit, no cross-phase threshold transfer, no engine-held-out confirmation and no transport analysis.",
+  "verbatim_quotes": [
+   {
+    "quote": "Supplementary experiments including Monte Carlo random subsampling cross-validation, noise robustness tests, multi-flight-phase adaptability analysis, detection delay and mean time between false alarms (MTBFA) measurement, as well as anomaly ratio threshold sensitivity analysis are conducted in this paper.",
+    "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+   },
+   {
+    "quote": "The detection performance under idle, cruise, climb and takeoff flight phases is sorted in Table 7 to analyze the model adaptability under variable loads.",
+    "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+   },
+   {
+    "quote": "Fourth, the variable operating condition analysis reveals that detection performance during the climb phase (F1=0.8859) is markedly lower than other flight regimes",
+    "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+   },
+   {
+    "quote": "Longer-term algorithmic expansion aims to introduce cross-engine transfer learning and domain adaptation for model generalization across different aircraft platforms",
+    "source_file": "raw/task6/zhong2026_scirep_pdf.txt"
+   }
+  ],
+  "uncertainty_notes": "Article in Press (accepted 18 Aug 2026), so page and volume details are not final. The 'flight phases' are power-lever bands (Idle/Taxi 0-20%, Cruise 20-50%, Climb 50-80%, Takeoff 80-100%) per Table 7."
+ },
+ {
+  "key": "steland2024_statneerl",
+  "task": 6,
+  "criteria_hit": "(a) methodological analogue [environment-specific thresholds with controlled false-alarm budget over a partition]; not engines",
+  "full_citation": {
+   "authors": "Steland, Ansgar; Rafajłowicz, Ewaryst; Rafajłowicz, Wojciech",
+   "title": "General adapted-threshold monitoring in discrete environments and rules for imbalanced classes",
+   "journal": "Statistica Neerlandica",
+   "volume": "79(1)",
+   "pages_or_article": "e12352",
+   "year": "2025 (online 2024-08-21)"
+  },
+  "doi": "10.1111/stan.12352",
+  "sources_accessed": [
+   {
+    "url": "https://api.openalex.org/works?filter=doi:10.1111/stan.12352",
+    "obtained": "abstract (math symbols dropped by the inverted index)",
+    "file": "raw/task6/10.1111_stan.12352.openalex_abstract.txt"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.1111/stan.12352",
+    "obtained": "metadata",
+    "file": "raw/task6/steland2024.crossref.json"
+   },
+   {
+    "url": "https://arxiv.org/abs/2510.08035 (companion: Steland 2026, Ann. Inst. Stat. Math., 10.1007/s10463-025-00970-9)",
+    "obtained": "abstract of the companion paper",
+    "file": "raw/task6/steland2026a.arxiv_abstract.txt"
+   },
+   {
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/stan.12352",
+    "obtained": "HTTP 403 (full text not accessed)",
+    "file": "raw/ACCESS_LOG.txt"
+   }
+  ],
+  "access_level": "abstract only",
+  "problem_solved": "Monitoring with thresholds adapted to discrete environmental information. Covers level threshold functions and a proportional rule for imbalanced classes, plus two-stage designs that distribute the false-alarm budget over a partition.",
+  "model": "Threshold functions applied to standardized measurements, with asymptotic theory for IID and dependent (NDARMA, HMM) learning samples.",
+  "uses_context_aware_model": {
+   "answer": "yes (environment information enters via the threshold)",
+   "quote": "This additional information can be incorporated by applying threshold functions to the standardized measurements to adapt the detector to the environment.",
+   "source_file": "raw/task6/10.1111_stan.12352.openalex_abstract.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "yes (environment-adapted)"
+  },
+  "regime_specific_threshold": {
+   "answer": "yes (discrete environments)",
+   "quote": "Further, we propose two‐stage designs which allow to distribute in a controlled way the budget over an a priori partition of the sample space of",
+   "source_file": "raw/task6/10.1111_stan.12352.openalex_abstract.txt"
+  },
+  "operating_zone_model": {
+   "answer": "no"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no evidence"
+  },
+  "held_out_confirmation": {
+   "answer": "no evidence",
+   "quote": "The approach is illustrated by a real medical data set.",
+   "source_file": "raw/task6/10.1111_stan.12352.openalex_abstract.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "unclear (abstract only)"
+  },
+  "overlap_with_our_work": "Direct statistical precedent for regime-specific (phase-conditioned) thresholds that control the overall false-alarm budget. It supports the stance that mode-specific thresholds are not novel in themselves.",
+  "difference_from_our_work": "Statistical theory with a medical illustration. No engine data, no transport across units, no cross-regime transfer and no held-out confirmation.",
+  "verbatim_quotes": [
+   {
+    "quote": "For the latter rule asymptotic theory is developed for independent and identically distributed and dependent learning samples including data from new discrete autoregressive moving average model (NDARMA) series and Hidden Markov Models.",
+    "source_file": "raw/task6/10.1111_stan.12352.openalex_abstract.txt"
+   },
+   {
+    "quote": "We propose to use thresholds which depend on such covariates to boost the sensitivity for rare classes, which otherwise tend to be ignored.",
+    "source_file": "raw/task6/steland2026a.arxiv_abstract.txt"
+   }
+  ],
+  "uncertainty_notes": "Full text not accessed (Wiley 403). The OpenAlex abstract lacks the math symbols, so quotes avoid those spots."
+ },
+ {
+  "key": "raymond2025_windenergy",
+  "task": 6,
+  "criteria_hit": "(b) partly [transport of residual models to wind farms not used for learning] + (c) [FPR fixed at 5% with advance detection time]",
+  "full_citation": {
+   "authors": "Raymond, Théodore; Charbonnier, Sylvie; Bérenguer, Christophe; Lebranchu, Alexis",
+   "title": "Fleet-Wide Data-Driven Model Generation Process for Residual-Based Fault Detection in Wind Energy",
+   "journal": "Wind Energy",
+   "volume": "28(9)",
+   "pages_or_article": "e70050",
+   "year": "2025"
+  },
+  "doi": "10.1002/we.70050",
+  "sources_accessed": [
+   {
+    "url": "https://hal.science/hal-05286005/document",
+    "obtained": "full text (publisher PDF deposited in HAL; OA)",
+    "file": "raw/task6/raymond2025_hal-05286005.pdf/.txt"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.1002/we.70050",
+    "obtained": "metadata",
+    "file": "raw/task6/raymond2025.crossref.json"
+   }
+  ],
+  "access_level": "full text",
+  "problem_solved": "Fleet-wide, interpretable residual-based fault detection for wind turbines across farms and manufacturers.",
+  "model": "Automatically generated linear normal-behaviour models (three input variables). Multi-turbine residual indicators. ROC analysis of TPR(FPR) and ADT(FPR).",
+  "uses_context_aware_model": {
+   "answer": "yes (normal-behaviour models with environmental inputs)"
+  },
+  "adaptive_threshold": {
+   "answer": "no"
+  },
+  "regime_specific_threshold": {
+   "answer": "no"
+  },
+  "operating_zone_model": {
+   "answer": "no"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "yes (models, not calibrated thresholds)",
+   "quote": "Finally, the fault detection performances of the proposed models are evaluated on wind farms with turbines of various technologies, whose data have not been used to learn the models.",
+   "source_file": "raw/task6/10.1002_we.70050.openalex_abstract.txt"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no"
+  },
+  "held_out_confirmation": {
+   "answer": "partly (held-out farms for model generalizability; thresholds chosen per case from ROC)",
+   "quote": "Then, a threshold is set to reach a FPR of 5% (materialized by a red vertical dotted line in Figures 8 to 11), in order to analyze the ADT with respect to the operational",
+   "source_file": "raw/task6/raymond2025_hal-05286005.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "yes (FPR with advance detection time)",
+   "quote": "the false positive rate must be less than 5% over the H0 period to limit unnecessary maintenance interventions.",
+   "source_file": "raw/task6/raymond2025_hal-05286005.txt"
+  },
+  "overlap_with_our_work": "Cross-unit transport is evaluated: models learned on one farm are used on others, with FPR and detection-time specifications.",
+  "difference_from_our_work": "What transports is the model (the variable selection). The alarm threshold is re-set per evaluation case to reach FPR = 5%, so calibrated-threshold transport is not tested. The setting is wind turbines, without operating phases, cross-regime transfer, nominal-FPR calibration audit or frozen confirmation.",
+  "verbatim_quotes": [
+   {
+    "quote": "In this paper, a data‐driven automatic model generation method for fault detection, applicable to an entire fleet of wind turbines, is presented.",
+    "source_file": "raw/task6/10.1002_we.70050.openalex_abstract.txt"
+   },
+   {
+    "quote": "Moreover, all the models built using data from wind farms with the same technology obtain very good fault detection performances, which shows that they are exchangeable, and thus generalizable to the same technology.",
+    "source_file": "raw/task6/raymond2025_hal-05286005.txt"
+   }
+  ],
+  "uncertainty_notes": "Peer-reviewed journal (open access)."
+ },
+ {
+  "key": "farouq2021_neurocomputing",
+  "task": 6,
+  "criteria_hit": "(b) conceptually [unit heterogeneity makes fleet-level models inefficient at target units; subfleet (Mondrian) conformal calibration] + (c) [false alarms vs detection delay, thesis Paper-V]",
+  "full_citation": {
+   "authors": "Farouq, Shiraz; Byttner, Stefan; Bouguelia, Mohamed-Rafik; Gadd, Henrik",
+   "title": "Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets",
+   "journal": "Neurocomputing",
+   "volume": "462",
+   "pages_or_article": "591-606",
+   "year": "2021"
+  },
+  "doi": "10.1016/j.neucom.2021.08.016",
+  "sources_accessed": [
+   {
+    "url": "https://api.crossref.org/works/10.1016/j.neucom.2021.08.016",
+    "obtained": "metadata",
+    "file": "raw/task6/farouq2021.crossref.json"
+   },
+   {
+    "url": "https://api.openalex.org/works/doi:10.1016/j.neucom.2021.08.016",
+    "obtained": "metadata (closed; no abstract)",
+    "file": "raw/task6/farouq2021.openalex.json"
+   },
+   {
+    "url": "https://hh.diva-portal.org/smash/get/diva2:1634156/FULLTEXT04.pdf",
+    "obtained": "full text of first author's doctoral thesis (Halmstad Univ., 2022), which includes this paper as Paper-IV and summarises it",
+    "file": "raw/task6/farouq2022_thesis_diva2_1634156.pdf/.txt"
+   }
+  ],
+  "access_level": "metadata only (article); full text of the thesis summary",
+  "problem_solved": "Monitoring heterogeneous fleets (district-heating substations) without labels. Each target unit is compared with a stable, similar subfleet using conformal anomaly detection with bounded false-alarm probability.",
+  "model": "Conformal subfleet (CSF) approach with Mondrian-type conformal anomaly detection. Subfleets are built by k-NN or conformal clustering. The thesis adds unit-level, subfleet-level and combined ensembles (ULEM, SLEM, CEM).",
+  "uses_context_aware_model": {
+   "answer": "yes (subfleet as context for each target unit)",
+   "quote": "From a data-mining point of view, a subfleet based approach provides a “context” for the behavior of a target substation by gathering evidence from other substations in the subfleet.",
+   "source_file": "raw/task6/farouq2022_thesis_diva2_1634156.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "unclear"
+  },
+  "regime_specific_threshold": {
+   "answer": "yes in the Mondrian (category-conditional) sense, per subfleet",
+   "quote": "An effective monitoring infrastructure requires that the probability of wrongly classifying the behavior of a target unit as anomalous, relative to its subfleet at time t, is bounded.",
+   "source_file": "raw/task6/farouq2022_thesis_diva2_1634156.txt"
+  },
+  "operating_zone_model": {
+   "answer": "no"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "yes (fleet-level versus subfleet-level versus unit-level models)",
+   "quote": "Our preliminary investigations found that operational heterogeneity among the substations in a DH network can cause fleet-level models to be inefficient in detecting anomalous behavior at the target units.",
+   "source_file": "raw/task6/farouq2022_thesis_diva2_1634156.txt"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no evidence"
+  },
+  "held_out_confirmation": {
+   "answer": "unclear"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "yes (thesis Paper-V: precision/false alarms vs detection delay)",
+   "quote": "We observed the decisions that relied on the information obtained through CEM showed a reduction in overall false alarms compared to those obtained through ULEM or SLEM, albeit at the cost of some detection delay.",
+   "source_file": "raw/task6/farouq2022_thesis_diva2_1634156.txt"
+  },
+  "overlap_with_our_work": "Conceptually the closest precedent for our transport finding. In a heterogeneous fleet, pooled (fleet-level) normal models can be inefficient at individual units, which motivates unit-similar (subfleet) calibration with controlled false-alarm probability.",
+  "difference_from_our_work": "District-heating substations, not aero-engines. The heterogeneity is between units, not between flight phases. The approach is conformal detection against subfleets. It does not audit nominal FPR calibration per operating phase, does not transfer thresholds across phases, and has no frozen discovery/confirmation protocol.",
+  "verbatim_quotes": [
+   {
+    "quote": "Paper-IV: Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets",
+    "source_file": "raw/task6/farouq2022_thesis_diva2_1634156.txt"
+   },
+   {
+    "quote": "Since the validity property guarantees an upper bound on the probability of false alarms, the focus can shift to evaluating the efficiency of anomaly detectors.",
+    "source_file": "raw/task6/farouq2022_thesis_diva2_1634156.txt"
+   },
+   {
+    "quote": "The primary motivation here is that this framework provides a systematic way to control false alarms and choose an appropriate anomaly detector compared to traditional ML approaches, especially when labeled datasets are not available.",
+    "source_file": "raw/task6/farouq2022_thesis_diva2_1634156.txt"
+   }
+  ],
+  "uncertainty_notes": "The Neurocomputing article itself was not accessed (Elsevier 403; no OA copy). Quotes come from the first author's doctoral thesis, which includes the article as Paper-IV and summarises it. They describe the thesis's account and are not verbatim text of the article. The related ESWA 2022 paper (TRANTOR framework; thesis Paper-V) was identified in a WebSearch result list but not accessed."
+ },
+ {
+  "key": "laguna2026_jpcs",
+  "task": 6,
+  "criteria_hit": "(a)/(b) partly [cluster-conditional (turbine-group) calibration; empirical coverage below nominal due to calibration contamination and calibration-to-test shift]",
+  "full_citation": {
+   "authors": "Laguna, Jorge; Janal, Yannic; Reder, Maik; Melero, Julio J.",
+   "title": "Temporal Conformal Prediction for Wind Turbine Anomaly Detection: A Robust Distribution-Free Framework with Conditional Clustering",
+   "journal": "Journal of Physics: Conference Series (TORQUE 2026)",
+   "volume": "3224(6)",
+   "pages_or_article": "062054",
+   "year": "2026"
+  },
+  "doi": "10.1088/1742-6596/3224/6/062054",
+  "sources_accessed": [
+   {
+    "url": "https://iopscience.iop.org/article/10.1088/1742-6596/3224/6/062054/pdf",
+    "obtained": "full text (open access)",
+    "file": "raw/task6/laguna2026_iop.pdf/.txt"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.1088/1742-6596/3224/6/062054",
+    "obtained": "metadata",
+    "file": "raw/task6/laguna2026.crossref.json"
+   }
+  ],
+  "access_level": "full text",
+  "problem_solved": "Early anomaly detection in wind-turbine converters with distribution-free prediction intervals that adapt to changing operating conditions.",
+  "model": "Shape-based clustering of turbines. Per-cluster regression models trained on healthy data. Sequential (rolling-window) conformal calibration with an 85% warning level and a 99% alert level.",
+  "uses_context_aware_model": {
+   "answer": "yes (per-cluster normal-behaviour regression on environmental inputs)",
+   "quote": "Within each cluster, we train regression models exclusively on healthy data and wrap them with a sequential conformal prediction procedure, providing 85% and 99% coverage intervals",
+   "source_file": "raw/task6/laguna2026_iop.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "yes (rolling recalibration)",
+   "quote": "We implement sequential calibration using a rolling window approach, continuously recalibrating",
+   "source_file": "raw/task6/laguna2026_iop.txt"
+  },
+  "regime_specific_threshold": {
+   "answer": "partly (cluster-specific models/intervals, not operating-regime-specific)"
+  },
+  "operating_zone_model": {
+   "answer": "no"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence of explicit transport test"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no"
+  },
+  "held_out_confirmation": {
+   "answer": "unclear"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "partly (false positives, recall, and warning lead time)",
+   "quote": "Warninglevel alerts appeared 72 days before failures on average, while alert-level notifications preceded failures by 47 days",
+   "source_file": "raw/task6/laguna2026_iop.txt"
+  },
+  "overlap_with_our_work": "Reports that nominal coverage is not attained out of sample (81.8% against 85%, 97.9% against 99%). It attributes the gap to calibration contamination and calibration-to-test distribution shift. This is a nominal-versus-realized calibration gap, with group-conditional calibration across turbines.",
+  "difference_from_our_work": "Wind-turbine converters. The Results passage reports coverage as overall figures, not per regime or per unit. There is no cross-regime threshold transfer, no engine/unit-level transport audit and no frozen confirmation.",
+  "verbatim_quotes": [
+   {
+    "quote": "The conformal prediction framework achieved 81.8% empirical coverage for the 85% warning level and 97.9% for the 99% alert level, mostly validating distribution-free guarantees under non-stationary conditions.",
+    "source_file": "raw/task6/laguna2026_iop.txt"
+   },
+   {
+    "quote": "These deviations from theoretical coverage come primarily from calibration on outlier-contaminated data and distribution shifts between calibration and test periods.",
+    "source_file": "raw/task6/laguna2026_iop.txt"
+   },
+   {
+    "quote": "Though it may produce conservative intervals and provides marginal rather than conditional coverage,",
+    "source_file": "raw/task6/laguna2026_iop.txt"
+   }
+  ],
+  "uncertainty_notes": "Peer-reviewed conference proceedings (TORQUE 2026)."
+ },
+ {
+  "key": "aslansefat2020_isatrans",
+  "task": 6,
+  "criteria_hit": "(c) [variable (non-constant) thresholds evaluated by FAR, MAR and averaged alarm delay]",
+  "full_citation": {
+   "authors": "Aslansefat, Koorosh; Bahar Gogani, Mahdi; Kabir, Sohag; Shoorehdeli, Mahdi Aliyari; Yari, Mostafa",
+   "title": "Performance evaluation and design for variable threshold alarm systems through semi-Markov process",
+   "journal": "ISA Transactions",
+   "volume": "97",
+   "pages_or_article": "282-295",
+   "year": "2020 (online 2019)"
+  },
+  "doi": "10.1016/j.isatra.2019.08.015",
+  "sources_accessed": [
+   {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31427063&retmode=xml",
+    "obtained": "abstract (PubMed)",
+    "file": "raw/task6/pubmed_31427063.xml / pubmed_31427063_abstract.txt"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.1016/j.isatra.2019.08.015",
+    "obtained": "metadata",
+    "file": "raw/task6/aslansefat2019.crossref.json"
+   }
+  ],
+  "access_level": "abstract only",
+  "problem_solved": "Performance assessment and optimal design of variable-threshold alarm systems (VTASs).",
+  "model": "Priority-AND gate plus semi-Markov process to compute FAR, MAR and averaged alarm delay for variable thresholds. GA-based parameter design.",
+  "uses_context_aware_model": {
+   "answer": "no evidence"
+  },
+  "adaptive_threshold": {
+   "answer": "yes (variable thresholds)",
+   "quote": "This study introduces two types of variable thresholding and proposes a novel approach for performance assessment of VTASs using Priority-AND gate and semi-Markov process.",
+   "source_file": "raw/task6/pubmed_31427063_abstract.txt"
+  },
+  "regime_specific_threshold": {
+   "answer": "unclear (abstract does not say what drives the threshold variation)"
+  },
+  "operating_zone_model": {
+   "answer": "no evidence"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no evidence"
+  },
+  "held_out_confirmation": {
+   "answer": "no (numerical examples)",
+   "quote": "The effectiveness of the proposed approach is illustrated via three numerical examples and through a comparison with previous studies.",
+   "source_file": "raw/task6/pubmed_31427063_abstract.txt"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "yes",
+   "quote": "Different kinds of thresholding or filtration are applied to decrease alarm nuisance and improve performance indices, such as Averaged Alarm Delay (ADD), Missed Alarm and False Alarm Rates (MAR and FAR).",
+   "source_file": "raw/task6/pubmed_31427063_abstract.txt"
+  },
+  "overlap_with_our_work": "Joint FAR, missed-alarm and delay assessment of non-constant thresholds. This is the alarm-management precedent for evaluating condition-dependent thresholds by false alarms and delay together.",
+  "difference_from_our_work": "Analytical and numerical alarm-design work on single process variables. No detectors, no operating phases, no transport and no held-out data.",
+  "verbatim_quotes": [
+   {
+    "quote": "However, the literature suffers from the lack of an appropriate method to assess performance parameters of Variable Threshold Alarm Systems (VTASs).",
+    "source_file": "raw/task6/pubmed_31427063_abstract.txt"
+   }
+  ],
+  "uncertainty_notes": "Only the abstract was accessed. OpenAlex lists green-OA submitted versions (Hull and Bradford repositories) that were not retrieved."
+ },
+ {
+  "key": "miao2024_sensors",
+  "task": 6,
+  "criteria_hit": "(a) partly [gas turbine; operating-condition-category-adjusted anomaly index; single alarm threshold; one FAR figure]",
+  "full_citation": {
+   "authors": "Miao, Dongyan; Feng, Kun; Xiao, Yuan; Li, Zhouzheng; Gao, Jinji",
+   "title": "Gas Turbine Anomaly Detection under Time-Varying Operation Conditions Based on Spectra Alignment and Self-Adaptive Normalization",
+   "journal": "Sensors",
+   "volume": "24(3)",
+   "pages_or_article": "941",
+   "year": "2024"
+  },
+  "doi": "10.3390/s24030941",
+  "sources_accessed": [
+   {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10856833/",
+    "obtained": "full text (PMC HTML)",
+    "file": "raw/task6/miao2024_pmc.html / miao2024_pmc.txt"
+   },
+   {
+    "url": "https://api.crossref.org/works/10.3390/s24030941",
+    "obtained": "metadata",
+    "file": "raw/task6/miao2024.crossref.json"
+   }
+  ],
+  "access_level": "full text",
+  "problem_solved": "Vibration-spectrum anomaly detection for a gas turbine under time-varying operating conditions (rotational speed).",
+  "model": "Spectra alignment and self-adaptive normalisation. Degressive beta-VAE. A multi-category anomaly index (MSE adjusted per operating-condition category).",
+  "uses_context_aware_model": {
+   "answer": "yes (condition categories adjust the index)",
+   "quote": "we propose a multi-category anomaly index (MCAI), which is obtained by adjusting the MSE values according to the categories.",
+   "source_file": "raw/task6/miao2024_pmc.txt"
+  },
+  "adaptive_threshold": {
+   "answer": "no (single threshold from validation set)",
+   "quote": "The alarm threshold is determined based on the validation set and is set to three times the 95th percentile of the anomaly index in the validation set.",
+   "source_file": "raw/task6/miao2024_pmc.txt"
+  },
+  "regime_specific_threshold": {
+   "answer": "effectively per-category normalisation, then one threshold"
+  },
+  "operating_zone_model": {
+   "answer": "no"
+  },
+  "transport_evaluation_across_units": {
+   "answer": "no evidence"
+  },
+  "cross_regime_threshold_transfer": {
+   "answer": "no"
+  },
+  "held_out_confirmation": {
+   "answer": "no evidence"
+  },
+  "false_alarm_delay_joint_evaluation": {
+   "answer": "partly (one case: alarm about 1.5 h after fault, FAR about 0.15%)",
+   "quote": "The false alarm rate is about 0.15%.",
+   "source_file": "raw/task6/miao2024_pmc.txt"
+  },
+  "overlap_with_our_work": "Gas-turbine anomaly index that normalises the error per operating-condition category, so that a single threshold behaves comparably across conditions. This is functionally related to phase-conditioned thresholds.",
+  "difference_from_our_work": "One FOD-fault dataset (the number of engines was not checked). There is no audit of healthy FPR per condition against a nominal target, no cross-condition threshold transfer, no transport across units and no confirmation design.",
+  "verbatim_quotes": [
+   {
+    "quote": "However, in this task, the vibration amplitude varies with the rotational speed, and the MSE values can differ between different operating conditions.",
+    "source_file": "raw/task6/miao2024_pmc.txt"
+   }
+  ],
+  "uncertainty_notes": "Only the passages found by the searched terms were read in detail."
+ }
+]

@@ -1,0 +1,619 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    30
+   ]
+  ],
+  "date-time": "2026-07-30T01:22:30Z",
+  "timestamp": 1785374550066,
+  "version": "3.55.0"
+ },
+ "reference-count": 39,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2018-02-01T00:00:00Z",
+    "timestamp": 1517443200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2018,
+    2
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2017.07.032",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2017,
+    7,
+    27
+   ]
+  ],
+  "date-time": "2017-07-27T21:32:39Z",
+  "timestamp": 1501191159000
+ },
+ "page": "152-166",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 32,
+ "special_numbering": "C",
+ "title": [
+  "A novelty detection diagnostic methodology for gearboxes operating under fluctuating operating conditions using probabilistic techniques"
+ ],
+ "prefix": "10.1016",
+ "volume": "100",
+ "author": [
+  {
+   "given": "S.",
+   "family": "Schmidt",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "P.S.",
+   "family": "Heyns",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "J.P.",
+   "family": "de Villiers",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "7",
+   "key": "10.1016/j.ymssp.2017.07.032_b0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "1483",
+   "DOI": "10.1016/j.ymssp.2005.09.012",
+   "article-title": "A review on machinery diagnostics and prognostics implementing condition-based maintenance",
+   "volume": "20",
+   "author": "Jardine",
+   "year": "2006",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2017.07.032_b0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "1528",
+   "DOI": "10.1016/j.ymssp.2009.01.014",
+   "article-title": "A new feature for monitoring the condition of gearboxes in non-stationary operating conditions",
+   "volume": "23",
+   "author": "Bartelmus",
+   "year": "2009",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2017.07.032_b0015",
+   "doi-asserted-by": "crossref",
+   "first-page": "16",
+   "DOI": "10.1016/j.ymssp.2013.09.010",
+   "article-title": "Diagnostics of bearings in presence of strong operating conditions non-stationarity - a procedure of load-dependent features processing with application to wind turbine bearings",
+   "volume": "46",
+   "author": "Zimroz",
+   "year": "2014",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.ymssp.2017.07.032_b0020",
+   "doi-asserted-by": "crossref",
+   "first-page": "1782",
+   "DOI": "10.1016/j.measurement.2012.04.006",
+   "article-title": "Application of averaged instantaneous power spectrum for diagnostics of machinery operating under non-stationary operational conditions",
+   "volume": "45",
+   "author": "Urbanek",
+   "year": "2012",
+   "journal-title": "Measurement"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2017.07.032_b0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "259",
+   "DOI": "10.1115/1.3256334",
+   "article-title": "A new method of modeling gear faults",
+   "volume": "104",
+   "author": "Randall",
+   "year": "1982",
+   "journal-title": "J. Mech. Des."
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.ymssp.2017.07.032_b0030",
+   "doi-asserted-by": "crossref",
+   "first-page": "1511",
+   "DOI": "10.1016/j.ymssp.2005.05.009",
+   "article-title": "Transmission path phase compensation for gear monitoring under fluctuating load conditions",
+   "volume": "20",
+   "author": "Stander",
+   "year": "2006",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0035",
+   "series-title": "2014 IEEE Conference on Prognostics and Health Management (PHM)",
+   "first-page": "1",
+   "article-title": "A review and strategy for the diagnosis of speed-varying machinery",
+   "author": "Lin",
+   "year": "2014"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2017.07.032_b0040",
+   "doi-asserted-by": "crossref",
+   "first-page": "635",
+   "DOI": "10.1155/2012/839420",
+   "article-title": "Gearbox vibration signal amplitude and frequency modulation",
+   "volume": "19",
+   "author": "Chaari",
+   "year": "2012",
+   "journal-title": "Shock Vib."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2017.07.032_b0045",
+   "doi-asserted-by": "crossref",
+   "first-page": "299",
+   "DOI": "10.1115/1.1924636",
+   "article-title": "HMM-based fault detection and diagnosis scheme for rolling element bearings",
+   "volume": "127",
+   "author": "Ocak",
+   "year": "2005",
+   "journal-title": "J. Vib. Acoust."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2017.07.032_b0050",
+   "doi-asserted-by": "crossref",
+   "first-page": "1200",
+   "DOI": "10.1016/j.eswa.2007.08.021",
+   "article-title": "Investigation of engine fault diagnosis using discrete wavelet transform and neural network",
+   "volume": "35",
+   "author": "Wu",
+   "year": "2008",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0055",
+   "doi-asserted-by": "crossref",
+   "first-page": "187",
+   "DOI": "10.1016/j.measurement.2014.08.041",
+   "article-title": "Fault diagnosis of rolling bearings using a genetic algorithm optimized neural network",
+   "volume": "58",
+   "author": "Unal",
+   "year": "2014",
+   "journal-title": "Measurement"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2017.07.032_b0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "326",
+   "DOI": "10.1016/j.engappai.2011.09.010",
+   "article-title": "A support vector machine approach based on physical model training for rolling element bearing fault detection in industrial environments",
+   "volume": "25",
+   "author": "Gryllias",
+   "year": "2012",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0065",
+   "doi-asserted-by": "crossref",
+   "first-page": "636",
+   "DOI": "10.1016/j.asoc.2015.02.015",
+   "article-title": "Early fault detection in gearboxes based on support vector machines and multilayer perceptron with a continuous wavelet transform",
+   "volume": "30",
+   "author": "Jedliński",
+   "year": "2015",
+   "journal-title": "Appl. Soft Comput."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0070",
+   "doi-asserted-by": "crossref",
+   "first-page": "75",
+   "DOI": "10.1016/j.measurement.2014.10.026",
+   "article-title": "Diagnostics of gear deterioration using EEMD approach and PCA process",
+   "volume": "61",
+   "author": "Yang",
+   "year": "2015",
+   "journal-title": "Measurement"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2017.07.032_b0075",
+   "doi-asserted-by": "crossref",
+   "first-page": "357",
+   "DOI": "10.1016/j.cie.2012.10.013",
+   "article-title": "Automatic bearing fault diagnosis based on one-class ν-SVM",
+   "volume": "64",
+   "author": "Fernández-Francos",
+   "year": "2013",
+   "journal-title": "Comp. Indust. Eng."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2017.07.032_b0080",
+   "doi-asserted-by": "crossref",
+   "first-page": "651",
+   "DOI": "10.1016/j.ymssp.2011.09.007",
+   "article-title": "Statistical gear health analysis which is robust to fluctuating loads and operating speeds",
+   "volume": "27",
+   "author": "Heyns",
+   "year": "2012",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0085",
+   "doi-asserted-by": "crossref",
+   "unstructured": "T. Heyns, P. S. Heyns, R. Zimroz, Combining discrepancy analysis with sensorless signal resampling for condition monitoring of rotating machines under uctuating operations, in: Ninth International Conference on Condition Monitoring and Machinery Failure Prevention Technologies, vol. 2(2), 2012, pp. 52–58.",
+   "DOI": "10.1784/204764212804729714"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0090",
+   "doi-asserted-by": "crossref",
+   "first-page": "200",
+   "DOI": "10.1016/j.ymssp.2012.05.008",
+   "article-title": "Combining synchronous averaging with a Gaussian mixture model novelty detection scheme for vibration-based condition monitoring of a gearbox",
+   "volume": "32",
+   "author": "Heyns",
+   "year": "2012",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0095",
+   "series-title": "Pattern Recognition and Machine Learning",
+   "author": "Bishop",
+   "year": "2009"
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.ymssp.2017.07.032_b0100",
+   "doi-asserted-by": "crossref",
+   "first-page": "417",
+   "DOI": "10.1784/insi.2016.58.8.417",
+   "article-title": "Rotating machine diagnosis using smart feature selection under non-stationary operating conditions",
+   "volume": "58",
+   "author": "Heyns",
+   "year": "2016",
+   "journal-title": "Insight-Non-Destruct. Test. Condition Monitor."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0105",
+   "unstructured": "S. Schmidt, P.S. Heyns, J.P. De Villiers, Discrepancy signal processing techniques for gearbox condition monitoring applications, in: Proceedings of the First World Congress on Condition Monitoring (WCCM 2017), London, United Kingdom, 2017."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2017.07.032_b0110",
+   "doi-asserted-by": "crossref",
+   "first-page": "1285",
+   "DOI": "10.1016/S0888-3270(03)00088-8",
+   "article-title": "Cyclostationary modelling of rotating machine vibration signals",
+   "volume": "18",
+   "author": "Antoni",
+   "year": "2004",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2017.07.032_b0115",
+   "doi-asserted-by": "crossref",
+   "first-page": "76",
+   "DOI": "10.1016/j.ymssp.2013.03.024",
+   "article-title": "A tacho-less order tracking technique for large speed variations",
+   "volume": "40",
+   "author": "Zhao",
+   "year": "2013",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2017.07.032_b0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "246",
+   "DOI": "10.1016/j.ymssp.2008.03.016",
+   "article-title": "Vibration condition monitoring of planetary gearbox under varying external load",
+   "volume": "23",
+   "author": "Bartelmus",
+   "year": "2009",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0125",
+   "series-title": "Pattern Recognition",
+   "author": "Theodoridis",
+   "year": "2009"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0130",
+   "series-title": "Neural Networks for Pattern Recognition",
+   "author": "Bishop",
+   "year": "1995"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0135",
+   "doi-asserted-by": "crossref",
+   "unstructured": "L.R. Rabiner, A tutorial on Hidden Markov Models and selected applications in speech recognition, Proc. IEEE 77 (2).",
+   "DOI": "10.1109/5.18626"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0140",
+   "doi-asserted-by": "crossref",
+   "first-page": "927",
+   "DOI": "10.1006/jsvi.1996.0226",
+   "article-title": "Application of wavelets to gearbox vibration signals for fault detection",
+   "volume": "192",
+   "author": "Wang",
+   "year": "1996",
+   "journal-title": "J. Sound Vib."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2017.07.032_b0145",
+   "doi-asserted-by": "crossref",
+   "first-page": "135",
+   "DOI": "10.1006/jsvi.2000.2864",
+   "article-title": "Feature extraction based on Morlet wavelet and its application for mechanical fault diagnosis",
+   "volume": "234",
+   "author": "Lin",
+   "year": "2000",
+   "journal-title": "J. Sound Vib."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2017.07.032_b0150",
+   "doi-asserted-by": "crossref",
+   "first-page": "387",
+   "DOI": "10.1006/mssp.1999.1294",
+   "article-title": "Effectiveness and sensitivity of vibration processing techniques for local fault detection in gears",
+   "volume": "14",
+   "author": "Dalpiaz",
+   "year": "2000",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2017.07.032_b0155",
+   "doi-asserted-by": "crossref",
+   "first-page": "840",
+   "DOI": "10.1016/j.ymssp.2006.01.009",
+   "article-title": "Condition monitoring and classification of rotating machinery using wavelets and hidden Markov models",
+   "volume": "21",
+   "author": "Miao",
+   "year": "2007",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2017.07.032_b0160",
+   "doi-asserted-by": "crossref",
+   "first-page": "4568",
+   "DOI": "10.1016/j.eswa.2009.12.051",
+   "article-title": "Application of mother wavelet functions for automatic gear and bearing fault diagnosis",
+   "volume": "37",
+   "author": "Rafiee",
+   "year": "2010",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.ymssp.2017.07.032_b0165",
+   "doi-asserted-by": "crossref",
+   "first-page": "1570",
+   "DOI": "10.1016/j.jsv.2009.11.010",
+   "article-title": "A wavelet approach to fault diagnosis of a gearbox under varying load conditions",
+   "volume": "329",
+   "author": "Wang",
+   "year": "2010",
+   "journal-title": "J. Sound Vib."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2017.07.032_b0170",
+   "doi-asserted-by": "crossref",
+   "first-page": "199",
+   "DOI": "10.1016/S0888-3270(03)00075-X",
+   "article-title": "Application of the wavelet transform in machine condition monitoring and fault diagnostics: a review with bibliography",
+   "volume": "18",
+   "author": "Peng",
+   "year": "2004",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.ymssp.2017.07.032_b0175",
+   "doi-asserted-by": "crossref",
+   "first-page": "654",
+   "DOI": "10.1016/j.ndteint.2005.04.003",
+   "article-title": "Multi-fault diagnosis of rolling bearing elements using wavelet analysis and hidden Markov model based fault recognition",
+   "volume": "38",
+   "author": "Purushotham",
+   "year": "2005",
+   "journal-title": "NDT & E Int."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0180",
+   "doi-asserted-by": "crossref",
+   "unstructured": "J.S. Kang, X.H. Zhang, Y.J. Wang, Continuous hidden Markov model based gear fault diagnosis and incipient fault detection, in: ICQR2MSE 2011 - Proceedings of 2011 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Engineering, 2011, pp. 486–491.",
+   "DOI": "10.1109/ICQR2MSE.2011.5976659"
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0185",
+   "doi-asserted-by": "crossref",
+   "unstructured": "T. Marwala, U. Mahola, F.V. Nelwamondo, Hidden Markov models and Gaussian mixture models for bearing fault detection using fractals, in: International Joint Conference on Neural Networks, Vancouver, Canada, 2006, pp. 3237–3242.",
+   "DOI": "10.1109/IJCNN.2006.247310"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2017.07.032_b0190",
+   "doi-asserted-by": "crossref",
+   "first-page": "817",
+   "DOI": "10.1016/j.ymssp.2004.10.006",
+   "article-title": "Instantaneous angular speed monitoring of gearboxes under non-cyclic stationary load conditions",
+   "volume": "19",
+   "author": "Stander",
+   "year": "2005",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2017.07.032_b0195",
+   "unstructured": "S. Schmidt, P.S. Heyns, J.P. de Villiers, A tacholess order tracking methodology based on a probabilistic approach to incorporate angular acceleration information into the maxima tracking process, Mech. Syst. Sig. Process. (submitted for publication: MSSP17-78)."
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327017303977?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327017303977?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2019,
+    10,
+    1
+   ]
+  ],
+  "date-time": "2019-10-01T18:32:44Z",
+  "timestamp": 1569954764000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327017303977"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2018,
+    2
+   ]
+  ]
+ },
+ "references-count": 39,
+ "alternative-id": [
+  "S0888327017303977"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2017.07.032",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2018,
+    2
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "A novelty detection diagnostic methodology for gearboxes operating under fluctuating operating conditions using probabilistic techniques",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2017.07.032",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2017 Elsevier Ltd. All rights reserved.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ]
+}

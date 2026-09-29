@@ -1,0 +1,18 @@
+{
+  "outputs": {
+    "paper/mssp/figures/fig5_engine_transport.pdf": "8121433cc8808f345c094bf7c7a2cab6c64a9fb5d48d17da6cb940135ba373ea",
+    "paper/mssp/figures/fig5_engine_transport.png": "a953e76718d20e7cca92c8fd17b3fa7bb6d311aa770bcd3dd921f4a7cdf22908"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/calibration_quality/calibration_quality_metrics.csv": "6ca1752c977b4fcc34fe1bc1b569c08c7a39d9cfe04cea89680cdceb4be2f04c",
+    "results/mssp_adversarial/ds02/contextual_baseline/baseline_calibration_quality.csv": "fa2e1acba94485053ac7ac7fa225abaeab53a3a342d022e3ecdb7ff6dadb63fa",
+    "results/mssp_adversarial/ds02/support_transport/support_engines.csv": "18c7aaeb4def6a8c00b44ad070adec787dcccc9ae73cf2085c9153323d889fc6",
+    "results/mssp_adversarial/ds03/calibration_quality/calibration_quality_metrics.csv": "89a317343043a582a7d47bb4758ceed28c0d6e3bb887972d36702b8504ef10b9",
+    "results/mssp_adversarial/ds03/contextual_baseline/baseline_calibration_quality.csv": "61a05c82a3c7346e2bc080d4aceb6424eceaf37f42f51b079165c96551688cc7",
+    "results/mssp_adversarial/ds03/support_transport/support_engines.csv": "8afb8236f2459f42812e1b3d0100310350462288d14314ade2cb194e3ad08c0c"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "298f25c73ae0d9ee683d67202a6a19f6c7f75e1584a21d793b40e7acfa513fdc",
+  "note": "Per-engine A2 at the 1% target for every detector run (7 per engine) under P, C and Q; flight classes from support_engines.csv; calibration engines are class 3 (DS02) and classes 2, 3 (DS03).",
+  "built_utc": "2026-09-28T00:52:40+00:00"
+}

@@ -1,0 +1,45 @@
+{
+ "calibration_lock_sha256": "50ce8d467484502bab5787d843ea2e093f32907e2be1888b7cec0dcba6215752",
+ "code": {
+  "files": {
+   "scripts/run_focused_validation.py": "eebd50aba25d3d8e67d594b403074e75e563d1972dd0e51d0db25c360069e7ba",
+   "src/ext_focused_validation.py": "ce509e7065732e1f535c5bdc32539ff991416f3e78b9502be626b1609a813997"
+  },
+  "git_head": "6f15aef49d6a5cbb4e9d62199b471b97d454a0c2"
+ },
+ "finished_utc": "2026-09-29T02:00:43Z",
+ "gates": {
+  "G1_baseline": "verified before and after",
+  "G2_plan_and_code": "tracked, clean, plan hash equal",
+  "G3_calibration_fingerprints": "equal (10 runs)",
+  "G4_healthy_counts": "equal (90 run x target x arm phase and flight count checks)",
+  "G5_original_replicates": "equal (10 runs; alpha = 1% replicates and intervals)"
+ },
+ "healthy_audit_rows": 758018,
+ "original_design_replicates_omitting_a_class": 0,
+ "outputs_sha256": {
+  "bootstrap_class_preserving_ci": "bf27dca194b311d428d7584c7c09e97447cec8ef6b93484c676f494132b982d5",
+  "bootstrap_class_preserving_replicates_alpha_0.01": "94ee2ce0be9338ce8593845be64b50e993d1d8f9c028c5d9ceec2df41014fa4f",
+  "engine_noise_floor": "03461c1b198e08897dcc35bf731725b6b75024da9049a1fd945b009da1b50044",
+  "local_recalibration": "cfd2c47442c7cb0f01edbe2fdef4a70ea06c146bac369402c7867d15607ea66c",
+  "noise_floor_draws": "5293ce02394e2dfb61c1074e59a8ae066164f8ae5745a920a97a0c4092dc29e8"
+ },
+ "parameters": {
+  "K": 5,
+  "alpha": 0.01,
+  "crossfit_repetitions": 200,
+  "folds": 5,
+  "k_matched_repetitions": 200,
+  "seeds": {
+   "class_preserving": 20261003,
+   "crossfit": 20261004,
+   "k_matched": 20261005
+  }
+ },
+ "plan": "docs/extension/FOCUSED_VALIDATION_PLAN.md (FROZEN v1.0)",
+ "plan_sha256": "f734cdf6b5b0ccd85a3d55c6a1774d66d7bccefcee53ced3865f5ba9807f7795",
+ "seconds": 68.9,
+ "started_utc": "2026-09-29T01:59:34Z",
+ "status": "post hoc focused validation; healthy official-test rows only; reproduction only",
+ "subset": "DS08c"
+}

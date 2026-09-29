@@ -1,0 +1,606 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    5,
+    30
+   ]
+  ],
+  "date-time": "2026-05-30T00:06:56Z",
+  "timestamp": 1780099616089,
+  "version": "3.54.0"
+ },
+ "reference-count": 31,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100003170",
+   "name": "Stiftelsen för Kunskaps- och Kompetensutveckling",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "20160103"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "20160103"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100003170",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Neurocomputing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.neucom.2021.08.016",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    8,
+    11
+   ]
+  ],
+  "date-time": "2021-08-11T14:10:45Z",
+  "timestamp": 1628691045000
+ },
+ "page": "591-606",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 6,
+ "special_numbering": "C",
+ "title": [
+  "Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets"
+ ],
+ "prefix": "10.1016",
+ "volume": "462",
+ "author": [
+  {
+   "given": "Shiraz",
+   "family": "Farouq",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Stefan",
+   "family": "Byttner",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mohamed-Rafik",
+   "family": "Bouguelia",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Henrik",
+   "family": "Gadd",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0005",
+   "unstructured": "M. Ackerman, S. Ben-David, Clusterability: A theoretical study, in: Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics, PMLR, Florida, USA, 2009, pp. 1–8."
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "13",
+   "DOI": "10.1016/j.patcog.2018.10.026",
+   "article-title": "To cluster, or not to cluster: An analysis of clusterability methods",
+   "volume": "88",
+   "author": "Adolfsson",
+   "year": "2019",
+   "journal-title": "Pattern Recognition"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0015",
+   "unstructured": "S. Ben-David, M. Ackerman, Measures of clustering quality: A working set of axioms for clustering, in: Advances in Neural Information Processing Systems 21. Curran Associates Inc, 2009, pp. 121–128."
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0020",
+   "series-title": "Challenges at the Interface of Data Analysis, Computer Science, and Optimization",
+   "first-page": "453",
+   "article-title": "Fault mining using peer group analysis",
+   "author": "Weston",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "833",
+   "DOI": "10.1016/j.engappai.2011.03.002",
+   "article-title": "Consensus self-organized models for fault detection (COSMO)",
+   "volume": "24",
+   "author": "Byttner",
+   "year": "2011",
+   "journal-title": "Engineering Applications of Artificial Intelligence"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0030",
+   "doi-asserted-by": "crossref",
+   "unstructured": "S. Das, B.L. Matthews, A.N. Srivastava, N.C. Oza, Multiple kernel learning for heterogeneous anomaly detection: Algorithm and aviation safety case study, in: Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, ACM, New York, NY, USA, 2010, pp. 47–56.",
+   "DOI": "10.1145/1835804.1835813"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0035",
+   "series-title": "Proceedings of the 2018 International Conference on Data Science",
+   "first-page": "63",
+   "article-title": "On monitoring heat-pumps with a group-based conformal anomaly detection approach",
+   "author": "Farouq",
+   "year": "2018"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0040",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2020.103492",
+   "article-title": "Large-scale monitoring of operationally diverse district heating substations: A reference-group based approach",
+   "volume": "90",
+   "author": "Farouq",
+   "year": "2020",
+   "journal-title": "Engineering Applications of Artificial Intelligence"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0045",
+   "series-title": "Artificial Intelligence Applications and Innovations",
+   "first-page": "371",
+   "article-title": "Conformal prediction under hypergraphical models",
+   "author": "Fedorova",
+   "year": "2013"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0050",
+   "doi-asserted-by": "crossref",
+   "unstructured": "R. Fontugne, J. Ortiz, N. Tremblay, P. Borgnat, P. Flandrin, K. Fukuda, D. Culler, H. Esaki, Strip, bind, and search: A method for identifying abnormal energy consumption in buildings, in: Proceedings of the 12th International Conference on Information Processing in Sensor Networks, ACM, New York, NY, USA, 2013, pp. 129–140.",
+   "DOI": "10.1145/2461381.2461399"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0055",
+   "doi-asserted-by": "crossref",
+   "first-page": "176",
+   "DOI": "10.1016/j.apenergy.2013.02.062",
+   "article-title": "Heat load patterns in district heating substations",
+   "volume": "108",
+   "author": "Gadd",
+   "year": "2013",
+   "journal-title": "Applied Energy"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "96",
+   "DOI": "10.1016/j.autcon.2018.10.020",
+   "article-title": "Data analytics to improve building performance: A critical review",
+   "volume": "97",
+   "author": "Gunay",
+   "year": "2019",
+   "journal-title": "Automation in Construction"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0065",
+   "series-title": "Proceedings of the 15th International Conference on Neural Information Processing Systems",
+   "first-page": "463",
+   "article-title": "An impossibility theorem for clustering",
+   "author": "Kleinberg",
+   "year": "2002"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0070",
+   "unstructured": "E. Lapira, Fault detection in a network of similar machines using clustering approach, Ph.D. thesis, University of Cincinnati, 2012."
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0075",
+   "doi-asserted-by": "crossref",
+   "unstructured": "R. Laxhammar, Conformal anomaly detection: Detecting abnormal trajectories in surveillance applications, Ph.D. thesis, University of Skövde, 2014.",
+   "DOI": "10.1016/B978-0-12-398537-8.00004-3"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0080",
+   "doi-asserted-by": "crossref",
+   "first-page": "1158",
+   "DOI": "10.1109/TPAMI.2013.172",
+   "article-title": "Online learning and sequential anomaly detection in trajectories",
+   "volume": "36",
+   "author": "Laxhammar",
+   "year": "2014",
+   "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0085",
+   "doi-asserted-by": "crossref",
+   "first-page": "67",
+   "DOI": "10.1007/s10472-013-9381-7",
+   "article-title": "Inductive conformal anomaly detection for sequential detection of anomalous sub-trajectories",
+   "volume": "74",
+   "author": "Laxhammar",
+   "year": "2015",
+   "journal-title": "Annals of Mathematics and Artificial Intelligence"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0090",
+   "doi-asserted-by": "crossref",
+   "first-page": "163",
+   "DOI": "10.1016/j.measurement.2017.02.017",
+   "article-title": "A data-driven prognostic approach based on statistical similarity: An application to industrial circuit breakers",
+   "volume": "108",
+   "author": "Leone",
+   "year": "2017",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0095",
+   "series-title": "Proceedings of the 2008 Eighth IEEE International Conference on Data Mining",
+   "first-page": "413",
+   "article-title": "Isolation forest",
+   "author": "Liu",
+   "year": "2008"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0100",
+   "doi-asserted-by": "crossref",
+   "first-page": "90",
+   "DOI": "10.1016/j.energy.2017.05.191",
+   "article-title": "A variation focused cluster analysis strategy to identify typical daily heating load profiles of higher education buildings",
+   "volume": "134",
+   "author": "Ma",
+   "year": "2017",
+   "journal-title": "Energy"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0105",
+   "series-title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+   "author": "McInnes",
+   "year": "2018"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0110",
+   "series-title": "2019 IEEE International Conference on Prognostics and Health Management (ICPHM)",
+   "first-page": "1",
+   "article-title": "Unsupervised fault detection in varying operating conditions",
+   "author": "Michau",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0115",
+   "volume": "vol. 4",
+   "author": "Michau",
+   "year": "2018",
+   "journal-title": "Fleet PHM for Critical Systems: Bi-level Deep Learning Approach for Fault Detection"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "279",
+   "DOI": "10.1016/j.neucom.2019.07.114",
+   "article-title": "Multi-level conformal clustering: A distribution-free technique for clustering and anomaly detection",
+   "volume": "397",
+   "author": "Nouretdinov",
+   "year": "2020",
+   "journal-title": "Neurocomputing"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0125",
+   "unstructured": "N.C. Oza, S. Das, Anomaly detection in a fleet of systems, 2012 (accessed: 2021-06-01)."
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0130",
+   "doi-asserted-by": "crossref",
+   "first-page": "212",
+   "DOI": "10.1080/00401706.1999.10485670",
+   "article-title": "A fast algorithm for the minimum covariance determinant estimator",
+   "volume": "41",
+   "author": "Rousseeuw",
+   "year": "1999",
+   "journal-title": "Technometrics"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0135",
+   "first-page": "371",
+   "article-title": "A tutorial on conformal prediction",
+   "volume": "9",
+   "author": "Shafer",
+   "year": "2008",
+   "journal-title": "Journal of Machine Learning Research"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0140",
+   "unstructured": "J. Smith, The efficiency of conformal predictors for anomaly detection, Ph.D. thesis, Royal Holloway, University of London, 2016."
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0145",
+   "doi-asserted-by": "crossref",
+   "first-page": "144",
+   "DOI": "10.1016/j.enbuild.2018.10.009",
+   "article-title": "Clustering district heat exchange stations using smart meter consumption data",
+   "volume": "182",
+   "author": "Tureczek",
+   "year": "2019",
+   "journal-title": "Energy and Buildings"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_b0150",
+   "series-title": "Algorithmic Learning in a Random World",
+   "author": "Vovk",
+   "year": "2005"
+  },
+  {
+   "key": "10.1016/j.neucom.2021.08.016_bib151",
+   "doi-asserted-by": "crossref",
+   "first-page": "447",
+   "DOI": "10.1016/j.procs.2015.07.322",
+   "article-title": "Evaluation of Self-Organized Approach for Predicting Compressor Faults in a City Bus Fleet",
+   "volume": "53",
+   "author": "Fan",
+   "year": "2015",
+   "journal-title": "Procedia Computer Science"
+  }
+ ],
+ "container-title": [
+  "Neurocomputing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0925231221012005?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0925231221012005?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    8,
+    22
+   ]
+  ],
+  "date-time": "2025-08-22T23:00:19Z",
+  "timestamp": 1755903619000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0925231221012005"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "references-count": 31,
+ "alternative-id": [
+  "S0925231221012005"
+ ],
+ "URL": "https://doi.org/10.1016/j.neucom.2021.08.016",
+ "relation": {},
+ "ISSN": [
+  "0925-2312"
+ ],
+ "issn-type": [
+  {
+   "value": "0925-2312",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Neurocomputing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.neucom.2021.08.016",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2021 Published by Elsevier B.V.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ]
+}

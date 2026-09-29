@@ -1,0 +1,494 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    2
+   ]
+  ],
+  "date-time": "2026-09-02T03:55:45Z",
+  "timestamp": 1788321345618,
+  "version": "build-2803163510"
+ },
+ "reference-count": 24,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2020-04-01T00:00:00Z",
+    "timestamp": 1585699200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2020-04-01T00:00:00Z",
+    "timestamp": 1585699200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2019,
+      12,
+      5
+     ]
+    ],
+    "date-time": "2019-12-05T00:00:00Z",
+    "timestamp": 1575504000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100000266",
+   "name": "Engineering and Physical Sciences Research Council",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100000266",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2020,
+    4
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2019.106550",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2020,
+    1,
+    5
+   ]
+  ],
+  "date-time": "2020-01-05T22:22:59Z",
+  "timestamp": 1578262979000
+ },
+ "page": "106550",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 181,
+ "special_numbering": "C",
+ "title": [
+  "On the application of domain adaptation in structural health monitoring"
+ ],
+ "prefix": "10.1016",
+ "volume": "138",
+ "author": [
+  {
+   "given": "P.",
+   "family": "Gardner",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "X.",
+   "family": "Liu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "K.",
+   "family": "Worden",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2019.106550_b0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "85",
+   "DOI": "10.1177/1475921704041866",
+   "article-title": "An overview of intelligent fault detection in systems and structures",
+   "volume": "3",
+   "author": "Worden",
+   "year": "2004",
+   "journal-title": "Struct. Health Monit."
+  },
+  {
+   "issue": "1851",
+   "key": "10.1016/j.ymssp.2019.106550_b0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "515",
+   "DOI": "10.1098/rsta.2006.1938",
+   "article-title": "The application of machine learning to structural health monitoring",
+   "volume": "365",
+   "author": "Worden",
+   "year": "2007",
+   "journal-title": "Philos. Trans. R. Soc. A: Math., Phys. Eng. Sci."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2019.106550_b0015",
+   "doi-asserted-by": "crossref",
+   "first-page": "559",
+   "DOI": "10.1177/1475921710388971",
+   "article-title": "Machine learning algorithms for damage detection under operational and environmental variability",
+   "volume": "10",
+   "author": "Figueiredo",
+   "year": "2011",
+   "journal-title": "Struct. Health Monitor."
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0020",
+   "series-title": "Structural Health Monitoring: A Machine Learning Perspective",
+   "author": "Farrar",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0025",
+   "series-title": "10th International Workshop on Structural Health Monitoring",
+   "article-title": "Population-based SHM: a case study on an offshore wind farm",
+   "author": "Papatheou",
+   "year": "2015"
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0030",
+   "unstructured": "A. Rytter, Vibrational based inspection of civil engineering structures (Ph.D. thesis), 1993."
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.ymssp.2019.106550_b0035",
+   "doi-asserted-by": "crossref",
+   "first-page": "1345",
+   "DOI": "10.1109/TKDE.2009.191",
+   "article-title": "A survey on transfer learning",
+   "volume": "22",
+   "author": "Pan",
+   "year": "2010",
+   "journal-title": "IEEE Trans. Knowl. Data Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0040",
+   "doi-asserted-by": "crossref",
+   "first-page": "1031",
+   "DOI": "10.1016/j.conbuildmat.2018.08.011",
+   "article-title": "Comparison of deep convolutional neural networks and edge detectors for image-based crack detection in concrete",
+   "volume": "186",
+   "author": "Dorafshan",
+   "year": "2018",
+   "journal-title": "Constr. Build. Mater."
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.ymssp.2019.106550_b0045",
+   "doi-asserted-by": "crossref",
+   "first-page": "748",
+   "DOI": "10.1111/mice.12363",
+   "article-title": "Deep transfer learning for image-based structural damage recognition",
+   "volume": "33",
+   "author": "Gao",
+   "year": "2018",
+   "journal-title": "Comput.-Aided Civil Infrastruct. Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0050",
+   "unstructured": "K. Jang, N. Kim, Y.-K. An, Deep learning-based autonomous concrete crack evaluation through hybrid image scanning. Struct. Health Monitor., 2019, page 147592171882171."
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0055",
+   "series-title": "Sensors and Smart Structures Technologies for Civil, Mechanical, and Aerospace Systems",
+   "first-page": "798147",
+   "article-title": "Structural damage detection with insufficient data using transfer learning techniques",
+   "author": "Chakraborty",
+   "year": "2011"
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0060",
+   "doi-asserted-by": "crossref",
+   "unstructured": "J. Ye, T. Kobayashi, H. Tsuda, M. Murakawa, Robust hammering echo analysis for concrete assessment with transfer learning, in: Proceedings of the 11th International Workshop on Structural Health Monitoring, 2017, pp. 943–949.",
+   "DOI": "10.12783/shm2017/13955"
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0065",
+   "doi-asserted-by": "crossref",
+   "unstructured": "M. Sugiyama, S. Nakajima, H. Kashima, P. Von, M. Kawanabe, Direct importance estimation with model selection and its application to covariate shift adaptation, in: Advances in Neural Information Processing Systems, 2008.",
+   "DOI": "10.1007/s10463-008-0197-x"
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.ymssp.2019.106550_b0070",
+   "doi-asserted-by": "crossref",
+   "first-page": "1789",
+   "DOI": "10.1109/TKDE.2012.75",
+   "article-title": "Knowledge transfer with low-quality data: a feature extraction issue",
+   "volume": "24",
+   "author": "Quanz",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Knowl. Data Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0075",
+   "series-title": "IEEE Conference on Computer Vision and Pattern Recognition",
+   "first-page": "2481",
+   "article-title": "Domain adaptation on the statistical manifold",
+   "author": "Baktashmotlagh",
+   "year": "2014"
+  },
+  {
+   "issue": "14",
+   "key": "10.1016/j.ymssp.2019.106550_b0080",
+   "doi-asserted-by": "crossref",
+   "first-page": "49",
+   "DOI": "10.1093/bioinformatics/btl242",
+   "article-title": "Integrating structured biological data by kernel maximum mean discrepancy",
+   "volume": "22",
+   "author": "Borgwardt",
+   "year": "2006",
+   "journal-title": "Bioinformatics"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2019.106550_b0085",
+   "doi-asserted-by": "crossref",
+   "first-page": "199",
+   "DOI": "10.1109/TNN.2010.2091281",
+   "article-title": "Domain adaptation via transfer component analysis",
+   "volume": "22",
+   "author": "Pan",
+   "year": "2011",
+   "journal-title": "IEEE Trans. Neural Networks"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2019.106550_b0090",
+   "doi-asserted-by": "crossref",
+   "first-page": "1299",
+   "DOI": "10.1162/089976698300017467",
+   "article-title": "Nonlinear component analysis as a kernel eigenvalue problem",
+   "volume": "10",
+   "author": "Schölkopf",
+   "year": "1998",
+   "journal-title": "Neural Comput."
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0095",
+   "series-title": "IEEE International Conference on Computer Vision",
+   "first-page": "2200",
+   "article-title": "Transfer feature learning with joint distribution adaptation",
+   "author": "Long",
+   "year": "2013"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2019.106550_b0100",
+   "doi-asserted-by": "crossref",
+   "first-page": "1076",
+   "DOI": "10.1109/TKDE.2013.111",
+   "article-title": "Adaptation regularization: a general framework for transfer learning",
+   "volume": "26",
+   "author": "Long",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Knowl. Data Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0105",
+   "series-title": "Computation Learning Theory",
+   "first-page": "416",
+   "article-title": "A generalized representer theorem",
+   "author": "Schölkopf",
+   "year": "2001"
+  },
+  {
+   "key": "10.1016/j.ymssp.2019.106550_b0110",
+   "first-page": "2399",
+   "article-title": "Manifold regularization: a geometric framework for learning from examples",
+   "volume": "7",
+   "author": "Belkin",
+   "year": "2006",
+   "journal-title": "J. Mach. Learn. Res."
+  },
+  {
+   "issue": "11–12",
+   "key": "10.1016/j.ymssp.2019.106550_b0115",
+   "doi-asserted-by": "crossref",
+   "first-page": "639",
+   "DOI": "10.1016/0020-7403(84)90017-1",
+   "article-title": "One-dimensional theory of cracked Bernoulli-Euler beams",
+   "volume": "26",
+   "author": "Christides",
+   "year": "1984",
+   "journal-title": "Int. J. Mech. Sci."
+  },
+  {
+   "issue": "1851",
+   "key": "10.1016/j.ymssp.2019.106550_b0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "393",
+   "DOI": "10.1098/rsta.2006.1930",
+   "article-title": "Damage identification using inverse methods",
+   "volume": "365",
+   "author": "Friswell",
+   "year": "2007",
+   "journal-title": "Philos. Trans. R. Soc. A: Math., Phys. Eng. Sci."
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S088832701930771X?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S088832701930771X?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2025-10-10T23:47:17Z",
+  "timestamp": 1760140037000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S088832701930771X"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2020,
+    4
+   ]
+  ]
+ },
+ "references-count": 24,
+ "alternative-id": [
+  "S088832701930771X"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2019.106550",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2020,
+    4
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "On the application of domain adaptation in structural health monitoring",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2019.106550",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2019 The Authors. Published by Elsevier Ltd.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "106550"
+}

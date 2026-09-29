@@ -1,0 +1,379 @@
+dataset,detector,seed,nominal_fpr,scheme,arm_status,unit,eligible,post_onset_flights,delay_flights,censored,persistence_delay_flights,persistence_censored,healthy_flights,healthy_flagged,healthy_consecutive_flagged_pairs,kappa
+ds03,pca,-1,0.005,pooled,frozen comparator (reproduced),10,True,49,10.0,False,26.0,False,17,3,0,0.01477115117891817
+ds03,pca,-1,0.005,pooled,frozen comparator (reproduced),11,True,41,2.0,False,24.0,False,18,0,0,0.01477115117891817
+ds03,pca,-1,0.005,pooled,frozen comparator (reproduced),12,True,57,22.0,False,23.0,False,36,0,0,0.01477115117891817
+ds03,pca,-1,0.005,pooled,frozen comparator (reproduced),13,True,59,2.0,False,21.0,False,18,3,1,0.01477115117891817
+ds03,pca,-1,0.005,pooled,frozen comparator (reproduced),14,True,41,7.0,False,21.0,False,35,0,0,0.01477115117891817
+ds03,pca,-1,0.005,pooled,frozen comparator (reproduced),15,True,43,1.0,False,22.0,False,24,3,0,0.01477115117891817
+ds03,pca,-1,0.005,phase_conditioned,post-confirmation primary comparison,10,True,49,19.0,False,20.0,False,17,3,0,0.01755627920147246
+ds03,pca,-1,0.005,phase_conditioned,post-confirmation primary comparison,11,True,41,13.0,False,21.0,False,18,0,0,0.01755627920147246
+ds03,pca,-1,0.005,phase_conditioned,post-confirmation primary comparison,12,True,57,19.0,False,20.0,False,36,1,0,0.01755627920147246
+ds03,pca,-1,0.005,phase_conditioned,post-confirmation primary comparison,13,True,59,2.0,False,23.0,False,18,4,1,0.01755627920147246
+ds03,pca,-1,0.005,phase_conditioned,post-confirmation primary comparison,14,True,41,4.0,False,18.0,False,35,0,0,0.01755627920147246
+ds03,pca,-1,0.005,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,19.0,False,24,2,0,0.01755627920147246
+ds03,pca,-1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,11.0,False,24.0,False,17,3,0,0.016706781820756054
+ds03,pca,-1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,21.0,False,18,1,0,0.016706781820756054
+ds03,pca,-1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,15.0,False,22.0,False,36,0,0,0.016706781820756054
+ds03,pca,-1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,2.0,False,23.0,False,18,4,1,0.016706781820756054
+ds03,pca,-1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,7.0,False,18.0,False,35,0,0,0.016706781820756054
+ds03,pca,-1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,11.0,False,12.0,False,24,3,1,0.016706781820756054
+ds03,pca,-1,0.01,pooled,frozen comparator (reproduced),10,True,49,23.0,False,24.0,False,17,1,0,0.027808564231738036
+ds03,pca,-1,0.01,pooled,frozen comparator (reproduced),11,True,41,8.0,False,21.0,False,18,0,0,0.027808564231738036
+ds03,pca,-1,0.01,pooled,frozen comparator (reproduced),12,True,57,15.0,False,23.0,False,36,0,0,0.027808564231738036
+ds03,pca,-1,0.01,pooled,frozen comparator (reproduced),13,True,59,2.0,False,21.0,False,18,1,0,0.027808564231738036
+ds03,pca,-1,0.01,pooled,frozen comparator (reproduced),14,True,41,14.0,False,17.0,False,35,0,0,0.027808564231738036
+ds03,pca,-1,0.01,pooled,frozen comparator (reproduced),15,True,43,1.0,False,19.0,False,24,2,0,0.027808564231738036
+ds03,pca,-1,0.01,phase_conditioned,post-confirmation primary comparison,10,True,49,17.0,False,20.0,False,17,2,0,0.028781103084508656
+ds03,pca,-1,0.01,phase_conditioned,post-confirmation primary comparison,11,True,41,2.0,False,21.0,False,18,0,0,0.028781103084508656
+ds03,pca,-1,0.01,phase_conditioned,post-confirmation primary comparison,12,True,57,10.0,False,16.0,False,36,5,0,0.028781103084508656
+ds03,pca,-1,0.01,phase_conditioned,post-confirmation primary comparison,13,True,59,2.0,False,8.0,False,18,2,0,0.028781103084508656
+ds03,pca,-1,0.01,phase_conditioned,post-confirmation primary comparison,14,True,41,4.0,False,10.0,False,35,0,0,0.028781103084508656
+ds03,pca,-1,0.01,phase_conditioned,post-confirmation primary comparison,15,True,43,12.0,False,18.0,False,24,3,1,0.028781103084508656
+ds03,pca,-1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,19.0,False,20.0,False,17,2,0,0.030501089324618737
+ds03,pca,-1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,21.0,False,18,1,0,0.030501089324618737
+ds03,pca,-1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,7.0,False,13.0,False,36,0,0,0.030501089324618737
+ds03,pca,-1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,1.0,False,2.0,False,18,3,1,0.030501089324618737
+ds03,pca,-1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,7.0,False,8.0,False,35,1,0,0.030501089324618737
+ds03,pca,-1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,11.0,False,12.0,False,24,3,1,0.030501089324618737
+ds03,pca,-1,0.02,pooled,frozen comparator (reproduced),10,True,49,20.0,False,23.0,False,17,3,0,0.045585460323766015
+ds03,pca,-1,0.02,pooled,frozen comparator (reproduced),11,True,41,2.0,False,21.0,False,18,0,0,0.045585460323766015
+ds03,pca,-1,0.02,pooled,frozen comparator (reproduced),12,True,57,4.0,False,15.0,False,36,0,0,0.045585460323766015
+ds03,pca,-1,0.02,pooled,frozen comparator (reproduced),13,True,59,2.0,False,21.0,False,18,1,0,0.045585460323766015
+ds03,pca,-1,0.02,pooled,frozen comparator (reproduced),14,True,41,14.0,False,15.0,False,35,4,0,0.045585460323766015
+ds03,pca,-1,0.02,pooled,frozen comparator (reproduced),15,True,43,1.0,False,12.0,False,24,3,0,0.045585460323766015
+ds03,pca,-1,0.02,phase_conditioned,post-confirmation primary comparison,10,True,49,17.0,False,20.0,False,17,5,1,0.04450698353137378
+ds03,pca,-1,0.02,phase_conditioned,post-confirmation primary comparison,11,True,41,2.0,False,18.0,False,18,1,0,0.04450698353137378
+ds03,pca,-1,0.02,phase_conditioned,post-confirmation primary comparison,12,True,57,6.0,False,9.0,False,36,2,0,0.04450698353137378
+ds03,pca,-1,0.02,phase_conditioned,post-confirmation primary comparison,13,True,59,1.0,False,2.0,False,18,2,0,0.04450698353137378
+ds03,pca,-1,0.02,phase_conditioned,post-confirmation primary comparison,14,True,41,7.0,False,8.0,False,35,0,0,0.04450698353137378
+ds03,pca,-1,0.02,phase_conditioned,post-confirmation primary comparison,15,True,43,4.0,False,11.0,False,24,3,1,0.04450698353137378
+ds03,pca,-1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,20.0,False,17,8,3,0.04764264476851197
+ds03,pca,-1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,14.0,False,15.0,False,18,1,0,0.04764264476851197
+ds03,pca,-1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,5.0,False,36,9,2,0.04764264476851197
+ds03,pca,-1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,1.0,False,14.0,False,18,3,1,0.04764264476851197
+ds03,pca,-1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,1.0,False,6.0,False,35,7,0,0.04764264476851197
+ds03,pca,-1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,7.0,False,11.0,False,24,3,1,0.04764264476851197
+ds03,isolation_forest,0,0.005,pooled,frozen comparator (reproduced),10,True,49,19.0,False,20.0,False,17,3,0,0.01595351294241944
+ds03,isolation_forest,0,0.005,pooled,frozen comparator (reproduced),11,True,41,5.0,False,6.0,False,18,1,0,0.01595351294241944
+ds03,isolation_forest,0,0.005,pooled,frozen comparator (reproduced),12,True,57,12.0,False,13.0,False,36,2,0,0.01595351294241944
+ds03,isolation_forest,0,0.005,pooled,frozen comparator (reproduced),13,True,59,2.0,False,21.0,False,18,3,1,0.01595351294241944
+ds03,isolation_forest,0,0.005,pooled,frozen comparator (reproduced),14,True,41,6.0,False,7.0,False,35,4,0,0.01595351294241944
+ds03,isolation_forest,0,0.005,pooled,frozen comparator (reproduced),15,True,43,1.0,False,8.0,False,24,1,0,0.01595351294241944
+ds03,isolation_forest,0,0.005,phase_conditioned,post-confirmation primary comparison,10,True,49,21.0,False,22.0,False,17,1,0,0.02322865299766416
+ds03,isolation_forest,0,0.005,phase_conditioned,post-confirmation primary comparison,11,True,41,12.0,False,13.0,False,18,0,0,0.02322865299766416
+ds03,isolation_forest,0,0.005,phase_conditioned,post-confirmation primary comparison,12,True,57,6.0,False,11.0,False,36,1,0,0.02322865299766416
+ds03,isolation_forest,0,0.005,phase_conditioned,post-confirmation primary comparison,13,True,59,22.0,False,23.0,False,18,0,0,0.02322865299766416
+ds03,isolation_forest,0,0.005,phase_conditioned,post-confirmation primary comparison,14,True,41,10.0,False,13.0,False,35,2,0,0.02322865299766416
+ds03,isolation_forest,0,0.005,phase_conditioned,post-confirmation primary comparison,15,True,43,11.0,False,12.0,False,24,0,0,0.02322865299766416
+ds03,isolation_forest,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,19.0,False,23.0,False,17,2,0,0.02010477134362169
+ds03,isolation_forest,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,13.0,False,18,1,0,0.02010477134362169
+ds03,isolation_forest,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,3.0,False,4.0,False,36,3,0,0.02010477134362169
+ds03,isolation_forest,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,18.0,False,22.0,False,18,0,0,0.02010477134362169
+ds03,isolation_forest,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,5.0,False,6.0,False,35,4,0,0.02010477134362169
+ds03,isolation_forest,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,2,0,0.02010477134362169
+ds03,isolation_forest,0,0.01,pooled,frozen comparator (reproduced),10,True,49,18.0,False,19.0,False,17,1,0,0.0298739912218604
+ds03,isolation_forest,0,0.01,pooled,frozen comparator (reproduced),11,True,41,3.0,False,12.0,False,18,2,0,0.0298739912218604
+ds03,isolation_forest,0,0.01,pooled,frozen comparator (reproduced),12,True,57,0.0,False,4.0,False,36,3,0,0.0298739912218604
+ds03,isolation_forest,0,0.01,pooled,frozen comparator (reproduced),13,True,59,18.0,False,22.0,False,18,2,0,0.0298739912218604
+ds03,isolation_forest,0,0.01,pooled,frozen comparator (reproduced),14,True,41,5.0,False,6.0,False,35,4,0,0.0298739912218604
+ds03,isolation_forest,0,0.01,pooled,frozen comparator (reproduced),15,True,43,1.0,False,7.0,False,24,1,0,0.0298739912218604
+ds03,isolation_forest,0,0.01,phase_conditioned,post-confirmation primary comparison,10,True,49,19.0,False,20.0,False,17,1,0,0.037762782247599276
+ds03,isolation_forest,0,0.01,phase_conditioned,post-confirmation primary comparison,11,True,41,7.0,False,12.0,False,18,0,0,0.037762782247599276
+ds03,isolation_forest,0,0.01,phase_conditioned,post-confirmation primary comparison,12,True,57,1.0,False,10.0,False,36,1,0,0.037762782247599276
+ds03,isolation_forest,0,0.01,phase_conditioned,post-confirmation primary comparison,13,True,59,18.0,False,21.0,False,18,2,0,0.037762782247599276
+ds03,isolation_forest,0,0.01,phase_conditioned,post-confirmation primary comparison,14,True,41,6.0,False,7.0,False,35,2,0,0.037762782247599276
+ds03,isolation_forest,0,0.01,phase_conditioned,post-confirmation primary comparison,15,True,43,8.0,False,11.0,False,24,0,0,0.037762782247599276
+ds03,isolation_forest,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,18.0,False,19.0,False,17,2,0,0.03346906346211143
+ds03,isolation_forest,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,12.0,False,18,1,0,0.03346906346211143
+ds03,isolation_forest,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,4.0,False,36,3,0,0.03346906346211143
+ds03,isolation_forest,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,18.0,False,21.0,False,18,0,0,0.03346906346211143
+ds03,isolation_forest,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,2.0,False,3.0,False,35,4,0,0.03346906346211143
+ds03,isolation_forest,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,3,1,0.03346906346211143
+ds03,isolation_forest,0,0.02,pooled,frozen comparator (reproduced),10,True,49,18.0,False,19.0,False,17,1,0,0.04962480532351692
+ds03,isolation_forest,0,0.02,pooled,frozen comparator (reproduced),11,True,41,6.0,False,12.0,False,18,2,0,0.04962480532351692
+ds03,isolation_forest,0,0.02,pooled,frozen comparator (reproduced),12,True,57,0.0,False,3.0,False,36,8,4,0.04962480532351692
+ds03,isolation_forest,0,0.02,pooled,frozen comparator (reproduced),13,True,59,8.0,False,19.0,False,18,2,0,0.04962480532351692
+ds03,isolation_forest,0,0.02,pooled,frozen comparator (reproduced),14,True,41,0.0,False,3.0,False,35,6,2,0.04962480532351692
+ds03,isolation_forest,0,0.02,pooled,frozen comparator (reproduced),15,True,43,6.0,False,7.0,False,24,1,0,0.04962480532351692
+ds03,isolation_forest,0,0.02,phase_conditioned,post-confirmation primary comparison,10,True,49,2.0,False,19.0,False,17,3,0,0.05965790571547768
+ds03,isolation_forest,0,0.02,phase_conditioned,post-confirmation primary comparison,11,True,41,3.0,False,11.0,False,18,0,0,0.05965790571547768
+ds03,isolation_forest,0,0.02,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,1.0,False,36,4,2,0.05965790571547768
+ds03,isolation_forest,0,0.02,phase_conditioned,post-confirmation primary comparison,13,True,59,13.0,False,16.0,False,18,2,0,0.05965790571547768
+ds03,isolation_forest,0,0.02,phase_conditioned,post-confirmation primary comparison,14,True,41,4.0,False,5.0,False,35,0,0,0.05965790571547768
+ds03,isolation_forest,0,0.02,phase_conditioned,post-confirmation primary comparison,15,True,43,6.0,False,7.0,False,24,1,0,0.05965790571547768
+ds03,isolation_forest,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,16.0,False,19.0,False,17,3,0,0.05826727854262272
+ds03,isolation_forest,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,11.0,False,18,1,0,0.05826727854262272
+ds03,isolation_forest,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,3.0,False,36,6,4,0.05826727854262272
+ds03,isolation_forest,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,15.0,False,16.0,False,18,1,0,0.05826727854262272
+ds03,isolation_forest,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,0.0,False,3.0,False,35,2,1,0.05826727854262272
+ds03,isolation_forest,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,2,1,0.05826727854262272
+ds03,isolation_forest,1,0.005,pooled,frozen comparator (reproduced),10,True,49,21.0,False,22.0,False,17,3,0,0.01658742736397253
+ds03,isolation_forest,1,0.005,pooled,frozen comparator (reproduced),11,True,41,5.0,False,6.0,False,18,1,0,0.01658742736397253
+ds03,isolation_forest,1,0.005,pooled,frozen comparator (reproduced),12,True,57,13.0,False,16.0,False,36,2,0,0.01658742736397253
+ds03,isolation_forest,1,0.005,pooled,frozen comparator (reproduced),13,True,59,2.0,False,23.0,False,18,3,1,0.01658742736397253
+ds03,isolation_forest,1,0.005,pooled,frozen comparator (reproduced),14,True,41,6.0,False,9.0,False,35,4,0,0.01658742736397253
+ds03,isolation_forest,1,0.005,pooled,frozen comparator (reproduced),15,True,43,1.0,False,12.0,False,24,1,0,0.01658742736397253
+ds03,isolation_forest,1,0.005,phase_conditioned,post-confirmation primary comparison,10,True,49,22.0,False,23.0,False,17,1,0,0.02549961069296652
+ds03,isolation_forest,1,0.005,phase_conditioned,post-confirmation primary comparison,11,True,41,12.0,False,13.0,False,18,0,0,0.02549961069296652
+ds03,isolation_forest,1,0.005,phase_conditioned,post-confirmation primary comparison,12,True,57,10.0,False,11.0,False,36,0,0,0.02549961069296652
+ds03,isolation_forest,1,0.005,phase_conditioned,post-confirmation primary comparison,13,True,59,22.0,False,23.0,False,18,0,0,0.02549961069296652
+ds03,isolation_forest,1,0.005,phase_conditioned,post-confirmation primary comparison,14,True,41,10.0,False,13.0,False,35,0,0,0.02549961069296652
+ds03,isolation_forest,1,0.005,phase_conditioned,post-confirmation primary comparison,15,True,43,12.0,False,13.0,False,24,0,0,0.02549961069296652
+ds03,isolation_forest,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,22.0,False,23.0,False,17,1,0,0.02081268582755203
+ds03,isolation_forest,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,13.0,False,18,1,0,0.02081268582755203
+ds03,isolation_forest,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,11.0,False,36,3,0,0.02081268582755203
+ds03,isolation_forest,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,21.0,False,22.0,False,18,0,0,0.02081268582755203
+ds03,isolation_forest,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,6.0,False,9.0,False,35,4,0,0.02081268582755203
+ds03,isolation_forest,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,1,0,0.02081268582755203
+ds03,isolation_forest,1,0.01,pooled,frozen comparator (reproduced),10,True,49,19.0,False,20.0,False,17,2,0,0.03036953136061164
+ds03,isolation_forest,1,0.01,pooled,frozen comparator (reproduced),11,True,41,6.0,False,12.0,False,18,2,0,0.03036953136061164
+ds03,isolation_forest,1,0.01,pooled,frozen comparator (reproduced),12,True,57,0.0,False,4.0,False,36,2,0,0.03036953136061164
+ds03,isolation_forest,1,0.01,pooled,frozen comparator (reproduced),13,True,59,18.0,False,22.0,False,18,2,0,0.03036953136061164
+ds03,isolation_forest,1,0.01,pooled,frozen comparator (reproduced),14,True,41,6.0,False,7.0,False,35,4,0,0.03036953136061164
+ds03,isolation_forest,1,0.01,pooled,frozen comparator (reproduced),15,True,43,1.0,False,7.0,False,24,1,0,0.03036953136061164
+ds03,isolation_forest,1,0.01,phase_conditioned,post-confirmation primary comparison,10,True,49,19.0,False,20.0,False,17,1,0,0.037762782247599276
+ds03,isolation_forest,1,0.01,phase_conditioned,post-confirmation primary comparison,11,True,41,7.0,False,11.0,False,18,0,0,0.037762782247599276
+ds03,isolation_forest,1,0.01,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,10.0,False,36,1,0,0.037762782247599276
+ds03,isolation_forest,1,0.01,phase_conditioned,post-confirmation primary comparison,13,True,59,18.0,False,21.0,False,18,2,0,0.037762782247599276
+ds03,isolation_forest,1,0.01,phase_conditioned,post-confirmation primary comparison,14,True,41,6.0,False,7.0,False,35,2,0,0.037762782247599276
+ds03,isolation_forest,1,0.01,phase_conditioned,post-confirmation primary comparison,15,True,43,8.0,False,11.0,False,24,0,0,0.037762782247599276
+ds03,isolation_forest,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,18.0,False,19.0,False,17,2,0,0.03287317509186612
+ds03,isolation_forest,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,12.0,False,18,1,0,0.03287317509186612
+ds03,isolation_forest,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,4.0,False,36,3,0,0.03287317509186612
+ds03,isolation_forest,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,18.0,False,22.0,False,18,0,0,0.03287317509186612
+ds03,isolation_forest,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,3.0,False,6.0,False,35,4,0,0.03287317509186612
+ds03,isolation_forest,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,2,1,0.03287317509186612
+ds03,isolation_forest,1,0.02,pooled,frozen comparator (reproduced),10,True,49,18.0,False,19.0,False,17,1,0,0.052054794520547946
+ds03,isolation_forest,1,0.02,pooled,frozen comparator (reproduced),11,True,41,6.0,False,12.0,False,18,2,0,0.052054794520547946
+ds03,isolation_forest,1,0.02,pooled,frozen comparator (reproduced),12,True,57,0.0,False,4.0,False,36,4,1,0.052054794520547946
+ds03,isolation_forest,1,0.02,pooled,frozen comparator (reproduced),13,True,59,15.0,False,22.0,False,18,1,0,0.052054794520547946
+ds03,isolation_forest,1,0.02,pooled,frozen comparator (reproduced),14,True,41,0.0,False,3.0,False,35,3,2,0.052054794520547946
+ds03,isolation_forest,1,0.02,pooled,frozen comparator (reproduced),15,True,43,6.0,False,7.0,False,24,1,0,0.052054794520547946
+ds03,isolation_forest,1,0.02,phase_conditioned,post-confirmation primary comparison,10,True,49,2.0,False,20.0,False,17,2,0,0.05937978028090669
+ds03,isolation_forest,1,0.02,phase_conditioned,post-confirmation primary comparison,11,True,41,3.0,False,11.0,False,18,0,0,0.05937978028090669
+ds03,isolation_forest,1,0.02,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,4.0,False,36,4,2,0.05937978028090669
+ds03,isolation_forest,1,0.02,phase_conditioned,post-confirmation primary comparison,13,True,59,15.0,False,16.0,False,18,2,0,0.05937978028090669
+ds03,isolation_forest,1,0.02,phase_conditioned,post-confirmation primary comparison,14,True,41,3.0,False,4.0,False,35,0,0,0.05937978028090669
+ds03,isolation_forest,1,0.02,phase_conditioned,post-confirmation primary comparison,15,True,43,6.0,False,7.0,False,24,1,0,0.05937978028090669
+ds03,isolation_forest,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,18.0,False,19.0,False,17,3,0,0.06095143706640238
+ds03,isolation_forest,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,8.0,False,11.0,False,18,1,0,0.06095143706640238
+ds03,isolation_forest,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,4.0,False,36,2,0,0.06095143706640238
+ds03,isolation_forest,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,18.0,False,19.0,False,18,1,0,0.06095143706640238
+ds03,isolation_forest,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,0.0,False,3.0,False,35,1,0,0.06095143706640238
+ds03,isolation_forest,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,2,1,0.06095143706640238
+ds03,isolation_forest,2,0.005,pooled,frozen comparator (reproduced),10,True,49,21.0,False,25.0,False,17,1,0,0.018102777056838826
+ds03,isolation_forest,2,0.005,pooled,frozen comparator (reproduced),11,True,41,5.0,False,6.0,False,18,1,0,0.018102777056838826
+ds03,isolation_forest,2,0.005,pooled,frozen comparator (reproduced),12,True,57,13.0,False,16.0,False,36,2,0,0.018102777056838826
+ds03,isolation_forest,2,0.005,pooled,frozen comparator (reproduced),13,True,59,2.0,False,22.0,False,18,3,1,0.018102777056838826
+ds03,isolation_forest,2,0.005,pooled,frozen comparator (reproduced),14,True,41,6.0,False,7.0,False,35,3,0,0.018102777056838826
+ds03,isolation_forest,2,0.005,pooled,frozen comparator (reproduced),15,True,43,1.0,False,8.0,False,24,1,0,0.018102777056838826
+ds03,isolation_forest,2,0.005,phase_conditioned,post-confirmation primary comparison,10,True,49,22.0,False,23.0,False,17,1,0,0.024591227614845574
+ds03,isolation_forest,2,0.005,phase_conditioned,post-confirmation primary comparison,11,True,41,12.0,False,13.0,False,18,0,0,0.024591227614845574
+ds03,isolation_forest,2,0.005,phase_conditioned,post-confirmation primary comparison,12,True,57,14.0,False,15.0,False,36,0,0,0.024591227614845574
+ds03,isolation_forest,2,0.005,phase_conditioned,post-confirmation primary comparison,13,True,59,22.0,False,23.0,False,18,0,0,0.024591227614845574
+ds03,isolation_forest,2,0.005,phase_conditioned,post-confirmation primary comparison,14,True,41,10.0,False,13.0,False,35,0,0,0.024591227614845574
+ds03,isolation_forest,2,0.005,phase_conditioned,post-confirmation primary comparison,15,True,43,12.0,False,13.0,False,24,0,0,0.024591227614845574
+ds03,isolation_forest,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,22.0,False,23.0,False,17,1,0,0.020671102930765965
+ds03,isolation_forest,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,13.0,False,18,1,0,0.020671102930765965
+ds03,isolation_forest,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,3.0,False,4.0,False,36,2,0,0.020671102930765965
+ds03,isolation_forest,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,18.0,False,22.0,False,18,0,0,0.020671102930765965
+ds03,isolation_forest,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,6.0,False,7.0,False,35,4,0,0.020671102930765965
+ds03,isolation_forest,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,2,0,0.020671102930765965
+ds03,isolation_forest,2,0.01,pooled,frozen comparator (reproduced),10,True,49,19.0,False,20.0,False,17,1,0,0.03328575136257462
+ds03,isolation_forest,2,0.01,pooled,frozen comparator (reproduced),11,True,41,6.0,False,12.0,False,18,1,0,0.03328575136257462
+ds03,isolation_forest,2,0.01,pooled,frozen comparator (reproduced),12,True,57,3.0,False,4.0,False,36,2,0,0.03328575136257462
+ds03,isolation_forest,2,0.01,pooled,frozen comparator (reproduced),13,True,59,18.0,False,22.0,False,18,2,0,0.03328575136257462
+ds03,isolation_forest,2,0.01,pooled,frozen comparator (reproduced),14,True,41,6.0,False,7.0,False,35,3,0,0.03328575136257462
+ds03,isolation_forest,2,0.01,pooled,frozen comparator (reproduced),15,True,43,6.0,False,7.0,False,24,1,0,0.03328575136257462
+ds03,isolation_forest,2,0.01,phase_conditioned,post-confirmation primary comparison,10,True,49,19.0,False,20.0,False,17,1,0,0.03795743576433948
+ds03,isolation_forest,2,0.01,phase_conditioned,post-confirmation primary comparison,11,True,41,7.0,False,12.0,False,18,0,0,0.03795743576433948
+ds03,isolation_forest,2,0.01,phase_conditioned,post-confirmation primary comparison,12,True,57,4.0,False,10.0,False,36,1,0,0.03795743576433948
+ds03,isolation_forest,2,0.01,phase_conditioned,post-confirmation primary comparison,13,True,59,18.0,False,21.0,False,18,2,0,0.03795743576433948
+ds03,isolation_forest,2,0.01,phase_conditioned,post-confirmation primary comparison,14,True,41,6.0,False,7.0,False,35,0,0,0.03795743576433948
+ds03,isolation_forest,2,0.01,phase_conditioned,post-confirmation primary comparison,15,True,43,8.0,False,11.0,False,24,0,0,0.03795743576433948
+ds03,isolation_forest,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,18.0,False,19.0,False,17,2,0,0.03485946965935048
+ds03,isolation_forest,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,12.0,False,18,1,0,0.03485946965935048
+ds03,isolation_forest,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,4.0,False,36,3,0,0.03485946965935048
+ds03,isolation_forest,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,18.0,False,22.0,False,18,0,0,0.03485946965935048
+ds03,isolation_forest,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,5.0,False,6.0,False,35,4,0,0.03485946965935048
+ds03,isolation_forest,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,3,1,0.03485946965935048
+ds03,isolation_forest,2,0.02,pooled,frozen comparator (reproduced),10,True,49,18.0,False,19.0,False,17,2,0,0.051907604464053986
+ds03,isolation_forest,2,0.02,pooled,frozen comparator (reproduced),11,True,41,6.0,False,12.0,False,18,2,0,0.051907604464053986
+ds03,isolation_forest,2,0.02,pooled,frozen comparator (reproduced),12,True,57,0.0,False,4.0,False,36,5,2,0.051907604464053986
+ds03,isolation_forest,2,0.02,pooled,frozen comparator (reproduced),13,True,59,8.0,False,19.0,False,18,1,0,0.051907604464053986
+ds03,isolation_forest,2,0.02,pooled,frozen comparator (reproduced),14,True,41,0.0,False,3.0,False,35,5,2,0.051907604464053986
+ds03,isolation_forest,2,0.02,pooled,frozen comparator (reproduced),15,True,43,2.0,False,7.0,False,24,1,0,0.051907604464053986
+ds03,isolation_forest,2,0.02,phase_conditioned,post-confirmation primary comparison,10,True,49,2.0,False,20.0,False,17,3,0,0.0589625921290502
+ds03,isolation_forest,2,0.02,phase_conditioned,post-confirmation primary comparison,11,True,41,3.0,False,11.0,False,18,0,0,0.0589625921290502
+ds03,isolation_forest,2,0.02,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,1.0,False,36,5,2,0.0589625921290502
+ds03,isolation_forest,2,0.02,phase_conditioned,post-confirmation primary comparison,13,True,59,7.0,False,8.0,False,18,2,0,0.0589625921290502
+ds03,isolation_forest,2,0.02,phase_conditioned,post-confirmation primary comparison,14,True,41,3.0,False,6.0,False,35,0,0,0.0589625921290502
+ds03,isolation_forest,2,0.02,phase_conditioned,post-confirmation primary comparison,15,True,43,6.0,False,7.0,False,24,1,0,0.0589625921290502
+ds03,isolation_forest,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,2.0,False,19.0,False,17,3,0,0.058128215825337226
+ds03,isolation_forest,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,6.0,False,11.0,False,18,1,0,0.058128215825337226
+ds03,isolation_forest,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,3.0,False,36,4,1,0.058128215825337226
+ds03,isolation_forest,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,8.0,False,16.0,False,18,2,0,0.058128215825337226
+ds03,isolation_forest,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,0.0,False,3.0,False,35,2,1,0.058128215825337226
+ds03,isolation_forest,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,6.0,False,7.0,False,24,2,1,0.058128215825337226
+ds03,lstm_autoencoder,0,0.005,pooled,frozen comparator (reproduced),10,True,49,8.0,False,23.0,False,17,1,0,0.01608876560332871
+ds03,lstm_autoencoder,0,0.005,pooled,frozen comparator (reproduced),11,True,41,2.0,False,16.0,False,18,1,0,0.01608876560332871
+ds03,lstm_autoencoder,0,0.005,pooled,frozen comparator (reproduced),12,True,57,15.0,False,16.0,False,36,0,0,0.01608876560332871
+ds03,lstm_autoencoder,0,0.005,pooled,frozen comparator (reproduced),13,True,59,2.0,False,8.0,False,18,5,1,0.01608876560332871
+ds03,lstm_autoencoder,0,0.005,pooled,frozen comparator (reproduced),14,True,41,7.0,False,10.0,False,35,0,0,0.01608876560332871
+ds03,lstm_autoencoder,0,0.005,pooled,frozen comparator (reproduced),15,True,43,1.0,False,12.0,False,24,3,0,0.01608876560332871
+ds03,lstm_autoencoder,0,0.005,phase_conditioned,post-confirmation primary comparison,10,True,49,8.0,False,20.0,False,17,3,0,0.014791336502905442
+ds03,lstm_autoencoder,0,0.005,phase_conditioned,post-confirmation primary comparison,11,True,41,5.0,False,12.0,False,18,1,0,0.014791336502905442
+ds03,lstm_autoencoder,0,0.005,phase_conditioned,post-confirmation primary comparison,12,True,57,9.0,False,10.0,False,36,1,0,0.014791336502905442
+ds03,lstm_autoencoder,0,0.005,phase_conditioned,post-confirmation primary comparison,13,True,59,2.0,False,8.0,False,18,5,1,0.014791336502905442
+ds03,lstm_autoencoder,0,0.005,phase_conditioned,post-confirmation primary comparison,14,True,41,7.0,False,10.0,False,35,0,0,0.014791336502905442
+ds03,lstm_autoencoder,0,0.005,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,9.0,False,24,4,0,0.014791336502905442
+ds03,lstm_autoencoder,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,0.0,False,19.0,False,17,3,0,0.011516111991547808
+ds03,lstm_autoencoder,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,6.0,False,18,3,0,0.011516111991547808
+ds03,lstm_autoencoder,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,4,1,0.011516111991547808
+ds03,lstm_autoencoder,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,1.0,False,2.0,False,18,5,1,0.011516111991547808
+ds03,lstm_autoencoder,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,1.0,False,6.0,False,35,3,0,0.011516111991547808
+ds03,lstm_autoencoder,0,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,4.0,False,24,6,2,0.011516111991547808
+ds03,lstm_autoencoder,0,0.01,pooled,frozen comparator (reproduced),10,True,49,6.0,False,20.0,False,17,6,2,0.02376219732562342
+ds03,lstm_autoencoder,0,0.01,pooled,frozen comparator (reproduced),11,True,41,5.0,False,12.0,False,18,2,0,0.02376219732562342
+ds03,lstm_autoencoder,0,0.01,pooled,frozen comparator (reproduced),12,True,57,4.0,False,11.0,False,36,2,0,0.02376219732562342
+ds03,lstm_autoencoder,0,0.01,pooled,frozen comparator (reproduced),13,True,59,1.0,False,2.0,False,18,7,3,0.02376219732562342
+ds03,lstm_autoencoder,0,0.01,pooled,frozen comparator (reproduced),14,True,41,5.0,False,6.0,False,35,3,0,0.02376219732562342
+ds03,lstm_autoencoder,0,0.01,pooled,frozen comparator (reproduced),15,True,43,1.0,False,8.0,False,24,4,1,0.02376219732562342
+ds03,lstm_autoencoder,0,0.01,phase_conditioned,post-confirmation primary comparison,10,True,49,6.0,False,17.0,False,17,7,2,0.022497289483194797
+ds03,lstm_autoencoder,0,0.01,phase_conditioned,post-confirmation primary comparison,11,True,41,2.0,False,8.0,False,18,4,0,0.022497289483194797
+ds03,lstm_autoencoder,0,0.01,phase_conditioned,post-confirmation primary comparison,12,True,57,1.0,False,5.0,False,36,4,0,0.022497289483194797
+ds03,lstm_autoencoder,0,0.01,phase_conditioned,post-confirmation primary comparison,13,True,59,1.0,False,2.0,False,18,6,2,0.022497289483194797
+ds03,lstm_autoencoder,0,0.01,phase_conditioned,post-confirmation primary comparison,14,True,41,5.0,False,6.0,False,35,3,0,0.022497289483194797
+ds03,lstm_autoencoder,0,0.01,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,4.0,False,24,5,2,0.022497289483194797
+ds03,lstm_autoencoder,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,6.0,False,17,5,0,0.024722662440570524
+ds03,lstm_autoencoder,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,6.0,False,18,3,0,0.024722662440570524
+ds03,lstm_autoencoder,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,7,2,0.024722662440570524
+ds03,lstm_autoencoder,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,0.0,False,1.0,False,18,5,1,0.024722662440570524
+ds03,lstm_autoencoder,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,3.0,False,6.0,False,35,4,0,0.024722662440570524
+ds03,lstm_autoencoder,0,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,4.0,False,24,5,2,0.024722662440570524
+ds03,lstm_autoencoder,0,0.02,pooled,frozen comparator (reproduced),10,True,49,5.0,False,6.0,False,17,11,6,0.041109504878930246
+ds03,lstm_autoencoder,0,0.02,pooled,frozen comparator (reproduced),11,True,41,2.0,False,6.0,False,18,6,0,0.041109504878930246
+ds03,lstm_autoencoder,0,0.02,pooled,frozen comparator (reproduced),12,True,57,0.0,False,1.0,False,36,6,1,0.041109504878930246
+ds03,lstm_autoencoder,0,0.02,pooled,frozen comparator (reproduced),13,True,59,0.0,False,1.0,False,18,8,4,0.041109504878930246
+ds03,lstm_autoencoder,0,0.02,pooled,frozen comparator (reproduced),14,True,41,3.0,False,6.0,False,35,4,0,0.041109504878930246
+ds03,lstm_autoencoder,0,0.02,pooled,frozen comparator (reproduced),15,True,43,0.0,False,1.0,False,24,4,1,0.041109504878930246
+ds03,lstm_autoencoder,0,0.02,phase_conditioned,post-confirmation primary comparison,10,True,49,5.0,False,6.0,False,17,6,1,0.05200945626477541
+ds03,lstm_autoencoder,0,0.02,phase_conditioned,post-confirmation primary comparison,11,True,41,5.0,False,8.0,False,18,2,0,0.05200945626477541
+ds03,lstm_autoencoder,0,0.02,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,1.0,False,36,6,2,0.05200945626477541
+ds03,lstm_autoencoder,0,0.02,phase_conditioned,post-confirmation primary comparison,13,True,59,1.0,False,2.0,False,18,5,2,0.05200945626477541
+ds03,lstm_autoencoder,0,0.02,phase_conditioned,post-confirmation primary comparison,14,True,41,1.0,False,6.0,False,35,1,0,0.05200945626477541
+ds03,lstm_autoencoder,0,0.02,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,2.0,False,24,3,1,0.05200945626477541
+ds03,lstm_autoencoder,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,6.0,False,17,6,1,0.0426922542066472
+ds03,lstm_autoencoder,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,4.0,False,5.0,False,18,4,0,0.0426922542066472
+ds03,lstm_autoencoder,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,12,8,0.0426922542066472
+ds03,lstm_autoencoder,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,0.0,False,1.0,False,18,4,1,0.0426922542066472
+ds03,lstm_autoencoder,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,1.0,False,4.0,False,35,7,0,0.0426922542066472
+ds03,lstm_autoencoder,0,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,2.0,False,24,4,2,0.0426922542066472
+ds03,lstm_autoencoder,1,0.005,pooled,frozen comparator (reproduced),10,True,49,10.0,False,23.0,False,17,1,0,0.01726768377253814
+ds03,lstm_autoencoder,1,0.005,pooled,frozen comparator (reproduced),11,True,41,2.0,False,14.0,False,18,1,0,0.01726768377253814
+ds03,lstm_autoencoder,1,0.005,pooled,frozen comparator (reproduced),12,True,57,13.0,False,16.0,False,36,0,0,0.01726768377253814
+ds03,lstm_autoencoder,1,0.005,pooled,frozen comparator (reproduced),13,True,59,2.0,False,8.0,False,18,4,1,0.01726768377253814
+ds03,lstm_autoencoder,1,0.005,pooled,frozen comparator (reproduced),14,True,41,9.0,False,10.0,False,35,0,0,0.01726768377253814
+ds03,lstm_autoencoder,1,0.005,pooled,frozen comparator (reproduced),15,True,43,1.0,False,13.0,False,24,2,0,0.01726768377253814
+ds03,lstm_autoencoder,1,0.005,phase_conditioned,post-confirmation primary comparison,10,True,49,8.0,False,20.0,False,17,3,0,0.014263074484944533
+ds03,lstm_autoencoder,1,0.005,phase_conditioned,post-confirmation primary comparison,11,True,41,2.0,False,12.0,False,18,1,0,0.014263074484944533
+ds03,lstm_autoencoder,1,0.005,phase_conditioned,post-confirmation primary comparison,12,True,57,10.0,False,11.0,False,36,0,0,0.014263074484944533
+ds03,lstm_autoencoder,1,0.005,phase_conditioned,post-confirmation primary comparison,13,True,59,2.0,False,8.0,False,18,5,1,0.014263074484944533
+ds03,lstm_autoencoder,1,0.005,phase_conditioned,post-confirmation primary comparison,14,True,41,7.0,False,10.0,False,35,0,0,0.014263074484944533
+ds03,lstm_autoencoder,1,0.005,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,12.0,False,24,4,0,0.014263074484944533
+ds03,lstm_autoencoder,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,0.0,False,19.0,False,17,3,0,0.01116504854368932
+ds03,lstm_autoencoder,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,6.0,False,18,4,0,0.01116504854368932
+ds03,lstm_autoencoder,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,4,1,0.01116504854368932
+ds03,lstm_autoencoder,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,1.0,False,2.0,False,18,5,1,0.01116504854368932
+ds03,lstm_autoencoder,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,3.0,False,6.0,False,35,4,0,0.01116504854368932
+ds03,lstm_autoencoder,1,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,4.0,False,24,6,2,0.01116504854368932
+ds03,lstm_autoencoder,1,0.01,pooled,frozen comparator (reproduced),10,True,49,5.0,False,6.0,False,17,7,2,0.025027105168052042
+ds03,lstm_autoencoder,1,0.01,pooled,frozen comparator (reproduced),11,True,41,2.0,False,12.0,False,18,2,0,0.025027105168052042
+ds03,lstm_autoencoder,1,0.01,pooled,frozen comparator (reproduced),12,True,57,0.0,False,11.0,False,36,0,0,0.025027105168052042
+ds03,lstm_autoencoder,1,0.01,pooled,frozen comparator (reproduced),13,True,59,1.0,False,2.0,False,18,5,1,0.025027105168052042
+ds03,lstm_autoencoder,1,0.01,pooled,frozen comparator (reproduced),14,True,41,6.0,False,7.0,False,35,0,0,0.025027105168052042
+ds03,lstm_autoencoder,1,0.01,pooled,frozen comparator (reproduced),15,True,43,0.0,False,1.0,False,24,4,1,0.025027105168052042
+ds03,lstm_autoencoder,1,0.01,phase_conditioned,post-confirmation primary comparison,10,True,49,6.0,False,17.0,False,17,8,4,0.022768341163715216
+ds03,lstm_autoencoder,1,0.01,phase_conditioned,post-confirmation primary comparison,11,True,41,2.0,False,8.0,False,18,3,0,0.022768341163715216
+ds03,lstm_autoencoder,1,0.01,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,1.0,False,36,4,0,0.022768341163715216
+ds03,lstm_autoencoder,1,0.01,phase_conditioned,post-confirmation primary comparison,13,True,59,1.0,False,2.0,False,18,5,1,0.022768341163715216
+ds03,lstm_autoencoder,1,0.01,phase_conditioned,post-confirmation primary comparison,14,True,41,5.0,False,6.0,False,35,3,0,0.022768341163715216
+ds03,lstm_autoencoder,1,0.01,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,4.0,False,24,5,2,0.022768341163715216
+ds03,lstm_autoencoder,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,6.0,False,17,6,0,0.02302357836338419
+ds03,lstm_autoencoder,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,6.0,False,18,3,0,0.02302357836338419
+ds03,lstm_autoencoder,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,8,3,0.02302357836338419
+ds03,lstm_autoencoder,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,1.0,False,2.0,False,18,5,1,0.02302357836338419
+ds03,lstm_autoencoder,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,3.0,False,6.0,False,35,4,0,0.02302357836338419
+ds03,lstm_autoencoder,1,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,4.0,False,24,5,2,0.02302357836338419
+ds03,lstm_autoencoder,1,0.02,pooled,frozen comparator (reproduced),10,True,49,5.0,False,6.0,False,17,6,1,0.05671761866452132
+ds03,lstm_autoencoder,1,0.02,pooled,frozen comparator (reproduced),11,True,41,2.0,False,11.0,False,18,2,0,0.05671761866452132
+ds03,lstm_autoencoder,1,0.02,pooled,frozen comparator (reproduced),12,True,57,0.0,False,10.0,False,36,2,0,0.05671761866452132
+ds03,lstm_autoencoder,1,0.02,pooled,frozen comparator (reproduced),13,True,59,0.0,False,1.0,False,18,5,2,0.05671761866452132
+ds03,lstm_autoencoder,1,0.02,pooled,frozen comparator (reproduced),14,True,41,5.0,False,6.0,False,35,0,0,0.05671761866452132
+ds03,lstm_autoencoder,1,0.02,pooled,frozen comparator (reproduced),15,True,43,1.0,False,8.0,False,24,3,1,0.05671761866452132
+ds03,lstm_autoencoder,1,0.02,phase_conditioned,post-confirmation primary comparison,10,True,49,5.0,False,6.0,False,17,10,6,0.04344328238133548
+ds03,lstm_autoencoder,1,0.02,phase_conditioned,post-confirmation primary comparison,11,True,41,2.0,False,5.0,False,18,4,0,0.04344328238133548
+ds03,lstm_autoencoder,1,0.02,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,1.0,False,36,11,6,0.04344328238133548
+ds03,lstm_autoencoder,1,0.02,phase_conditioned,post-confirmation primary comparison,13,True,59,0.0,False,1.0,False,18,7,3,0.04344328238133548
+ds03,lstm_autoencoder,1,0.02,phase_conditioned,post-confirmation primary comparison,14,True,41,1.0,False,4.0,False,35,5,1,0.04344328238133548
+ds03,lstm_autoencoder,1,0.02,phase_conditioned,post-confirmation primary comparison,15,True,43,0.0,False,1.0,False,24,5,2,0.04344328238133548
+ds03,lstm_autoencoder,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,6.0,False,17,6,1,0.04327323162274618
+ds03,lstm_autoencoder,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,4.0,False,5.0,False,18,4,0,0.04327323162274618
+ds03,lstm_autoencoder,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,13,9,0.04327323162274618
+ds03,lstm_autoencoder,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,0.0,False,1.0,False,18,5,1,0.04327323162274618
+ds03,lstm_autoencoder,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,1.0,False,4.0,False,35,6,0,0.04327323162274618
+ds03,lstm_autoencoder,1,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,2.0,False,24,5,2,0.04327323162274618
+ds03,lstm_autoencoder,2,0.005,pooled,frozen comparator (reproduced),10,True,49,22.0,False,23.0,False,17,1,0,0.01740638002773925
+ds03,lstm_autoencoder,2,0.005,pooled,frozen comparator (reproduced),11,True,41,5.0,False,14.0,False,18,1,0,0.01740638002773925
+ds03,lstm_autoencoder,2,0.005,pooled,frozen comparator (reproduced),12,True,57,15.0,False,16.0,False,36,0,0,0.01740638002773925
+ds03,lstm_autoencoder,2,0.005,pooled,frozen comparator (reproduced),13,True,59,2.0,False,8.0,False,18,4,1,0.01740638002773925
+ds03,lstm_autoencoder,2,0.005,pooled,frozen comparator (reproduced),14,True,41,9.0,False,10.0,False,35,0,0,0.01740638002773925
+ds03,lstm_autoencoder,2,0.005,pooled,frozen comparator (reproduced),15,True,43,1.0,False,13.0,False,24,2,0,0.01740638002773925
+ds03,lstm_autoencoder,2,0.005,phase_conditioned,post-confirmation primary comparison,10,True,49,19.0,False,20.0,False,17,3,0,0.014263074484944533
+ds03,lstm_autoencoder,2,0.005,phase_conditioned,post-confirmation primary comparison,11,True,41,5.0,False,11.0,False,18,1,0,0.014263074484944533
+ds03,lstm_autoencoder,2,0.005,phase_conditioned,post-confirmation primary comparison,12,True,57,9.0,False,10.0,False,36,0,0,0.014263074484944533
+ds03,lstm_autoencoder,2,0.005,phase_conditioned,post-confirmation primary comparison,13,True,59,2.0,False,8.0,False,18,5,1,0.014263074484944533
+ds03,lstm_autoencoder,2,0.005,phase_conditioned,post-confirmation primary comparison,14,True,41,7.0,False,10.0,False,35,0,0,0.014263074484944533
+ds03,lstm_autoencoder,2,0.005,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,9.0,False,24,5,0,0.014263074484944533
+ds03,lstm_autoencoder,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,19.0,False,17,3,0,0.012995245641838352
+ds03,lstm_autoencoder,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,8.0,False,18,4,0,0.012995245641838352
+ds03,lstm_autoencoder,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,1,0,0.012995245641838352
+ds03,lstm_autoencoder,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,1.0,False,2.0,False,18,5,1,0.012995245641838352
+ds03,lstm_autoencoder,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,5.0,False,6.0,False,35,3,0,0.012995245641838352
+ds03,lstm_autoencoder,2,0.005,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,7.0,False,24,6,2,0.012995245641838352
+ds03,lstm_autoencoder,2,0.01,pooled,frozen comparator (reproduced),10,True,49,5.0,False,6.0,False,17,7,2,0.025388507408745934
+ds03,lstm_autoencoder,2,0.01,pooled,frozen comparator (reproduced),11,True,41,5.0,False,12.0,False,18,4,0,0.025388507408745934
+ds03,lstm_autoencoder,2,0.01,pooled,frozen comparator (reproduced),12,True,57,9.0,False,10.0,False,36,1,0,0.025388507408745934
+ds03,lstm_autoencoder,2,0.01,pooled,frozen comparator (reproduced),13,True,59,1.0,False,2.0,False,18,6,2,0.025388507408745934
+ds03,lstm_autoencoder,2,0.01,pooled,frozen comparator (reproduced),14,True,41,7.0,False,10.0,False,35,0,0,0.025388507408745934
+ds03,lstm_autoencoder,2,0.01,pooled,frozen comparator (reproduced),15,True,43,1.0,False,12.0,False,24,4,1,0.025388507408745934
+ds03,lstm_autoencoder,2,0.01,phase_conditioned,post-confirmation primary comparison,10,True,49,8.0,False,19.0,False,17,6,1,0.024362477231329692
+ds03,lstm_autoencoder,2,0.01,phase_conditioned,post-confirmation primary comparison,11,True,41,5.0,False,8.0,False,18,2,0,0.024362477231329692
+ds03,lstm_autoencoder,2,0.01,phase_conditioned,post-confirmation primary comparison,12,True,57,1.0,False,5.0,False,36,3,0,0.024362477231329692
+ds03,lstm_autoencoder,2,0.01,phase_conditioned,post-confirmation primary comparison,13,True,59,1.0,False,2.0,False,18,5,1,0.024362477231329692
+ds03,lstm_autoencoder,2,0.01,phase_conditioned,post-confirmation primary comparison,14,True,41,5.0,False,6.0,False,35,0,0,0.024362477231329692
+ds03,lstm_autoencoder,2,0.01,phase_conditioned,post-confirmation primary comparison,15,True,43,1.0,False,4.0,False,24,5,2,0.024362477231329692
+ds03,lstm_autoencoder,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,6.0,False,17,5,0,0.027777777777777776
+ds03,lstm_autoencoder,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,5.0,False,6.0,False,18,4,0,0.027777777777777776
+ds03,lstm_autoencoder,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,6,2,0.027777777777777776
+ds03,lstm_autoencoder,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,1.0,False,2.0,False,18,4,1,0.027777777777777776
+ds03,lstm_autoencoder,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,5.0,False,6.0,False,35,4,0,0.027777777777777776
+ds03,lstm_autoencoder,2,0.01,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,4.0,False,24,4,2,0.027777777777777776
+ds03,lstm_autoencoder,2,0.02,pooled,frozen comparator (reproduced),10,True,49,5.0,False,6.0,False,17,10,5,0.046393897364771154
+ds03,lstm_autoencoder,2,0.02,pooled,frozen comparator (reproduced),11,True,41,2.0,False,8.0,False,18,3,0,0.046393897364771154
+ds03,lstm_autoencoder,2,0.02,pooled,frozen comparator (reproduced),12,True,57,0.0,False,1.0,False,36,1,0,0.046393897364771154
+ds03,lstm_autoencoder,2,0.02,pooled,frozen comparator (reproduced),13,True,59,0.0,False,1.0,False,18,6,3,0.046393897364771154
+ds03,lstm_autoencoder,2,0.02,pooled,frozen comparator (reproduced),14,True,41,5.0,False,6.0,False,35,0,0,0.046393897364771154
+ds03,lstm_autoencoder,2,0.02,pooled,frozen comparator (reproduced),15,True,43,0.0,False,1.0,False,24,3,1,0.046393897364771154
+ds03,lstm_autoencoder,2,0.02,phase_conditioned,post-confirmation primary comparison,10,True,49,5.0,False,6.0,False,17,9,5,0.04505632040050062
+ds03,lstm_autoencoder,2,0.02,phase_conditioned,post-confirmation primary comparison,11,True,41,2.0,False,5.0,False,18,3,0,0.04505632040050062
+ds03,lstm_autoencoder,2,0.02,phase_conditioned,post-confirmation primary comparison,12,True,57,0.0,False,1.0,False,36,10,7,0.04505632040050062
+ds03,lstm_autoencoder,2,0.02,phase_conditioned,post-confirmation primary comparison,13,True,59,0.0,False,1.0,False,18,6,3,0.04505632040050062
+ds03,lstm_autoencoder,2,0.02,phase_conditioned,post-confirmation primary comparison,14,True,41,1.0,False,4.0,False,35,4,1,0.04505632040050062
+ds03,lstm_autoencoder,2,0.02,phase_conditioned,post-confirmation primary comparison,15,True,43,0.0,False,1.0,False,24,5,2,0.04505632040050062
+ds03,lstm_autoencoder,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,10,True,49,5.0,False,6.0,False,17,7,2,0.047226074895977806
+ds03,lstm_autoencoder,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,11,True,41,4.0,False,5.0,False,18,4,0,0.047226074895977806
+ds03,lstm_autoencoder,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,12,True,57,0.0,False,1.0,False,36,13,10,0.047226074895977806
+ds03,lstm_autoencoder,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,13,True,59,0.0,False,1.0,False,18,4,1,0.047226074895977806
+ds03,lstm_autoencoder,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,14,True,41,1.0,False,4.0,False,35,6,0,0.047226074895977806
+ds03,lstm_autoencoder,2,0.02,causal_regime,post-confirmation causal sensitivity/feasibility arm,15,True,43,1.0,False,2.0,False,24,3,1,0.047226074895977806

@@ -1,0 +1,453 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    27
+   ]
+  ],
+  "date-time": "2026-09-27T02:08:49Z",
+  "timestamp": 1790474929077,
+  "version": "4.1.0"
+ },
+ "reference-count": 14,
+ "publisher": "Oxford University Press (OUP)",
+ "issue": "2",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      8,
+      25
+     ]
+    ],
+    "date-time": "2020-08-25T00:00:00Z",
+    "timestamp": 1598313600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/100000001",
+   "name": "National Science Foundation",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "DMS–1654076"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "DMS–1654076"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/100000001",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/100000001",
+   "name": "National Science Foundation",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "DMS–1712800"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "DMS–1712800"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/100000001",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/100000006",
+   "name": "Office of Naval Research",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "N00014-16-1-2712"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "N00014-16-1-2712"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/100000006",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2021,
+    6,
+    15
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>We consider the problem of distribution-free predictive inference, with the goal of producing predictive coverage guarantees that hold conditionally rather than marginally. Existing methods such as conformal prediction offer marginal coverage guarantees, where predictive coverage holds on average over all possible test points, but this is not sufficient for many practical applications where we would like to know that our predictions are valid for a given individual, not merely on average over a population. On the other hand, exact conditional inference guarantees are known to be impossible without imposing assumptions on the underlying distribution. In this work, we aim to explore the space in between these two and examine what types of relaxations of the conditional coverage property would alleviate some of the practical concerns with marginal coverage guarantees while still being possible to achieve in a distribution-free setting.</jats:p>",
+ "DOI": "10.1093/imaiai/iaaa017",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2020,
+    8,
+    4
+   ]
+  ],
+  "date-time": "2020-08-04T19:30:59Z",
+  "timestamp": 1596569459000
+ },
+ "page": "455-482",
+ "source": "Crossref",
+ "is-referenced-by-count": 92,
+ "title": [
+  "The limits of distribution-free conditional predictive inference"
+ ],
+ "prefix": "10.1093",
+ "volume": "10",
+ "author": [
+  {
+   "given": "Rina",
+   "family": "Foygel Barber",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Statistics, University of Chicago, Chicago, IL 60637"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Emmanuel J",
+   "family": "Candès",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Departments of Statistics and Mathematics, Stanford University, Stanford, CA 94305"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Aaditya",
+   "family": "Ramdas",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Statistics and Data Science and Machine Learning Department, Carnegie Mellon University, Pittsburgh, PA 15213"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ryan J",
+   "family": "Tibshirani",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Statistics and Data Science and Machine Learning Department, Carnegie Mellon University, Pittsburgh, PA 15213"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "286",
+ "published-online": {
+  "date-parts": [
+   [
+    2020,
+    8,
+    25
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "2021060907580438100_ref1",
+   "doi-asserted-by": "crossref",
+   "first-page": "1115",
+   "DOI": "10.1214/aoms/1177728077",
+   "article-title": "The nonexistence of certain statistical procedures in nonparametric problems",
+   "volume": "27",
+   "author": "Bahadur",
+   "year": "1956",
+   "journal-title": "Ann. Math. Stat."
+  },
+  {
+   "key": "2021060907580438100_ref2",
+   "doi-asserted-by": "crossref",
+   "first-page": "929",
+   "DOI": "10.1145/76359.76371",
+   "article-title": "Learnability and the Vapnik–Chervonenkis dimension",
+   "volume": "36",
+   "author": "Blumer",
+   "year": "1989",
+   "journal-title": "J. ACM"
+  },
+  {
+   "key": "2021060907580438100_ref3",
+   "doi-asserted-by": "crossref",
+   "first-page": "1054",
+   "DOI": "10.1080/01621459.2013.879260",
+   "article-title": "Adaptive confidence bands for nonparametric regression functions",
+   "volume": "109",
+   "author": "Cai",
+   "year": "2014",
+   "journal-title": "J. Am. Stat. Assoc."
+  },
+  {
+   "key": "2021060907580438100_ref4",
+   "doi-asserted-by": "crossref",
+   "first-page": "1390",
+   "DOI": "10.1214/aos/1176351045",
+   "article-title": "One-sided inference about functionals of a density",
+   "volume": "16",
+   "author": "Donoho",
+   "year": "1988",
+   "journal-title": "Ann. Stat."
+  },
+  {
+   "key": "2021060907580438100_ref5",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/978-1-4419-6950-7",
+   "volume-title": "Concrete Functional Calculus",
+   "author": "Dudley",
+   "year": "2011"
+  },
+  {
+   "key": "2021060907580438100_ref6",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/978-3-642-22147-7",
+   "volume-title": "Oracle Inequalities in Empirical Risk Minimization and Sparse Recovery Problems: Ecole d’Eté de Probabilités de Saint-Flour XXXVIII-2008, vol. 2033",
+   "author": "Koltchinskii",
+   "year": "2011"
+  },
+  {
+   "key": "2021060907580438100_ref7",
+   "doi-asserted-by": "crossref",
+   "first-page": "1094",
+   "DOI": "10.1080/01621459.2017.1307116",
+   "article-title": "Distribution-free predictive inference for regression",
+   "volume": "113",
+   "author": "Lei",
+   "year": "2018",
+   "journal-title": "J. Am. Stat. Assoc."
+  },
+  {
+   "key": "2021060907580438100_ref8",
+   "doi-asserted-by": "crossref",
+   "first-page": "71",
+   "DOI": "10.1111/rssb.12021",
+   "article-title": "Distribution-free prediction bands for non-parametric regression",
+   "volume": "76",
+   "author": "Lei",
+   "year": "2014",
+   "journal-title": "J. Royal Stat. Soc."
+  },
+  {
+   "key": "2021060907580438100_ref9",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.5772/6078",
+   "article-title": "Inductive conformal prediction: theory and application to neural networks",
+   "volume-title": "Tools in Artificial Intelligence",
+   "author": "Papadopoulos",
+   "year": "2008"
+  },
+  {
+   "key": "2021060907580438100_ref10",
+   "first-page": "345",
+   "article-title": "Inductive confidence machines for regression",
+   "volume-title": "European Conference on Machine Learning",
+   "author": "Papadopoulos",
+   "year": "2002"
+  },
+  {
+   "key": "2021060907580438100_ref11",
+   "first-page": "371",
+   "article-title": "A tutorial on conformal prediction",
+   "volume": "9",
+   "author": "Shafer",
+   "year": "2008",
+   "journal-title": "J. Mach. Learn. Res."
+  },
+  {
+   "key": "2021060907580438100_ref12",
+   "doi-asserted-by": "crossref",
+   "first-page": "240",
+   "DOI": "10.4064/fm-3-1-240-246",
+   "article-title": "Sur les fonctions d’ensemble additives et continues",
+   "volume": "1",
+   "author": "Sierpiński",
+   "year": "1922",
+   "journal-title": "Fundam. Math."
+  },
+  {
+   "key": "2021060907580438100_ref13",
+   "first-page": "475",
+   "article-title": "Conditional validity of inductive conformal predictors",
+   "author": "Vovk",
+   "year": "2012",
+   "journal-title": "Asian Conference on Machine Learning"
+  },
+  {
+   "key": "2021060907580438100_ref14",
+   "volume-title": "Algorithmic Learning in a Random World",
+   "author": "Vovk",
+   "year": "2005"
+  }
+ ],
+ "container-title": [
+  "Information and Inference: A Journal of the IMA"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://academic.oup.com/imaiai/article-pdf/10/2/455/38549621/iaaa017.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "http://academic.oup.com/imaiai/article-pdf/10/2/455/38549621/iaaa017.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2021,
+    6,
+    9
+   ]
+  ],
+  "date-time": "2021-06-09T11:40:46Z",
+  "timestamp": 1623238846000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://academic.oup.com/imaiai/article/10/2/455/5896927"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2020,
+    8,
+    25
+   ]
+  ]
+ },
+ "references-count": 14,
+ "journal-issue": {
+  "issue": "2",
+  "published-online": {
+   "date-parts": [
+    [
+     2020,
+     8,
+     25
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     15
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1093/imaiai/iaaa017",
+ "relation": {},
+ "ISSN": [
+  "2049-8764",
+  "2049-8772"
+ ],
+ "issn-type": [
+  {
+   "value": "2049-8764",
+   "type": "print"
+  },
+  {
+   "value": "2049-8772",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published-other": {
+  "date-parts": [
+   [
+    2021,
+    6
+   ]
+  ]
+ },
+ "published": {
+  "date-parts": [
+   [
+    2020,
+    8,
+    25
+   ]
+  ]
+ }
+}

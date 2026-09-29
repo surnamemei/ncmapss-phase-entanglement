@@ -1,0 +1,3 @@
+# Fitted models and checkpoints are large binaries; their SHA-256 hashes are recorded in each lock.
+*/models/
+*/reproduction_*/

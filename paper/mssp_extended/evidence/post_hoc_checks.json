@@ -1,0 +1,380 @@
+{
+  "status": "post hoc; prompted by the internal hostile review; descriptive; pre-specified decisions unchanged",
+  "alpha": 0.01,
+  "runs": "new cohort, residual runs (7 per subset)",
+  "seed": 20260930,
+  "we_ffr_null": [
+    {
+      "subset": "DS01",
+      "family": "F1",
+      "engines": 4,
+      "flights_min": 17,
+      "flights_max": 35,
+      "calibration_flights": 79,
+      "null_median": 0.08571428571428572,
+      "null_q95": 0.17647058823529413,
+      "null_p_ge_10pct": 0.41325,
+      "null_exact_median": 0.08823529411764706,
+      "null_exact_p_ge_10pct": 0.42857,
+      "observed_median_R0": 0.14285714285714285,
+      "observed_share_ge_10pct_R0": 0.5714285714285714,
+      "observed_share_above_null_q95_R0": 0.0,
+      "observed_median_R1": 0.11428571428571428,
+      "observed_share_ge_10pct_R1": 0.8571428571428571,
+      "observed_share_above_null_q95_R1": 0.0,
+      "observed_median_R2": 0.14285714285714285,
+      "observed_share_ge_10pct_R2": 0.5714285714285714,
+      "observed_share_above_null_q95_R2": 0.0
+    },
+    {
+      "subset": "DS04",
+      "family": "F2",
+      "engines": 4,
+      "flights_min": 16,
+      "flights_max": 21,
+      "calibration_flights": 53,
+      "null_median": 0.09523809523809523,
+      "null_q95": 0.23809523809523808,
+      "null_p_ge_10pct": 0.419155,
+      "null_exact_median": 0.09523809523809523,
+      "null_exact_p_ge_10pct": 0.379895,
+      "observed_median_R0": 0.09523809523809523,
+      "observed_share_ge_10pct_R0": 0.14285714285714285,
+      "observed_share_above_null_q95_R0": 0.0,
+      "observed_median_R1": 0.14285714285714285,
+      "observed_share_ge_10pct_R1": 0.5714285714285714,
+      "observed_share_above_null_q95_R1": 0.0,
+      "observed_median_R2": 0.19047619047619047,
+      "observed_share_ge_10pct_R2": 0.5714285714285714,
+      "observed_share_above_null_q95_R2": 0.0
+    },
+    {
+      "subset": "DS05",
+      "family": "F3",
+      "engines": 4,
+      "flights_min": 18,
+      "flights_max": 36,
+      "calibration_flights": 77,
+      "null_median": 0.08695652173913043,
+      "null_q95": 0.19444444444444445,
+      "null_p_ge_10pct": 0.437645,
+      "null_exact_median": 0.08695652173913043,
+      "null_exact_p_ge_10pct": 0.43873,
+      "observed_median_R0": 0.16666666666666666,
+      "observed_share_ge_10pct_R0": 1.0,
+      "observed_share_above_null_q95_R0": 0.2857142857142857,
+      "observed_median_R1": 0.14285714285714285,
+      "observed_share_ge_10pct_R1": 0.7142857142857143,
+      "observed_share_above_null_q95_R1": 0.2857142857142857,
+      "observed_median_R2": 0.14285714285714285,
+      "observed_share_ge_10pct_R2": 1.0,
+      "observed_share_above_null_q95_R2": 0.2857142857142857
+    },
+    {
+      "subset": "DS06",
+      "family": "F3",
+      "engines": 4,
+      "flights_min": 16,
+      "flights_max": 32,
+      "calibration_flights": 71,
+      "null_median": 0.09523809523809523,
+      "null_q95": 0.1935483870967742,
+      "null_p_ge_10pct": 0.4185,
+      "null_exact_median": 0.09523809523809523,
+      "null_exact_p_ge_10pct": 0.35975,
+      "observed_median_R0": 0.14285714285714285,
+      "observed_share_ge_10pct_R0": 0.8571428571428571,
+      "observed_share_above_null_q95_R0": 0.2857142857142857,
+      "observed_median_R1": 0.14285714285714285,
+      "observed_share_ge_10pct_R1": 0.7142857142857143,
+      "observed_share_above_null_q95_R1": 0.14285714285714285,
+      "observed_median_R2": 0.14285714285714285,
+      "observed_share_ge_10pct_R2": 0.8571428571428571,
+      "observed_share_above_null_q95_R2": 0.14285714285714285
+    },
+    {
+      "subset": "DS07",
+      "family": "F3",
+      "engines": 4,
+      "flights_min": 18,
+      "flights_max": 36,
+      "calibration_flights": 78,
+      "null_median": 0.08695652173913043,
+      "null_q95": 0.19444444444444445,
+      "null_p_ge_10pct": 0.43389,
+      "null_exact_median": 0.08695652173913043,
+      "null_exact_p_ge_10pct": 0.443055,
+      "observed_median_R0": 0.1111111111111111,
+      "observed_share_ge_10pct_R0": 0.7142857142857143,
+      "observed_share_above_null_q95_R0": 0.0,
+      "observed_median_R1": 0.13043478260869565,
+      "observed_share_ge_10pct_R1": 0.8571428571428571,
+      "observed_share_above_null_q95_R1": 0.0,
+      "observed_median_R2": 0.13043478260869565,
+      "observed_share_ge_10pct_R2": 0.7142857142857143,
+      "observed_share_above_null_q95_R2": 0.0
+    },
+    {
+      "subset": "DS08a",
+      "family": "F4",
+      "engines": 6,
+      "flights_min": 14,
+      "flights_max": 29,
+      "calibration_flights": 131,
+      "null_median": 0.11764705882352941,
+      "null_q95": 0.21428571428571427,
+      "null_p_ge_10pct": 0.68749,
+      "null_exact_median": 0.11764705882352941,
+      "null_exact_p_ge_10pct": 0.713135,
+      "observed_median_R0": 0.18518518518518517,
+      "observed_share_ge_10pct_R0": 1.0,
+      "observed_share_above_null_q95_R0": 0.2857142857142857,
+      "observed_median_R1": 0.2,
+      "observed_share_ge_10pct_R1": 1.0,
+      "observed_share_above_null_q95_R1": 0.42857142857142855,
+      "observed_median_R2": 0.2,
+      "observed_share_ge_10pct_R2": 1.0,
+      "observed_share_above_null_q95_R2": 0.2857142857142857
+    },
+    {
+      "subset": "DS08c",
+      "family": "F5",
+      "engines": 4,
+      "flights_min": 21,
+      "flights_max": 22,
+      "calibration_flights": 47,
+      "null_median": 0.09523809523809523,
+      "null_q95": 0.23809523809523808,
+      "null_p_ge_10pct": 0.434915,
+      "null_exact_median": 0.09523809523809523,
+      "null_exact_p_ge_10pct": 0.313625,
+      "observed_median_R0": 0.047619047619047616,
+      "observed_share_ge_10pct_R0": 0.14285714285714285,
+      "observed_share_above_null_q95_R0": 0.0,
+      "observed_median_R1": 0.047619047619047616,
+      "observed_share_ge_10pct_R1": 0.14285714285714285,
+      "observed_share_above_null_q95_R1": 0.0,
+      "observed_median_R2": 0.047619047619047616,
+      "observed_share_ge_10pct_R2": 0.14285714285714285,
+      "observed_share_above_null_q95_R2": 0.0
+    }
+  ],
+  "we_ffr_null_range": {
+    "median_min": 0.08571428571428572,
+    "median_max": 0.11764705882352941,
+    "p_ge_10pct_min": 0.41325,
+    "p_ge_10pct_max": 0.68749
+  },
+  "a2_noise_by_arm": {
+    "phase_conditioned": {
+      "engine_runs": 210,
+      "null_p_material_mean": 0.29796190476190476,
+      "observed_share_material": 0.8,
+      "observed_share_above_null_q95": 0.4857142857142857,
+      "null_A2_median_median": 0.0034749088923818486,
+      "se_overall_fpr_median": 0.0014717693545962603,
+      "material_share_under_alarming": 0.47619047619047616
+    },
+    "pooled": {
+      "engine_runs": 210,
+      "null_p_material_mean": 0.3094030952380952,
+      "observed_share_material": 0.8714285714285714,
+      "observed_share_above_null_q95": 0.6,
+      "null_A2_median_median": 0.0035863027381775265,
+      "se_overall_fpr_median": 0.001533379397127511,
+      "material_share_under_alarming": 0.5300546448087432
+    },
+    "quantile_regression_W": {
+      "engine_runs": 210,
+      "null_p_material_mean": 0.4923585714285715,
+      "observed_share_material": 0.8238095238095238,
+      "observed_share_above_null_q95": 0.580952380952381,
+      "null_A2_median_median": 0.004991911491755187,
+      "se_overall_fpr_median": 0.002221090228100641,
+      "material_share_under_alarming": 0.3815028901734104
+    }
+  },
+  "a2_noise_by_subset_pooled": {
+    "DS01": {
+      "null_p_material_mean": 0.21786607142857142,
+      "observed_share_above_null_q95": 0.6071428571428571,
+      "material_share_under_alarming": 0.0
+    },
+    "DS04": {
+      "null_p_material_mean": 0.10298214285714287,
+      "observed_share_above_null_q95": 1.0,
+      "material_share_under_alarming": 0.7916666666666666
+    },
+    "DS05": {
+      "null_p_material_mean": 0.28535,
+      "observed_share_above_null_q95": 0.5357142857142857,
+      "material_share_under_alarming": 0.42857142857142855
+    },
+    "DS06": {
+      "null_p_material_mean": 0.34536071428571435,
+      "observed_share_above_null_q95": 0.32142857142857145,
+      "material_share_under_alarming": 0.5
+    },
+    "DS07": {
+      "null_p_material_mean": 0.24295000000000003,
+      "observed_share_above_null_q95": 0.5,
+      "material_share_under_alarming": 0.75
+    },
+    "DS08a": {
+      "null_p_material_mean": 0.6303285714285713,
+      "observed_share_above_null_q95": 0.4523809523809524,
+      "material_share_under_alarming": 0.3
+    },
+    "DS08c": {
+      "null_p_material_mean": 0.18052142857142853,
+      "observed_share_above_null_q95": 0.8571428571428571,
+      "material_share_under_alarming": 1.0
+    }
+  },
+  "se_overall_fpr_range": {
+    "min": 0.0007535884288935497,
+    "max": 0.01200558992474675
+  },
+  "engine_improvement": {
+    "phase_conditioned": {
+      "mean_share_engines_improved": 0.5011904761904762,
+      "share_cells_every_engine_improved": 0.14285714285714285,
+      "coin_flip_expectation": 0.05580357142857143,
+      "cells": 70
+    },
+    "quantile_regression_W": {
+      "mean_share_engines_improved": 0.49166666666666664,
+      "share_cells_every_engine_improved": 0.14285714285714285,
+      "coin_flip_expectation": 0.05580357142857143,
+      "cells": 70
+    }
+  },
+  "engine_improvement_residual": {
+    "phase_conditioned": {
+      "mean_share_engines_improved": 0.5459183673469388,
+      "cells": 49
+    },
+    "quantile_regression_W": {
+      "mean_share_engines_improved": 0.401360544217687,
+      "cells": 49
+    }
+  },
+  "ds08a_engine14": {
+    "flight": 3,
+    "healthy_flights": 15,
+    "share_of_healthy_alarms": 0.653507285665876,
+    "fpr_all_flights": 0.02702851228693637,
+    "fpr_without_flight": 0.009969141971306422,
+    "flight_altitude_span_ft": 32029.0,
+    "fit_max_altitude_span_ft": 28051.0,
+    "calibration_max_altitude_span_ft": 30033.0,
+    "audit_flights_above_calibration_span": 1,
+    "note": "median over the 7 residual runs of per-flight healthy alarms under P at alpha = 1% (R0)"
+  },
+  "balanced_design": {
+    "phase_conditioned": {
+      "residual_runs": 42,
+      "better_than_mean_single": 35,
+      "better_than_best_single": 11
+    },
+    "pooled": {
+      "residual_runs": 42,
+      "better_than_mean_single": 42,
+      "better_than_best_single": 7
+    }
+  },
+  "two_flight_confirmation": {
+    "pooled": {
+      "residual_runs": 49,
+      "we_single_median": 0.13043478260869565,
+      "we_single_ge_10pct": 31,
+      "we_two_median": 0.0,
+      "we_two_zero": 36,
+      "we_two_ge_10pct": 2,
+      "median_delay_single": 9.5,
+      "median_delay_two": 17.0,
+      "censored_engines_two": 0
+    },
+    "phase_conditioned": {
+      "residual_runs": 49,
+      "we_single_median": 0.12903225806451613,
+      "we_single_ge_10pct": 31,
+      "we_two_median": 0.0,
+      "we_two_zero": 35,
+      "we_two_ge_10pct": 2,
+      "median_delay_single": 7.5,
+      "median_delay_two": 16.5,
+      "censored_engines_two": 0
+    },
+    "quantile_regression_W": {
+      "residual_runs": 49,
+      "we_single_median": 0.2,
+      "we_single_ge_10pct": 42,
+      "we_two_median": 0.07142857142857142,
+      "we_two_zero": 17,
+      "we_two_ge_10pct": 20,
+      "median_delay_single": 4.5,
+      "median_delay_two": 13.5,
+      "censored_engines_two": 0
+    }
+  },
+  "early_sensitivity_pooled": {
+    "min": 0.005175893100627216,
+    "median": 0.012065617881331316,
+    "max": 0.046669199200383614
+  },
+  "mission_sharing": {
+    "same_class_by_audit_class": {
+      "1": {
+        "min": 0.35294117647058826,
+        "max": 0.5555555555555556
+      },
+      "2": {
+        "min": 0.047619047619047616,
+        "max": 0.19047619047619047
+      },
+      "3": {
+        "min": 0.05555555555555555,
+        "max": 0.2
+      }
+    },
+    "other_class_max": 0.0
+  },
+  "cvae_vs_residual": {
+    "median_over_families_vs_best": 0.005228254889399601,
+    "median_over_families_vs_median": 0.0023556127909422006,
+    "family_vs_median": {
+      "F1": -0.0009885531933366346,
+      "F2": 0.0023556127909422006,
+      "F3": 0.006328494056234456,
+      "F4": 0.009735558380346902,
+      "F5": 0.000567214230398367
+    }
+  },
+  "bootstrap_class_omission_probability": {
+    "DS01": 0.7777777777777778,
+    "DS04": 0.3333333333333333,
+    "DS05": 0.7777777777777778,
+    "DS06": 0.7777777777777778,
+    "DS07": 0.7777777777777778,
+    "DS08a": 0.4212962962962963,
+    "DS08c": 0.0
+  },
+  "coverage_by_audit_class": {
+    "phase_conditioned": {
+      "1": 0.00638473141613,
+      "2": 0.0008487648759066999,
+      "3": 0.0069978821018208005
+    },
+    "pooled": {
+      "1": 0.0011028655278028,
+      "2": -0.00092541193174245,
+      "3": -0.0008339940711045
+    }
+  },
+  "ds04_runs_every_engine_within_material_line": {
+    "phase_conditioned": 1,
+    "quantile_regression_W": 4,
+    "pooled": 1
+  }
+}

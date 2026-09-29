@@ -1,0 +1,20 @@
+{
+  "outputs": {
+    "paper/mssp/figures/fig6_operating_context_and_support.pdf": "65bb6d0584342b6e5949890907b246f6a1eb89b78e5e3235710da9c94e6c248d",
+    "paper/mssp/figures/fig6_operating_context_and_support.png": "3bd5555faf5ed1cd9711859874fb964dd12f9d9cfad7b52a03a0d576cf3a4caa"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/support_transport/calibration_phase_effect.csv": "84b66d4142fc69fa219350e6fb570888abb4d0dc573acee471e30b49198a18d6",
+    "results/mssp_adversarial/ds02/support_transport/support_associations.csv": "b1afbd58505dddc6c6e618f6ae6f0e109900eafb6a2081ecf632b3a7906e74f1",
+    "results/mssp_adversarial/ds02/support_transport/support_cells.csv": "68763f23a67c69b6787abea1bb4cf334d1164e49ed5ca9876e036f8fe86e745b",
+    "results/mssp_adversarial/ds03/support_transport/calibration_phase_effect.csv": "11306d06f0d803ad633a3e17ac210021501734ccf7aac81779921a008a982310",
+    "results/mssp_adversarial/ds03/support_transport/support_associations.csv": "db0ecb94d4e3dd8760caccbdd8c3386af121dd61f5d6efda2a10ae0b6850448c",
+    "results/mssp_adversarial/ds03/support_transport/support_cells.csv": "a659a48f739a327d0f039f027b21fe90de3505b5db1d0dc0f11c9b29d7f5dd66",
+    "results/mssp_mitigation/ds02/stage_d/healthy_phase_fpr_by_scheme.csv": "3b56835cc3ea80ad1c89def899038c8c2f8a081c12b94f73fa915cfaa30781dc",
+    "results/mssp_mitigation/ds03/stage_d/healthy_phase_fpr_by_scheme.csv": "785bf1a5c741999405d546c0b09bef29fd9ed2f569db9abce8276a0c81c5942b"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "f2a960bd374557efd9497762d49b1ebbf67e540762772f52f53e38fb57d78be4",
+  "note": "Validation C: (a) C0, pooled-threshold phase FPR in the calibration engines (in-sample) and in the audit engines, one marker per detector run; (b,c) support distance against |FPR - alpha| under C (mean over the 7 detector runs per cell). Median Spearman rho over runs from support_associations.csv. Descriptive; no p-values.",
+  "built_utc": "2026-09-28T00:12:48+00:00"
+}

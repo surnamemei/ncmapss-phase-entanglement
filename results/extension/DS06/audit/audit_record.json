@@ -1,0 +1,82 @@
+{
+ "audit_fingerprints": {
+  "cvae:0": "78a1cdbfb788850e70e19db3bdc19ff24c6b6e17b330b19c08344e3936fe2a1a",
+  "cvae:1": "89bac721c4f67646ef356240ba715a284f80073695cba5f878f2bf54f5d990e9",
+  "cvae:2": "ccbf129b8f5232cb07c6035e7e95503dd815e45c1c4ad40be8e29dd17e4c1b6f",
+  "isolation_forest:0": "f8e3f1fe392b9d3d135128bfec4eda54c4fdde6ae5aaacdd82b45d9a28897a6b",
+  "isolation_forest:1": "01ddac79e0dd257740b9782b5a05a1fe7ba6707411c529f575902fd37c4ec15e",
+  "isolation_forest:2": "4d1efcb5e03d15acb18c89b06113819dd683f3872301ccd1865a3b92cea4086c",
+  "lstm_autoencoder:0": "c76e9b07439cd95f77f25a1b82393fcbd12dc49b4eb70bf4b31a818cf40b9c74",
+  "lstm_autoencoder:1": "8ff78c2cc914a8cc236c955fee7bcf2f5c34e0c2298aa0c97421e23c3789187e",
+  "lstm_autoencoder:2": "fb633e2f9156d21ceec2d92d756c3f3c650715cfca100212aaa424840c1ff89f",
+  "pca:-1": "c2b5291f840736c28f5a3748da3a2096e65a773bf95146fd1389e35bb02f8628"
+ },
+ "audit_rows": 2522447,
+ "calibration_lock_sha256": "b6b4d6780ac077e918bff42834c05d19edf479e610a8ef55dd81125a069c4bfb",
+ "code": {
+  "cvae_spec_sha256": "8fe45498a9f194d42a5e67fe3b871694e814bb3dfab69ecadbf2bee5b914bba7",
+  "files": {
+   "src/ext_calibration.py": "4f3009102b038cf2b192edf0c36008fe43da72280d8a2e60cc1cea7f05c02918",
+   "src/ext_common.py": "8b33f760c113f661fb4ce338656eac36b0197e8bfea2858e470d33e181e57f4c",
+   "src/ext_cvae.py": "7db4ca5c099d5db1b8ecc78276478e65872ea2206e4c9b94d589f474f90725fe",
+   "src/ext_endpoints.py": "3599f31faab73f6b8685b6746a93e10a890f87c70dfb7c7c7fced7f8edcf928f",
+   "src/ext_models.py": "e0cd2e307d480af6532fc468db2e53dc71ee6afc7469453ad1878781c30e292b",
+   "src/ext_pipeline.py": "16c1e795d4e8ced57f946186c889a4d12766923c4d37c478168d1c446f874404",
+   "src/ext_qfit.py": "465b352952b9e6e55090cc29a25bd453b841519b0023e6237c3d3ed98dd9d922",
+   "src/ext_summary.py": "1219cc017d9afc2e58d9ec6318914bfd06b53896f2c9b491c01203f89546753d"
+  },
+  "git_head": "73e4555ad79c27fc5538b95d5df3afe81ab4f0cf",
+  "protocol_sha256": "72ff84e198fcc4c466f898159c7bc04b879f55036c5d425a2a7285cffc3d3bce"
+ },
+ "duplicate_digests_audit": {
+  "10": {
+   "cycles": 32,
+   "rows": 145397,
+   "sha256": "38556b40feeba7477a3f535014b2a4ed54707f86cc303b8774c22d29428d8550"
+  },
+  "7": {
+   "cycles": 21,
+   "rows": 188173,
+   "sha256": "675bd610cad2b9991fa7035363a0b27e3f90113e87763be01bed69274423334e"
+  },
+  "8": {
+   "cycles": 31,
+   "rows": 133575,
+   "sha256": "6df7f489a433794a19b5349e257f2a589b9ea71e4f3e1b89f7f42ddaa92ab485"
+  },
+  "9": {
+   "cycles": 16,
+   "rows": 254743,
+   "sha256": "a0d2103c0d4de7e4341ab6b8665acf369ffda6fc129d5f1f7d846f3b4450bafd"
+  }
+ },
+ "finished_utc": "2026-09-28T15:30:02Z",
+ "healthy_rows": 721888,
+ "outputs_sha256": {
+  "abnormal_alarm_rates": "e155da26fe9b5c5fcc5fb263f62b6be81c158cc9d087f28f32535d56ac9022b4",
+  "audit_flights": "47e62f2b8b2616950d5743da1a8892bb7e97c8655995c5a9c26b6f63c3e55760",
+  "bootstrap_uext1_ci": "d1e94cf4911b03371002e6ac2cf11bb42453f6dbc33d76b15429379a8cc9b7ca",
+  "bootstrap_uext1_replicates_alpha_0.01": "5c72871d0d65ee731906b34e0961c15a6f5e8d7d4e36b9dfd79cbe929477ce5a",
+  "calibration_quality": "d6b6e470de964fa2915c8cc734c4f5bad62b6c2c1f20c86a3d9d184c2f71cea1",
+  "composition_metrics": "c4fd60511e57210608f5ed4a36725704b2fc7e411270bfacb648792f4c169058",
+  "curve_level_summary": "baa84ad5ef7332289a593761089d8fbfba2ace6e8951ed42c84c12406d0cacb0",
+  "detection_delay": "84e7152efafa340300463bd1db395a83462366a8510a37206fcf526244fb3ee1",
+  "flight_false_flags": "b73ac6df975bc4f2c7f99a1ca32432488cac4a56c1386fbaa5520c5905b5c409",
+  "flight_trajectories": "4ce21f6d961d849439b6153d66faac476f790246980591e9bad82c9877a73c95",
+  "locked_operating_points": "6d8f9f7dc21a1e63a22d79a0730ad8e4370e4beb9e5636af135384bd050f3f1a",
+  "matched_comparisons": "c4311bc0665716f24f9c577f9e4dfa01a863d48a4e9e3c62396105cddab98cbc",
+  "matched_labels": "0c1e76237710a7d1885d0544e2c7b93afb94225460252ea85af53856428ea989",
+  "matched_operating_points": "d02bb7e1247a319435604b43127c62bb3612ac8f6806d6de66c64b9a92752dd1",
+  "paired_transport": "986ba8f66c604fcc03339b56b4a6a1019b50675c5328d70e66abbd34aaeeb074",
+  "paired_transport_engines": "def15ce82e7ecfb537bcfd98c0dd0459757709552c97ee54632810c5d6a83fdc",
+  "persistence_calibration": "032bce941fc780f6f85406fc1b932b6da0f1ba81546ba1da3419faa961f68250",
+  "phase_fpr": "fe4316f34dfe578255294d92c377d80f3e0ba1dd9f0bdabd23c984cbeb179a3c",
+  "transfer_matrix": "78fe8545689f89e45e4724ffbd77b02a44ca3330c206b356354735ca964e3840",
+  "transport_summary": "8606f6851124cdecfafde0239eb6b7e766a4210e8e5e836a39e4b589a79df0fd"
+ },
+ "post_onset_rows": 1800559,
+ "reproduction_only": false,
+ "seconds": 115.9,
+ "started_utc": "2026-09-28T15:28:06Z",
+ "subset": "DS06"
+}

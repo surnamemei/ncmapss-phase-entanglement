@@ -1,0 +1,255 @@
+{
+  "stage": "C",
+  "dataset": "ds02",
+  "overall_status": "PASS",
+  "started_utc": "2026-09-27T14:24:38+00:00",
+  "finished_utc": "2026-09-27T14:27:31+00:00",
+  "seconds": 173.3,
+  "data_read": "A arrays fully; W and X_s only as contiguous healthy (hs = 1) row blocks of the development and official-test splits",
+  "abnormal_rows_read": false,
+  "healthy_blocks": {
+    "dev": [
+      [
+        0,
+        188863
+      ],
+      [
+        853142,
+        1041692
+      ],
+      [
+        1886562,
+        2074612
+      ],
+      [
+        2839273,
+        3033892
+      ],
+      [
+        3604568,
+        3797857
+      ],
+      [
+        4495287,
+        4688641
+      ]
+    ],
+    "test": [
+      [
+        0,
+        213306
+      ],
+      [
+        663495,
+        735763
+      ],
+      [
+        820273,
+        967812
+      ]
+    ]
+  },
+  "rows": {
+    "calibration": 386643,
+    "healthy_audit": 433113,
+    "model_fit": 760082
+  },
+  "descriptor_names": [
+    "alt",
+    "Mach",
+    "TRA",
+    "T2",
+    "d_alt",
+    "d_Mach",
+    "d_TRA",
+    "d_T2",
+    "mean30_alt",
+    "mean30_Mach",
+    "mean30_TRA",
+    "mean30_T2",
+    "std30_alt",
+    "std30_Mach",
+    "std30_TRA",
+    "std30_T2",
+    "slope30_alt",
+    "slope30_Mach",
+    "slope30_TRA",
+    "slope30_T2",
+    "mean120_alt",
+    "mean120_Mach",
+    "mean120_TRA",
+    "mean120_T2",
+    "std120_alt",
+    "std120_Mach",
+    "std120_TRA",
+    "std120_T2",
+    "slope120_alt",
+    "slope120_Mach",
+    "slope120_TRA",
+    "slope120_T2"
+  ],
+  "timings_seconds": {
+    "load_healthy_blocks": 0.4,
+    "fit_detectors": 14.9,
+    "score_healthy_rows": 27.3
+  },
+  "tables": [
+    {
+      "table": "rates",
+      "frozen_file": "results/final_validation/executed_row_false_alarm_rates.csv",
+      "frozen_sha256": "aaa5972e98117e312f91c1d0c5f40487c950439071c6b4b4446e6d3216d59ef9",
+      "regenerated_sha256": "aaa5972e98117e312f91c1d0c5f40487c950439071c6b4b4446e6d3216d59ef9",
+      "byte_identical": true,
+      "rows_regenerated": 672,
+      "rows_frozen": 672,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "transfer",
+      "frozen_file": "results/final_validation/executed_threshold_transfer_matrix.csv",
+      "frozen_sha256": "e299a9e46a58621d4ec415f868e0a1bef8bd6e6692bb01fcc062d62db6d8f0b3",
+      "regenerated_sha256": "e299a9e46a58621d4ec415f868e0a1bef8bd6e6692bb01fcc062d62db6d8f0b3",
+      "byte_identical": true,
+      "rows_regenerated": 1512,
+      "rows_frozen": 1512,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "probe",
+      "frozen_file": "results/final_validation/executed_score_only_phase_prediction.csv",
+      "frozen_sha256": "ebd6108143064f651d7e9a2ba791fb56478c8754dc3adfb7f0165f334e07c258",
+      "regenerated_sha256": "ebd6108143064f651d7e9a2ba791fb56478c8754dc3adfb7f0165f334e07c258",
+      "byte_identical": true,
+      "rows_regenerated": 56,
+      "rows_frozen": 56,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "detail",
+      "frozen_file": "results/final_validation/executed_flight_alarm_detail.csv",
+      "frozen_sha256": "59c9ba56bfa95d40d5a4583fe1a483a91821bc10f8ada4c14bf03f62a3dc317f",
+      "regenerated_sha256": "59c9ba56bfa95d40d5a4583fe1a483a91821bc10f8ada4c14bf03f62a3dc317f",
+      "byte_identical": true,
+      "rows_regenerated": 12768,
+      "rows_frozen": 12768,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "canonical",
+      "frozen_file": "results/final_validation/canonical_results.csv",
+      "frozen_sha256": "7f259d016c00e5dcdd418b8a60dcb7e17247f8cc728b460c76f2a329492478a4",
+      "regenerated_sha256": "7f259d016c00e5dcdd418b8a60dcb7e17247f8cc728b460c76f2a329492478a4",
+      "byte_identical": true,
+      "rows_regenerated": 168,
+      "rows_frozen": 168,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "per_engine",
+      "frozen_file": "results/final_validation/per_engine_phase_fpr.csv",
+      "frozen_sha256": "e5262f33538c7832f63077e388a2f39a649e41b534ab80643bd3b2ca4e747992",
+      "regenerated_sha256": "e5262f33538c7832f63077e388a2f39a649e41b534ab80643bd3b2ca4e747992",
+      "byte_identical": true,
+      "rows_regenerated": 21,
+      "rows_frozen": 21,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "boundary",
+      "frozen_file": "results/final_validation/lstm_boundary_audit.csv",
+      "frozen_sha256": "ec8a0824a85456392aaee53b97942369e7be8be197cf500c8872ef972891465b",
+      "regenerated_sha256": "ec8a0824a85456392aaee53b97942369e7be8be197cf500c8872ef972891465b",
+      "byte_identical": true,
+      "rows_regenerated": 222,
+      "rows_frozen": 222,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "bootstrap",
+      "frozen_file": "results/final_validation/hierarchical_bootstrap_ci.csv",
+      "frozen_sha256": "2735ca4b273df4cb800c608548656fa991e1e8fa6a0eb55329421a9f4b6c8b28",
+      "regenerated_sha256": "e0bf48f5c73e9fc9a416260c29df35982acf3caa950af2637be27b31ad4e840a",
+      "byte_identical": false,
+      "rows_regenerated": 49,
+      "rows_frozen": 49,
+      "status": "exact",
+      "mismatched_columns": {}
+    }
+  ],
+  "threshold_lock": null,
+  "environment": {
+    "python": "3.12.3",
+    "executable": "/home/mei/global-python/bin/python",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "requirements_lock": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "lock_mismatches": {},
+    "cuda_runtime": "13.0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "cudnn": 92400,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS02-006.h5",
+    "h5_md5": "61056251b36290e11371e017eed70eac",
+    "h5_bytes": 2450472504
+  },
+  "manifest_after": {
+    "manifest": "docs/mssp/frozen_baseline.sha256",
+    "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+    "entries": 186,
+    "missing": [],
+    "mismatched": [],
+    "skipped_absent_git_ignored": [],
+    "ok": true
+  },
+  "provenance": {
+    "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md",
+    "protocol_sha256": "b4a669cdd00d40753b4b7cca3576ab701f69a19b333a5ff216e21be86a33cacb",
+    "config_sha256": "23bb3b04559162f3538f6eaa3bdd14d5324df316b97f0d49be3ac11361cee144",
+    "module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "c2c49f1410a30c3b052bcec173429e393c3b4c3c",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_mitigation/"
+      ]
+    }
+  }
+}

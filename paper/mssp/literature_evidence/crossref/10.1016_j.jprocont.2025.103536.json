@@ -1,0 +1,572 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    25
+   ]
+  ],
+  "date-time": "2026-07-25T16:13:36Z",
+  "timestamp": 1784996016447,
+  "version": "3.55.0"
+ },
+ "reference-count": 20,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T00:00:00Z",
+    "timestamp": 1761955200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T00:00:00Z",
+    "timestamp": 1761955200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T00:00:00Z",
+    "timestamp": 1761955200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T00:00:00Z",
+    "timestamp": 1761955200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T00:00:00Z",
+    "timestamp": 1761955200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T00:00:00Z",
+    "timestamp": 1761955200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T00:00:00Z",
+    "timestamp": 1761955200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001809",
+   "name": "National Natural Science Foundation of China",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "61873142"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "61873142"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001809",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100001809",
+   "name": "National Natural Science Foundation of China",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "12271287"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "12271287"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001809",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Journal of Process Control"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2025,
+    11
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.jprocont.2025.103536",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    9,
+    6
+   ]
+  ],
+  "date-time": "2025-09-06T00:15:05Z",
+  "timestamp": 1757117705000
+ },
+ "page": "103536",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 3,
+ "special_numbering": "C",
+ "title": [
+  "Operational zone-specific univariate alarm design for incipient faults"
+ ],
+ "prefix": "10.1016",
+ "volume": "155",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-8105-5668",
+   "authenticated-orcid": false,
+   "given": "Mohsen",
+   "family": "Asaadi",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0254-9000",
+   "authenticated-orcid": false,
+   "given": "Fan",
+   "family": "Yang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Weichi",
+   "family": "Wu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b1",
+   "series-title": "ANSI/ISA-18.2-2009: Management of Alarm Systems for the Process Industries",
+   "author": "International Society of Automation",
+   "year": "2009"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b2",
+   "series-title": "Alarm Systems: A Guide to Design, Management and Procurement",
+   "author": "Engineering Equipment and Materials Users Association",
+   "year": "2013"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.jprocont.2025.103536_b3",
+   "doi-asserted-by": "crossref",
+   "first-page": "296",
+   "DOI": "10.1109/TASE.2011.2176490",
+   "article-title": "Performance assessment and design for univariate alarm systems based on FAR, MAR, and AAD",
+   "volume": "9",
+   "author": "Xu",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Autom. Sci. Eng."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b4",
+   "doi-asserted-by": "crossref",
+   "first-page": "96",
+   "DOI": "10.1016/j.conengprac.2017.10.016",
+   "article-title": "Analysis and design of time-deadbands for univariate alarm systems",
+   "volume": "71",
+   "author": "Afzal",
+   "year": "2018",
+   "journal-title": "Control Eng. Pract."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103536_b5",
+   "doi-asserted-by": "crossref",
+   "first-page": "382",
+   "DOI": "10.1016/j.jprocont.2012.12.013",
+   "article-title": "Study of generalized delay-timers in alarm configuration",
+   "volume": "23",
+   "author": "Adnan",
+   "year": "2013",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b6",
+   "doi-asserted-by": "crossref",
+   "first-page": "103",
+   "DOI": "10.1016/j.jprocont.2018.07.018",
+   "article-title": "On the use of penalty approach for design and analysis of univariate alarm systems",
+   "volume": "69",
+   "author": "Taheri-Kalani",
+   "year": "2018",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.jprocont.2025.103536_b7",
+   "doi-asserted-by": "crossref",
+   "first-page": "77",
+   "DOI": "10.1002/aic.15860",
+   "article-title": "Design and assessment of delay timer alarm systems for nonlinear chemical processes",
+   "volume": "64",
+   "author": "Tulsyan",
+   "year": "2018",
+   "journal-title": "AIChE J."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b8",
+   "doi-asserted-by": "crossref",
+   "first-page": "120",
+   "DOI": "10.1016/j.jprocont.2022.04.002",
+   "article-title": "Assessment of alarm systems for mixture processes and intermittent faults",
+   "volume": "114",
+   "author": "Asaadi",
+   "year": "2022",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b9",
+   "series-title": "Methods to Assess and Manage Process Safety in Digitalized Process System",
+   "first-page": "227",
+   "article-title": "Chapter seven - alarm management techniques to improve process safety",
+   "volume": "vol. 6",
+   "author": "Yang",
+   "year": "2022"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b10",
+   "doi-asserted-by": "crossref",
+   "first-page": "493",
+   "DOI": "10.1016/j.psep.2023.08.097",
+   "article-title": "An adaptive method to update alarm deadbands for non-stationary process variables",
+   "volume": "179",
+   "author": "Gyasi",
+   "year": "2023",
+   "journal-title": "Process. Saf. Environ. Prot."
+  },
+  {
+   "issue": "14",
+   "key": "10.1016/j.jprocont.2025.103536_b11",
+   "doi-asserted-by": "crossref",
+   "first-page": "841",
+   "DOI": "10.1016/j.ifacol.2024.08.442",
+   "article-title": "Adaptive design of alarm systems in industrial processes",
+   "volume": "58",
+   "author": "Asaadi",
+   "year": "2024",
+   "journal-title": "IFAC-PapersOnLine"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b12",
+   "doi-asserted-by": "crossref",
+   "first-page": "1173",
+   "DOI": "10.1016/j.psep.2022.12.069",
+   "article-title": "Design of alarm thresholds and delay timers for non-IID process variables based on alarm durations",
+   "volume": "170",
+   "author": "Gyasi",
+   "year": "2023",
+   "journal-title": "Process. Saf. Environ. Prot."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b13",
+   "doi-asserted-by": "crossref",
+   "first-page": "1033",
+   "DOI": "10.1016/j.psep.2022.05.006",
+   "article-title": "Design of serial alarm systems based on deadbands and delay timers for removing false alarms",
+   "volume": "162",
+   "author": "Gyasi",
+   "year": "2022",
+   "journal-title": "Process. Saf. Environ. Prot."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b14",
+   "doi-asserted-by": "crossref",
+   "first-page": "154",
+   "DOI": "10.1016/j.jprocont.2022.01.002",
+   "article-title": "Design of delay timers based on estimated probability mass functions of alarm durations",
+   "volume": "110",
+   "author": "Wang",
+   "year": "2022",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b15",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1016/j.jlp.2018.02.004",
+   "article-title": "A multi-setpoint delay-timer alarming strategy for industrial alarm monitoring",
+   "volume": "54",
+   "author": "Su",
+   "year": "2018",
+   "journal-title": "J. Loss Prev. Process. Ind."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103536_b16",
+   "doi-asserted-by": "crossref",
+   "first-page": "649",
+   "DOI": "10.1111/rssb.12322",
+   "article-title": "Narrowest-over-threshold detection of multiple change points and change-point-like features",
+   "volume": "81",
+   "author": "Baranowski",
+   "year": "2019",
+   "journal-title": "J. R. Stat. Soc. Ser. B Stat. Methodol."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b17",
+   "series-title": "Human Reliability Programs in Industries of National Importance for Safety and Security",
+   "first-page": "139",
+   "article-title": "A system theoretic framework for modeling human attributes, human–machine-interface, and cybernetics: A safety paradigm in large industries and projects",
+   "author": "Roy",
+   "year": "2023"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.jprocont.2025.103536_b18",
+   "doi-asserted-by": "crossref",
+   "first-page": "1045",
+   "DOI": "10.1109/TASE.2015.2464234",
+   "article-title": "An overview of industrial alarm systems: Main causes for alarm overloading, research status, and open problems",
+   "volume": "13",
+   "author": "Wang",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Autom. Sci. Eng."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.jprocont.2025.103536_b19",
+   "doi-asserted-by": "crossref",
+   "first-page": "245",
+   "DOI": "10.1016/0098-1354(93)80018-I",
+   "article-title": "A plant-wide industrial process control problem",
+   "volume": "17",
+   "author": "Downs",
+   "year": "1993",
+   "journal-title": "Comput. Chem. Eng."
+  },
+  {
+   "key": "10.1016/j.jprocont.2025.103536_b20",
+   "series-title": "Anomaly Detection in Sleep Staging in Critically Ill Children",
+   "author": "Oerlemans",
+   "year": "2024"
+  }
+ ],
+ "container-title": [
+  "Journal of Process Control"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0959152425001647?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0959152425001647?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    7
+   ]
+  ],
+  "date-time": "2026-03-07T09:39:41Z",
+  "timestamp": 1772876381000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959152425001647"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    11
+   ]
+  ]
+ },
+ "references-count": 20,
+ "alternative-id": [
+  "S0959152425001647"
+ ],
+ "URL": "https://doi.org/10.1016/j.jprocont.2025.103536",
+ "relation": {},
+ "ISSN": [
+  "0959-1524"
+ ],
+ "issn-type": [
+  {
+   "value": "0959-1524",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    11
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Operational zone-specific univariate alarm design for incipient faults",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Journal of Process Control",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.jprocont.2025.103536",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "103536"
+}

@@ -1,0 +1,191 @@
+{
+  "stage": "B",
+  "dataset": "ds03",
+  "started_utc": "2026-09-27T14:24:29+00:00",
+  "finished_utc": "2026-09-27T14:24:38+00:00",
+  "seconds": 9.6,
+  "data_read": "A_dev and A_test (unit, cycle, Fc, hs) plus variable-name vectors only",
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS03-012.h5",
+    "h5_md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+    "h5_bytes": 3693395776
+  },
+  "schema": {
+    "A_var": [
+      "unit",
+      "cycle",
+      "Fc",
+      "hs"
+    ],
+    "W_var": [
+      "alt",
+      "Mach",
+      "TRA",
+      "T2"
+    ],
+    "X_s_var": [
+      "T24",
+      "T30",
+      "T48",
+      "T50",
+      "P15",
+      "P2",
+      "P21",
+      "P24",
+      "Ps30",
+      "P40",
+      "P50",
+      "Nf",
+      "Nc",
+      "Wf"
+    ]
+  },
+  "hdf5_layout": {
+    "A_dev": {
+      "shape": [
+        5571277,
+        4
+      ],
+      "dtype": "float64",
+      "chunks": null,
+      "compression": null
+    },
+    "W_dev": {
+      "shape": [
+        5571277,
+        4
+      ],
+      "dtype": "float64",
+      "chunks": null,
+      "compression": null
+    },
+    "X_s_dev": {
+      "shape": [
+        5571277,
+        14
+      ],
+      "dtype": "float64",
+      "chunks": null,
+      "compression": null
+    },
+    "A_test": {
+      "shape": [
+        4251560,
+        4
+      ],
+      "dtype": "float64",
+      "chunks": null,
+      "compression": null
+    },
+    "W_test": {
+      "shape": [
+        4251560,
+        4
+      ],
+      "dtype": "float64",
+      "chunks": null,
+      "compression": null
+    },
+    "X_s_test": {
+      "shape": [
+        4251560,
+        14
+      ],
+      "dtype": "float64",
+      "chunks": null,
+      "compression": null
+    }
+  },
+  "frozen_id_rule": {
+    "development_units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "model_fit_units": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9
+    ],
+    "threshold_calibration_units": [
+      4,
+      8
+    ],
+    "epoch_selection_fit_units": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "epoch_selection_validation_unit": 9
+  },
+  "healthy_calibration_flights": 40,
+  "kappa_order_statistic_index": 38,
+  "checks": {
+    "schema_A": true,
+    "schema_W": true,
+    "schema_X_s": true,
+    "dev_units_equal_fit_plus_calibration": true,
+    "test_units_equal_audit": true,
+    "hs_binary": true,
+    "engine_rows_contiguous": true,
+    "flight_cycles_unique": true,
+    "ls1_all_engines": true,
+    "ls2_all_engines": true,
+    "ds03_frozen_id_rule_matches_plan": true,
+    "informational_ls3_audit_cycles_contiguous": true,
+    "informational_all_audit_engines_eligible_d": true,
+    "informational_all_audit_engines_eligible_s2": true,
+    "required": [
+      "schema_A",
+      "schema_W",
+      "schema_X_s",
+      "dev_units_equal_fit_plus_calibration",
+      "test_units_equal_audit",
+      "hs_binary",
+      "engine_rows_contiguous",
+      "flight_cycles_unique",
+      "ls1_all_engines",
+      "ls2_all_engines",
+      "ds03_frozen_id_rule_matches_plan"
+    ],
+    "ok": true
+  },
+  "provenance": {
+    "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md",
+    "protocol_sha256": "b4a669cdd00d40753b4b7cca3576ab701f69a19b333a5ff216e21be86a33cacb",
+    "config_sha256": "23bb3b04559162f3538f6eaa3bdd14d5324df316b97f0d49be3ac11361cee144",
+    "module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "c2c49f1410a30c3b052bcec173429e393c3b4c3c",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_mitigation/"
+      ]
+    }
+  }
+}

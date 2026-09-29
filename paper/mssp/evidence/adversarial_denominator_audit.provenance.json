@@ -1,0 +1,12 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/adversarial_denominator_audit.csv": "34de3a0f2f57e5b9e7372e93b24b963d9092e0a8e078677867c8afd631275245"
+  },
+  "inputs": {
+    "results/mssp_adversarial/summary/denominator_audit.csv": "34de3a0f2f57e5b9e7372e93b24b963d9092e0a8e078677867c8afd631275245"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 1 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

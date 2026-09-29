@@ -1,0 +1,138 @@
+{
+  "dataset": "ds03",
+  "plan_sha256": "d993dd3f9e5ab28615f22e8559af4fe33548a853ddfce3ce765a9043bb217cfd",
+  "parts": {
+    "D": {
+      "folder": "results/mssp_adversarial/ds03/contextual_baseline",
+      "outputs_sha256": {
+        "baseline_phase_fpr": "4eb1af9c203c5077f57f15aa4e79bfa1cc18f99a5aee37cb313e7b9b62c772d2",
+        "baseline_calibration_quality": "61a05c82a3c7346e2bc080d4aceb6424eceaf37f42f51b079165c96551688cc7",
+        "baseline_flight_false_flags": "331477e75282522b6ca7affc8bbaad35f97edc3910f2590f595486536f88afe5",
+        "baseline_fits": "89eee95dddc2533c6747439057aa059c073ec1e7182a1a1fa618300a309cae36"
+      },
+      "details": {
+        "standardization": {
+          "mean": [
+            16680.25826611803,
+            0.5527363261099899,
+            61.92766949015174,
+            487.92569202083774
+          ],
+          "sd": [
+            8048.61936996595,
+            0.12364334870775681,
+            17.890693463247644,
+            19.213093005013846
+          ]
+        },
+        "features": "quadratic response surface of standardized W (14 + intercept)",
+        "fit": "QuantileRegressor(alpha=0, solver='highs') on every 5th calibration row",
+        "abnormal_endpoints": "not evaluated: abnormal-row scores were not retained; a new abnormal-row read needs author approval (plan rule R2)"
+      },
+      "seconds": 4767.5
+    }
+  },
+  "abnormal_rows_read": false,
+  "stage_d_count_reproduction": {
+    "rows_compared": 1764,
+    "max_abs_rate_difference": 0.0,
+    "exact": true
+  },
+  "mitigation_lock_sha256": "8e8473507f4cfea7e808e0b32b1f31db8405a9ad6203bae35df33984d65e9eda",
+  "timings": {
+    "load_healthy_blocks": 1.0,
+    "fit_detectors": 15.4,
+    "score_healthy_rows": 25.6
+  },
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS03-012.h5",
+    "h5_md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+    "h5_bytes": 3693395776
+  },
+  "manifest_after": {
+    "manifest": "docs/mssp/frozen_baseline.sha256",
+    "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+    "entries": 186,
+    "missing": [],
+    "mismatched": [],
+    "skipped_absent_git_ignored": [],
+    "ok": true
+  },
+  "started_utc": "2026-09-27T16:44:16+00:00",
+  "finished_utc": "2026-09-27T18:04:38+00:00",
+  "seconds": 4822.3,
+  "environment": {
+    "python": "3.12.3",
+    "executable": "/home/mei/global-python/bin/python",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "requirements_lock": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "lock_mismatches": {},
+    "cuda_runtime": "13.0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "cudnn": 92400,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "provenance": {
+    "plan": "docs/mssp/adversarial_validation_plan.md",
+    "plan_sha256": "d993dd3f9e5ab28615f22e8559af4fe33548a853ddfce3ce765a9043bb217cfd",
+    "module_sha256": "086b2ece584accaad058c2891cac2592f48af2c54047fcf1e230294923db1cd0",
+    "frozen_module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "3b477366f36fc8116a13b0f2c7649ec6cc0947c5",
+      "branch": "mssp-revision",
+      "modified_tracked": [
+        "aper/mssp/README.md",
+        "paper/mssp/manuscript_mssp_draft.md",
+        "paper/mssp/outline/results_plan.md",
+        "paper/mssp/verify_draft_numbers.py",
+        "scripts/run_mssp_adversarial.py",
+        "src/mssp_adversarial.py"
+      ],
+      "untracked": [
+        "docs/mssp/FINAL_ADVERSARIAL_REVIEW.md",
+        "paper/mssp/SUBMISSION_FILES.md",
+        "paper/mssp/adversarial_claim_audit.md",
+        "paper/mssp/build_latex.py",
+        "paper/mssp/build_mssp_figures_tables.py",
+        "paper/mssp/figures/",
+        "paper/mssp/latex/",
+        "paper/mssp/tables/",
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_adversarial/ds02/contextual_baseline/",
+        "results/mssp_adversarial/ds02/run_record_D.json",
+        "results/mssp_adversarial/ds03/contextual_baseline/",
+        "results/mssp_adversarial/summary/post_plan_error_decomposition.csv",
+        "results/mssp_adversarial/summary/post_plan_error_decomposition_record.json",
+        "tests/test_mssp_adversarial.py"
+      ]
+    }
+  }
+}

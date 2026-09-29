@@ -1,0 +1,691 @@
+{
+  "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md (FROZEN v1.0)",
+  "dataset": "ds02",
+  "status": "calibration-only; locked before any abnormal sensor row is opened",
+  "schemes": [
+    "pooled",
+    "phase_conditioned",
+    "causal_regime"
+  ],
+  "phases": [
+    "climb",
+    "cruise",
+    "descent"
+  ],
+  "regimes": [
+    "ascending",
+    "level",
+    "descending"
+  ],
+  "targets": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "flight_false_flag_target": 0.05,
+  "calibration_units": [
+    18,
+    20
+  ],
+  "calibration_rows": {
+    "total": 386643,
+    "phase": {
+      "climb": 110162,
+      "cruise": 147105,
+      "descent": 129376
+    },
+    "regime": {
+      "ascending": 113033,
+      "level": 185791,
+      "descending": 87819
+    }
+  },
+  "calibration_flights": 32,
+  "kappa_order_statistic_index": 30,
+  "runs": {
+    "pca:-1": {
+      "0.005": {
+        "tau": {
+          "pooled": 0.7679240495410423,
+          "phase_conditioned": {
+            "climb": 0.1656054203743559,
+            "cruise": 0.4709676836279808,
+            "descent": 1.7402484992018763
+          },
+          "causal_regime": {
+            "ascending": 0.158203337938422,
+            "level": 0.30716172477338693,
+            "descending": 2.471399047048326
+          }
+        },
+        "kappa": {
+          "pooled": 0.013356164383561644,
+          "phase_conditioned": 0.019034670292318152,
+          "causal_regime": 0.012585616438356165
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.004999443931482013,
+          "phase_conditioned": 0.004994271201082135,
+          "causal_regime": 0.0049968575662820746
+        }
+      },
+      "0.01": {
+        "tau": {
+          "pooled": 0.5031784135001776,
+          "phase_conditioned": {
+            "climb": 0.11985955450572472,
+            "cruise": 0.20799314655637322,
+            "descent": 0.8242890616241608
+          },
+          "causal_regime": {
+            "ascending": 0.10052277417273027,
+            "level": 0.22706114723397072,
+            "descending": 1.515414654103377
+          }
+        },
+        "kappa": {
+          "pooled": 0.02777196287767776,
+          "phase_conditioned": 0.03580510629640932,
+          "causal_regime": 0.04495982097446852
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.009998887862964026,
+          "phase_conditioned": 0.009996301497764088,
+          "causal_regime": 0.009996301497764088
+        }
+      },
+      "0.02": {
+        "tau": {
+          "pooled": 0.2741491539427649,
+          "phase_conditioned": {
+            "climb": 0.08587835441683633,
+            "cruise": 0.13164188788943756,
+            "descent": 0.5556957604855481
+          },
+          "causal_regime": {
+            "ascending": 0.07540224104122033,
+            "level": 0.1687495352366907,
+            "descending": 0.7559974735088588
+          }
+        },
+        "kappa": {
+          "pooled": 0.05665751195198861,
+          "phase_conditioned": 0.048859641215180744,
+          "causal_regime": 0.08295904887714663
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.019997775725928053,
+          "phase_conditioned": 0.019997775725928053,
+          "causal_regime": 0.019995189360728114
+        }
+      }
+    },
+    "isolation_forest:0": {
+      "0.005": {
+        "tau": {
+          "pooled": 0.6285135610546725,
+          "phase_conditioned": {
+            "climb": 0.4759800324985175,
+            "cruise": 0.5288691817863931,
+            "descent": 0.6982099281273868
+          },
+          "causal_regime": {
+            "ascending": 0.48272784378659145,
+            "level": 0.5117944286934665,
+            "descending": 0.7234789161971013
+          }
+        },
+        "kappa": {
+          "pooled": 0.014020755133583572,
+          "phase_conditioned": 0.01832634135570766,
+          "causal_regime": 0.016464943844727947
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.004999443931482013,
+          "phase_conditioned": 0.004994271201082135,
+          "causal_regime": 0.0049968575662820746
+        }
+      },
+      "0.01": {
+        "tau": {
+          "pooled": 0.5651581813086926,
+          "phase_conditioned": {
+            "climb": 0.42973689435335927,
+            "cruise": 0.46169191381210756,
+            "descent": 0.6449930182253043
+          },
+          "causal_regime": {
+            "ascending": 0.43208910463415307,
+            "level": 0.4608496792064068,
+            "descending": 0.6931460773571547
+          }
+        },
+        "kappa": {
+          "pooled": 0.028190635684878933,
+          "phase_conditioned": 0.029794520547945205,
+          "causal_regime": 0.026455479452054793
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.009998887862964026,
+          "phase_conditioned": 0.009996301497764088,
+          "causal_regime": 0.009996301497764088
+        }
+      },
+      "0.02": {
+        "tau": {
+          "pooled": 0.5073635336157173,
+          "phase_conditioned": {
+            "climb": 0.40997121508350687,
+            "cruise": 0.43647427967807406,
+            "descent": 0.5770676293258735
+          },
+          "causal_regime": {
+            "ascending": 0.4113958869895326,
+            "level": 0.4226507112449722,
+            "descending": 0.6252653981054097
+          }
+        },
+        "kappa": {
+          "pooled": 0.054629045343910575,
+          "phase_conditioned": 0.05221903289909472,
+          "causal_regime": 0.05023183925811438
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.019997775725928053,
+          "phase_conditioned": 0.019997775725928053,
+          "causal_regime": 0.019995189360728114
+        }
+      }
+    },
+    "isolation_forest:1": {
+      "0.005": {
+        "tau": {
+          "pooled": 0.6313538943385136,
+          "phase_conditioned": {
+            "climb": 0.4754321977588857,
+            "cruise": 0.5276357819298845,
+            "descent": 0.6970007729861099
+          },
+          "causal_regime": {
+            "ascending": 0.4820601987074199,
+            "level": 0.5144452808628315,
+            "descending": 0.7246870965444383
+          }
+        },
+        "kappa": {
+          "pooled": 0.014131154780304703,
+          "phase_conditioned": 0.01854714064914992,
+          "causal_regime": 0.016559947008169575
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.004999443931482013,
+          "phase_conditioned": 0.004994271201082135,
+          "causal_regime": 0.0049968575662820746
+        }
+      },
+      "0.01": {
+        "tau": {
+          "pooled": 0.5650969673272623,
+          "phase_conditioned": {
+            "climb": 0.4340530943181,
+            "cruise": 0.4676756022831695,
+            "descent": 0.6445845100370778
+          },
+          "causal_regime": {
+            "ascending": 0.43634502457961394,
+            "level": 0.4601604331492736,
+            "descending": 0.6903988551783942
+          }
+        },
+        "kappa": {
+          "pooled": 0.022462108821284483,
+          "phase_conditioned": 0.03184931506849315,
+          "causal_regime": 0.027654109589041097
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.009998887862964026,
+          "phase_conditioned": 0.009996301497764088,
+          "causal_regime": 0.009996301497764088
+        }
+      },
+      "0.02": {
+        "tau": {
+          "pooled": 0.5089601845169084,
+          "phase_conditioned": {
+            "climb": 0.4168914216777105,
+            "cruise": 0.44160779191629207,
+            "descent": 0.5827685342885394
+          },
+          "causal_regime": {
+            "ascending": 0.41861489598429025,
+            "level": 0.42632693788494325,
+            "descending": 0.6279040129589192
+          }
+        },
+        "kappa": {
+          "pooled": 0.05426845758586496,
+          "phase_conditioned": 0.0527359596141711,
+          "causal_regime": 0.04802384632369176
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.019997775725928053,
+          "phase_conditioned": 0.019997775725928053,
+          "causal_regime": 0.019995189360728114
+        }
+      }
+    },
+    "isolation_forest:2": {
+      "0.005": {
+        "tau": {
+          "pooled": 0.6241931370157257,
+          "phase_conditioned": {
+            "climb": 0.47554421488061277,
+            "cruise": 0.5329524252636272,
+            "descent": 0.6948867246784644
+          },
+          "causal_regime": {
+            "ascending": 0.4810809320180301,
+            "level": 0.5182563251157413,
+            "descending": 0.719663366430525
+          }
+        },
+        "kappa": {
+          "pooled": 0.014241554427025833,
+          "phase_conditioned": 0.018988739236034443,
+          "causal_regime": 0.017111945241775225
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.004999443931482013,
+          "phase_conditioned": 0.004994271201082135,
+          "causal_regime": 0.0049968575662820746
+        }
+      },
+      "0.01": {
+        "tau": {
+          "pooled": 0.564580123040961,
+          "phase_conditioned": {
+            "climb": 0.43543299992097484,
+            "cruise": 0.46269816861823265,
+            "descent": 0.6397662236073188
+          },
+          "causal_regime": {
+            "ascending": 0.43661354983228384,
+            "level": 0.46155238966610235,
+            "descending": 0.688635168036822
+          }
+        },
+        "kappa": {
+          "pooled": 0.025297132264747575,
+          "phase_conditioned": 0.0300513698630137,
+          "causal_regime": 0.027054794520547945
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.009998887862964026,
+          "phase_conditioned": 0.009996301497764088,
+          "causal_regime": 0.009996301497764088
+        }
+      },
+      "0.02": {
+        "tau": {
+          "pooled": 0.511457838842586,
+          "phase_conditioned": {
+            "climb": 0.41540095081526607,
+            "cruise": 0.4367642944160307,
+            "descent": 0.5762509588673987
+          },
+          "causal_regime": {
+            "ascending": 0.4162710766818336,
+            "level": 0.42592925997201736,
+            "descending": 0.6210251059149132
+          }
+        },
+        "kappa": {
+          "pooled": 0.05048522516628503,
+          "phase_conditioned": 0.053102230072863764,
+          "causal_regime": 0.0506734378449989
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.019997775725928053,
+          "phase_conditioned": 0.019997775725928053,
+          "causal_regime": 0.019995189360728114
+        }
+      }
+    },
+    "lstm_autoencoder:0": {
+      "0.005": {
+        "tau": {
+          "pooled": 0.28174349665641785,
+          "phase_conditioned": {
+            "climb": 0.07121270149946213,
+            "cruise": 0.19950036704540253,
+            "descent": 0.6259881854057312
+          },
+          "causal_regime": {
+            "ascending": 0.07009190320968628,
+            "level": 0.07555984705686569,
+            "descending": 1.0394129753112793
+          }
+        },
+        "kappa": {
+          "pooled": 0.017111945241775225,
+          "phase_conditioned": 0.020865533230293665,
+          "causal_regime": 0.017465753424657535
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.004999443931482013,
+          "phase_conditioned": 0.004994271201082135,
+          "causal_regime": 0.0049968575662820746
+        }
+      },
+      "0.01": {
+        "tau": {
+          "pooled": 0.11792319267988205,
+          "phase_conditioned": {
+            "climb": 0.03732014074921608,
+            "cruise": 0.07352643460035324,
+            "descent": 0.28565865755081177
+          },
+          "causal_regime": {
+            "ascending": 0.037480633705854416,
+            "level": 0.03808950260281563,
+            "descending": 0.574094295501709
+          }
+        },
+        "kappa": {
+          "pooled": 0.03231106243154436,
+          "phase_conditioned": 0.03908147493928019,
+          "causal_regime": 0.02636986301369863
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.009998887862964026,
+          "phase_conditioned": 0.009996301497764088,
+          "causal_regime": 0.009996301497764088
+        }
+      },
+      "0.02": {
+        "tau": {
+          "pooled": 0.05508357658982277,
+          "phase_conditioned": {
+            "climb": 0.02220146544277668,
+            "cruise": 0.0295832771807909,
+            "descent": 0.11377476900815964
+          },
+          "causal_regime": {
+            "ascending": 0.022424781695008278,
+            "level": 0.022739505395293236,
+            "descending": 0.26452261209487915
+          }
+        },
+        "kappa": {
+          "pooled": 0.04956944137778759,
+          "phase_conditioned": 0.06911017884742769,
+          "causal_regime": 0.05330078323670023
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.019997775725928053,
+          "phase_conditioned": 0.019997775725928053,
+          "causal_regime": 0.019995189360728114
+        }
+      }
+    },
+    "lstm_autoencoder:1": {
+      "0.005": {
+        "tau": {
+          "pooled": 0.8761040568351746,
+          "phase_conditioned": {
+            "climb": 0.14690272510051727,
+            "cruise": 0.4368167221546173,
+            "descent": 2.1774463653564453
+          },
+          "causal_regime": {
+            "ascending": 0.1537141352891922,
+            "level": 0.15993420779705048,
+            "descending": 3.49653959274292
+          }
+        },
+        "kappa": {
+          "pooled": 0.016272883742763262,
+          "phase_conditioned": 0.018407534246575343,
+          "causal_regime": 0.017123287671232876
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.004999443931482013,
+          "phase_conditioned": 0.004994271201082135,
+          "causal_regime": 0.0049968575662820746
+        }
+      },
+      "0.01": {
+        "tau": {
+          "pooled": 0.2649259567260742,
+          "phase_conditioned": {
+            "climb": 0.06792394071817398,
+            "cruise": 0.13104365766048431,
+            "descent": 0.9489855766296387
+          },
+          "causal_regime": {
+            "ascending": 0.06905648857355118,
+            "level": 0.08414782583713531,
+            "descending": 1.8749123811721802
+          }
+        },
+        "kappa": {
+          "pooled": 0.03168469860896445,
+          "phase_conditioned": 0.04007507175977037,
+          "causal_regime": 0.029965753424657533
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.009998887862964026,
+          "phase_conditioned": 0.009996301497764088,
+          "causal_regime": 0.009996301497764088
+        }
+      },
+      "0.02": {
+        "tau": {
+          "pooled": 0.10035518556833267,
+          "phase_conditioned": {
+            "climb": 0.043344736099243164,
+            "cruise": 0.05810510739684105,
+            "descent": 0.2672199010848999
+          },
+          "causal_regime": {
+            "ascending": 0.043555181473493576,
+            "level": 0.04791569709777832,
+            "descending": 0.7811399698257446
+          }
+        },
+        "kappa": {
+          "pooled": 0.05696621770810333,
+          "phase_conditioned": 0.06712298520644734,
+          "causal_regime": 0.05604719764011799
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.019997775725928053,
+          "phase_conditioned": 0.019997775725928053,
+          "causal_regime": 0.019995189360728114
+        }
+      }
+    },
+    "lstm_autoencoder:2": {
+      "0.005": {
+        "tau": {
+          "pooled": 0.35884878039360046,
+          "phase_conditioned": {
+            "climb": 0.07569248974323273,
+            "cruise": 0.21300186216831207,
+            "descent": 1.0020250082015991
+          },
+          "causal_regime": {
+            "ascending": 0.07569248974323273,
+            "level": 0.07299934327602386,
+            "descending": 1.718441367149353
+          }
+        },
+        "kappa": {
+          "pooled": 0.017524644030668127,
+          "phase_conditioned": 0.017294520547945204,
+          "causal_regime": 0.01678082191780822
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.004999443931482013,
+          "phase_conditioned": 0.004994271201082135,
+          "causal_regime": 0.0049968575662820746
+        }
+      },
+      "0.01": {
+        "tau": {
+          "pooled": 0.12510085105895996,
+          "phase_conditioned": {
+            "climb": 0.03863830491900444,
+            "cruise": 0.08015603572130203,
+            "descent": 0.367726594209671
+          },
+          "causal_regime": {
+            "ascending": 0.03963688760995865,
+            "level": 0.04035321995615959,
+            "descending": 0.8304029107093811
+          }
+        },
+        "kappa": {
+          "pooled": 0.03442340791738382,
+          "phase_conditioned": 0.04007507175977037,
+          "causal_regime": 0.02910958904109589
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.009998887862964026,
+          "phase_conditioned": 0.009996301497764088,
+          "causal_regime": 0.009996301497764088
+        }
+      },
+      "0.02": {
+        "tau": {
+          "pooled": 0.057208891957998276,
+          "phase_conditioned": {
+            "climb": 0.02200968936085701,
+            "cruise": 0.03540057688951492,
+            "descent": 0.1168692335486412
+          },
+          "causal_regime": {
+            "ascending": 0.02216505818068981,
+            "level": 0.024571236222982407,
+            "descending": 0.3147428333759308
+          }
+        },
+        "kappa": {
+          "pooled": 0.052771031132700374,
+          "phase_conditioned": 0.06941314342378076,
+          "causal_regime": 0.052080154612959006
+        },
+        "calibration_flight_false_flag_rate": {
+          "pooled": 0.03125,
+          "phase_conditioned": 0.03125,
+          "causal_regime": 0.03125
+        },
+        "calibration_row_alarm_rate": {
+          "pooled": 0.019997775725928053,
+          "phase_conditioned": 0.019997775725928053,
+          "causal_regime": 0.019995189360728114
+        }
+      }
+    }
+  }
+}

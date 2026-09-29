@@ -1,0 +1,10 @@
+split,unit,role,flight_class,flight_class_constant,rows,healthy_rows,abnormal_rows,flights,healthy_flights,post_onset_flights,mixed_flights,first_cycle,onset_cycle,eol_cycle,hs_binary,ls1_monotone_single_transition,ls2_flight_constant,ls3_cycles_contiguous,flight_cycles_unique,engine_rows_contiguous,eligible_s1_s3_s4,eligible_s2,eligible_d,delay_flag_mixed_flight
+dev,2,model_fit,3,True,853142,188863,664279,75,16,59,0,1,17,75,True,True,True,True,True,True,True,True,True,False
+dev,5,model_fit,3,True,1033420,188550,844870,89,16,73,0,1,17,89,True,True,True,True,True,True,True,True,True,False
+dev,10,model_fit,3,True,952711,188050,764661,82,16,66,0,1,17,82,True,True,True,True,True,True,True,True,True,False
+dev,16,model_fit,3,True,765295,194619,570676,63,15,48,0,1,16,63,True,True,True,True,True,True,True,True,True,False
+dev,18,calibration,3,True,890719,193289,697430,71,16,55,0,1,17,71,True,True,True,True,True,True,True,True,True,False
+dev,20,calibration,3,True,768160,193354,574806,66,16,50,0,1,17,66,True,True,True,True,True,True,True,True,True,False
+test,11,audit,3,True,663495,213306,450189,59,18,41,0,1,19,59,True,True,True,True,True,True,True,True,True,False
+test,14,audit,1,True,156778,72268,84510,76,35,41,0,1,36,76,True,True,True,True,True,True,True,True,True,False
+test,15,audit,2,True,433470,147539,285931,67,23,44,0,1,24,67,True,True,True,True,True,True,True,True,True,False

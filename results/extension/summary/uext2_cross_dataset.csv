@@ -1,0 +1,14 @@
+detector_family,quantity,point_median_over_families,ci_lower_95,ci_upper_95,replicates,top_level_units,hierarchy,subsets_negative,subsets
+pca,diff_pooled_A1,-0.0003191417157765,-0.005543681194431728,0.013166520559306536,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),5,7
+pca,diff_pooled_A2,0.0003095950655309,-0.0028760075021915903,0.015467802794219453,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+pca,diff_ME_A2,-0.0001840489171572,-0.0019912722095492973,0.014135478994635076,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+isolation_forest,diff_pooled_A1,-0.0010960381928035114,-0.011456958068390958,0.004813988340826337,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),5,7
+isolation_forest,diff_pooled_A2,0.00020037974610106593,-0.005876682109616258,0.00467820663448281,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+isolation_forest,diff_ME_A2,-0.0020100692707345335,-0.005276544720957173,0.0021577277669745194,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+lstm_autoencoder,diff_pooled_A1,-0.003081871096307733,-0.00520817218621594,0.005344771114586017,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),5,7
+lstm_autoencoder,diff_pooled_A2,-0.0007754067589136445,-0.00248897425618094,0.0032426221390841918,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),5,7
+lstm_autoencoder,diff_ME_A2,-0.0002860111290998214,-0.002052733401311588,0.003418610033788836,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+cvae,diff_pooled_A1,0.00013868686611562278,-0.005612556159100208,0.009891575147018607,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+cvae,diff_pooled_A2,0.0013981697500565,-0.0029036208419734,0.005558919871532292,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+cvae,diff_ME_A2,-0.00029024005014458904,-0.0022311826029314708,0.004625731259519811,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),3,7
+cvae_minus_best_residual_ME_A2_P,cvae_minus_best_residual_ME_A2_P,0.005228254889399601,0.0005430162902814008,0.013056296526128911,2000,5,family -> subset -> U-EXT1 replicate (engine -> flight),0,7

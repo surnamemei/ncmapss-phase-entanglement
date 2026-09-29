@@ -1,0 +1,20 @@
+{
+  "outputs": {
+    "paper/mssp/tables/table5_engine_transport.csv": "837e34da4d39dd14b911a7584d09086b8d97e573368473544a0cb88cee6d5a80",
+    "paper/mssp/tables/table5_engine_transport.tex": "34f9f2a45f9ca6e900e9358167d8a5ba545aeabf22861e4e3fe8371381320335"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/calibration_quality/calibration_quality_metrics.csv": "6ca1752c977b4fcc34fe1bc1b569c08c7a39d9cfe04cea89680cdceb4be2f04c",
+    "results/mssp_adversarial/ds02/calibration_quality/calibration_quality_paired.csv": "cd5dfcfad4e4745cdb4630dffe0973f51d0ec197a69dd6b2e251bca7e5d265c7",
+    "results/mssp_adversarial/ds02/contextual_baseline/baseline_calibration_quality.csv": "fa2e1acba94485053ac7ac7fa225abaeab53a3a342d022e3ecdb7ff6dadb63fa",
+    "results/mssp_adversarial/ds02/support_transport/support_engines.csv": "18c7aaeb4def6a8c00b44ad070adec787dcccc9ae73cf2085c9153323d889fc6",
+    "results/mssp_adversarial/ds03/calibration_quality/calibration_quality_metrics.csv": "89a317343043a582a7d47bb4758ceed28c0d6e3bb887972d36702b8504ef10b9",
+    "results/mssp_adversarial/ds03/calibration_quality/calibration_quality_paired.csv": "ca9e1dbaa986dec8f8556497b8d5434d08fc0a63e5dd5b26cb9efec921f3afb9",
+    "results/mssp_adversarial/ds03/contextual_baseline/baseline_calibration_quality.csv": "61a05c82a3c7346e2bc080d4aceb6424eceaf37f42f51b079165c96551688cc7",
+    "results/mssp_adversarial/ds03/support_transport/support_engines.csv": "8afb8236f2459f42812e1b3d0100310350462288d14314ade2cb194e3ad08c0c"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "be8a42efc746914e3cfe76208bf0ea41a94cdf20f6bdb733a94c9fc4f0cd096f",
+  "note": "Per-engine and equal-engine A2 (percentage points, range over the 7 detector runs) under P, C and Q; run counts; Validation A categories for C against P.",
+  "built_utc": "2026-09-28T01:12:49+00:00"
+}

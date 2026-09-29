@@ -1,0 +1,25 @@
+dataset,family,arm,nominal_fpr,diff_spread_seeds_agreeing_with_family_mean,diff_max_abs_error_seeds_agreeing_with_family_mean,diff_rms_error_seeds_agreeing_with_family_mean,matched_labels_by_seed
+ds02,isolation_forest,phase_conditioned,0.005,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds02,isolation_forest,phase_conditioned,0.01,3/3,3/3,3/3,0:earlier at matched burden;1:earlier at matched burden;2:earlier at matched burden
+ds02,isolation_forest,phase_conditioned,0.02,3/3,3/3,3/3,0:earlier at matched burden;1:earlier at matched burden;2:earlier at matched burden
+ds02,isolation_forest,causal_regime,0.005,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds02,isolation_forest,causal_regime,0.01,3/3,3/3,3/3,0:earlier at matched burden;1:earlier at matched burden;2:earlier at matched burden
+ds02,isolation_forest,causal_regime,0.02,3/3,3/3,3/3,0:earlier at matched burden;1:earlier at matched burden;2:earlier at matched burden
+ds02,lstm_autoencoder,phase_conditioned,0.005,3/3,3/3,3/3,0:earlier at matched burden;1:earlier at matched burden;2:earlier at matched burden
+ds02,lstm_autoencoder,phase_conditioned,0.01,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds02,lstm_autoencoder,phase_conditioned,0.02,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds02,lstm_autoencoder,causal_regime,0.005,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds02,lstm_autoencoder,causal_regime,0.01,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds02,lstm_autoencoder,causal_regime,0.02,3/3,3/3,3/3,0:mixed;1:earlier at matched burden;2:mixed
+ds03,isolation_forest,phase_conditioned,0.005,3/3,3/3,3/3,0:mixed;1:mixed;2:equal
+ds03,isolation_forest,phase_conditioned,0.01,3/3,3/3,3/3,0:mixed;1:equal;2:equal
+ds03,isolation_forest,phase_conditioned,0.02,3/3,2/3,3/3,0:equal;1:mixed;2:mixed
+ds03,isolation_forest,causal_regime,0.005,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds03,isolation_forest,causal_regime,0.01,3/3,3/3,3/3,0:mixed;1:equal;2:mixed
+ds03,isolation_forest,causal_regime,0.02,3/3,3/3,3/3,0:mixed;1:equal;2:equal
+ds03,lstm_autoencoder,phase_conditioned,0.005,3/3,3/3,3/3,0:mixed;1:equal;2:earlier at matched burden
+ds03,lstm_autoencoder,phase_conditioned,0.01,3/3,3/3,3/3,0:mixed;1:mixed;2:mixed
+ds03,lstm_autoencoder,phase_conditioned,0.02,3/3,3/3,2/3,0:equal;1:mixed;2:mixed
+ds03,lstm_autoencoder,causal_regime,0.005,3/3,2/3,3/3,0:mixed;1:mixed;2:earlier at matched burden
+ds03,lstm_autoencoder,causal_regime,0.01,3/3,3/3,3/3,0:earlier at matched burden;1:mixed;2:earlier at matched burden
+ds03,lstm_autoencoder,causal_regime,0.02,3/3,3/3,2/3,0:mixed;1:equal;2:mixed

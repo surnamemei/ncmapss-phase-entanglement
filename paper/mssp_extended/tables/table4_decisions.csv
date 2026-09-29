@@ -1,0 +1,10 @@
+Hypothesis,Pre-specified rule (abridged),Observed,Decision
+H1 conditional miscalibration under P,"material pooled error (≥ 0.5α) for PCA, IF and LSTM in a subset; ≥ 3/5 families",3/5 families,SUPPORTED
+H2 C reduces pooled disparity,≥ 80% of 70 cells and ≥ 4/5 families,66% of cells; 3/5 families,PARTIAL
+H3 no uniform per-engine improvement,share of cells with every engine improved < 0.5 (C and Q),C 14%; Q 14%,SURVIVES
+H4 calibration-class coverage,"coverage effect > 0 in ≥ 7/10 runs (P and C) and balance check, ≥ 3/4 families","coverage 3/4; balance 3/4; median effect P 0.11 pp (−0.04 to 0.18), C 0.55 pp (0.18 to 1.11)",SUPPORTED (beyond volume; weak under P)
+H5 CVAE does not guarantee transport,"worst-engine error ≥ 0.5α in most CVAE runs, ≥ 3/5 families",5/5 families; substantial improvement 0/5,SURVIVES
+H6 failures persist under persistence,"worst-engine false-flag rate ≥ 10% in most residual cells, ≥ 3/5 families, R1 and R2",R0 3/5; R1 4/5; R2 4/5,SURVIVES
+H7 delay at matched burden,C 'earlier' in ≥ 5/7 residual runs with lower curve mean,met in 0/7 subsets (any rule),no delay advantage
+Original story,components S1–S5 by family (Amendment 1),"S1 3/5, S2 3/5, S3 4/5, S4 5/5, S5 5/5",PARTIALLY GENERALIZED
+Interpretation matrix,Stories M-A to M-E,"triggered M-B, M-C",M-C + M-B

@@ -1,0 +1,797 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    25
+   ]
+  ],
+  "date-time": "2026-09-25T16:08:27Z",
+  "timestamp": 1790352507622,
+  "version": "4.1.0"
+ },
+ "reference-count": 41,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001809",
+   "name": "National Natural Science Foundation of China",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "51975058"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "51975058"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001809",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100004826",
+   "name": "Beijing Natural Science Foundation",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "21JC0016"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "21JC0016"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100004826",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2025,
+    2
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2024.112209",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    12,
+    13
+   ]
+  ],
+  "date-time": "2024-12-13T05:14:55Z",
+  "timestamp": 1734066895000
+ },
+ "page": "112209",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 13,
+ "special_numbering": "C",
+ "title": [
+  "An anomaly detection method for gas turbines based on single-condition training with zero-fault sample"
+ ],
+ "prefix": "10.1016",
+ "volume": "224",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-2900-9477",
+   "authenticated-orcid": false,
+   "given": "Yubin",
+   "family": "Yue",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Hongjun",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Peishuo",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4907-525X",
+   "authenticated-orcid": false,
+   "given": "Fengshou",
+   "family": "Gu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b1",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.applthermaleng.2019.114664",
+   "article-title": "Anomaly detection of gas turbines based on normal pattern extraction",
+   "volume": "166",
+   "author": "Bai",
+   "year": "2020",
+   "journal-title": "Appl. Therm. Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b2",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2021.104199",
+   "article-title": "A re-optimized deep auto-encoder for gas turbine unsupervised anomaly detection",
+   "volume": "101",
+   "author": "Fu",
+   "year": "2021",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2024.112209_b3",
+   "doi-asserted-by": "crossref",
+   "first-page": "44",
+   "DOI": "10.2514/1.15768",
+   "article-title": "Anomaly detection in aircraft gas turbine engines",
+   "volume": "3",
+   "author": "Tolani",
+   "year": "2006",
+   "journal-title": "J. Aeros. Comput. Inf. Commun."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2024.112209_b4",
+   "doi-asserted-by": "crossref",
+   "first-page": "2581",
+   "DOI": "10.1109/TIM.2020.2967111",
+   "article-title": "An adaptive online blade health monitoring method: From raw data to parameters identification",
+   "volume": "69",
+   "author": "Wu",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Instrum. Meas."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b5",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2023.112718",
+   "article-title": "Gas turbine blade fracturing fault diagnosis based on broadband casing vibration",
+   "volume": "214",
+   "author": "Feng",
+   "year": "2023",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b6",
+   "series-title": "A review on gas turbine anomaly detection for implementing health management",
+   "author": "Zhao",
+   "year": "2016"
+  },
+  {
+   "issue": "14",
+   "key": "10.1016/j.ymssp.2024.112209_b7",
+   "doi-asserted-by": "crossref",
+   "first-page": "14294",
+   "DOI": "10.1109/JSEN.2022.3179740",
+   "article-title": "An intelligent anomaly detection method for rotating machinery based on vibration vectors",
+   "volume": "22",
+   "author": "Hu",
+   "year": "2022",
+   "journal-title": "IEEE Sens. J."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b8",
+   "article-title": "Sensor validation and fusion for gas turbine vibration monitoring",
+   "volume": "5107",
+   "author": "Yan",
+   "year": "2003",
+   "journal-title": "Proc. SPIE - Int. Soc. Opt. Eng."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2024.112209_b9",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/aerospace7060066",
+   "article-title": "Probabilistic model for aero-engines fleet condition monitoring",
+   "volume": "7",
+   "author": "Zaccaria",
+   "year": "2020",
+   "journal-title": "Aerospace"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b10",
+   "doi-asserted-by": "crossref",
+   "first-page": "793",
+   "DOI": "10.1016/j.proeng.2011.11.2739",
+   "article-title": "A fault feature extraction method for rotor rubbing based on load identification and measured impact response",
+   "volume": "24",
+   "author": "Yungong",
+   "year": "2011",
+   "journal-title": "Procedia Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b11",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engfailanal.2022.106299",
+   "article-title": "Fault diagnosis and location identification of rotor–stator rub-impact based on Hjorth parameters",
+   "volume": "138",
+   "author": "Yu",
+   "year": "2022",
+   "journal-title": "Eng. Fail. Anal."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b12",
+   "series-title": "Aircraft Engine Fault Diagnosis",
+   "author": "Wang",
+   "year": "2020"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2024.112209_b13",
+   "doi-asserted-by": "crossref",
+   "first-page": "326",
+   "DOI": "10.1016/j.engappai.2011.09.010",
+   "article-title": "A support vector machine approach based on physical model training for rolling element bearing fault detection in industrial environments",
+   "volume": "25",
+   "author": "Gryllias",
+   "year": "2012",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b14",
+   "doi-asserted-by": "crossref",
+   "first-page": "283",
+   "DOI": "10.1016/j.ymssp.2016.02.007",
+   "article-title": "Gearbox fault diagnosis based on deep random forest fusion of acoustic and vibratory signals",
+   "volume": "76–77",
+   "author": "Li",
+   "year": "2016",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b15",
+   "first-page": "221",
+   "article-title": "Bearing fault diagnosis based on multi-scale mean permutation entropy and parametric optimization SVM",
+   "volume": "41",
+   "author": "Wang",
+   "year": "2022",
+   "journal-title": "J. Vib. Shock"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b16",
+   "doi-asserted-by": "crossref",
+   "first-page": "17050",
+   "DOI": "10.1109/ACCESS.2019.2893497",
+   "article-title": "A new bearing fault diagnosis method based on fine-to-coarse multiscale permutation Entropy, Laplacian score and SVM",
+   "volume": "7",
+   "author": "Huo",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2024.112209_b17",
+   "doi-asserted-by": "crossref",
+   "first-page": "2888",
+   "DOI": "10.1016/j.eswa.2010.08.083",
+   "article-title": "Rolling element bearing fault detection in industrial environments based on a K-means clustering approach",
+   "volume": "38",
+   "author": "Yiakopoulos",
+   "year": "2011",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b18",
+   "doi-asserted-by": "crossref",
+   "first-page": "35",
+   "DOI": "10.1016/j.engappai.2018.05.009",
+   "article-title": "Real-time Deep Neural Networks for internet-enabled arc-fault detection",
+   "volume": "74",
+   "author": "Siegel",
+   "year": "2018",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2024.112209_b19",
+   "doi-asserted-by": "crossref",
+   "first-page": "654",
+   "DOI": "10.1109/TASE.2018.2848198",
+   "article-title": "Unsupervised anomaly detection based on minimum spanning tree approximated distance measures and its application to hydropower turbines",
+   "volume": "16",
+   "author": "Ahmed",
+   "year": "2019",
+   "journal-title": "IEEE Trans. Autom. Sci. Eng."
+  },
+  {
+   "issue": "5786",
+   "key": "10.1016/j.ymssp.2024.112209_b20",
+   "doi-asserted-by": "crossref",
+   "first-page": "504",
+   "DOI": "10.1126/science.1127647",
+   "article-title": "Reducing the dimensionality of data with neural networks",
+   "volume": "313",
+   "author": "Hinton",
+   "year": "2006",
+   "journal-title": "Science"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b21",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1109/TIM.2022.3218574",
+   "article-title": "Unsupervised machine anomaly detection using autoencoder and temporal convolutional network",
+   "volume": "71",
+   "author": "Li",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Instrum. Meas."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b22",
+   "doi-asserted-by": "crossref",
+   "first-page": "203",
+   "DOI": "10.2299/jsp.24.203",
+   "article-title": "Anomaly detection in mechanical vibration using combination of signal processing and autoencoder",
+   "volume": "24",
+   "author": "Matsui",
+   "year": "2020",
+   "journal-title": "J. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b23",
+   "series-title": "2015 IEEE International Conference on Computer Vision",
+   "first-page": "1511",
+   "article-title": "Learning discriminative reconstructions for unsupervised outlier removal",
+   "author": "Xia",
+   "year": "2015"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b24",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.cie.2022.108512",
+   "article-title": "Real-time deep learning method for automated detection and localization of structural defects in manufactured products",
+   "volume": "172",
+   "author": "Avola",
+   "year": "2022",
+   "journal-title": "Comput. Ind. Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b25",
+   "doi-asserted-by": "crossref",
+   "first-page": "264",
+   "DOI": "10.1007/s11465-018-0472-3",
+   "article-title": "Basic research on machinery fault diagnostics: Past, present, and future trends",
+   "volume": "13",
+   "author": "Chen",
+   "year": "2018",
+   "journal-title": "Front. Mech. Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b26",
+   "series-title": "Interspeech",
+   "article-title": "A block cosine transform and its application in speech recognition",
+   "volume": "vol. 4",
+   "author": "Chen",
+   "year": "2000"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2024.112209_b27",
+   "doi-asserted-by": "crossref",
+   "first-page": "543",
+   "DOI": "10.1016/j.specom.2011.11.004",
+   "article-title": "Design, analysis and experimental evaluation of block based transformation in MFCC computation for speaker recognition",
+   "volume": "54",
+   "author": "Sahidullah",
+   "year": "2012",
+   "journal-title": "Speech Commun."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2024.112209_b28",
+   "doi-asserted-by": "crossref",
+   "first-page": "168",
+   "DOI": "10.1007/s10916-019-1286-5",
+   "article-title": "Classifying heart sounds using images of motifs, MFCC and temporal features",
+   "volume": "43",
+   "author": "Nogueira",
+   "year": "2019",
+   "journal-title": "J. Med. Syst."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b29",
+   "series-title": "ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing",
+   "first-page": "1318",
+   "article-title": "Short-segment heart sound classification using an ensemble of deep convolutional neural networks",
+   "author": "Noman",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b30",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.bspc.2021.102625",
+   "article-title": "EEG based direct speech BCI system using a fusion of SMRT and MFCC/LPCC features with ANN classifier",
+   "volume": "68",
+   "author": "Mini",
+   "year": "2021",
+   "journal-title": "Biomed. Signal Process. Control"
+  },
+  {
+   "issue": "21",
+   "key": "10.1016/j.ymssp.2024.112209_b31",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/s22218325",
+   "article-title": "Combination of VMD mapping MFCC and LSTM: A new acoustic fault diagnosis method of diesel engine",
+   "volume": "22",
+   "author": "Yan",
+   "year": "2022",
+   "journal-title": "Sensors"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b32",
+   "series-title": "2018 IEEE International Conference on Information and Automation",
+   "first-page": "1617",
+   "article-title": "Fault diagnosis method based on MFCC fusion and SVM",
+   "author": "Zhang",
+   "year": "2018"
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b33",
+   "doi-asserted-by": "crossref",
+   "first-page": "69795",
+   "DOI": "10.1109/ACCESS.2019.2919126",
+   "article-title": "Bearing fault classification based on convolutional neural network in noise environment",
+   "volume": "7",
+   "author": "Jiang",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.ymssp.2024.112209_b34",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1002/stc.3096",
+   "article-title": "Anomaly detection in rolling bearings based on the mel-frequency cepstrum coefficient and masked autoencoder for distribution estimation",
+   "volume": "29",
+   "author": "Xie",
+   "year": "2022",
+   "journal-title": "Struct. Control Health Monit."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b35",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.apacoust.2024.109944",
+   "article-title": "Mel frequency mapping for intelligent diagnosis of rolling element bearings across different working conditions",
+   "volume": "220",
+   "author": "Yue",
+   "year": "2024",
+   "journal-title": "Appl. Acoust."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b36",
+   "doi-asserted-by": "crossref",
+   "first-page": "582",
+   "DOI": "10.1007/BF02943243",
+   "article-title": "Comparison of different implementations of MFCC",
+   "volume": "16",
+   "author": "Zheng",
+   "year": "2001",
+   "journal-title": "J. Comput. Sci. Tech."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b37",
+   "doi-asserted-by": "crossref",
+   "first-page": "122136",
+   "DOI": "10.1109/ACCESS.2022.3223444",
+   "article-title": "Mel frequency cepstral coefficient and its applications: A review",
+   "volume": "10",
+   "author": "Abdul",
+   "year": "2022",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2024.112209_b38",
+   "doi-asserted-by": "crossref",
+   "first-page": "600",
+   "DOI": "10.1109/TIP.2003.819861",
+   "article-title": "Image quality assessment: from error visibility to structural similarity",
+   "volume": "13",
+   "author": "Wang",
+   "year": "2004",
+   "journal-title": "IEEE Trans. Image Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b39",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2020.108478",
+   "article-title": "Multi-sensor fusion-based time-frequency imaging and transfer learning for spherical tank crack diagnosis under variable pressure conditions",
+   "volume": "168",
+   "author": "Hasan",
+   "year": "2021",
+   "journal-title": "Measurement"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2024.112209_b40",
+   "doi-asserted-by": "crossref",
+   "first-page": "2078",
+   "DOI": "10.1137/100798818",
+   "article-title": "Synchrosqueezing-based recovery of instantaneous frequency from nonuniform samples",
+   "volume": "43",
+   "author": "Thakur",
+   "year": "2011",
+   "journal-title": "SIAM J. Math. Anal."
+  },
+  {
+   "key": "10.1016/j.ymssp.2024.112209_b41",
+   "unstructured": "Case Western Reserve University Bearing Data Center, Case Western Reserve University, ."
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327024011087?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327024011087?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    3,
+    24
+   ]
+  ],
+  "date-time": "2025-03-24T00:07:01Z",
+  "timestamp": 1742774821000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327024011087"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    2
+   ]
+  ]
+ },
+ "references-count": 41,
+ "alternative-id": [
+  "S0888327024011087"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2024.112209",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    2
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "An anomaly detection method for gas turbines based on single-condition training with zero-fault sample",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2024.112209",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "112209"
+}

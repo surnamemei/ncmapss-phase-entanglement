@@ -1,0 +1,717 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    18
+   ]
+  ],
+  "date-time": "2026-08-18T14:13:41Z",
+  "timestamp": 1787062421313,
+  "version": "build-2736575974"
+ },
+ "reference-count": 39,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2025-06-01T00:00:00Z",
+    "timestamp": 1748736000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2025-06-01T00:00:00Z",
+    "timestamp": 1748736000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2025-06-01T00:00:00Z",
+    "timestamp": 1748736000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2025-06-01T00:00:00Z",
+    "timestamp": 1748736000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2025-06-01T00:00:00Z",
+    "timestamp": 1748736000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2025-06-01T00:00:00Z",
+    "timestamp": 1748736000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2025-06-01T00:00:00Z",
+    "timestamp": 1748736000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Reliability Engineering &amp; System Safety"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2025,
+    6
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ress.2025.110910",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    2,
+    17
+   ]
+  ],
+  "date-time": "2025-02-17T02:31:54Z",
+  "timestamp": 1739759514000
+ },
+ "page": "110910",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 40,
+ "special_numbering": "C",
+ "title": [
+  "A novel adaptive monitoring framework for detecting the abnormal states of aero-engines with maneuvering flight data"
+ ],
+ "prefix": "10.1016",
+ "volume": "258",
+ "author": [
+  {
+   "given": "Jianwen",
+   "family": "Wang",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Yueheng",
+   "family": "Song",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-5132-422X",
+   "authenticated-orcid": false,
+   "given": "Tian",
+   "family": "He",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0001",
+   "doi-asserted-by": "crossref",
+   "first-page": "845",
+   "DOI": "10.1109/TIE.2021.3050382",
+   "article-title": "Modified deep autoencoder driven by multisource parameters for fault transfer prognosis of Aeroengine",
+   "volume": "69",
+   "author": "He",
+   "year": "2022",
+   "journal-title": "IEEE Trans Ind Electron"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0002",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jairtraman.2023.102409",
+   "article-title": "A data analytics framework for anomaly detection in flight operations",
+   "volume": "110",
+   "author": "Coelho e Silva",
+   "year": "2023",
+   "journal-title": "J Air Transp Manag"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0003",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ast.2024.108970",
+   "article-title": "Kernel adapted extreme learning machine for cross-domain fault diagnosis of aero-engines",
+   "volume": "146",
+   "author": "Li",
+   "year": "2024",
+   "journal-title": "Aerosp Sci Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0004",
+   "doi-asserted-by": "crossref",
+   "first-page": "14",
+   "DOI": "10.1016/j.ress.2023.109676",
+   "article-title": "Knowledge distillation-optimized two-stage anomaly detection for liquid rocket engine with missing multimodal data",
+   "volume": "241",
+   "author": "Zhang",
+   "year": "2024",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "53",
+   "DOI": "10.1016/j.isatra.2022.07.014",
+   "article-title": "Memory-augmented skip-connected autoencoder for unsupervised anomaly detection of rocket engines with multi-source fusion",
+   "volume": "133",
+   "author": "Yan",
+   "year": "2023",
+   "journal-title": "ISA Trans"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0006",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2023.113786",
+   "article-title": "Dynamic simulation based on feature transfer learning with source domain adaptive optimization: application of data-driven model for aero-engines",
+   "volume": "223",
+   "author": "Jia",
+   "year": "2023",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0007",
+   "doi-asserted-by": "crossref",
+   "first-page": "29",
+   "DOI": "10.1016/j.ress.2022.108878",
+   "article-title": "Civil aircraft engine operation life resilient monitoring via usage trajectory mapping on the reliability contour",
+   "volume": "230",
+   "author": "Zhou",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0008",
+   "doi-asserted-by": "crossref",
+   "first-page": "16",
+   "DOI": "10.1016/j.ress.2024.110100",
+   "article-title": "Data-driven method embedded physical knowledge for entire lifecycle degradation monitoring in aircraft engines",
+   "volume": "247",
+   "author": "Xiao",
+   "year": "2024",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0009",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ast.2023.108764",
+   "article-title": "Helicopter transmission system anomaly detection in variable flight regimes with decoupling variational autoencoder",
+   "volume": "144",
+   "author": "Wu",
+   "year": "2024",
+   "journal-title": "Aerosp Sci Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0010",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.paerosci.2020.100693",
+   "article-title": "Gas turbine aero-engines real time on-board modelling: a review, research challenges, and exploring the future",
+   "volume": "121",
+   "author": "Wei",
+   "year": "2020",
+   "journal-title": "Prog Aerosp Sci"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0011",
+   "doi-asserted-by": "crossref",
+   "first-page": "381",
+   "DOI": "10.1016/0005-1098(90)90133-3",
+   "article-title": "A new structural framework for parity equation-based failure detection and isolation",
+   "volume": "26",
+   "author": "Gertler",
+   "year": "1990",
+   "journal-title": "Automatica"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0012",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.applthermaleng.2020.115025",
+   "article-title": "Gas turbine gas path diagnosis under transient operating conditions: a steady state performance model based local optimization approach",
+   "volume": "170",
+   "author": "Li",
+   "year": "2020",
+   "journal-title": "Appl Therm Eng"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0013",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ast.2022.108102",
+   "article-title": "Diagnostics using a physics-based engine model in aero gas turbine engine verification tests",
+   "volume": "133",
+   "author": "Kim",
+   "year": "2023",
+   "journal-title": "Aerosp Sci Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0014",
+   "doi-asserted-by": "crossref",
+   "first-page": "5845",
+   "DOI": "10.1109/TNNLS.2021.3071564",
+   "article-title": "Whitening-Net: a generalized network to diagnose the faults among different machines and conditions",
+   "volume": "33",
+   "author": "Li",
+   "year": "2022",
+   "journal-title": "IEEE Trans Neural Netw Learn Syst"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0015",
+   "doi-asserted-by": "crossref",
+   "first-page": "122",
+   "DOI": "10.1016/j.apenergy.2017.04.048",
+   "article-title": "Performance-based health monitoring, diagnostics and prognostics for condition-based maintenance of gas turbines: a review",
+   "volume": "198",
+   "author": "Tahan",
+   "year": "2017",
+   "journal-title": "Appl Energy"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0016",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2022.105016",
+   "article-title": "Flight regimes recognition in actual operating conditions: a functional data analysis approach",
+   "volume": "114",
+   "author": "Leoni",
+   "year": "2022",
+   "journal-title": "Eng Appl Artif Intell"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0017",
+   "doi-asserted-by": "crossref",
+   "first-page": "12",
+   "DOI": "10.1016/j.ress.2023.109193",
+   "article-title": "Analyzing the operation reliability of aeroengine using Quick Access Recorder flight data",
+   "volume": "235",
+   "author": "Pan",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0018",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/aerospace9060329",
+   "article-title": "Flight anomaly detection via a deep hybrid model",
+   "author": "Qin",
+   "year": "2022",
+   "journal-title": "Aerospace"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0019",
+   "series-title": "Proceedings of the IEEE/ACIS 21st international fall virtual conference on computer and information science (ICIS Fall)",
+   "first-page": "38",
+   "article-title": "An improved similarity-based prognostics method for remaining useful life estimation of aero-engine",
+   "author": "Han",
+   "year": "2021"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0020",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/aerospace6110117",
+   "article-title": "Recent advances in anomaly detection methods applied to aviation",
+   "author": "Basora",
+   "year": "2019",
+   "journal-title": "Aerospace"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0021",
+   "doi-asserted-by": "crossref",
+   "first-page": "13",
+   "DOI": "10.1016/j.ress.2021.108263",
+   "article-title": "Health status assessment and remaining useful life prediction of aero-engine based on BiGRU and MMoE",
+   "volume": "220",
+   "author": "Zhang",
+   "year": "2022",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0022",
+   "series-title": "Proceedings of the international conference on applied physics and industrial engineering (ICAPIE)",
+   "first-page": "1546",
+   "article-title": "Aero-engine condition monitoring based on support vector machine",
+   "author": "Zhang",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0023",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ast.2021.107311",
+   "article-title": "Extreme learning machine based transfer learning for aero engine fault diagnosis",
+   "volume": "121",
+   "author": "Zhao",
+   "year": "2022",
+   "journal-title": "Aerosp Sci Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0024",
+   "article-title": "Intelligent fault diagnosis methods toward gas turbine: a review",
+   "author": "Liu",
+   "year": "2024",
+   "journal-title": "Chin J Aeronaut"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "435",
+   "DOI": "10.1016/j.measurement.2019.01.022",
+   "article-title": "A novel gas turbine fault diagnosis method based on transfer learning with CNN",
+   "volume": "137",
+   "author": "Zhong",
+   "year": "2019",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0026",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.energy.2023.129120",
+   "article-title": "Graph structure embedded with physical constraints-based information fusion network for interpretable fault diagnosis of aero-engine",
+   "volume": "283",
+   "author": "Huang",
+   "year": "2023",
+   "journal-title": "Energy"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0027",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.apacoust.2023.109436",
+   "article-title": "The LST-SATM-net: a new deep feature learning framework for aero-engine hydraulic pipeline systems intelligent faults diagnosis",
+   "volume": "210",
+   "author": "Yang",
+   "year": "2023",
+   "journal-title": "Appl Acoust"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0028",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2022.108445",
+   "article-title": "Anomaly detection and diagnosis for wind turbines using long short-term memory-based stacked denoising autoencoders and XGBoost",
+   "volume": "222",
+   "author": "Zhang",
+   "year": "2022",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0029",
+   "doi-asserted-by": "crossref",
+   "first-page": "11",
+   "DOI": "10.1016/j.ress.2023.109319",
+   "article-title": "FGDAE: a new machinery anomaly detection method towards complex operating conditions",
+   "volume": "236",
+   "author": "Yan",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0030",
+   "doi-asserted-by": "crossref",
+   "first-page": "16",
+   "DOI": "10.1016/j.ress.2022.108405",
+   "article-title": "Semi-supervised clustering-based method for fault diagnosis and prognosis: a case study",
+   "volume": "222",
+   "author": "Azar",
+   "year": "2022",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0031",
+   "doi-asserted-by": "crossref",
+   "first-page": "43",
+   "DOI": "10.1016/j.engappai.2022.104743",
+   "article-title": "A comprehensive survey of clustering algorithms: state-of-the-art machine learning applications, taxonomy, challenges, and future research prospects",
+   "volume": "110",
+   "author": "Ezugwu",
+   "year": "2022",
+   "journal-title": "Eng Appl Artif Intell"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0032",
+   "doi-asserted-by": "crossref",
+   "first-page": "23",
+   "DOI": "10.1016/j.ress.2024.110027",
+   "article-title": "A novel framework based on two-stage multi-view feature optimization and improved support vector data description for aeroengine bearing early fault detection",
+   "volume": "245",
+   "author": "Hou",
+   "year": "2024",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0033",
+   "doi-asserted-by": "crossref",
+   "first-page": "1977",
+   "DOI": "10.1109/TIE.2021.3059543",
+   "article-title": "A novel double-stacked autoencoder for power transformers DGA signals with an imbalanced data structure",
+   "volume": "69",
+   "author": "Yang",
+   "year": "2022",
+   "journal-title": "IEEE Trans Ind Electron"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0034",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.trc.2021.103406",
+   "article-title": "An incremental clustering method for anomaly detection in flight data",
+   "volume": "132",
+   "author": "Zhao",
+   "year": "2021",
+   "journal-title": "Transp Res Part C Emerg Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0035",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2021.110064",
+   "article-title": "A new method for fault detection of aero-engine based on isolation forest",
+   "volume": "185",
+   "author": "Wang",
+   "year": "2021",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0036",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2023.106312",
+   "article-title": "A novel unsupervised anomaly detection method for rotating machinery based on memory augmented temporal convolutional autoencoder",
+   "volume": "123",
+   "author": "Li",
+   "year": "2023",
+   "journal-title": "Eng Appl Artif Intell"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0037",
+   "doi-asserted-by": "crossref",
+   "first-page": "11386",
+   "DOI": "10.1109/JSTARS.2021.3124558",
+   "article-title": "Investigation the robustness of standard classification methods for defining urban heat islands",
+   "volume": "14",
+   "author": "Lu",
+   "year": "2021",
+   "journal-title": "IEEE J Sel Top Appl Earth Observ Remote Sens"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0038",
+   "doi-asserted-by": "crossref",
+   "first-page": "11",
+   "DOI": "10.1016/j.ress.2023.109354",
+   "article-title": "Health evaluation of axial piston pumps based on density weighted support vector data description",
+   "volume": "237",
+   "author": "Chao",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.110910_bib0039",
+   "doi-asserted-by": "crossref",
+   "first-page": "10867",
+   "DOI": "10.1007/s10462-023-10435-1",
+   "article-title": "Review and empirical analysis of sparrow search algorithm",
+   "volume": "56",
+   "author": "Yue",
+   "year": "2023",
+   "journal-title": "Artif Intell Rev"
+  }
+ ],
+ "container-title": [
+  "Reliability Engineering &amp; System Safety"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0951832025001139?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0951832025001139?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    11,
+    5
+   ]
+  ],
+  "date-time": "2025-11-05T09:51:02Z",
+  "timestamp": 1762336262000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0951832025001139"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    6
+   ]
+  ]
+ },
+ "references-count": 39,
+ "alternative-id": [
+  "S0951832025001139"
+ ],
+ "URL": "https://doi.org/10.1016/j.ress.2025.110910",
+ "relation": {},
+ "ISSN": [
+  "0951-8320"
+ ],
+ "issn-type": [
+  {
+   "value": "0951-8320",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    6
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "A novel adaptive monitoring framework for detecting the abnormal states of aero-engines with maneuvering flight data",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Reliability Engineering & System Safety",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ress.2025.110910",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "110910"
+}

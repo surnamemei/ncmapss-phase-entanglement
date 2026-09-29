@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/mitigation_abnormal_alarm_rates.csv": "cfc15b4736a3e4dd3d95e05d8771c8b1732b3f4b6e6ecc1ff257a77e719a7591"
+  },
+  "inputs": {
+    "results/mssp_mitigation/ds02/stage_e/abnormal_alarm_rates.csv": "885a03b056099846045fb620f551a3e1db483364cc1d8188e0b8a9900f906a36",
+    "results/mssp_mitigation/ds03/stage_e/abnormal_alarm_rates.csv": "a733572e0f8627fb0c15e3cdf204cb421df8063f9f14884e93e65f95a4e7c21c"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:45+00:00"
+}

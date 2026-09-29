@@ -1,0 +1,396 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    1
+   ]
+  ],
+  "date-time": "2026-07-01T09:46:45Z",
+  "timestamp": 1782899205926,
+  "version": "3.54.5"
+ },
+ "reference-count": 22,
+ "publisher": "Elsevier BV",
+ "issue": "3",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      1996,
+      5,
+      1
+     ]
+    ],
+    "date-time": "1996-05-01T00:00:00Z",
+    "timestamp": 830908800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Safety Science"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    1996,
+    5
+   ]
+  ]
+ },
+ "DOI": "10.1016/0925-7535(95)00060-7",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2003,
+    5,
+    13
+   ]
+  ],
+  "date-time": "2003-05-13T03:33:51Z",
+  "timestamp": 1052796831000
+ },
+ "page": "175-189",
+ "source": "Crossref",
+ "is-referenced-by-count": 23,
+ "title": [
+  "Improving the effectiveness of warnings by increasing the appropriateness of their information content: some hypotheses about human compliance"
+ ],
+ "prefix": "10.1016",
+ "volume": "21",
+ "author": [
+  {
+   "given": "Jason D.",
+   "family": "Papastavrou",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mark R.",
+   "family": "Lehto",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "6",
+   "key": "10.1016/0925-7535(95)00060-7_BIB1",
+   "first-page": "43",
+   "article-title": "Why we need to test smoke detectors",
+   "volume": "80",
+   "author": "Cooper",
+   "year": "1986",
+   "journal-title": "Fire J."
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB2",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/0925-7535(93)90029-D",
+   "article-title": "Warning variables affecting personal protective equipment use",
+   "volume": "16",
+   "author": "Dingus",
+   "year": "1993",
+   "journal-title": "Safety Science"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB3",
+   "first-page": "255",
+   "article-title": "Warnings and human behavior: Implications for the design of product warnings",
+   "volume": "1",
+   "author": "Dorris",
+   "year": "1977",
+   "journal-title": "J. Products Liability"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB4",
+   "doi-asserted-by": "crossref",
+   "first-page": "195",
+   "DOI": "10.1016/0379-7112(89)90007-6",
+   "article-title": "Smoke detectors in apartments and one-family houses: A comparison between the maintenance, care and performance of free and purchases smoke detectors",
+   "volume": "15",
+   "author": "Hygge",
+   "year": "1989",
+   "journal-title": "Fire Safety J."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/0925-7535(95)00060-7_BIB5",
+   "doi-asserted-by": "crossref",
+   "first-page": "749",
+   "DOI": "10.1080/00140137008931202",
+   "article-title": "Drivers and road signs",
+   "volume": "13",
+   "author": "Johansson",
+   "year": "1970",
+   "journal-title": "Ergonomics"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB6",
+   "doi-asserted-by": "crossref",
+   "first-page": "569",
+   "DOI": "10.1016/0925-7535(93)90024-8",
+   "article-title": "Models of the warning process: Important implications towards effectiveness",
+   "volume": "16",
+   "author": "Lehto",
+   "year": "1993",
+   "journal-title": "Safety Science"
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/0925-7535(95)00060-7_BIB7",
+   "doi-asserted-by": "crossref",
+   "first-page": "551",
+   "DOI": "10.1037/0278-7393.4.6.551",
+   "article-title": "Judged frequency of lethal events",
+   "volume": "4",
+   "author": "Lichtenstein",
+   "year": "1978",
+   "journal-title": "J. Exp. Psych.: Human Learning and Memory"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/0925-7535(95)00060-7_BIB8",
+   "first-page": "1085",
+   "article-title": "The performance of warning systems in avoiding controlled-flight-into-terrain (CFIT) accidents",
+   "volume": "53",
+   "author": "Loomis",
+   "year": "1982",
+   "journal-title": "Aviation, Space, and Environmental Medicine"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB9",
+   "first-page": "2",
+   "article-title": "Can weather forecasters formulate reliable forecasts of precipitation and temperature?",
+   "volume": "2",
+   "author": "Murphy",
+   "year": "1977",
+   "journal-title": "National Weather Digest"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB10",
+   "series-title": "System Fault Diagnostics, Reliability and Related Knowledge-Based Approaches",
+   "first-page": "99",
+   "article-title": "A distributed hypothesis-testing team decision problem with communications cost",
+   "author": "Papastavrou",
+   "year": "1987"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB11",
+   "article-title": "A distributed signal detection theory model: Implications to the design of warnings",
+   "author": "Papastavrou",
+   "year": "1994",
+   "journal-title": "Int. J. Occ. Safety and Ergonomics"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB12",
+   "doi-asserted-by": "crossref",
+   "first-page": "36",
+   "DOI": "10.1002/1520-6629(198301)11:1<36::AID-JCOP2290110104>3.0.CO;2-2",
+   "article-title": "Population evacuation in volcanic eruptions, floods, and nuclear power plant accidents: Some elementary comparisons",
+   "volume": "11",
+   "author": "Perry",
+   "year": "1983",
+   "journal-title": "J. Community Psychology"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/0925-7535(95)00060-7_BIB13",
+   "doi-asserted-by": "crossref",
+   "first-page": "117",
+   "DOI": "10.1177/001872088302500111",
+   "article-title": "Sign registration in daytime and nighttime driving",
+   "volume": "25",
+   "author": "Shinar",
+   "year": "1983",
+   "journal-title": "Human Factors"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/0925-7535(95)00060-7_BIB14",
+   "doi-asserted-by": "crossref",
+   "first-page": "1107",
+   "DOI": "10.1121/1.397232",
+   "article-title": "Why are people turning off our alarms?",
+   "volume": "84",
+   "author": "Sorkin",
+   "year": "1988",
+   "journal-title": "J. Acoustical Society of America"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/0925-7535(95)00060-7_BIB15",
+   "first-page": "150",
+   "article-title": "Perception of highway traffic signs and motivation",
+   "volume": "6",
+   "author": "Summula",
+   "year": "1974",
+   "journal-title": "J. Safety Res."
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB16",
+   "first-page": "756",
+   "article-title": "A proposed standard fire alarm system",
+   "volume": "57",
+   "author": "Swets",
+   "year": "1975",
+   "journal-title": "J. Acoustical Society of America"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB17",
+   "doi-asserted-by": "crossref",
+   "first-page": "453",
+   "DOI": "10.1126/science.7455683",
+   "article-title": "The framing of decisions and the psychology of choice",
+   "volume": "211",
+   "author": "Tversky",
+   "year": "1981",
+   "journal-title": "Science"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB18",
+   "author": "US Consumer Product Safety Commission",
+   "year": "1993",
+   "journal-title": "Smoke Detector Operability Survey: Report on Findings, Report"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB19",
+   "author": "US Consumer Product Safety Commission",
+   "year": "1994",
+   "journal-title": "Fire Incident Study: National Smoke Detector Project, Report"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB20",
+   "series-title": "Decision Analysis and Behavioral Research",
+   "author": "Winterfeldt",
+   "year": "1986"
+  },
+  {
+   "key": "10.1016/0925-7535(95)00060-7_BIB21",
+   "doi-asserted-by": "crossref",
+   "first-page": "133",
+   "DOI": "10.1177/001872088903100202",
+   "article-title": "Effects of cost and social influence on warning compliance",
+   "volume": "31",
+   "author": "Wogalter",
+   "year": "1989",
+   "journal-title": "Human Factors"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/0925-7535(95)00060-7_BIB22",
+   "doi-asserted-by": "crossref",
+   "first-page": "69",
+   "DOI": "10.1177/001872088002200108",
+   "article-title": "Promoting increased use of ear protectors in noise through information feedback",
+   "volume": "22",
+   "author": "Zohar",
+   "year": "1980",
+   "journal-title": "Human Factors"
+  }
+ ],
+ "container-title": [
+  "Safety Science"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:0925753595000607?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:0925753595000607?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2019,
+    4,
+    6
+   ]
+  ],
+  "date-time": "2019-04-06T06:54:06Z",
+  "timestamp": 1554533646000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/0925753595000607"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    1996,
+    5
+   ]
+  ]
+ },
+ "references-count": 22,
+ "journal-issue": {
+  "issue": "3",
+  "published-print": {
+   "date-parts": [
+    [
+     1996,
+     5
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "0925753595000607"
+ ],
+ "URL": "https://doi.org/10.1016/0925-7535(95)00060-7",
+ "relation": {},
+ "ISSN": [
+  "0925-7535"
+ ],
+ "issn-type": [
+  {
+   "value": "0925-7535",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    1996,
+    5
+   ]
+  ]
+ }
+}

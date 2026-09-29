@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/mitigation_u2_bootstrap_ci.csv": "5b4ec233aca6be6761a3e33f9ef95199341db445003bc00aa6b73f8575c533c4"
+  },
+  "inputs": {
+    "results/mssp_mitigation/ds02/stage_e/u2_bootstrap_ci.csv": "20829bc183dae5adeab6ccfc87b92c88134a79ea8fbf2f1f3affdf3b1651d00b",
+    "results/mssp_mitigation/ds03/stage_e/u2_bootstrap_ci.csv": "36319e5ce4a0555c82c4db19f48e903a8b4c35ffc2c166549b765b005931d7bf"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:45+00:00"
+}

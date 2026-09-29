@@ -1,0 +1,18 @@
+{
+  "outputs": {
+    "paper/mssp/tables/table1_design.csv": "9152cc25e3fc8c664a3b38d91e5fb48e068bdb0865a966358f5a200412638f3c",
+    "paper/mssp/tables/table1_design.tex": "ee529148d3792566dede29e38ca2b76661884e30e92ae3d653d50633d9c7d83a"
+  },
+  "inputs": {
+    "results/mssp_mitigation/ds02/stage_b/label_structure.csv": "3fd0cae8e352db0b3ab9f848d8caaf249a16bf4786b1635d242e9f2b97e87385",
+    "results/mssp_mitigation/ds02/stage_e/stage_e_record.json": "a2ecfaa0eea4107451bf533d6cacceb4a3b63dfd4a3c4f73554fa8fb0128b0fe",
+    "results/mssp_mitigation/ds02/stage_l/mitigation_lock.json": "2c3e9e66ee153b132706805d510e3ba32724e1bbeed53c713653814a192b0a3f",
+    "results/mssp_mitigation/ds03/stage_b/label_structure.csv": "04567eb4d15d9e4af64dec950ca703d70363adca63da30b8c2a3a500ce46001a",
+    "results/mssp_mitigation/ds03/stage_e/stage_e_record.json": "e95e80c76d154ec7047b74e99f56e2987c1b4aa35715a8d2d3b5a92452ec4350",
+    "results/mssp_mitigation/ds03/stage_l/mitigation_lock.json": "8e8473507f4cfea7e808e0b32b1f31db8405a9ad6203bae35df33984d65e9eda"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "be8a42efc746914e3cfe76208bf0ea41a94cdf20f6bdb733a94c9fc4f0cd096f",
+  "note": "Engine roles, flight classes, flight counts and abnormal-row counts from committed records.",
+  "built_utc": "2026-09-28T01:12:49+00:00"
+}

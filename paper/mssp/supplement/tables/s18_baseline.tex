@@ -1,0 +1,59 @@
+\begin{scriptsize}
+\begin{longtable}{lllrrrr}
+\caption{Continuous contextual baseline Q: linear quantile regression of the detector score at level $1-\alpha$ on a quadratic surface of the four standardized operating descriptors (4 linear, 4 squared and 6 pairwise terms plus an intercept), solved exactly by linear programming (HiGHS, no penalty) on every fifth healthy calibration row, per run and target, with no tuning and no phase input. Fitted coefficients are in the machine-readable evidence files.}\label{tab:s18_baseline}\\
+\toprule
+Dataset & Target & Run & Fit rows & In-sample alarm rate (\%) & $\kappa$ & Audit FFR at $\kappa$ (\%) \\
+\midrule
+\endfirsthead
+\multicolumn{7}{l}{\emph{(continued)}}\\
+\toprule
+Dataset & Target & Run & Fit rows & In-sample alarm rate (\%) & $\kappa$ & Audit FFR at $\kappa$ (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+DS02 & 0.5\% & PCA & 77,329 & 0.52 & 0.0195 & 21.1 \\
+ &  & IF s0 & 77,329 & 0.53 & 0.0116 & 31.6 \\
+ &  & IF s1 & 77,329 & 0.52 & 0.0116 & 31.6 \\
+ &  & IF s2 & 77,329 & 0.52 & 0.0106 & 32.9 \\
+ &  & LSTM s0 & 77,329 & 0.52 & 0.0137 & 19.7 \\
+ &  & LSTM s1 & 77,329 & 0.52 & 0.0164 & 18.4 \\
+ &  & LSTM s2 & 77,329 & 0.52 & 0.0201 & 17.1 \\
+ & 1\% & PCA & 77,329 & 1.03 & 0.0434 & 9.2 \\
+ &  & IF s0 & 77,329 & 1.00 & 0.0307 & 18.4 \\
+ &  & IF s1 & 77,329 & 1.01 & 0.0235 & 17.1 \\
+ &  & IF s2 & 77,329 & 1.00 & 0.0318 & 18.4 \\
+ &  & LSTM s0 & 77,329 & 0.98 & 0.0247 & 18.4 \\
+ &  & LSTM s1 & 77,329 & 1.03 & 0.0304 & 7.9 \\
+ &  & LSTM s2 & 77,329 & 1.01 & 0.0250 & 22.4 \\
+ & 2\% & PCA & 77,329 & 1.99 & 0.0618 & 11.8 \\
+ &  & IF s0 & 77,329 & 1.98 & 0.0704 & 17.1 \\
+ &  & IF s1 & 77,329 & 2.00 & 0.0651 & 13.2 \\
+ &  & IF s2 & 77,329 & 2.01 & 0.0864 & 9.2 \\
+ &  & LSTM s0 & 77,329 & 1.99 & 0.0571 & 6.6 \\
+ &  & LSTM s1 & 77,329 & 2.04 & 0.0647 & 6.6 \\
+ &  & LSTM s2 & 77,329 & 2.03 & 0.0535 & 9.2 \\
+\midrule
+DS03 & 0.5\% & PCA & 91,621 & 0.49 & 0.0169 & 7.4 \\
+ &  & IF s0 & 91,621 & 0.50 & 0.0149 & 11.5 \\
+ &  & IF s1 & 91,621 & 0.50 & 0.0143 & 11.5 \\
+ &  & IF s2 & 91,621 & 0.48 & 0.0149 & 10.1 \\
+ &  & LSTM s0 & 91,621 & 0.50 & 0.0158 & 5.4 \\
+ &  & LSTM s1 & 91,621 & 0.51 & 0.0173 & 3.4 \\
+ &  & LSTM s2 & 91,621 & 0.48 & 0.0167 & 3.4 \\
+ & 1\% & PCA & 91,621 & 1.00 & 0.0394 & 6.1 \\
+ &  & IF s0 & 91,621 & 1.00 & 0.0359 & 10.8 \\
+ &  & IF s1 & 91,621 & 1.00 & 0.0448 & 5.4 \\
+ &  & IF s2 & 91,621 & 1.00 & 0.0449 & 5.4 \\
+ &  & LSTM s0 & 91,621 & 1.00 & 0.0305 & 7.4 \\
+ &  & LSTM s1 & 91,621 & 0.97 & 0.0292 & 7.4 \\
+ &  & LSTM s2 & 91,621 & 0.99 & 0.0340 & 4.1 \\
+ & 2\% & PCA & 91,621 & 2.05 & 0.1129 & 2.0 \\
+ &  & IF s0 & 91,621 & 2.02 & 0.1079 & 5.4 \\
+ &  & IF s1 & 91,621 & 2.02 & 0.1170 & 4.1 \\
+ &  & IF s2 & 91,621 & 2.02 & 0.1249 & 3.4 \\
+ &  & LSTM s0 & 91,621 & 2.01 & 0.0547 & 10.8 \\
+ &  & LSTM s1 & 91,621 & 2.02 & 0.0613 & 9.5 \\
+ &  & LSTM s2 & 91,621 & 2.03 & 0.0634 & 7.4 \\
+\end{longtable}
+\end{scriptsize}

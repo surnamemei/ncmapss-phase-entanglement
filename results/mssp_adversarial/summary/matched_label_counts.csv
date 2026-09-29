@@ -1,0 +1,29 @@
+dataset,nominal_fpr,arm,matched_label,runs
+ds02,0.005,causal_regime,later at matched burden,1
+ds02,0.005,causal_regime,mixed,6
+ds02,0.005,phase_conditioned,earlier at matched burden,3
+ds02,0.005,phase_conditioned,later at matched burden,1
+ds02,0.005,phase_conditioned,mixed,3
+ds02,0.01,causal_regime,earlier at matched burden,4
+ds02,0.01,causal_regime,mixed,3
+ds02,0.01,phase_conditioned,earlier at matched burden,3
+ds02,0.01,phase_conditioned,mixed,4
+ds02,0.02,causal_regime,earlier at matched burden,5
+ds02,0.02,causal_regime,mixed,2
+ds02,0.02,phase_conditioned,earlier at matched burden,4
+ds02,0.02,phase_conditioned,mixed,3
+ds03,0.005,causal_regime,earlier at matched burden,1
+ds03,0.005,causal_regime,mixed,6
+ds03,0.005,phase_conditioned,earlier at matched burden,1
+ds03,0.005,phase_conditioned,equal,2
+ds03,0.005,phase_conditioned,mixed,4
+ds03,0.01,causal_regime,earlier at matched burden,2
+ds03,0.01,causal_regime,equal,1
+ds03,0.01,causal_regime,mixed,4
+ds03,0.01,phase_conditioned,equal,2
+ds03,0.01,phase_conditioned,mixed,5
+ds03,0.02,causal_regime,equal,3
+ds03,0.02,causal_regime,mixed,4
+ds03,0.02,phase_conditioned,earlier at matched burden,1
+ds03,0.02,phase_conditioned,equal,2
+ds03,0.02,phase_conditioned,mixed,4

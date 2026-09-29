@@ -1,0 +1,65 @@
+[
+ {
+  "reference": "N38",
+  "source_file": "chen2026.ideas_abstract.txt",
+  "source_url": "https://ideas.repec.org (RePEc record of doi:10.1016/j.ress.2025.111894)",
+  "quote": "the marginal distributions (MDs) of parameters were transformed into conditional probability distributions (CPDs) by incorporating OC variables as conditional inputs in the variational autoencoder (VAE) model, and decoupled modeling of equipment states and external OCs is achieved",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "N38",
+  "source_file": "chen2026.ideas_abstract.txt",
+  "source_url": "https://ideas.repec.org (RePEc record of doi:10.1016/j.ress.2025.111894)",
+  "quote": "Experiments were carried out on one synthetic, one public, and two real-world datasets, with SA-CVAE compared against six leading AD methods",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "N39",
+  "source_file": "asaadi2022_sd_abs.wayback_extract.txt",
+  "source_url": "https://web.archive.org/web/20240424103348/https://www.sciencedirect.com/science/article/abs/pii/S095915242200052X",
+  "quote": "Using time-variant finite mixture models to model the faulty process variables",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "N39",
+  "source_file": "asaadi2022_sd_abs.wayback_extract.txt",
+  "source_url": "https://web.archive.org/web/20240424103348/https://www.sciencedirect.com/science/article/abs/pii/S095915242200052X",
+  "quote": "calculating performance assessment indices (FAR, MAR, and AAD) in the presence of design scenarios",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "N39",
+  "source_file": "asaadi2022_sd_abs.wayback_extract.txt",
+  "source_url": "https://web.archive.org/web/20240424103348/https://www.sciencedirect.com/science/article/abs/pii/S095915242200052X",
+  "quote": "the Finite Mixture Model is utilized to model the behaviour of an Intermittent Fault (IF), which is a fault that alternates between faulty and non-faulty behaviour at discrete random intervals",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "N40",
+  "source_file": "asaadi2025_ssrn.wayback_abstract.txt",
+  "source_url": "SSRN preprint doi:10.2139/ssrn.5232115 via the Internet Archive",
+  "quote": "The methodology uses the Narrowest Over Threshold change-point detection technique to segment the process into distinct operational zones, including the Normal Operating Zone (NOZ), Rising Zone (RZ), Fault Zone (FZ), and Return to Normal (RTN)",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "N40",
+  "source_file": "asaadi2025_ssrn.wayback_abstract.txt",
+  "source_url": "SSRN preprint doi:10.2139/ssrn.5232115 via the Internet Archive",
+  "quote": "A new alarm system design methodology is introduced, guided by three key performance indices: Missed Alarm Rate (MAR), False Alarm Rate (FAR), and Average Alarm Delay (AAD)",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "N41",
+  "source_file": "diallo2025_thesis_tel-05503471.txt",
+  "source_url": "https://theses.hal.science/tel-05503471 (thesis of the first author)",
+  "quote": "The thesis then adapts the detection threshold using conformal prediction to formally control the false alarm rate without strong distributional assumptions",
+  "verbatim_in_saved_source": true
+ },
+ {
+  "reference": "steland2026 (not cited)",
+  "source_file": "steland2026.arxiv_abs.html",
+  "source_url": "https://arxiv.org/abs/2609.26652",
+  "quote": "by using adapting the threshold to a covariate $Z$ (the context) to distribute sensitivity while maintaining the false alarm rate",
+  "verbatim_in_saved_source": true
+ }
+]

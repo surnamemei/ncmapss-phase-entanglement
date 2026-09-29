@@ -1,0 +1,82 @@
+{
+ "audit_fingerprints": {
+  "cvae:0": "7c8c5f489515b39740afacb8b19054dde1b30215224b64bf8cb3c7bdd39b9655",
+  "cvae:1": "e440da10396053ca0499a6b8138ad905c85a04eb62ab95cd09ef9a78263ea45d",
+  "cvae:2": "3c4f50829e2bf26f662c4e6c5762ff7f95b3d3ae147d0d84ccced2132e3541eb",
+  "isolation_forest:0": "79f6d5975ac6ea27dc5f00d9b3b8c57896ad7f4455b5bbd14c06d5f752aa7791",
+  "isolation_forest:1": "0f7735f9ecc4e01f652f1451200226f7bdaeceb273bdf20557ed33ae21899993",
+  "isolation_forest:2": "c6079dc0b874dc73217eda03b6ec1a22db9a2ff9dd37a615c2a9fb39440f3287",
+  "lstm_autoencoder:0": "c9b7aeb4af89ffb4597965cd4001ca4bea397327f112553e21d732785dc6dbe4",
+  "lstm_autoencoder:1": "26537f67407d9776c9f345751b839b2194ccb03a3f505635e107aeb1926a1247",
+  "lstm_autoencoder:2": "8a7b560714beb1dd269ee5ab3238ddc8007f6b82a9c587f47e4e73bcdf76dfec",
+  "pca:-1": "387ad2c126eb13b43bc77fa60860f9c7c1b1af37eefdc95cc16493d59ae5c922"
+ },
+ "audit_rows": 2562046,
+ "calibration_lock_sha256": "4fabae04df1495f3b518e7b300105904b1bd87a0f6501fe7855ce6d9388b660a",
+ "code": {
+  "cvae_spec_sha256": "8fe45498a9f194d42a5e67fe3b871694e814bb3dfab69ecadbf2bee5b914bba7",
+  "files": {
+   "src/ext_calibration.py": "4f3009102b038cf2b192edf0c36008fe43da72280d8a2e60cc1cea7f05c02918",
+   "src/ext_common.py": "8b33f760c113f661fb4ce338656eac36b0197e8bfea2858e470d33e181e57f4c",
+   "src/ext_cvae.py": "7db4ca5c099d5db1b8ecc78276478e65872ea2206e4c9b94d589f474f90725fe",
+   "src/ext_endpoints.py": "3599f31faab73f6b8685b6746a93e10a890f87c70dfb7c7c7fced7f8edcf928f",
+   "src/ext_models.py": "e0cd2e307d480af6532fc468db2e53dc71ee6afc7469453ad1878781c30e292b",
+   "src/ext_pipeline.py": "16c1e795d4e8ced57f946186c889a4d12766923c4d37c478168d1c446f874404",
+   "src/ext_qfit.py": "465b352952b9e6e55090cc29a25bd453b841519b0023e6237c3d3ed98dd9d922",
+   "src/ext_summary.py": "1219cc017d9afc2e58d9ec6318914bfd06b53896f2c9b491c01203f89546753d"
+  },
+  "git_head": "73e4555ad79c27fc5538b95d5df3afe81ab4f0cf",
+  "protocol_sha256": "72ff84e198fcc4c466f898159c7bc04b879f55036c5d425a2a7285cffc3d3bce"
+ },
+ "duplicate_digests_audit": {
+  "10": {
+   "cycles": 32,
+   "rows": 145397,
+   "sha256": "13539f5d54ab33b953531c4b3cc688828037ce4ef18ea5019a27d64d64b3f11c"
+  },
+  "7": {
+   "cycles": 21,
+   "rows": 188173,
+   "sha256": "425189456246b523633e769c8f1b1782f09d7312d7149f4e4a97d8ee242459c0"
+  },
+  "8": {
+   "cycles": 31,
+   "rows": 133575,
+   "sha256": "d02737dfeb1c3b478277067e1dbadd31459cf125ee50ad14efa4507893667011"
+  },
+  "9": {
+   "cycles": 16,
+   "rows": 254743,
+   "sha256": "58a99c0646ab14ff9b1e7a9b5c32b89c003fcf2f950f922da75612dcf8f19536"
+  }
+ },
+ "finished_utc": "2026-09-28T15:28:03Z",
+ "healthy_rows": 803959,
+ "outputs_sha256": {
+  "abnormal_alarm_rates": "9d1ccd97afda62a98e7a274a92ef910a000625b003dac564a89ff3850a635282",
+  "audit_flights": "44ef837c0410ce9e05679b28d0c906e9447e8f20ae62b774085fd827d21da8e6",
+  "bootstrap_uext1_ci": "f9aabf7a7eb4fa2b362cd66be94ea4b5bc3d7f43dd6a3fbfe620cb64f4b7c84e",
+  "bootstrap_uext1_replicates_alpha_0.01": "96c98615626f40433ae57bf6c444f1c1390b0cddd6a53d412ace8c1c868d93a4",
+  "calibration_quality": "8b6b05952f2b6fd6d1bd01d7d3cd91adf5c9810859f01ee911c96b244d95b155",
+  "composition_metrics": "fbd58a1701df6ea88aa07de6682441c0fa95d620318fe7050f1c43130abdaecc",
+  "curve_level_summary": "f39bb2db0209681b2f3b0d2a13513822527815a0b29e51a6f8febdcbf7f73f2f",
+  "detection_delay": "899a444b78702f19dea509f7f14cefd1159dd262782ca7bf2b84dc75c378bf4e",
+  "flight_false_flags": "56c943f8071efbaeb980a605899e6a7fc112f81f342986f77817f62467298aa7",
+  "flight_trajectories": "7bbf54388026b3b5b8922d87840b92573111d211430d391302d19c3a4a87ed0c",
+  "locked_operating_points": "3bef646f59db9340d9bb9e708a143bcb1f5efb4464e2df4b61750bad38f846f8",
+  "matched_comparisons": "dd2a4a4f871584a63e762a3af6beb87aa17a4cb63aec9a021acecf4b09861452",
+  "matched_labels": "01a8d76456a87ec6c8d798855260d5ca4606ee271587e2bb2c03f7f9c49d65ed",
+  "matched_operating_points": "a99231378f7da9c19815adc1791910cab24fbd789faea7b19ecad7d5687fb34d",
+  "paired_transport": "b387da6f98588faeaeab2108ad8b70adb371938e2a45a2c44d0d4ed2898b38de",
+  "paired_transport_engines": "46f6f5dc320dd68f6a68567ce83e6c7c9d3ca7787b343957058c0a86db602d6d",
+  "persistence_calibration": "5eb7f88c2de248a1fdb20d9392ba8b9ccd09ec825e7da8a7a1e35104db768b1e",
+  "phase_fpr": "eb7033c7ede35545d8bf98576268e276cae0715077cbb265893edfb624c95e54",
+  "transfer_matrix": "05325f6483b3ea0c3e840bf71f435ffa5e7b255071ae26e18a12b0ed87cf89e0",
+  "transport_summary": "0523a2327c58fb6b274a0aaa66c917d8119500408f61afa5d0025ee4979bfdc1"
+ },
+ "post_onset_rows": 1758087,
+ "reproduction_only": false,
+ "seconds": 113.0,
+ "started_utc": "2026-09-28T15:26:10Z",
+ "subset": "DS05"
+}

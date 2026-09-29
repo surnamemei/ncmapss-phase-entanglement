@@ -1,0 +1,5 @@
+dataset,arm,runs,category1_runs_alpha_0.005,category1_runs_alpha_0.01,category1_runs_alpha_0.02,spread_reduced_runs_alpha_0.01,engines_contradicting_category1,engines,allowed_wording
+ds02,phase_conditioned,7,7,7,7,7,1,3,improved nominal phase-wise calibration
+ds02,causal_regime,7,4,7,7,7,1,3,reduced between-phase disparity
+ds03,phase_conditioned,7,7,6,5,7,3,6,reduced between-phase disparity
+ds03,causal_regime,7,4,6,5,7,2,6,reduced between-phase disparity

@@ -1,0 +1,497 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    24
+   ]
+  ],
+  "date-time": "2026-09-24T17:43:18Z",
+  "timestamp": 1790271798575,
+  "version": "4.1.0"
+ },
+ "reference-count": 36,
+ "publisher": "Elsevier BV",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2012,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2012-01-01T00:00:00Z",
+    "timestamp": 1325376000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Aerospace Science and Technology"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2012,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ast.2011.03.002",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2011,
+    3,
+    8
+   ]
+  ],
+  "date-time": "2011-03-08T04:32:06Z",
+  "timestamp": 1299558726000
+ },
+ "page": "70-81",
+ "source": "Crossref",
+ "is-referenced-by-count": 31,
+ "title": [
+  "Aircraft engine health management via stochastic modelling of flight data interrelations"
+ ],
+ "prefix": "10.1016",
+ "volume": "16",
+ "author": [
+  {
+   "given": "D.",
+   "family": "Dimogianopoulos",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "J.",
+   "family": "Hios",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "S.",
+   "family": "Fassois",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "569",
+   "DOI": "10.1080/00207179508921557",
+   "article-title": "Improved structure selection for nonlinear models based on term clustering",
+   "volume": "62",
+   "author": "Aguirre",
+   "year": "1995",
+   "journal-title": "International Journal of Control"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0020",
+   "doi-asserted-by": "crossref",
+   "unstructured": "E. Applebaum, M. HaʼEmek, Fuzzy classification for fault isolation in gas turbine engines, in: Joint 9th IFSA World Congress and 20th NAFIPS International Conference 2001, July 2001, pp. 292–297.",
+   "DOI": "10.1109/NAFIPS.2001.944267"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0030",
+   "doi-asserted-by": "crossref",
+   "first-page": "827",
+   "DOI": "10.1016/j.conengprac.2003.09.011",
+   "article-title": "Identification of sensor faults on turbofan engines using pattern recognition techniques",
+   "volume": "12",
+   "author": "Aretakis",
+   "year": "2004",
+   "journal-title": "Control Engineering Practice"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0040",
+   "doi-asserted-by": "crossref",
+   "first-page": "174",
+   "DOI": "10.1109/78.978374",
+   "article-title": "A tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking",
+   "volume": "50",
+   "author": "Arulampalam",
+   "year": "2002",
+   "journal-title": "IEEE Transactions on Signal Processing"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0050",
+   "doi-asserted-by": "crossref",
+   "unstructured": "L. Baoan, L. Zhihua, L. Shufen, Research of UAV fault and state forecast technology based on particle filter, in: Proceedings of AUTOTESTCON 2009, September 2009, pp. 82–87.",
+   "DOI": "10.1109/AUTEST.2009.5314050"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "1391",
+   "DOI": "10.1016/S0005-1098(98)00086-7",
+   "article-title": "On board component fault detection and isolation using the statistical local approach",
+   "volume": "34",
+   "author": "Bassevile",
+   "year": "1998",
+   "journal-title": "Automatica"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0070",
+   "doi-asserted-by": "crossref",
+   "first-page": "2157",
+   "DOI": "10.1080/00207178908559767",
+   "article-title": "Identification of MIMO nonlinear systems using a forward-regression orthogonal estimator",
+   "volume": "49",
+   "author": "Billings",
+   "year": "1989",
+   "journal-title": "International Journal of Control"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0080",
+   "series-title": "Time Series Analysis, Forecasting and Control",
+   "author": "Box",
+   "year": "1994"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0090",
+   "unstructured": "W. Bundick, Developement of an adaptive failure-detection and identification system for detecting aircraft control-element failures, NASA TT-3051, 1991."
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0100",
+   "doi-asserted-by": "crossref",
+   "unstructured": "T. Curry, E. Collins, Robust fault detection and isolation using ℓ1 estimation, in: Proceedings of the 2004 American Control Conference, June–July 2004, pp. 2451–2456.",
+   "DOI": "10.23919/ACC.2004.1383832"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0110",
+   "doi-asserted-by": "crossref",
+   "first-page": "801",
+   "DOI": "10.1016/S0967-0661(02)00032-1",
+   "article-title": "Intelligent fault-tolerant control using adaptive and learning methods",
+   "volume": "10",
+   "author": "Diao",
+   "year": "2002",
+   "journal-title": "Control Engineering Practice"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "1151",
+   "DOI": "10.1016/j.conengprac.2003.11.012",
+   "article-title": "Fault diagnosis for a turbine engine",
+   "volume": "12",
+   "author": "Diao",
+   "year": "2004",
+   "journal-title": "Control Engineering Practice"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0130",
+   "doi-asserted-by": "crossref",
+   "unstructured": "D. Dimogianopoulos, J. Hios, S. Fassois, On-board engine FDI in autonomous aircrafts using compact stochastic nonlinear modelling of flight signal dependencies, in: Proceedings of the European Control Conference ECCʼ07, July 2007.",
+   "DOI": "10.23919/ECC.2007.7068618"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0140",
+   "doi-asserted-by": "crossref",
+   "first-page": "801",
+   "DOI": "10.1243/09544100JAERO315",
+   "article-title": "Aircraft fault detection and identification by stochastic functionally pooled modelling of relationships among attitude data",
+   "volume": "222",
+   "author": "Dimogianopoulos",
+   "year": "2008",
+   "journal-title": "Proc. IMechE Part G: J. Aerospace Engineering"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0150",
+   "doi-asserted-by": "crossref",
+   "first-page": "1385",
+   "DOI": "10.1109/TCST.2008.2005836",
+   "article-title": "FDI for aircraft systems using stochastic pooled NARMAX representations: Design and assessment",
+   "volume": "17",
+   "author": "Dimogianopoulos",
+   "year": "2009",
+   "journal-title": "IEEE Transactions on Control Systems Technology"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0160",
+   "series-title": "Encyclopedia of Vibration",
+   "first-page": "676",
+   "article-title": "Parametric identification of vibrating structures",
+   "author": "Fassois",
+   "year": "2001"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0170",
+   "doi-asserted-by": "crossref",
+   "first-page": "411",
+   "DOI": "10.1098/rsta.2006.1929",
+   "article-title": "Time series methods for fault detection and identification in vibrating structures",
+   "volume": "365",
+   "author": "Fassois",
+   "year": "2007",
+   "journal-title": "Philosophical Transactions of the Royal Society: Mathematical, Physical and Engineering Sciences"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0180",
+   "doi-asserted-by": "crossref",
+   "unstructured": "S. Garg, Controls and health management technologies for intelligent aerospace propulsion systems, NASA TM-2004-212915, AIAA-2004-0949, 2004.",
+   "DOI": "10.2514/6.2004-949"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0190",
+   "doi-asserted-by": "crossref",
+   "unstructured": "D. Gayme, S. Menon, C. Ball, D. Mukavetz, E. Nwadiogbu, Fault diagnosis in gas turbine engines using fuzzy logic, in: IEEE International Conference on Systems, Man and Cybernetics, October 2003, pp. 3756–3762.",
+   "DOI": "10.1109/ICSMC.2003.1244473"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0200",
+   "series-title": "Nonlinear System Identification – Input–Output Modelling Approach",
+   "author": "Haber",
+   "year": "1999"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0210",
+   "doi-asserted-by": "crossref",
+   "unstructured": "T. Kobayashi, D. Simon, Application of a bank of Kalman filters for aircraft engine fault diagnostics, NASA TM-2003-212526, ARL-TR-2955 GT2003-38550, 2003.",
+   "DOI": "10.1115/GT2003-38550"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0220",
+   "doi-asserted-by": "crossref",
+   "first-page": "132",
+   "DOI": "10.1080/00207170310001646264",
+   "article-title": "A bootstrap method for structure detection of NARMAX models",
+   "volume": "77",
+   "author": "Kukreja",
+   "year": "2004",
+   "journal-title": "International Journal of Control"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0230",
+   "doi-asserted-by": "crossref",
+   "unstructured": "E. Larson, B.E. Parker, B. Clark, Model-based sensor and actuator fault detection and isolation, in: Proceedings of the 2002 American Control Conference, May 2002, pp. 4215–4219.",
+   "DOI": "10.1109/ACC.2002.1024593"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0240",
+   "doi-asserted-by": "crossref",
+   "first-page": "763",
+   "DOI": "10.2514/1.34320",
+   "article-title": "An adaptive estimation algorithm for aircraft engine performance monitoring",
+   "volume": "24",
+   "author": "Léonard",
+   "year": "2008",
+   "journal-title": "Journal of Propulsion and Power"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0250",
+   "doi-asserted-by": "crossref",
+   "unstructured": "A. Marcos, G. Balas, D. Mylaraswamy, Robust identification and residual generation application to a turbofan engine, in: 2004 IEEE Aerospace Conference Proceedings, March 2004, pp. 3384–3395.",
+   "DOI": "10.1109/AERO.2004.1368145"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0260",
+   "doi-asserted-by": "crossref",
+   "first-page": "105",
+   "DOI": "10.1016/j.conengprac.2004.02.006",
+   "article-title": "An application of H∞ fault detection and isolation to a transport aircraft",
+   "volume": "13",
+   "author": "Marcos",
+   "year": "2005",
+   "journal-title": "Control Engineering Practice"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0270",
+   "doi-asserted-by": "crossref",
+   "unstructured": "P. Mishra, S. Ölçmen, C. Karr, L. Trevino, Model diagnostics of jet engines, in: 44th AIAA Aerospace Sciences Meeting and Exhibit, January 2006.",
+   "DOI": "10.2514/6.2006-1479"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0280",
+   "doi-asserted-by": "crossref",
+   "first-page": "321",
+   "DOI": "10.1016/S0306-2619(02)00015-6",
+   "article-title": "Multiple-sensor fault diagnoses for a 2-shaft stationary gas-turbine",
+   "volume": "71",
+   "author": "Ogaji",
+   "year": "2002",
+   "journal-title": "Applied Energy"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0290",
+   "doi-asserted-by": "crossref",
+   "unstructured": "S. Simani, M. Benini, Residual generator design for the FDI of linear multivariable sampled-data dynamic systems, in: Proceedings of the 46th IEEE Conference in Decision and Control, December 2007, pp. 2602–2607.",
+   "DOI": "10.1109/CDC.2007.4434178"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0300",
+   "doi-asserted-by": "crossref",
+   "first-page": "276",
+   "DOI": "10.1016/j.ast.2007.06.002",
+   "article-title": "A comparison of filtering approaches for aircraft engine health estimation",
+   "volume": "12",
+   "author": "Simon",
+   "year": "2008",
+   "journal-title": "Aerospace Science and Technology"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0310",
+   "series-title": "System Identification",
+   "author": "Söderström",
+   "year": "1989"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0320",
+   "doi-asserted-by": "crossref",
+   "unstructured": "I. Tumer, A. Bajwa, A survey of aircraft engine health monitoring systems, in: 35th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit, June 1999.",
+   "DOI": "10.2514/6.1999-2528"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0330",
+   "unstructured": "A. Volponi, B. Wood, Engine health management for aircraft propulsion systems, in: First International Forum on Integrated System Health Engineering and Management in Aerospace ISHEM 2005, November 2005."
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0340",
+   "doi-asserted-by": "crossref",
+   "first-page": "353",
+   "DOI": "10.1016/S0888-3270(02)00221-2",
+   "article-title": "Fault detection and isolation of systems with slowly varying parameters – simulation with a simplified aircraft turbo engine model",
+   "volume": "18",
+   "author": "Wu",
+   "year": "2004",
+   "journal-title": "Mechanical Systems and Signal Processing"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0350",
+   "doi-asserted-by": "crossref",
+   "first-page": "576",
+   "DOI": "10.1109/9.995036",
+   "article-title": "A robust detection and isolation scheme for abrupt and incipient faults in nonlinear systems",
+   "volume": "47",
+   "author": "Zhang",
+   "year": "2002",
+   "journal-title": "IEEE Transactions on Automatic Control"
+  },
+  {
+   "key": "10.1016/j.ast.2011.03.002_br0360",
+   "doi-asserted-by": "crossref",
+   "first-page": "370",
+   "DOI": "10.1109/TAC.2005.843875",
+   "article-title": "Sensor bias fault isolation in a class of nonlinear systems",
+   "volume": "50",
+   "author": "Zhang",
+   "year": "2005",
+   "journal-title": "IEEE Transactions on Automatic Control"
+  }
+ ],
+ "container-title": [
+  "Aerospace Science and Technology"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1270963811000381?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1270963811000381?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    3,
+    3
+   ]
+  ],
+  "date-time": "2025-03-03T19:21:07Z",
+  "timestamp": 1741029667000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1270963811000381"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2012,
+    1
+   ]
+  ]
+ },
+ "references-count": 36,
+ "journal-issue": {
+  "issue": "1",
+  "published-print": {
+   "date-parts": [
+    [
+     2012,
+     1
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S1270963811000381"
+ ],
+ "URL": "https://doi.org/10.1016/j.ast.2011.03.002",
+ "relation": {},
+ "ISSN": [
+  "1270-9638"
+ ],
+ "issn-type": [
+  {
+   "value": "1270-9638",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2012,
+    1
+   ]
+  ]
+ }
+}

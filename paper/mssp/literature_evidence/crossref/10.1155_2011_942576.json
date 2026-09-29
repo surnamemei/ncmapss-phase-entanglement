@@ -1,0 +1,263 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2022,
+    4,
+    4
+   ]
+  ],
+  "date-time": "2022-04-04T14:08:27Z",
+  "timestamp": 1649081307408
+ },
+ "reference-count": 12,
+ "publisher": "Hindawi Limited",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2011,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2011-01-01T00:00:00Z",
+    "timestamp": 1293840000000
+   },
+   "content-version": "unspecified",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/3.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "International Journal of Rotating Machinery"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2011
+   ]
+  ]
+ },
+ "abstract": "<jats:p>The goal of module performance analysis is to reliably assess the health of the main components of an aircraft engine. A predictive maintenance strategy can leverage this information to increase operability and safety as well as to reduce costs. Degradation undergone by an engine can be divided into gradual deterioration and accidental events. Kalman filters have proven very efficient at tracking progressive deterioration but are poor performers in the face of abrupt events. Adaptive estimation is considered as an appropriate solution to this deficiency. This paper reports the evaluation of the detection capability of an adaptive diagnosis tool on the basis of simulated scenarios that may be encountered during the operation of a commercial turbofan engine. The diagnosis tool combines a Kalman filter and a secondary system that monitors the residuals. This auxiliary component implements a generalised likelihood ratio test in order to detect abrupt events.</jats:p>",
+ "DOI": "10.1155/2011/942576",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2011,
+    2,
+    24
+   ]
+  ],
+  "date-time": "2011-02-24T19:32:54Z",
+  "timestamp": 1298575974000
+ },
+ "page": "1-11",
+ "source": "Crossref",
+ "is-referenced-by-count": 1,
+ "title": [
+  "Assessment of an Anomaly Detector for Jet Engine Health Monitoring"
+ ],
+ "prefix": "10.1155",
+ "volume": "2011",
+ "author": [
+  {
+   "given": "Sebastien",
+   "family": "Borguet",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Turbomachinery Group, University of Liège, Sart-Tilman Campus B52/3, 4000 Liège, Belgium"
+    }
+   ],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Olivier",
+   "family": "Léonard",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Turbomachinery Group, University of Liège, Sart-Tilman Campus B52/3, 4000 Liège, Belgium"
+    }
+   ],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  }
+ ],
+ "member": "98",
+ "reference": [
+  {
+   "key": "1",
+   "volume-title": "Foundation of gas path analysis (part i and ii)",
+   "year": "2003"
+  },
+  {
+   "key": "2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.apenergy.2003.10.005"
+  },
+  {
+   "key": "3",
+   "doi-asserted-by": "crossref",
+   "first-page": "35",
+   "DOI": "10.1115/1.3662552",
+   "volume": "82",
+   "year": "1960",
+   "journal-title": "Journal of Basic Engineering"
+  },
+  {
+   "issue": "5",
+   "key": "4",
+   "doi-asserted-by": "crossref",
+   "first-page": "693",
+   "DOI": "10.1109/TAC.1972.1100100",
+   "volume": "17",
+   "year": "1972",
+   "journal-title": "IEEE Transactions on Automatic Control"
+  },
+  {
+   "key": "6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1115/1.2967493"
+  },
+  {
+   "key": "7",
+   "year": "1993"
+  },
+  {
+   "key": "8",
+   "year": "1968"
+  },
+  {
+   "issue": "1",
+   "key": "9",
+   "doi-asserted-by": "crossref",
+   "first-page": "108",
+   "DOI": "10.1109/TAC.1976.1101146",
+   "volume": "21",
+   "year": "1976",
+   "journal-title": "IEEE Transactions on Automatic Control"
+  },
+  {
+   "key": "11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1115/1.1512678"
+  },
+  {
+   "issue": "2",
+   "key": "12",
+   "doi-asserted-by": "crossref",
+   "first-page": "161",
+   "DOI": "10.1115/1.2906565",
+   "volume": "114",
+   "year": "1992",
+   "journal-title": "Journal of Engineering for Gas Turbines and Power"
+  },
+  {
+   "key": "13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0306-2619(02)00042-9"
+  },
+  {
+   "key": "19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1115/1.3156815"
+  }
+ ],
+ "container-title": [
+  "International Journal of Rotating Machinery"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://downloads.hindawi.com/journals/ijrm/2011/942576.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://downloads.hindawi.com/journals/ijrm/2011/942576.xml",
+   "content-type": "application/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://downloads.hindawi.com/journals/ijrm/2011/942576.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2017,
+    6,
+    19
+   ]
+  ],
+  "date-time": "2017-06-19T20:12:36Z",
+  "timestamp": 1497903156000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "http://www.hindawi.com/journals/ijrm/2011/942576/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2011
+   ]
+  ]
+ },
+ "references-count": 12,
+ "alternative-id": [
+  "942576",
+  "942576"
+ ],
+ "URL": "https://doi.org/10.1155/2011/942576",
+ "relation": {},
+ "ISSN": [
+  "1023-621X",
+  "1542-3034"
+ ],
+ "issn-type": [
+  {
+   "value": "1023-621X",
+   "type": "print"
+  },
+  {
+   "value": "1542-3034",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2011
+   ]
+  ]
+ }
+}

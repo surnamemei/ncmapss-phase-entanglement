@@ -1,0 +1,322 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    11
+   ]
+  ],
+  "date-time": "2026-09-11T04:07:52Z",
+  "timestamp": 1789099672709,
+  "version": "build-2803163510"
+ },
+ "reference-count": 0,
+ "publisher": "Springer Science and Business Media LLC",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      11
+     ]
+    ],
+    "date-time": "2026-09-11T00:00:00Z",
+    "timestamp": 1789084800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      11
+     ]
+    ],
+    "date-time": "2026-09-11T00:00:00Z",
+    "timestamp": 1789084800000
+   },
+   "content-version": "am",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100017700",
+   "name": "Henan Province Science and Technology Research Project",
+   "doi-asserted-by": "crossref",
+   "award": [
+    "262102210224"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "262102210224"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100017700",
+     "id-type": "DOI",
+     "asserted-by": "crossref"
+    }
+   ]
+  },
+  {
+   "name": "Sichuan Provincial Engineering Research Centre for Flight and Operational Support of Domestic Civil Aircraft",
+   "award": [
+    "MJCYZY202503"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "MJCYZY202503"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sichuan Provincial Civil Aviation Airport Smart Operation and Maintenance Engineering Research Centre Independent Research",
+   "award": [
+    "JCZX2023ZZ07"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "JCZX2023ZZ07"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "the Fundamental Research Funds for the Central Universities",
+   "award": [
+    "25CAFUC03033"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "25CAFUC03033"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "link.springer.com"
+  ],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Sci Rep"
+ ],
+ "DOI": "10.1038/s41598-026-67776-4",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    11
+   ]
+  ],
+  "date-time": "2026-09-11T03:33:27Z",
+  "timestamp": 1789097607000
+ },
+ "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "RPA-LSTM: Reversible normalization and prediction-assisted LSTM for aero-engine intake-system ECU anomaly detection"
+ ],
+ "prefix": "10.1038",
+ "author": [
+  {
+   "given": "Linfeng",
+   "family": "Zhong",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ting",
+   "family": "Zhou",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xianming",
+   "family": "Liu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Kaijun",
+   "family": "Xu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xiaoyang",
+   "family": "Chen",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "297",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    11
+   ]
+  ]
+ },
+ "container-title": [
+  "Scientific Reports"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.nature.com/articles/s41598-026-67776-4",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    11
+   ]
+  ],
+  "date-time": "2026-09-11T03:33:29Z",
+  "timestamp": 1789097609000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.nature.com/articles/s41598-026-67776-4"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    11
+   ]
+  ]
+ },
+ "references-count": 0,
+ "alternative-id": [
+  "67776"
+ ],
+ "URL": "https://doi.org/10.1038/s41598-026-67776-4",
+ "relation": {},
+ "ISSN": [
+  "2045-2322"
+ ],
+ "issn-type": [
+  {
+   "value": "2045-2322",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    11
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "24 May 2026",
+   "order": 1,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "18 August 2026",
+   "order": 2,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "11 September 2026",
+   "order": 3,
+   "name": "first_online",
+   "label": "First Online",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "The authors declare no competing interests.",
+   "order": 1,
+   "name": "Ethics",
+   "label": "Competing interests",
+   "group": {
+    "name": "EthicsHeading",
+    "label": "Declarations"
+   }
+  }
+ ]
+}

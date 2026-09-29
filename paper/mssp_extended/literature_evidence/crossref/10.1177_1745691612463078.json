@@ -1,0 +1,502 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    11
+   ]
+  ],
+  "date-time": "2026-09-11T12:08:54Z",
+  "timestamp": 1789128534067,
+  "version": "build-2803163510"
+ },
+ "reference-count": 45,
+ "publisher": "SAGE Publications",
+ "issue": "6",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2012,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2012-11-01T00:00:00Z",
+    "timestamp": 1351728000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "journals.sagepub.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Perspect Psychol Sci"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2012,
+    11
+   ]
+  ]
+ },
+ "abstract": "<jats:p>The veracity of substantive research claims hinges on the way experimental data are collected and analyzed. In this article, we discuss an uncomfortable fact that threatens the core of psychology’s academic enterprise: almost without exception, psychologists do not commit themselves to a method of data analysis before they see the actual data. It then becomes tempting to fine tune the analysis to the data in order to obtain a desired result—a procedure that invalidates the interpretation of the common statistical tests. The extent of the fine tuning varies widely across experiments and experimenters but is almost impossible for reviewers and readers to gauge. To remedy the situation, we propose that researchers preregister their studies and indicate in advance the analyses they intend to conduct. Only these analyses deserve the label “confirmatory,” and only for these analyses are the common statistical tests valid. Other analyses can be carried out but these should be labeled “exploratory.” We illustrate our proposal with a confirmatory replication attempt of a study on extrasensory perception.</jats:p>",
+ "DOI": "10.1177/1745691612463078",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2012,
+    11,
+    7
+   ]
+  ],
+  "date-time": "2012-11-07T18:09:48Z",
+  "timestamp": 1352311788000
+ },
+ "page": "632-638",
+ "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 733,
+ "title": [
+  "An Agenda for Purely Confirmatory Research"
+ ],
+ "prefix": "10.1177",
+ "volume": "7",
+ "author": [
+  {
+   "given": "Eric-Jan",
+   "family": "Wagenmakers",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "University of Amsterdam, The Netherlands"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ruud",
+   "family": "Wetzels",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of Amsterdam, The Netherlands"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Denny",
+   "family": "Borsboom",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of Amsterdam, The Netherlands"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Han L. J.",
+   "family": "van der Maas",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of Amsterdam, The Netherlands"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Rogier A.",
+   "family": "Kievit",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of Amsterdam, The Netherlands"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "179",
+ "published-online": {
+  "date-parts": [
+   [
+    2012,
+    11,
+    7
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "bibr1-1745691612463078",
+   "first-page": "311",
+   "volume": "29",
+   "author": "Anderson D. R.",
+   "year": "2001",
+   "journal-title": "Wildlife Society Bulletin"
+  },
+  {
+   "key": "bibr2-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691612459060"
+  },
+  {
+   "key": "bibr3-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/483531a"
+  },
+  {
+   "key": "bibr4-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/a0021524"
+  },
+  {
+   "key": "bibr5-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/a0024777"
+  },
+  {
+   "key": "bibr6-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1126/science.335.6076.1558"
+  },
+  {
+   "key": "bibr7-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691611406920"
+  },
+  {
+   "key": "bibr8-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/h0044139"
+  },
+  {
+   "key": "bibr9-1745691612463078",
+   "first-page": "10",
+   "volume": "37",
+   "author": "Feynman R. P.",
+   "year": "1974",
+   "journal-title": "Engineering & Science"
+  },
+  {
+   "key": "bibr10-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691612460686"
+  },
+  {
+   "key": "bibr11-1745691612463078",
+   "author": "Galak J.",
+   "journal-title": "Journal of Personality and Social Psychology"
+  },
+  {
+   "key": "bibr12-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/a0015251"
+  },
+  {
+   "key": "bibr13-1745691612463078",
+   "volume-title": "Bad science",
+   "author": "Goldacre B.",
+   "year": "2009"
+  },
+  {
+   "key": "bibr14-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691612459057"
+  },
+  {
+   "key": "bibr15-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-0-387-09612-4"
+  },
+  {
+   "key": "bibr16-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1371/journal.pmed.0020124"
+  },
+  {
+   "key": "bibr17-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1126/science.334.6060.1225"
+  },
+  {
+   "key": "bibr18-1745691612463078",
+   "volume-title": "Theory of probability",
+   "author": "Jeffreys H.",
+   "year": "1961",
+   "edition": "3"
+  },
+  {
+   "key": "bibr19-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/0956797611430953"
+  },
+  {
+   "key": "bibr20-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/01621459.1995.10476572"
+  },
+  {
+   "key": "bibr21-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1207/s15327957pspr0203_4"
+  },
+  {
+   "key": "bibr22-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177704038"
+  },
+  {
+   "key": "bibr23-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/nn.2303"
+  },
+  {
+   "key": "bibr24-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/0033-2909.111.3.490"
+  },
+  {
+   "key": "bibr25-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/14716-000"
+  },
+  {
+   "key": "bibr26-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691612459519"
+  },
+  {
+   "key": "bibr27-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/1089-2680.2.2.175"
+  },
+  {
+   "key": "bibr28-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691612459058"
+  },
+  {
+   "key": "bibr29-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/scibx.2011.416"
+  },
+  {
+   "key": "bibr30-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/nrd3439-c1"
+  },
+  {
+   "key": "bibr31-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1371/journal.pone.0033423"
+  },
+  {
+   "issue": "2",
+   "key": "bibr32-1745691612463078",
+   "first-page": "9",
+   "volume": "25",
+   "author": "Roediger H. L.",
+   "year": "2012",
+   "journal-title": "APS Observer"
+  },
+  {
+   "key": "bibr33-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691612454303"
+  },
+  {
+   "key": "bibr34-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3758/PBR.16.2.225"
+  },
+  {
+   "key": "bibr35-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/485149a"
+  },
+  {
+   "key": "bibr36-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1198/000313001300339950"
+  },
+  {
+   "key": "bibr37-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/0956797611417632"
+  },
+  {
+   "key": "bibr38-1745691612463078",
+   "first-page": "30",
+   "volume": "54",
+   "author": "Sterling T. D.",
+   "year": "1959",
+   "journal-title": "Journal of the American Statistical Association"
+  },
+  {
+   "key": "bibr39-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/00031305.1995.10476125"
+  },
+  {
+   "key": "bibr40-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/j.1745-6924.2009.01125.x"
+  },
+  {
+   "key": "bibr41-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3758/BF03194105"
+  },
+  {
+   "key": "bibr42-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/a0022790"
+  },
+  {
+   "key": "bibr43-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1177/1745691611406923"
+  },
+  {
+   "key": "bibr44-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3758/PBR.16.4.752"
+  },
+  {
+   "key": "bibr45-1745691612463078",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/485298a"
+  }
+ ],
+ "container-title": [
+  "Perspectives on Psychological Science"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1745691612463078",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/1745691612463078",
+   "content-type": "application/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1745691612463078",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    5,
+    2
+   ]
+  ],
+  "date-time": "2026-05-02T08:34:28Z",
+  "timestamp": 1777710868000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://journals.sagepub.com/doi/10.1177/1745691612463078"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2012,
+    11
+   ]
+  ]
+ },
+ "references-count": 45,
+ "journal-issue": {
+  "issue": "6",
+  "published-print": {
+   "date-parts": [
+    [
+     2012,
+     11
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1177/1745691612463078"
+ ],
+ "URL": "https://doi.org/10.1177/1745691612463078",
+ "relation": {},
+ "ISSN": [
+  "1745-6916",
+  "1745-6924"
+ ],
+ "issn-type": [
+  {
+   "value": "1745-6916",
+   "type": "print"
+  },
+  {
+   "value": "1745-6924",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2012,
+    11
+   ]
+  ]
+ }
+}

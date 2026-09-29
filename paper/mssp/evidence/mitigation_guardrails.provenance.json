@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/mitigation_guardrails.csv": "e88b4d82103fa4d82f428ce59f48a98b2a296dcdb9b16c51e4a04c8a482b0d2f"
+  },
+  "inputs": {
+    "results/mssp_mitigation/ds02/stage_e/guardrails.csv": "085297e35d3a37f810cc0db1d04f26105b8473cd6f2c614c7102d982235c9eea",
+    "results/mssp_mitigation/ds03/stage_e/guardrails.csv": "557caf3848e84ef41ed30c811c5e0dc38837bd976d305102a0c9011c86afdf78"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:45+00:00"
+}

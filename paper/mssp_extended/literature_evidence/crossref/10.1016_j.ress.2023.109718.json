@@ -1,0 +1,904 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    24
+   ]
+  ],
+  "date-time": "2026-09-24T16:51:16Z",
+  "timestamp": 1790268676664,
+  "version": "4.1.0"
+ },
+ "reference-count": 63,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2024-02-01T00:00:00Z",
+    "timestamp": 1706745600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2024-02-01T00:00:00Z",
+    "timestamp": 1706745600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2023-11-01T00:00:00Z",
+    "timestamp": 1698796800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001711",
+   "name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "PP00P2_176878"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "PP00P2_176878"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001711",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Reliability Engineering &amp; System Safety"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2024,
+    2
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ress.2023.109718",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    27
+   ]
+  ],
+  "date-time": "2023-10-27T07:23:45Z",
+  "timestamp": 1698391425000
+ },
+ "page": "109718",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 74,
+ "special_numbering": "C",
+ "title": [
+  "Domain adaptation via alignment of operation profile for Remaining Useful Lifetime prediction"
+ ],
+ "prefix": "10.1016",
+ "volume": "242",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-7351-6214",
+   "authenticated-orcid": false,
+   "given": "Ismail",
+   "family": "Nejjar",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-2817-7663",
+   "authenticated-orcid": false,
+   "given": "Fabian",
+   "family": "Geissmann",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-2210-4455",
+   "authenticated-orcid": false,
+   "given": "Mengjie",
+   "family": "Zhao",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Cees",
+   "family": "Taal",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9546-1488",
+   "authenticated-orcid": false,
+   "given": "Olga",
+   "family": "Fink",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "1",
+   "key": "10.1016/j.ress.2023.109718_b1",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1016/j.ejor.2010.11.018",
+   "article-title": "Remaining useful life estimation–a review on the statistical data driven approaches",
+   "volume": "213",
+   "author": "Si",
+   "year": "2011",
+   "journal-title": "European J Oper Res"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b2",
+   "doi-asserted-by": "crossref",
+   "first-page": "213",
+   "DOI": "10.1016/j.ymssp.2018.05.050",
+   "article-title": "Deep learning and its applications to machine health monitoring",
+   "volume": "115",
+   "author": "Zhao",
+   "year": "2019",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b3",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2020.103678",
+   "article-title": "Potential, challenges and future directions for deep learning in prognostics and health management applications",
+   "volume": "92",
+   "author": "Fink",
+   "year": "2020",
+   "journal-title": "Eng Appl Artif Intell"
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.ress.2023.109718_b4",
+   "doi-asserted-by": "crossref",
+   "first-page": "3550",
+   "DOI": "10.3390/s21103550",
+   "article-title": "Contrastive learning for fault detection and diagnostics in the context of changing operating conditions and novel fault types",
+   "volume": "21",
+   "author": "Rombach",
+   "year": "2021",
+   "journal-title": "Sensors"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b5",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2022.108857",
+   "article-title": "Controlled generation of unseen faults for partial and open-partial domain adaptation",
+   "volume": "230",
+   "author": "Rombach",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ress.2023.109718_b6",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1145/3400066",
+   "article-title": "A survey of unsupervised deep domain adaptation",
+   "volume": "11",
+   "author": "Wilson",
+   "year": "2020",
+   "journal-title": "ACM Trans Intell Syst Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b7",
+   "doi-asserted-by": "crossref",
+   "first-page": "121",
+   "DOI": "10.1016/j.neucom.2020.04.045",
+   "article-title": "A systematic review of deep transfer learning for machinery fault diagnosis",
+   "volume": "407",
+   "author": "Li",
+   "year": "2020",
+   "journal-title": "Neurocomputing"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b8",
+   "series-title": "2019 Prognostics and system health management conference (PHM-Paris)",
+   "first-page": "279",
+   "article-title": "Domain adaptive transfer learning for fault diagnosis",
+   "author": "Wang",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b9",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2019.106682",
+   "article-title": "Remaining useful lifetime prediction via deep domain adaptation",
+   "volume": "195",
+   "author": "da Costa",
+   "year": "2020",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b10",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2020.108286",
+   "article-title": "Transferable convolutional neural network based remaining useful life prediction of bearing under multiple failure behaviors",
+   "volume": "168",
+   "author": "Cheng",
+   "year": "2021",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b11",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2021.107946",
+   "article-title": "Temporal convolution-based transferable cross-domain adaptation approach for remaining useful life estimation under variable failure behaviors",
+   "volume": "216",
+   "author": "Zhuang",
+   "year": "2021",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b12",
+   "series-title": "International conference on machine learning",
+   "first-page": "1180",
+   "article-title": "Unsupervised domain adaptation by backpropagation",
+   "author": "Ganin",
+   "year": "2015"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b13",
+   "series-title": "Towards principled methods for training generative adversarial networks",
+   "author": "Arjovsky",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b14",
+   "article-title": "Conditional adversarial domain adaptation",
+   "volume": "31",
+   "author": "Long",
+   "year": "2018",
+   "journal-title": "Adv Neural Inf Process Syst"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b15",
+   "article-title": "Domain-adversarial training of neural networks",
+   "volume": "17",
+   "author": "Ganin",
+   "year": "2016",
+   "journal-title": "J Mach Learn Res"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b16",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zamir AR, Sax A, Shen W, Guibas LJ, Malik J, Savarese S. Taskonomy: Disentangling task transfer learning. In: Proceedings of the IEEE conference on computer vision and pattern recognition. 2018, p. 3712–22.",
+   "DOI": "10.1109/CVPR.2018.00391"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wang Q, Dai D, Hoyer L, Van Gool L, Fink O. Domain Adaptive Semantic Segmentation With Self-Supervised Depth Estimation. In: Proceedings of the IEEE/CVF international conference on computer vision (ICCV). 2021, p. 8515–25.",
+   "DOI": "10.1109/ICCV48922.2021.00840"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ress.2023.109718_b18",
+   "doi-asserted-by": "crossref",
+   "first-page": "5",
+   "DOI": "10.3390/data6010005",
+   "article-title": "Aircraft engine run-to-failure dataset under real flight conditions for prognostics and diagnostics",
+   "volume": "6",
+   "author": "Arias Chao",
+   "year": "2021",
+   "journal-title": "Data"
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.ress.2023.109718_b19",
+   "doi-asserted-by": "crossref",
+   "first-page": "1345",
+   "DOI": "10.1109/TKDE.2009.191",
+   "article-title": "A survey on transfer learning",
+   "volume": "22",
+   "author": "Pan",
+   "year": "2009",
+   "journal-title": "IEEE Trans Knowl Data Eng"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b20",
+   "series-title": "International conference on machine learning",
+   "first-page": "97",
+   "article-title": "Learning transferable features with deep adaptation networks",
+   "author": "Long",
+   "year": "2015"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b21",
+   "series-title": "Deep transfer learning with joint adaptation networks",
+   "author": "Long",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Saito K, Watanabe K, Ushiku Y, Harada T. Maximum classifier discrepancy for unsupervised domain adaptation. In: Proceedings of the IEEE conference on computer vision and pattern recognition. 2018, p. 3723–32.",
+   "DOI": "10.1109/CVPR.2018.00392"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b23",
+   "series-title": "Revisiting batch normalization for practical domain adaptation",
+   "author": "Li",
+   "year": "2016"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b24",
+   "series-title": "2017 IEEE international conference on computer vision (ICCV)",
+   "first-page": "5077",
+   "article-title": "Autodial: Automatic domain alignment layers",
+   "author": "Carlucci",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b25",
+   "series-title": "International conference on algorithmic learning theory",
+   "first-page": "308",
+   "article-title": "Domain adaptation in regression",
+   "author": "Cortes",
+   "year": "2011"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b26",
+   "series-title": "Domain adaptation: Learning bounds and algorithms",
+   "author": "Mansour",
+   "year": "2009"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b27",
+   "series-title": "International Conference on Machine Learning",
+   "first-page": "1749",
+   "article-title": "Representation subspace distance for domain adaptation regression",
+   "author": "Chen",
+   "year": "2021"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b28",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Nejjar I, Wang Q, Fink O. DARE-GRAM: Unsupervised Domain Adaptation Regression by Aligning Inverse Gram Matrices. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023, p. 11744–54.",
+   "DOI": "10.1109/CVPR52729.2023.01130"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b29",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2021.108487",
+   "article-title": "A perspective survey on deep transfer learning for fault diagnosis in industrial scenarios: Theories, applications and challenges",
+   "volume": "167",
+   "author": "Li",
+   "year": "2022",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b30",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2020.108071",
+   "article-title": "Unsupervised domain adaptation via enhanced transfer joint matching for bearing fault diagnosis",
+   "volume": "165",
+   "author": "Zhang",
+   "year": "2020",
+   "journal-title": "Measurement"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ress.2023.109718_b31",
+   "doi-asserted-by": "crossref",
+   "first-page": "407",
+   "DOI": "10.1007/s42835-018-00048-y",
+   "article-title": "An approach for HVCB mechanical fault diagnosis based on a deep belief network and a transfer learning strategy",
+   "volume": "14",
+   "author": "Pan",
+   "year": "2019",
+   "journal-title": "J Electr Eng Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b32",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.knosys.2021.106816",
+   "article-title": "Unsupervised transfer learning for anomaly detection: Application to complementary operating condition transfer",
+   "volume": "216",
+   "author": "Michau",
+   "year": "2021",
+   "journal-title": "Knowl-Based Syst"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b33",
+   "doi-asserted-by": "crossref",
+   "first-page": "356",
+   "DOI": "10.1016/j.isatra.2020.08.012",
+   "article-title": "A hybrid of FEM simulations and generative adversarial networks to classify faults in rotor-bearing systems",
+   "volume": "108",
+   "author": "Gao",
+   "year": "2021",
+   "journal-title": "ISA Trans",
+   "ISSN": "https://id.crossref.org/issn/0019-0578",
+   "issn-type": "print"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ress.2023.109718_b34",
+   "doi-asserted-by": "crossref",
+   "first-page": "2182",
+   "DOI": "10.1177/1475921720980718",
+   "article-title": "Simulation data driven weakly supervised adversarial domain adaptation approach for intelligent cross-machine fault diagnosis",
+   "volume": "20",
+   "author": "Yu",
+   "year": "2021",
+   "journal-title": "Struct Health Monit"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b35",
+   "doi-asserted-by": "crossref",
+   "first-page": "692",
+   "DOI": "10.1016/j.ymssp.2018.12.051",
+   "article-title": "An intelligent fault diagnosis approach based on transfer learning from laboratory bearings to locomotive bearings",
+   "volume": "122",
+   "author": "Yang",
+   "year": "2019",
+   "journal-title": "Mech Syst Signal Process",
+   "ISSN": "https://id.crossref.org/issn/0888-3270",
+   "issn-type": "print"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b36",
+   "first-page": "1",
+   "article-title": "Integrating expert knowledge with domain adaptation for unsupervised fault diagnosis",
+   "volume": "71",
+   "author": "Wang",
+   "year": "2021",
+   "journal-title": "IEEE Trans Instrum Meas"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ress.2023.109718_b37",
+   "doi-asserted-by": "crossref",
+   "first-page": "2296",
+   "DOI": "10.1109/TIE.2016.2627020",
+   "article-title": "Deep model based domain adaptation for fault diagnosis",
+   "volume": "64",
+   "author": "Lu",
+   "year": "2016",
+   "journal-title": "IEEE Trans Ind Electron"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b38",
+   "doi-asserted-by": "crossref",
+   "first-page": "180",
+   "DOI": "10.1016/j.sigpro.2018.12.005",
+   "article-title": "Multi-layer domain adaptation method for rolling bearing fault diagnosis",
+   "volume": "157",
+   "author": "Li",
+   "year": "2019",
+   "journal-title": "Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b39",
+   "series-title": "Adversarial adaptive 1-D convolutional neural networks for bearing fault diagnosis under varying working condition",
+   "author": "Zhang",
+   "year": "2018"
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.ress.2023.109718_b40",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1088/1361-6501/abe56f",
+   "article-title": "An enhanced sparse filtering method for transfer fault diagnosis using maximum classifier discrepancy",
+   "volume": "32",
+   "author": "Bao",
+   "year": "2021",
+   "journal-title": "Meas Sci Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b41",
+   "doi-asserted-by": "crossref",
+   "first-page": "76187",
+   "DOI": "10.1109/ACCESS.2018.2883078",
+   "article-title": "Bearing fault diagnosis under variable working conditions based on domain adaptation using feature transfer learning",
+   "volume": "6",
+   "author": "Tong",
+   "year": "2018",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b42",
+   "first-page": "1",
+   "article-title": "A hybrid generalization network for intelligent fault diagnosis of rotating machinery under unseen working conditions",
+   "volume": "70",
+   "author": "Han",
+   "year": "2021",
+   "journal-title": "IEEE Trans Instrum Meas"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ress.2023.109718_b43",
+   "doi-asserted-by": "crossref",
+   "first-page": "2833",
+   "DOI": "10.1109/TII.2020.3008010",
+   "article-title": "Intelligent fault diagnosis by fusing domain adversarial training and maximum mean discrepancy via ensemble learning",
+   "volume": "17",
+   "author": "Li",
+   "year": "2021",
+   "journal-title": "IEEE Trans Ind Inf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b44",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2020.106962",
+   "article-title": "Residual joint adaptation adversarial network for intelligent transfer fault diagnosis",
+   "volume": "145",
+   "author": "Jiao",
+   "year": "2020",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.ress.2023.109718_b45",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/aerospace9090516",
+   "article-title": "Clustering federated learning for bearing fault diagnosis in aerospace applications with a self-attention mechanism",
+   "volume": "9",
+   "author": "Li",
+   "year": "2022",
+   "journal-title": "Aerospace",
+   "ISSN": "https://id.crossref.org/issn/2226-4310",
+   "issn-type": "print"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b46",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2022.109036",
+   "article-title": "Intelligent fault diagnosis of rotating machinery using a multi-source domain adaptation network with adversarial discrepancy matching",
+   "volume": "231",
+   "author": "Liu",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b47",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1109/TIM.2021.3127641",
+   "article-title": "Conditional adversarial domain generalization with a single discriminator for bearing fault diagnosis",
+   "volume": "70",
+   "author": "Zhang",
+   "year": "2021",
+   "journal-title": "IEEE Trans Instrum Meas"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b48",
+   "first-page": "1",
+   "article-title": "Conditional adversarial domain adaptation with discrimination embedding for locomotive fault diagnosis",
+   "volume": "70",
+   "author": "Yu",
+   "year": "2020",
+   "journal-title": "IEEE Trans Instrum Meas"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b49",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2022.108869",
+   "article-title": "Remaining useful life prediction of aero-engine enabled by fusing knowledge and deep learning models",
+   "volume": "229",
+   "author": "Li",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b50",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2023.109244",
+   "article-title": "Adaptive deep learning-based remaining useful life prediction framework for systems with multiple failure patterns",
+   "volume": "235",
+   "author": "Xiong",
+   "year": "2023",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b51",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2022.108581",
+   "article-title": "The two-stage RUL prediction across operation conditions using deep transfer learning and insufficient degradation data",
+   "volume": "225",
+   "author": "Cheng",
+   "year": "2022",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "issue": "12",
+   "key": "10.1016/j.ress.2023.109718_b52",
+   "doi-asserted-by": "crossref",
+   "first-page": "2416",
+   "DOI": "10.3390/app8122416",
+   "article-title": "Transfer learning with deep recurrent neural networks for remaining useful life estimation",
+   "volume": "8",
+   "author": "Zhang",
+   "year": "2018",
+   "journal-title": "Appl Sci"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b53",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2021.107583",
+   "article-title": "Remaining useful life estimation using deep metric transfer learning for kernel regression",
+   "volume": "212",
+   "author": "Ding",
+   "year": "2021",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b54",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2022.108526",
+   "article-title": "Remaining useful life estimation of bearings under different working conditions via wasserstein distance-based weighted domain adaptation",
+   "volume": "224",
+   "author": "Hu",
+   "year": "2022",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b55",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2019.106602",
+   "article-title": "A new data-driven transferable remaining useful life prediction approach for bearing under different working conditions",
+   "volume": "139",
+   "author": "Zhu",
+   "year": "2020",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b56",
+   "unstructured": "Frederick DK, DeCastro JA, Litt JS. User’s guide for the commercial modular aero-propulsion system simulation (C-MAPSS). Tech. rep., 2007."
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b57",
+   "series-title": "2008 International Conference on Prognostics and Health Management",
+   "first-page": "1",
+   "article-title": "Damage propagation modeling for aircraft engine run-to-failure simulation",
+   "author": "Saxena",
+   "year": "2008"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b58",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1016/j.ress.2017.11.021",
+   "article-title": "Remaining useful life estimation in prognostics using deep convolution neural networks",
+   "volume": "172",
+   "author": "Li",
+   "year": "2018",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b59",
+   "article-title": "Fusing physics-based and deep learning models for prognostics",
+   "volume": "217",
+   "author": "Chao",
+   "year": "2022",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b60",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2020.107098",
+   "article-title": "Transfer learning for remaining useful life prediction based on consensus self-organizing models",
+   "volume": "203",
+   "author": "Fan",
+   "year": "2020",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b61",
+   "series-title": "Revisiting batch normalization for practical domain adaptation",
+   "author": "Li",
+   "year": "2016"
+  },
+  {
+   "key": "10.1016/j.ress.2023.109718_b62",
+   "series-title": "Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics",
+   "first-page": "249",
+   "article-title": "Understanding the difficulty of training deep feedforward neural networks",
+   "author": "Glorot",
+   "year": "2010"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ress.2023.109718_b63",
+   "doi-asserted-by": "crossref",
+   "first-page": "151",
+   "DOI": "10.1007/s10994-009-5152-4",
+   "article-title": "A theory of learning from different domains",
+   "volume": "79",
+   "author": "Ben-David",
+   "year": "2010",
+   "journal-title": "Mach Learn"
+  }
+ ],
+ "container-title": [
+  "Reliability Engineering &amp; System Safety"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0951832023006324?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0951832023006324?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    16
+   ]
+  ],
+  "date-time": "2025-10-16T06:53:29Z",
+  "timestamp": 1760597609000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0951832023006324"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    2
+   ]
+  ]
+ },
+ "references-count": 63,
+ "alternative-id": [
+  "S0951832023006324"
+ ],
+ "URL": "https://doi.org/10.1016/j.ress.2023.109718",
+ "relation": {},
+ "ISSN": [
+  "0951-8320"
+ ],
+ "issn-type": [
+  {
+   "value": "0951-8320",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    2
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Domain adaptation via alignment of operation profile for Remaining Useful Lifetime prediction",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Reliability Engineering & System Safety",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ress.2023.109718",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2023 The Authors. Published by Elsevier Ltd.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "109718"
+}

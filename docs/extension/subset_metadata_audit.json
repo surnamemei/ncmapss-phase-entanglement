@@ -1,0 +1,2707 @@
+{
+ "started_utc": "2026-09-28T02:52:10Z",
+ "finished_utc": "2026-09-28T02:52:17Z",
+ "criteria": "docs/extension/SUBSET_SELECTION_LOCK.md Part 1",
+ "not_read": [
+  "X_s",
+  "X_v",
+  "T",
+  "Y",
+  "W columns 1-3",
+  "W column 0 for hs = 0 rows"
+ ],
+ "records": [
+  {
+   "dataset": "DS01",
+   "file": "N-CMAPSS_DS01-005.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1276402,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 778379,
+     "row_blocks": 4,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      4906636,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      2735232,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      4906636,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      2735232,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      4906636,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      2735232,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      4906636,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      2735232,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      4906636,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      2735232,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      4906636,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      2735232,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 4906636,
+    "W": 4906636,
+    "X_s": 4906636,
+    "X_v": 4906636,
+    "T": 4906636,
+    "Y": 4906636
+   },
+   "row_counts_test": {
+    "A": 2735232,
+    "W": 2735232,
+    "X_s": 2735232,
+    "X_v": 2735232,
+    "T": 2735232,
+    "Y": 2735232
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 31432,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true,
+    "stress_test_engines": 4
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "test_units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "sha256": "3abdcee2a3c8136e8880e5d43ac8cdf12ab9f7f3ab37145f23b24c11335afbed",
+   "md5": "2f6b9940deb081b3984820554e100383",
+   "bytes": 2873351432,
+   "history_mentions": [],
+   "cohort": "PRIMARY GENERALIZATION COHORT"
+  },
+  {
+   "dataset": "DS02",
+   "file": "N-CMAPSS_DS02-006.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1146725,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 433113,
+     "row_blocks": 3,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      5263447,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      1253743,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      5263447,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      1253743,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      5263447,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      1253743,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      5263447,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      1253743,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      5263447,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      1253743,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      5263447,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      1253743,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 5263447,
+    "W": 5263447,
+    "X_s": 5263447,
+    "X_v": 5263447,
+    "T": 5263447,
+    "Y": 5263447
+   },
+   "row_counts_test": {
+    "A": 1253743,
+    "W": 1253743,
+    "X_s": 1253743,
+    "X_v": 1253743,
+    "T": 1253743,
+    "Y": 1253743
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 12241,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": false
+   },
+   "reasons": [],
+   "dev_units": [
+    2,
+    5,
+    10,
+    16,
+    18,
+    20
+   ],
+   "test_units": [
+    11,
+    14,
+    15
+   ],
+   "sha256": "47971a68b239ecb756833218a95d68ded6eb7e63ee84e86671c8b188de1ca765",
+   "md5": "61056251b36290e11371e017eed70eac",
+   "bytes": 2450472504,
+   "cohort": "REFERENCE (already opened by the frozen study; not a candidate)"
+  },
+  {
+   "dataset": "DS03",
+   "file": "N-CMAPSS_DS03-012.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1849271,
+     "row_blocks": 9,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 1294679,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      5571277,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      4251560,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      5571277,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      4251560,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      5571277,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      4251560,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      5571277,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      4251560,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      5571277,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      4251560,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      5571277,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      4251560,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 5571277,
+    "W": 5571277,
+    "X_s": 5571277,
+    "X_v": 5571277,
+    "T": 5571277,
+    "Y": 5571277
+   },
+   "row_counts_test": {
+    "A": 4251560,
+    "W": 4251560,
+    "X_s": 4251560,
+    "X_v": 4251560,
+    "T": 4251560,
+    "Y": 4251560
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 33331,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": false
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "test_units": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "sha256": "f67cc4bd0cf927f09eb8e0198bd62c777e1c6213177cfc46d81cc43bba52c333",
+   "md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+   "bytes": 3693395776,
+   "cohort": "REFERENCE (already opened by the frozen study; not a candidate)"
+  },
+  {
+   "dataset": "DS04",
+   "file": "N-CMAPSS_DS04.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1288708,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 779384,
+     "row_blocks": 4,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      6377452,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      3602561,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      6377452,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      3602561,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      6377452,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      3602561,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      6377452,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      3602561,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      6377452,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      3602561,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      6377452,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      3602561,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 6377452,
+    "W": 6377452,
+    "X_s": 6377452,
+    "X_v": 6377452,
+    "T": 6377452,
+    "Y": 6377452
+   },
+   "row_counts_test": {
+    "A": 3602561,
+    "W": 3602561,
+    "X_s": 3602561,
+    "X_v": 3602561,
+    "T": 3602561,
+    "Y": 3602561
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 47345,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true,
+    "stress_test_engines": 4
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "test_units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "sha256": "2b58cbb78497679fadafe0761203b2ae3b0e4e1193039dc34ca25f17ecaeb2e6",
+   "md5": "8a31abc41cba1df040e322310c218411",
+   "bytes": 3752493952,
+   "history_mentions": [],
+   "cohort": "PRIMARY GENERALIZATION COHORT"
+  },
+  {
+   "dataset": "DS05",
+   "file": "N-CMAPSS_DS05.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1240824,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 803959,
+     "row_blocks": 4,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      4350606,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      2562046,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      4350606,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      2562046,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      4350606,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      2562046,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      4350606,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      2562046,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      4350606,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      2562046,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      4350606,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      2562046,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 4350606,
+    "W": 4350606,
+    "X_s": 4350606,
+    "X_v": 4350606,
+    "T": 4350606,
+    "Y": 4350606
+   },
+   "row_counts_test": {
+    "A": 2562046,
+    "W": 2562046,
+    "X_s": 2562046,
+    "X_v": 2562046,
+    "T": 2562046,
+    "Y": 2562046
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 33438,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true,
+    "stress_test_engines": 4
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "test_units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "sha256": "ef99ead42ac184503035895797c16e9a7e42554a08074aa760d0bba39db42e23",
+   "md5": "0eaa6a22cabbfdff9bcbee5802c56d99",
+   "bytes": 2599166216,
+   "history_mentions": [],
+   "cohort": "PRIMARY GENERALIZATION COHORT"
+  },
+  {
+   "dataset": "DS06",
+   "file": "N-CMAPSS_DS06.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1150965,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 721888,
+     "row_blocks": 4,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      4257209,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      2522447,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      4257209,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      2522447,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      4257209,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      2522447,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      4257209,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      2522447,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      4257209,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      2522447,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      4257209,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      2522447,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 4257209,
+    "W": 4257209,
+    "X_s": 4257209,
+    "X_v": 4257209,
+    "T": 4257209,
+    "Y": 4257209
+   },
+   "row_counts_test": {
+    "A": 2522447,
+    "W": 2522447,
+    "X_s": 2522447,
+    "X_v": 2522447,
+    "T": 2522447,
+    "Y": 2522447
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 29592,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true,
+    "stress_test_engines": 4
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "test_units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "sha256": "91ccf478b21dd6337cfa608f20b647ec04228d59cf4ee59be87fad5f08b17b20",
+   "md5": "2650cd7fe2aaf4c54cd30a7455bfa451",
+   "bytes": 2549159720,
+   "history_mentions": [],
+   "cohort": "PRIMARY GENERALIZATION COHORT"
+  },
+  {
+   "dataset": "DS07",
+   "file": "N-CMAPSS_DS07.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1252737,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 808457,
+     "row_blocks": 4,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      4350176,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      2869786,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      4350176,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      2869786,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      4350176,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      2869786,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      4350176,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      2869786,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      4350176,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      2869786,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      4350176,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      2869786,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 4350176,
+    "W": 4350176,
+    "X_s": 4350176,
+    "X_v": 4350176,
+    "T": 4350176,
+    "Y": 4350176
+   },
+   "row_counts_test": {
+    "A": 2869786,
+    "W": 2869786,
+    "X_s": 2869786,
+    "X_v": 2869786,
+    "T": 2869786,
+    "Y": 2869786
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 34148,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true,
+    "stress_test_engines": 4
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "test_units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "sha256": "2f88abc61a532d2e30a6e5ff100a511be4921484a6c7071bc8504e300da4d3bd",
+   "md5": "65954ffb0f3702247487e03ea34c2639",
+   "bytes": 2714714776,
+   "history_mentions": [],
+   "cohort": "PRIMARY GENERALIZATION COHORT"
+  },
+  {
+   "dataset": "DS08a",
+   "file": "N-CMAPSS_DS08a-009.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1527036,
+     "row_blocks": 9,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 1121583,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      4885389,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      3722997,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      4885389,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      3722997,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      4885389,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      3722997,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      4885389,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      3722997,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      4885389,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      3722997,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      4885389,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      3722997,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 4885389,
+    "W": 4885389,
+    "X_s": 4885389,
+    "X_v": 4885389,
+    "T": 4885389,
+    "Y": 4885389
+   },
+   "row_counts_test": {
+    "A": 3722997,
+    "W": 3722997,
+    "X_s": 3722997,
+    "X_v": 3722997,
+    "T": 3722997,
+    "Y": 3722997
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 24255,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true,
+    "stress_test_engines": 6
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "test_units": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "sha256": "10ddf52e5441a05e3d0d8d797a34e0e5a9ac73dce8ae35d7b22d1ef224d24836",
+   "md5": "785aba8f80d91cc5bb2854bf33a09066",
+   "bytes": 3236762200,
+   "history_mentions": [],
+   "cohort": "PRIMARY GENERALIZATION COHORT"
+  },
+  {
+   "dataset": "DS08c",
+   "file": "N-CMAPSS_DS08c-008.h5",
+   "reads": [
+    {
+     "arrays": [
+      "A_var",
+      "T_var",
+      "W_var",
+      "X_s_var",
+      "X_v_var"
+     ],
+     "content": "variable-name arrays"
+    },
+    {
+     "arrays": [
+      "A_dev",
+      "A_test"
+     ],
+     "content": "complete label arrays"
+    },
+    {
+     "array": "W_dev",
+     "column": 0,
+     "rows_read": 1349802,
+     "row_blocks": 6,
+     "selection": "hs == 1 rows only"
+    },
+    {
+     "array": "W_test",
+     "column": 0,
+     "rows_read": 758018,
+     "row_blocks": 4,
+     "selection": "hs == 1 rows only"
+    }
+   ],
+   "tree": {
+    "A_dev": {
+     "shape": [
+      4299918,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_test": {
+     "shape": [
+      2117819,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "A_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "T_dev": {
+     "shape": [
+      4299918,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_test": {
+     "shape": [
+      2117819,
+      10
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "T_var": {
+     "shape": [
+      10
+     ],
+     "dtype": "|S12",
+     "chunks": null,
+     "compression": null
+    },
+    "W_dev": {
+     "shape": [
+      4299918,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_test": {
+     "shape": [
+      2117819,
+      4
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "W_var": {
+     "shape": [
+      4
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_dev": {
+     "shape": [
+      4299918,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_test": {
+     "shape": [
+      2117819,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_s_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S4",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_dev": {
+     "shape": [
+      4299918,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_test": {
+     "shape": [
+      2117819,
+      14
+     ],
+     "dtype": "float64",
+     "chunks": null,
+     "compression": null
+    },
+    "X_v_var": {
+     "shape": [
+      14
+     ],
+     "dtype": "|S5",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_dev": {
+     "shape": [
+      4299918,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    },
+    "Y_test": {
+     "shape": [
+      2117819,
+      1
+     ],
+     "dtype": "int64",
+     "chunks": null,
+     "compression": null
+    }
+   },
+   "variables": {
+    "A_var": [
+     "unit",
+     "cycle",
+     "Fc",
+     "hs"
+    ],
+    "T_var": [
+     "fan_eff_mod",
+     "fan_flow_mod",
+     "LPC_eff_mod",
+     "LPC_flow_mod",
+     "HPC_eff_mod",
+     "HPC_flow_mod",
+     "HPT_eff_mod",
+     "HPT_flow_mod",
+     "LPT_eff_mod",
+     "LPT_flow_mod"
+    ],
+    "W_var": [
+     "alt",
+     "Mach",
+     "TRA",
+     "T2"
+    ],
+    "X_s_var": [
+     "T24",
+     "T30",
+     "T48",
+     "T50",
+     "P15",
+     "P2",
+     "P21",
+     "P24",
+     "Ps30",
+     "P40",
+     "P50",
+     "Nf",
+     "Nc",
+     "Wf"
+    ],
+    "X_v_var": [
+     "T40",
+     "P30",
+     "P45",
+     "W21",
+     "W22",
+     "W25",
+     "W31",
+     "W32",
+     "W48",
+     "W50",
+     "SmFan",
+     "SmLPC",
+     "SmHPC",
+     "phi"
+    ]
+   },
+   "row_counts_dev": {
+    "A": 4299918,
+    "W": 4299918,
+    "X_s": 4299918,
+    "X_v": 4299918,
+    "T": 4299918,
+    "Y": 4299918
+   },
+   "row_counts_test": {
+    "A": 2117819,
+    "W": 2117819,
+    "X_s": 2117819,
+    "X_v": 2117819,
+    "T": 2117819,
+    "Y": 2117819
+   },
+   "phase_complete_share": 1.0,
+   "min_test_engine_phase_rows": 48940,
+   "checks": {
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "C5": true,
+    "C4": true,
+    "C6": true,
+    "C7": true,
+    "C8": true,
+    "C9": true,
+    "stress_test_engines": 4
+   },
+   "reasons": [],
+   "dev_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "test_units": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "sha256": "150bf696dcf4bbac84518f439ac0d491410037881e214c5b10c048a71770bb38",
+   "md5": "0df8dbaefeb7699f2be89c6a9de35fca",
+   "bytes": 2413078176,
+   "history_mentions": [],
+   "cohort": "PRIMARY GENERALIZATION COHORT"
+  },
+  {
+   "dataset": "DS08d",
+   "file": "N-CMAPSS_DS08d-010.h5",
+   "reads": [],
+   "tree": {},
+   "variables": {},
+   "row_counts_dev": {},
+   "row_counts_test": {},
+   "dev_units": [],
+   "test_units": [],
+   "checks": {
+    "C1": false,
+    "C2": false,
+    "C3": false,
+    "C4": false,
+    "C5": false,
+    "C6": false,
+    "C7": false,
+    "C8": false,
+    "C9": true,
+    "stress_test_engines": 0
+   },
+   "open_error": "Unable to synchronously open file (truncated file: eof = 2885034848, sblock->base_addr = 0, stored_eof = 2885034880)",
+   "reasons": [
+    "C1: the file does not open as HDF5 (Unable to synchronously open file (truncated file: eof = 2885034848, sblock->base_addr = 0, stored_eof = 2885034880)); nothing was read"
+   ],
+   "sha256": "693b035be5e78d50d5da58bcac559e44ee371159efdebe2fac433e567a8af884",
+   "md5": "4f188a7e0d01d7a4c7cecb081f0a0c5d",
+   "bytes": 2885034848,
+   "history_mentions": [],
+   "cohort": "EXCLUDED"
+  }
+ ]
+}

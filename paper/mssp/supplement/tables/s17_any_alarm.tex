@@ -1,0 +1,59 @@
+\begin{scriptsize}
+\begin{longtable}{lllrrrrr}
+\caption{Healthy flights with any alarm (the frozen burden endpoint) under P, C and C$'$ at the 1\% target, shown beside the $\kappa$-based healthy-flight false-flag rate. The two quantities are distinct and are never merged.}\label{tab:s17_any_alarm}\\
+\toprule
+Dataset & Run & Arm & \makecell{Any alarm,\\overall (\%)} & \makecell{Any alarm,\\climb (\%)} & \makecell{Any alarm,\\cruise (\%)} & \makecell{Any alarm,\\descent (\%)} & \makecell{$\kappa$-based\\FFR (\%)} \\
+\midrule
+\endfirsthead
+\multicolumn{8}{l}{\emph{(continued)}}\\
+\toprule
+Dataset & Run & Arm & \makecell{Any alarm,\\overall (\%)} & \makecell{Any alarm,\\climb (\%)} & \makecell{Any alarm,\\cruise (\%)} & \makecell{Any alarm,\\descent (\%)} & \makecell{$\kappa$-based\\FFR (\%)} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+DS02 & PCA & P & 98.7 & 13.2 & 50.0 & 98.7 & 15.8 \\
+ &  & C & 100.0 & 56.6 & 81.6 & 86.8 & 14.5 \\
+ &  & C$'$ & 96.1 & 44.7 & 81.6 & 68.4 & 11.8 \\
+ & IF s0 & P & 100.0 & 68.4 & 44.7 & 86.8 & 10.5 \\
+ &  & C & 100.0 & 97.4 & 81.6 & 59.2 & 18.4 \\
+ &  & C$'$ & 100.0 & 96.1 & 73.7 & 65.8 & 27.6 \\
+ & IF s1 & P & 98.7 & 60.5 & 44.7 & 85.5 & 19.7 \\
+ &  & C & 100.0 & 97.4 & 77.6 & 64.5 & 13.2 \\
+ &  & C$'$ & 100.0 & 96.1 & 72.4 & 68.4 & 27.6 \\
+ & IF s2 & P & 100.0 & 67.1 & 46.1 & 86.8 & 11.8 \\
+ &  & C & 100.0 & 97.4 & 82.9 & 56.6 & 19.7 \\
+ &  & C$'$ & 100.0 & 97.4 & 76.3 & 67.1 & 27.6 \\
+ & LSTM s0 & P & 100.0 & 97.4 & 77.6 & 100.0 & 11.8 \\
+ &  & C & 100.0 & 100.0 & 90.8 & 88.2 & 11.8 \\
+ &  & C$'$ & 100.0 & 100.0 & 90.8 & 71.1 & 31.6 \\
+ & LSTM s1 & P & 100.0 & 92.1 & 64.5 & 100.0 & 10.5 \\
+ &  & C & 100.0 & 100.0 & 85.5 & 69.7 & 9.2 \\
+ &  & C$'$ & 100.0 & 100.0 & 90.8 & 67.1 & 23.7 \\
+ & LSTM s2 & P & 100.0 & 98.7 & 68.4 & 100.0 & 6.6 \\
+ &  & C & 100.0 & 100.0 & 78.9 & 76.3 & 9.2 \\
+ &  & C$'$ & 100.0 & 100.0 & 90.8 & 65.8 & 27.6 \\
+\midrule
+DS03 & PCA & P & 100.0 & 67.6 & 73.6 & 99.3 & 2.7 \\
+ &  & C & 100.0 & 91.9 & 84.5 & 99.3 & 8.1 \\
+ &  & C$'$ & 100.0 & 92.6 & 87.2 & 99.3 & 6.8 \\
+ & IF s0 & P & 100.0 & 81.1 & 67.6 & 99.3 & 8.8 \\
+ &  & C & 100.0 & 99.3 & 69.6 & 99.3 & 4.1 \\
+ &  & C$'$ & 100.0 & 93.2 & 64.9 & 99.3 & 8.8 \\
+ & IF s1 & P & 100.0 & 81.1 & 65.5 & 99.3 & 8.8 \\
+ &  & C & 100.0 & 99.3 & 68.2 & 98.6 & 4.1 \\
+ &  & C$'$ & 100.0 & 93.9 & 63.5 & 99.3 & 8.1 \\
+ & IF s2 & P & 100.0 & 77.7 & 66.2 & 99.3 & 6.8 \\
+ &  & C & 100.0 & 98.0 & 68.2 & 99.3 & 2.7 \\
+ &  & C$'$ & 100.0 & 93.9 & 63.5 & 98.0 & 8.8 \\
+ & LSTM s0 & P & 100.0 & 100.0 & 95.3 & 100.0 & 16.2 \\
+ &  & C & 100.0 & 100.0 & 95.3 & 99.3 & 19.6 \\
+ &  & C$'$ & 100.0 & 100.0 & 90.5 & 89.2 & 19.6 \\
+ & LSTM s1 & P & 100.0 & 100.0 & 92.6 & 100.0 & 12.2 \\
+ &  & C & 100.0 & 100.0 & 91.9 & 99.3 & 18.9 \\
+ &  & C$'$ & 100.0 & 100.0 & 92.6 & 87.8 & 20.9 \\
+ & LSTM s2 & P & 100.0 & 100.0 & 94.6 & 99.3 & 14.9 \\
+ &  & C & 100.0 & 100.0 & 92.6 & 98.0 & 14.2 \\
+ &  & C$'$ & 100.0 & 100.0 & 89.9 & 87.2 & 18.2 \\
+\end{longtable}
+\end{scriptsize}

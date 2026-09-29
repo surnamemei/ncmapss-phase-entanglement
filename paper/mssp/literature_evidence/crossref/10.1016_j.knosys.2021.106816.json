@@ -1,0 +1,708 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    12
+   ]
+  ],
+  "date-time": "2026-09-12T17:43:23Z",
+  "timestamp": 1789235003660,
+  "version": "build-2803163510"
+ },
+ "reference-count": 48,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2021-03-01T00:00:00Z",
+    "timestamp": 1614556800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2021-03-01T00:00:00Z",
+    "timestamp": 1614556800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      2,
+      2
+     ]
+    ],
+    "date-time": "2021-02-02T00:00:00Z",
+    "timestamp": 1612224000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001711",
+   "name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100001711",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Knowledge-Based Systems"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2021,
+    3
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.knosys.2021.106816",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    29
+   ]
+  ],
+  "date-time": "2021-01-29T11:08:24Z",
+  "timestamp": 1611918504000
+ },
+ "page": "106816",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 122,
+ "special_numbering": "C",
+ "title": [
+  "Unsupervised transfer learning for anomaly detection: Application to complementary operating condition transfer"
+ ],
+ "prefix": "10.1016",
+ "volume": "216",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-6882-2906",
+   "authenticated-orcid": false,
+   "given": "Gabriel",
+   "family": "Michau",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9546-1488",
+   "authenticated-orcid": false,
+   "given": "Olga",
+   "family": "Fink",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.knosys.2021.106816_b1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "G. Michau, T. Palmé, O. Fink, Fleet PHM for Critical Systems: Bi-level Deep Learning Approach for Fault Detection, in: Proceedings of the European Conference of the PHM Society, Vol. 4, 2018, pp. pp. 1–10.",
+   "DOI": "10.36001/phme.2018.v4i1.403"
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.knosys.2021.106816_b2",
+   "doi-asserted-by": "crossref",
+   "first-page": "1345",
+   "DOI": "10.1109/TKDE.2009.191",
+   "article-title": "A survey on transfer learning",
+   "volume": "22",
+   "author": "Pan",
+   "year": "2010",
+   "journal-title": "IEEE Trans. Knowl. Data Eng."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.knosys.2021.106816_b3",
+   "first-page": "104",
+   "article-title": "Feature learning for fault detection in high-dimensional condition monitoring signals",
+   "volume": "234",
+   "author": "Michau",
+   "year": "2020",
+   "journal-title": "Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b4",
+   "series-title": "International Conference on Artificial Neural Networks",
+   "first-page": "270",
+   "article-title": "A survey on deep transfer learning",
+   "author": "Tan",
+   "year": "2018"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b5",
+   "series-title": "Advances in Domain Adaptation Theory",
+   "author": "Redko",
+   "year": "2019"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.knosys.2021.106816_b6",
+   "article-title": "Domain-adversarial training of neural networks",
+   "volume": "17",
+   "author": "Ganin",
+   "year": "2016",
+   "journal-title": "J. Mach. Learn. Res."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b7",
+   "series-title": "2019 Prognostics and System Health Management Conference (PHM-Paris)",
+   "first-page": "279",
+   "article-title": "Domain adaptive transfer learning for fault diagnosis",
+   "author": "Wang",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b8",
+   "article-title": "Missing-class-robust domain adaptation by unilateral alignment",
+   "author": "Wang",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Ind. Electron."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b9",
+   "article-title": "A novel unsupervised globality-locality preserving projections in transfer learning",
+   "volume": "90",
+   "author": "Sanodiya",
+   "year": "2019",
+   "journal-title": "Image Vis. Comput."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b10",
+   "doi-asserted-by": "crossref",
+   "first-page": "100",
+   "DOI": "10.1016/j.ymssp.2015.04.021",
+   "article-title": "Rolling element bearing diagnostics using the case western reserve university data: A benchmark study",
+   "volume": "64",
+   "author": "Smith",
+   "year": "2015",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b11",
+   "series-title": "53rd AIAA/SAE/ASEE Joint Propulsion Conference",
+   "first-page": "4820",
+   "article-title": "Control design for an advanced geared turbofan engine",
+   "author": "Chapman",
+   "year": "2017"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.knosys.2021.106816_b12",
+   "doi-asserted-by": "crossref",
+   "first-page": "2278",
+   "DOI": "10.1109/5.726791",
+   "article-title": "Gradient-based learning applied to document recognition",
+   "volume": "86",
+   "author": "LeCun",
+   "year": "1998",
+   "journal-title": "Proc. IEEE"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.knosys.2021.106816_b13",
+   "doi-asserted-by": "crossref",
+   "first-page": "898",
+   "DOI": "10.1109/TPAMI.2010.161",
+   "article-title": "Contour detection and hierarchical image segmentation",
+   "volume": "33",
+   "author": "Arbelaez",
+   "year": "2010",
+   "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "B. Fernando, A. Habrard, M. Sebban, T. Tuytelaars, Unsupervised visual domain adaptation using subspace alignment, in: Proceedings of the IEEE international conference on computer vision, 2013, pp. 2960–2967.",
+   "DOI": "10.1109/ICCV.2013.368"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b15",
+   "series-title": "Prognostics and Health Management (ICPHM), 2016 IEEE International Conference on",
+   "first-page": "1",
+   "article-title": "On cross-domain feature fusion in gearbox fault diagnosis under various operating conditions based on transfer component analysis",
+   "author": "Xie",
+   "year": "2016"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b16",
+   "doi-asserted-by": "crossref",
+   "first-page": "14347",
+   "DOI": "10.1109/ACCESS.2017.2720965",
+   "article-title": "Transfer learning with neural networks for bearing fault diagnosis in changing working conditions",
+   "volume": "5",
+   "author": "Zhang",
+   "year": "2017",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b17",
+   "series-title": "International Conference on Algorithmic Learning Theory",
+   "first-page": "139",
+   "article-title": "On the hardness of domain adaptation and the utility of unlabeled target samples",
+   "author": "Ben-David",
+   "year": "2012"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.knosys.2021.106816_b18",
+   "doi-asserted-by": "crossref",
+   "first-page": "348",
+   "DOI": "10.1109/TFUZZ.2018.2853720",
+   "article-title": "Fuzzy rule-based domain adaptation in homogeneous and heterogeneous spaces",
+   "volume": "27",
+   "author": "Zuo",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Fuzzy Syst."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b19",
+   "article-title": "Transfer representation learning with tsk fuzzy system",
+   "author": "Xu",
+   "year": "2019",
+   "journal-title": "IEEE Trans. Fuzzy Syst."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.knosys.2021.106816_b20",
+   "doi-asserted-by": "crossref",
+   "first-page": "2200",
+   "DOI": "10.1109/TCYB.2018.2821764",
+   "article-title": "Generalized hidden-mapping transductive transfer learning for recognition of epileptic electroencephalogram signals",
+   "volume": "49",
+   "author": "Xie",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Cybern."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b21",
+   "series-title": "Domain-adversarial neural networks",
+   "author": "Ajakan",
+   "year": "2014"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "C. Wang, S. Mahadevan, Manifold alignment using procrustes analysis, in: Proceedings of the 25th international conference on Machine learning, 2008, pp. 1120–1127.",
+   "DOI": "10.1145/1390156.1390297"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b23",
+   "doi-asserted-by": "crossref",
+   "unstructured": "W. Dai, Q. Yang, G.-R. Xue, Y. Yu, Self-taught clustering, in: Proceedings of the 25th international conference on Machine learning, 2008, pp. 200–207.",
+   "DOI": "10.1145/1390156.1390182"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b24",
+   "doi-asserted-by": "crossref",
+   "first-page": "110290",
+   "DOI": "10.1109/ACCESS.2020.3002666",
+   "article-title": "Unsupervised transfer learning via relative distance comparisons",
+   "volume": "8",
+   "author": "Sanodiya",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.knosys.2021.106816_b25",
+   "doi-asserted-by": "crossref",
+   "first-page": "1182",
+   "DOI": "10.1109/TPAMI.2017.2656884",
+   "article-title": "Unsupervised transfer learning via multi-scale convolutional sparse coding for biomedical applications",
+   "volume": "40",
+   "author": "Chang",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b26",
+   "series-title": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+   "first-page": "550",
+   "article-title": "Transferred dimensionality reduction",
+   "author": "Wang",
+   "year": "2008"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b27",
+   "doi-asserted-by": "crossref",
+   "first-page": "72",
+   "DOI": "10.1016/j.neucom.2012.08.056",
+   "article-title": "Unsupervised transfer learning for target detection from hyperspectral images",
+   "volume": "120",
+   "author": "Du",
+   "year": "2013",
+   "journal-title": "Neurocomputing"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b28",
+   "doi-asserted-by": "crossref",
+   "first-page": "163",
+   "DOI": "10.1016/j.measurement.2017.02.017",
+   "article-title": "A data-driven prognostic approach based on statistical similarity: An application to industrial circuit breakers",
+   "volume": "108",
+   "author": "Leone",
+   "year": "2017",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b29",
+   "series-title": "Cyber-Physical System Augmented Prognostics and Health Management for Fleet-Based Systems",
+   "author": "Liu",
+   "year": "2018"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b30",
+   "doi-asserted-by": "crossref",
+   "first-page": "213",
+   "DOI": "10.1016/j.asoc.2018.04.044",
+   "article-title": "A framework for reconciliating data clusters from a fleet of nuclear power plants turbines for fault diagnosis",
+   "volume": "69",
+   "author": "Al-Dahidi",
+   "year": "2018",
+   "journal-title": "Appl. Soft Comput."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b31",
+   "first-page": "11",
+   "article-title": "Domain adaptation for one-class classification: monitoring the health of critical systems under limited information",
+   "volume": "10",
+   "author": "Michau",
+   "year": "2019",
+   "journal-title": "Int. J. Progn. Health Manag."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b32",
+   "series-title": "On the application of transfer learning in prognostics and health management",
+   "author": "Moradi",
+   "year": "2020"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b33",
+   "doi-asserted-by": "crossref",
+   "first-page": "19990",
+   "DOI": "10.1109/ACCESS.2018.2890566",
+   "article-title": "A digital-twin-assisted fault diagnosis using deep transfer learning",
+   "volume": "7",
+   "author": "Xu",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.knosys.2021.106816_b34",
+   "doi-asserted-by": "crossref",
+   "first-page": "5965",
+   "DOI": "10.1109/TII.2019.2956294",
+   "article-title": "Classifier inconsistency-based domain adaptation network for partial transfer intelligent diagnosis",
+   "volume": "16",
+   "author": "Jiao",
+   "year": "2019",
+   "journal-title": "IEEE Trans. Ind. Inf."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b35",
+   "doi-asserted-by": "crossref",
+   "first-page": "269",
+   "DOI": "10.1016/j.isatra.2019.08.012",
+   "article-title": "Deep transfer network with joint distribution adaptation: A new intelligent fault diagnosis framework for industry application",
+   "volume": "97",
+   "author": "Han",
+   "year": "2020",
+   "journal-title": "ISA Trans."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.knosys.2021.106816_b36",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1088/1361-6501/ab64aa",
+   "article-title": "Deep learning-based cross-domain adaptation for gearbox fault diagnosis under variable speed conditions",
+   "volume": "31",
+   "author": "Singh",
+   "year": "2020",
+   "journal-title": "Meas. Sci. Technol."
+  },
+  {
+   "issue": "12",
+   "key": "10.1016/j.knosys.2021.106816_b37",
+   "doi-asserted-by": "crossref",
+   "first-page": "2416",
+   "DOI": "10.3390/app8122416",
+   "article-title": "Transfer learning with deep recurrent neural networks for remaining useful life estimation",
+   "volume": "8",
+   "author": "Zhang",
+   "year": "2018",
+   "journal-title": "Appl. Sci."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b38",
+   "article-title": "Remaining useful lifetime prediction via deep domain adaptation",
+   "volume": "195",
+   "author": "d. O. da Costa",
+   "year": "2020",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b39",
+   "doi-asserted-by": "crossref",
+   "unstructured": "T. Cox, M. Cox, Multidimensional scaling, second editionth edn 2001.",
+   "DOI": "10.1201/9780367801700"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.knosys.2021.106816_b40",
+   "doi-asserted-by": "crossref",
+   "first-page": "267",
+   "DOI": "10.1007/BF02289263",
+   "article-title": "Who belongs in the family?",
+   "volume": "18",
+   "author": "Thorndike",
+   "year": "1953",
+   "journal-title": "Psychometrika"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b41",
+   "series-title": "An Introduction To Generalized Linear Models",
+   "author": "Dobson",
+   "year": "2008"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.knosys.2021.106816_b42",
+   "doi-asserted-by": "crossref",
+   "first-page": "153",
+   "DOI": "10.1007/BF02295996",
+   "article-title": "Note on the sampling error of the difference between correlated proportions or percentages",
+   "volume": "12",
+   "author": "McNemar",
+   "year": "1947",
+   "journal-title": "Psychometrika"
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.knosys.2021.106816_b43",
+   "doi-asserted-by": "crossref",
+   "first-page": "1895",
+   "DOI": "10.1162/089976698300017197",
+   "article-title": "Approximate statistical tests for comparing supervised classification learning algorithms",
+   "volume": "10",
+   "author": "Dietterich",
+   "year": "1998",
+   "journal-title": "Neural Comput."
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b44",
+   "doi-asserted-by": "crossref",
+   "first-page": "180",
+   "DOI": "10.1016/j.sigpro.2018.12.005",
+   "article-title": "Multi-layer domain adaptation method for rolling bearing fault diagnosis",
+   "volume": "157",
+   "author": "Li",
+   "year": "2019",
+   "journal-title": "Signal Process."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.knosys.2021.106816_b45",
+   "doi-asserted-by": "crossref",
+   "first-page": "320",
+   "DOI": "10.3390/s20010320",
+   "article-title": "Triplet loss guided adversarial domain adaptation for bearing fault diagnosis",
+   "volume": "20",
+   "author": "Wang",
+   "year": "2020",
+   "journal-title": "Sensors"
+  },
+  {
+   "key": "10.1016/j.knosys.2021.106816_b46",
+   "article-title": "Cross-domain fault diagnosis of rolling element bearings using deep generative neural networks",
+   "author": "Li",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Ind. Electron."
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.knosys.2021.106816_b47",
+   "doi-asserted-by": "crossref",
+   "first-page": "1334",
+   "DOI": "10.1109/TPAMI.2005.165",
+   "article-title": "On the euclidean distance of images",
+   "volume": "27",
+   "author": "Wang",
+   "year": "2005",
+   "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.knosys.2021.106816_b48",
+   "doi-asserted-by": "crossref",
+   "first-page": "315",
+   "DOI": "10.1016/j.patrec.2012.10.025",
+   "article-title": "A new distance measure based on generalized image normalized cross-correlation for robust video tracking and image recognition",
+   "volume": "34",
+   "author": "Nakhmani",
+   "year": "2013",
+   "journal-title": "Pattern Recognit. Lett."
+  }
+ ],
+ "container-title": [
+  "Knowledge-Based Systems"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0950705121000794?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0950705121000794?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    16
+   ]
+  ],
+  "date-time": "2025-10-16T04:09:02Z",
+  "timestamp": 1760587742000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705121000794"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    3
+   ]
+  ]
+ },
+ "references-count": 48,
+ "alternative-id": [
+  "S0950705121000794"
+ ],
+ "URL": "https://doi.org/10.1016/j.knosys.2021.106816",
+ "relation": {},
+ "ISSN": [
+  "0950-7051"
+ ],
+ "issn-type": [
+  {
+   "value": "0950-7051",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    3
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Unsupervised transfer learning for anomaly detection: Application to complementary operating condition transfer",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Knowledge-Based Systems",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.knosys.2021.106816",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2021 The Authors. Published by Elsevier B.V.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "106816"
+}

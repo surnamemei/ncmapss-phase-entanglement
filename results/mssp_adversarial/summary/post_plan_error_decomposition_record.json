@@ -1,0 +1,32 @@
+{
+  "deviation": "Dev-1 post-plan descriptive decomposition (see docs/mssp/FINAL_ADVERSARIAL_REVIEW.md)",
+  "inputs": "results/mssp_mitigation/{ds02,ds03}/stage_d/healthy_phase_fpr_by_scheme.csv (committed)",
+  "output_sha256": "747bff30d211af5bcfc01aa59181d46a5e23a76f235eb66ccc49597e810bca95",
+  "rows": 126,
+  "finished_utc": "2026-09-27T16:58:42+00:00",
+  "provenance": {
+    "plan": "docs/mssp/adversarial_validation_plan.md",
+    "plan_sha256": "d993dd3f9e5ab28615f22e8559af4fe33548a853ddfce3ce765a9043bb217cfd",
+    "module_sha256": "086b2ece584accaad058c2891cac2592f48af2c54047fcf1e230294923db1cd0",
+    "frozen_module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "39a5f8188d48dd42563b7bcfe512d36d76762392",
+      "branch": "mssp-revision",
+      "modified_tracked": [
+        "aper/mssp/manuscript_mssp_draft.md",
+        "paper/mssp/verify_draft_numbers.py"
+      ],
+      "untracked": [
+        "paper/mssp/build_mssp_figures_tables.py",
+        "paper/mssp/figures/",
+        "paper/mssp/tables/",
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_adversarial/",
+        "scripts/run_mssp_adversarial.py",
+        "src/mssp_adversarial.py",
+        "tests/test_mssp_adversarial.py"
+      ]
+    }
+  }
+}

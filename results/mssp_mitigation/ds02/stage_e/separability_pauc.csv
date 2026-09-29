@@ -1,0 +1,43 @@
+dataset,detector,seed,scheme,arm_status,window,negatives,positives,normalized_pauc_fpr_0_to_0.02
+ds02,pca,-1,pooled,frozen comparator (reproduced),all_post_onset,433113,820630,0.44461897021992375
+ds02,pca,-1,pooled,frozen comparator (reproduced),early_first_10,433113,178031,0.014543808939170724
+ds02,pca,-1,phase_conditioned,post-confirmation primary comparison,all_post_onset,433113,820630,0.5174574567189086
+ds02,pca,-1,phase_conditioned,post-confirmation primary comparison,early_first_10,433113,178031,0.03212304101806529
+ds02,pca,-1,causal_regime,post-confirmation causal sensitivity/feasibility arm,all_post_onset,433113,820630,0.528601366843423
+ds02,pca,-1,causal_regime,post-confirmation causal sensitivity/feasibility arm,early_first_10,433113,178031,0.038754233581695816
+ds02,isolation_forest,0,pooled,frozen comparator (reproduced),all_post_onset,433113,820630,0.537030265838013
+ds02,isolation_forest,0,pooled,frozen comparator (reproduced),early_first_10,433113,178031,0.017393364240917787
+ds02,isolation_forest,0,phase_conditioned,post-confirmation primary comparison,all_post_onset,433113,820630,0.5637612295447134
+ds02,isolation_forest,0,phase_conditioned,post-confirmation primary comparison,early_first_10,433113,178031,0.06650528434280888
+ds02,isolation_forest,0,causal_regime,post-confirmation causal sensitivity/feasibility arm,all_post_onset,433113,820630,0.5729924707486085
+ds02,isolation_forest,0,causal_regime,post-confirmation causal sensitivity/feasibility arm,early_first_10,433113,178031,0.07387778792890387
+ds02,isolation_forest,1,pooled,frozen comparator (reproduced),all_post_onset,433113,820630,0.5188695614075355
+ds02,isolation_forest,1,pooled,frozen comparator (reproduced),early_first_10,433113,178031,0.013963964574361026
+ds02,isolation_forest,1,phase_conditioned,post-confirmation primary comparison,all_post_onset,433113,820630,0.5648012346281058
+ds02,isolation_forest,1,phase_conditioned,post-confirmation primary comparison,early_first_10,433113,178031,0.06695274393104447
+ds02,isolation_forest,1,causal_regime,post-confirmation causal sensitivity/feasibility arm,all_post_onset,433113,820630,0.5692477561382907
+ds02,isolation_forest,1,causal_regime,post-confirmation causal sensitivity/feasibility arm,early_first_10,433113,178031,0.07133803691321197
+ds02,isolation_forest,2,pooled,frozen comparator (reproduced),all_post_onset,433113,820630,0.5453961461988959
+ds02,isolation_forest,2,pooled,frozen comparator (reproduced),early_first_10,433113,178031,0.017886889910771298
+ds02,isolation_forest,2,phase_conditioned,post-confirmation primary comparison,all_post_onset,433113,820630,0.5815228106269105
+ds02,isolation_forest,2,phase_conditioned,post-confirmation primary comparison,early_first_10,433113,178031,0.0814643444227387
+ds02,isolation_forest,2,causal_regime,post-confirmation causal sensitivity/feasibility arm,all_post_onset,433113,820630,0.5846301040280539
+ds02,isolation_forest,2,causal_regime,post-confirmation causal sensitivity/feasibility arm,early_first_10,433113,178031,0.08535517374307815
+ds02,lstm_autoencoder,0,pooled,frozen comparator (reproduced),all_post_onset,433113,820630,0.5690717464425026
+ds02,lstm_autoencoder,0,pooled,frozen comparator (reproduced),early_first_10,433113,178031,0.0156659088048983
+ds02,lstm_autoencoder,0,phase_conditioned,post-confirmation primary comparison,all_post_onset,433113,820630,0.583437796909797
+ds02,lstm_autoencoder,0,phase_conditioned,post-confirmation primary comparison,early_first_10,433113,178031,0.033992179024540714
+ds02,lstm_autoencoder,0,causal_regime,post-confirmation causal sensitivity/feasibility arm,all_post_onset,433113,820630,0.5717721804024346
+ds02,lstm_autoencoder,0,causal_regime,post-confirmation causal sensitivity/feasibility arm,early_first_10,433113,178031,0.027727357857910383
+ds02,lstm_autoencoder,1,pooled,frozen comparator (reproduced),all_post_onset,433113,820630,0.5751552881676623
+ds02,lstm_autoencoder,1,pooled,frozen comparator (reproduced),early_first_10,433113,178031,0.015297849111399248
+ds02,lstm_autoencoder,1,phase_conditioned,post-confirmation primary comparison,all_post_onset,433113,820630,0.589008881555352
+ds02,lstm_autoencoder,1,phase_conditioned,post-confirmation primary comparison,early_first_10,433113,178031,0.030021778257989365
+ds02,lstm_autoencoder,1,causal_regime,post-confirmation causal sensitivity/feasibility arm,all_post_onset,433113,820630,0.5777614296110305
+ds02,lstm_autoencoder,1,causal_regime,post-confirmation causal sensitivity/feasibility arm,early_first_10,433113,178031,0.025178492148565736
+ds02,lstm_autoencoder,2,pooled,frozen comparator (reproduced),all_post_onset,433113,820630,0.574224482184208
+ds02,lstm_autoencoder,2,pooled,frozen comparator (reproduced),early_first_10,433113,178031,0.01969348073525301
+ds02,lstm_autoencoder,2,phase_conditioned,post-confirmation primary comparison,all_post_onset,433113,820630,0.5807221419032478
+ds02,lstm_autoencoder,2,phase_conditioned,post-confirmation primary comparison,early_first_10,433113,178031,0.03435242698140453
+ds02,lstm_autoencoder,2,causal_regime,post-confirmation causal sensitivity/feasibility arm,all_post_onset,433113,820630,0.5653005955403492
+ds02,lstm_autoencoder,2,causal_regime,post-confirmation causal sensitivity/feasibility arm,early_first_10,433113,178031,0.02814260692887192

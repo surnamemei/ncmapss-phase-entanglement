@@ -1,0 +1,900 @@
+{
+ "H1": {
+  "families_holding": 3,
+  "family_holds": {
+   "F1": false,
+   "F2": false,
+   "F3": true,
+   "F4": true,
+   "F5": true
+  },
+  "subset_family_means_pooled_A2_P": {
+   "DS01": {
+    "isolation_forest": 0.009212822450437433,
+    "lstm_autoencoder": 0.004861522325318233,
+    "pca": 0.0099168762310617
+   },
+   "DS04": {
+    "isolation_forest": 0.008647795017568767,
+    "lstm_autoencoder": 0.006815244712911333,
+    "pca": 0.0039792332899048
+   },
+   "DS05": {
+    "isolation_forest": 0.005339067676644532,
+    "lstm_autoencoder": 0.0061069712985151,
+    "pca": 0.0263869134837194
+   },
+   "DS06": {
+    "isolation_forest": 0.0054974698693325665,
+    "lstm_autoencoder": 0.005927100533815534,
+    "pca": 0.0261963672581448
+   },
+   "DS07": {
+    "isolation_forest": 0.005612026584673767,
+    "lstm_autoencoder": 0.0034933030239988005,
+    "pca": 0.0058696766271393
+   },
+   "DS08a": {
+    "isolation_forest": 0.0138181087527973,
+    "lstm_autoencoder": 0.010193676892565633,
+    "pca": 0.0104815679161182
+   },
+   "DS08c": {
+    "isolation_forest": 0.008060400145006866,
+    "lstm_autoencoder": 0.007262597476138667,
+    "pca": 0.0070469393749355
+   }
+  },
+  "subset_holds": {
+   "DS01": false,
+   "DS04": false,
+   "DS05": true,
+   "DS06": true,
+   "DS07": false,
+   "DS08a": true,
+   "DS08c": true
+  },
+  "verdict": "SUPPORTED"
+ },
+ "H2": {
+  "cells": 70,
+  "families_holding": 3,
+  "family_holds": {
+   "F1": true,
+   "F2": true,
+   "F3": true,
+   "F4": false,
+   "F5": false
+  },
+  "share_cells_any_engine_worse": 0.8571428571428571,
+  "share_cells_disparity_reduced": 0.6571428571428571,
+  "subset_holds": {
+   "DS01": true,
+   "DS04": true,
+   "DS05": true,
+   "DS06": true,
+   "DS07": false,
+   "DS08a": false,
+   "DS08c": false
+  },
+  "verdict": "PARTIAL"
+ },
+ "H3": {
+  "C": {
+   "U": 0.14285714285714285,
+   "U_by_family": {
+    "F1": 0.3,
+    "F2": 0.6,
+    "F3": 0.03333333333333333,
+    "F4": 0.0,
+    "F5": 0.0
+   },
+   "U_cvae": 0.047619047619047616,
+   "U_residual": 0.1836734693877551,
+   "cells": 70,
+   "share_cells_any_engine_worse": 0.8571428571428571,
+   "verdict": "SURVIVES"
+  },
+  "Q": {
+   "U": 0.14285714285714285,
+   "U_by_family": {
+    "F1": 0.1,
+    "F2": 0.6,
+    "F3": 0.0,
+    "F4": 0.2,
+    "F5": 0.1
+   },
+   "U_cvae": 0.14285714285714285,
+   "U_residual": 0.14285714285714285,
+   "cells": 70,
+   "share_cells_any_engine_worse": 0.8571428571428571,
+   "verdict": "SURVIVES"
+  },
+  "verdict": "SURVIVES"
+ },
+ "H4": {
+  "beyond_volume": true,
+  "dataset_specific": false,
+  "families_passing_balance": 3,
+  "families_supporting_coverage": 3,
+  "family_balance": {
+   "F1": true,
+   "F2": false,
+   "F3": true,
+   "F4": true
+  },
+  "family_supports": {
+   "F1": true,
+   "F2": true,
+   "F3": true,
+   "F4": false
+  },
+  "qualifiers": {
+   "phase_conditioned": {
+    "beyond_volume_families": 4,
+    "family_median_delta_cov": {
+     "F1": 0.006289773662120045,
+     "F2": 0.002062320700531315,
+     "F3": 0.0049960336003451985,
+     "F4": 0.005790240475962163
+    },
+    "family_median_delta_vol": {
+     "F1": 0.00036076362764688504,
+     "F2": -1.6405385850669927e-05,
+     "F3": 4.607309374085513e-05,
+     "F4": -5.814139170692747e-05
+    },
+    "median_over_families_delta_cov": 0.005393137038153681,
+    "weak": false
+   },
+   "pooled": {
+    "beyond_volume_families": 4,
+    "family_median_delta_cov": {
+     "F1": 0.0011679998269487949,
+     "F2": 0.00029640526316637413,
+     "F3": 0.0010879578535476146,
+     "F4": 0.0009539030413310027
+    },
+    "family_median_delta_vol": {
+     "F1": -6.937680488378474e-05,
+     "F2": 4.067533722559597e-06,
+     "F3": -3.413309385840021e-05,
+     "F4": -1.4217632144561963e-05
+    },
+    "median_over_families_delta_cov": 0.0010209304474393087,
+    "weak": true
+   }
+  },
+  "subset_balance": {
+   "DS01": true,
+   "DS04": false,
+   "DS05": true,
+   "DS06": true,
+   "DS07": true,
+   "DS08a": true
+  },
+  "subset_supports": {
+   "DS01": true,
+   "DS04": true,
+   "DS05": true,
+   "DS06": true,
+   "DS07": true,
+   "DS08a": false
+  },
+  "verdict": "SUPPORTED",
+  "weak": true
+ },
+ "H5": {
+  "families_WE_material_majority": 5,
+  "families_reduces_phase_dependence_a": 2,
+  "families_solves_c": 0,
+  "families_substantially_improves_b": 0,
+  "family_flags": {
+   "a": {
+    "F1": false,
+    "F2": true,
+    "F3": false,
+    "F4": false,
+    "F5": true
+   },
+   "b": {
+    "F1": false,
+    "F2": false,
+    "F3": false,
+    "F4": false,
+    "F5": false
+   },
+   "c": {
+    "F1": false,
+    "F2": false,
+    "F3": false,
+    "F4": false,
+    "F5": false
+   },
+   "survives": {
+    "F1": true,
+    "F2": true,
+    "F3": true,
+    "F4": true,
+    "F5": true
+   }
+  },
+  "subset_detail": {
+   "DS01": {
+    "best_residual_ME_A2": 0.005659568042283367,
+    "cvae_mean_pooled_A1": 0.010813039691636,
+    "cvae_seed_ME_A2": [
+     0.0084317894203089,
+     0.0091176407212219,
+     0.0078625334390309
+    ],
+    "cvae_seed_WE_A2": [
+     0.0152827036751477,
+     0.0166640966332562,
+     0.0139940201818861
+    ],
+    "min_residual_pooled_A1": 0.007976838620138002
+   },
+   "DS04": {
+    "best_residual_ME_A2": 0.0040203490940133,
+    "cvae_mean_pooled_A1": 0.005755247474649766,
+    "cvae_seed_ME_A2": [
+     0.0085286882951144,
+     0.0115106161670357,
+     0.0077065074880886
+    ],
+    "cvae_seed_WE_A2": [
+     0.0092884380302505,
+     0.021070960677343,
+     0.008249470234413
+    ],
+    "min_residual_pooled_A1": 0.0061404022569684
+   },
+   "DS05": {
+    "best_residual_ME_A2": 0.006191536030804567,
+    "cvae_mean_pooled_A1": 0.030357295225030233,
+    "cvae_seed_ME_A2": [
+     0.0094522961060165,
+     0.0081723180370808,
+     0.04968198243966
+    ],
+    "cvae_seed_WE_A2": [
+     0.0167149471418481,
+     0.0119211675339434,
+     0.1737813349441256
+    ],
+    "min_residual_pooled_A1": 0.0076421198641467005
+   },
+   "DS06": {
+    "best_residual_ME_A2": 0.0060704945599705335,
+    "cvae_mean_pooled_A1": 0.007704137508963133,
+    "cvae_seed_ME_A2": [
+     0.0073923519603154,
+     0.0061119573507472,
+     0.0135537605827426
+    ],
+    "cvae_seed_WE_A2": [
+     0.0109595506960626,
+     0.0091073669116329,
+     0.0265146183129249
+    ],
+    "min_residual_pooled_A1": 0.008151564348578434
+   },
+   "DS07": {
+    "best_residual_ME_A2": 0.0061845992966162,
+    "cvae_mean_pooled_A1": 0.007660830426370534,
+    "cvae_seed_ME_A2": [
+     0.0097160920939665,
+     0.0081532351277989,
+     0.0074438140746697
+    ],
+    "cvae_seed_WE_A2": [
+     0.0172754789744509,
+     0.0161508726718987,
+     0.0097647769467194
+    ],
+    "min_residual_pooled_A1": 0.003792885832653367
+   },
+   "DS08a": {
+    "best_residual_ME_A2": 0.015843346135398968,
+    "cvae_mean_pooled_A1": 0.02663807531181107,
+    "cvae_seed_ME_A2": [
+     0.0242893442113589,
+     0.015489386862704,
+     0.0377281374390932
+    ],
+    "cvae_seed_WE_A2": [
+     0.0672486096017388,
+     0.0618532250847024,
+     0.0975906086163665
+    ],
+    "min_residual_pooled_A1": 0.014080070632913435
+   },
+   "DS08c": {
+    "best_residual_ME_A2": 0.007592233203127567,
+    "cvae_mean_pooled_A1": 0.0015542986526575332,
+    "cvae_seed_ME_A2": [
+     0.008768561237339,
+     0.0084613899715069,
+     0.0088224071361905
+    ],
+    "cvae_seed_WE_A2": [
+     0.0092661560335733,
+     0.00944961702518,
+     0.0098643258350744
+    ],
+    "min_residual_pooled_A1": 0.0027465013673666334
+   }
+  },
+  "verdict": "SURVIVES"
+ },
+ "H6": {
+  "families_with_flight_level_problem": {
+   "R0": 3,
+   "R1": 4,
+   "R2": 4
+  },
+  "family_share_cells_WE_FFR_below_0.10": {
+   "R0": {
+    "F1": 0.42857142857142855,
+    "F2": 0.8571428571428571,
+    "F3": 0.14285714285714285,
+    "F4": 0.0,
+    "F5": 0.8571428571428571
+   },
+   "R1": {
+    "F1": 0.14285714285714285,
+    "F2": 0.42857142857142855,
+    "F3": 0.23809523809523808,
+    "F4": 0.0,
+    "F5": 0.8571428571428571
+   },
+   "R2": {
+    "F1": 0.42857142857142855,
+    "F2": 0.42857142857142855,
+    "F3": 0.14285714285714285,
+    "F4": 0.0,
+    "F5": 0.8571428571428571
+   }
+  },
+  "share_residual_cells_WE_PA2_material": {
+   "R0": 0.9795918367346939,
+   "R1": 1.0,
+   "R2": 1.0
+  },
+  "verdict": "SURVIVES"
+ },
+ "H7": {
+  "phase_conditioned|R0": {
+   "DS01": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "equal": 4,
+     "mixed": 6
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS04": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 4,
+     "mixed": 6
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   },
+   "DS05": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 1,
+     "equal": 5,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS06": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 1,
+     "equal": 2,
+     "mixed": 7
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS07": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "equal": 8,
+     "mixed": 2
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS08a": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "equal": 3,
+     "mixed": 7
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS08c": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 5,
+     "equal": 2,
+     "mixed": 3
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 4
+   }
+  },
+  "phase_conditioned|R1": {
+   "DS01": {
+    "cvae_improves": false,
+    "evaluable_runs": 9,
+    "labels": {
+     "earlier at matched burden": 2,
+     "equal": 3,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 1
+   },
+   "DS04": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "equal": 1,
+     "mixed": 9
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS05": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 1,
+     "equal": 6,
+     "mixed": 3
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS06": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 3,
+     "equal": 2,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 2
+   },
+   "DS07": {
+    "cvae_improves": false,
+    "evaluable_runs": 9,
+    "labels": {
+     "equal": 4,
+     "mixed": 6
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS08a": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "equal": 5,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS08c": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 5,
+     "equal": 1,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   }
+  },
+  "phase_conditioned|R2": {
+   "DS01": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 1,
+     "equal": 3,
+     "mixed": 6
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 1
+   },
+   "DS04": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 1,
+     "mixed": 9
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 1
+   },
+   "DS05": {
+    "cvae_improves": false,
+    "evaluable_runs": 9,
+    "labels": {
+     "earlier at matched burden": 2,
+     "equal": 5,
+     "mixed": 3
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS06": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 2,
+     "equal": 2,
+     "mixed": 6
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 1
+   },
+   "DS07": {
+    "cvae_improves": false,
+    "evaluable_runs": 9,
+    "labels": {
+     "equal": 6,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS08a": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "equal": 6,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 0
+   },
+   "DS08c": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 4,
+     "equal": 1,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   }
+  },
+  "quantile_regression_W|R0": {
+   "DS01": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 3,
+     "mixed": 7
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   },
+   "DS04": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 3,
+     "mixed": 7
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 1
+   },
+   "DS05": {
+    "cvae_improves": false,
+    "evaluable_runs": 9,
+    "labels": {
+     "earlier at matched burden": 5,
+     "later at matched burden": 1,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 1
+   },
+   "DS06": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 3,
+     "equal": 1,
+     "later at matched burden": 1,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 2
+   },
+   "DS07": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 4,
+     "equal": 1,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 2
+   },
+   "DS08a": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 4,
+     "equal": 1,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   },
+   "DS08c": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 5,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 4
+   }
+  },
+  "quantile_regression_W|R1": {
+   "DS01": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 4,
+     "mixed": 6
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 4
+   },
+   "DS04": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 7,
+     "mixed": 3
+    },
+    "residual_improves": true,
+    "residual_runs_earlier_lower_curve": 6
+   },
+   "DS05": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 6,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 2
+   },
+   "DS06": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 4,
+     "equal": 1,
+     "later at matched burden": 2,
+     "mixed": 3
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   },
+   "DS07": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 7,
+     "equal": 1,
+     "mixed": 2
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   },
+   "DS08a": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 5,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 4
+   },
+   "DS08c": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 5,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 4
+   }
+  },
+  "quantile_regression_W|R2": {
+   "DS01": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 3,
+     "mixed": 7
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   },
+   "DS04": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 8,
+     "later at matched burden": 1,
+     "mixed": 1
+    },
+    "residual_improves": true,
+    "residual_runs_earlier_lower_curve": 5
+   },
+   "DS05": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 6,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 2
+   },
+   "DS06": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 3,
+     "equal": 1,
+     "later at matched burden": 2,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 2
+   },
+   "DS07": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 5,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 1
+   },
+   "DS08a": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 4,
+     "equal": 1,
+     "mixed": 5
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 4
+   },
+   "DS08c": {
+    "cvae_improves": false,
+    "evaluable_runs": 10,
+    "labels": {
+     "earlier at matched burden": 6,
+     "mixed": 4
+    },
+    "residual_improves": false,
+    "residual_runs_earlier_lower_curve": 3
+   }
+  }
+ },
+ "alpha": 0.01,
+ "matrix_stories": {
+  "broad_failure_all_detectors_arms": true,
+  "headline": "M-C + M-B",
+  "triggered": [
+   "M-B",
+   "M-C"
+  ]
+ },
+ "original_story": {
+  "class": "PARTIALLY GENERALIZED",
+  "families_disparity_reversal": 1,
+  "family_counts": {
+   "S1": 3,
+   "S2": 3,
+   "S3": 4,
+   "S4": 5,
+   "S5": 5
+  },
+  "subset_components": {
+   "S1": {
+    "DS01": false,
+    "DS04": false,
+    "DS05": true,
+    "DS06": true,
+    "DS07": false,
+    "DS08a": true,
+    "DS08c": true
+   },
+   "S2": {
+    "DS01": true,
+    "DS04": true,
+    "DS05": true,
+    "DS06": true,
+    "DS07": false,
+    "DS08a": false,
+    "DS08c": false
+   },
+   "S3": {
+    "DS01": true,
+    "DS04": false,
+    "DS05": true,
+    "DS06": true,
+    "DS07": true,
+    "DS08a": true,
+    "DS08c": true
+   },
+   "S4": {
+    "DS01": true,
+    "DS04": true,
+    "DS05": true,
+    "DS06": true,
+    "DS07": true,
+    "DS08a": true,
+    "DS08c": true
+   },
+   "S5": {
+    "DS01": true,
+    "DS04": true,
+    "DS05": true,
+    "DS06": true,
+    "DS07": true,
+    "DS08a": true,
+    "DS08c": true
+   }
+  }
+ },
+ "protocol": "GENERALIZATION_PROTOCOL.md v1.0 + Amendment 1",
+ "rescope_flags": {
+  "A": false,
+  "B": false,
+  "C": false,
+  "D": false,
+  "E": false,
+  "F": false
+ }
+}

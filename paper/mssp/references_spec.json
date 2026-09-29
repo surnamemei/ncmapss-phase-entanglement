@@ -1,0 +1,316 @@
+{
+ "ref1": {
+  "doi": "10.3390/data6010005",
+  "expected_title": "Aircraft Engine Run-to-Failure Dataset under Real Flight Conditions for Prognostics and Diagnostics",
+  "expected_year": 2021,
+  "expected_first_author": "Arias Chao"
+ },
+ "ref2": {
+  "doi": "10.1155/2011/942576",
+  "expected_title": "Assessment of an Anomaly Detector for Jet Engine Health Monitoring",
+  "expected_year": 2011,
+  "expected_first_author": "Borguet"
+ },
+ "ref3": {
+  "doi": "10.1016/j.ast.2011.03.002",
+  "expected_title": "Aircraft Engine Health Management via Stochastic Modelling of Flight Data Interrelations",
+  "expected_year": 2012,
+  "expected_first_author": "Dimogianopoulos"
+ },
+ "ref4": {
+  "doi": "10.4050/VFS-F62-051",
+  "expected_title": "Flight Stage Normalization of HUMS Indicators",
+  "expected_year": 2006,
+  "expected_first_author": "Noura"
+ },
+ "ref5": {
+  "doi": "10.3390/aerospace7060066",
+  "expected_title": "Probabilistic Model for Aero-Engines Fleet Condition Monitoring",
+  "expected_year": 2020,
+  "expected_first_author": "Zaccaria"
+ },
+ "ref6": {
+  "doi": "10.1061/(ASCE)AS.1943-5525.0001483",
+  "expected_title": "Research on an Adaptive Threshold Setting Method for Aero-Engine Fault Detection Based on KDE-EWMA",
+  "expected_year": 2022,
+  "expected_first_author": "Zhao"
+ },
+ "ref7": {
+  "doi": "10.36001/IJPHM.2024.v15i1.3589",
+  "expected_title": "A Generic Machine Learning Framework for Fully-Unsupervised Anomaly Detection with Contaminated Data",
+  "expected_year": 2024,
+  "expected_first_author": "Ulmer",
+  "title_override": "A Generic Machine Learning Framework for Fully-Unsupervised Anomaly Detection with Contaminated Data",
+  "note": "Crossref deposit omits the leading article 'A'; published title verified in the RESS reference audit."
+ },
+ "ref8": {
+  "doi": "10.1016/j.ymssp.2025.112403",
+  "expected_title": "Fault Detection and Monitoring Using a Data-Driven Information-Based Strategy: Method, Theory, and Application",
+  "expected_year": 2025,
+  "expected_first_author": "Ramírez"
+ },
+ "ref9": {
+  "doi": "10.3390/math14183413",
+  "expected_title": "A Physics-Guided Spatio-Temporal Attention Graph Network for Unsupervised Aircraft Engine Anomaly Detection",
+  "expected_year": 2026,
+  "expected_first_author": "Yan"
+ },
+ "ref11": {
+  "doi": "10.36001/phme.2014.v2i1.1542",
+  "expected_title": "Placement of Alert Thresholds on Abnormality Scores",
+  "expected_year": 2014,
+  "expected_first_author": "Massé"
+ },
+ "ref12": {
+  "doi": "10.1016/0925-7535(95)00060-7",
+  "expected_title": "Improving the effectiveness of warnings by increasing the appropriateness of their information content: some hypotheses about human compliance",
+  "expected_year": 1996,
+  "expected_first_author": "Papastavrou"
+ },
+ "N1": {
+  "doi": "10.1016/j.ymssp.2010.12.007",
+  "expected_title": "Comparative analysis of neural network and regression based condition monitoring approaches for wind turbine fault detection",
+  "expected_year": 2011,
+  "expected_first_author": "Schlechtingen"
+ },
+ "N2": {
+  "doi": "10.1098/rsta.2006.1935",
+  "expected_title": "Effects of environmental and operational variability on structural health monitoring",
+  "expected_year": 2007,
+  "expected_first_author": "Sohn"
+ },
+ "N3": {
+  "doi": "10.1016/j.ymssp.2017.07.032",
+  "expected_title": "A novelty detection diagnostic methodology for gearboxes operating under fluctuating operating conditions using probabilistic techniques",
+  "expected_year": 2018,
+  "expected_first_author": "Schmidt"
+ },
+ "N4": {
+  "doi": "10.1016/j.ymssp.2020.106686",
+  "expected_title": "Gaussian process models for mitigation of operational variability in the structural health monitoring of wind turbines",
+  "expected_year": 2020,
+  "expected_first_author": "Avendaño-Valencia"
+ },
+ "N5": {
+  "doi": "10.1016/j.ymssp.2007.07.004",
+  "expected_title": "Vibration-based structural health monitoring using output-only measurements under changing environment",
+  "expected_year": 2008,
+  "expected_first_author": "Deraemaeker"
+ },
+ "N6": {
+  "doi": "10.1016/j.ymssp.2017.04.022",
+  "expected_title": "On switching response surface models, with applications to the structural health monitoring of bridges",
+  "expected_year": 2018,
+  "expected_first_author": "Worden"
+ },
+ "N7": {
+  "doi": "10.1007/s10994-013-5355-6",
+  "expected_title": "Conditional validity of inductive conformal predictors",
+  "expected_year": 2013,
+  "expected_first_author": "Vovk"
+ },
+ "N8": {
+  "doi": "10.1021/ie0497893",
+  "expected_title": "Monitoring of Processes with Multiple Operating Modes through Multiple Principle Component Analysis Models",
+  "expected_year": 2004,
+  "expected_first_author": "Zhao"
+ },
+ "N10": {
+  "doi": "10.1109/taes.1983.309350",
+  "expected_title": "Radar CFAR Thresholding in Clutter and Multiple Target Situations",
+  "expected_year": 1983,
+  "expected_first_author": "Rohling"
+ },
+ "N13": {
+  "doi": "10.1016/j.ymssp.2024.112209",
+  "expected_title": "An anomaly detection method for gas turbines based on single-condition training with zero-fault sample",
+  "expected_year": 2025,
+  "expected_first_author": "Yue"
+ },
+ "N14": {
+  "doi": "10.1016/j.ymssp.2025.112462",
+  "expected_title": "Automatic threshold setting for anomaly detection",
+  "expected_year": 2025,
+  "expected_first_author": "Jablonski"
+ },
+ "N15": {
+  "doi": "10.1016/j.ymssp.2013.10.023",
+  "expected_title": "Subspace-based damage detection under changes in the ambient excitation statistics",
+  "expected_year": 2014,
+  "expected_first_author": "Döhler"
+ },
+ "N16": {
+  "doi": "10.1214/22-aos2244",
+  "expected_title": "Testing for outliers with conformal p-values",
+  "expected_year": 2023,
+  "expected_first_author": "Bates",
+  "override": {
+   "pages": "149--178"
+  },
+  "note": "Pages from the Project Euclid citation page (Crossref record lacks pages)."
+ },
+ "N17": {
+  "manual": {
+   "type": "book",
+   "fields": {
+    "author": "Basseville, Mich{\\`e}le and Nikiforov, Igor V.",
+    "title": "{Detection of Abrupt Changes: Theory and Application}",
+    "publisher": "Prentice Hall",
+    "address": "Englewood Cliffs, NJ",
+    "year": "1993",
+    "note": "{ISBN} 0-13-126780-9",
+    "url": "https://people.irisa.fr/Michele.Basseville/kniga/"
+   }
+  }
+ },
+ "N20": {
+  "doi": "10.1214/23-aos2276",
+  "expected_title": "Conformal prediction beyond exchangeability",
+  "expected_year": 2023,
+  "expected_first_author": "Barber",
+  "override": {
+   "pages": "816--845",
+   "author": "Foygel Barber, Rina and Candès, Emmanuel J. and Ramdas, Aaditya and Tibshirani, Ryan J."
+  },
+  "note": "Pages from the Project Euclid citation page (Crossref record lacks pages)."
+ },
+ "N21": {
+  "doi": "10.1016/j.ymssp.2019.106550",
+  "expected_title": "On the application of domain adaptation in structural health monitoring",
+  "expected_year": 2020,
+  "expected_first_author": "Gardner"
+ },
+ "N22": {
+  "doi": "10.1016/j.ymssp.2019.106417",
+  "expected_title": "Automatic alarm setup using extreme value theory",
+  "expected_year": 2020,
+  "expected_first_author": "Toshkova"
+ },
+ "N23": {
+  "doi": "10.1016/j.knosys.2021.106816",
+  "expected_title": "Unsupervised transfer learning for anomaly detection: Application to complementary operating condition transfer",
+  "expected_year": 2021,
+  "expected_first_author": "Michau"
+ },
+ "N24": {
+  "doi": "10.1115/1.4025482",
+  "expected_title": "Aircraft Engine Gas Path Diagnostic Methods: Public Benchmarking Results",
+  "expected_year": 2014,
+  "expected_first_author": "Simon"
+ },
+ "N25": {
+  "doi": "10.1016/j.ress.2025.110910",
+  "expected_title": "A novel adaptive monitoring framework for detecting the abnormal states of aero-engines with maneuvering flight data",
+  "expected_year": 2025,
+  "expected_first_author": "Wang"
+ },
+ "N26": {
+  "doi": "10.3390/aerospace12121110",
+  "expected_title": "Flight-State-Driven Threshold Optimization Framework for Rotorcraft HUMS",
+  "expected_year": 2025,
+  "expected_first_author": "Lee"
+ },
+ "N27": {
+  "doi": "10.4028/www.scientific.net/KEM.347.305",
+  "expected_title": "A Framework for Novelty Detection in Jet Engine Vibration Data",
+  "expected_year": 2007,
+  "expected_first_author": "Clifton"
+ },
+ "N28": {
+  "doi": "10.1016/j.ress.2023.109718",
+  "expected_title": "Domain adaptation via alignment of operation profile for Remaining Useful Lifetime prediction",
+  "expected_year": 2024,
+  "expected_first_author": "Nejjar"
+ },
+ "N30": {
+  "manual": {
+   "type": "inproceedings",
+   "fields": {
+    "author": "Tibshirani, Ryan J. and Foygel Barber, Rina and Candès, Emmanuel J. and Ramdas, Aaditya",
+    "title": "{Conformal Prediction Under Covariate Shift}",
+    "booktitle": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)",
+    "year": "2019",
+    "url": "https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html"
+   }
+  }
+ },
+ "N32": {
+  "doi": "10.1109/TASE.2011.2176490",
+  "expected_title": "Performance Assessment and Design for Univariate Alarm Systems Based on FAR, MAR, and AAD",
+  "expected_year": 2012,
+  "expected_first_author": "Xu"
+ },
+ "N33": {
+  "doi": "10.1177/1745691612463078",
+  "expected_title": "An Agenda for Purely Confirmatory Research",
+  "expected_year": 2012,
+  "expected_first_author": "Wagenmakers"
+ },
+ "N35": {
+  "doi": "10.1115/1.4026126",
+  "expected_title": "Gas Turbine Engine Health Management: Past, Present, and Future Trends",
+  "expected_year": 2014,
+  "expected_first_author": "Volponi"
+ },
+ "N37": {
+  "manual": {
+   "type": "inproceedings",
+   "fields": {
+    "author": "Wilkinghoff, Kevin and Fujimura, Takuya and Imoto, Keisuke and Le Roux, Jonathan and Tan, Zheng-Hua and Toda, Tomoki",
+    "title": "{Handling Domain Shifts for Anomalous Sound Detection: A Review of DCASE-Related Work}",
+    "booktitle": "Proceedings of the 10th Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE 2025)",
+    "pages": "20--24",
+    "year": "2025",
+    "url": "https://dcase.community/documents/workshop2025/proceedings/DCASE2025Workshop_Wilkinghoff_7.pdf"
+   }
+  }
+ },
+ "N38": {
+  "doi": "10.1016/j.ress.2025.111894",
+  "expected_title": "An anomaly detection method for gas turbines in power plants using conditional variational autoencoder optimized with self-attention",
+  "expected_year": 2026,
+  "expected_first_author": "Chen"
+ },
+ "N39": {
+  "doi": "10.1016/j.jprocont.2022.04.002",
+  "expected_title": "Assessment of alarm systems for mixture processes and intermittent faults",
+  "expected_year": 2022,
+  "expected_first_author": "Asaadi"
+ },
+ "N40": {
+  "doi": "10.1016/j.jprocont.2025.103536",
+  "expected_title": "Operational zone-specific univariate alarm design for incipient faults",
+  "expected_year": 2025,
+  "expected_first_author": "Asaadi"
+ },
+ "N41": {
+  "doi": "10.1016/j.jprocont.2025.103495",
+  "expected_title": "Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders",
+  "expected_year": 2025,
+  "expected_first_author": "Diallo"
+ },
+ "N42": {
+  "doi": "10.36001/phmconf.2023.v15i1.3444",
+  "expected_title": "Comparison of Residual-based Methods on Fault Detection",
+  "expected_year": 2023,
+  "expected_first_author": "Hsu"
+ },
+ "N43": {
+  "doi": "10.1038/s41598-026-67776-4",
+  "expected_title": "RPA-LSTM: Reversible normalization and prediction-assisted LSTM for aero-engine intake-system ECU anomaly detection",
+  "expected_year": 2026,
+  "expected_first_author": "Zhong"
+ },
+ "N44": {
+  "doi": "10.1016/j.neucom.2021.08.016",
+  "expected_title": "Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets",
+  "expected_year": 2021,
+  "expected_first_author": "Farouq"
+ },
+ "N45": {
+  "doi": "10.1111/stan.12352",
+  "expected_title": "General adapted-threshold monitoring in discrete environments and rules for imbalanced classes",
+  "expected_year": 2025,
+  "expected_first_author": "Steland"
+ }
+}

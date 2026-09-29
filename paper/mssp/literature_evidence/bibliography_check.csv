@@ -1,0 +1,48 @@
+key,doi,title,year,first_author,venue,volume,issue,pages_or_article,status
+ref1,10.3390/data6010005,Aircraft Engine Run-to-Failure Dataset under Real Flight Conditions for Prognostics and Diagnostics,2021,Arias Chao,Data,6,1,5,ok
+ref2,10.1155/2011/942576,Assessment of an Anomaly Detector for Jet Engine Health Monitoring,2011,Borguet,International Journal of Rotating Machinery,2011,,1-11,ok
+ref3,10.1016/j.ast.2011.03.002,Aircraft engine health management via stochastic modelling of flight data interrelations,2012,Dimogianopoulos,Aerospace Science and Technology,16,1,70-81,ok
+ref4,10.4050/VFS-F62-051,Flight Stage Normalization of HUMS Indicators,2006,Noura,"Proceedings of the Vertical Flight Society Forum 62 - Phoenix, AZ 2006",,,1-16,ok
+ref5,10.3390/aerospace7060066,Probabilistic Model for Aero-Engines Fleet Condition Monitoring,2020,Zaccaria,Aerospace,7,6,66,ok
+ref6,10.1061/(ASCE)AS.1943-5525.0001483,Research on an Adaptive Threshold Setting Method for Aero-Engine Fault Detection Based on KDE-EWMA,2022,Zhao,Journal of Aerospace Engineering,35,6,04022087,ok
+ref7,10.36001/IJPHM.2024.v15i1.3589,A Generic Machine Learning Framework for Fully-Unsupervised Anomaly Detection with Contaminated Data,2024,Ulmer,International Journal of Prognostics and Health Management,15,1,,ok
+ref8,10.1016/j.ymssp.2025.112403,"Fault detection and monitoring using a data-driven information-based strategy: Method, theory, and application",2025,Ramírez,Mechanical Systems and Signal Processing,228,,112403,ok
+ref9,10.3390/math14183413,A Physics-Guided Spatio-Temporal Attention Graph Network for Unsupervised Aircraft Engine Anomaly Detection,2026,Yan,Mathematics,14,18,3413,ok
+ref11,10.36001/phme.2014.v2i1.1542,Placement of alert thresholds on abnormality scores,2014,Massé,PHM Society European Conference,2,1,,ok
+ref12,10.1016/0925-7535(95)00060-7,Improving the effectiveness of warnings by increasing the appropriateness of their information content: some hypotheses about human compliance,1996,Papastavrou,Safety Science,21,3,175-189,ok
+N1,10.1016/j.ymssp.2010.12.007,Comparative analysis of neural network and regression based condition monitoring approaches for wind turbine fault detection,2011,Schlechtingen,Mechanical Systems and Signal Processing,25,5,1849-1875,ok
+N2,10.1098/rsta.2006.1935,Effects of environmental and operational variability on structural health monitoring,2007,Sohn,"Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",365,1851,539-560,ok
+N3,10.1016/j.ymssp.2017.07.032,A novelty detection diagnostic methodology for gearboxes operating under fluctuating operating conditions using probabilistic techniques,2018,Schmidt,Mechanical Systems and Signal Processing,100,,152-166,ok
+N4,10.1016/j.ymssp.2020.106686,Gaussian process models for mitigation of operational variability in the structural health monitoring of wind turbines,2020,Avendaño-Valencia,Mechanical Systems and Signal Processing,142,,106686,ok
+N5,10.1016/j.ymssp.2007.07.004,Vibration-based structural health monitoring using output-only measurements under changing environment,2008,Deraemaeker,Mechanical Systems and Signal Processing,22,1,34-56,ok
+N6,10.1016/j.ymssp.2017.04.022,"On switching response surface models, with applications to the structural health monitoring of bridges",2018,Worden,Mechanical Systems and Signal Processing,98,,139-156,ok
+N7,10.1007/s10994-013-5355-6,Conditional validity of inductive conformal predictors,2013,Vovk,Machine Learning,92,2-3,349-376,ok
+N8,10.1021/ie0497893,Monitoring of Processes with Multiple Operating Modes through Multiple Principle Component Analysis Models,2004,Zhao,Industrial & Engineering Chemistry Research,43,22,7025-7035,ok
+N10,10.1109/taes.1983.309350,Radar CFAR Thresholding in Clutter and Multiple Target Situations,1983,Rohling,IEEE Transactions on Aerospace and Electronic Systems,AES-19,4,608-621,ok
+N13,10.1016/j.ymssp.2024.112209,An anomaly detection method for gas turbines based on single-condition training with zero-fault sample,2025,Yue,Mechanical Systems and Signal Processing,224,,112209,ok
+N14,10.1016/j.ymssp.2025.112462,Automatic threshold setting for anomaly detection,2025,Jablonski,Mechanical Systems and Signal Processing,228,,112462,ok
+N15,10.1016/j.ymssp.2013.10.023,Subspace-based damage detection under changes in the ambient excitation statistics,2014,Döhler,Mechanical Systems and Signal Processing,45,1,207-224,ok
+N16,10.1214/22-aos2244,Testing for outliers with conformal p-values,2023,Bates,The Annals of Statistics,51,1,,ok
+N17,,{Detection of Abrupt Changes: Theory and Application},1993,Basseville,Prentice Hall,,,,manual
+N20,10.1214/23-aos2276,Conformal prediction beyond exchangeability,2023,Barber,The Annals of Statistics,51,2,,ok
+N21,10.1016/j.ymssp.2019.106550,On the application of domain adaptation in structural health monitoring,2020,Gardner,Mechanical Systems and Signal Processing,138,,106550,ok
+N22,10.1016/j.ymssp.2019.106417,Automatic alarm setup using extreme value theory,2020,Toshkova,Mechanical Systems and Signal Processing,139,,106417,ok
+N23,10.1016/j.knosys.2021.106816,Unsupervised transfer learning for anomaly detection: Application to complementary operating condition transfer,2021,Michau,Knowledge-Based Systems,216,,106816,ok
+N24,10.1115/1.4025482,Aircraft Engine Gas Path Diagnostic Methods: Public Benchmarking Results,2014,Simon,Journal of Engineering for Gas Turbines and Power,136,4,041201,ok
+N25,10.1016/j.ress.2025.110910,A novel adaptive monitoring framework for detecting the abnormal states of aero-engines with maneuvering flight data,2025,Wang,Reliability Engineering & System Safety,258,,110910,ok
+N26,10.3390/aerospace12121110,Flight-State-Driven Threshold Optimization Framework for Rotorcraft HUMS,2025,Lee,Aerospace,12,12,1110,ok
+N27,10.4028/www.scientific.net/KEM.347.305,A Framework for Novelty Detection in Jet Engine Vibration Data,2007,Clifton,Key Engineering Materials,347,,305-310,ok
+N28,10.1016/j.ress.2023.109718,Domain adaptation via alignment of operation profile for Remaining Useful Lifetime prediction,2024,Nejjar,Reliability Engineering & System Safety,242,,109718,ok
+N30,,{Conformal Prediction Under Covariate Shift},2019,Tibshirani,Advances in Neural Information Processing Systems 32 (NeurIPS 2019),,,,manual
+N32,10.1109/TASE.2011.2176490,"Performance Assessment and Design for Univariate Alarm Systems Based on FAR, MAR, and AAD",2012,Xu,IEEE Transactions on Automation Science and Engineering,9,2,296-307,ok
+N33,10.1177/1745691612463078,An Agenda for Purely Confirmatory Research,2012,Wagenmakers,Perspectives on Psychological Science,7,6,632-638,ok
+N35,10.1115/1.4026126,"Gas Turbine Engine Health Management: Past, Present, and Future Trends",2014,Volponi,Journal of Engineering for Gas Turbines and Power,136,5,051201,ok
+N37,,{Handling Domain Shifts for Anomalous Sound Detection: A Review of DCASE-Related Work},2025,Wilkinghoff,Proceedings of the 10th Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE 2025),,,20--24,manual
+N38,10.1016/j.ress.2025.111894,An anomaly detection method for gas turbines in power plants using conditional variational autoencoder optimized with self-attention,2026,Chen,Reliability Engineering & System Safety,267,,111894,ok
+N39,10.1016/j.jprocont.2022.04.002,Assessment of alarm systems for mixture processes and intermittent faults,2022,Asaadi,Journal of Process Control,114,,120-130,ok
+N40,10.1016/j.jprocont.2025.103536,Operational zone-specific univariate alarm design for incipient faults,2025,Asaadi,Journal of Process Control,155,,103536,ok
+N41,10.1016/j.jprocont.2025.103495,Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders,2025,Diallo,Journal of Process Control,152,,103495,ok
+N42,10.36001/phmconf.2023.v15i1.3444,Comparison of Residual-based Methods on Fault Detection,2023,Hsu,Annual Conference of the PHM Society,15,1,,ok
+N43,10.1038/s41598-026-67776-4,RPA-LSTM: Reversible normalization and prediction-assisted LSTM for aero-engine intake-system ECU anomaly detection,2026,Zhong,Scientific Reports,,,,ok
+N44,10.1016/j.neucom.2021.08.016,Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets,2021,Farouq,Neurocomputing,462,,591-606,ok
+N45,10.1111/stan.12352,General adapted-threshold monitoring in discrete environments and rules for imbalanced classes,2025,Steland,Statistica Neerlandica,79,1,e12352,ok

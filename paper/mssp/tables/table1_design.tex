@@ -1,0 +1,26 @@
+% Datasets, partitions, phase and calibration roles
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.31\textwidth}>{\raggedright\arraybackslash}p{0.36\textwidth}}
+\toprule
+Item & DS02 & DS03 \\
+\midrule
+Role & exploratory discovery & frozen one-shot confirmation (held-out official-test engines) \\
+\midrule
+Post-confirmation role & reused for exploratory transport analyses & reused for exploratory transport analyses \\
+\midrule
+Model-fitting engines (flight class) & 2 (3), 5 (3), 10 (3), 16 (3) & 1 (1), 2 (2), 3 (2), 5 (1), 6 (3), 7 (2), 9 (1) \\
+\midrule
+Calibration engines (flight class) & 18 (3), 20 (3) & 4 (2), 8 (3) \\
+\midrule
+Audit engines (flight class) & 11 (3), 14 (1), 15 (2) & 10 (3), 11 (3), 12 (1), 13 (3), 14 (1), 15 (2) \\
+\midrule
+Audit engines of a class absent from calibration & 14 (class 1), 15 (class 2) & 12 (class 1), 14 (class 1) \\
+\midrule
+Healthy calibration / audit flights & 32 / 76 & 40 / 148 \\
+\midrule
+Abnormal-state (hs = 0) rows read, once & 820,630 & 2,956,881 \\
+\midrule
+Phase labels & retrospective climb/cruise/descent (P, C); past-only regimes (C$'$) & retrospective climb/cruise/descent (P, C); past-only regimes (C$'$) \\
+\midrule
+Calibration arms compared & P, C, C$'$; Q (healthy side only) & P, C, C$'$; Q (healthy side only) \\
+\bottomrule
+\end{tabular}

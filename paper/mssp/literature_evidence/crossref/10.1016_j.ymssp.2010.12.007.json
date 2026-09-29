@@ -1,0 +1,279 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    23
+   ]
+  ],
+  "date-time": "2026-09-23T03:36:53Z",
+  "timestamp": 1790134613010,
+  "version": "4.0.1"
+ },
+ "reference-count": 12,
+ "publisher": "Elsevier BV",
+ "issue": "5",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2011,
+      7,
+      1
+     ]
+    ],
+    "date-time": "2011-07-01T00:00:00Z",
+    "timestamp": 1309478400000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2011,
+    7
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2010.12.007",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2010,
+    12,
+    25
+   ]
+  ],
+  "date-time": "2010-12-25T05:09:15Z",
+  "timestamp": 1293253755000
+ },
+ "page": "1849-1875",
+ "source": "Crossref",
+ "is-referenced-by-count": 312,
+ "title": [
+  "Comparative analysis of neural network and regression based condition monitoring approaches for wind turbine fault detection"
+ ],
+ "prefix": "10.1016",
+ "volume": "25",
+ "author": [
+  {
+   "given": "Meik",
+   "family": "Schlechtingen",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ilmar",
+   "family": "Ferreira Santos",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib1",
+   "doi-asserted-by": "crossref",
+   "first-page": "574",
+   "DOI": "10.1002/we.319",
+   "article-title": "Online wind turbine fault detection through automated SCADA data analysis",
+   "volume": "12",
+   "author": "Zaher",
+   "year": "2009",
+   "journal-title": "Wind Energy"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib2",
+   "unstructured": "T.W. Verbruggen, Wind turbine operation & maintenance based on condition monitoring. ECN-C-03-047, 2003."
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "552",
+   "DOI": "10.1016/j.compind.2006.02.011",
+   "article-title": "SIMAP: intelligent system for predictive maintenance application to the health condition monitoring of a windturbine gearbox",
+   "volume": "57",
+   "author": "Sanz-Bobi",
+   "year": "2006",
+   "journal-title": "Computers in Industry"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib4",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/PCT.2007.4538286",
+   "article-title": "A multi-agent fault detection system for wind turbine defect recognition and diagnosis",
+   "author": "Zaher",
+   "year": "2007",
+   "journal-title": "Proceedings of IEEE Lausanne Powertech"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib5",
+   "doi-asserted-by": "crossref",
+   "first-page": "327",
+   "DOI": "10.1115/1.1413216",
+   "article-title": "Comparative analysis of regression and artificial neural network models for wind turbine power curve estimation",
+   "volume": "123",
+   "author": "Shuhui",
+   "year": "2001",
+   "journal-title": "Journal of Solar Energy Engineering"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib6",
+   "unstructured": "M. Süttmann (Schlechtingen) , Condition monitoring in wind turbines—a drive train monitoring system, Master Thesis, 2010."
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib7",
+   "series-title": "Concepts in Thermal Physics",
+   "author": "Blundell",
+   "year": "2006"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib8",
+   "series-title": "Neural Networks: A Comprehensive Foundation",
+   "isbn-type": "print",
+   "author": "Haykin",
+   "year": "1998",
+   "ISBN": "https://id.crossref.org/isbn/0132733501"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib9",
+   "doi-asserted-by": "crossref",
+   "first-page": "1541",
+   "DOI": "10.1016/S0045-7949(01)00039-6",
+   "article-title": "Neural network design for engineering applications",
+   "volume": "79",
+   "author": "Rafiq",
+   "year": "2001",
+   "journal-title": "Computers and Structures"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib10",
+   "series-title": "Applying Neural Networks—A Practical Guide",
+   "isbn-type": "print",
+   "author": "Swingler",
+   "year": "1996",
+   "ISBN": "https://id.crossref.org/isbn/0340705892"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib11",
+   "series-title": "Guide to Neural Computing Applications",
+   "isbn-type": "print",
+   "author": "Tarassenko",
+   "year": "1998",
+   "ISBN": "https://id.crossref.org/isbn/0340705892"
+  },
+  {
+   "key": "10.1016/j.ymssp.2010.12.007_bib12",
+   "series-title": "Advanced Maintenance and Repair for Offshore Wind Farms using Fault Prediction Techniques",
+   "author": "Caselitz",
+   "year": "2001"
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327010004310?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327010004310?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2018,
+    12,
+    5
+   ]
+  ],
+  "date-time": "2018-12-05T21:50:11Z",
+  "timestamp": 1544046611000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327010004310"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2011,
+    7
+   ]
+  ]
+ },
+ "references-count": 12,
+ "journal-issue": {
+  "issue": "5",
+  "published-print": {
+   "date-parts": [
+    [
+     2011,
+     7
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S0888327010004310"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2010.12.007",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2011,
+    7
+   ]
+  ]
+ }
+}

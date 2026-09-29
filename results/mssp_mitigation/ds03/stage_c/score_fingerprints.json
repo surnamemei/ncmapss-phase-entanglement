@@ -1,0 +1,30 @@
+{
+  "pca:-1": {
+    "calibration": "17c1801f30790a4725b2d56ed22ab899960982df00e20ee7711094ec9c7db855",
+    "healthy_audit": "4462b03f80de9df40583a54858e3181c2c1bffbbd05699f22167debc5769831a"
+  },
+  "isolation_forest:0": {
+    "calibration": "252a037967ae5bd20395299016bc17b4e2edbdedd3391f91e8c37dd0a3ed4c4a",
+    "healthy_audit": "33e1fca86490ae9e1105a0a0605161429051aefd644a85da338a49ae7b0014f6"
+  },
+  "isolation_forest:1": {
+    "calibration": "c6eab3d5c17a9c67dcbbf1ec0d3108b5bafc74420d5bd99e5809935d997767dc",
+    "healthy_audit": "57966f3eca46ed7f14fb30d40eb5bc526af4e8f0eec089bffa859f2559b3725c"
+  },
+  "isolation_forest:2": {
+    "calibration": "6d0895f8d929ddb36253589b3f34b504adff9e19809e08d36d304dc8f58cc8af",
+    "healthy_audit": "0e03e87996592da453875daa80530f78a8fb31ed014649e892b57b86c6151fbe"
+  },
+  "lstm_autoencoder:0": {
+    "calibration": "201d3de4a9cc344ca799e63f63c6be92a869c1d9d020e71f9a077860c9d910e0",
+    "healthy_audit": "87730110e10a66024b862598d500455514bbca913ae9c618718d639727899a52"
+  },
+  "lstm_autoencoder:1": {
+    "calibration": "8f5f777da4403cb3ce2a7dec5f376b42941198272a35a5fe18b07f8ed5c3afe4",
+    "healthy_audit": "1fe0221fe0c07f4aa5b0f27ac537763fd98c78ccd5c5d2ce14f78bd4ad9c2833"
+  },
+  "lstm_autoencoder:2": {
+    "calibration": "4e637acf8d6d42515c5172b3d676616ee2f046403f8431a5df9e98d49fa16d3e",
+    "healthy_audit": "4984b1ba02200bdb4c387252948e56436560a793361562114294fc354c5cce45"
+  }
+}

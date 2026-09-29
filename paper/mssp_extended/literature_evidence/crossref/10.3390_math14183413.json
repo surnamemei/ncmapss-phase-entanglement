@@ -1,0 +1,705 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    21
+   ]
+  ],
+  "date-time": "2026-09-21T17:11:53Z",
+  "timestamp": 1790010713217,
+  "version": "4.0.1"
+ },
+ "reference-count": 38,
+ "publisher": "MDPI AG",
+ "issue": "18",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      20
+     ]
+    ],
+    "date-time": "2026-09-20T00:00:00Z",
+    "timestamp": 1789862400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001809",
+   "name": "National Natural Science Foundation of China",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "92360308"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "92360308"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001809",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "award": [
+    "92360308"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "92360308"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "https://ror.org/01h0zpd94",
+     "id-type": "ROR",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Mathematics"
+ ],
+ "abstract": "<jats:p>For unsupervised anomaly detection in aircraft engines, traditional methods predominantly focus on mining temporal features, often neglecting complex interdependencies among multiple variables. Although existing graph neural networks can model spatial relationships, their purely data-driven graph construction tends to overlook system thermodynamic mechanisms, thereby introducing spurious correlations. To address this, this paper proposes a Physics-Guided Spatio-Temporal Attention Graph Network (PG-STAG). This method fuses aerothermodynamic priors with health-data correlation information to construct a knowledge-data collaborative graph topology with physical consistency. Furthermore, a dual spatio-temporal attention mechanism is utilized to extract multi-dimensional spatio-temporal features, and anomaly identification is achieved based on reconstruction errors. Experiments on the N-CMAPSS dataset and real-world civil aviation QAR data demonstrate that PG-STAG achieves the highest F1-score and ROC-AUC among the compared methods, exhibiting strong robustness and physical interpretability.</jats:p>",
+ "DOI": "10.3390/math14183413",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    21
+   ]
+  ],
+  "date-time": "2026-09-21T16:06:51Z",
+  "timestamp": 1790006811000
+ },
+ "page": "3413",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "A Physics-Guided Spatio-Temporal Attention Graph Network for Unsupervised Aircraft Engine Anomaly Detection"
+ ],
+ "prefix": "10.3390",
+ "volume": "14",
+ "author": [
+  {
+   "given": "Shaokai",
+   "family": "Yan",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Mechanical Engineering, Harbin Institute of Technology (Weihai), Weihai 264209, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "methodology",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "software",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "validation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "writing-original-draft",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "data-curation",
+     "vocabulary": "credit"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3787-7845",
+   "authenticated-orcid": false,
+   "given": "Yongjian",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Mechanical Engineering, Harbin Institute of Technology (Weihai), Weihai 264209, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "conceptualization",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "resources",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "supervision",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "project-administration",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "funding-acquisition",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "writing-review-editing",
+     "vocabulary": "credit"
+    }
+   ]
+  },
+  {
+   "given": "Xiangyu",
+   "family": "Gong",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "AECC Shenyang Engine Research Institute, Shenyang 110015, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    },
+    {
+     "role": "resources",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "investigation",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "supervision",
+     "vocabulary": "credit"
+    },
+    {
+     "role": "formal-analysis",
+     "vocabulary": "credit"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    20
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "112254",
+   "DOI": "10.1016/j.ress.2026.112254",
+   "article-title": "Remaining useful life prediction of aero-engine using pyramid temporal convolutional network with fused complementary attention",
+   "volume": "273",
+   "author": "Wang",
+   "year": "2026",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "112",
+   "DOI": "10.1016/j.jmsy.2024.08.009",
+   "article-title": "Superpixel perception graph neural network for intelligent defect detection of aero-engine blade",
+   "volume": "77",
+   "author": "Shang",
+   "year": "2024",
+   "journal-title": "J. Manuf. Syst."
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "105627",
+   "DOI": "10.1016/j.csite.2024.105627",
+   "article-title": "Evaluation of machine learning models for predicting performance metrics of aero-engine combustors",
+   "volume": "65",
+   "author": "Huan",
+   "year": "2025",
+   "journal-title": "Case Stud. Therm. Eng."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "first-page": "106529",
+   "DOI": "10.1016/j.ymssp.2019.106529",
+   "article-title": "Aero-engine bearing fault detection: A clustering low-rank approach",
+   "volume": "138",
+   "author": "Zhang",
+   "year": "2020",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "104507",
+   "DOI": "10.1016/j.aei.2026.104507",
+   "article-title": "A heterogeneous graph neural network with spatial–temporal and operating condition-aware message passing mechanism for RUL prediction of aero-engines",
+   "volume": "73",
+   "author": "Tian",
+   "year": "2026",
+   "journal-title": "Adv. Eng. Inform."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "first-page": "104821",
+   "DOI": "10.1016/j.aei.2026.104821",
+   "article-title": "An adaptive industrial large language model for mechanical fault diagnosis under variable operating conditions",
+   "volume": "74",
+   "author": "Xu",
+   "year": "2026",
+   "journal-title": "Adv. Eng. Inform."
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "first-page": "110685",
+   "DOI": "10.1016/j.ress.2024.110685",
+   "article-title": "Physics-informed spatio-temporal hybrid neural networks for predicting remaining useful life in aircraft engine",
+   "volume": "256",
+   "author": "Zhou",
+   "year": "2025",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "first-page": "331",
+   "DOI": "10.1016/j.ymssp.2018.01.009",
+   "article-title": "Hyper-spherical distance discrimination: A novel data description method for aero-engine rolling bearing fault detection",
+   "volume": "109",
+   "author": "Lin",
+   "year": "2018",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "110064",
+   "DOI": "10.1016/j.measurement.2021.110064",
+   "article-title": "A new method for fault detection of aero-engine based on isolation forest",
+   "volume": "185",
+   "author": "Wang",
+   "year": "2021",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "first-page": "175",
+   "DOI": "10.1016/S1000-9361(11)60342-7",
+   "article-title": "Fault diagnosis for aero-engine applying a new multi-class support vector algorithm",
+   "volume": "19",
+   "author": "Xu",
+   "year": "2006",
+   "journal-title": "Chin. J. Aeronaut."
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "first-page": "115778",
+   "DOI": "10.1016/j.measurement.2024.115778",
+   "article-title": "Multi-combination fault data augmentation method of aero-engine gas path based on extraction TimeGAN",
+   "volume": "242",
+   "author": "Chen",
+   "year": "2025",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "first-page": "121896",
+   "DOI": "10.1016/j.measurement.2026.121896",
+   "article-title": "A deep learning-based intelligent early warning system for aero-engine vibration anomalies",
+   "volume": "280",
+   "author": "Pan",
+   "year": "2026",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "first-page": "2989",
+   "DOI": "10.1109/TCE.2023.3306428",
+   "article-title": "Satellite unsupervised anomaly detection based on deconvolution-reconstructed temporal convolutional autoencoder",
+   "volume": "70",
+   "author": "Zhao",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Consum. Electron."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shi, J., Gao, J., and Xiang, S. (2023). Adaptively lightweight spatiotemporal information-extraction-operator-based DL method for aero-engine RUL prediction. Sensors, 23.",
+   "DOI": "10.20944/preprints202306.0044.v1"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "107807",
+   "DOI": "10.1016/j.ress.2021.107807",
+   "article-title": "Prediction of remaining useful life of multi-stage aero-engine based on clustering and LSTM fusion",
+   "volume": "214",
+   "author": "Liu",
+   "year": "2021",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mallak, A., and Fathi, M. (2021). Sensor and component fault detection and diagnosis for hydraulic machinery integrating LSTM autoencoder detector and diagnostic classifiers. Sensors, 21.",
+   "DOI": "10.3390/s21020433"
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "75",
+   "DOI": "10.1016/j.cja.2022.07.011",
+   "article-title": "Stall flutter prediction based on multi-layer GRU neural network",
+   "volume": "36",
+   "author": "Dai",
+   "year": "2023",
+   "journal-title": "Chin. J. Aeronaut."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "111832",
+   "DOI": "10.1016/j.ast.2026.111832",
+   "article-title": "Feature-flow guided modular BiLSTM for multi-parameter degradation representation in aero-engines",
+   "volume": "176",
+   "author": "Lyu",
+   "year": "2026",
+   "journal-title": "Aerosp. Sci. Technol."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "124597",
+   "DOI": "10.1016/j.eswa.2024.124597",
+   "article-title": "A novel method for aero-engine time-series forecasting based on multi-resolution transformer",
+   "volume": "255",
+   "author": "Jin",
+   "year": "2024",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "109605",
+   "DOI": "10.1016/j.ress.2023.109605",
+   "article-title": "PAOLTransformer: Pruning-adaptive optimal lightweight transformer model for aero-engine remaining useful life prediction",
+   "volume": "240",
+   "author": "Zhang",
+   "year": "2023",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "506",
+   "DOI": "10.1109/TCYB.2023.3256080",
+   "article-title": "Filter-informed spectral graph wavelet networks for multiscale feature extraction and intelligent fault diagnosis",
+   "volume": "54",
+   "author": "Li",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Cybern."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "111973",
+   "DOI": "10.1016/j.engappai.2025.111973",
+   "article-title": "A network intrusion detection system based on self-supervised learning of traffic differentiation in internet of things",
+   "volume": "160",
+   "author": "Chen",
+   "year": "2025",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "110464",
+   "DOI": "10.1016/j.ress.2024.110464",
+   "article-title": "Causality-based adversarial attacks for robust GNN modelling with application in fault detection",
+   "volume": "252",
+   "author": "Liu",
+   "year": "2024",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "104808",
+   "DOI": "10.1016/j.aei.2026.104808",
+   "article-title": "LKG-STNet: A large language model-assisted knowledge graph-guided spatiotemporal network for aero-engine remaining useful life prediction",
+   "volume": "75",
+   "author": "Qiu",
+   "year": "2026",
+   "journal-title": "Adv. Eng. Inform."
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "first-page": "112464",
+   "DOI": "10.1016/j.ast.2026.112464",
+   "article-title": "Fault diagnosis technology of aero-engine based on self-adaptive time-frequency graph neural network approach of transfer for reliability improvement",
+   "volume": "178",
+   "author": "Li",
+   "year": "2026",
+   "journal-title": "Aerosp. Sci. Technol."
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "first-page": "110888",
+   "DOI": "10.1016/j.ress.2025.110888",
+   "article-title": "Multi-perception graph convolutional tree-embedded network for aero-engine bearing health monitoring with unbalanced data",
+   "volume": "257",
+   "author": "Zhao",
+   "year": "2025",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "first-page": "111071",
+   "DOI": "10.1016/j.ast.2025.111071",
+   "article-title": "A study on structural damage diagnosis method for aero-engines based on dynamic topology-aware graph neural networks",
+   "volume": "168",
+   "author": "Li",
+   "year": "2026",
+   "journal-title": "Aerosp. Sci. Technol."
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "first-page": "104115",
+   "DOI": "10.1016/j.cja.2026.104115",
+   "article-title": "Multi-scale metric learning neural network with adaptive graphs for few-shot gas path fault diagnosis of variable cycle engine",
+   "volume": "39",
+   "author": "Ran",
+   "year": "2026",
+   "journal-title": "Chin. J. Aeronaut."
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "first-page": "104769",
+   "DOI": "10.1016/j.aei.2026.104769",
+   "article-title": "Real-time non-iterative component-level modeling of aero-engines using physics-informed neural networks",
+   "volume": "74",
+   "author": "Jiang",
+   "year": "2026",
+   "journal-title": "Adv. Eng. Inform."
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "first-page": "5244",
+   "DOI": "10.1109/TR.2025.3626358",
+   "article-title": "Aircraft engine remaining useful life estimation via a graph attention reconcile network model based on physical equations and sensor data",
+   "volume": "74",
+   "author": "Cui",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Reliab."
+  },
+  {
+   "key": "ref_31",
+   "doi-asserted-by": "crossref",
+   "first-page": "15503",
+   "DOI": "10.1088/2631-8695/ae2fad",
+   "article-title": "A static-dynamic hybrid graph neural network model incorporating physical information for remaining useful life prediction of aircraft engines",
+   "volume": "8",
+   "author": "Zhang",
+   "year": "2026",
+   "journal-title": "Eng. Res. Express"
+  },
+  {
+   "key": "ref_32",
+   "doi-asserted-by": "crossref",
+   "first-page": "113738",
+   "DOI": "10.1016/j.engappai.2026.113738",
+   "article-title": "Designing a digital twin framework for degraded engines using an interpretable ensemble model with spatiotemporal graph learning and physics knowledge",
+   "volume": "167",
+   "author": "Cui",
+   "year": "2026",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "first-page": "112160",
+   "DOI": "10.1016/j.ast.2026.112160",
+   "article-title": "A dynamic spatio-temporal graph neural network adaptive to operating conditions: Learning evolutionary correlations in multi-sensor data for aero-engine",
+   "volume": "176",
+   "author": "Li",
+   "year": "2026",
+   "journal-title": "Aerosp. Sci. Technol."
+  },
+  {
+   "key": "ref_34",
+   "doi-asserted-by": "crossref",
+   "first-page": "112040",
+   "DOI": "10.1016/j.ast.2026.112040",
+   "article-title": "A physics-informed graph attention network with sparse temporal block selection for aircraft hydraulic system fault diagnosis",
+   "volume": "175",
+   "author": "Yang",
+   "year": "2026",
+   "journal-title": "Aerosp. Sci. Technol."
+  },
+  {
+   "key": "ref_35",
+   "doi-asserted-by": "crossref",
+   "first-page": "3533816",
+   "DOI": "10.1109/TIM.2023.3322481",
+   "article-title": "Comprehensive dynamic structure graph neural network for aero-engine remaining useful life prediction",
+   "volume": "72",
+   "author": "Wang",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Instrum. Meas."
+  },
+  {
+   "key": "ref_36",
+   "unstructured": "Veličković, P., Cucurull, G., Casanova, A., Romero, A., Liò, P., and Bengio, Y. (2018). Graph attention networks. arXiv."
+  },
+  {
+   "key": "ref_37",
+   "doi-asserted-by": "crossref",
+   "first-page": "104926",
+   "DOI": "10.1016/j.engappai.2022.104926",
+   "article-title": "Constructing robust health indicators from complex engineered systems via anticausal learning",
+   "volume": "113",
+   "author": "Koutroulis",
+   "year": "2022",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "ref_38",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Yıldırım, U., and Afşer, H. (2025). Linear methods for predictive maintenance: The case of NASA C-MAPSS datasets. Appl. Sci., 15.",
+   "DOI": "10.3390/app15189945"
+  }
+ ],
+ "container-title": [
+  "Mathematics"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/2227-7390/14/18/3413/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    21
+   ]
+  ],
+  "date-time": "2026-09-21T16:33:26Z",
+  "timestamp": 1790008406000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/2227-7390/14/18/3413"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    20
+   ]
+  ]
+ },
+ "references-count": 38,
+ "journal-issue": {
+  "issue": "18",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     9
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "math14183413"
+ ],
+ "URL": "https://doi.org/10.3390/math14183413",
+ "relation": {},
+ "ISSN": [
+  "2227-7390"
+ ],
+ "issn-type": [
+  {
+   "value": "2227-7390",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    20
+   ]
+  ]
+ }
+}

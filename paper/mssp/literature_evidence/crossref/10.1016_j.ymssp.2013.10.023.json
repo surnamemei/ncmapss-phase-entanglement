@@ -1,0 +1,465 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    26
+   ]
+  ],
+  "date-time": "2026-09-26T01:09:14Z",
+  "timestamp": 1790384954138,
+  "version": "4.1.0"
+ },
+ "reference-count": 24,
+ "publisher": "Elsevier BV",
+ "issue": "1",
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2014,
+    3
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2013.10.023",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2013,
+    11,
+    16
+   ]
+  ],
+  "date-time": "2013-11-16T21:30:30Z",
+  "timestamp": 1384637430000
+ },
+ "page": "207-224",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 84,
+ "title": [
+  "Subspace-based damage detection under changes in the ambient excitation statistics"
+ ],
+ "prefix": "10.1016",
+ "volume": "45",
+ "author": [
+  {
+   "given": "Michael",
+   "family": "Döhler",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Laurent",
+   "family": "Mevel",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Falk",
+   "family": "Hille",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ymssp.2013.10.023_bib1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "M. Döhler, L. Mevel, Robust subspace based fault detection, in: Proceedings of the 18th IFAC World Congress, Milan, Italy, 2011.",
+   "DOI": "10.3182/20110828-6-IT-1002.00842"
+  },
+  {
+   "issue": "1778",
+   "key": "10.1016/j.ymssp.2013.10.023_bib2",
+   "doi-asserted-by": "crossref",
+   "first-page": "131",
+   "DOI": "10.1098/rsta.2000.0717",
+   "article-title": "Vibration-based structural damage identification",
+   "volume": "359",
+   "author": "Farrar",
+   "year": "2001",
+   "journal-title": "Philos. Trans. R. Soc. A Math. Phys. Eng. Sci."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2013.10.023_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "91",
+   "DOI": "10.1177/058310249803000201",
+   "article-title": "A summary review of vibration-based damage identification methods",
+   "volume": "30",
+   "author": "Doebling",
+   "year": "1998",
+   "journal-title": "Shock Vib. Dig."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2013.10.023_bib4",
+   "doi-asserted-by": "crossref",
+   "first-page": "355",
+   "DOI": "10.1177/1475921704047500",
+   "article-title": "Vibration based condition monitoring",
+   "volume": "3",
+   "author": "Carden",
+   "year": "2004",
+   "journal-title": "Struct. Health Monit."
+  },
+  {
+   "issue": "2082",
+   "key": "10.1016/j.ymssp.2013.10.023_bib5",
+   "doi-asserted-by": "crossref",
+   "first-page": "1639",
+   "DOI": "10.1098/rspa.2007.1834",
+   "article-title": "The fundamental axioms of structural health monitoring",
+   "volume": "463",
+   "author": "Worden",
+   "year": "2007",
+   "journal-title": "Proc. R. Soc. A Math. Phys. Eng. Sci."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2013.10.023_bib6",
+   "doi-asserted-by": "crossref",
+   "first-page": "163",
+   "DOI": "10.1006/mssp.2002.1555",
+   "article-title": "Damage detection of the Z24 Bridge using control charts",
+   "volume": "17",
+   "author": "Kullaa",
+   "year": "2003",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.ymssp.2013.10.023_bib7",
+   "doi-asserted-by": "crossref",
+   "first-page": "3034",
+   "DOI": "10.1016/j.engstruct.2008.04.020",
+   "article-title": "Dynamic monitoring of a long span arch bridge",
+   "volume": "30",
+   "author": "Magalhães",
+   "year": "2008",
+   "journal-title": "Eng. Struct."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2013.10.023_bib8",
+   "doi-asserted-by": "crossref",
+   "first-page": "1291",
+   "DOI": "10.1016/j.ymssp.2010.01.011",
+   "article-title": "Monitoring historical masonry structures with operational modal analysis",
+   "volume": "24",
+   "author": "Ramos",
+   "year": "2010",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2013.10.023_bib9",
+   "doi-asserted-by": "crossref",
+   "first-page": "647",
+   "DOI": "10.1006/jsvi.1999.2514",
+   "article-title": "Damage detection using outlier analysis",
+   "volume": "229",
+   "author": "Worden",
+   "year": "2000",
+   "journal-title": "J. Sound Vib."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2013.10.023_bib10",
+   "doi-asserted-by": "crossref",
+   "first-page": "103",
+   "DOI": "10.1177/1475921704042545",
+   "article-title": "Structural damage diagnosis by Kalman model based on stochastic subspace identification",
+   "volume": "3",
+   "author": "Yan",
+   "year": "2004",
+   "journal-title": "Struct. Health Monit."
+  },
+  {
+   "issue": "1–2",
+   "key": "10.1016/j.ymssp.2013.10.023_bib11",
+   "doi-asserted-by": "crossref",
+   "first-page": "361",
+   "DOI": "10.1016/j.ymssp.2013.02.012",
+   "article-title": "Kalman filter damage detection in the presence of changing process and measurement noise",
+   "volume": "39",
+   "author": "Bernal",
+   "year": "2013",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2013.10.023_bib12",
+   "doi-asserted-by": "crossref",
+   "first-page": "101",
+   "DOI": "10.1016/S0005-1098(99)00093-X",
+   "article-title": "Subspace-based fault detection algorithms for vibration monitoring",
+   "volume": "36",
+   "author": "Basseville",
+   "year": "2000",
+   "journal-title": "Automatica"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2013.10.023_bib13",
+   "doi-asserted-by": "crossref",
+   "first-page": "769",
+   "DOI": "10.1016/j.jsv.2003.07.016",
+   "article-title": "Statistical model-based damage detection and localization",
+   "volume": "275",
+   "author": "Basseville",
+   "year": "2004",
+   "journal-title": "J. Sound Vib."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2013.10.023_bib14",
+   "doi-asserted-by": "crossref",
+   "first-page": "129",
+   "DOI": "10.1177/1475921708089823",
+   "article-title": "Merging sensor data from multiple temperature scenarios for vibration-based monitoring of civil structures",
+   "volume": "7",
+   "author": "Balmès",
+   "year": "2008",
+   "journal-title": "Struct. Health Monit."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2013.10.023_bib15",
+   "doi-asserted-by": "crossref",
+   "first-page": "611",
+   "DOI": "10.1016/j.ymssp.2005.04.010",
+   "article-title": "Null subspace-based damage detection of structures using vibration measurements",
+   "volume": "20",
+   "author": "Yan",
+   "year": "2006",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2013.10.023_bib16",
+   "series-title": "Subspace Identification for Linear Systems",
+   "author": "Van Overschee",
+   "year": "1996"
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.ymssp.2013.10.023_bib17",
+   "doi-asserted-by": "crossref",
+   "first-page": "583",
+   "DOI": "10.1109/TAC.1987.1104683",
+   "article-title": "The asymptotic local approach to change detection and model validation",
+   "volume": "32",
+   "author": "Benveniste",
+   "year": "1987",
+   "journal-title": "IEEE Trans. Autom. Control"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2013.10.023_bib18",
+   "first-page": "137",
+   "article-title": "Detecting changes in the AR parameters of a nonstationary ARMA process",
+   "volume": "16",
+   "author": "Moustakides",
+   "year": "1986",
+   "journal-title": "Stochastics Int. J. Probab. Stochastic Process."
+  },
+  {
+   "issue": "15",
+   "key": "10.1016/j.ymssp.2013.10.023_bib19",
+   "doi-asserted-by": "crossref",
+   "first-page": "2275",
+   "DOI": "10.1016/j.spl.2008.01.097",
+   "article-title": "On the distribution of the left singular vectors of a random matrix and its applications",
+   "volume": "78",
+   "author": "Bura",
+   "year": "2008",
+   "journal-title": "Stat. Probab. Lett."
+  },
+  {
+   "key": "10.1016/j.ymssp.2013.10.023_bib20",
+   "series-title": "Generalized Inverse of a Matrix and Its Applications",
+   "author": "Rao",
+   "year": "1971"
+  },
+  {
+   "key": "10.1016/j.ymssp.2013.10.023_bib21",
+   "unstructured": "Q. Zhang, M. Basseville, Advanced numerical computation of χ2-tests for fault detection and isolation, in: Fifth Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS), Washington, USA, 2003, pp. 211–216."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2013.10.023_bib22",
+   "doi-asserted-by": "crossref",
+   "first-page": "2359",
+   "DOI": "10.1016/j.ymssp.2006.11.007",
+   "article-title": "Uncertainty calculation in (operational) modal analysis",
+   "volume": "21",
+   "author": "Pintelon",
+   "year": "2007",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2013.10.023_bib23",
+   "doi-asserted-by": "crossref",
+   "first-page": "346",
+   "DOI": "10.1016/j.ymssp.2013.01.012",
+   "article-title": "Efficient multi-order uncertainty computation for stochastic subspace identification",
+   "volume": "38",
+   "author": "Döhler",
+   "year": "2013",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2013.10.023_bib24",
+   "series-title": "Matrix Computations",
+   "author": "Golub",
+   "year": "1996"
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327013005645?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327013005645?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2018,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2018-10-10T18:20:53Z",
+  "timestamp": 1539195653000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327013005645"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2014,
+    3
+   ]
+  ]
+ },
+ "references-count": 24,
+ "journal-issue": {
+  "issue": "1",
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     3
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S0888327013005645"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2013.10.023",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2014,
+    3
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Subspace-based damage detection under changes in the ambient excitation statistics",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2013.10.023",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "Copyright © 2013 Elsevier Ltd. All rights reserved.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ]
+}

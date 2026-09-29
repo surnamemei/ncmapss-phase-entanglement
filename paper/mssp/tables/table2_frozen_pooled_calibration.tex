@@ -1,0 +1,14 @@
+% Frozen pooled-calibration audit at the 1% target
+\begin{tabular}{llllllllll}
+\toprule
+Dataset & Detector & Climb & Cruise & Descent & Overall & \makecell{Descent\\$-$ climb} & \makecell{Descent\\$-$ cruise} & \makecell{Worst\\transfer FPR} & \makecell{Evidence\\IDs} \\
+\midrule
+DS02 (discovery) & Residual PCA & 0.125\% & 0.428\% & 3.459\% & 1.363\% & +3.335 pp & +3.031 pp & 15.555\% & \makecell{E000106--\\E000113} \\
+ & \makecell{Isolation Forest\\(seed mean)} & 0.268\% & 0.558\% & 2.487\% & 1.127\% & +2.219 pp & +1.928 pp & 27.281\% & \makecell{E002626--\\E002633} \\
+ & \makecell{Past-only LSTM\\(seed mean)} & 0.488\% & 0.729\% & 2.080\% & 1.118\% & +1.592 pp & +1.351 pp & 5.954\% & \makecell{E002986--\\E002993} \\
+\midrule
+DS03 (confirmation) & Residual PCA & 0.877\% & 0.912\% & 1.977\% & 1.341\% & +1.100 pp & +1.066 pp & 6.716\% & \makecell{E010946--\\E010952} \\
+ & \makecell{Isolation Forest\\(seed mean)} & 0.409\% & 1.104\% & 2.142\% & 1.355\% & +1.733 pp & +1.038 pp & 9.386\% & \makecell{E012857--\\E012863} \\
+ & \makecell{Past-only LSTM\\(seed mean)} & 0.751\% & 1.889\% & 2.215\% & 1.736\% & +1.464 pp & +0.325 pp & 5.308\% & \makecell{E013130--\\E013136} \\
+\bottomrule
+\end{tabular}

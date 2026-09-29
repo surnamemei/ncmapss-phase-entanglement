@@ -1,0 +1,17 @@
+% Pooled calibration across subsets
+\begin{tabular}{ll>{\raggedright\arraybackslash}p{0.2\textwidth}rrrrl}
+\toprule
+Subset & Family & \makecell{Highest phase under P\\(runs of 10)} & \makecell{PCA\\pooled A2 (pp)} & \makecell{IF\\pooled A2 (pp)} & \makecell{LSTM\\pooled A2 (pp)} & \makecell{CVAE\\pooled A2 (pp)} & \makecell{Material\\(H1 rule)} \\
+\midrule
+DS02 & ref. & descent 10 & 2.46 & 1.49 & 1.08 & 1.61 & yes \\
+DS03 & ref. & cruise 1, descent 9 & 0.98 & 1.14 & 1.21 & 1.14 & yes \\
+\midrule
+DS01 & F1 & descent 10 & 0.99 & 0.92 & 0.49 & 0.79 & no \\
+DS04 & F2 & climb 1, descent 9 & 0.40 & 0.86 & 0.68 & 0.79 & no \\
+DS05 & F3 & cruise 1, descent 9 & 2.64 & 0.53 & 0.61 & 2.60 & yes \\
+DS06 & F3 & cruise 1, descent 9 & 2.62 & 0.55 & 0.59 & 0.60 & yes \\
+DS07 & F3 & descent 10 & 0.59 & 0.56 & 0.35 & 0.50 & no \\
+DS08a & F4 & climb 1, cruise 5, descent 4 & 1.05 & 1.38 & 1.02 & 2.42 & yes \\
+DS08c & F5 & climb 5, descent 5 & 0.70 & 0.81 & 0.73 & 0.83 & yes \\
+\bottomrule
+\end{tabular}

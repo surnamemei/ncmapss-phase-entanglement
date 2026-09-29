@@ -1,0 +1,56 @@
+{
+  "stage": "D",
+  "dataset": "ds03",
+  "mitigation_lock_sha256": "8e8473507f4cfea7e808e0b32b1f31db8405a9ad6203bae35df33984d65e9eda",
+  "u1_frozen_self_check_max_abs_diff": 0.0,
+  "outputs_sha256": {
+    "healthy_phase_fpr_by_scheme": "785bf1a5c741999405d546c0b09bef29fd9ed2f569db9abce8276a0c81c5942b",
+    "healthy_stability_by_scheme": "60afaa67436ffb757766e8e81eff53f88bcd8d5a20275dfce2c8f838cb808600",
+    "healthy_paired_stability": "1e3d3de639ef6a1e87ecf768e7536198be7ea066d07b23445236830038e0cb28",
+    "engine_heterogeneity": "1d8c393ca913bbccc8798cc317a0b894a1d4bc9c15df125dd1c2cfd8a6b3ec6d",
+    "engine_sign_counts": "0451ef061bef93cbda9346c3a6859b0a230f8fd52b5040aa522153222effa151",
+    "healthy_alarm_share": "1b3fe100fbcc3adfec9463b661d618c2c299b57ee4c04b98cfd2bae3b5f9da86",
+    "healthy_flight_burden_by_scheme": "1393c37f5f697d5f9c6e44e28e5de68236d5b3ecc1f1f8d6582d87e9d35667ad",
+    "healthy_flight_false_flags": "b3b5ed1999fd6580b3727a1fba004a602951610686f54358d4ca0ea14fa383ef",
+    "calibration_source_sensitivity": "2a6b2e9ff9935ad3ca3222f72fd183f76fa97da67c0e5a81f2e0e21b8013e134",
+    "causal_regime_feasibility": "316052735452216f8cafc7bce62041065e2caf33aaa478862caeb4055c602869",
+    "u1_bootstrap_ci": "5dfcc50b6ed4d41afa5dea2301d870a292bce2fb4359bc8c93b9d5637bfac4e4"
+  },
+  "started_utc": "2026-09-27T14:41:32+00:00",
+  "finished_utc": "2026-09-27T14:42:53+00:00",
+  "seconds": 81.4,
+  "abnormal_rows_read": false,
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS03-012.h5",
+    "h5_md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+    "h5_bytes": 3693395776
+  },
+  "provenance": {
+    "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md",
+    "protocol_sha256": "b4a669cdd00d40753b4b7cca3576ab701f69a19b333a5ff216e21be86a33cacb",
+    "config_sha256": "23bb3b04559162f3538f6eaa3bdd14d5324df316b97f0d49be3ac11361cee144",
+    "module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "7871de4546c49fb3420b6aa488fd8dff338672e4",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_mitigation/ds02/stage_d/",
+        "results/mssp_mitigation/ds02/stage_l/",
+        "results/mssp_mitigation/ds03/stage_d/",
+        "results/mssp_mitigation/ds03/stage_l/"
+      ]
+    }
+  }
+}

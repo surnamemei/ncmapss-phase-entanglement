@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/adversarial_baseline_phase_fpr.csv": "d0cfe73f34f125b4724bd8b52c27b0ffe177e16cb4f4edf8287fd3d54b7286ba"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/contextual_baseline/baseline_phase_fpr.csv": "9b8170c7bfba38d5688383cb8ef3ad4d475c6c1d6afa6706120417e785f5469e",
+    "results/mssp_adversarial/ds03/contextual_baseline/baseline_phase_fpr.csv": "4eb1af9c203c5077f57f15aa4e79bfa1cc18f99a5aee37cb313e7b9b62c772d2"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

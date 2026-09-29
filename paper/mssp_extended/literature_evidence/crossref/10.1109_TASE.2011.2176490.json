@@ -1,0 +1,341 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    18
+   ]
+  ],
+  "date-time": "2026-08-18T00:27:00Z",
+  "timestamp": 1787012820301,
+  "version": "build-2736575974"
+ },
+ "reference-count": 24,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "2",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2012,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2012-04-01T00:00:00Z",
+    "timestamp": 1333238400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Automat. Sci. Eng."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2012,
+    4
+   ]
+  ]
+ },
+ "DOI": "10.1109/tase.2011.2176490",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2011,
+    12,
+    12
+   ]
+  ],
+  "date-time": "2011-12-12T17:07:46Z",
+  "timestamp": 1323709666000
+ },
+ "page": "296-307",
+ "source": "Crossref",
+ "is-referenced-by-count": 112,
+ "title": [
+  "Performance Assessment and Design for Univariate Alarm Systems Based on FAR, MAR, and AAD"
+ ],
+ "prefix": "10.1109",
+ "volume": "9",
+ "author": [
+  {
+   "given": "Jianwei",
+   "family": "Xu",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jiandong",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Iman",
+   "family": "Izadi",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Tongwen",
+   "family": "Chen",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref10",
+   "year": "2003",
+   "journal-title": "Estimation of Alarm Settings"
+  },
+  {
+   "key": "ref11",
+   "first-page": "663",
+   "article-title": "Estimation of alarm deadbands",
+   "author": "hugo",
+   "year": "2009",
+   "journal-title": "Proc 7th IFAC Symp Fault Detection Supervision and Safety of Tech Process"
+  },
+  {
+   "key": "ref12",
+   "first-page": "651",
+   "article-title": "Optimal alarm design",
+   "author": "izadi",
+   "year": "2009",
+   "journal-title": "Proc 7th IFAC Symp Fault Detection Supervision and Safety of Tech Process"
+  },
+  {
+   "key": "ref13",
+   "first-page": "645",
+   "article-title": "An introduction to alarm analysis and design",
+   "author": "izadi",
+   "year": "2009",
+   "journal-title": "Proc 7th IFAC Symp Fault Detection Supervision and Safety of Tech Process"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MS.2003.1184171"
+  },
+  {
+   "key": "ref15",
+   "author": "papoulis",
+   "year": "2002",
+   "journal-title": "Probability random variables and stochastic processes"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/2346729"
+  },
+  {
+   "key": "ref17",
+   "author": "rothenberg",
+   "year": "2009",
+   "journal-title": "Alarm Management for Process Control"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-1-4899-3324-9"
+  },
+  {
+   "key": "ref19",
+   "first-page": "47",
+   "article-title": "Intelligent alarm management in a petroleum refinery",
+   "volume": "83",
+   "author": "srinivasan",
+   "year": "2004",
+   "journal-title": "Hydrocarbon Process"
+  },
+  {
+   "key": "ref4",
+   "author": "bransby",
+   "year": "1998",
+   "journal-title": "The Management of Alarm Systems"
+  },
+  {
+   "key": "ref3",
+   "author": "basseville",
+   "year": "1993",
+   "journal-title": "Detection of Abrupt Changes Theory and Application"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-1-4757-3131-6"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jhazmat.2004.05.040"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/2943.407079"
+  },
+  {
+   "key": "ref7",
+   "first-page": "139",
+   "article-title": "On optimal alarm filter design",
+   "author": "cheng",
+   "year": "2011",
+   "journal-title": "Proc Int Symp Advanced Control of Ind Process"
+  },
+  {
+   "key": "ref2",
+   "year": "2009",
+   "journal-title": "Management of Alarm Systems for the Process Industries"
+  },
+  {
+   "key": "ref1",
+   "first-page": "73",
+   "article-title": "Rule-based reduction of alarm signals in industrial control",
+   "volume": "14",
+   "author": "ahnlund",
+   "year": "2003",
+   "journal-title": "J Intell Fuzzy Syst"
+  },
+  {
+   "key": "ref9",
+   "first-page": "20",
+   "article-title": "Intelligent alarming",
+   "volume": "1",
+   "author": "hollender",
+   "year": "2007",
+   "journal-title": "ABB Review"
+  },
+  {
+   "key": "ref20",
+   "author": "walpole",
+   "year": "2006",
+   "journal-title": "Probability and Statistics for Engineers and Scientists"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0098-1354(97)00119-1"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CDC.2010.5717267"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S0019-0578(07)60095-0"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACC.2010.5530508"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Automation Science and Engineering"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx5/8856/6177232/06097078.pdf?arnumber=6097078",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2021,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2021-10-10T19:51:09Z",
+  "timestamp": 1633895469000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "http://ieeexplore.ieee.org/document/6097078/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2012,
+    4
+   ]
+  ]
+ },
+ "references-count": 24,
+ "journal-issue": {
+  "issue": "2"
+ },
+ "URL": "https://doi.org/10.1109/tase.2011.2176490",
+ "relation": {},
+ "ISSN": [
+  "1545-5955",
+  "1558-3783"
+ ],
+ "issn-type": [
+  {
+   "value": "1545-5955",
+   "type": "print"
+  },
+  {
+   "value": "1558-3783",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2012,
+    4
+   ]
+  ]
+ }
+}

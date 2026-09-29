@@ -1,0 +1,7 @@
+{
+ "calibration_lock_sha256": "b6b4d6780ac077e918bff42834c05d19edf479e610a8ef55dd81125a069c4bfb",
+ "git_head": "73e4555ad79c27fc5538b95d5df3afe81ab4f0cf",
+ "opened_utc": "2026-09-28T15:28:15Z",
+ "status": "official_test_opened_once",
+ "subset": "DS06"
+}

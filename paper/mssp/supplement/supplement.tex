@@ -1,0 +1,127 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,booktabs,longtable,graphicx,array,url,makecell}
+\renewcommand{\cellalign}{bl}\renewcommand{\theadalign}{bl}
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setlength{\LTcapwidth}{\textwidth}
+\title{Supplementary material for\\``Phase-Dependent False-Alarm Calibration and Its Transport Across Engines in Full-Flight Aero-Engine Anomaly Detection''}
+\author{Jinghang Mei}
+\date{}
+\begin{document}
+\maketitle
+
+\noindent This supplement accompanies the article. Every table is a formatted view of committed outputs of the frozen
+and post-confirmation analyses; values are rounded for display and nothing is recomputed. Healthy false-positive rates
+(FPR) are percentages of healthy rows; differences are in percentage points (pp). Runs are one PCA run (PCA) and three
+seeds each of Isolation Forest (IF s0--s2) and the past-only LSTM (LSTM s0--s2). Arms: P, pooled; C, retrospective
+phase-conditioned; C$'$, past-only regime-conditioned; Q, continuous contextual baseline (healthy side only). The primary
+nominal target is 1\%. Machine-readable versions of all tables are in the public repository
+(\url{https://github.com/surnamemei/ncmapss-phase-entanglement}; \texttt{results/} and \texttt{paper/mssp/evidence/}).
+
+\tableofcontents
+\bigskip
+
+\section{Provenance, reproduction and deviations}
+The study was staged: DS02 exploratory discovery, a protocol freeze, a one-shot frozen DS03 confirmation, and two
+post-confirmation stages (protocol v1.0 and the adversarial-validation plan), each committed before execution.
+Before every post-confirmation run, reproduction gates required exact agreement with the frozen evidence:
+rescored healthy score vectors equalled the frozen fingerprints bit for bit; recomputed healthy count tables,
+calibration-only $\kappa$ locks and bootstrap summaries equalled the committed outputs; and the committed per-flight
+alarm fractions reproduced every committed detection delay. A hash manifest of 186 frozen files was verified before
+and after every run. Abnormal-state ($hs = 0$) rows were read once per dataset, after the calibration-only lock, and
+never again. Table~\ref{tab:s1_provenance} lists the governing documents and records.
+
+\paragraph{Deviations and amendments.}
+(i) Amendment A-1 corrected a repository-metadata statement about the published v1.0.0 release tag; it was recorded
+before any abnormal-state row was opened and changed no analysis. (ii) Dev-1: the error decomposition (Section~\ref{sec:adversarial}) was added after the plan and is
+descriptive. (iii) Dev-2: operational definitions of the target-robustness claims were fixed in code before execution.
+(iv) Dev-3: after all runs, an output guard and a robustness fix for phases without rows were added to the analysis
+module; no output was regenerated, and every output names the module version that produced it. (v) Story-lock
+Amendment 1 corrected the count of audit engines from flight classes absent from calibration (four, three of them
+class 1) without changing any analysis.
+
+\paragraph{Verification.} The repository's test suite re-derives the post-confirmation metrics and operating points
+from committed inputs, and a checker re-derives every number cited in the article and verifies that it appears
+verbatim.
+
+\input{tables/s1_provenance.tex}
+
+\section{Frozen discovery and confirmation}
+The values in this section are the frozen DS02 (exploratory) and DS03 (frozen confirmation) results, shown unchanged.
+
+\input{tables/s2_correction.tex}
+\input{tables/s3_alternative_rule.tex}
+\input{tables/s4_runs_intervals.tex}
+\input{tables/s5_per_engine.tex}
+\input{tables/s6_transfer.tex}
+\input{tables/s7_burden.tex}
+
+\subsection*{LSTM training and convergence}
+Figures~\ref{fig:s1} and~\ref{fig:s2} reproduce the recorded training and epoch-selection validation losses without
+smoothing. The DS02 seed-0 selection reached the pre-specified 600-epoch ceiling while validation loss was still
+improving; it is reported as a convergence limitation and was not retuned. These diagnostics do not inspect test
+outcomes.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.9\textwidth]{../../submission/supplementary/figure_s1_ds02_lstm_history.pdf}
+\caption{Frozen DS02 LSTM training and epoch-selection validation losses (seeds 0--2).}\label{fig:s1}
+\end{figure}
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.9\textwidth]{../../submission/supplementary/figure_s2_ds03_lstm_history.pdf}
+\caption{Frozen DS03 LSTM training and epoch-selection validation losses (seeds 0--2).}\label{fig:s2}
+\end{figure}
+
+\section{Post-confirmation protocol v1.0}
+These analyses are exploratory. They reuse the frozen detectors and engine partitions and are not part of the
+DS03 confirmation.
+
+\input{tables/s8_phase_fpr.tex}
+\input{tables/s9_intervals.tex}
+\input{tables/s10_robustness.tex}
+
+\section{Adversarial validation}\label{sec:adversarial}
+\input{tables/s11_per_engine.tex}
+\input{tables/s12_weighting.tex}
+
+\subsection*{Matched false-flag delay}
+Figure~\ref{fig:s3} shows the full operating characteristics: the lower-median detection delay against the realized
+pooled healthy-flight false-flag rate as $\kappa$ is swept over the calibration-only grid. Tables~\ref{tab:s13_matched}
+and~\ref{tab:s14_labels} give the matched comparisons at the pre-specified anchors, and Table~\ref{tab:s15_delays}
+gives per-engine delays at the locked $\kappa$ together with their false-flag rates.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{figures/figS3_operating_characteristics.pdf}
+\caption{Median detection delay against realized pooled healthy-flight false-flag rate at the 1\% row target, one step
+curve per seed and arm over the calibration-only $\kappa$ grid. Grey vertical lines mark the matching anchors; filled
+markers are the locked-$\kappa$ operating points (nominal 5\%). Vertical segments mark $\kappa$ intervals that share a
+realized rate.}\label{fig:s3}
+\end{figure}
+
+\input{tables/s13_matched.tex}
+\input{tables/s14_labels.tex}
+\input{tables/s15_delays.tex}
+\input{tables/s16_abnormal.tex}
+\input{tables/s17_any_alarm.tex}
+
+\subsection*{Continuous contextual baseline}
+\input{tables/s18_baseline.tex}
+\input{tables/s19_baseline_phase.tex}
+
+\subsection*{Operating support and the phase effect within calibration engines}
+\input{tables/s20_support_cells.tex}
+\input{tables/s21_associations.tex}
+\input{tables/s22_c0.tex}
+
+\subsection*{Post-plan error decomposition}
+\input{tables/s23_decomposition.tex}
+\begin{figure}[htbp]\centering
+\includegraphics[width=0.65\textwidth]{figures/figS4_error_decomposition.pdf}
+\caption{Post-plan descriptive decomposition (Dev-1) of the equal-cell mean squared nominal error at the 1\% target
+(median over the seven detector runs).}\label{fig:s4}
+\end{figure}
+
+\end{document}

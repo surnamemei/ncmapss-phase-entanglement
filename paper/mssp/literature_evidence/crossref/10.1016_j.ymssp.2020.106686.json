@@ -1,0 +1,635 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    23
+   ]
+  ],
+  "date-time": "2026-09-23T00:56:51Z",
+  "timestamp": 1790125011953,
+  "version": "4.0.1"
+ },
+ "reference-count": 36,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2020-08-01T00:00:00Z",
+    "timestamp": 1596240000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2020-08-01T00:00:00Z",
+    "timestamp": 1596240000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100003006",
+   "name": "Eidgenössische Technische Hochschule Zürich",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100003006",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100000781",
+   "name": "European Research Council",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100000781",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2020,
+    8
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2020.106686",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2020,
+    2,
+    24
+   ]
+  ],
+  "date-time": "2020-02-24T23:29:41Z",
+  "timestamp": 1582586981000
+ },
+ "page": "106686",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 105,
+ "special_numbering": "C",
+ "title": [
+  "Gaussian process models for mitigation of operational variability in the structural health monitoring of wind turbines"
+ ],
+ "prefix": "10.1016",
+ "volume": "142",
+ "author": [
+  {
+   "given": "Luis David",
+   "family": "Avendaño-Valencia",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Eleni N.",
+   "family": "Chatzi",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6518-2202",
+   "authenticated-orcid": false,
+   "given": "Dmitri",
+   "family": "Tcherniak",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2020.106686_b0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "741",
+   "DOI": "10.1006/jsvi.2002.5148",
+   "article-title": "Novelty detection in a changing environment: regression and interpolation approaches",
+   "volume": "258",
+   "author": "Worden",
+   "year": "2002",
+   "journal-title": "J. Sound Vib."
+  },
+  {
+   "issue": "1851",
+   "key": "10.1016/j.ymssp.2020.106686_b0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "539",
+   "DOI": "10.1098/rsta.2006.1935",
+   "article-title": "Effects of environmental and operational variability on structural health monitoring",
+   "volume": "365",
+   "author": "Sohn",
+   "year": "2007",
+   "journal-title": "Philos. Trans. R. Soc. A"
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0015",
+   "doi-asserted-by": "crossref",
+   "first-page": "2336",
+   "DOI": "10.1016/j.ymssp.2011.03.005",
+   "article-title": "Environmental effects on the identified natural frequencies of the Dowling Hall Footbridge",
+   "volume": "25",
+   "author": "Moser",
+   "year": "2011",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.ymssp.2020.106686_b0020",
+   "doi-asserted-by": "crossref",
+   "first-page": "2976",
+   "DOI": "10.1016/j.ymssp.2011.05.017",
+   "article-title": "Distinguishing between sensor fault, structural damage, and environmental or operational effects in structural health monitoring",
+   "volume": "28",
+   "author": "Kullaa",
+   "year": "2011",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2020.106686_b0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "82",
+   "DOI": "10.1177/1475921713502836",
+   "article-title": "Output-only structural health monitoring in changing environmental conditions by means of nonlinear system identification",
+   "volume": "13",
+   "author": "Reynders",
+   "year": "2014",
+   "journal-title": "Struct. Health Monit."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0030",
+   "doi-asserted-by": "crossref",
+   "first-page": "69",
+   "DOI": "10.3389/fbuil.2017.00069",
+   "article-title": "Gaussian process time-series models for structures under operational variability",
+   "volume": "3",
+   "author": "Avendaño-Valencia",
+   "year": "2017",
+   "journal-title": "Front. Built Environ."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0035",
+   "doi-asserted-by": "crossref",
+   "first-page": "139",
+   "DOI": "10.1016/j.ymssp.2017.04.022",
+   "article-title": "On switching response surface models, with applications to the structural health monitoring of bridges",
+   "volume": "98",
+   "author": "Worden",
+   "year": "2018",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "1778",
+   "key": "10.1016/j.ymssp.2020.106686_b0040",
+   "doi-asserted-by": "crossref",
+   "first-page": "131",
+   "DOI": "10.1098/rsta.2000.0717",
+   "article-title": "Vibration-based structural damage identification",
+   "volume": "359",
+   "author": "Farrar",
+   "year": "2001",
+   "journal-title": "Philos. Trans. R. Soc. London A"
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0045",
+   "doi-asserted-by": "crossref",
+   "first-page": "2169",
+   "DOI": "10.1016/j.ymssp.2011.01.007",
+   "article-title": "Improvement of damage detection methods based on experimental modal parameters",
+   "volume": "25",
+   "author": "Radzieński",
+   "year": "2011",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0050",
+   "doi-asserted-by": "crossref",
+   "first-page": "359",
+   "DOI": "10.1016/j.ymssp.2017.03.007",
+   "article-title": "A new scenario-based approach to damage detection using operational modal parameter estimates",
+   "volume": "94",
+   "author": "Hansen",
+   "year": "2017",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0055",
+   "doi-asserted-by": "crossref",
+   "first-page": "326",
+   "DOI": "10.1016/j.ymssp.2016.11.028",
+   "article-title": "Damage/fault diagnosis in an operating wind turbine under uncertainty via a vibration response Gaussian mixture random coefficient model based framework",
+   "volume": "91",
+   "author": "Avendaño-Valencia",
+   "year": "2017",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "59",
+   "DOI": "10.1016/j.ymssp.2017.04.016",
+   "article-title": "Gaussian mixture random coefficient model based framework for SHM in structures with time-dependent dynamics under uncertainty",
+   "volume": "97",
+   "author": "Avendaño-Valencia",
+   "year": "2017",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2020.106686_b0065",
+   "doi-asserted-by": "crossref",
+   "first-page": "847",
+   "DOI": "10.1016/j.ymssp.2004.12.002",
+   "article-title": "Structural damage diagnosis under varying environmental conditions. Part I: a linear analysis",
+   "volume": "19",
+   "author": "Yan",
+   "year": "2005",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0070",
+   "doi-asserted-by": "crossref",
+   "first-page": "34",
+   "DOI": "10.1016/j.ymssp.2007.07.004",
+   "article-title": "Vibration-based structural health monitoring using output-only measurements under changing environment",
+   "volume": "22",
+   "author": "Deraemaeker",
+   "year": "2008",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0075",
+   "article-title": "Cointegration and why it works for SHM",
+   "volume": "382",
+   "author": "Cross",
+   "year": "2012",
+   "journal-title": "J. Phys: Conf. Ser."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0080",
+   "doi-asserted-by": "crossref",
+   "first-page": "243",
+   "DOI": "10.1016/j.ymssp.2013.10.012",
+   "article-title": "A multiresolution approach to cointegration for enhanced SHM of structures under varying conditions – an exploratory study",
+   "volume": "47",
+   "author": "Worden",
+   "year": "2014",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0085",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1155/2015/978156",
+   "article-title": "Nonlinear cointegration approach for condition monitoring of wind turbines",
+   "volume": "2015",
+   "author": "Zolna",
+   "year": "2015",
+   "journal-title": "Math. Problems Eng."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2020.106686_b0090",
+   "article-title": "A nonlinear cointegration approach with applications to structural health monitoring",
+   "volume": "744",
+   "author": "Shi",
+   "year": "2016",
+   "journal-title": "J. Phys: Conf. Ser."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0095",
+   "doi-asserted-by": "crossref",
+   "first-page": "785",
+   "DOI": "10.1016/j.ymssp.2015.10.018",
+   "article-title": "Functionally Pooled models for the global identification of stochastic systems under different pseudo-static operating conditions",
+   "volume": "72–73",
+   "author": "Sakellariou",
+   "year": "2016",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0100",
+   "unstructured": "F. Kopsaftopoulos, R. Nardari, Y. Li, F. Chang, A stochastic global identification framework for aerospace vehicles operating under varying flight states, CoRR abs/1612.04896 (2016). arXiv:1612.04896."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2020.106686_b0105",
+   "doi-asserted-by": "crossref",
+   "first-page": "720",
+   "DOI": "10.3390/s17040720",
+   "article-title": "A data-driven diagnostic framework for wind turbine structures: a holistic approach",
+   "volume": "17",
+   "author": "Bogoevska",
+   "year": "2017",
+   "journal-title": "Sensors (Basel)"
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0110",
+   "doi-asserted-by": "crossref",
+   "first-page": "99",
+   "DOI": "10.1016/j.compstruc.2015.05.002",
+   "article-title": "Metamodeling of dynamic nonlinear structural systems through polynomial chaos NARX models",
+   "volume": "157",
+   "author": "Spiridonakos",
+   "year": "2015",
+   "journal-title": "Comput. Struct."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0115",
+   "first-page": "1",
+   "article-title": "Polynomial chaos expansion models for the monitoring of structures under operational variability",
+   "volume": "2",
+   "author": "Spiridonakos",
+   "year": "2016",
+   "journal-title": "ASCE-ASME J. Risk Uncertainty Eng. Syst. Part A"
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "1852",
+   "DOI": "10.1016/j.proeng.2017.09.111",
+   "article-title": "Sensitivity driven robust vibration-based damage diagnosis under uncertainty through hierarchical Bayes time-series representations",
+   "volume": "199",
+   "author": "Avendaño-Valencia",
+   "year": "2017",
+   "journal-title": "Proc. Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0125",
+   "series-title": "7th International Conference on Advances in Experimental Structural Engineering",
+   "first-page": "1",
+   "article-title": "Operational regime clustering for the construction of PCE-based surrogates of operational wind turbines",
+   "author": "Avendaño-Valencia",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0130",
+   "series-title": "Proceedings of the 8th European Workshop On Structural Health Monitoring (EWSHM 2016) NDT.net",
+   "first-page": "1",
+   "article-title": "Active vibration-based SHM system: demonstration on an operating Vestas V27 wind turbine",
+   "author": "Tcherniak",
+   "year": "2016"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2020.106686_b0135",
+   "doi-asserted-by": "crossref",
+   "first-page": "536",
+   "DOI": "10.1177/1475921717722725",
+   "article-title": "Active vibration-based structural health monitoring for wind turbine blade: demonstration on an operating Vestas V27 wind turbine",
+   "volume": "16",
+   "author": "Tcherniak",
+   "year": "2017",
+   "journal-title": "Struct. Health Monit."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0140",
+   "series-title": "Rotating Machinery, Hybrid Test Methods, Vibro-Acoustics & Laser Vibrometry",
+   "first-page": "47",
+   "article-title": "In-operation wind turbine modal analysis via LPV-VAR modeling",
+   "volume": "vol. 8",
+   "author": "Avendaño-Valencia",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0145",
+   "series-title": "A wavelet tour of signal processing",
+   "author": "Mallat",
+   "year": "2009"
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0150",
+   "article-title": "Linear parameter-varying system identification",
+   "author": "Lopes dos Santos",
+   "year": "2011",
+   "journal-title": "World Scientific"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2020.106686_b0155",
+   "doi-asserted-by": "crossref",
+   "first-page": "763",
+   "DOI": "10.1016/j.ymssp.2005.10.003",
+   "article-title": "Parametric time-domain methods for non-stationary random vibration modelling and analysis – a critical survey and comparison",
+   "volume": "20",
+   "author": "Poulimenos",
+   "year": "2006",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.ymssp.2020.106686_b0160",
+   "doi-asserted-by": "crossref",
+   "first-page": "4568",
+   "DOI": "10.1016/j.eswa.2009.12.051",
+   "article-title": "Application of mother wavelet functions for automatic gear and bearing fault diagnosis",
+   "volume": "37",
+   "author": "Rafiee",
+   "year": "2010",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.ymssp.2020.106686_b0165",
+   "doi-asserted-by": "crossref",
+   "first-page": "2716",
+   "DOI": "10.1007/s10439-010-0077-4",
+   "article-title": "Feature extraction from parametric time-frequency representations for heart murmur detection",
+   "volume": "38",
+   "author": "Avendaño-Valencia",
+   "year": "2010",
+   "journal-title": "Ann. Biomed. Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0170",
+   "doi-asserted-by": "crossref",
+   "first-page": "263",
+   "DOI": "10.1016/j.ymssp.2013.07.022",
+   "article-title": "Stationary and non-stationary random vibration modelling and analysis for an operating wind turbine",
+   "volume": "47",
+   "author": "Avendaño-Valencia",
+   "year": "2014",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2020.106686_b0175",
+   "doi-asserted-by": "crossref",
+   "first-page": "204",
+   "DOI": "10.1016/j.mprp.2018.12.079",
+   "article-title": "Universal temperature dependence of Young’s modulus",
+   "volume": "74",
+   "author": "Zakarian",
+   "year": "2019",
+   "journal-title": "Met. Powder Rep."
+  },
+  {
+   "key": "10.1016/j.ymssp.2020.106686_b0180",
+   "series-title": "Introduction to Nonlinear Aeroelasticity, Aerospace Series",
+   "author": "Dimitriadis",
+   "year": "2017"
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327020300728?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327020300728?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T05:01:20Z",
+  "timestamp": 1760158880000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327020300728"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2020,
+    8
+   ]
+  ]
+ },
+ "references-count": 36,
+ "alternative-id": [
+  "S0888327020300728"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2020.106686",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2020,
+    8
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Gaussian process models for mitigation of operational variability in the structural health monitoring of wind turbines",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2020.106686",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2020 Elsevier Ltd. All rights reserved.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "106686"
+}

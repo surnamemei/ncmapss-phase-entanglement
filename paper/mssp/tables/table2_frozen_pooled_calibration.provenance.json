@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/tables/table2_frozen_pooled_calibration.csv": "86b309491ee3d30dade024f38983c9d65205eadc0bdd2db263f44731ff47cc7b",
+    "paper/mssp/tables/table2_frozen_pooled_calibration.tex": "4bb71c62705da01beae8efe80e6fdc67f7d5024c6dbcd597327609971294f152"
+  },
+  "inputs": {
+    "paper/manuscript_core_results.csv": "cfd2c5c4ce47ab6f42deb91388740a4755c465fa9d8735e1e6d7aa202388fb6a"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "be8a42efc746914e3cfe76208bf0ea41a94cdf20f6bdb733a94c9fc4f0cd096f",
+  "note": "Frozen display values and evidence IDs from paper/manuscript_core_results.csv (unchanged).",
+  "built_utc": "2026-09-28T01:12:49+00:00"
+}

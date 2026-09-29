@@ -1,0 +1,980 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    7
+   ]
+  ],
+  "date-time": "2026-07-07T15:57:05Z",
+  "timestamp": 1783439825210,
+  "version": "3.54.6"
+ },
+ "reference-count": 56,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100020884",
+   "name": "National Agency for Research and Development",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100020884",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100002850",
+   "name": "Fondo Nacional de Desarrollo Científico y Tecnológico",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "1210315"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "1210315"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100002850",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100002850",
+   "name": "Fondo Nacional de Desarrollo Científico y Tecnológico",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "AFB240002"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "AFB240002"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100002850",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100002850",
+   "name": "Fondo Nacional de Desarrollo Científico y Tecnológico",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "FB0008"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "FB0008"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100002850",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100002848",
+   "name": "Comisión Nacional de Investigación Científica y Tecnológica",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100002848",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2025,
+    4
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2025.112403",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    2,
+    7
+   ]
+  ],
+  "date-time": "2025-02-07T03:36:52Z",
+  "timestamp": 1738899412000
+ },
+ "page": "112403",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 6,
+ "special_numbering": "C",
+ "title": [
+  "Fault detection and monitoring using a data-driven information-based strategy: Method, theory, and application"
+ ],
+ "prefix": "10.1016",
+ "volume": "228",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-2774-0012",
+   "authenticated-orcid": false,
+   "given": "Camilo",
+   "family": "Ramírez",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0256-282X",
+   "authenticated-orcid": false,
+   "given": "Jorge F.",
+   "family": "Silva",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-2664-3138",
+   "authenticated-orcid": false,
+   "given": "Ferhat",
+   "family": "Tamssaouet",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4110-8731",
+   "authenticated-orcid": false,
+   "given": "Tomás",
+   "family": "Rojas",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4778-2719",
+   "authenticated-orcid": false,
+   "given": "Marcos E.",
+   "family": "Orchard",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2025.112403_b1",
+   "doi-asserted-by": "crossref",
+   "first-page": "728",
+   "DOI": "10.1109/TR.2019.2930195",
+   "article-title": "Failure prognosis and applications—A survey of recent literature",
+   "volume": "70",
+   "author": "Kordestani",
+   "year": "2019",
+   "journal-title": "IEEE Trans. Reliab."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b2",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2021.108063",
+   "article-title": "Prognostics and health management: A review from the perspectives of design, development and decision",
+   "volume": "217",
+   "author": "Hu",
+   "year": "2022",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2025.112403_b3",
+   "doi-asserted-by": "crossref",
+   "first-page": "640",
+   "DOI": "10.1109/TR.2017.2715180",
+   "article-title": "Integration of data-level fusion model and kernel methods for degradation modeling and prognostic analysis",
+   "volume": "67",
+   "author": "Song",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Reliab."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b4",
+   "doi-asserted-by": "crossref",
+   "first-page": "3639",
+   "DOI": "10.1007/s10462-020-09934-2",
+   "article-title": "A review on fault detection and diagnosis techniques: basics and beyond",
+   "volume": "54",
+   "author": "Abid",
+   "year": "2021",
+   "journal-title": "Artif. Intell. Rev."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112403_b5",
+   "first-page": "1",
+   "article-title": "Prognostics and health management for maintenance practitioners-review, implementation and tools evaluation",
+   "volume": "8",
+   "author": "Atamuradov",
+   "year": "2017",
+   "journal-title": "Int. J. Progn. Heal. Manag."
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.ymssp.2025.112403_b6",
+   "doi-asserted-by": "crossref",
+   "first-page": "1690",
+   "DOI": "10.1177/0142331219894807",
+   "article-title": "Parity-based robust data-driven fault detection for nonlinear systems using just-in-time learning approach",
+   "volume": "42",
+   "author": "Abbasi",
+   "year": "2020",
+   "journal-title": "Trans. Inst. Meas. Control"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b7",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1016/j.jprocont.2021.07.001",
+   "article-title": "Identification based fault detection: residual selection and optimal filter",
+   "volume": "105",
+   "author": "Zhou",
+   "year": "2021",
+   "journal-title": "J. Process Control"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b8",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2023.110183",
+   "article-title": "Fault detection and isolation in wind turbines based on neuro-fuzzy qLPV zonotopic observers",
+   "volume": "191",
+   "author": "Pérez-Pérez",
+   "year": "2023",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.ymssp.2025.112403_b9",
+   "doi-asserted-by": "crossref",
+   "first-page": "1917",
+   "DOI": "10.1080/00207721.2013.843213",
+   "article-title": "Active fault detection and isolation of discrete-time linear time-varying systems: a set-membership approach",
+   "volume": "46",
+   "author": "Tabatabaeipour",
+   "year": "2015",
+   "journal-title": "Int. J. Syst. Sci."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2025.112403_b10",
+   "doi-asserted-by": "crossref",
+   "first-page": "129",
+   "DOI": "10.1016/j.arcontrol.2013.04.002",
+   "article-title": "Fault detection and identification relying on set-membership identifiability",
+   "volume": "37",
+   "author": "Jauberthie",
+   "year": "2013",
+   "journal-title": "Annu. Rev. Control"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112403_b11",
+   "first-page": "524",
+   "article-title": "System-level failure prognostics: literature review and main challenges",
+   "volume": "237",
+   "author": "Tamssaouet",
+   "year": "2023",
+   "journal-title": "Proc. Inst. Mech. Eng. Part O: J. Risk Reliab."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b12",
+   "series-title": "Control Charts and Machine Learning for Anomaly Detection in Manufacturing",
+   "first-page": "243",
+   "article-title": "Feature engineering and health indicator construction for fault detection and diagnostic",
+   "author": "Nguyen",
+   "year": "2022"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b13",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2023.110496",
+   "article-title": "Fingerprint feature and dynamic threshold mechanism based on acoustic emission for bearing fault detection",
+   "volume": "199",
+   "author": "Wang",
+   "year": "2023",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b14",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.energy.2023.127068",
+   "article-title": "Fault detection and isolation of aeroengine combustion chamber based on unscented Kalman filter method fusing artificial neural network",
+   "volume": "272",
+   "author": "Long",
+   "year": "2023",
+   "journal-title": "Energy"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b15",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2023.110559",
+   "article-title": "Principal component analysis approach for detecting faults in rotary machines based on vibrational and electrical fused data",
+   "volume": "200",
+   "author": "Elsamanty",
+   "year": "2023",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b16",
+   "doi-asserted-by": "crossref",
+   "first-page": "447",
+   "DOI": "10.1007/s00521-018-3911-5",
+   "article-title": "Neural network applications in fault diagnosis and detection: an overview of implementations in engineering-related systems",
+   "volume": "32",
+   "author": "Mohd Amiruddin",
+   "year": "2020",
+   "journal-title": "Neural Comput. Appl."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2025.112403_b17",
+   "doi-asserted-by": "crossref",
+   "first-page": "3077",
+   "DOI": "10.1109/TII.2019.2902274",
+   "article-title": "Fault detection and isolation in industrial processes using deep learning approaches",
+   "volume": "15",
+   "author": "Iqbal",
+   "year": "2019",
+   "journal-title": "IEEE Trans. Ind. Inform."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b18",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2022.112346",
+   "article-title": "A review of the application of deep learning in intelligent fault diagnosis of rotating machinery",
+   "volume": "206",
+   "author": "Zhu",
+   "year": "2023",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b19",
+   "doi-asserted-by": "crossref",
+   "first-page": "674",
+   "DOI": "10.1016/j.renene.2016.12.075",
+   "article-title": "Detection and classification of faults in pitch-regulated wind turbine generators using normal behaviour models based on performance curves",
+   "volume": "105",
+   "author": "Bi",
+   "year": "2017",
+   "journal-title": "Renew. Energy"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b20",
+   "series-title": "Advances in Artificial Intelligence–SBIA 2004",
+   "first-page": "286",
+   "article-title": "Learning with drift detection",
+   "author": "Gama",
+   "year": "2004"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b21",
+   "series-title": "Computer Aided Chemical Engineering",
+   "doi-asserted-by": "crossref",
+   "first-page": "1657",
+   "DOI": "10.1016/B978-0-444-63965-3.50278-6",
+   "article-title": "Toward online explore of concept drift for fault detection of chemical processes",
+   "volume": "vol. 40",
+   "author": "Ardakani",
+   "year": "2017"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2025.112403_b22",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1145/2523813",
+   "article-title": "A survey on concept drift adaptation",
+   "volume": "46",
+   "author": "Gama",
+   "year": "2014",
+   "journal-title": "ACM Comput. Surv."
+  },
+  {
+   "issue": "12",
+   "key": "10.1016/j.ymssp.2025.112403_b23",
+   "first-page": "2346",
+   "article-title": "Learning under concept drift: a review",
+   "volume": "31",
+   "author": "Lu",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Knowl. Data Eng."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b24",
+   "series-title": "Dataset Shift in Machine Learning",
+   "author": "Quiñonero-Candela",
+   "year": "2022"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b25",
+   "series-title": "PRICAI 2019: Trends in Artificial Intelligence",
+   "first-page": "647",
+   "article-title": "Autoencoding binary classifiers for supervised anomaly detection",
+   "author": "Yamanaka",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b26",
+   "series-title": "Proceedings of the 2007 SIAM International Conference on Data Mining",
+   "first-page": "443",
+   "article-title": "Learning from time-changing data with adaptive windowing",
+   "author": "Bifet",
+   "year": "2007"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b27",
+   "series-title": "International Conference on Discovery Science",
+   "first-page": "264",
+   "article-title": "Detecting concept drift using statistical testing",
+   "author": "Nishida",
+   "year": "2007"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b28",
+   "doi-asserted-by": "crossref",
+   "first-page": "45410",
+   "DOI": "10.1109/ACCESS.2022.3169785",
+   "article-title": "Learning under concept drift for regression—A systematic literature review",
+   "volume": "10",
+   "author": "Lima",
+   "year": "2022",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b29",
+   "series-title": "Elements of Information Theory",
+   "author": "Cover",
+   "year": "2005"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112403_b30",
+   "doi-asserted-by": "crossref",
+   "first-page": "1940",
+   "DOI": "10.1109/TIT.2011.2177771",
+   "article-title": "Complexity-regularized tree-structured partition for mutual information estimation",
+   "volume": "58",
+   "author": "Silva",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Inform. Theory"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2025.112403_b31",
+   "doi-asserted-by": "crossref",
+   "first-page": "5",
+   "DOI": "10.3390/data6010005",
+   "article-title": "Aircraft engine run-to-failure dataset under real flight conditions for prognostics and diagnostics",
+   "volume": "6",
+   "author": "Arias Chao",
+   "year": "2021",
+   "journal-title": "Data"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b32",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2020.104150",
+   "article-title": "Unsupervised concrete feature selection based on mutual information for diagnosing faults and cyber-attacks in power systems",
+   "volume": "100",
+   "author": "Hassani",
+   "year": "2021",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b33",
+   "series-title": "2020 IEEE 9th Data Driven Control and Learning Systems Conference",
+   "first-page": "941",
+   "article-title": "A quality-related fault detection method based on weighted mutual information",
+   "author": "Zhong",
+   "year": "2020"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b34",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2023.110804",
+   "article-title": "Mutual information-based feature disentangled network for anomaly detection under variable working conditions",
+   "volume": "204",
+   "author": "Hu",
+   "year": "2023",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b35",
+   "doi-asserted-by": "crossref",
+   "first-page": "44",
+   "DOI": "10.1016/j.chemolab.2012.04.008",
+   "article-title": "A new dissimilarity method integrating multidimensional mutual information and independent component analysis for non-Gaussian dynamic process monitoring",
+   "volume": "115",
+   "author": "Rashid",
+   "year": "2012",
+   "journal-title": "Chemometr. Intell. Lab. Syst."
+  },
+  {
+   "issue": "24",
+   "key": "10.1016/j.ymssp.2025.112403_b36",
+   "first-page": "1311",
+   "article-title": "An information-theoretic framework for fault detection evaluation and design of optimal dimensionality reduction methods",
+   "volume": "51",
+   "author": "Jiang",
+   "year": "2018",
+   "journal-title": "IFAC- Pap."
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.ymssp.2025.112403_b37",
+   "doi-asserted-by": "crossref",
+   "first-page": "4028",
+   "DOI": "10.1016/j.jfranklin.2021.02.016",
+   "article-title": "Interpretable fault detection using projections of mutual information matrix",
+   "volume": "358",
+   "author": "Lv",
+   "year": "2021",
+   "journal-title": "J. Franklin Inst."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b38",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2020.108402",
+   "article-title": "Optimization of VMD using kernel-based mutual information for the extraction of weak features to detect bearing defects",
+   "volume": "168",
+   "author": "Kumar",
+   "year": "2021",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b39",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.knosys.2022.108632",
+   "article-title": "From concept drift to model degradation: an overview on performance-aware drift detectors",
+   "volume": "245",
+   "author": "Bayram",
+   "year": "2022",
+   "journal-title": "Knowl.-Based Syst."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b40",
+   "first-page": "1391",
+   "article-title": "Consistent nonparametric tests of independence",
+   "volume": "11",
+   "author": "Gretton",
+   "year": "2010",
+   "journal-title": "J. Mach. Learn. Res."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b41",
+   "doi-asserted-by": "crossref",
+   "first-page": "158",
+   "DOI": "10.1109/TSP.2021.3135689",
+   "article-title": "Data-driven representations for testing independence: modeling, analysis and connection with mutual information estimation",
+   "volume": "70",
+   "author": "Gonzalez",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b42",
+   "series-title": "Testing statistical hypotheses",
+   "author": "Lehmann",
+   "year": "2022"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112403_b43",
+   "doi-asserted-by": "crossref",
+   "first-page": "379",
+   "DOI": "10.1002/j.1538-7305.1948.tb01338.x",
+   "article-title": "A mathematical theory of communication",
+   "volume": "27",
+   "author": "Shannon",
+   "year": "1948",
+   "journal-title": "Bell Syst. Tech. J."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b44",
+   "series-title": "Advances in Neural Information Processing Systems",
+   "first-page": "16957",
+   "article-title": "Beyond normal: On the evaluation of mutual information estimators",
+   "volume": "vol. 36",
+   "author": "Czyż",
+   "year": "2023"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112403_b45",
+   "first-page": "842",
+   "article-title": "Exchangeable random measures",
+   "volume": "51",
+   "author": "Austin",
+   "year": "2015",
+   "journal-title": "Ann. de L’ Inst. Henri Poincaré, Probabilités et Stat."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b46",
+   "series-title": "Applied Regression Analysis",
+   "author": "Draper",
+   "year": "1998"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b47",
+   "series-title": "Foundations of Modern Probability",
+   "author": "Kallenberg",
+   "year": "1997"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b48",
+   "series-title": "Lessons in Estimation Theory for Signal Processing, Communications, and Control",
+   "author": "Mendel",
+   "year": "1995"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b49",
+   "series-title": "System Identification: An Introduction",
+   "author": "Keesman",
+   "year": "2011"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b50",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2023.107734",
+   "article-title": "Bond Graph-CNN based hybrid fault diagnosis with minimum labeled data",
+   "volume": "131",
+   "author": "Dash",
+   "year": "2024",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b51",
+   "series-title": "2006 IEEE Mountain Workshop on Adaptive and Learning Systems",
+   "first-page": "160",
+   "article-title": "Fault detection in closed loop adaptive systems",
+   "author": "Chowdhury",
+   "year": "2006"
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.ymssp.2025.112403_b52",
+   "doi-asserted-by": "crossref",
+   "first-page": "1145",
+   "DOI": "10.1016/S0031-3203(96)00142-2",
+   "article-title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+   "volume": "30",
+   "author": "Bradley",
+   "year": "1997",
+   "journal-title": "Pattern Recognit."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b53",
+   "series-title": "User’s guide for the commercial modular aero-propulsion system simulation (C-MAPSS)",
+   "author": "Frederick",
+   "year": "2007"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b54",
+   "series-title": "Adam: A method for stochastic optimization",
+   "author": "Kingma",
+   "year": "2014"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112403_b55",
+   "article-title": "T-S fuzzy data-driven ToMFIR with application to incipient fault detection and isolation for high-speed rail vehicle suspension systems",
+   "author": "Wu",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Intell. Transp. Syst."
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.ymssp.2025.112403_b56",
+   "doi-asserted-by": "crossref",
+   "first-page": "596",
+   "DOI": "10.3390/e26070596",
+   "article-title": "A survey on error exponents in distributed hypothesis testing: connections with information theory, interpretations, and applications",
+   "volume": "26",
+   "author": "Espinosa",
+   "year": "2024",
+   "journal-title": "Entropy"
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327025001049?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327025001049?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    4,
+    30
+   ]
+  ],
+  "date-time": "2026-04-30T19:13:11Z",
+  "timestamp": 1777576391000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327025001049"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    4
+   ]
+  ]
+ },
+ "references-count": 56,
+ "alternative-id": [
+  "S0888327025001049"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2025.112403",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    4
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Fault detection and monitoring using a data-driven information-based strategy: Method, theory, and application",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2025.112403",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "112403"
+}

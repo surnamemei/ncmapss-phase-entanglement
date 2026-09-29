@@ -1,0 +1,181 @@
+subset,detector,seed,nominal_fpr,rule,arm,supported_anchors,evaluable,matched_label,matched_label_not_exceeding,curve_mean_pooled,curve_mean_arm,curve_mean_difference
+DS08a,pca,-1,0.005,R0,phase_conditioned,5,True,equal,equal,7.149253731343284,6.014705882352941,-1.1345478489903424
+DS08a,pca,-1,0.005,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,7.149253731343284,1.0588235294117647,-6.090430201931519
+DS08a,pca,-1,0.005,R1,phase_conditioned,4,True,equal,equal,6.6521739130434785,6.084507042253521,-0.5676668707899575
+DS08a,pca,-1,0.005,R1,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,6.6521739130434785,1.1971830985915493,-5.4549908144519295
+DS08a,pca,-1,0.005,R2,phase_conditioned,5,True,equal,equal,6.3538461538461535,5.943661971830986,-0.4101841820151675
+DS08a,pca,-1,0.005,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,6.3538461538461535,1.1549295774647887,-5.1989165763813645
+DS08a,pca,-1,0.01,R0,phase_conditioned,5,True,mixed,mixed,7.088235294117647,6.375,-0.7132352941176467
+DS08a,pca,-1,0.01,R0,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,7.088235294117647,1.1029411764705883,-5.985294117647058
+DS08a,pca,-1,0.01,R1,phase_conditioned,5,True,mixed,equal,8.619718309859154,9.338028169014084,0.71830985915493
+DS08a,pca,-1,0.01,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,8.619718309859154,1.2394366197183098,-7.380281690140844
+DS08a,pca,-1,0.01,R2,phase_conditioned,5,True,equal,equal,7.253521126760563,5.549295774647887,-1.704225352112676
+DS08a,pca,-1,0.01,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,7.253521126760563,1.1549295774647887,-6.098591549295774
+DS08a,pca,-1,0.02,R0,phase_conditioned,5,True,earlier at matched burden,earlier at matched burden,8.647058823529411,3.084507042253521,-5.56255178127589
+DS08a,pca,-1,0.02,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,8.647058823529411,1.3943661971830985,-7.252692626346313
+DS08a,pca,-1,0.02,R1,phase_conditioned,4,True,mixed,mixed,4.892307692307693,4.338028169014085,-0.5542795232936077
+DS08a,pca,-1,0.02,R1,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,4.892307692307693,1.7746478873239437,-3.1176598049837487
+DS08a,pca,-1,0.02,R2,phase_conditioned,4,True,mixed,mixed,7.6,2.76056338028169,-4.83943661971831
+DS08a,pca,-1,0.02,R2,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,7.6,1.4366197183098592,-6.163380281690141
+DS08a,isolation_forest,0,0.005,R0,phase_conditioned,5,True,mixed,mixed,1.7794117647058822,2.2253521126760565,0.44594034797017423
+DS08a,isolation_forest,0,0.005,R0,quantile_regression_W,5,True,mixed,mixed,1.7794117647058822,0.7323943661971831,-1.0470173985086992
+DS08a,isolation_forest,0,0.005,R1,phase_conditioned,5,True,mixed,mixed,1.8873239436619718,1.9154929577464788,0.028169014084507005
+DS08a,isolation_forest,0,0.005,R1,quantile_regression_W,5,True,mixed,mixed,1.8873239436619718,0.8732394366197183,-1.0140845070422535
+DS08a,isolation_forest,0,0.005,R2,phase_conditioned,5,True,equal,equal,1.6619718309859155,2.2816901408450705,0.619718309859155
+DS08a,isolation_forest,0,0.005,R2,quantile_regression_W,5,True,mixed,mixed,1.6619718309859155,0.8235294117647058,-0.8384424192212097
+DS08a,isolation_forest,0,0.01,R0,phase_conditioned,5,True,mixed,mixed,2.028169014084507,1.1029411764705883,-0.9252278376139187
+DS08a,isolation_forest,0,0.01,R0,quantile_regression_W,4,True,mixed,mixed,2.028169014084507,2.1029411764705883,0.07477216238608131
+DS08a,isolation_forest,0,0.01,R1,phase_conditioned,5,True,mixed,equal,2.298507462686567,1.3098591549295775,-0.9886483077569896
+DS08a,isolation_forest,0,0.01,R1,quantile_regression_W,5,True,mixed,mixed,2.298507462686567,1.8873239436619718,-0.4111835190245954
+DS08a,isolation_forest,0,0.01,R2,phase_conditioned,5,True,mixed,mixed,2.028169014084507,1.3098591549295775,-0.7183098591549295
+DS08a,isolation_forest,0,0.01,R2,quantile_regression_W,5,True,mixed,earlier at matched burden,2.028169014084507,2.0985915492957745,0.07042253521126751
+DS08a,isolation_forest,0,0.02,R0,phase_conditioned,5,True,mixed,mixed,2.084507042253521,1.838235294117647,-0.24627174813587405
+DS08a,isolation_forest,0,0.02,R0,quantile_regression_W,5,True,mixed,mixed,2.084507042253521,2.723076923076923,0.6385698808234022
+DS08a,isolation_forest,0,0.02,R1,phase_conditioned,5,True,mixed,mixed,2.25,1.8169014084507042,-0.43309859154929575
+DS08a,isolation_forest,0,0.02,R1,quantile_regression_W,5,True,mixed,mixed,2.25,2.8088235294117645,0.5588235294117645
+DS08a,isolation_forest,0,0.02,R2,phase_conditioned,5,True,mixed,mixed,2.176470588235294,1.9014084507042253,-0.2750621375310687
+DS08a,isolation_forest,0,0.02,R2,quantile_regression_W,5,True,mixed,mixed,2.176470588235294,2.9295774647887325,0.7531068765534386
+DS08a,isolation_forest,1,0.005,R0,phase_conditioned,5,True,mixed,mixed,1.8591549295774648,2.208955223880597,0.3498002943031324
+DS08a,isolation_forest,1,0.005,R0,quantile_regression_W,5,True,mixed,mixed,1.8591549295774648,0.5070422535211268,-1.352112676056338
+DS08a,isolation_forest,1,0.005,R1,phase_conditioned,5,True,mixed,mixed,3.084507042253521,2.3943661971830985,-0.6901408450704225
+DS08a,isolation_forest,1,0.005,R1,quantile_regression_W,5,True,mixed,mixed,3.084507042253521,0.8169014084507042,-2.267605633802817
+DS08a,isolation_forest,1,0.005,R2,phase_conditioned,5,True,mixed,mixed,2.76056338028169,2.183098591549296,-0.577464788732394
+DS08a,isolation_forest,1,0.005,R2,quantile_regression_W,5,True,mixed,mixed,2.76056338028169,0.8873239436619719,-1.873239436619718
+DS08a,isolation_forest,1,0.01,R0,phase_conditioned,5,True,mixed,mixed,2.2238805970149254,1.3098591549295775,-0.9140214420853479
+DS08a,isolation_forest,1,0.01,R0,quantile_regression_W,5,True,mixed,mixed,2.2238805970149254,1.5588235294117647,-0.6650570676031606
+DS08a,isolation_forest,1,0.01,R1,phase_conditioned,4,True,mixed,mixed,2.3529411764705883,1.3661971830985915,-0.9867439933719968
+DS08a,isolation_forest,1,0.01,R1,quantile_regression_W,4,True,mixed,mixed,2.3529411764705883,1.6338028169014085,-0.7191383595691798
+DS08a,isolation_forest,1,0.01,R2,phase_conditioned,5,True,mixed,mixed,2.1690140845070425,1.3098591549295775,-0.859154929577465
+DS08a,isolation_forest,1,0.01,R2,quantile_regression_W,5,True,mixed,mixed,2.1690140845070425,1.7183098591549295,-0.45070422535211296
+DS08a,isolation_forest,1,0.02,R0,phase_conditioned,5,True,equal,equal,2.028169014084507,2.25,0.221830985915493
+DS08a,isolation_forest,1,0.02,R0,quantile_regression_W,5,True,mixed,mixed,2.028169014084507,2.028169014084507,0.0
+DS08a,isolation_forest,1,0.02,R1,phase_conditioned,5,True,mixed,mixed,2.7746478873239435,2.183098591549296,-0.5915492957746475
+DS08a,isolation_forest,1,0.02,R1,quantile_regression_W,5,True,mixed,mixed,2.7746478873239435,2.1690140845070425,-0.605633802816901
+DS08a,isolation_forest,1,0.02,R2,phase_conditioned,5,True,equal,equal,2.1940298507462686,2.3380281690140845,0.14399831826781595
+DS08a,isolation_forest,1,0.02,R2,quantile_regression_W,5,True,mixed,mixed,2.1940298507462686,2.1690140845070425,-0.025015766239226078
+DS08a,isolation_forest,2,0.005,R0,phase_conditioned,5,True,equal,equal,1.7941176470588236,3.028169014084507,1.2340513670256834
+DS08a,isolation_forest,2,0.005,R0,quantile_regression_W,5,True,mixed,mixed,1.7941176470588236,1.0845070422535212,-0.7096106048053024
+DS08a,isolation_forest,2,0.005,R1,phase_conditioned,5,True,equal,equal,2.8823529411764706,3.2535211267605635,0.3711681855840929
+DS08a,isolation_forest,2,0.005,R1,quantile_regression_W,5,True,mixed,mixed,2.8823529411764706,2.0704225352112675,-0.811930405965203
+DS08a,isolation_forest,2,0.005,R2,phase_conditioned,5,True,equal,equal,2.2253521126760565,4.408450704225352,2.1830985915492955
+DS08a,isolation_forest,2,0.005,R2,quantile_regression_W,5,True,mixed,mixed,2.2253521126760565,1.408450704225352,-0.8169014084507045
+DS08a,isolation_forest,2,0.01,R0,phase_conditioned,5,True,mixed,mixed,2.267605633802817,1.3098591549295775,-0.9577464788732395
+DS08a,isolation_forest,2,0.01,R0,quantile_regression_W,4,True,mixed,mixed,2.267605633802817,1.5797101449275361,-0.6878954888752808
+DS08a,isolation_forest,2,0.01,R1,phase_conditioned,5,True,mixed,mixed,2.267605633802817,1.3098591549295775,-0.9577464788732395
+DS08a,isolation_forest,2,0.01,R1,quantile_regression_W,5,True,mixed,mixed,2.267605633802817,1.6338028169014085,-0.6338028169014085
+DS08a,isolation_forest,2,0.01,R2,phase_conditioned,5,True,mixed,mixed,2.028169014084507,1.380281690140845,-0.647887323943662
+DS08a,isolation_forest,2,0.01,R2,quantile_regression_W,5,True,mixed,mixed,2.028169014084507,1.5774647887323943,-0.45070422535211274
+DS08a,isolation_forest,2,0.02,R0,phase_conditioned,5,True,mixed,mixed,1.9577464788732395,2.3380281690140845,0.380281690140845
+DS08a,isolation_forest,2,0.02,R0,quantile_regression_W,5,True,mixed,mixed,1.9577464788732395,2.492957746478873,0.5352112676056335
+DS08a,isolation_forest,2,0.02,R1,phase_conditioned,5,True,mixed,mixed,2.056338028169014,2.1267605633802815,0.07042253521126751
+DS08a,isolation_forest,2,0.02,R1,quantile_regression_W,5,True,mixed,mixed,2.056338028169014,2.7746478873239435,0.7183098591549295
+DS08a,isolation_forest,2,0.02,R2,phase_conditioned,5,True,mixed,mixed,2.056338028169014,2.3380281690140845,0.2816901408450705
+DS08a,isolation_forest,2,0.02,R2,quantile_regression_W,4,True,mixed,mixed,2.056338028169014,2.710144927536232,0.6538068993672179
+DS08a,lstm_autoencoder,0,0.005,R0,phase_conditioned,5,True,mixed,mixed,6.450704225352113,5.746478873239437,-0.704225352112676
+DS08a,lstm_autoencoder,0,0.005,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,6.450704225352113,2.056338028169014,-4.394366197183099
+DS08a,lstm_autoencoder,0,0.005,R1,phase_conditioned,5,True,mixed,mixed,5.591549295774648,5.985915492957746,0.39436619718309807
+DS08a,lstm_autoencoder,0,0.005,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,5.591549295774648,2.8,-2.791549295774648
+DS08a,lstm_autoencoder,0,0.005,R2,phase_conditioned,5,True,mixed,mixed,6.690140845070423,6.267605633802817,-0.42253521126760596
+DS08a,lstm_autoencoder,0,0.005,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,6.690140845070423,1.9577464788732395,-4.732394366197184
+DS08a,lstm_autoencoder,0,0.01,R0,phase_conditioned,5,True,equal,equal,4.591549295774648,4.044117647058823,-0.5474316487158246
+DS08a,lstm_autoencoder,0,0.01,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,4.591549295774648,1.4153846153846155,-3.1761646803900323
+DS08a,lstm_autoencoder,0,0.01,R1,phase_conditioned,5,True,equal,equal,4.676056338028169,4.52112676056338,-0.15492957746478897
+DS08a,lstm_autoencoder,0,0.01,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,4.676056338028169,1.4366197183098592,-3.23943661971831
+DS08a,lstm_autoencoder,0,0.01,R2,phase_conditioned,4,True,equal,equal,4.859154929577465,4.550724637681159,-0.3084302918963058
+DS08a,lstm_autoencoder,0,0.01,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,4.859154929577465,1.2394366197183098,-3.619718309859155
+DS08a,lstm_autoencoder,0,0.02,R0,phase_conditioned,5,True,equal,equal,4.092307692307692,3.6056338028169015,-0.4866738894907905
+DS08a,lstm_autoencoder,0,0.02,R0,quantile_regression_W,5,True,mixed,mixed,4.092307692307692,2.0140845070422535,-2.0782231852654385
+DS08a,lstm_autoencoder,0,0.02,R1,phase_conditioned,5,True,equal,equal,4.397058823529412,4.552238805970149,0.15517998244073716
+DS08a,lstm_autoencoder,0,0.02,R1,quantile_regression_W,5,True,mixed,mixed,4.397058823529412,2.2535211267605635,-2.1435376967688486
+DS08a,lstm_autoencoder,0,0.02,R2,phase_conditioned,5,True,equal,equal,4.056338028169014,4.044117647058823,-0.012220381110190637
+DS08a,lstm_autoencoder,0,0.02,R2,quantile_regression_W,5,True,mixed,mixed,4.056338028169014,1.8873239436619718,-2.169014084507042
+DS08a,lstm_autoencoder,1,0.005,R0,phase_conditioned,5,True,equal,equal,6.028169014084507,4.633802816901408,-1.394366197183099
+DS08a,lstm_autoencoder,1,0.005,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,6.028169014084507,0.056338028169014086,-5.971830985915493
+DS08a,lstm_autoencoder,1,0.005,R1,phase_conditioned,5,True,equal,equal,5.901408450704225,4.352112676056338,-1.549295774647887
+DS08a,lstm_autoencoder,1,0.005,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,5.901408450704225,1.408450704225352,-4.492957746478873
+DS08a,lstm_autoencoder,1,0.005,R2,phase_conditioned,4,True,mixed,mixed,7.030769230769231,5.014084507042254,-2.0166847237269767
+DS08a,lstm_autoencoder,1,0.005,R2,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,7.030769230769231,0.16901408450704225,-6.861755146262189
+DS08a,lstm_autoencoder,1,0.01,R0,phase_conditioned,5,True,mixed,mixed,3.0327868852459017,3.295774647887324,0.2629877626414223
+DS08a,lstm_autoencoder,1,0.01,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,3.0327868852459017,0.704225352112676,-2.3285615331332257
+DS08a,lstm_autoencoder,1,0.01,R1,phase_conditioned,5,True,equal,equal,5.28169014084507,4.647887323943662,-0.633802816901408
+DS08a,lstm_autoencoder,1,0.01,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,5.28169014084507,1.4225352112676057,-3.859154929577464
+DS08a,lstm_autoencoder,1,0.01,R2,phase_conditioned,5,True,equal,equal,2.7794117647058822,3.676056338028169,0.8966445733222868
+DS08a,lstm_autoencoder,1,0.01,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,2.7794117647058822,0.7746478873239436,-2.0047638773819387
+DS08a,lstm_autoencoder,1,0.02,R0,phase_conditioned,5,True,equal,equal,1.8732394366197183,1.9295774647887325,0.05633802816901423
+DS08a,lstm_autoencoder,1,0.02,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,1.8732394366197183,0.49295774647887325,-1.380281690140845
+DS08a,lstm_autoencoder,1,0.02,R1,phase_conditioned,5,True,equal,equal,2.3098591549295775,2.3661971830985915,0.05633802816901401
+DS08a,lstm_autoencoder,1,0.02,R1,quantile_regression_W,5,True,earlier at matched burden,mixed,2.3098591549295775,0.5352112676056338,-1.7746478873239437
+DS08a,lstm_autoencoder,1,0.02,R2,phase_conditioned,5,True,equal,equal,2.1176470588235294,2.1044776119402986,-0.013169446883230851
+DS08a,lstm_autoencoder,1,0.02,R2,quantile_regression_W,5,True,earlier at matched burden,mixed,2.1176470588235294,0.49295774647887325,-1.6246893123446562
+DS08a,lstm_autoencoder,2,0.005,R0,phase_conditioned,5,True,equal,equal,6.661538461538462,5.323943661971831,-1.3375947995666309
+DS08a,lstm_autoencoder,2,0.005,R0,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,6.661538461538462,4.467741935483871,-2.193796526054591
+DS08a,lstm_autoencoder,2,0.005,R1,phase_conditioned,5,True,mixed,mixed,6.690140845070423,6.042253521126761,-0.647887323943662
+DS08a,lstm_autoencoder,2,0.005,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,6.690140845070423,5.169014084507042,-1.521126760563381
+DS08a,lstm_autoencoder,2,0.005,R2,phase_conditioned,3,True,mixed,equal,8.115942028985508,5.838235294117647,-2.277706734867861
+DS08a,lstm_autoencoder,2,0.005,R2,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,8.115942028985508,3.9014084507042255,-4.214533578281282
+DS08a,lstm_autoencoder,2,0.01,R0,phase_conditioned,3,True,equal,equal,2.5692307692307694,3.8153846153846156,1.2461538461538462
+DS08a,lstm_autoencoder,2,0.01,R0,quantile_regression_W,4,True,mixed,earlier at matched burden,2.5692307692307694,0.7205882352941176,-1.8486425339366517
+DS08a,lstm_autoencoder,2,0.01,R1,phase_conditioned,5,True,equal,equal,3.4507042253521125,5.253521126760563,1.8028169014084505
+DS08a,lstm_autoencoder,2,0.01,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,3.4507042253521125,1.5352112676056338,-1.9154929577464788
+DS08a,lstm_autoencoder,2,0.01,R2,phase_conditioned,5,True,equal,equal,3.03125,4.704225352112676,1.672975352112676
+DS08a,lstm_autoencoder,2,0.01,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,3.03125,0.6901408450704225,-2.3411091549295775
+DS08a,lstm_autoencoder,2,0.02,R0,phase_conditioned,5,True,equal,equal,2.2238805970149254,1.9295774647887325,-0.29430313222619287
+DS08a,lstm_autoencoder,2,0.02,R0,quantile_regression_W,5,True,mixed,earlier at matched burden,2.2238805970149254,0.36619718309859156,-1.8576834139163338
+DS08a,lstm_autoencoder,2,0.02,R1,phase_conditioned,5,True,equal,equal,3.953846153846154,3.140845070422535,-0.813001083423619
+DS08a,lstm_autoencoder,2,0.02,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,3.953846153846154,0.9014084507042254,-3.0524377031419285
+DS08a,lstm_autoencoder,2,0.02,R2,phase_conditioned,5,True,mixed,mixed,2.1549295774647885,2.3676470588235294,0.2127174813587409
+DS08a,lstm_autoencoder,2,0.02,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,2.1549295774647885,0.36619718309859156,-1.788732394366197
+DS08a,cvae,0,0.005,R0,phase_conditioned,5,True,equal,equal,9.873239436619718,7.5588235294117645,-2.3144159072079535
+DS08a,cvae,0,0.005,R0,quantile_regression_W,5,True,equal,equal,9.873239436619718,7.577464788732394,-2.295774647887324
+DS08a,cvae,0,0.005,R1,phase_conditioned,5,True,mixed,mixed,12.352941176470589,5.985915492957746,-6.367025683512843
+DS08a,cvae,0,0.005,R1,quantile_regression_W,5,True,equal,equal,12.352941176470589,1.8169014084507042,-10.536039768019885
+DS08a,cvae,0,0.005,R2,phase_conditioned,5,True,equal,equal,11.014084507042254,4.835820895522388,-6.178263611519866
+DS08a,cvae,0,0.005,R2,quantile_regression_W,5,True,equal,equal,11.014084507042254,5.865671641791045,-5.148412865251209
+DS08a,cvae,0,0.01,R0,phase_conditioned,5,True,mixed,mixed,12.028169014084508,11.298507462686567,-0.7296615513979408
+DS08a,cvae,0,0.01,R0,quantile_regression_W,5,True,equal,equal,12.028169014084508,9.014705882352942,-3.013463131731566
+DS08a,cvae,0,0.01,R1,phase_conditioned,5,True,mixed,mixed,9.746478873239436,5.943661971830986,-3.80281690140845
+DS08a,cvae,0,0.01,R1,quantile_regression_W,5,True,mixed,mixed,9.746478873239436,9.873239436619718,0.12676056338028197
+DS08a,cvae,0,0.01,R2,phase_conditioned,5,True,mixed,mixed,11.549295774647888,6.887323943661972,-4.661971830985916
+DS08a,cvae,0,0.01,R2,quantile_regression_W,5,True,equal,equal,11.549295774647888,9.394366197183098,-2.15492957746479
+DS08a,cvae,0,0.02,R0,phase_conditioned,5,True,mixed,mixed,12.43661971830986,13.32394366197183,0.8873239436619702
+DS08a,cvae,0,0.02,R0,quantile_regression_W,5,True,equal,equal,12.43661971830986,7.802816901408451,-4.633802816901409
+DS08a,cvae,0,0.02,R1,phase_conditioned,4,True,mixed,mixed,9.690140845070422,9.797101449275363,0.10696060420494113
+DS08a,cvae,0,0.02,R1,quantile_regression_W,5,True,mixed,equal,9.690140845070422,12.80281690140845,3.112676056338028
+DS08a,cvae,0,0.02,R2,phase_conditioned,5,True,earlier at matched burden,earlier at matched burden,12.746478873239436,9.43661971830986,-3.309859154929576
+DS08a,cvae,0,0.02,R2,quantile_regression_W,5,True,mixed,mixed,12.746478873239436,9.735294117647058,-3.011184755592378
+DS08a,cvae,1,0.005,R0,phase_conditioned,5,True,equal,equal,6.0,4.897058823529412,-1.1029411764705879
+DS08a,cvae,1,0.005,R0,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,6.0,0.6119402985074627,-5.388059701492537
+DS08a,cvae,1,0.005,R1,phase_conditioned,5,True,equal,equal,6.649122807017544,6.746478873239437,0.0973560662218933
+DS08a,cvae,1,0.005,R1,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,6.649122807017544,0.8823529411764706,-5.7667698658410735
+DS08a,cvae,1,0.005,R2,phase_conditioned,3,True,equal,equal,6.682539682539683,7.098591549295775,0.4160518667560922
+DS08a,cvae,1,0.005,R2,quantile_regression_W,3,True,earlier at matched burden,earlier at matched burden,6.682539682539683,0.8591549295774648,-5.823384752962218
+DS08a,cvae,1,0.01,R0,phase_conditioned,4,True,mixed,mixed,5.112676056338028,6.806451612903226,1.693775556565198
+DS08a,cvae,1,0.01,R0,quantile_regression_W,4,True,mixed,equal,5.112676056338028,1.7777777777777777,-3.3348982785602503
+DS08a,cvae,1,0.01,R1,phase_conditioned,4,True,equal,equal,7.794117647058823,4.788732394366197,-3.0053852526926264
+DS08a,cvae,1,0.01,R1,quantile_regression_W,3,True,earlier at matched burden,earlier at matched burden,7.794117647058823,2.6724137931034484,-5.121703853955375
+DS08a,cvae,1,0.01,R2,phase_conditioned,4,True,equal,equal,5.779411764705882,6.405797101449275,0.6263853367433931
+DS08a,cvae,1,0.01,R2,quantile_regression_W,4,True,mixed,earlier at matched burden,5.779411764705882,1.2,-4.579411764705882
+DS08a,cvae,1,0.02,R0,phase_conditioned,3,True,equal,equal,3.5692307692307694,4.163636363636364,0.5944055944055946
+DS08a,cvae,1,0.02,R0,quantile_regression_W,4,True,equal,equal,3.5692307692307694,2.426470588235294,-1.1427601809954755
+DS08a,cvae,1,0.02,R1,phase_conditioned,5,True,equal,equal,6.690140845070423,8.419354838709678,1.729213993639255
+DS08a,cvae,1,0.02,R1,quantile_regression_W,4,True,mixed,mixed,6.690140845070423,4.923076923076923,-1.7670639219934996
+DS08a,cvae,1,0.02,R2,phase_conditioned,4,True,mixed,earlier at matched burden,4.153846153846154,5.163934426229508,1.0100882723833537
+DS08a,cvae,1,0.02,R2,quantile_regression_W,4,True,mixed,mixed,4.153846153846154,2.3943661971830985,-1.7594799566630557
+DS08a,cvae,2,0.005,R0,phase_conditioned,5,True,mixed,mixed,8.014084507042254,7.25,-0.764084507042254
+DS08a,cvae,2,0.005,R0,quantile_regression_W,5,True,mixed,mixed,8.014084507042254,4.929577464788732,-3.084507042253522
+DS08a,cvae,2,0.005,R1,phase_conditioned,5,True,mixed,mixed,7.522388059701493,4.926470588235294,-2.5959174714661986
+DS08a,cvae,2,0.005,R1,quantile_regression_W,5,True,mixed,mixed,7.522388059701493,3.323529411764706,-4.198858647936786
+DS08a,cvae,2,0.005,R2,phase_conditioned,5,True,equal,equal,6.764705882352941,5.436619718309859,-1.328086164043082
+DS08a,cvae,2,0.005,R2,quantile_regression_W,4,True,mixed,mixed,6.764705882352941,5.72,-1.0447058823529414
+DS08a,cvae,2,0.01,R0,phase_conditioned,5,True,equal,equal,10.28169014084507,9.154929577464788,-1.126760563380282
+DS08a,cvae,2,0.01,R0,quantile_regression_W,5,True,earlier at matched burden,mixed,10.28169014084507,4.563380281690141,-5.718309859154929
+DS08a,cvae,2,0.01,R1,phase_conditioned,5,True,equal,equal,5.382352941176471,6.52112676056338,1.138773819386909
+DS08a,cvae,2,0.01,R1,quantile_regression_W,5,True,mixed,mixed,5.382352941176471,3.6470588235294117,-1.7352941176470593
+DS08a,cvae,2,0.01,R2,phase_conditioned,5,True,equal,equal,9.253521126760564,7.746478873239437,-1.507042253521127
+DS08a,cvae,2,0.01,R2,quantile_regression_W,4,True,mixed,earlier at matched burden,9.253521126760564,5.538461538461538,-3.7150595882990256
+DS08a,cvae,2,0.02,R0,phase_conditioned,4,True,equal,equal,14.573529411764707,14.985915492957746,0.41238608119303954
+DS08a,cvae,2,0.02,R0,quantile_regression_W,4,True,earlier at matched burden,earlier at matched burden,14.573529411764707,3.661764705882353,-10.911764705882353
+DS08a,cvae,2,0.02,R1,phase_conditioned,5,True,equal,equal,13.619718309859154,12.774647887323944,-0.8450704225352101
+DS08a,cvae,2,0.02,R1,quantile_regression_W,4,True,mixed,mixed,13.619718309859154,4.661764705882353,-8.9579536039768
+DS08a,cvae,2,0.02,R2,phase_conditioned,5,True,equal,equal,14.661971830985916,15.32394366197183,0.6619718309859142
+DS08a,cvae,2,0.02,R2,quantile_regression_W,5,True,earlier at matched burden,earlier at matched burden,14.661971830985916,4.098591549295775,-10.56338028169014

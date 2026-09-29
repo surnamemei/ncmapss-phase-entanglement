@@ -1,0 +1,45 @@
+\begin{scriptsize}
+\begin{longtable}{lllrllll}
+\caption{Pre-specified run labels at the 1\% target under the nearest-anchor rule and the conservative (not-exceeding) sensitivity rule, curve-level mean delays over realized false-flag rates 2.5--20\% (flights), and the Pareto class of the locked operating point against P. Labels: E, earlier at matched burden; L, later; M, mixed; =, equal; n/e, not evaluable.}\label{tab:s14_labels}\\
+\toprule
+Dataset & Run & Arm & \makecell{Supported\\anchors} & \makecell{Label\\(nearest)} & \makecell{Label\\(conservative)} & \makecell{Curve mean\\P / arm} & \makecell{Locked\\point} \\
+\midrule
+\endfirsthead
+\multicolumn{8}{l}{\emph{(continued)}}\\
+\toprule
+Dataset & Run & Arm & \makecell{Supported\\anchors} & \makecell{Label\\(nearest)} & \makecell{Label\\(conservative)} & \makecell{Curve mean\\P / arm} & \makecell{Locked\\point} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+DS02 & PCA & C & 4 & M & M & 6.93 / 2.00 & arm dominates \\
+ & IF s0 & C & 4 & E & E & 6.09 / 2.38 & trade-off \\
+ & IF s1 & C & 5 & E & E & 7.17 / 2.38 & arm dominates \\
+ & IF s2 & C & 5 & E & E & 5.75 / 2.38 & trade-off \\
+ & LSTM s0 & C & 3 & M & M & 6.74 / 3.23 & identical \\
+ & LSTM s1 & C & 5 & M & M & 4.87 / 4.91 & trade-off \\
+ & LSTM s2 & C & 3 & M & M & 4.85 / 3.01 & trade-off \\
+ & PCA & C$'$ & 4 & E & E & 6.93 / 1.52 & arm dominates \\
+ & IF s0 & C$'$ & 4 & E & E & 6.09 / 2.33 & trade-off \\
+ & IF s1 & C$'$ & 5 & E & E & 7.17 / 2.27 & trade-off \\
+ & IF s2 & C$'$ & 5 & E & E & 5.75 / 1.58 & trade-off \\
+ & LSTM s0 & C$'$ & 3 & M & M & 6.74 / 5.97 & arm dominated \\
+ & LSTM s1 & C$'$ & 5 & M & M & 4.87 / 7.41 & arm dominated \\
+ & LSTM s2 & C$'$ & 3 & M & M & 4.85 / 6.09 & trade-off \\
+\midrule
+DS03 & PCA & C & 3 & M & E & 2.61 / 5.70 & trade-off \\
+ & IF s0 & C & 5 & M & M & 3.54 / 3.28 & trade-off \\
+ & IF s1 & C & 4 & = & = & 4.09 / 3.96 & trade-off \\
+ & IF s2 & C & 3 & = & = & 4.53 / 3.84 & trade-off \\
+ & LSTM s0 & C & 5 & M & M & 4.83 / 2.26 & trade-off \\
+ & LSTM s1 & C & 5 & M & = & 3.00 / 2.31 & arm dominated \\
+ & LSTM s2 & C & 5 & M & E & 4.72 / 2.42 & arm dominates \\
+ & PCA & C$'$ & 3 & M & M & 2.61 / 5.59 & trade-off \\
+ & IF s0 & C$'$ & 4 & M & M & 3.54 / 3.94 & arm dominated \\
+ & IF s1 & C$'$ & 5 & = & M & 4.09 / 3.96 & arm dominates \\
+ & IF s2 & C$'$ & 5 & M & E & 4.53 / 4.23 & arm dominated \\
+ & LSTM s0 & C$'$ & 5 & E & E & 4.83 / 2.25 & trade-off \\
+ & LSTM s1 & C$'$ & 5 & M & = & 3.00 / 2.24 & arm dominated \\
+ & LSTM s2 & C$'$ & 3 & E & E & 4.72 / 2.12 & trade-off \\
+\end{longtable}
+\end{scriptsize}

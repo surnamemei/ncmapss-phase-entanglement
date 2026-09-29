@@ -1,0 +1,729 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    24
+   ]
+  ],
+  "date-time": "2026-08-24T17:08:47Z",
+  "timestamp": 1787591327559,
+  "version": "build-2736575974"
+ },
+ "reference-count": 57,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2025-04-01T00:00:00Z",
+    "timestamp": 1743465600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      19
+     ]
+    ],
+    "date-time": "2025-02-19T00:00:00Z",
+    "timestamp": 1739923200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100005632",
+   "name": "National Centre for Research and Development",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "POIR.04.01.04-00-0080/19"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "POIR.04.01.04-00-0080/19"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100005632",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2025,
+    4
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ymssp.2025.112462",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    2,
+    18
+   ]
+  ],
+  "date-time": "2025-02-18T11:30:28Z",
+  "timestamp": 1739878228000
+ },
+ "page": "112462",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 11,
+ "special_numbering": "C",
+ "title": [
+  "Automatic threshold setting for anomaly detection"
+ ],
+ "prefix": "10.1016",
+ "volume": "228",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-5143-6002",
+   "authenticated-orcid": false,
+   "given": "Adam",
+   "family": "Jablonski",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-3720-6454",
+   "authenticated-orcid": false,
+   "given": "Krzysztof",
+   "family": "Mendrok",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "12",
+   "key": "10.1016/j.ymssp.2025.112462_b0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "2499",
+   "DOI": "10.1016/j.sigpro.2003.07.019",
+   "article-title": "Novelty detection: a review – part 2: neural network based approaches",
+   "volume": "83",
+   "author": "Markou",
+   "year": "2003",
+   "journal-title": "Signal Process."
+  },
+  {
+   "issue": "12",
+   "key": "10.1016/j.ymssp.2025.112462_b0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "2481",
+   "DOI": "10.1016/j.sigpro.2003.07.018",
+   "article-title": "Novelty detection: a review – part 1: statistical approaches",
+   "volume": "83",
+   "author": "Markou",
+   "year": "2003",
+   "journal-title": "Signal Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0015",
+   "series-title": "Statistics",
+   "author": "Freedman",
+   "year": "2007"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112462_b0020",
+   "article-title": "A critical overview of the “filterbank-feature-decision” methodology in machine condition monitoring",
+   "volume": "49",
+   "author": "Antoni",
+   "year": "2021",
+   "journal-title": "Acoust. Aust."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0025",
+   "unstructured": "W. Playfair. (1786). The Commercial and Political Atlas: Representing, by Means of Stained Copper-Plate Charts, the Progress of the Commerce, Revenues, Expenditure and Debts of England during the Whole of the Eighteenth Century. London."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0030",
+   "first-page": "343",
+   "article-title": "Contributions to the mathematical theory of evolution. – II. Skew variation in homogeneous material",
+   "volume": "186",
+   "author": "Pearson",
+   "year": "1895",
+   "journal-title": "Philos. Trans. Royal Society Ser. A."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0035",
+   "doi-asserted-by": "crossref",
+   "first-page": "65",
+   "DOI": "10.1080/01621459.1926.10502161",
+   "article-title": "The choice of a class interval",
+   "volume": "21",
+   "author": "Sturges",
+   "year": "1926",
+   "journal-title": "J. Am. Stat. Assoc."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0040",
+   "doi-asserted-by": "crossref",
+   "first-page": "181",
+   "DOI": "10.1080/00031305.1976.10479172",
+   "article-title": "Aesthetic frequency classifications",
+   "volume": "30",
+   "author": "Doane",
+   "year": "1976",
+   "journal-title": "Am. Stat."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0045",
+   "doi-asserted-by": "crossref",
+   "first-page": "605",
+   "DOI": "10.1093/biomet/66.3.605",
+   "article-title": "On optimal and data-based histograms",
+   "volume": "66",
+   "author": "Scott",
+   "year": "1979",
+   "journal-title": "Biometrika"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0050",
+   "doi-asserted-by": "crossref",
+   "first-page": "453",
+   "DOI": "10.1007/BF01025868",
+   "article-title": "On the histogram as a density estimator: L2 theory",
+   "volume": "57",
+   "author": "Freedman",
+   "year": "1981",
+   "journal-title": "Zeitschrift Für Wahrscheinlichkeitstheorie Und Verwandte Gebiete"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0055",
+   "unstructured": "F. Mosteller, J.W. Tukey. (1977). Data Analysis and Regression, A Second Course in Statistics. Reading, MA Addison-Wesley Pub Co."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2025.112462_b0060",
+   "first-page": "77",
+   "article-title": "Determination of the number of bins/classes used in histograms and frequency tables: a short bibliography",
+   "volume": "7",
+   "author": "Doğan",
+   "year": "2010",
+   "journal-title": "TurkStat. J. Stat. Res."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2025.112462_b0065",
+   "doi-asserted-by": "crossref",
+   "first-page": "115",
+   "DOI": "10.1080/01431160304997",
+   "article-title": "The effect of histogram discontinuities on spectral information and non-supervised classifiers",
+   "volume": "24",
+   "author": "Salvador",
+   "year": "2003",
+   "journal-title": "Int. J. Remote Sens."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112462_b0070",
+   "doi-asserted-by": "crossref",
+   "first-page": "609",
+   "DOI": "10.1016/0029-554X(73)90329-7",
+   "article-title": "Discontinuities in histogram scale transformation",
+   "volume": "106",
+   "author": "Salomon",
+   "year": "1973",
+   "journal-title": "Nucl. Inst. Methods"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0075",
+   "doi-asserted-by": "crossref",
+   "unstructured": "C.K. Chow. On Optimum Recognition Error and Reject Tradeoff. IEEE Trans Inf Theory. 16(1), 1970, doi: 10.1109/TIT.1970.1054406.",
+   "DOI": "10.1109/TIT.1970.1054406"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0080",
+   "doi-asserted-by": "crossref",
+   "unstructured": "L.K. Hansen, C. Liisberg, P. Salamon. The error-reject tradeoff. Open Systems and Information Dynamics. 4(2), 1997, doi: 10.1023/A:1009643503022.",
+   "DOI": "10.1023/A:1009643503022"
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.ymssp.2025.112462_b0085",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1243/0954406981521448",
+   "article-title": "Applications of probability density estimation to the detection of abnormal conditions in engineering",
+   "volume": "212",
+   "author": "Desforges",
+   "year": "1998",
+   "journal-title": "Proc. Inst. Mech. Eng. C J. Mech. Eng. Sci."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0090",
+   "article-title": "Novelty detection in jet engines",
+   "author": "Tarassenko",
+   "year": "1999",
+   "journal-title": "IEE Colloquium (Digest)"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2025.112462_b0095",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/S0031-3203(02)00026-2",
+   "article-title": "Host-based intrusion detection using dynamic and static behavioral models",
+   "volume": "36",
+   "author": "Yeung",
+   "year": "2003",
+   "journal-title": "Pattern Recognit."
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.ymssp.2025.112462_b0100",
+   "article-title": "Degradation modeling and monitoring of machines using operation-specific hidden Markov models",
+   "volume": "46",
+   "author": "Cholette",
+   "year": "2014",
+   "journal-title": "IIE Trans. (Institute of Industrial Engineers)"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0105",
+   "article-title": "Parzen-window network intrusion detectors",
+   "author": "Yeung",
+   "year": "2002",
+   "journal-title": "Proc. – Int. Conf. Pattern Recognit."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0110",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.renene.2023.05.087",
+   "article-title": "Applications of K-nearest neighbor algorithm in intelligent diagnosis of wind turbine blades damage",
+   "volume": "212",
+   "author": "Tang",
+   "year": "2023",
+   "journal-title": "Renew. Energy."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0115",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1109/TIT.1967.1053964",
+   "article-title": "Nearest neighbor pattern classification",
+   "volume": "13",
+   "author": "Cover",
+   "year": "1967",
+   "journal-title": "IEEE Trans. Inf. Theory"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0120",
+   "series-title": "In Proceedings of the IEEE Computer Society Symposium on Research in Security and Privacy",
+   "article-title": "Self-nonself discrimination in a computer",
+   "author": "Forrest",
+   "year": "1994"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0125",
+   "doi-asserted-by": "crossref",
+   "unstructured": "D. Dasgupta, F. Nino. Comparison of negative and positive selection algorithms in novel pattern detection. in Proceedings of the IEEE International Conference on Systems, Man and Cybernetics, 2000. doi: 10.1109/icsmc.2000.884976.",
+   "DOI": "10.1109/ICSMC.2000.884976"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0130",
+   "unstructured": "R. Routolo, C. Surace. A statistical approach to damage detection through vibration monitoring. in Proceedings of the 5th Pan American Congress of Applied Mechanics, Puerto Rico, 1997."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0135",
+   "article-title": "Damage and fault detection of structures using principal component analysis and hypothesis testing",
+   "author": "Pozo",
+   "year": "2017",
+   "journal-title": "Adv. Principal Component Anal.: Res. Dev."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0140",
+   "series-title": "In SIGIR 1998 - Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+   "article-title": "A Study on Retrospective and On-Line Event Detection",
+   "author": "Yang",
+   "year": "1998"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0145",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2024.111486",
+   "article-title": "Benefits of Mann–Kendall trend analysis for vibration-based condition monitoring",
+   "volume": "216",
+   "author": "Marsick",
+   "year": "2024",
+   "journal-title": "Mech. Syst. Sig. Process."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0150",
+   "series-title": "In Advances in Neural Information Processing Systems",
+   "article-title": "Iintrusion detection with neural networks",
+   "author": "Ryan",
+   "year": "1998"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ymssp.2025.112462_b0155",
+   "article-title": "A method for improving classification reliability of multilayer perceptrons",
+   "volume": "6",
+   "author": "Pietro Cordelia",
+   "year": "1995",
+   "journal-title": "IEEE Trans. Neural Netw."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ymssp.2025.112462_b0160",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/5326.827457",
+   "article-title": "To reject or not to reject: that is the question - an answer in case of neural classifiers",
+   "volume": "30",
+   "author": "De Stefano",
+   "year": "2000",
+   "journal-title": "IEEE Trans. Syst. Man Cybernet. Part C: Appl. Rev."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0165",
+   "doi-asserted-by": "crossref",
+   "unstructured": "C. Wilson, J. Blue, O. Omidvar. Improving neural network performance for character and .fingerprint classification by altering network dynamics. in Proceedings of the World Congress on Neural Networks, Washington, DC, 1995.",
+   "DOI": "10.6028/NIST.IR.5695"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2025.112462_b0170",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/3468.833094",
+   "article-title": "A neural network classifier based on Dempster-Shafer theory",
+   "volume": "30",
+   "author": "Denœux",
+   "year": "2000",
+   "journal-title": "IEEE Trans. Syst. Man Cybernet. Part A:Syst. Hum."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ymssp.2025.112462_b0175",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TKDE.2004.1269665",
+   "article-title": "An approach to novelty detection applied to the classification of image regions",
+   "volume": "16",
+   "author": "Singh",
+   "year": "2004",
+   "journal-title": "IEEE Trans. Knowl. Data Eng."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.ymssp.2025.112462_b0180",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/0167-8655(94)00092-H",
+   "article-title": "Investigating feedforward neural networks with respect to the rejection of spurious patterns",
+   "volume": "16",
+   "author": "Vasconcelos",
+   "year": "1995",
+   "journal-title": "Pattern Recognit. Lett."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0185",
+   "article-title": "Novelty, confidence & errors in connectionist systems",
+   "volume": "261",
+   "author": "Roberts",
+   "year": "1996",
+   "journal-title": "IEE Colloquium (Digest)"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0190",
+   "unstructured": "L. Moya, M.M. Koch, M.W. Hostetler. One-class classifier networks for target recognition applications. NASA STI/Recon Technical Report N. 93, 1993."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0195",
+   "series-title": "In Proceedings of the VII European Signal Processing Conference",
+   "first-page": "812",
+   "article-title": "Speaker identification using networks of radial basis functions",
+   "author": "Fredrickson",
+   "year": "1994"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0200",
+   "doi-asserted-by": "crossref",
+   "unstructured": "C.M.M. Pereira, R.F. De Mello. A radial basis function neural network approach to detect novelties: Applications on health datasets. in 2009 Joint Conferences on Pervasive Computing, JCPC 2009, 2009. doi: 10.1109/JCPC.2009.5420200.",
+   "DOI": "10.1109/JCPC.2009.5420200"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0205",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Jagota. Novelty detection on a verylarge number of memories stored in a Hopfield-style network. in Proceedings of the International Joint Conference on Neural Networks IJCNN-91. 2, Seattle, WA, 1991, pp. 905–905.",
+   "DOI": "10.1109/IJCNN.1991.155491"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0210",
+   "article-title": "High capacity neural networks for familiarity discrimination",
+   "author": "Bogacz",
+   "year": "1999",
+   "journal-title": "IEE Conf. Publ."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0215",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/S0303-2647(00)00131-3",
+   "article-title": "An oscillatory neural network model of sparse distributed memory and novelty detection",
+   "author": "Borisyuk",
+   "year": "2000",
+   "journal-title": "Biosystems"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0220",
+   "doi-asserted-by": "crossref",
+   "unstructured": "K. Kojima, K. Ito. Autonomous learning of novel patterns by utilizing chaotic dynamics. in Proceedings of the IEEE International Conference on Systems, Man and Cybernetics, 1999. doi: 10.1109/icsmc.1999.814104.",
+   "DOI": "10.1109/ICSMC.1999.814104"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0225",
+   "series-title": "Self-Organisation and Associative Memory",
+   "author": "Kohonen",
+   "year": "1988"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0230",
+   "article-title": "NSOM: s real-time network-based intrusion detection system using self-organizing maps",
+   "author": "Labib",
+   "year": "2002",
+   "journal-title": "Netw. Security"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0235",
+   "doi-asserted-by": "crossref",
+   "unstructured": "J. Jose Saucedo-Dorantes, D. Alejandro Elvira-Ortiz, A. Yosimar Jaen-Cuéllar, and M. Toledano-Ayala. Novelty Detection Methodology Based on Self-Organizing Maps for Power Quality Monitoring. 2021. doi: 10.5772/intechopen.96145.",
+   "DOI": "10.5772/intechopen.96145"
+  },
+  {
+   "issue": "11–13",
+   "key": "10.1016/j.ymssp.2025.112462_b0240",
+   "article-title": "Support vector domain description",
+   "volume": "20",
+   "author": "Tax",
+   "year": "1999",
+   "journal-title": "Pattern Recognit. Lett."
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0245",
+   "series-title": "In Advances in Neural Information Processing Systems",
+   "article-title": "Support vector method for novelty detection",
+   "author": "Schölkopf",
+   "year": "2000"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0250",
+   "series-title": "In Proceedings of the International Joint Conference on Neural Networks",
+   "article-title": "Real-time object classification and novelty detection for collaborative video surveillance",
+   "author": "Diehl",
+   "year": "2002"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0255",
+   "doi-asserted-by": "crossref",
+   "unstructured": "M. Davy, S. Godsill. Detection of abrupt spectral changes using support vector machines an application to audio signal segmentation. ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings. 2, 2002, doi: 10.1109/ICASSP.2002.5744044.",
+   "DOI": "10.1109/ICASSP.2002.1005992"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0260",
+   "series-title": "In IEEE International Conference on Emerging Technologies and Factory Automation",
+   "article-title": "Novelty Detection based Condition Monitoring Scheme Applied to Electromechanical Systems",
+   "author": "Delgado-Prieto",
+   "year": "2018"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0265",
+   "series-title": "In NIPS 1995: Proceedings of the 8th International Conference on Neural Information Processing Systems",
+   "article-title": "A Neural Network Autoassociator for Induction Motor Failure Prediction",
+   "author": "Petsche",
+   "year": "1995"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.ymssp.2025.112462_b0270",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.heliyon.2024.e25394",
+   "article-title": "Unsupervised novelty detection for time series using a deep learning approach",
+   "volume": "10",
+   "author": "Hossen",
+   "year": "2024",
+   "journal-title": "Heliyon"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0275",
+   "series-title": "Vibration‐based Condition Monitoring: Industrial, Aerospace and Automotive Applications",
+   "author": "Randall",
+   "year": "2011"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0280",
+   "series-title": "Condition Monitoring Algorithms in MATLAB",
+   "author": "Jablonski",
+   "year": "2021"
+  },
+  {
+   "key": "10.1016/j.ymssp.2025.112462_b0285",
+   "unstructured": "A. Jablonski, patent application No. CWiTT-owi.622-10/24, P.450290 (original title: Sposob automatycznej detekcji anomalii w sygnalach drgan maszyny wirnikowej), 2024."
+  }
+ ],
+ "container-title": [
+  "Mechanical Systems and Signal Processing"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327025001633?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0888327025001633?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    29
+   ]
+  ],
+  "date-time": "2025-04-29T11:42:55Z",
+  "timestamp": 1745926975000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0888327025001633"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    4
+   ]
+  ]
+ },
+ "references-count": 57,
+ "alternative-id": [
+  "S0888327025001633"
+ ],
+ "URL": "https://doi.org/10.1016/j.ymssp.2025.112462",
+ "relation": {},
+ "ISSN": [
+  "0888-3270"
+ ],
+ "issn-type": [
+  {
+   "value": "0888-3270",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    4
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Automatic threshold setting for anomaly detection",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Mechanical Systems and Signal Processing",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ymssp.2025.112462",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2025 The Authors. Published by Elsevier Ltd.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "112462"
+}

@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/mitigation_detection_delay.csv": "594c1b57717ba537f49d69eaa901e3eb1ce46465a1a1f011533514b7aa8f1dc9"
+  },
+  "inputs": {
+    "results/mssp_mitigation/ds02/stage_e/detection_delay.csv": "4d9fe7d59193cd4f9b818750e8b86b315171232bef788e3e6f4d3d1648a2e126",
+    "results/mssp_mitigation/ds03/stage_e/detection_delay.csv": "ac526cdbaa837354bd93fa32411ba9dd548c268278ccda6d854675c83ea1c390"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

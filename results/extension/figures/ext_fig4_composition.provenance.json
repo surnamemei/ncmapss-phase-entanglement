@@ -1,0 +1,7 @@
+{
+ "figure": "ext_fig4_composition",
+ "inputs": {
+  "results/extension/summary/composition_engine_effects.csv": "b014a3f8cdccad847b2abd3615c299f42a73953e0b88d7424a4bb2b413c672f5",
+  "results/extension/summary/composition_run_summary.csv": "c39ade20c471ac2e6e11ecae6796bbb2d5c0e0bbaa55ca74b710d8eb255c9973"
+ }
+}

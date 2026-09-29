@@ -1,0 +1,38 @@
+{
+  "title": "False-alarm calibration transport across engines in full-flight aero-engine anomaly detection (N-CMAPSS): code, frozen protocols and evidence",
+  "version": "1.1.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Mei, Jinghang",
+      "affiliation": "School of Electrical and Computer Engineering, The University of Sydney",
+      "orcid": "0009-0007-2901-3285"
+    }
+  ],
+  "description": "<p>Research code, frozen protocols, calibration-only locks, one-shot audit records, derived outputs and an evidence ledger for an audit of nominal healthy false-alarm calibration in full-flight aero-engine anomaly detection on the NASA N-CMAPSS benchmark. The release contains the DS02 discovery and the one-shot DS03 confirmation (unchanged from v1.0.0), separately frozen post-confirmation analyses, a frozen multi-subset extension over seven previously unopened subsets (five fleet families, 30 held-out audit engines; pooled, retrospective phase-conditioned and continuous-context calibration, a condition-aware CVAE baseline, a fixed-volume calibration-fleet composition intervention and alarm-persistence rules), an internal hostile review and a final author-approved focused validation (cross-fitted self-calibration references, a calibration-class-preserving bootstrap and five-flight local recalibration).</p><p>It accompanies the manuscript “False-Alarm Calibration Transport Across Engines in Full-Flight Aero-Engine Anomaly Detection: A Multi-Subset Audit of Context Conditioning and Calibration-Fleet Coverage” (prepared for Mechanical Systems and Signal Processing). Raw NASA data are not redistributed.</p>",
+  "keywords": [
+    "condition monitoring",
+    "false-alarm calibration",
+    "calibration transport",
+    "anomaly detection",
+    "aero-engine",
+    "N-CMAPSS",
+    "nonstationary operating conditions"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/surnamemei/ncmapss-phase-entanglement",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "Preprint and reproducibility release; not a peer-reviewed version of record. The manuscript provided in this repository is an author preprint and has not undergone peer review for the current journal submission. If a version of record is later published, this repository will link to the publisher DOI. License scope: The MIT License applies to project-authored software and code. Manuscript text and figures are © 2026 Jinghang Mei and are not offered under the MIT License unless explicitly stated otherwise. Raw NASA N-CMAPSS data are not redistributed. See README.md and docs/release/v1.1.0/RELEASE_NOTES.md."
+}

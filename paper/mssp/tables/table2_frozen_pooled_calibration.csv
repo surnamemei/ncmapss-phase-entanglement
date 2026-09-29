@@ -1,0 +1,7 @@
+Dataset,Detector,Climb,Cruise,Descent,Overall,Descent − climb,Descent − cruise,Worst transfer FPR,Evidence IDs
+DS02 (discovery),Residual PCA,0.125%,0.428%,3.459%,1.363%,+3.335 pp,+3.031 pp,15.555%,E000106–E000113
+DS02 (discovery),Isolation Forest (seed mean),0.268%,0.558%,2.487%,1.127%,+2.219 pp,+1.928 pp,27.281%,E002626–E002633
+DS02 (discovery),Past-only LSTM (seed mean),0.488%,0.729%,2.080%,1.118%,+1.592 pp,+1.351 pp,5.954%,E002986–E002993
+DS03 (confirmation),Residual PCA,0.877%,0.912%,1.977%,1.341%,+1.100 pp,+1.066 pp,6.716%,E010946–E010952
+DS03 (confirmation),Isolation Forest (seed mean),0.409%,1.104%,2.142%,1.355%,+1.733 pp,+1.038 pp,9.386%,E012857–E012863
+DS03 (confirmation),Past-only LSTM (seed mean),0.751%,1.889%,2.215%,1.736%,+1.464 pp,+0.325 pp,5.308%,E013130–E013136

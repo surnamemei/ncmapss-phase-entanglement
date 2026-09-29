@@ -1,0 +1,23 @@
+{
+  "outputs": {
+    "paper/mssp_extended/figures/fig6_persistence_and_delay.pdf": "ec0198bd1e971e8c86d9001df9f5c36ac15dbbff666e03819e7999e139d4b3fc",
+    "paper/mssp_extended/figures/fig6_persistence_and_delay.png": "234488dd296064d746773a9df1a24759a9120a2c8c1440a08a0e2dc0a8f56072"
+  },
+  "inputs": {
+    "paper/mssp_extended/evidence/post_hoc_checks.json": "da577bd0e84dd5ac37ee5e07a559e73c6236b75801dba251546c3740a60b180a",
+    "results/extension/DS01/audit/flight_false_flags.csv": "f7e6be056b34bbada686c5e6111fd9a8421496fcb2a81fdfd7ca11f44fbdc2c2",
+    "results/extension/DS02/audit/flight_false_flags.csv": "55b2a9b68187b66e263f40c061a96a4cb0d85c346cffe789b2d529d43d0ddef7",
+    "results/extension/DS03/audit/flight_false_flags.csv": "41947de9f0eb387aa8d3fcf2308263725de19c0a21e0d021be536ea6f15e9b3e",
+    "results/extension/DS04/audit/flight_false_flags.csv": "d1cf026d79a874d73cc904eacdf5efecf21df667e2d4959c292f97af82bc5e7e",
+    "results/extension/DS05/audit/flight_false_flags.csv": "56c943f8071efbaeb980a605899e6a7fc112f81f342986f77817f62467298aa7",
+    "results/extension/DS06/audit/flight_false_flags.csv": "b73ac6df975bc4f2c7f99a1ca32432488cac4a56c1386fbaa5520c5905b5c409",
+    "results/extension/DS07/audit/flight_false_flags.csv": "4b6e790ce8f8a906fddc57021397b3a07f1713a9f93c030b0d615f262ee0607f",
+    "results/extension/DS08a/audit/flight_false_flags.csv": "9840cd5556bdcff9420b331b8f8452ffe9da399b4d18f1382d3a1d0d63e2b1ef",
+    "results/extension/DS08c/audit/flight_false_flags.csv": "8951e477756da7c5dec82e54089f8d3c107a933a9889ee1dfec461755cf8d615",
+    "results/extension/summary/matched_labels_alpha_0.01.csv": "83c8ddc14b32f1fb8d31e6fdadd8afa5abaeb253e2ec011ab2ea3cf16455a0c8"
+  },
+  "builder": "paper/mssp_extended/build_figures_tables.py",
+  "builder_sha256": "be4c042eb184e697591054f1e6e700dfd7436558d19135ed22b1cc1b617ebdb0",
+  "note": "Median (marker) and range (bar) over 7 residual runs; \u03b1 = 1%. Grey band: post hoc median-to-95th-percentile worst-engine rate of a perfectly calibrated fleet.",
+  "built_utc": "2026-09-29T02:48:45+00:00"
+}

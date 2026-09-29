@@ -1,0 +1,292 @@
+<!--
+MSSP MANUSCRIPT, extended version (rescoped after the frozen multi-subset extension and the internal hostile review).
+Status: complete draft for author approval; not submitted.
+
+Evidence rules:
+- Frozen DS02/DS03 numbers are carried verbatim from the audited RESS/MSSP texts (paper/manuscript_core_results.csv).
+- Extension numbers come from results/extension/ (protocol docs/extension/GENERALIZATION_PROTOCOL.md v1.0 with
+  Amendments 1-3) and are listed with provenance in docs/extension/EXTENSION_EVIDENCE_LEDGER.csv.
+- Section 4.8 numbers come from the final focused validation (results/extension/focused_validation/; plan
+  docs/extension/FOCUSED_VALIDATION_PLAN.md). Section 4.9 numbers are post hoc checks from committed outputs
+  (paper/mssp_extended/post_hoc_checks.py ->
+  evidence/post_hoc_checks.json), prompted by docs/extension/EXTENSION_HOSTILE_REVIEW.md; they change no decision.
+- paper/mssp_extended/verify_numbers.py checks every number in the abstract, highlights and Sections 4-6
+  against those sources and enforces the terminology lock.
+-->
+
+# False-Alarm Calibration Transport Across Engines in Full-Flight Aero-Engine Anomaly Detection: A Multi-Subset Audit of Context Conditioning and Calibration-Fleet Coverage
+
+## Abstract
+
+Anomaly detectors are usually given one alarm threshold calibrated to a nominal healthy false-alarm probability, although under nonstationary operation it controls only an exposure-weighted rate and is estimated on some units but used on others. We audited whether this calibration transports across flight phases and engines in simulated full-flight aero-engine data (N-CMAPSS). After a phase-dependent pattern was discovered on one subset and reproduced on a second, an internally frozen protocol was applied to seven unopened subsets: five fleet families with 30 held-out audit engines. Detectors were residual principal component analysis, Isolation Forest, a past-only long short-term memory network and a fleet-trained conditional variational autoencoder (CVAE) conditioned on operating descriptors. Pooled calibration left a material error in some flight phase in three of five families, in one as uniform under-alarming. Retrospective phase-conditioned and continuous-context thresholds each improved on average half of the audit engines per subset–detector cell and sometimes made calibration much worse; the CVAE did not improve transport. A final post hoc validation showed that fleet-calibrated errors, mostly below one percentage point, exceeded each engine's cross-fitted self-calibration error in 27 of 30 engines and were not reduced by recalibration on five of its healthy flights. The largest failures arose where calibration lacked the engine's flight class or envelope; at fixed volume, calibrating on its own class improved phase-conditioned calibration. Per-engine calibration should be judged against engine-specific sampling and self-calibration references, and calibration fleets should cover the classes and envelopes in which thresholds will be used.
+
+**Keywords:** condition monitoring; false-alarm calibration; calibration transport; nonstationary operating conditions; anomaly detection; aero-engine
+
+**Highlights (Elsevier limit 85 characters each):**
+- Pooled thresholds left a material phase error in 3 of 5 fleets, once under-alarming
+- Context-conditioned thresholds improved only about half of held-out engines
+- A fleet-trained CVAE conditioned on operating descriptors did not improve transport
+- Largest failures lay outside the calibration fleet's flight classes or envelope
+- Fleet errors exceeded engine self-calibration in 27 of 30 engines, mostly below 1 pp
+
+## 1. Introduction
+
+**Detection as a calibrated threshold test.** Condition monitoring increasingly relies on detection statistics computed from residuals between measured signals and a model of nominal behaviour [N1]. Whatever the model, the monitoring decision is a threshold test: an alarm is raised when the statistic exceeds a level chosen for a nominal false-alarm probability. In aero-engine monitoring, false-alarm probability has long been an explicit design parameter [2], [11], and frequent healthy alarms weaken the usefulness of a warning stream [12].
+
+**Pooled thresholds under nonstationary operation.** Operating point, manoeuvres and ambient conditions change measured signals even when health is unchanged [N2]–[N4]. Operating-condition normalization removes part of this dependence before a statistic $s_t$ is formed and a decision $a_t = \mathbb{1}[s_t > \tau]$ is taken [N2], [N4]–[N6]. A single threshold $\tau$ calibrated on pooled healthy data controls only the exposure-weighted false-alarm probability,
+
+$$P(a=1\mid h) = \sum_{c} \pi_c \, P(a=1 \mid h,c),$$
+
+where $c$ indexes operating contexts, or units, and $\pi_c$ is their share of healthy exposure. The pooled rate can meet its target while individual contexts or units run well above or below it [N7].
+
+**Conditioning the threshold or the representation is established.** Mode-specific control limits [N8], constant-false-alarm-rate detectors [N10], category-conditional conformal calibration [N7], [N45] and per-condition, per-speed or per-flight-state alarm thresholds [N22], [N25]–[N27] condition the threshold. Condition-aware representations condition the model itself: a conditional variational autoencoder receives operating-condition variables so that equipment state and operating conditions are modelled separately [N38]. Neither conditioning is proposed here.
+
+**The open question is transport.** A calibration is estimated on some units and used on others. Its guarantees rest on exchangeability between calibration and deployment data [N20], a calibration set can be unrepresentative [N16], and fleet-level normal models can serve individual units poorly [N44]. We call *calibration transport* the property that a nominal healthy false-alarm calibration obtained on calibration engines keeps its meaning, context by context, on other engines. Transport is rarely made an endpoint: detection studies on full-flight benchmarks report aggregate detection metrics [7]–[9], [N42], and the closest demonstrations concern transfer between operating modes rather than across units [N23].
+
+**Earlier stages of this study.** On the N-CMAPSS subset DS02, pooled calibration left healthy false-positive rates (FPRs) dependent on flight phase, highest in descent. A frozen, one-shot evaluation on held-out DS03 engines reproduced the pre-specified pooled directional pattern. Separately frozen post-confirmation analyses then found that retrospective phase-conditioned thresholds reduced pooled between-phase disparity, but that this correction did not transport reliably to individual engines. Those results rested on two subsets, two calibration engines each and three or six audit engines.
+
+**This work.** An internally frozen protocol applied the same audit to every other readable N-CMAPSS subset, added a condition-aware representation baseline, intervened on the composition of the calibration fleet at fixed volume, and applied standard within-flight alarm-persistence rules. Every hypothesis, endpoint, decision rule and story the results could support was fixed before any new outcome was computed; checks added after an internal review are reported separately as post hoc. A final post hoc validation, frozen before it re-read any test data, added engine-specific cross-fitted self-calibration references, a calibration-class-preserving bootstrap and per-engine local recalibration. The research questions were:
+- **RQ1.** Does pooled calibration leave material phase-conditional miscalibration on new subsets?
+- **RQ2.** Does retrospective phase-conditioned or continuous-context calibration keep its nominal meaning across held-out engines?
+- **RQ3.** Does conditioning the anomaly representation on operating descriptors remove the transport problem?
+- **RQ4.** At fixed calibration volume, does the flight-class coverage of the calibration fleet affect transport?
+- **RQ5.** Do within-flight alarm-persistence rules, or delay comparisons at matched false-flag burden, change these answers?
+
+**Contributions.**
+1. **A multi-subset, engine-disjoint audit** of nominal false-alarm calibration transport under full-flight operation, run under a protocol frozen before outcomes, over seven previously unopened subsets grouped into fleet families.
+2. **A transport result that recurred across fleet families**: phase-conditioned, continuous-context and representation-conditioned calibrations did not systematically improve individual held-out engines, and within-flight persistence rules did not change this.
+3. **A fixed-volume composition intervention with flight-level attribution**: calibrating on an engine's own flight class improved phase-conditioned calibration, and the largest failure in a covered class came from a flight outside the calibration altitude envelope.
+4. **An evaluation requirement for monitoring studies**: per-engine nominal calibration error judged against engine-specific sampling and self-calibration references and reported with disparity and matched-burden delay under pre-specified decision rules.
+
+**Scope.** The evidence is simulated and specific to N-CMAPSS; no mechanism, detector or threshold policy is proposed, and no deployment claim is made. The question itself arises wherever one threshold, or one set of context-specific thresholds, is calibrated on part of a fleet and used on other units, for example in wind turbines [N1], [N4], gearboxes [N3], gas turbines [N13], [N38] and structures under environmental and operational variability [N2], [N5], [N6].
+
+## 2. Related work
+
+### 2.1 Operating-condition variability and context-specific thresholds
+
+Environmental and operational variability alters monitored features and can mask or mimic damage [N2]. Responses include normalization before control charting [N2], [N5], operating-parameter-driven models of the healthy response [N4], regime-switching response surfaces [N6] and condition inference followed by condition-relative assessment [N3]. Flight-condition-aware engine monitoring predates full-flight benchmarks [3]–[5], [N35]; N-CMAPSS supplies complete simulated flights and flight classes [1], and its phase structure differs between classes [N28].
+
+Context-specific thresholds are also established: mode-specific principal-component control limits in multimode processes [N8]; extreme-value alarm thresholds per identified operating condition [N22]; novelty thresholds per shaft-speed bin [N27]; segmentation by flight condition [N25]; and thresholds optimized per flight state because condition-agnostic thresholds caused frequent false alarms [N26]. Adaptive thresholds for aero-engine fault detection have been set over flight-envelope subareas [6], automatic threshold setting for vibration-based anomaly detection is an active topic [N14], and in machine-sound anomaly detection the best decision threshold differs across operating domains [N37]. On simulated turbofan data, a detector whose threshold was set on healthy cruise data flagged all data from other operating modes [N23]; a single global threshold was worst in climb for an aviation piston engine [N43]; and residual detectors on N-CMAPSS have been compared by false positives and delay using cruise data only [N42].
+
+### 2.2 Condition-aware representations
+
+Instead of conditioning only the threshold, the representation can be conditioned. Chen et al. feed operating-condition variables to the encoder and decoder of a self-attention conditional variational autoencoder, argue that data from different operating conditions cannot yield one health-indicator threshold valid for all conditions, and then set a single kernel-density threshold on the conditioned indicator [N38]. On N-CMAPSS they use DS02's six development engines, all from the longest flight class, and train on the first cycles of the engines they test. Whether a pooled threshold on a conditioned score keeps its nominal meaning within contexts and on other engines therefore remains open; Section 4.4 tests it for a fleet-trained model.
+
+### 2.3 Alarm policy, delay and calibration validity
+
+Alarm design trades false-alarm rate, missed-alarm rate and delay [N32]. For non-stationary process variables, time-variant indices are needed instead of stationary averages, and deadbands, filters and delay timers change these indices [N39], [N40]; the zones of that work are stages of fault progression in one variable, not operating contexts, and no transport across units is studied. Sequential change detection ties delay to a false-alarm rate [N17], and ProDiMES compared engine detectors at a fixed flight-level false-alarm target [N24].
+
+Distribution-free calibration clarifies what a threshold guarantees: marginal control over calibration sets, with unlucky sets possible [N16]; validity within categories only under category-conditional calibration [N7]; and guarantees that rest on exchangeability, which drift and covariate shift violate [N20], [N30]. Signal-processing detection faces the same issue: subspace damage-detection tests fail when excitation statistics change between the reference and monitored states [N15]. In heterogeneous fleets, units have been calibrated against similar sub-fleets [N44], monitoring models may fail to transfer beyond the systems on which they were built [N21], and conformal thresholds have been compared with classical ones for residual detectors [N41]. We found no study that audits, engine by engine and on multiple benchmark subsets under protocols frozen before outcomes, whether pooled, context-conditioned and representation-conditioned calibrations keep their nominal false-alarm meaning, together with fixed-volume interventions on the calibration fleet and persistence rules. No priority is claimed for context-aware monitoring, conditional thresholds or alarm policies.
+
+## 3. Data and methods
+
+The analysis chain is $x_t \rightarrow s_t \rightarrow a_t$: a sensor vector, a detector score and a row alarm $a_t = \mathbb{1}[s_t > \tau(\cdot)]$ with a pooled or context-conditioned threshold $\tau(\cdot)$ set on healthy calibration data. Transport is whether the calibration target, set on calibration engines, holds on audit engines, pooled and engine by engine.
+
+### 3.1 Subsets, cohort selection and fleet families
+
+N-CMAPSS simulates run-to-failure trajectories of turbofan engines flown along recorded flight profiles; each engine flies one flight class, from short low flights (class 1) to the longest and highest (class 3) [1]. DS02 served for exploratory discovery and DS03 for frozen confirmation (Section 3.2). For the extension, every other subset in the official archive was screened by nine criteria committed before any metadata were read: file integrity; the same 14 sensor channels and four operating descriptors (altitude, Mach number, throttle-resolver angle, fan-inlet temperature; $W$); a monotone single-transition health label; complete flight identifiers; at least three development engines; at least three test engines with healthy and post-onset flights; phase-complete healthy flights with at least 1,000 healthy rows per phase per test engine; and no prior outcome inspection. The metadata audit read only the engine, cycle, flight-class and health labels, the variable names and the altitude of healthy rows. DS01, DS04, DS05, DS06, DS07, DS08a and DS08c qualified, with 30 official test engines; DS08d was excluded before any value was read because its official file is 32 bytes shorter than its HDF5 superblock declares and cannot be opened.
+
+The same audit showed that the subsets reuse a library of recorded flights. In DS05, DS06 and DS07, each of the ten units flies an identical sequence of healthy flights; the subsets differ in failure mode and onset time, and several engines recur across other subsets. Their healthy sensor values are not identical, but the shared missions make them dependent. Subsets were therefore grouped into five *fleet families* (F1 = DS01, F2 = DS04, F3 = DS05–DS07, F4 = DS08a, F5 = DS08c), which are the top-level unit of every cross-dataset count and interval (Fig. 1). DS02 and DS03 are reference subsets and decide no hypothesis.
+
+### 3.2 Staged design and protocol freezes
+
+The study proceeded in frozen stages (Fig. 1): DS02 discovery; a protocol freeze and one-shot DS03 confirmation on held-out engines; separately frozen post-confirmation analyses on DS02 and DS03; and the frozen multi-subset extension reported here. For each new subset, all models were fitted and all thresholds, flight-level rules and composition designs were locked, hashed and committed before any official-test array was read. Each subset's audit then ran once, in a fixed order, writing a one-shot marker before its first read; this separates the exploratory stage from the confirmatory ones [N33]. The freezes are internal: protocols, locks and markers were committed and hashed in the project repository before the corresponding outcomes, but were not registered externally. Three amendments were logged before any affected outcome existed: completing two classification rules, adding numerical safeguards to the CVAE after a stop rule fired on a non-finite training loss, and scoring healthy and post-onset audit rows in separate calls, as the frozen stages had. The last was found by a reference run that had to reproduce the frozen DS02 and DS03 tables cell by cell before any new audit, which it then did. The DS03 confirmation is not revised by any later stage.
+
+### 3.3 Engine roles and labels
+
+Engine roles were assigned from engine identity and flight class alone, before any sensor value was read. For each flight class, the lowest-numbered development engine joined the fit pool and the highest-numbered joined the calibration pool; remaining engines filled the fit pool to three; the highest-numbered fit engine served as the engine-disjoint validation engine for epoch selection; and official test engines were audit engines (Table 1). Every fit pool therefore contains all available classes, and calibration pools contain one to three. DS08c's calibration pool is class 3 only, whereas all four of its audit engines are class 2. DS02 and DS03 keep their frozen roles.
+
+The health-state annotation is never a detector input. It selects healthy ($hs = 1$) rows for fitting, calibration and healthy false-alarm evaluation, and it defines abnormal-state ($hs = 0$) rows and the labelled onset, from which detection delay is counted in flights. Because $hs = 0$ marks a simulated degradation onset, not a discrete fault event, abnormal-state endpoints are alarm rates and delays relative to that label.
+
+### 3.4 Detection statistics
+
+**Residual detectors.** A finite-history correction regressed the 14 sensors on 32 past-only operating descriptors (current state, first differences, and trailing means, standard deviations and slopes over 30 and 120 s, reset at flight boundaries) by ridge regression on fit engines. Residual principal component analysis (PCA; five components; squared prediction error), Isolation Forest (200 trees, maximum sample size 8192; seeds 0–2) and a past-only long short-term memory (LSTM) sequence-reconstruction network (seeds 0–2) scored the standardized residuals. LSTM epochs were selected on the fit pool's validation engine (at most 600 epochs, patience 6) and the network was refitted on all fit engines.
+
+**Condition-aware representation.** One conditional variational autoencoder (CVAE) was specified and frozen before training, as a fleet-trained condition-aware baseline inspired by [N38] rather than a reproduction of it. The standardized sensor vector is encoded conditionally on the same 32 descriptors, with two 128-unit hidden layers in encoder and decoder, a four-dimensional Gaussian latent code and a heteroscedastic Gaussian decoder; its anomaly score is the conditional negative log-likelihood at the posterior-mean code. Epoch selection followed the LSTM rule (seeds 0–2). The CVAE is calibrated and evaluated exactly like the other detectors, so detectors are compared only through calibrated quantities at the same α, never through raw scores. The ten runs per subset (one PCA run and three seeds each for Isolation Forest, the LSTM and the CVAE) are the units over which results are counted.
+
+### 3.5 Calibration arms and the flight rule
+
+For each run and nominal row-level target α (0.5%, 1% and 2%; 1% primary), healthy calibration scores define:
+- **P, pooled calibration:** the upper $1-\alpha$ quantile of all calibration scores;
+- **C, retrospective phase-conditioned calibration:** per-phase quantiles, applied by the row's phase; phases (climb, cruise, descent) follow a 90% within-flight altitude rule that requires the complete flight, so C is a retrospective diagnostic;
+- **Q, continuous-context calibration:** linear quantile regression of the score on a quadratic surface of the four standardized operating descriptors, fitted on every fifth calibration row. Q is an adversarial control, not a proposed method.
+
+A flight's alarm fraction is its share of alarmed rows; it is flagged if the fraction exceeds κ, locked per run, arm and target at the 0.95 quantile of healthy calibration-flight fractions (a nominal 5% healthy-flight false-flag rate).
+
+### 3.6 Endpoints
+
+With phase FPRs over climb, cruise and descent: between-phase disparity A1 is the maximum minus the minimum phase FPR; maximum nominal calibration error A2 is $\max_\phi |\mathrm{FPR}_\phi - \alpha|$. Each is computed row-pooled over audit engines and per engine. The primary transport summaries are the equal-engine mean of per-engine A2 (ME-A2), the worst engine (WE-A2) and the number of audit engines that an arm makes worse calibrated than P. Disparity and nominal error answer different questions and are never substituted for each other; A2 counts over- and under-alarming alike. An A2 of at least 0.5α (0.5 percentage points, pp, at 1%) is called *material* miscalibration; it is used by the decision rules only.
+
+The realized healthy-flight false-flag rate (FFR) is the share of healthy audit flights flagged at the locked κ; it is kept separate from the share of healthy flights with any alarm. Detection delay is the number of flights from the labelled onset to the first flagged post-onset flight. Delays are compared only at matched realized FFR: κ is swept over a calibration-only grid, each arm is matched to anchors of 2.5%–20% within one healthy-flight step, without interpolation, and a run is labelled "earlier at matched burden", "later", "equal" or "mixed" from paired per-engine differences.
+
+### 3.7 Alarm-persistence rules
+
+Three fixed policies were evaluated: R0, a single-row exceedance; R1, three consecutive exceedances; and R2, three exceedances within five rows, with windows never crossing a flight boundary. These are on-delay timers of the kind analysed in [N39], [N40]; at the 1 Hz sampling rate they act within a flight, over a few seconds. For each rule, κ was recalibrated on calibration flights, and the endpoints were recomputed: per-engine FFR and its worst engine, alarm events per healthy flight, delay, and a persistence calibration error relative to the calibration-set persistent-alarm rate. Flight-to-flight confirmation was not part of the frozen protocol; a post hoc two-flight rule is reported in Section 4.9.
+
+### 3.8 Calibration-fleet composition intervention
+
+With the fitted detectors held fixed, P and C thresholds were re-estimated from calibration designs of exactly equal volume $N$, the largest multiple of 6,000 rows not exceeding half of the smallest calibration-pool engine (Table 1), using five fixed nested subsamples that depend only on calibration data. The designs were single engines, same-class multi-engine pools, two-class mixtures, leave-one-class-out designs, class-balanced designs and full-volume designs. The primary composition endpoint is a within-engine coverage effect: for each audit engine whose flight class is represented in the pool, A2 under single-engine calibrations from other classes minus A2 under same-class calibrations. It is positive when covering the engine's class transports better, and using single engines keeps the number of calibration engines fixed. A volume contrast compares an other-class engine's full healthy data with its $N$-row subsample. Because the subsamples thin rows across all of that engine's flights, this contrast measures only the estimation noise of fewer rows; it cannot show whether adding engines, flights or missions from other classes would substitute for coverage.
+
+### 3.9 Statistical units, uncertainty and decision rules
+
+The engine is the inferential unit, flights are nested, rows are never treated as independent, and families are the top level across subsets. Within each subset, an engine-then-flight bootstrap (2000 replicates) re-estimated the P and C thresholds in every replicate. Across subsets, a family → subset → replicate hierarchy gave intervals for the median family-level effect; with five top-level units these intervals are crude and are reported as descriptive. No p-value is computed, and every decision is a count rule on point estimates. Seven hypotheses with count-based decision rules (Table 4) were fixed before outcomes, together with an interpretation matrix of five candidate stories and a rule classifying the earlier story as generalized, partially generalized, configuration-specific or refuted. A subset holds a statement if a majority of its runs do, and a family if a majority of its subsets do. Post hoc checks prompted by an internal review (Section 4.9) were computed afterwards from committed outputs, and a final focused validation (Sections 3.10 and 4.8) re-read healthy test rows under a separately frozen plan; neither changes any pre-specified decision.
+
+### 3.10 Final focused validation (post hoc)
+
+After the internal review, a final validation was frozen as a separate plan, committed before any official-test value was re-read, and run once on healthy official-test rows only, with the locked models, at the 1% target. It had three components:
+- **Cross-fitted self-calibration reference.** For each audit engine and run, the engine's healthy flights were split 200 times into five random folds; per-phase thresholds estimated on four folds were applied to the fifth, and the out-of-fold A2 over all of the engine's flights gives the engine's cross-fitted self-calibration reference, with median NF50 and 95th percentile NF95. An engine clearly exceeds it if its fleet-calibrated A2 is above NF95 in at least 4 of 7 residual runs. Because the deviations of complementary folds partly cancel, this reference describes what calibrating on the engine's own flights achieves; it understates the flight-to-flight sampling noise of a single engine's error, which the approximate sampling reference of Section 4.9 overstates.
+- **Class-preserving bootstrap.** The per-subset bootstrap was rerun with calibration engines resampled within flight class, so that every class stays in every replicate, and with the original audit resampling unchanged.
+- **Local recalibration.** Thresholds were re-estimated from each audit engine's first five healthy flights, a number fixed from flight counts before the run, and evaluated on its remaining healthy flights, against a matched reference built from 200 random five-flight subsets.
+
+### 3.11 Implementation, reproducibility and use of AI tools
+
+The pipeline is written in Python 3.12 (NumPy, pandas, scikit-learn, PyTorch; versions locked). Every stage writes records with input and code hashes, a 186-file manifest of the frozen evidence was verified before and after every run, and scripts re-derive every reported number from an evidence ledger. Generative AI coding assistants were used under the author's direction: OpenAI ChatGPT and Codex supported code for the discovery and confirmation pipeline, and Claude (Anthropic; Claude Opus 5.5, through the Claude Code tool) wrote and ran the post-confirmation, adversarial-validation and multi-subset extension code under the frozen plans, wrote the figure, table, post hoc and verification scripts, ran an internal adversarial review and wrote and ran the final focused validation under its frozen plan. The author set the research questions, approved every protocol before execution and reviewed the outputs. Correctness rests on exact reproduction gates, automated tests and scripts that re-derive every number; the pipeline has not been independently reimplemented.
+
+## 4. Results
+
+Section 4.1 summarizes the frozen and reference evidence; Sections 4.2–4.7 report the pre-specified analyses of the new cohort at the 1% target unless stated; Section 4.8 reports the final focused validation and Section 4.9 other post hoc checks. Per-run, per-engine and interval results are in Supplementary Tables S1–S24.
+
+### 4.1 Frozen discovery and confirmation, and the reference subsets
+
+On DS02, pooled calibration left healthy FPR dependent on phase (PCA at 1%: climb 0.125%, cruise 0.428%, descent 3.459%). On held-out DS03 engines, the frozen protocol reproduced the pre-specified pooled directional pattern (PCA: climb 0.877%, cruise 0.912%, descent 1.977%). Post-confirmation, retrospective phase-conditioned thresholds reduced pooled between-phase disparity in all 14 detector runs, but did not transport reliably to individual engines. In the extension's reference runs, the CVAE showed the same pattern: DS02 class-1 engine 14 and DS03 class-1 engine 12, both from classes absent from calibration, were made worse calibrated by C in every residual run and every CVAE seed.
+
+### 4.2 Pooled calibration across seven new subsets
+
+Pooled calibration left material phase-conditional miscalibration for PCA and for the seed means of Isolation Forest and the LSTM in DS05, DS06, DS08a and DS08c, which is three of five families (Table 2; H1 supported at its pre-specified threshold). The decision sat on its threshold: DS01 fell narrowly short (LSTM pooled A2 0.49 pp), as did DS04 (PCA 0.40 pp) and DS07 (LSTM 0.35 pp). Descent was the highest phase under P in 10 of 10 runs in DS01 and DS07 and in 9 of 10 in DS04, DS05 and DS06 (Fig. 2). Descent did not always lead: cruise led in 5 of 10 runs in DS08a, and climb and descent split 5 and 5 in DS08c. In DS08c, whose class-2 audit engines were calibrated on class-3 engines only, FPRs were below the target in every phase (Fig. 2), a transport-level shift rather than a phase disparity; the family counts towards H1 because A2 counts under-alarming.
+
+The phase effect does not require transport: within the calibration engines themselves, the pooled threshold left descent highest in 10 of 10 runs in DS01 and 7 to 9 of 10 in DS04–DS08a, but in 2 of 10 in DS08c.
+
+### 4.3 Phase-conditioned and continuous-context calibration
+
+Retrospective phase conditioning reduced pooled disparity in 66% of the 70 new subset–detector cells and in three of five families (H2 partial), less consistently than on DS02 and DS03 (Table 3). For PCA on DS05 and DS06 it markedly worsened calibration (pooled A2 4.72 and 5.67 pp under C, against 2.64 and 2.62 pp under P), and Q worsened it further (16.41 and 17.46 pp).
+
+Neither conditioning transported uniformly. C improved every audit engine relative to P in only 14% of cells, and at least one engine was worse in 86%; for Q both shares were the same (H3 survives; Table 3, Fig. 3). Because 14% is itself above what a coin flip per engine would give, the informative summary is the engine-level one: on average each conditioning improved about half of the engines in a cell (Section 4.9). DS04 was the exception, where C and Q each improved every engine in 6 of 10 runs. The per-engine error, taken as the median over residual runs, reached the material line on 28, 28 and 26 of the 30 audit engines under P, C and Q (Fig. 3), an excess over each engine's cross-fitted self-calibration reference for most engines (Section 4.8). Failures occurred where calibration lacked the engine's class (C worsened DS08c engines 7, 8 and 9 in 7 of 7 residual runs) and where it lacked the engine's flight envelope: DS08a engine 14, a class-3 engine with a class-3 calibration engine, had a median A2 of 5.00 pp under P, 5.39 pp under C and 11.40 pp under Q, and most of its healthy alarms came from one flight that climbed higher than any fit or calibration flight (Section 4.9).
+
+### 4.4 Condition-aware representation
+
+Conditioning the representation of a fleet-trained model did not remove the transport problem (H5 survives; Fig. 5). The CVAE's worst-engine error under P reached the material line in a majority of its runs in all five families; it never met the pre-specified criterion of halving the best residual detector's mean per-engine error, and it reduced pooled phase dependence relative to every residual detector in only two families. Across families, its mean per-engine error under P exceeded that of the best residual detector by a median of 0.52 pp (family bootstrap 0.05 to 1.31 pp; five top-level units) and that of the median residual detector by 0.24 pp (Section 4.9). Neither conditioned threshold rescued it: every audit engine improved in 1 of the 21 CVAE cells under C and in 3 of 21 under Q (Table 3).
+
+### 4.5 Calibration-fleet composition at fixed volume
+
+Coverage mattered for phase-conditioned thresholds and little for pooled ones (H4 supported; Table 5, Fig. 4). At fixed volume, the within-engine coverage effect was positive in at least 7 of 10 runs under both P and C in five of six eligible subsets and three of four eligible families, although F1 and F2 reached the rule with exactly 7 of 10 runs under P. The effect was modest for pooled thresholds, a median over families of 0.11 pp (family bootstrap −0.04 to 0.18 pp), and clearer for phase-conditioned thresholds, 0.55 pp (0.18 to 1.11 pp), whose per-phase quantiles inherit the class mix of the calibration data (Fig. 4a). Class-balanced calibration beat the mean single-engine design in at least 9 of 10 runs under both arms in five of six subsets, with DS04 under C the exception (0 of 10 runs), but it rarely beat the best single engine (Section 4.9). The volume contrast was within 0.05 pp of zero in every subset, as expected for row subsamples of the same engine (Section 3.8). In N-CMAPSS, class coverage also means shared recorded missions (Section 4.9).
+
+### 4.6 Alarm persistence and matched-burden delay
+
+Within-flight persistence did not remove the flight-level burden (H6 survives; Fig. 6a). Under P, the median worst-engine healthy-flight false-flag rate at the locked κ was 13.0% under R0, 13.0% under R1 and 14.3% under R2. A worst engine at or above 10% occurred in 63%, 69% and 69% of residual cells, and in the majority of cells in three, four and four of five families. The pre-specified 10% line is, however, close to what a perfectly calibrated fleet would show with so few flights per engine, and most of these worst-engine rates were within sampling noise (Section 4.9). Under Q the median worst engine reached 20.0% to 21.7%.
+
+At matched healthy-flight false-flag burden, phase conditioning gave no delay advantage meeting the pre-specified criterion (Fig. 6b): 7 of 49 residual runs were earlier than P, 18 equal, none later and 24 mixed under R0, and the criterion was met in no subset under any rule. Q was earlier at matched burden more often (23, 32 and 28 of 49 runs under R0, R1 and R2) but met the criterion only on DS04 under R1 and R2; burden was matched on the pooled rate rather than per engine, and Q had the highest worst-engine rates at the locked κ. Early post-onset sensitivity was low (Section 4.9), so these comparisons have little power.
+
+### 4.7 Cross-dataset evidence and pre-specified decisions
+
+The median family-level effects of C against P had intervals that included zero for every detector family, for disparity (for example, LSTM −0.31 pp, −0.52 to 0.53 pp) and for mean per-engine error (for example, Isolation Forest −0.20 pp, −0.53 to 0.22 pp); the per-subset intervals are wide partly because the pre-specified bootstrap resamples calibration engines without stratifying by class (Sections 4.8 and 4.9). The pre-specified decisions are collected in Table 4. The earlier story, that pooled calibration loses conditional validity and pooled phase-level correction does not transport, was classified as partially generalized: non-transport of the phase-conditioned correction held in four of five families, and the absence of a matched-delay advantage and the failure of Q on some engine in five of five, whereas conditional miscalibration and disparity reduction by C held in three of five. The interpretation matrix selected broad transport failure together with calibration-fleet coverage as its headline, with the coverage effect qualified as weak for pooled thresholds, and no rescope flag was raised.
+
+### 4.8 Final focused validation (post hoc)
+
+All reproduction gates passed: rescoring reproduced every committed healthy phase and flight count and the original bootstrap replicates exactly.
+
+**Cross-fitted self-calibration references.** Fleet-calibrated per-engine errors were mostly modest, with a median over engines of 0.63 pp under C, against a median cross-fitted self-calibration reference NF50 of 0.13 pp. They exceeded the engine's own reference in 27 of 30 engines under C, 29 under P and 28 under Q, in all five families; under C the exceptions were DS01 engine 8, DS07 engine 9 and DS08a engine 12. By the pre-declared rule, the engine-level transport result was therefore strengthened. Against the approximate sampling reference of Section 4.9, which overstates sampling noise, the same rule counts 13, 17 and 18 of 30 engines, in three, three and five families, so how many individual engines exceed sampling noise depends on the reference.
+
+**Class-preserving bootstrap.** Omitting calibration classes had accounted for a median of 11–15% of the width of the per-subset C − P intervals (33–43% in DS01, about none in DS04 and DS08c). No per-subset interval for the C − P change in mean per-engine error changed from including to excluding zero, every cross-dataset C − P interval still included zero, and the CVAE's gap to the best residual detector remained (0.06 to 1.18 pp).
+
+**Local recalibration.** Recalibrating on each engine's first five healthy flights did not reduce the error on its remaining flights: the median change was −0.16 pp under C and −0.04 pp under P (negative values mean larger errors), and a majority of runs improved for only 12 and 10 of 30 engines. The fleet thresholds' errors were already within the range that random five-flight local thresholds give, for every engine; five healthy flights are too few to correct fleet-to-engine errors of this size.
+
+### 4.9 Other post hoc checks
+
+The checks in this section were not pre-specified. They were computed after all outcomes, prompted by an internal adversarial review, from committed outputs only (new cohort, residual runs, 1% target); they re-open no test data and change no decision in Table 4.
+
+**Approximate sampling references.** Each audit engine contributes 14–36 healthy flights, and alarms cluster within flights: the flight-clustered standard error of one engine's overall healthy FPR had a median of 0.15 pp. Scaling each engine's clustering to its phases, a perfectly calibrated engine would reach the material line in about 31% of engine–run pairs under P, 30% under C and 49% under Q, against observed shares of 87%, 80% and 82%; observed errors exceeded the 95th percentile of this reference in 60%, 49% and 58% of pairs (Fig. 3). Per-engine errors therefore exceed sampling noise in aggregate, but a single engine near the material line does not establish a transport failure. Because these references include true between-flight variation, they overstate pure sampling noise, whereas the cross-fitted self-calibration reference of Section 4.8 understates it. For flight-level burden, flagging each healthy flight independently at an exchangeable-calibration rate gives a worst engine whose median is 8.6–11.8% and which reaches 10% in 41–69% of cells (Fig. 6a). The observed worst engine under P exceeded this reference's 95th percentile in none of the runs in DS01, DS04, DS07 and DS08c and in 1 to 3 of 7 runs in DS05, DS06 and DS08a.
+
+**Direction of errors.** Of the material per-engine errors under P, 53% were under-alarming: all of those in DS08c and most in DS04 and DS07, but none in DS01. Under-alarming costs sensitivity rather than false alarms.
+
+**Engine-level effect of conditioning.** On average, C improved 50% and Q 49% of the audit engines in a cell. If each engine's change were a coin flip, every engine would improve in about 5.6% of cells, against 14% observed; conditioning helped individual engines about as often as it hurt them. In DS04, every audit engine stayed within the material line in 4 of 7 residual runs under Q and in 1 of 7 under P and C.
+
+**Where the largest failures sat.** One of DS08a engine 14's 15 healthy flights carried 65% of its healthy alarms under P; without it, the engine's FPR fell from 2.70% to 1.00%. That flight's altitude span (32,029 ft, 9,762 m) exceeded that of every fit (at most 28,051 ft, 8,550 m) and calibration (at most 30,033 ft, 9,154 m) flight in DS08a, and it was the only audit flight outside the calibration altitude envelope. Class coverage also implies shared missions: a class-1 audit engine shared 35–56% of its healthy flight profiles with its same-class calibration engine and a class-2 or class-3 engine 5–20%, whereas no audit engine shared a profile with a calibration engine of another class. Under P, the coverage effect was confined to class-1 audit engines (+0.11 pp, against −0.09 and −0.08 pp for classes 2 and 3); under C it was positive for every class.
+
+**Composition and uncertainty.** The class-balanced design beat the best single-engine design in only 7 of 42 residual runs under P and 11 of 42 under C, so its advantage over the mean single engine largely reflects averaging. The CVAE's mean per-engine error under P exceeded that of the median residual detector by 0.24 pp (median over families), and it was lower in F1. In the per-subset bootstrap, resampling calibration engines without stratifying by class omits at least one class in 78% of replicates in DS01 and DS05–DS07, which widens and skews its C − P intervals (quantified in Section 4.8).
+
+**Flight-to-flight confirmation.** Requiring two consecutive flagged flights at the locked κ reduced the worst engine's healthy confirmed-alert rate under P to zero in 36 of 49 residual runs, with 2 of 49 at or above 10%, while the median delay rose from 9.5 to 17 flights; under Q, 20 of 49 runs still reached 10%.
+
+**Early sensitivity.** Over the first 10 post-onset flights, the abnormal-state row alarm rate under P was 0.52–4.67% (median 1.21%), close to the healthy target, so early delays largely reflect the timing of flags.
+
+## 5. Discussion
+
+### 5.1 What generalized
+
+Three results recurred across the fleet families of N-CMAPSS. First, conditioning the threshold or the representation did not make calibration transport reliably to individual engines: phase-conditioned and continuous-context thresholds improved about half of the audit engines in a cell, about as often as they worsened them, and they failed badly for engines of classes absent from calibration and for PCA on DS05 and DS06. Second, fleet-calibrated per-engine errors were systematic but mostly below one percentage point: they exceeded each engine's own cross-fitted self-calibration error in 27 of 30 engines, persisted under within-flight persistence rules and were not reduced by recalibration on five healthy flights. Third, coverage mattered: at fixed volume, calibrating on the engine's own class improved phase-conditioned calibration, and the largest failures sat outside the calibration fleet's classes or flight envelope. What did not generalize were the supporting details of the earlier story and part of the extension's pre-specified framing: phase conditioning reduced pooled disparity in about two-thirds of cells rather than always, descent was not always the highest phase, some material pooled errors were under-alarming shifts rather than phase disparities, and the worst-engine flight-level burden was mostly within sampling noise.
+
+### 5.2 Why context-aware calibration does not guarantee transport
+
+The mixture identity of Section 1 applies to engines as well as to phases: a calibration controls a rate averaged over its calibration engines, not the rate on each engine. Conditioning on phase or on operating descriptors changes which mixture is controlled, but engines differ in ways that the conditioning variable does not capture. Two sources were visible. The first is class coverage: engines of a class missing from calibration, such as DS08c's class-2 engines, fly routes and operating distributions that the calibration data do not contain, and per-phase quantiles, estimated from fewer and more class-specific rows, are more sensitive to this than a pooled quantile (Section 4.5). In N-CMAPSS, class coverage also means shared recorded missions, so part of its benefit may be mission reuse (Section 4.9). The second is envelope coverage within a covered class: DS08a engine 14's failure came from one flight above every calibration altitude range, which neither conditioning nor class coverage addresses. A condition-aware representation did not remove either source; its heteroscedastic likelihood sat at its variance floor for many channels, so its score behaved much like a scaled reconstruction error.
+
+### 5.3 Engineering implications
+
+The practical message is an evaluation and design requirement, not a threshold recipe. First, a calibration should be judged by its per-unit nominal calibration error on units held out from calibration, against engine-specific sampling and self-calibration references for the number of flights each unit contributes, and not only by pooled or disparity summaries, which can improve while individual units get worse. Second, before context-conditioned thresholds are used on a unit, the calibration fleet should contain units of that unit's class, and flights outside the calibration envelope should be treated as outside the threshold's validity rather than scored as evidence of degradation. Third, within-flight persistence rules change the operating point but do not repair a calibration that does not transport; flight-to-flight confirmation reduced the healthy burden in a post hoc check at the cost of delay, and delay gains should be claimed only at matched false-flag burden, preferably matched per unit. Recalibrating a unit on a few of its own healthy flights is not a substitute: five-flight local thresholds were noisier than the fleet thresholds they replaced.
+
+### 5.4 Relation to prior work
+
+The result sharpens several precedents. Per-mode false-positive rates under a single-mode calibration [N23] and per-condition thresholds [N22], [N26] show that one threshold does not fit all contexts; here, conditioning the threshold did not fit all engines either. Chen et al. [N38] argue that a single threshold cannot serve all operating conditions and then threshold a condition-aware score once, after training on early cycles of the engines they test; the fleet-trained CVAE result indicates that such a threshold should itself be audited per unit, and per-engine training was not tested here. Alarm-policy work [N39], [N40] shows that persistence changes false-alarm and delay trade-offs; here within-flight persistence did not change transport. Unit-specific calibration against similar sub-fleets [N44] is consistent with the coverage result, which quantifies the benefit of class coverage at fixed calibration volume.
+
+### 5.5 Limitations
+
+- **One simulator.** All subsets come from one simulator reusing a finite library of recorded flights; families reduce but do not remove this dependence, and there is no real-aircraft or independently sourced validation.
+- **Small units and sampling noise.** There are five new families and two reference subsets, one to three calibration engines per class and 14–36 healthy flights per audit engine. Whether an individual engine's error exceeds sampling noise depends on the reference: the cross-fitted self-calibration reference (Section 4.8) understates flight-to-flight noise and the approximate sampling reference (Section 4.9) overstates it, and most worst-engine flight-level rates are within noise. The pre-specified per-subset bootstrap did not stratify calibration engines by class, which inflated its intervals modestly.
+- **Coverage design.** In most pools each class is represented by one engine, so class coverage is confounded with engine identity and with shared recorded missions, and variability between calibration engines of one class cannot be estimated. The volume contrast thins rows within the same engine and cannot show whether added engines or missions substitute for coverage.
+- **One condition-aware model.** The CVAE is one fleet-trained specification whose score omits the latent-prior term; per-engine or early-cycle training [N38] was not tested.
+- **Retrospective phases, simulated labels and low early sensitivity.** C uses complete-flight phases; delay is measured from a simulated onset label, and early post-onset sensitivity was close to the healthy rate.
+- **Fixed lines and decisions on their thresholds.** The material-miscalibration and false-flag lines are pre-specified but arbitrary, A2 does not distinguish over- from under-alarming, and H1 and H4 sat exactly on their thresholds; all values are reported regardless.
+- **Fit pools and epoch selection.** Extension fit pools have three engines, fewer than DS03's seven, and in six of seven subsets the validation engine's class was absent from the selection-fit engines, which may affect LSTM and CVAE epoch selection.
+- **Internal freeze.** Protocols were frozen internally (committed and hashed before outcomes), not registered externally.
+
+## 6. Conclusion
+
+A nominal healthy false-alarm calibration, set on some engines and used on others, did not transport reliably to individual engines across the fleet families of N-CMAPSS. Retrospective phase conditioning and continuous-context conditioning each improved about half of the held-out engines rather than all of them, a condition-aware representation did not improve transport, and within-flight persistence rules did not change this. The largest failures arose where the calibration fleet lacked the audit engine's flight class or flight envelope, and at fixed volume, covering the engine's class improved phase-conditioned calibration. Fleet-calibrated per-engine errors were systematic but mostly below one percentage point, exceeded each engine's own self-calibration error in 27 of 30 engines and were not reduced by recalibration on five healthy flights; because individual engines contribute few flights, such errors should be judged against engine-specific sampling and self-calibration references. Monitoring studies should therefore report per-unit nominal calibration error on held-out units with such a reference, together with disparity and matched-burden delay, and calibration fleets should be designed to cover the classes and envelopes in which thresholds will be used.
+
+## Data availability
+
+N-CMAPSS is publicly available from the NASA Prognostics Center of Excellence Data Set Repository ("Turbofan Engine Degradation Simulation-2"). This study used subsets DS01, DS02, DS03, DS04, DS05, DS06, DS07, DS08a and DS08c; DS08d could not be opened. The raw NASA files are not redistributed; derived outputs, locks, run records and the evidence ledger are available with the code (see Code availability).
+
+## Code availability
+
+Code, frozen protocols and plans, locks, run records, derived outputs, the evidence ledger and the scripts that re-derive every reported number are available at https://github.com/surnamemei/ncmapss-phase-entanglement under the MIT licence. The version reported here will be released as v1.1.0 and archived on Zenodo with a persistent identifier (DOI) before publication.
+
+## Declaration of competing interest
+
+The author declares no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Funding
+
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+## CRediT authorship contribution statement
+
+**Jinghang Mei:** Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft, Writing – review & editing.
+
+## Appendix A. Supplementary data
+
+Supplementary material (PDF): Part A (Tables S1–S24) reports the multi-subset extension in full, the post hoc checks and the final focused validation; Part B reproduces, unchanged, the supplement of the pre-extension study (frozen DS02 discovery and DS03 confirmation, post-confirmation and adversarial-validation analyses). Machine-readable evidence files (CSV and JSON with SHA-256 sums) accompany the article and are archived with the code.
+
+## Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
+
+During the preparation of this work, the author used OpenAI ChatGPT and Codex (OpenAI) and Claude (Anthropic; Claude Opus 5.5, through the Claude Code tool) in order to assist with code development, execution of the frozen analyses and of the final focused validation, and debugging (described in Section 3.11), literature searching, organization of the literature and verification of references, an internal adversarial review, and drafting and editing of substantial parts of the manuscript text, figure captions, tables and supplementary material. After using these tools, the author reviewed and edited the content as needed and takes full responsibility for the content of the published article.
+
+## Figures (captions)
+
+**Fig. 1.** Staged study design and fleet families. The DS02 discovery and one-shot DS03 confirmation are frozen evidence cited unchanged; the post-confirmation analyses and the multi-subset extension were each frozen before their outcomes were computed. Fleet families group subsets that share recorded missions and are the top-level unit of cross-dataset counts.
+
+**Fig. 2.** Pooled healthy false-positive rate by flight phase under pooled calibration (P) at the 1% target, for each subset and detector family (point: seed mean; bar: range over seeds). The dashed line is the nominal 1% pooled target, which constrains the pooled rate, not each phase. Grey: reference subsets DS02 and DS03. Arrows mark bars clipped at the axis limit, with their maximum.
+
+**Fig. 3.** Per-engine transport at the 1% target: maximum nominal calibration error A2 of each audit engine under pooled (P), retrospective phase-conditioned (C) and continuous-context (Q) calibration (marker: median over the seven residual runs; bar: range). Crosses mark engines whose flight class is absent from that subset's calibration engines; the dotted line is the material line. Grey ticks (new subsets; post hoc, Section 4.9): approximate sampling reference, the 95th percentile of the A2 that a perfectly calibrated engine would show given its flights (median over runs, arm P). Grey background: reference subsets.
+
+**Fig. 4.** Calibration-fleet composition at fixed volume (1% target). (a) Within-engine coverage effect per audit engine (median over the ten runs): A2 under single-engine calibration from other classes minus A2 under same-class calibration; positive values mean coverage helps. (b) Class-balanced minus mean single-engine mean per-engine A2, per run; negative values mean the class-balanced design transports better.
+
+**Fig. 5.** Condition-aware representation against residual detectors under pooled calibration (1% target): (a) mean per-engine A2 and (b) worst-engine A2, one marker per run. The dotted line is the material line. Grey: reference subsets.
+
+**Fig. 6.** (a) Worst-engine healthy-flight false-flag rate at the locked κ under pooled calibration for alarm-persistence rules R0 (single row), R1 (three consecutive) and R2 (three of five) (marker: median over the seven residual runs; bar: range); dashed line, nominal 5%; dotted line, 10%; grey bands (new subsets; post hoc, Section 4.9), median to 95th percentile of the worst engine of a perfectly calibrated fleet with the same flight counts. (b) Pre-specified matched-burden delay labels of C and Q against P for the 49 residual runs of the new cohort, per rule.
+
+## Tables
+
+- **Table 1.** Subsets, fleet families and engine roles, with flight classes, audited healthy and post-onset rows, and the composition volume N.
+- **Table 2.** Pooled calibration (P) across subsets at the 1% target: highest-FPR phase counts over the ten runs, pooled maximum nominal calibration error A2 per detector family (IF, LSTM and CVAE: seed means), and whether the pre-specified material-miscalibration rule holds.
+- **Table 3.** Transport of retrospective phase-conditioned (C) and continuous-context (Q) calibration at the 1% target: counts over the ten runs of reduced pooled disparity, of every engine improved and of at least one engine worse; and median (over the seven residual runs) mean-engine and worst-engine A2 under P, C and Q.
+- **Table 4.** Pre-specified hypotheses, abridged decision rules, observed counts and decisions for the new cohort (five fleet families). S1–S5 are the components of the earlier story (S1 conditional miscalibration under P, S2 disparity reduction by C, S3 non-transport of C, S4 no matched-delay advantage, S5 failure of Q on some engine); M-B (calibration-fleet coverage) and M-C (broad transport failure) are the triggered stories of the interpretation matrix.
+- **Table 5.** Calibration-fleet composition at fixed volume N (1% target): runs with a positive median coverage effect, median coverage and volume effects, and runs in which the class-balanced design beat the mean single-engine design, under P and C.

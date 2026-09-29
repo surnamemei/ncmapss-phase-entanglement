@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/adversarial_matched_comparisons.csv": "0a1944436b91f205767dcddcff277df8f39cdad82fd05c4bcc17d6b5970b8b33"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/matched_delay/matched_false_flag_comparisons.csv": "591268a0b1f3196261b588cc825df3862cc80e38b400f8fa85f680aed82301a7",
+    "results/mssp_adversarial/ds03/matched_delay/matched_false_flag_comparisons.csv": "4a7091b7e84a2a6bb6256c845293850eb32b169fc3b0538d524df94f82ab52c7"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

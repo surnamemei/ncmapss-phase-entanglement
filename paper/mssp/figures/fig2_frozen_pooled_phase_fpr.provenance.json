@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/figures/fig2_frozen_pooled_phase_fpr.pdf": "7baaebcc2a62b5a04c8a2a0dab6f9c5dc9abb2a116484996a0552726f924ddd9",
+    "paper/mssp/figures/fig2_frozen_pooled_phase_fpr.png": "1db71f873daec4003358f7b3ad0403eee9fe9d5214bc20dd99933d390509f878"
+  },
+  "inputs": {
+    "paper/manuscript_core_results.csv": "cfd2c5c4ce47ab6f42deb91388740a4755c465fa9d8735e1e6d7aa202388fb6a"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "298f25c73ae0d9ee683d67202a6a19f6c7f75e1584a21d793b40e7acfa513fdc",
+  "note": "Frozen values from paper/manuscript_core_results.csv; evidence IDs: E000107,E000108,E000109,E002627,E002628,E002629,E002987,E002988,E002989,E010947,E010948,E010949,E012858,E012859,E012860,E013131,E013132,E013133. IF and LSTM are frozen seed means.",
+  "built_utc": "2026-09-28T00:52:38+00:00"
+}

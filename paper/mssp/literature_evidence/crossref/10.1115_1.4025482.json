@@ -1,0 +1,315 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    27
+   ]
+  ],
+  "date-time": "2026-07-27T05:30:19Z",
+  "timestamp": 1785130219149,
+  "version": "3.55.0"
+ },
+ "reference-count": 14,
+ "publisher": "ASME International",
+ "issue": "4",
+ "content-domain": {
+  "domain": [
+   "asmedigitalcollection.asme.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2014,
+    4,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:p>Recent technology reviews have identified the need for objective assessments of aircraft engine health management (EHM) technologies. To help address this issue, a gas path diagnostic benchmark problem has been created and made publicly available. This software tool, referred to as the Propulsion Diagnostic Method Evaluation Strategy (ProDiMES), has been constructed based on feedback provided by the aircraft EHM community. It provides a standard benchmark problem enabling users to develop, evaluate, and compare diagnostic methods. This paper will present an overview of ProDiMES along with a description of four gas path diagnostic methods developed and applied to the problem. These methods, which include analytical and empirical diagnostic techniques, will be described and associated blind-test-case metric results will be presented and compared. Lessons learned along with recommendations for improving the public benchmarking processes will also be presented and discussed.</jats:p>",
+ "DOI": "10.1115/1.4025482",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2013,
+    9,
+    19
+   ]
+  ],
+  "date-time": "2013-09-19T10:36:45Z",
+  "timestamp": 1379587005000
+ },
+ "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+ "source": "Crossref",
+ "is-referenced-by-count": 31,
+ "title": [
+  "Aircraft Engine Gas Path Diagnostic Methods: Public Benchmarking Results"
+ ],
+ "prefix": "10.1115",
+ "volume": "136",
+ "author": [
+  {
+   "given": "Donald L.",
+   "family": "Simon",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Controls and Dynamics Branch, NASA Glenn Research Center, 21000 Brookpark Road, MS 77-1, Cleveland, OH 44135"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Sébastien",
+   "family": "Borguet",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Olivier",
+   "family": "Léonard",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Turbomachinery Group, University of Liège, Campus du Sart-Tilman, Liège B52/3 4000, Belgium"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xiaodong (Frank)",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, 335 Russ Engineering Center, 3640 Colonel Glenn Highway, Wright State University, Dayton, OH 45435"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "33",
+ "published-online": {
+  "date-parts": [
+   [
+    2013,
+    12,
+    10
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "2019100612410223700_B1",
+   "article-title": "Recent Advances in Aircraft Engine Health Management (EHM) Technologies and Recommendations for the Next Step",
+   "volume-title": "ASME",
+   "year": "2005"
+  },
+  {
+   "key": "2019100612410223700_B2",
+   "year": "2013"
+  },
+  {
+   "key": "2019100612410223700_B3",
+   "article-title": "Propulsion Diagnostic Method Evaluation Strategy (ProDiMES) User's Guide",
+   "year": "2010"
+  },
+  {
+   "key": "2019100612410223700_B4"
+  },
+  {
+   "key": "2019100612410223700_B5",
+   "doi-asserted-by": "crossref",
+   "first-page": "613",
+   "DOI": "10.1115/1.2818516",
+   "article-title": "Gas Turbine Parameter Corrections",
+   "volume": "121",
+   "year": "1999",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612410223700_B6",
+   "doi-asserted-by": "crossref",
+   "first-page": "607",
+   "DOI": "10.1115/1.2818515",
+   "article-title": "The Application of Expert Systems and Neural Networks to Gas Turbine Prognostics and Diagnostics",
+   "volume": "121",
+   "year": "1999",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612410223700_B7",
+   "article-title": "Neural Network Toolbox for Use With MATLAB",
+   "year": "1992"
+  },
+  {
+   "key": "2019100612410223700_B8",
+   "article-title": "Application of a Constant Gain Extended Kalman Filter for In-Flight Estimation of Aircraft Engine Performance Parameters",
+   "volume-title": "ASME",
+   "year": "2005"
+  },
+  {
+   "key": "2019100612410223700_B9",
+   "doi-asserted-by": "crossref",
+   "first-page": "011601",
+   "DOI": "10.1115/1.2967493",
+   "article-title": "A Generalized Likelihood Ratio Test for Adaptive Gas Turbine Performance Monitoring",
+   "volume": "131",
+   "year": "2009",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612410223700_B10",
+   "doi-asserted-by": "crossref",
+   "first-page": "366",
+   "DOI": "10.1115/1.2906829",
+   "article-title": "An Assessment of Weighted-Least-Squares-Based Gas Path Analysis",
+   "volume": "116",
+   "year": "1994",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612410223700_B11",
+   "doi-asserted-by": "crossref",
+   "first-page": "021601",
+   "DOI": "10.1115/1.3156815",
+   "article-title": "A Sparse Estimation Approach to Fault Isolation",
+   "volume": "132",
+   "year": "2010",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612410223700_B12",
+   "doi-asserted-by": "crossref",
+   "first-page": "121602",
+   "DOI": "10.1115/1.4004013",
+   "article-title": "Constrained Sparse Estimation for Improved Fault Isolation",
+   "volume": "133",
+   "year": "2011",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612410223700_B13",
+   "volume-title": "Robust Adaptive Control",
+   "year": "1996"
+  },
+  {
+   "key": "2019100612410223700_B14",
+   "volume-title": "Robust Model-Based Fault Diagnosis for Dynamic Systems",
+   "year": "1999"
+  }
+ ],
+ "container-title": [
+  "Journal of Engineering for Gas Turbines and Power"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://asmedigitalcollection.asme.org/gasturbinespower/article-pdf/doi/10.1115/1.4025482/6160117/gtp_136_04_041201.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "http://asmedigitalcollection.asme.org/gasturbinespower/article-pdf/doi/10.1115/1.4025482/6160117/gtp_136_04_041201.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2019,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2019-10-06T16:41:09Z",
+  "timestamp": 1570380069000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://asmedigitalcollection.asme.org/gasturbinespower/article/doi/10.1115/1.4025482/472269/Aircraft-Engine-Gas-Path-Diagnostic-Methods-Public"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2013,
+    12,
+    10
+   ]
+  ]
+ },
+ "references-count": 14,
+ "journal-issue": {
+  "issue": "4",
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     4,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1115/1.4025482",
+ "relation": {},
+ "ISSN": [
+  "0742-4795",
+  "1528-8919"
+ ],
+ "issn-type": [
+  {
+   "value": "0742-4795",
+   "type": "print"
+  },
+  {
+   "value": "1528-8919",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2013,
+    12,
+    10
+   ]
+  ]
+ },
+ "article-number": "041201"
+}

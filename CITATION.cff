@@ -1,8 +1,26 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript and this code repository."
-title: "Auditing Flight-Phase Dependence in Unsupervised Aero-Engine Anomaly Detection"
+message: "If you use this repository, please cite it using these metadata and cite the associated article when it is available."
+title: "False-alarm calibration transport across engines in full-flight aero-engine anomaly detection (N-CMAPSS): code, frozen protocols and evidence"
+version: 1.1.0
+# doi: to be added after the v1.1.0 release is archived (Zenodo); see docs/release/v1.1.0/RELEASE_NOTES.md
 authors:
   - family-names: Mei
     given-names: Jinghang
     orcid: https://orcid.org/0009-0007-2901-3285
+    affiliation: "School of Electrical and Computer Engineering, The University of Sydney"
 repository-code: https://github.com/surnamemei/ncmapss-phase-entanglement
+license: MIT
+keywords:
+  - condition monitoring
+  - false-alarm calibration
+  - calibration transport
+  - anomaly detection
+  - aero-engine
+  - N-CMAPSS
+  - nonstationary operating conditions
+abstract: >-
+  Research code, frozen protocols, calibration-only locks, one-shot audit records, derived outputs and an evidence
+  ledger for an audit of nominal healthy false-alarm calibration in full-flight aero-engine anomaly detection on
+  N-CMAPSS: DS02 discovery, a frozen one-shot DS03 confirmation, separately frozen post-confirmation analyses, a frozen
+  multi-subset extension over seven previously unopened subsets (five fleet families, 30 held-out audit engines), an
+  internal hostile review and a final author-approved focused validation. Raw NASA data are not redistributed.

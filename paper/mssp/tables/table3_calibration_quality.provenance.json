@@ -1,0 +1,16 @@
+{
+  "outputs": {
+    "paper/mssp/tables/table3_calibration_quality.csv": "fe687f1814ab832586b7c3f490b3844dbee7f72c2ae251ec9fc5b94c9e8c6c6c",
+    "paper/mssp/tables/table3_calibration_quality.tex": "ba34d63ac2a4ef3378155034303043a070df4618b76ab63e19732c717c076d26"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/calibration_quality/calibration_quality_metrics.csv": "6ca1752c977b4fcc34fe1bc1b569c08c7a39d9cfe04cea89680cdceb4be2f04c",
+    "results/mssp_adversarial/ds02/contextual_baseline/baseline_calibration_quality.csv": "fa2e1acba94485053ac7ac7fa225abaeab53a3a342d022e3ecdb7ff6dadb63fa",
+    "results/mssp_adversarial/ds03/calibration_quality/calibration_quality_metrics.csv": "89a317343043a582a7d47bb4758ceed28c0d6e3bb887972d36702b8504ef10b9",
+    "results/mssp_adversarial/ds03/contextual_baseline/baseline_calibration_quality.csv": "61a05c82a3c7346e2bc080d4aceb6424eceaf37f42f51b079165c96551688cc7"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "be8a42efc746914e3cfe76208bf0ea41a94cdf20f6bdb733a94c9fc4f0cd096f",
+  "note": "Validation A outputs and the healthy-side Q baseline; percentage points, range over the 7 detector runs; counts of runs (of 7) in which the arm is below P.",
+  "built_utc": "2026-09-28T01:12:49+00:00"
+}

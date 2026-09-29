@@ -1,0 +1,682 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    25
+   ]
+  ],
+  "date-time": "2026-09-25T04:19:21Z",
+  "timestamp": 1790309961636,
+  "version": "4.1.0"
+ },
+ "reference-count": 88,
+ "publisher": "ASME International",
+ "issue": "5",
+ "content-domain": {
+  "domain": [
+   "asmedigitalcollection.asme.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    2014,
+    5,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:p>Engine diagnostic practices are as old as the gas turbine itself. Monitoring and analysis methods have progressed in sophistication over the past six decades as the gas turbine evolved in form and complexity. While much of what will be presented here may equally apply to both stationary power plants and aeroengines, the emphasis will be on aeropropulsion. Beginning with primarily empirical methods centered on monitoring the mechanical integrity of the machine, the evolution of engine diagnostics has benefited from advances in sensing, electronic monitoring devices, increased fidelity in engine modeling, and analytical methods. The primary motivation in this development is, not surprisingly, cost. The ever increasing cost of fuel, engine prices, spare parts, maintenance, and overhaul all contribute to the cost of an engine over its entire life cycle. Diagnostics can be viewed as a means to mitigate risk in decisions that impact operational integrity. This can have a profound impact on safety, such as in-flight shutdowns (IFSD) for aero applications, (outages for land-based applications) and economic impact caused by unscheduled engine removals (UERs), part life, maintenance and overhaul, and the overall logistics of maintaining an aircraft fleet or power generation plants. This paper will review some of the methods used in the preceding decades to address these issues, their evolution to current practices, and some future trends. While several different monitoring and diagnostic systems will be addressed, the emphasis in this paper will be centered on those dealing with the aerothermodynamic performance of the engine.</jats:p>",
+ "DOI": "10.1115/1.4026126",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2013,
+    11,
+    30
+   ]
+  ],
+  "date-time": "2013-11-30T11:47:44Z",
+  "timestamp": 1385812064000
+ },
+ "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+ "source": "Crossref",
+ "is-referenced-by-count": 317,
+ "title": [
+  "Gas Turbine Engine Health Management: Past, Present, and Future Trends"
+ ],
+ "prefix": "10.1115",
+ "volume": "136",
+ "author": [
+  {
+   "given": "Allan J.",
+   "family": "Volponi",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Pratt & Whitney, 400 Main St, MS 162-15, East Hartford, CT 06108 e-mail:"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "33",
+ "published-online": {
+  "date-parts": [
+   [
+    2014,
+    1,
+    2
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "2019100612451895600_B1",
+   "author": "IATA",
+   "year": "2011"
+  },
+  {
+   "key": "2019100612451895600_B2",
+   "year": "1996"
+  },
+  {
+   "key": "2019100612451895600_B3",
+   "first-page": "400",
+   "article-title": "Gas Path Analysis Applied to Turbine Engine Conditioning Monitoring",
+   "volume-title": "J. Aircraft",
+   "year": "1972"
+  },
+  {
+   "key": "2019100612451895600_B4",
+   "article-title": "Gas Path Analyzer",
+   "year": "1973"
+  },
+  {
+   "key": "2019100612451895600_B5",
+   "unstructured": "Urban, L. A., 1974, “Parameter Selection for Multiple Fault Diagnostics of Gas Turbine Engines,” AGARD Conference Proceedings No. 165."
+  },
+  {
+   "key": "2019100612451895600_B6",
+   "article-title": "Turbojet Engine Gas Path Analysis—A Review",
+   "year": "1974"
+  },
+  {
+   "key": "2019100612451895600_B7",
+   "article-title": "Propulsion Diagnostic Method Evaluation Strategy (ProDiMES) User's Guide",
+   "year": "2010"
+  },
+  {
+   "key": "2019100612451895600_B8",
+   "article-title": "Development of Baselines, Influence Coefficients and Statistical Inputs for Gas Path Analysis",
+   "year": "2003"
+  },
+  {
+   "issue": "4",
+   "key": "2019100612451895600_B9",
+   "doi-asserted-by": "crossref",
+   "first-page": "613",
+   "DOI": "10.1115/1.2818516",
+   "article-title": "Gas Turbine Parameter Corrections",
+   "volume": "121",
+   "year": "1999",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612451895600_B10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mathioudakis, K., 2002, “Gas Turbine Test Parameters Corrections Including Operation With Water Injection,” ASME Turbine and Aeroengine Congress, Amsterdam, Netherlands, June 3–6, ASME Paper No. GT2002-30466.10.1115/GT2002-30466",
+   "DOI": "10.1115/GT2002-30466"
+  },
+  {
+   "key": "2019100612451895600_B11",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mathioudakis, K., Aretakis, N., and TsalavoutasA., 2002, “Increasing Diagnostic Effectiveness by Inclusion of Fuel Composition and Water Injection Effects,” ASME Turbine and Aeroengine Congress, Amsterdam, Netherlands, June 3–6, ASME Paper No. GT2002-30032.10.1115/GT2002-30032",
+   "DOI": "10.1115/GT2002-30032"
+  },
+  {
+   "key": "2019100612451895600_B12",
+   "volume-title": "Gas Path Analysis: An Approach to Engine Diagnostic, Time-Dependent Failure Mechanisms and Assessment Methodologies",
+   "year": "1983"
+  },
+  {
+   "key": "2019100612451895600_B13",
+   "unstructured": "Volponi, A. J., 1994, “Sensor Error Compensation in Engine Performance Diagnostics,” ASME Turbine and Aeroengine Congress. The Hague, Netherlands, June 13–16, ASME Paper No. 94-GT-58."
+  },
+  {
+   "key": "2019100612451895600_B14",
+   "volume-title": "Applied Optimal Estimation",
+   "year": "1974"
+  },
+  {
+   "key": "2019100612451895600_B15",
+   "article-title": "Foundations of Gas Path Analysis I & II",
+   "year": "2003"
+  },
+  {
+   "key": "2019100612451895600_B16",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Doel, D. L., 1992, “TEMPER—A Gas Path Analysis Tool for Commercial Jet Engines,” ASME Turbine and Aeroengine Congress, Cologne, Germany, June 1–4, ASME Paper 92-GT-315.",
+   "DOI": "10.1115/92-GT-315"
+  },
+  {
+   "key": "2019100612451895600_B17",
+   "unstructured": "Doel, D. L., 1993, “An Assessment of Weighted-Least-Squares Based Gas Path Analysis,” ASME Turbine and Aeroengine Congress, Cincinnati, OH, May 24–27, ASME Paper 93-GT-119."
+  },
+  {
+   "issue": "6",
+   "key": "2019100612451895600_B18",
+   "doi-asserted-by": "crossref",
+   "first-page": "1043",
+   "DOI": "10.2514/3.23425",
+   "article-title": "Jet Engine Fault Detection With Discrete Operating Points Gas Path Analysis",
+   "volume": "7",
+   "year": "1991",
+   "journal-title": "J. Propulsion"
+  },
+  {
+   "key": "2019100612451895600_B19",
+   "article-title": "Mathematical Methods of Relative Engine Performance Diagnostics",
+   "year": "1992",
+   "journal-title": "SAE"
+  },
+  {
+   "key": "2019100612451895600_B20",
+   "article-title": "The Use of Optimal Estimation Techniques in the Analysis of Gas Turbines",
+   "year": "1994"
+  },
+  {
+   "issue": "2",
+   "key": "2019100612451895600_B21",
+   "doi-asserted-by": "crossref",
+   "first-page": "021601",
+   "DOI": "10.1115/1.3156815",
+   "article-title": "A Sparse Estimation Approach to Fault Isolation",
+   "volume": "132",
+   "year": "2010",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612451895600_B22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kobayashi, T., and Simon, D. L., 2003, “Application of a Bank of Kalman Filters for Aircraft Engine Fault Diagnostics,” ASME Turbine and Aeroengine Congress, Atlanta, GA, June 16–19, ASME Paper No. GT2003-38550.10.1115/GT2003-38550",
+   "DOI": "10.1115/GT2003-38550"
+  },
+  {
+   "key": "2019100612451895600_B23",
+   "article-title": "Identification of Sensor Faults on Turbofan Engines Using Pattern Recognition Techniques",
+   "volume": "12",
+   "year": "2004",
+   "journal-title": "Control Eng. Pract."
+  },
+  {
+   "key": "2019100612451895600_B24",
+   "doi-asserted-by": "crossref",
+   "first-page": "041602",
+   "DOI": "10.1115/1.3204508",
+   "article-title": "A Fault Diagnosis Method for Industrial Gas Turbines Using Bayesian Data Analysis",
+   "volume": "132",
+   "year": "2010",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612451895600_B25",
+   "article-title": "Economic Review on ATLAS JT9D Gas Path Analysis Application",
+   "year": "1979"
+  },
+  {
+   "key": "2019100612451895600_B26",
+   "article-title": "Gas Path Analysis Applied to Pre and Post Overhaul Testing of the JT9D Turbofan Engine",
+   "volume-title": "SAE",
+   "year": "1977"
+  },
+  {
+   "key": "2019100612451895600_B27",
+   "article-title": "GPA Evaluation of On-Wing Recorded Data With a Limited Number of Sensors on the Engines Installed PH-DTA",
+   "year": "1980"
+  },
+  {
+   "key": "2019100612451895600_B28",
+   "article-title": "GPA Testcell Evaluation Performed on CF6-50C Engines",
+   "year": "1981"
+  },
+  {
+   "key": "2019100612451895600_B29",
+   "unstructured": "Merrington, G. L., “Fault Diagnosis of Gas Turbine Engines From Transient Data,” ASME Turbine and Aeroengine Congress, Amsterdam, Netherlands, June 5–9, ASME Paper No. 88-GT-209."
+  },
+  {
+   "key": "2019100612451895600_B30",
+   "article-title": "Gas Path Analysis and Engine Performance Monitoring in A Chinook Helicopter",
+   "volume-title": "AGARD: Engine Condition Monitoring",
+   "year": "1988"
+  },
+  {
+   "key": "2019100612451895600_B31",
+   "first-page": "276",
+   "article-title": "Fault Detection and Diagnosis in Gas Turbines",
+   "year": "1991",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "issue": "1",
+   "key": "2019100612451895600_B32",
+   "first-page": "128",
+   "article-title": "Kalman Filtering with State Equality Constraints",
+   "volume": "39",
+   "year": "2002",
+   "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+  },
+  {
+   "key": "2019100612451895600_B33",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Simon, D. L., and Simon, D., 2003, “Aircraft Turbofan Engine Health Estimation Using Constrained Kalman Filtering,” ASME Turbine and Aeroengine Congress, Atlanta, GA, June 16–19, ASME Paper No. GT2003-38584.10.1115/GT2003-38584",
+   "DOI": "10.1115/GT2003-38584"
+  },
+  {
+   "key": "2019100612451895600_B34",
+   "article-title": "Extending Gas Path Analysis Coverage for Other Fault Conditions",
+   "year": "2003"
+  },
+  {
+   "key": "2019100612451895600_B35",
+   "first-page": "50",
+   "article-title": "Gas-Path Diagnostics and Prognostics for Aero-Engines Using Fuzzy Logic and Time Series Analysis",
+   "year": "2004"
+  },
+  {
+   "key": "2019100612451895600_B36",
+   "unstructured": "Jaw, L. C., and Wu, D. N., 2002, “Anomaly Detection and Reasoning With Embedded Physical Model,” 2002 IEEE Aerospace Conference, Big Sky, MT, March 9–16.10.1109/AERO.2002.1036149"
+  },
+  {
+   "key": "2019100612451895600_B37",
+   "article-title": "A Novel Approach to Aircraft Engine Anomaly Detection and Diagnostics",
+   "year": "2003"
+  },
+  {
+   "key": "2019100612451895600_B38",
+   "unstructured": "Brotherton, T., and Johnson, T., 2001, “Anomaly Detection for Advanced Military Aircraft Using Neural Networks,” 2001 IEEE Aerospace Conference, Big Sky, MT, March 10–17.10.1109/AERO.2001.931329"
+  },
+  {
+   "issue": "12",
+   "key": "2019100612451895600_B39",
+   "doi-asserted-by": "crossref",
+   "first-page": "2481",
+   "DOI": "10.1016/j.sigpro.2003.07.018",
+   "article-title": "Novelty Detection: A Review",
+   "volume": "83",
+   "year": "2003",
+   "journal-title": "Signal Process."
+  },
+  {
+   "key": "2019100612451895600_B40",
+   "doi-asserted-by": "crossref",
+   "first-page": "917",
+   "DOI": "10.1115/1.1419016",
+   "article-title": "The Use of Kalman Filter and Neural Network Methodologies in Gas Turbine Performance Diagnostics: A Comparative Study",
+   "volume": "125",
+   "year": "2003",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612451895600_B41",
+   "article-title": "A Performance Visualization, Assessment, and Tuning Methodology for Model-Based and Data-Driven Diagnostic Classification Systems",
+   "year": "2006"
+  },
+  {
+   "key": "2019100612451895600_B42",
+   "volume-title": "SAE"
+  },
+  {
+   "key": "2019100612451895600_B43",
+   "article-title": "In-Line Oil Debris Monitor (ODM) for the Advanced Tactical Fighter Engine",
+   "volume-title": "SAE",
+   "year": "1996"
+  },
+  {
+   "key": "2019100612451895600_B44",
+   "unstructured": "Miller, J., and Kitaljevich, D., 2000, “In-Line Oil Debris Monitor for Aircraft Engine Condition Assessment,” 2000 IEEE Aerospace Conference, Big Sky, MT, March 18–25.10.1109/AERO.2000.877882"
+  },
+  {
+   "key": "2019100612451895600_B45",
+   "article-title": "A Comparison of Vibration and Oil Debris Gear Damage Detection Methods Applied to Pitting Damage",
+   "year": "2000"
+  },
+  {
+   "key": "2019100612451895600_B46",
+   "article-title": "Integrating Oil Debris and Vibration Gear Damage Detection Technologies Using Fuzzy Logic",
+   "year": "2002"
+  },
+  {
+   "key": "2019100612451895600_B47",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Couch, R. P., 1978, “Detecting Abnormal Turbine Engine Deterioration Using Electrostatic Methods,” J. Aircraft, 15(10), pp. 692–695.10.2514/3.58430",
+   "DOI": "10.2514/3.58430"
+  },
+  {
+   "key": "2019100612451895600_B48",
+   "article-title": "Gas Path Condition Monitoring During Accelerated Mission Testing of a Demonstrator Engine",
+   "volume-title": "AIAA",
+   "year": "1997"
+  },
+  {
+   "key": "2019100612451895600_B49",
+   "unstructured": "Fisher, C., 2000, “Gas Path Debris Monitoring—A 21st Century PHM Tool,” 2000 IEEE Aerospace Conference, Big Sky, MT, March 18–25.10.1109/AERO.2000.877918"
+  },
+  {
+   "key": "2019100612451895600_B50",
+   "unstructured": "Fisher, C., 2000, “Gas Turbine Condition Monitoring Systems—An Integrated Approach,” The Power Engineer, 1(4), pp. 3–16."
+  },
+  {
+   "key": "2019100612451895600_B51",
+   "unstructured": "Fisher, C., 2001, “Data and Information Fusion for Gas Path Debris Monitoring,” 2001 IEEE Aerospace Conference, Big Sky, MT, March 10–17.10.1109/AERO.2001.931321"
+  },
+  {
+   "key": "2019100612451895600_B52",
+   "article-title": "Estimating In-Flight Engine Performance Variations Using Kalman Filter Concepts",
+   "volume-title": "AIAA",
+   "year": "1989"
+  },
+  {
+   "key": "2019100612451895600_B53",
+   "article-title": "In-Flight Performance Diagnostic Capability of an Adaptive Engine Model",
+   "volume-title": "AIAA",
+   "year": "1992"
+  },
+  {
+   "key": "2019100612451895600_B54",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kerr, L. J., 1991, “Real-Time Estimation of Gas Turbine Engine Damage Using a Control Based Kalman Filter Algorithm,” ASME Turbine and Aeroengine Congress. Orlando, FL, June 3–6, ASME Paper No. 91-GT-216.",
+   "DOI": "10.1115/91-GT-216"
+  },
+  {
+   "key": "2019100612451895600_B55",
+   "unstructured": "Hall, D. L., Hansen, R. J., and Lang, D. C., 1996, “The Negative Information Problem in Mechanical Diagnostics,” ASME Turbine and Aeroengine Congress, Birmingham, UK, June 10–13, ASME Paper 96-GT-035."
+  },
+  {
+   "key": "2019100612451895600_B56",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Volponi, A. J., Brotherton, T., Luppold, R., and Simon, D. L., 2003, “Development of an Information Fusion System for Engine Diagnostics and Health Management,” JANNAF 39th Combustion/27th Airbreathing Propulsion/21st Propulsion Systems Hazards/3rd Modeling and Simulation Joint Subcommittee Meeting, Colorado Springs, CO, December 1–5.",
+   "DOI": "10.2514/6.2004-6461"
+  },
+  {
+   "key": "2019100612451895600_B57",
+   "article-title": "Data Fusion for Enhanced Aircraft Engine Prognostics and Health Management",
+   "year": "2005"
+  },
+  {
+   "key": "2019100612451895600_B58",
+   "article-title": "User's Guide for the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS)",
+   "year": "2012"
+  },
+  {
+   "key": "2019100612451895600_B59",
+   "volume-title": "The Use of Onboard Real-Time Models for Jet Engine Control, Project Report OBIDICOTE"
+  },
+  {
+   "key": "2019100612451895600_B60",
+   "author": "SAE"
+  },
+  {
+   "key": "2019100612451895600_B61",
+   "article-title": "More Intelligent Gas Turbine Engines",
+   "year": "2009"
+  },
+  {
+   "key": "2019100612451895600_B62",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hess, A., 2004, “PHM a Key Enabler for the JSF Autonomic Logistics Support Concept,” 2004 IEEE Aerospace Conference, Big Sky, MT, March 6–13.10.1109/AERO.2004.1368171",
+   "DOI": "10.1109/AERO.2004.1368171"
+  },
+  {
+   "key": "2019100612451895600_B63",
+   "year": "2003"
+  },
+  {
+   "key": "2019100612451895600_B64",
+   "article-title": "Controls and Health Management Technologies for Intelligent Aerospace Propulsion Systems",
+   "year": "2004"
+  },
+  {
+   "key": "2019100612451895600_B65",
+   "article-title": "Sensor Needs for Control and Health Management of Intelligent Aircraft Engines",
+   "year": "2004"
+  },
+  {
+   "key": "2019100612451895600_B66",
+   "article-title": "A Survey of Intelligent Control and Health Management Technologies for Aircraft Propulsion Systems",
+   "year": "2005"
+  },
+  {
+   "key": "2019100612451895600_B67",
+   "article-title": "Intelligent Engine Systems: Work Element 1.2: Malfunction and Operator Error Reduction",
+   "year": "2005"
+  },
+  {
+   "key": "2019100612451895600_B68",
+   "unstructured": "Fletcher, C. C., 2004, “A Vision for the Intelligent Pipeline System and the Role of the Intelligent Engine,” GMRC—2004 Gas Machinery Conference, Albuquerque, NM, October 4–6."
+  },
+  {
+   "issue": "1137",
+   "key": "2019100612451895600_B69",
+   "doi-asserted-by": "crossref",
+   "first-page": "641",
+   "DOI": "10.1017/S000192400000261X",
+   "article-title": "Toward an Intelligent, Deterioration Accommodating Controller for Aging Turbofan Engines",
+   "volume": "112",
+   "year": "2008",
+   "journal-title": "Aeronaut. J."
+  },
+  {
+   "key": "2019100612451895600_B70",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Rausch, R., 2004, “Towards In-Flight Detection and Accommodation of Faults in Aircraft Engines,” AIAA 1st Intelligent Systems Technical Conference, Chicago, IL, September 20-22, AIAA Paper No. 2004-6463.10.2514/6.2004-6463",
+   "DOI": "10.2514/6.2004-6463"
+  },
+  {
+   "key": "2019100612451895600_B71",
+   "article-title": "Modeling and Model Based Control of Turbomachinery",
+   "year": "1998"
+  },
+  {
+   "key": "2019100612451895600_B72",
+   "unstructured": "Brotherton, T., Volponi, A. J., Luppold, R., and Simon, D. L., 2003, “eSTORM: Enhanced Self Tuning On-Board Real-Time Engine Model,” 2003 IEEE Aerospace Conference, Big Sky, MT, March 8–15, Paper No. 1023.10.1109/AERO.2003.1234150"
+  },
+  {
+   "key": "2019100612451895600_B73",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Volponi, A. J., 2005, “Use of Hybrid Engine Modeling for On-Board Module Performance Tracking,” ASME Turbine and Aeroengine Congress, Reno, NV, June 6–9, ASME Paper No. GT2005-68169.10.1115/GT2005-68169",
+   "DOI": "10.1115/GT2005-68169"
+  },
+  {
+   "key": "2019100612451895600_B74",
+   "unstructured": "Volponi, A. J., 2007, “Adaptive On-Wing Gas Turbine Engine Performance Estimation,” 2007 IEEE Aerospace Conference. Big Sky, MT, March 3–10.10.1109/AERO.2007.352836"
+  },
+  {
+   "issue": "2",
+   "key": "2019100612451895600_B75",
+   "doi-asserted-by": "crossref",
+   "first-page": "021604",
+   "DOI": "10.1115/1.2799527",
+   "article-title": "Empirical Tuning of an On-Board Gas Turbine Engine Model for Real-Time Module Performance Estimation",
+   "volume": "130",
+   "year": "2008",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612451895600_B76",
+   "unstructured": "Borguet, S., 2006, “A Way to Deal With Model-Plant Mismatch for Reliable Diagnosis in Transient Operation,” ASME Turbine and Aeroengine Congress, Barcelona, Spain, May 8–11, ASME Paper No. GT2006-90412.10.1115/GT2006-90412"
+  },
+  {
+   "issue": "A2",
+   "key": "2019100612451895600_B77",
+   "first-page": "169",
+   "article-title": "Gas Turbine Diagnostic Approach With Transient Measurements",
+   "volume": "217",
+   "year": "2003",
+   "journal-title": "Proc. IMechE A J. Power Energy"
+  },
+  {
+   "key": "2019100612451895600_B78",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ogaji, S. O. T., Li, Y. G., Sampath, S., and Singh, R., 2003, “Gas Path Fault Diagnosis of a Turbofan Engine From Transient Data Using Artificial Neural Networks,” ASME Turbine and Aeroengine Congress. Atlanta, GA, June 16–19, ASME Paper No. GT2003-38423.10.1115/GT2003-38423",
+   "DOI": "10.1115/GT2003-38423"
+  },
+  {
+   "key": "2019100612451895600_B79",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sampath, S., Ogaji, S. O. T., Li, Y. G., and Singh, R., 2003, “Fault Diagnosis of a Two Spool Turbo-Fan Engine Using Transient Data: A Genetic Algorithm Approach,” ASME Turbine and Aeroengine Congress. Atlanta, GA, June 16–19, ASME Paper No. GT2003-38300.10.1115/GT2003-38300",
+   "DOI": "10.1115/GT2003-38300"
+  },
+  {
+   "issue": "6",
+   "key": "2019100612451895600_B80",
+   "doi-asserted-by": "crossref",
+   "first-page": "061602",
+   "DOI": "10.1115/1.4005814",
+   "article-title": "In-Flight Isolation of Degraded Engine Components by Shape Comparison of Transient Outputs",
+   "volume": "134",
+   "year": "2012",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "2019100612451895600_B81",
+   "unstructured": "Borguet, S., DeWallef, P., and Leonard, O., 2010, “A Study on Engine Health Monitoring in the Frequency Domain,” ASME Turbine and Aeroengine Congress, Glasgow, Scotland, June 14–18, ASME Paper No. GT2010-22635.10.1115/GT2010-22635"
+  },
+  {
+   "key": "2019100612451895600_B82",
+   "unstructured": "Kamboukos, P., and MathioudakisK., 2007, “Turbofan Engine Health Assessment by Combining Steady and Transient State Aerothermal Data,” 7th European Turbomachinery Conference, Athens, Greece, March 5-9, Paper NO. 137."
+  },
+  {
+   "key": "2019100612451895600_B83",
+   "author": "SAE, 2013"
+  },
+  {
+   "key": "2019100612451895600_B84",
+   "volume-title": "Models and Procedures for the Verification and Validation of Artificial Neural Networks",
+   "year": "2006"
+  },
+  {
+   "key": "2019100612451895600_B85",
+   "volume-title": "Verification and Validation and Artificial Intelligence, Advances in Computers",
+   "year": "2005"
+  },
+  {
+   "key": "2019100612451895600_B86",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Jacklin, S. A., Schumann, J. M., Gupta, P. P., Richard, M., Guenther, K., and Soares, F., 2005, “Towards Development of Advanced Verification and Validation Tools for the Certification of Learning Systems in Aerospace Applications,” AIAA Infotech, Arlington, VA, September 26–29. AIAA Paper No. 2005-6912.10.2514/6.2005-6912",
+   "DOI": "10.2514/6.2005-6912"
+  },
+  {
+   "key": "2019100612451895600_B87",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Jacklin, S., 2004, “Verification, Validation and Certification Challenges for Adaptive Flight Control Systems Software,” AIAA Guidance, Navigation, and Control Conference and Exhibit, Providence, RI, August 16–19, AIAA Paper No. 2004-5258.10.2514/6.2004-5258",
+   "DOI": "10.2514/6.2004-5258"
+  },
+  {
+   "issue": "5",
+   "key": "2019100612451895600_B88",
+   "first-page": "268",
+   "article-title": "Impossible Problem",
+   "volume": "50",
+   "year": "1976",
+   "journal-title": "Math. Mag."
+  }
+ ],
+ "container-title": [
+  "Journal of Engineering for Gas Turbines and Power"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://asmedigitalcollection.asme.org/gasturbinespower/article-pdf/doi/10.1115/1.4026126/6160763/gtp_136_05_051201.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "http://asmedigitalcollection.asme.org/gasturbinespower/article-pdf/doi/10.1115/1.4026126/6160763/gtp_136_05_051201.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    5,
+    1
+   ]
+  ],
+  "date-time": "2025-05-01T00:43:13Z",
+  "timestamp": 1746060193000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://asmedigitalcollection.asme.org/gasturbinespower/article/doi/10.1115/1.4026126/373592/Gas-Turbine-Engine-Health-Management-Past-Present"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2014,
+    1,
+    2
+   ]
+  ]
+ },
+ "references-count": 88,
+ "journal-issue": {
+  "issue": "5",
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     5,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1115/1.4026126",
+ "relation": {},
+ "ISSN": [
+  "0742-4795",
+  "1528-8919"
+ ],
+ "issn-type": [
+  {
+   "value": "0742-4795",
+   "type": "print"
+  },
+  {
+   "value": "1528-8919",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2014,
+    1,
+    2
+   ]
+  ]
+ },
+ "article-number": "051201"
+}

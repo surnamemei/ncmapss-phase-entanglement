@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "paper/mssp/evidence/mitigation_healthy_phase_fpr_by_scheme.csv": "19f5706f45448db1a87e39f460d2367d1eaf3c49c27a1b1f5a2f8a49f287b3ea"
+  },
+  "inputs": {
+    "results/mssp_mitigation/ds02/stage_d/healthy_phase_fpr_by_scheme.csv": "3b56835cc3ea80ad1c89def899038c8c2f8a081c12b94f73fa915cfaa30781dc",
+    "results/mssp_mitigation/ds03/stage_d/healthy_phase_fpr_by_scheme.csv": "785bf1a5c741999405d546c0b09bef29fd9ed2f569db9abce8276a0c81c5942b"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "869351d59ba16fe97b31b4dfa6c57a3d58af8d687a21cdfcffc10556f1a9873b",
+  "note": "Concatenation of 2 committed output table(s); values unchanged.",
+  "built_utc": "2026-09-28T01:03:44+00:00"
+}

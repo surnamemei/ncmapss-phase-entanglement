@@ -1,0 +1,125 @@
+QUOTE CHECK: each quote must occur verbatim in its saved source file after whitespace normalisation
+(all runs of whitespace, including newlines and non-breaking spaces, collapsed to a single space; no other changes).
+TOTAL 121 | PASS 121 | FAIL 0
+----------------------------------------------------------------------------------------------------
+PASS | chen2026_ress | verbatim_quotes[0] | raw/chen2026.ideas_abstract.txt | An innovative anomaly detection (AD) framework designed for gas turbines (GTs) in power plants working under v
+PASS | chen2026_ress | verbatim_quotes[1] | raw/chen2026.ideas_abstract.txt | Second, by embedding SA modules, the method dynamically adjusts weight allocation of the parameters to capture
+PASS | chen2026_ress | verbatim_quotes[2] | raw/chen2026.ideas_abstract.txt | Third, the logarithmic reconstruction probability (LRP), derived from the probabilistic output of SA-CVAE, ser
+PASS | chen2026_ress | verbatim_quotes[3] | raw/chen2026.ideas.html | Gas turbine; Variable operating conditions; Anomaly detection; Conditional variational autoencoder; Self-atten
+PASS | chen2026_ress | verbatim_quotes[4] | raw/chen2026.crossref.json | Aircraft engine run-to-failure dataset under real flight conditions for prognostics and diagnostics
+PASS | chen2026_ress | verbatim_quotes[5] | raw/chen2026.crossref.json | The aramis data challenge: prognostics and health management in evolving environments
+PASS | chen2026_ress | verbatim_quotes[6] | raw/chen2026.crossref.json | A new auto-encoder-based dynamic threshold to reduce false alarm rate for anomaly detection of steam turbines
+PASS | chen2026_ress | verbatim_quotes[7] | raw/chen2026.crossref.json | Partial sensing information-driven threshold cyclic update graph autoencoder for mechanical anomaly detection
+PASS | chen2026_ress | verbatim_quotes[8] | raw/chen2026.crossref.json | An anomaly detection method for gas turbines based on single-condition training with zero-fault sample
+PASS | chen2026_ress | uses_context_aware_model | raw/chen2026.ideas_abstract.txt | the marginal distributions (MDs) of parameters were transformed into conditional probability distributions (CP
+PASS | chen2026_ress | transport_evaluation_across_units | raw/chen2026.ideas_abstract.txt | Experiments were carried out on one synthetic, one public, and two real-world datasets, with SA-CVAE compared 
+PASS | chen2026_ress | false_alarm_delay_joint_evaluation | raw/chen2026.ideas_abstract.txt | The results demonstrate that under varying OCs, SA-CVAE exhibits superior performance in AD tasks, achieving l
+PASS | asaadi2022_jpc | verbatim_quotes[0] | raw/asaadi2022_sd_abs.wayback_extract.txt | A novel method to assess alarm system over the time.
+PASS | asaadi2022_jpc | verbatim_quotes[1] | raw/asaadi2022_sd_abs.wayback_extract.txt | Using time-variant finite mixture models to model the faulty process variables.
+PASS | asaadi2022_jpc | verbatim_quotes[2] | raw/asaadi2022_sd_abs.wayback_extract.txt | Statistical techniques are used to design an alarm system in three stages: creating a model for PV based on st
+PASS | asaadi2022_jpc | verbatim_quotes[3] | raw/asaadi2022_sd_abs.wayback_extract.txt | Finally, different scenarios are explored, and the designed alarm system is tested over time for each of them,
+PASS | asaadi2022_jpc | verbatim_quotes[4] | raw/asaadi2022_sd_abs.wayback.html | {"#name":"text","_":"Non-stationary process"}
+PASS | asaadi2022_jpc | verbatim_quotes[5] | raw/asaadi2022_sd_abs.wayback.html | {"#name":"text","_":"Averaged alarm delay (AAD)"}
+PASS | asaadi2022_jpc | verbatim_quotes[6] | raw/asaadi2022_sd_abs.wayback.html | {"#name":"text","_":"Finite mixture models"}
+PASS | asaadi2022_jpc | verbatim_quotes[7] | raw/asaadi2022_sd_abs.wayback_extract.txt | This section discusses the mechanism of alarm state detection, the model used for process variables, and the c
+PASS | asaadi2022_jpc | verbatim_quotes[8] | raw/asaadi2022_sd_abs.wayback.html | Beijing National Research Centre for Information Science and Technology and Department of Automation, Tsinghua
+PASS | asaadi2022_jpc | verbatim_quotes[9] | raw/asaadi2022_sd_abs.wayback.html | Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran
+PASS | asaadi2022_jpc | verbatim_quotes[10] | raw/era_api_search_Asaadi_.json | "totalElements" : 1
+PASS | asaadi2022_jpc | verbatim_quotes[11] | raw/era_api_search_Asaadi_.json | Assessing the N-Nitrosamine Formation Potential of Selected Ionic Liquids
+PASS | asaadi2022_jpc | uses_context_aware_model | raw/asaadi2022_sd_abs.wayback_extract.txt | the Finite Mixture Model is utilized to model the behaviour of an Intermittent Fault (IF), which is a fault th
+PASS | asaadi2022_jpc | adaptive_threshold | raw/asaadi2022_sd_abs.wayback_extract.txt | Two different designing techniques were applied to the alarm system, deadband and moving average filter.
+PASS | asaadi2022_jpc | held_out_confirmation | raw/asaadi2022_sd_abs.wayback_extract.txt | Evaluating the utilized method by Monte-Carlo simulation.
+PASS | asaadi2022_jpc | false_alarm_delay_joint_evaluation | raw/asaadi2022_sd_abs.wayback_extract.txt | This paper studied the performance assessment for uni-variate alarm systems based on three performance indices
+PASS | asaadi2025_jpc | verbatim_quotes[0] | raw/asaadi2025_ssrn.wayback_abstract.txt | Traditional alarm design methods often assume stationary, which limits their ability to reflect the evolving n
+PASS | asaadi2025_jpc | verbatim_quotes[1] | raw/asaadi2025_ssrn.wayback_abstract.txt | By employing a piecewise time-variant model, the alarm system’s performance is assessed in a manner that captu
+PASS | asaadi2025_jpc | verbatim_quotes[2] | raw/asaadi2025_ssrn.wayback_abstract.txt | The resulting indices are dynamic, offering a more detailed projection of the process variable’s behavior over
+PASS | asaadi2025_jpc | verbatim_quotes[3] | raw/asaadi2025_ssrn.wayback_abstract.txt | Results show that the time-variant model provides a more accurate and interpretable representation of process 
+PASS | asaadi2025_jpc | verbatim_quotes[4] | raw/asaadi2025_ssrn.wayback.html | Univariate Alarm System, Non-stationary Process, Incipient Fault, Piece-wise Change Detection, Narrowest Over 
+PASS | asaadi2025_jpc | verbatim_quotes[5] | raw/asaadi2025_ssrn.wayback.html | Mohsen Asaadi</a></h2><p>Tsinghua University</p>
+PASS | asaadi2025_jpc | verbatim_quotes[6] | raw/asaadi2025_ssrn.wayback.html | Weichi Wu</a></h2><p>Tsinghua University</p>
+PASS | asaadi2025_jpc | verbatim_quotes[7] | raw/asaadi2025_ssrn.wayback.html | Posted: 26 Apr 2025
+PASS | asaadi2025_jpc | verbatim_quotes[8] | raw/asaadi2025.crossref.json | Operational zone-specific univariate alarm design for incipient faults
+PASS | asaadi2025_jpc | uses_context_aware_model | raw/asaadi2025_ssrn.wayback_abstract.txt | This study proposes a time-variant statistical modeling framework to characterize the behavior of process vari
+PASS | asaadi2025_jpc | adaptive_threshold | raw/asaadi2025_ssrn.wayback_abstract.txt | A new alarm system design methodology is introduced, guided by three key performance indices: Missed Alarm Rat
+PASS | asaadi2025_jpc | operating_zone_model | raw/asaadi2025_ssrn.wayback_abstract.txt | The methodology uses the Narrowest Over Threshold change-point detection technique to segment the process into
+PASS | asaadi2025_jpc | held_out_confirmation | raw/asaadi2025_ssrn.wayback_abstract.txt | The proposed method is validated through Monte Carlo simulations and demonstrated using the Tennessee Eastman 
+PASS | asaadi2025_jpc | false_alarm_delay_joint_evaluation | raw/asaadi2025_ssrn.wayback_abstract.txt | In particular, the AAD metric reflects realistic delay patterns and avoids the misleading interpretations ofte
+PASS | asaadi2024_ifac_related | verbatim_quotes[0] | raw/asaadi2024_ifac.openalex_abstract.txt | Our approach is divided into two phases: the design phase, which uses historical data to establish key perform
+PASS | asaadi2024_ifac_related | verbatim_quotes[1] | raw/asaadi2023_ccis.springer_abstract.txt | We propose an adaptive designing method to evaluate and enhance the performance of an alarm system at runtime 
+PASS | asaadi2024_ifac_related | adaptive_threshold | raw/asaadi2024_ifac.openalex_abstract.txt | This paper introduces a novel methodology for the real-time optimization of alarm systems, particularly for di
+PASS | asaadi2024_ifac_related | held_out_confirmation | raw/asaadi2023_ccis.springer_abstract.txt | The proposed method is validated using a simulated example.
+PASS | asaadi2024_ifac_related | false_alarm_delay_joint_evaluation | raw/asaadi2024_ifac.openalex_abstract.txt | the design phase, which uses historical data to establish key performance indices such as missed alarm rate an
+PASS | diallo2025_jpc | verbatim_quotes[0] | raw/diallo2025.crossref.json | Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical me
+PASS | diallo2025_jpc | verbatim_quotes[1] | raw/diallo2025_thesis.hal_record.json | The thesis then adapts the detection threshold using conformal prediction to formally control the false alarm 
+PASS | diallo2025_jpc | verbatim_quotes[2] | raw/diallo2025_thesis_tel-05503471.txt | Diallo, A. R., Homri, L., & Dantan, J.-Y. (2025). Reducing false alarms in fault detection: A comparative anal
+PASS | diallo2025_jpc | verbatim_quotes[3] | raw/diallo2025_thesis_tel-05503471.txt | L’objectif principal de ce chapitre est d’évaluer l’applicabilité de la prédiction conforme pour la fixation d
+PASS | diallo2025_jpc | verbatim_quotes[4] | raw/diallo2025_thesis_tel-05503471.txt | Cette garantie est assurée tant que les données de calibration et les nouvelles données de fonctionnement norm
+PASS | diallo2025_jpc | verbatim_quotes[5] | raw/diallo2025_thesis_tel-05503471.txt | les taux de fausses alarmes observés à chaque seuil dépassent largement les niveaux de risque
+PASS | diallo2025_jpc | verbatim_quotes[6] | raw/diallo2025_thesis_tel-05503471.txt | Le modèle AE+S1, basé sur une estimation par noyaux (KDE), dépasse légèrement le niveau de risque cible avec u
+PASS | diallo2025_jpc | adaptive_threshold | raw/diallo2025_thesis_tel-05503471.txt | La phase de modélisation, effectuée hors-ligne, débute par l’entraînement du modèle de détection sur un premie
+PASS | diallo2025_jpc | regime_specific_threshold | raw/diallo2025_thesis_tel-05503471.txt | Plus récemment, Bates et al. (2023) ont introduit une approche visant à assurer une validité conditionnelle, o
+PASS | diallo2025_jpc | held_out_confirmation | raw/diallo2025_thesis_tel-05503471.txt | Afin de garantir une comparaison équitable et rigoureuse entre les approches classiques de réglage du seuil et
+PASS | diallo2025_jpc | false_alarm_delay_joint_evaluation | raw/diallo2025_thesis_tel-05503471.txt | L’évaluation de la performance des deux méthodes de réglage de seuil repose sur deux indicateurs principaux : 
+PASS | steland2026_arxiv | verbatim_quotes[0] | raw/steland2026.arxiv_v1.txt | A primary objective in this context is to select c such that the alarm probability, P (X > c), remains below a
+PASS | steland2026_arxiv | verbatim_quotes[1] | raw/steland2026.arxiv_v1.txt | threshold functions were identified and proposed which guarantee type I error (false alarm) rate, and simultan
+PASS | steland2026_arxiv | verbatim_quotes[2] | raw/steland2026.arxiv_v1.txt | Contrary to the intention of these works, in the present paper the threshold function is used to align the con
+PASS | steland2026_arxiv | verbatim_quotes[3] | raw/steland2026.arxiv_v1.txt | For the well known FICOS credit scoring example, often used in interpretable machine learning, threshold adapt
+PASS | steland2026_arxiv | verbatim_quotes[4] | raw/steland2026.arxiv_abs.html | Tue, 22 Sep 2026 16:20:03 UTC (221 KB)
+PASS | steland2026_arxiv | verbatim_quotes[5] | raw/steland2026.arxiv_abs.html | Context-Adaptive Thresholding for Conditionally Representative Monitoring and Classification
+PASS | steland2026_arxiv | uses_context_aware_model | raw/steland2026.arxiv_v1.txt | We show how to modify any given threshold-type classifier resp. monitoring rule to achieve representative cond
+PASS | steland2026_arxiv | adaptive_threshold | raw/steland2026.arxiv_v1.txt | Clearly, in this setting a constant threshold c applied globally to X is generally insufficient necessitating 
+PASS | steland2026_arxiv | regime_specific_threshold | raw/steland2026.arxiv_v1.txt | Threshold adaptation of such rules has been introduced by Steland et al. (2024) for discrete Z.
+PASS | steland2026_arxiv | cross_regime_threshold_transfer | raw/steland2026.arxiv_v1.txt | In many applications, there is some reference or baseline threshold (at least the constant one), so that one m
+PASS | steland2026_arxiv | held_out_confirmation | raw/steland2026.arxiv_v1.txt | When using 75% of the data for estimation and the remaining 25% as a test set for evaluation, the estimated ac
+PASS | hsu2023_phmconf | verbatim_quotes[0] | raw/task6/hsu2023_phmconf.txt | Fault detection is achieved by applying a threshold that is determined based on the healthy condition.
+PASS | hsu2023_phmconf | verbatim_quotes[1] | raw/task6/hsu2023_phmconf.txt | both models are capable of detecting faults with an average delay of around 20 cycles and maintain a low false
+PASS | hsu2023_phmconf | verbatim_quotes[2] | raw/task6/hsu2023_phmconf.txt | In case the detection delay is negative (du < 0), it corresponds to a false positive alarm.
+PASS | hsu2023_phmconf | verbatim_quotes[3] | raw/task6/hsu2023_phmconf.txt | The cruising phase is defined when the normalised flight altitude exceeds 0.85.
+PASS | hsu2023_phmconf | verbatim_quotes[4] | raw/task6/hsu2023_phmconf.txt | However, the sensor-wise health indicators are more sensitive to false alarms, as the FPR is not null.
+PASS | hsu2023_phmconf | uses_context_aware_model | raw/task6/hsu2023_phmconf.txt | we perform a comprehensive comparison between two residual-based approaches: autoencoders, and the input-outpu
+PASS | hsu2023_phmconf | adaptive_threshold | raw/task6/hsu2023_phmconf.txt | Thus, we can define the threshold τi for sensor i as:
+PASS | hsu2023_phmconf | regime_specific_threshold | raw/task6/hsu2023_phmconf.txt | For this study, we solely consider the cruising phase of the flight as it exhibits a more stable behavior in c
+PASS | hsu2023_phmconf | transport_evaluation_across_units | raw/task6/hsu2023_phmconf.txt | We arbitrarily selected the first 16 cycles of each unit to be the healthy data for training. The models are t
+PASS | hsu2023_phmconf | held_out_confirmation | raw/task6/hsu2023_phmconf.txt | For each setting, we train the models 5 times with the validation set randomly split.
+PASS | hsu2023_phmconf | false_alarm_delay_joint_evaluation | raw/task6/hsu2023_phmconf.txt | FPR corresponds to the number of units with negative detection relative to all units.
+PASS | zhong2026_scirep | verbatim_quotes[0] | raw/task6/zhong2026_scirep_pdf.txt | Supplementary experiments including Monte Carlo random subsampling cross-validation, noise robustness tests, m
+PASS | zhong2026_scirep | verbatim_quotes[1] | raw/task6/zhong2026_scirep_pdf.txt | The detection performance under idle, cruise, climb and takeoff flight phases is sorted in Table 7 to analyze 
+PASS | zhong2026_scirep | verbatim_quotes[2] | raw/task6/zhong2026_scirep_pdf.txt | Fourth, the variable operating condition analysis reveals that detection performance during the climb phase (F
+PASS | zhong2026_scirep | verbatim_quotes[3] | raw/task6/zhong2026_scirep_pdf.txt | Longer-term algorithmic expansion aims to introduce cross-engine transfer learning and domain adaptation for m
+PASS | zhong2026_scirep | uses_context_aware_model | raw/task6/zhong2026_scirep_pdf.txt | Variable flight phases lead to obvious mean and variance shifts of ECU monitoring sequences, which easily make
+PASS | zhong2026_scirep | adaptive_threshold | raw/task6/zhong2026_scirep_pdf.txt | Near-term deployment optimization includes integrating additional ECU monitoring variables and developing slid
+PASS | zhong2026_scirep | regime_specific_threshold | raw/task6/zhong2026_scirep_pdf.txt | Medium-term model improvements focus on flight-phase-adaptive adjustment strategies, such as phase-aware fine-
+PASS | zhong2026_scirep | transport_evaluation_across_units | raw/task6/zhong2026_scirep_pdf.txt | cross-aircraft validation using data from other aircraft types and longer fullflight-cycle datasets is necessa
+PASS | zhong2026_scirep | held_out_confirmation | raw/task6/zhong2026_scirep_pdf.txt | Chronological splitting is adopted to avoid future information leakage between training and test sets.
+PASS | zhong2026_scirep | false_alarm_delay_joint_evaluation | raw/task6/zhong2026_scirep_pdf.txt | Meanwhile, the Mean Time Between False Alarms (MTBFA) is defined as the average window gap separating two succ
+PASS | steland2024_statneerl | verbatim_quotes[0] | raw/task6/10.1111_stan.12352.openalex_abstract.txt | For the latter rule asymptotic theory is developed for independent and identically distributed and dependent l
+PASS | steland2024_statneerl | verbatim_quotes[1] | raw/task6/steland2026a.arxiv_abstract.txt | We propose to use thresholds which depend on such covariates to boost the sensitivity for rare classes, which 
+PASS | steland2024_statneerl | uses_context_aware_model | raw/task6/10.1111_stan.12352.openalex_abstract.txt | This additional information can be incorporated by applying threshold functions to the standardized measuremen
+PASS | steland2024_statneerl | regime_specific_threshold | raw/task6/10.1111_stan.12352.openalex_abstract.txt | Further, we propose two‐stage designs which allow to distribute in a controlled way the budget over an a prior
+PASS | steland2024_statneerl | held_out_confirmation | raw/task6/10.1111_stan.12352.openalex_abstract.txt | The approach is illustrated by a real medical data set.
+PASS | raymond2025_windenergy | verbatim_quotes[0] | raw/task6/10.1002_we.70050.openalex_abstract.txt | In this paper, a data‐driven automatic model generation method for fault detection, applicable to an entire fl
+PASS | raymond2025_windenergy | verbatim_quotes[1] | raw/task6/raymond2025_hal-05286005.txt | Moreover, all the models built using data from wind farms with the same technology obtain very good fault dete
+PASS | raymond2025_windenergy | transport_evaluation_across_units | raw/task6/10.1002_we.70050.openalex_abstract.txt | Finally, the fault detection performances of the proposed models are evaluated on wind farms with turbines of 
+PASS | raymond2025_windenergy | held_out_confirmation | raw/task6/raymond2025_hal-05286005.txt | Then, a threshold is set to reach a FPR of 5% (materialized by a red vertical dotted line in Figures 8 to 11),
+PASS | raymond2025_windenergy | false_alarm_delay_joint_evaluation | raw/task6/raymond2025_hal-05286005.txt | the false positive rate must be less than 5% over the H0 period to limit unnecessary maintenance interventions
+PASS | farouq2021_neurocomputing | verbatim_quotes[0] | raw/task6/farouq2022_thesis_diva2_1634156.txt | Paper-IV: Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets
+PASS | farouq2021_neurocomputing | verbatim_quotes[1] | raw/task6/farouq2022_thesis_diva2_1634156.txt | Since the validity property guarantees an upper bound on the probability of false alarms, the focus can shift 
+PASS | farouq2021_neurocomputing | verbatim_quotes[2] | raw/task6/farouq2022_thesis_diva2_1634156.txt | The primary motivation here is that this framework provides a systematic way to control false alarms and choos
+PASS | farouq2021_neurocomputing | uses_context_aware_model | raw/task6/farouq2022_thesis_diva2_1634156.txt | From a data-mining point of view, a subfleet based approach provides a “context” for the behavior of a target 
+PASS | farouq2021_neurocomputing | regime_specific_threshold | raw/task6/farouq2022_thesis_diva2_1634156.txt | An effective monitoring infrastructure requires that the probability of wrongly classifying the behavior of a 
+PASS | farouq2021_neurocomputing | transport_evaluation_across_units | raw/task6/farouq2022_thesis_diva2_1634156.txt | Our preliminary investigations found that operational heterogeneity among the substations in a DH network can 
+PASS | farouq2021_neurocomputing | false_alarm_delay_joint_evaluation | raw/task6/farouq2022_thesis_diva2_1634156.txt | We observed the decisions that relied on the information obtained through CEM showed a reduction in overall fa
+PASS | laguna2026_jpcs | verbatim_quotes[0] | raw/task6/laguna2026_iop.txt | The conformal prediction framework achieved 81.8% empirical coverage for the 85% warning level and 97.9% for t
+PASS | laguna2026_jpcs | verbatim_quotes[1] | raw/task6/laguna2026_iop.txt | These deviations from theoretical coverage come primarily from calibration on outlier-contaminated data and di
+PASS | laguna2026_jpcs | verbatim_quotes[2] | raw/task6/laguna2026_iop.txt | Though it may produce conservative intervals and provides marginal rather than conditional coverage,
+PASS | laguna2026_jpcs | uses_context_aware_model | raw/task6/laguna2026_iop.txt | Within each cluster, we train regression models exclusively on healthy data and wrap them with a sequential co
+PASS | laguna2026_jpcs | adaptive_threshold | raw/task6/laguna2026_iop.txt | We implement sequential calibration using a rolling window approach, continuously recalibrating
+PASS | laguna2026_jpcs | false_alarm_delay_joint_evaluation | raw/task6/laguna2026_iop.txt | Warninglevel alerts appeared 72 days before failures on average, while alert-level notifications preceded fail
+PASS | aslansefat2020_isatrans | verbatim_quotes[0] | raw/task6/pubmed_31427063_abstract.txt | However, the literature suffers from the lack of an appropriate method to assess performance parameters of Var
+PASS | aslansefat2020_isatrans | adaptive_threshold | raw/task6/pubmed_31427063_abstract.txt | This study introduces two types of variable thresholding and proposes a novel approach for performance assessm
+PASS | aslansefat2020_isatrans | held_out_confirmation | raw/task6/pubmed_31427063_abstract.txt | The effectiveness of the proposed approach is illustrated via three numerical examples and through a compariso
+PASS | aslansefat2020_isatrans | false_alarm_delay_joint_evaluation | raw/task6/pubmed_31427063_abstract.txt | Different kinds of thresholding or filtration are applied to decrease alarm nuisance and improve performance i
+PASS | miao2024_sensors | verbatim_quotes[0] | raw/task6/miao2024_pmc.txt | However, in this task, the vibration amplitude varies with the rotational speed, and the MSE values can differ
+PASS | miao2024_sensors | uses_context_aware_model | raw/task6/miao2024_pmc.txt | we propose a multi-category anomaly index (MCAI), which is obtained by adjusting the MSE values according to t
+PASS | miao2024_sensors | adaptive_threshold | raw/task6/miao2024_pmc.txt | The alarm threshold is determined based on the validation set and is set to three times the 95th percentile of
+PASS | miao2024_sensors | false_alarm_delay_joint_evaluation | raw/task6/miao2024_pmc.txt | The false alarm rate is about 0.15%.

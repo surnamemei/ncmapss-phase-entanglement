@@ -1,0 +1,106 @@
+{
+ "all_pass": true,
+ "git_head": "b0ee43ceceb9822bc116c9d59b5667783be5cfa0",
+ "report": {
+  "DS02": [
+   {
+    "check": "stage_d healthy_phase_fpr_by_scheme (P, C)",
+    "problems": [],
+    "rows_compared": 672,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial calibration_quality_metrics (P, C)",
+    "problems": [],
+    "rows_compared": 210,
+    "status": "PASS"
+   },
+   {
+    "check": "stage_e healthy_flight_false_flags (P, C; R0)",
+    "problems": [],
+    "rows_compared": 168,
+    "status": "PASS"
+   },
+   {
+    "check": "stage_e detection_delay (P, C; R0)",
+    "problems": [],
+    "rows_compared": 126,
+    "status": "PASS"
+   },
+   {
+    "check": "stage_e abnormal_alarm_rates (P, C; R0; overall)",
+    "problems": [],
+    "rows_compared": 336,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial curve_level_summary (P, C; R0)",
+    "problems": [],
+    "rows_compared": 42,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial matched_false_flag_comparisons (C vs P; R0)",
+    "problems": [],
+    "rows_compared": 210,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial matched_labels (C vs P; R0)",
+    "problems": [],
+    "rows_compared": 21,
+    "status": "PASS"
+   }
+  ],
+  "DS03": [
+   {
+    "check": "stage_d healthy_phase_fpr_by_scheme (P, C)",
+    "problems": [],
+    "rows_compared": 1176,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial calibration_quality_metrics (P, C)",
+    "problems": [],
+    "rows_compared": 336,
+    "status": "PASS"
+   },
+   {
+    "check": "stage_e healthy_flight_false_flags (P, C; R0)",
+    "problems": [],
+    "rows_compared": 294,
+    "status": "PASS"
+   },
+   {
+    "check": "stage_e detection_delay (P, C; R0)",
+    "problems": [],
+    "rows_compared": 252,
+    "status": "PASS"
+   },
+   {
+    "check": "stage_e abnormal_alarm_rates (P, C; R0; overall)",
+    "problems": [],
+    "rows_compared": 588,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial curve_level_summary (P, C; R0)",
+    "problems": [],
+    "rows_compared": 42,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial matched_false_flag_comparisons (C vs P; R0)",
+    "problems": [],
+    "rows_compared": 210,
+    "status": "PASS"
+   },
+   {
+    "check": "adversarial matched_labels (C vs P; R0)",
+    "problems": [],
+    "rows_compared": 21,
+    "status": "PASS"
+   }
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "outputs": {
+    "paper/mssp/figures/fig4_matched_false_flag_tradeoff.pdf": "cf8a42705d5e08f2827937b21dde303adbe238fe05d815e520e256d0e7c9c163",
+    "paper/mssp/figures/fig4_matched_false_flag_tradeoff.png": "5764de0d6686e9940bd2d5efc710278ab21de0ff65be61ae22cef195d22c5289"
+  },
+  "inputs": {
+    "results/mssp_adversarial/ds02/contextual_baseline/baseline_flight_false_flags.csv": "cbc8407e4d36a7c063530c398e377533251cb4c067afc8615f85297929940bee",
+    "results/mssp_adversarial/ds02/matched_delay/locked_operating_points.csv": "0af82180d7434d9fa3aa33d4e6ab569ebcc58b42c8428b7515a283fe3c983e93",
+    "results/mssp_adversarial/ds02/matched_delay/matched_false_flag_comparisons.csv": "591268a0b1f3196261b588cc825df3862cc80e38b400f8fa85f680aed82301a7",
+    "results/mssp_adversarial/ds03/contextual_baseline/baseline_flight_false_flags.csv": "331477e75282522b6ca7affc8bbaad35f97edc3910f2590f595486536f88afe5",
+    "results/mssp_adversarial/ds03/matched_delay/locked_operating_points.csv": "458a01d1607bdae498244f893e207149f1275d8ac083af6a9e1b458340ad6346",
+    "results/mssp_adversarial/ds03/matched_delay/matched_false_flag_comparisons.csv": "4a7091b7e84a2a6bb6256c845293850eb32b169fc3b0538d524df94f82ab52c7"
+  },
+  "builder": "paper/mssp/build_mssp_figures_tables.py",
+  "builder_sha256": "298f25c73ae0d9ee683d67202a6a19f6c7f75e1584a21d793b40e7acfa513fdc",
+  "note": "Validation B at the 1% row target, nearest-anchor rule, supported anchors only (no interpolation). Counts above each group: earlier/tie/later runs. Panel (c): pooled realized FFR at the locked kappa (P, C, C') and at the calibration kappa of Q.",
+  "built_utc": "2026-09-28T00:52:40+00:00"
+}

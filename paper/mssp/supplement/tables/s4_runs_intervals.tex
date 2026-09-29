@@ -1,0 +1,31 @@
+\begin{footnotesize}
+\begin{longtable}{llrrrll}
+\caption{Frozen individual-run pooled healthy FPR (\%) at the 1\% target with hierarchical (engine, then flight) bootstrap 95\% intervals for the contrasts (2000 replicates, thresholds re-estimated). Intervals belong to individual runs; no seed-mean interval exists.}\label{tab:s4_runs_intervals}\\
+\toprule
+Dataset & Run & Climb & Cruise & Descent & Descent $-$ climb, 95\% CI (pp) & Descent $-$ cruise, 95\% CI (pp) \\
+\midrule
+\endfirsthead
+\multicolumn{7}{l}{\emph{(continued)}}\\
+\toprule
+Dataset & Run & Climb & Cruise & Descent & Descent $-$ climb, 95\% CI (pp) & Descent $-$ cruise, 95\% CI (pp) \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+DS02 & PCA & 0.125 & 0.428 & 3.459 & +3.335 [+2.070, +5.629] & +3.031 [+1.808, +5.261] \\
+ & IF s0 & 0.285 & 0.566 & 2.335 & +2.050 [+0.850, +4.074] & +1.769 [+0.678, +3.749] \\
+ & IF s1 & 0.253 & 0.528 & 2.669 & +2.416 [+1.313, +4.166] & +2.141 [+1.012, +3.943] \\
+ & IF s2 & 0.266 & 0.580 & 2.455 & +2.190 [+1.063, +3.947] & +1.875 [+0.742, +3.709] \\
+ & LSTM s0 & 0.452 & 0.707 & 2.078 & +1.626 [+0.317, +2.838] & +1.371 [+0.528, +2.490] \\
+ & LSTM s1 & 0.474 & 0.731 & 2.102 & +1.628 [$-$0.022, +2.817] & +1.372 [+0.399, +2.454] \\
+ & LSTM s2 & 0.539 & 0.750 & 2.060 & +1.521 [$-$0.347, +2.802] & +1.309 [+0.330, +2.511] \\
+\midrule
+DS03 & PCA & 0.877 & 0.912 & 1.977 & +1.100 [+0.434, +1.785] & +1.066 [+0.560, +1.573] \\
+ & IF s0 & 0.417 & 1.095 & 2.166 & +1.749 [+0.901, +2.847] & +1.071 [+0.404, +1.994] \\
+ & IF s1 & 0.399 & 1.060 & 2.127 & +1.728 [+0.891, +2.833] & +1.067 [+0.426, +1.976] \\
+ & IF s2 & 0.412 & 1.157 & 2.134 & +1.722 [+0.871, +2.772] & +0.976 [+0.347, +1.862] \\
+ & LSTM s0 & 0.759 & 1.795 & 2.231 & +1.472 [+0.536, +2.870] & +0.436 [$-$0.222, +1.201] \\
+ & LSTM s1 & 0.719 & 1.890 & 2.220 & +1.501 [+0.512, +3.022] & +0.330 [$-$0.270, +1.158] \\
+ & LSTM s2 & 0.774 & 1.982 & 2.193 & +1.419 [+0.379, +3.059] & +0.210 [$-$0.582, +1.025] \\
+\end{longtable}
+\end{footnotesize}

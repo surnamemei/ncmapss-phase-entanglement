@@ -1,0 +1,74 @@
+{
+  "support_verdict": "INDETERMINATE DUE TO SMALL ENGINE COUNT",
+  "support_summary": {
+    "ds02": {
+      "runs": 7,
+      "runs_rho_positive": 4,
+      "median_rho": 0.03333333333333333,
+      "runs_rho_at_least_0.6": 0,
+      "loeo_median_rho": {
+        "loeo_without_11_rho_dphase_vs_abs_error_C": 0.028571428571428574,
+        "loeo_without_14_rho_dphase_vs_abs_error_C": -0.48571428571428577,
+        "loeo_without_15_rho_dphase_vs_abs_error_C": 0.2
+      },
+      "loeo_sign_flips": [
+        "loeo_without_14_rho_dphase_vs_abs_error_C"
+      ],
+      "class1_cells_most_distant": false
+    },
+    "ds03": {
+      "runs": 7,
+      "runs_rho_positive": 6,
+      "median_rho": 0.04437564499484004,
+      "runs_rho_at_least_0.6": 0,
+      "loeo_median_rho": {
+        "loeo_without_10_rho_dphase_vs_abs_error_C": -0.2285714285714285,
+        "loeo_without_11_rho_dphase_vs_abs_error_C": 0.017857142857142853,
+        "loeo_without_12_rho_dphase_vs_abs_error_C": 0.3,
+        "loeo_without_13_rho_dphase_vs_abs_error_C": 0.07857142857142857,
+        "loeo_without_14_rho_dphase_vs_abs_error_C": 0.1357142857142857,
+        "loeo_without_15_rho_dphase_vs_abs_error_C": -0.09999999999999999
+      },
+      "loeo_sign_flips": [
+        "loeo_without_10_rho_dphase_vs_abs_error_C",
+        "loeo_without_15_rho_dphase_vs_abs_error_C"
+      ],
+      "class1_cells_most_distant": false
+    }
+  },
+  "d_decision": {
+    "C_spread_reduced_runs_at_1pct": {
+      "ds02": 7,
+      "ds03": 7
+    },
+    "run_contextual_baseline": true,
+    "rule": "C reduces A1 in >= 5 of 7 runs in every dataset at 1%"
+  },
+  "outputs_sha256": {
+    "claim_truth_values": "eb34e81e65ff2e6ae1aa7b984f4c5dfa613fc5cfe1ff0fb0bd11aed62641b2a7",
+    "robustness_classification": "38f1b75e380bc4d5be7beffdf519d7fdf83c72361c4cf3ca25d33039173a629f",
+    "denominator_audit": "34de3a0f2f57e5b9e7372e93b24b963d9092e0a8e078677867c8afd631275245",
+    "seed_consistency": "b2504c2bd9c0914cffa164e8cf3dfa45e59a9933f6b5d440fc5474b0ed4c9913",
+    "calibration_wording_verdicts": "c668971ecba54f6a68808593ea6e0e83a1f558be42af4aa6fbcd9c4c934138ec",
+    "matched_label_counts": "87ff38fa976a96c3322deea813ec24bb5b95166f1dcc62d1aba1554a362ab621"
+  },
+  "finished_utc": "2026-09-27T16:37:11+00:00",
+  "provenance": {
+    "plan": "docs/mssp/adversarial_validation_plan.md",
+    "plan_sha256": "d993dd3f9e5ab28615f22e8559af4fe33548a853ddfce3ce765a9043bb217cfd",
+    "module_sha256": "9c9484dc4ef91b31835b94a9cdb7d054686624b3f9ea99e7a8e6e29fd7931aa5",
+    "frozen_module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "39a5f8188d48dd42563b7bcfe512d36d76762392",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_adversarial/",
+        "scripts/run_mssp_adversarial.py",
+        "src/mssp_adversarial.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,540 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    18
+   ]
+  ],
+  "date-time": "2026-08-18T04:29:58Z",
+  "timestamp": 1787027398012,
+  "version": "build-2736575974"
+ },
+ "reference-count": 43,
+ "publisher": "MDPI AG",
+ "issue": "6",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      26
+     ]
+    ],
+    "date-time": "2020-05-26T00:00:00Z",
+    "timestamp": 1590451200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Swedish Knowledge Foundation",
+   "award": [
+    "2017/000"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "2017/000"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Aerospace"
+ ],
+ "abstract": "<jats:p>Since aeronautic transportation is responsible for a rising share of polluting emissions, it is of primary importance to minimize the fuel consumption any time during operations. From this perspective, continuous monitoring of engine performance is essential to implement proper corrective actions and avoid excessive fuel consumption due to engine deterioration. This requires, however, automated systems for diagnostics and decision support, which should be able to handle large amounts of data and ensure reliability in all the multiple conditions the engines of a fleet can be found in. In particular, the proposed solution should be robust to engine-to-engine deviations and different sensors availability scenarios. In this paper, a probabilistic Bayesian network for fault detection and identification is applied to a fleet of engines, simulated by an adaptive performance model. The combination of the performance model and the Bayesian network is also studied and compared to the probabilistic model only. The benefit in the suggested hybrid approach is identified as up to 50% higher accuracy. Sensors unavailability due to manufacturing constraints or sensor faults reduce the accuracy of the physics-based method, whereas the Bayesian model is less affected.</jats:p>",
+ "DOI": "10.3390/aerospace7060066",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2020,
+    5,
+    27
+   ]
+  ],
+  "date-time": "2020-05-27T05:35:52Z",
+  "timestamp": 1590557752000
+ },
+ "page": "66",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 22,
+ "title": [
+  "Probabilistic Model for Aero-Engines Fleet Condition Monitoring"
+ ],
+ "prefix": "10.3390",
+ "volume": "7",
+ "author": [
+  {
+   "given": "Valentina",
+   "family": "Zaccaria",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Simulation and Optimization for Future Industrial Applications, Mälardalen University, 72123 Västerås, Sweden"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Amare D.",
+   "family": "Fentaye",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Simulation and Optimization for Future Industrial Applications, Mälardalen University, 72123 Västerås, Sweden"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mikael",
+   "family": "Stenfelt",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Simulation and Optimization for Future Industrial Applications, Mälardalen University, 72123 Västerås, Sweden"
+    },
+    {
+     "name": "SAAB Aeronautic, 58254 Linköping, Sweden"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-8466-356X",
+   "authenticated-orcid": false,
+   "given": "Konstantinos G.",
+   "family": "Kyprianidis",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Simulation and Optimization for Future Industrial Applications, Mälardalen University, 72123 Västerås, Sweden"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2020,
+    5,
+    26
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "unstructured": "(2019, May 30). “Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA)”, in ICAO Annual Report 2017. Available online: https://www.icao.int/annual-report-2017/Pages/default.aspx."
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "109",
+   "DOI": "10.1016/j.apenergy.2003.10.005",
+   "article-title": "Prospects for aero gas-turbine diagnostics: A review",
+   "volume": "79",
+   "author": "Marinai",
+   "year": "2004",
+   "journal-title": "Appl. Energy"
+  },
+  {
+   "key": "ref_3",
+   "unstructured": "Chu, E., Gorinevsky, D., and Boyd, S. (September, January 28). Scalable Statistical Monitoring of Fleet Data. Proceedings of the 18th World Congress, The International Federation of Automatic Control, Milano, Italy."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chu, E., Gorinevsky, D., and Boyd, S. (2010, January 20–22). Detecting aircraft performance anomalies from cruise flight data. Proceedings of the AIAA Infotech@Aerospace, Atlanta, GA, USA.",
+   "DOI": "10.2514/6.2010-3307"
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Borguet, S., Léonard, O., and Dewallef, P. (2016). Regression-Based Modeling of a Fleet of Gas Turbine Engines for Performance Trending. J. Eng. Gas Turb. Power, 138.",
+   "DOI": "10.1115/1.4031253"
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "first-page": "1459",
+   "DOI": "10.1016/j.automatica.2014.03.008",
+   "article-title": "Scalable anomaly detection in large homogeneous populations",
+   "volume": "50",
+   "author": "Ohlsson",
+   "year": "2014",
+   "journal-title": "Automatica"
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Fentaye, A.D., Baheta, A.T., Gilani, S.I., and Kyprianidis, K.G. (2019). A Review of Gas Turbine Gas-Path Diagnostics: State-of-the-Art Methods, Challenges and Opportunities. Aerospace, 6.",
+   "DOI": "10.3390/aerospace6070083"
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hosseini, S.H.R., Khaledi, H., and Solani, M.R. (2009, January 8–12). New Model Based Gas Turbine Fault Diagnostics Using 1D Engine Model and Nonlinear Identification Algorithms. Proceedings of the ASME Turbo Expo 2009: Power for Land, Sea and Air, Orlando, FL, USA. GT2009-59439.",
+   "DOI": "10.1115/GT2009-59439"
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "609",
+   "DOI": "10.1243/0957650042584302",
+   "article-title": "Gas turbine component fault detection from a limited number of measurements",
+   "volume": "218",
+   "author": "Mathioudakis",
+   "year": "2014",
+   "journal-title": "J. Power Energy"
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Urban, L.A. (1973). Gas path analysis applied to turbine engine condition monitoring. J. Aircr., 10.",
+   "DOI": "10.2514/3.60240"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Vatani, A., Khorasani, K., and Meskin, N. (2015, January 15–19). Health monitoring and degradation prognostics in gas turbine engines using dynamic neural networks. Proceedings of the ASME Turbo Expo 2015: Turbine Technical Conference and Exposition, Montréal, QC, Canada. GT2015-44101.",
+   "DOI": "10.1115/GT2015-44101"
+  },
+  {
+   "key": "ref_12",
+   "unstructured": "Romesis, C., Aretakis, N., Roumeliotis, I., Alexiou, A., Tsalavoutas, A., Stamatis, A., and Mathioudakis, K. (2014, January 14–15). Experience with condition-based maintenance related methods and tools for gas turbines. Proceedings of the Future of Gas Turbine Technology, 7th International Gas Turbine Conference, Brussels, Belgium."
+  },
+  {
+   "key": "ref_13",
+   "unstructured": "Zhao, N., Wen, X., and Li, S. (2016, January 13–17). A review on gas turbine anomaly detection for implementing health management. Proceedings of ASME Turbo Expo 2016: Turbomachinery Technical Conference and Exposition, Seoul, Korea. Paper number GT2016-58135."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mathioudakis, K. (2005). Comparison of Linear and Nonlinear Gas Turbine Performance Diagnostics. J. Eng. Gas Turb. Power, 127.",
+   "DOI": "10.1115/1.1788688"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "572",
+   "DOI": "10.1016/j.apenergy.2014.08.115",
+   "article-title": "A component map tuning method for performance prediction and diagnostics of gas turbine compressors",
+   "volume": "135",
+   "author": "Tsoutsanis",
+   "year": "2014",
+   "journal-title": "Appl. Energy"
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "051601",
+   "DOI": "10.1115/1.3078793",
+   "article-title": "Enhanced fault localization using probabilistic fusion with gas path analysis algorithms",
+   "volume": "131",
+   "author": "Kyriazis",
+   "year": "2009",
+   "journal-title": "J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "051202",
+   "DOI": "10.1115/1.4034986",
+   "article-title": "Industrial gas turbine health and performance assessment with field data",
+   "volume": "139",
+   "author": "Roumeliotis",
+   "year": "2017",
+   "journal-title": "J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ntantis, E. (2013). The Impact of Measurement Noise in GPA Diagnostic Analysis of a Gas Turbine Engine. J. Aeronaut Aerosp. Eng., 2.",
+   "DOI": "10.1515/tjj-2013-0024"
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Verbist, M.L., Visser, W.P.J., and Van Buijtenen, J.P. (2013, January 3–7). Experience with gas path analysis for on-wing turbofan condition monitoring. Proceedings of the ASME Turbo Expo 2013: Turbine Technical Conference and Exposition, San Antonio, TX, USA.",
+   "DOI": "10.1115/1.4025347"
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "071203",
+   "DOI": "10.1115/1.4029171",
+   "article-title": "An Approach for Optimal Measurements Selection on Gas Turbine Engine Fault Diagnosis",
+   "volume": "137",
+   "author": "Chen",
+   "year": "2015",
+   "journal-title": "J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "153",
+   "DOI": "10.1016/j.neucom.2012.06.050",
+   "article-title": "Dynamic neural network-based fault diagnosis of gas turbine engines",
+   "volume": "125",
+   "author": "Vanini",
+   "year": "2014",
+   "journal-title": "Neurocomputing"
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Xu, J. (2014). PHM-Oriented Integrated Fusion Prognostics for Aircraft Engines Based on Sensor Data. IEEE Sens. J., 14.",
+   "DOI": "10.1109/JSEN.2013.2293517"
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "64",
+   "DOI": "10.1115/1.1924536",
+   "article-title": "Bayesian network approach for gas path fault diagnosis",
+   "volume": "128",
+   "author": "Romessis",
+   "year": "2004",
+   "journal-title": "J. Eng. Gas Turb. Power"
+  },
+  {
+   "key": "ref_24",
+   "first-page": "19",
+   "article-title": "Setting up a belief network for turbofan diagnosis with the aid of an engine performance model",
+   "volume": "1032",
+   "author": "Romessis",
+   "year": "2001",
+   "journal-title": "Int. Symp. Air Breath. Engines ISABE"
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "first-page": "041602",
+   "DOI": "10.1115/1.3204508",
+   "article-title": "A fault diagnosis method for industrial gas turbines using Bayesian data analysis",
+   "volume": "132",
+   "author": "Lee",
+   "year": "2010",
+   "journal-title": "J. Eng. Gas Turbines Power"
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kestner, B.K., Lee, Y.K., Voleti, G., Mavris, D.N., Kumar, V., and Lin, T. (2011, January 6–10). Diagnostics of highly degraded industrial gas turbines using Bayesian networks. Proceedings of the ASME 2011 Turbo Expo: Turbine Technical Conference and Exposition, Vancouver, BC, Canada.",
+   "DOI": "10.1115/GT2011-45249"
+  },
+  {
+   "key": "ref_27",
+   "unstructured": "Ibarguengoytia Gonzales, P.H. (1997). Any Time Probabilistic Reasoning for Sensor Validation. [Ph.D. Thesis, University of Salford]."
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Losi, E., Venturini, M., Manservigi, L., Ceschini, G.F., and Bechini, G. (2019). Anomaly Detection in Gas Turbine Time Series by Means of Bayesian Hierarchical Models. J. Eng. Gas Turb. Power, 141.",
+   "DOI": "10.1115/1.4044781"
+  },
+  {
+   "key": "ref_29",
+   "unstructured": "Kyriazis, A., Arethkis, N., and Mathioudakis, K. (2006, January 8–11). Gas turbine fault diagnosis from fast response data using probabilistic methods and information fusion. Proceedings of the ASME Turbo Expo 2006: Power for Land, Sea and Air, Barcelona, Spain. GT2006-90362."
+  },
+  {
+   "key": "ref_30",
+   "unstructured": "Kyriazis, A., and Mathioudakis, K. (2009, January 23–27). Gas turbines diagnostics using weighted parallel decision fusion framework. Proceedings of the 8th European Turbomachinery Conference, Graz, Austria."
+  },
+  {
+   "key": "ref_31",
+   "unstructured": "Martinez, A., Sanchez, L., and Couso, I. (2014, January 16–20). Improved life cycle cost–reduced engine maintenance through engine health monitoring genetic fuzzy system–Method validation and case study. Proceedings of the ASME Turbo Expo 2014: Turbine Technical Conference and Exposition, Düsseldorf, Germany. Paper number GT2014-25639."
+  },
+  {
+   "key": "ref_32",
+   "unstructured": "Verbist, M.L., Visser, W.P.J., and Van Buijtenen, J.P. (2011, January 6–10). Gas path analysis on KLM in-flight engine data. Proceedings of the ASME Turbo Expo 2011: Turbine Technical Conference and Exposition, Vancouver, BC, Canada. Paper number GT2011-45625."
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kraft, J., Sethi, V., and Singh, R. (2014). Optimization of Aero Gas Turbine Maintenance Using Advanced Simulation and Diagnostic Methods. J. Eng. Gas Turb Power, 136.",
+   "DOI": "10.1115/1.4027356"
+  },
+  {
+   "key": "ref_34",
+   "doi-asserted-by": "crossref",
+   "first-page": "2424",
+   "DOI": "10.1177/0954410013518509",
+   "article-title": "On the trade-off between minimum fuel burn and maximum time between overhaul for an intercooled aeroengine",
+   "volume": "228",
+   "author": "Kyprianidis",
+   "year": "2014",
+   "journal-title": "Proc. Inst. Mech. Eng. Part G J. Aerosp. Eng."
+  },
+  {
+   "key": "ref_35",
+   "unstructured": "Ganguli, R. (2017). Introduction. Gas Turbine Diagnostics: Signal Processing and Fault Isolation, CRC Press."
+  },
+  {
+   "key": "ref_36",
+   "unstructured": "Bechini, G., Ameyugo, G., Marinai, L., and Singh, R. (2005, January 4–9). Gas path diagnostics: The importance of measurement selection in the monitoring process. Proceedings of the International Symposium of Air Breathing Engine, Munich, Germany. ISABE-2005-1281."
+  },
+  {
+   "key": "ref_37",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sowers, T.S., Fittje, J.E., Kopasakis, G., and Simon, D.L. (2009, January 8–12). Expanded application of the systematic sensor selection strategy for turbofan engine diagnostics. Proceedings of the ASME Turbo Expo 2009: Turbine Technical Conference and Exposition, Orlando, FL, USA. GT2009-59251.",
+   "DOI": "10.1115/GT2009-59251"
+  },
+  {
+   "key": "ref_38",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Stenfelt, M., Zaccaria, V., and Kyprianidis, K. (2019, January 11–15). Automatic gas turbine matching scheme adaptation for robust GPA diagnostics. Proceedings of the ASME Turbo Expo 2019: Power for Land, Sea and Air, Phoenix, AZ, USA. GT2019-91018.",
+   "DOI": "10.1115/GT2019-91018"
+  },
+  {
+   "key": "ref_39",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zaccaria, V., Stenfelt, M., Sjunnesson, A., Hansson, A., and Kyprianidis, K. (2019;, January 11–15). A model-based solution for gas turbine diagnostics: Simulations and experimental verification. Proceedings of the ASME TURBO EXPO 2019: Power for Land, Sea and Air, Phoenix, AZ, USA.",
+   "DOI": "10.1115/GT2019-90858"
+  },
+  {
+   "key": "ref_40",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.3390/pr6110216",
+   "article-title": "Diagnostics-oriented modelling of micro gas turbines for fleet monitoring and maintenance optimization",
+   "volume": "6",
+   "author": "Rahman",
+   "year": "2018",
+   "journal-title": "Processes"
+  },
+  {
+   "key": "ref_41",
+   "unstructured": "Simon, D.L. (2020, March 30). Propulsion Diagnostic Method Evaluation Strategy (ProDiMES) User’s Guide. NASA/TM—2010-215840. June 2010, Available online: https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100005639.pdf."
+  },
+  {
+   "key": "ref_42",
+   "unstructured": "(2020, March 30). Hugin. Hugin Expert A/S, Hugin Version 8.8. Available online: http://www.hugin.com."
+  },
+  {
+   "key": "ref_43",
+   "doi-asserted-by": "crossref",
+   "first-page": "613",
+   "DOI": "10.1115/1.2818516",
+   "article-title": "Gas Turbine Parameter Corrections",
+   "volume": "121",
+   "author": "Volponi",
+   "year": "1999",
+   "journal-title": "ASME J. Eng. Gas Turb. Power"
+  }
+ ],
+ "container-title": [
+  "Aerospace"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/2226-4310/7/6/66/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T09:32:45Z",
+  "timestamp": 1760175165000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/2226-4310/7/6/66"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2020,
+    5,
+    26
+   ]
+  ]
+ },
+ "references-count": 43,
+ "journal-issue": {
+  "issue": "6",
+  "published-online": {
+   "date-parts": [
+    [
+     2020,
+     6
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "aerospace7060066"
+ ],
+ "URL": "https://doi.org/10.3390/aerospace7060066",
+ "relation": {},
+ "ISSN": [
+  "2226-4310"
+ ],
+ "issn-type": [
+  {
+   "value": "2226-4310",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2020,
+    5,
+    26
+   ]
+  ]
+ }
+}

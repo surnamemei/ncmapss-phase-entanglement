@@ -1,0 +1,886 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    25
+   ]
+  ],
+  "date-time": "2026-09-25T17:07:45Z",
+  "timestamp": 1790356065825,
+  "version": "4.1.0"
+ },
+ "reference-count": 53,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2026-03-01T00:00:00Z",
+    "timestamp": 1772323200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2026-03-01T00:00:00Z",
+    "timestamp": 1772323200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2026-03-01T00:00:00Z",
+    "timestamp": 1772323200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2026-03-01T00:00:00Z",
+    "timestamp": 1772323200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2026-03-01T00:00:00Z",
+    "timestamp": 1772323200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2026-03-01T00:00:00Z",
+    "timestamp": 1772323200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2026-03-01T00:00:00Z",
+    "timestamp": 1772323200000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100013061",
+   "name": "Jilin Scientific and Technological Development Program",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "20230101339JC"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "20230101339JC"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100013061",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Reliability Engineering &amp; System Safety"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    3
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ress.2025.111894",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    11,
+    1
+   ]
+  ],
+  "date-time": "2025-11-01T23:02:35Z",
+  "timestamp": 1762038155000
+ },
+ "page": "111894",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 7,
+ "special_numbering": "PA",
+ "title": [
+  "An anomaly detection method for gas turbines in power plants using conditional variational autoencoder optimized with self-attention"
+ ],
+ "prefix": "10.1016",
+ "volume": "267",
+ "author": [
+  {
+   "given": "Dongchao",
+   "family": "Chen",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xiuxia",
+   "family": "Li",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jingquan",
+   "family": "Xu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Zhong",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0001",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.energy.2025.136334",
+   "article-title": "Efficient polynomial PID controller and nonlinear autoregressive with exogenous for increasing the efficiency of combined gas turbine (CGT) plant",
+   "volume": "327",
+   "author": "Surase",
+   "year": "2025",
+   "journal-title": "Energy"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0002",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engfailanal.2022.106094",
+   "article-title": "A comprehensive review on mechanical failures cause vibration in the gas turbine of combined cycle power plants",
+   "volume": "134",
+   "author": "Watban Khalid Fahmia",
+   "year": "2022",
+   "journal-title": "Eng Fail Anal"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.ress.2025.111894_bib0003",
+   "doi-asserted-by": "crossref",
+   "first-page": "3339",
+   "DOI": "10.1109/TMECH.2021.3138834",
+   "article-title": "A new fault diagnosis approach for heavy-duty gas turbines",
+   "volume": "27",
+   "author": "Mousavi",
+   "year": "2022",
+   "journal-title": "IEEE/ASME Trans Mechatron"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0004",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2024.124077",
+   "article-title": "Implementing data mining techniques for gas-turbine (GT) health tracking and life management: The bibliographic perspective",
+   "volume": "252",
+   "author": "Abed",
+   "year": "2024",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0005",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2024.112209",
+   "article-title": "An anomaly detection method for gas turbines based on single-condition training with zero-fault sample",
+   "volume": "224",
+   "author": "Yue",
+   "year": "2025",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0006",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.csite.2022.102036",
+   "article-title": "Thermodynamic analysis of gas turbine performance using the enthalpy–entropy approach",
+   "volume": "34",
+   "author": "Naeim",
+   "year": "2022",
+   "journal-title": "Case Stud Therm Eng"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0007",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2024.110663",
+   "article-title": "Diagnostics and prognostics in power plants: a systematic review",
+   "volume": "255",
+   "author": "Cheng",
+   "year": "2025",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0008",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2023.107126",
+   "article-title": "Review on prognostics and health management in smart factory: from conventional to deep learning perspectives",
+   "volume": "126",
+   "author": "Kumar",
+   "year": "2023",
+   "journal-title": "Eng Appl Artif Intell"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0009",
+   "doi-asserted-by": "crossref",
+   "first-page": "278",
+   "DOI": "10.1016/j.procir.2021.03.041",
+   "article-title": "Overview on hybrid approaches to fault detection and diagnosis: Combining data-driven, physics-based and knowledge-based models",
+   "volume": "99",
+   "author": "Wilhelm",
+   "year": "2021",
+   "journal-title": "Procedia CIRP"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "36",
+   "DOI": "10.1016/j.ast.2016.08.008",
+   "article-title": "An improved extended Kalman filter with inequality constraints for gas turbine engine health monitoring",
+   "volume": "58",
+   "author": "Lu",
+   "year": "2016",
+   "journal-title": "Aerosp Sci Technol"
+  },
+  {
+   "issue": "03",
+   "key": "10.1016/j.ress.2025.111894_bib0011",
+   "doi-asserted-by": "crossref",
+   "first-page": "449",
+   "DOI": "10.1016/j.cja.2022.07.021",
+   "article-title": "Digital twin model of gas turbine and its application in warning of performance fault",
+   "volume": "36",
+   "author": "Hu",
+   "year": "2023",
+   "journal-title": "Chin J Aeronaut"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.ress.2025.111894_bib0012",
+   "doi-asserted-by": "crossref",
+   "first-page": "1184",
+   "DOI": "10.1109/TCST.2015.2480003",
+   "article-title": "Sensor fault detection, isolation,and identification using multiple-model-based hybrid Kalman filter for gas turbine engines",
+   "volume": "24",
+   "author": "Pourbabaee",
+   "year": "2016",
+   "journal-title": "IEEE Trans Control Syst Technol"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0013",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.cie.2024.110094",
+   "article-title": "Advancing predictive maintenance for gas turbines: An intelligent monitoring approach with ANFIS, LSTM, and reliability analysis",
+   "volume": "191",
+   "author": "Brahimi",
+   "year": "2024",
+   "journal-title": "Comput Ind Eng"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0014",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2021.104199",
+   "article-title": "A re-optimized deep auto-encoder for gas turbine unsupervised anomaly detection",
+   "volume": "101",
+   "author": "Fu",
+   "year": "2021",
+   "journal-title": "Eng Appl Artif Intell"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0015",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.nucengdes.2023.112466",
+   "article-title": "Research on anomaly detection and positioning of marine nuclear power steam turbine unit based on isolated forest",
+   "volume": "412",
+   "author": "Wang",
+   "year": "2023",
+   "journal-title": "Nucl Eng Des"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0016",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.anucene.2024.110973",
+   "article-title": "KPCA-based fault detection and diagnosis model for the chemical and volume control system in nuclear power plants",
+   "volume": "211",
+   "author": "Sun",
+   "year": "2025",
+   "journal-title": "Ann Nucl Energy"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0017",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.applthermaleng.2019.114664",
+   "article-title": "Anomaly detection of gas turbines based on normal pattern extraction",
+   "volume": "166",
+   "author": "Bai",
+   "year": "2020",
+   "journal-title": "Appl Therm Eng"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0018",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2024.125497",
+   "article-title": "An innovative data-driven AI approach for detecting and isolating faults in gas turbines at power plants",
+   "volume": "263",
+   "author": "Amiri",
+   "year": "2025",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0019",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.oceaneng.2025.122365",
+   "article-title": "Scour identification around offshore wind turbine monopile foundations using an unsupervised anomaly detection approach",
+   "volume": "340",
+   "author": "Abdelhak",
+   "year": "2025",
+   "journal-title": "Ocean Eng"
+  },
+  {
+   "issue": "08",
+   "key": "10.1016/j.ress.2025.111894_bib0020",
+   "first-page": "1691",
+   "article-title": "Enhanced autoregressive integrated moving average model for anomaly detection in power plant operations",
+   "volume": "37",
+   "author": "Fahmi",
+   "year": "2024",
+   "journal-title": "IJE Trans B: Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0021",
+   "article-title": "Time series forecasting and anomaly detection using deep learning",
+   "volume": "182",
+   "author": "Amjad",
+   "year": "2024",
+   "journal-title": "Comput Chem Eng"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0022",
+   "doi-asserted-by": "crossref",
+   "first-page": "2960",
+   "DOI": "10.1016/j.asr.2025.06.068",
+   "article-title": "Convolutional neural network design and evaluation for real-time multivariate time series fault detection in spacecraft attitude sensors",
+   "volume": "76",
+   "author": "Gallon",
+   "year": "2025",
+   "journal-title": "Adv Space Res"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0023",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2024.108846",
+   "article-title": "Graph neural networks for anomaly detection and diagnosis in hydrogen extraction systems",
+   "volume": "135",
+   "author": "Seo",
+   "year": "2024",
+   "journal-title": "Eng Appl Artif Intell"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0024",
+   "doi-asserted-by": "crossref",
+   "first-page": "154",
+   "DOI": "10.1016/j.egyr.2023.09.159",
+   "article-title": "Anomaly detection using K-Means and long-short term memory for predictive maintenance of large-scale solar (LSS) photovoltaic plant",
+   "volume": "9",
+   "author": "Zulfauzi",
+   "year": "2023",
+   "journal-title": "Energy Rep"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0025",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2024.125521",
+   "article-title": "APT: alarm prediction transformer",
+   "volume": "261",
+   "author": "Strem",
+   "year": "2025",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0026",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.chemolab.2022.104711",
+   "article-title": "A review on autoencoder based representation learning for fault detection and diagnosis in industrial processes",
+   "volume": "231",
+   "author": "Qian",
+   "year": "2022",
+   "journal-title": "Chemom Intell Lab Syst"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0027",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2025.128978",
+   "article-title": "Generative adversarial networks-enabled anomaly detection systems: A survey",
+   "volume": "296",
+   "author": "Saeed",
+   "year": "2026",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0028",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2025.111060",
+   "article-title": "A deep autoencoder with structured latent space for process monitoring and anomaly detection in coal-fired power units",
+   "volume": "261",
+   "author": "Hu",
+   "year": "2025",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0029",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2025.111558",
+   "article-title": "Partial sensing information-driven threshold cyclic update graph autoencoder for mechanical anomaly detection",
+   "volume": "265",
+   "author": "Gao",
+   "year": "2026",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0030",
+   "article-title": "A new auto-encoder-based dynamic threshold to reduce false alarm rate for anomaly detection of steam turbines",
+   "volume": "189",
+   "author": "Jin",
+   "year": "2022",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0031",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2025.110926",
+   "article-title": "An adaptive mixture prior in Bayesian convolutional autoencoder for early detecting anomalous degradation behaviors in lithium-ion batteries",
+   "volume": "259",
+   "author": "Chae",
+   "year": "2025",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0032",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2022.119377",
+   "article-title": "Opt-TCAE: Optimal temporal convolutional auto-encoder for boiler tube leakage detection in a thermal power plant using multi-sensor data",
+   "volume": "215",
+   "author": "Kim",
+   "year": "2023",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0033",
+   "article-title": "Fault detection in the gas turbine of the Kirkuk power plant: an anomaly detection approach using DLSTM-Autoencoder",
+   "volume": "160",
+   "author": "Fahmi",
+   "year": "2024",
+   "journal-title": "Eng Fail Anal"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.ress.2025.111894_bib0034",
+   "doi-asserted-by": "crossref",
+   "first-page": "4551",
+   "DOI": "10.3390/app14114551",
+   "article-title": "Advancements in gas turbine fault detection: A machine learning approach based on the temporal convolutional network–autoencoder model",
+   "volume": "14",
+   "author": "Fahmi",
+   "year": "2024",
+   "journal-title": "Appl Sci"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0035",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.energy.2025.134819",
+   "article-title": "Research on anomaly detection of steam power system based on the coupling of thermoeconomics and autoencoder",
+   "volume": "318",
+   "author": "Li",
+   "year": "2025",
+   "journal-title": "Energy"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0036",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.aei.2023.102139",
+   "article-title": "A methodology to determine the optimal train-set size for autoencoders applied to energy systems",
+   "volume": "58",
+   "author": "Danti",
+   "year": "2023",
+   "journal-title": "Adv Eng Inform"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0037",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2022.108482",
+   "article-title": "Health indicator for machine condition monitoring built in the latent space of a deep autoencoder",
+   "volume": "224",
+   "author": "González-Muñiz",
+   "year": "2022",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "issue": "12",
+   "key": "10.1016/j.ress.2025.111894_bib0038",
+   "doi-asserted-by": "crossref",
+   "first-page": "12208",
+   "DOI": "10.1109/TKDE.2021.3128667",
+   "article-title": "Gan-based anomaly detection for multivariate time series using polluted training set",
+   "volume": "35",
+   "author": "Du",
+   "year": "2023",
+   "journal-title": "IEEE Trans Knowl Data Eng"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0039",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2024.111397",
+   "article-title": "A novel stochastic process diffusion model for wind turbines condition monitoring and fault identification with multi-parameter information fusion",
+   "volume": "214",
+   "author": "Yao",
+   "year": "2024",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0040",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2025.113122",
+   "article-title": "A health monitoring and early fault detection method of rotating machines based on latent variables of diffusion model",
+   "volume": "237",
+   "author": "Hu",
+   "year": "2025",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0041",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2025.113204",
+   "article-title": "A statistical time series model-based method for robust detection of incipient faults in rotating machinery under different operating conditions",
+   "volume": "238",
+   "author": "Bourdalos",
+   "year": "2025",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0042",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ress.2024.110653",
+   "article-title": "Unsupervised anomaly detection of machines operating under time-varying conditions: DCD-VAE enabled feature disentanglement of operating conditions and states",
+   "volume": "256",
+   "author": "Zhou",
+   "year": "2025",
+   "journal-title": "Reliab Eng Syst Saf"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0043",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.measurement.2025.118236",
+   "article-title": "Residual feature-based semi-supervised anomaly detection for Gearbox under varying rotational speeds",
+   "volume": "256",
+   "author": "Song",
+   "year": "2025",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0044",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.aei.2025.103455",
+   "article-title": "A polynomial speed normalized health indicator for both incipient fault detection and prognosis of variable-speed wind turbine bearings",
+   "volume": "66",
+   "author": "Chen",
+   "year": "2025",
+   "journal-title": "Adv Eng Inform"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0045",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.aei.2025.103571",
+   "article-title": "Speed-Normalized Expansion-and-Shrinkage network for health indicator generating under time-varying conditions",
+   "volume": "67",
+   "author": "Liu",
+   "year": "2025",
+   "journal-title": "Adv Eng Inform"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0046",
+   "article-title": "Unsupervised learning of global factors in deep generative models",
+   "volume": "134",
+   "author": "Ignacio",
+   "year": "2023",
+   "journal-title": "Pattern Recognit"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0047",
+   "series-title": "Proceedings of the 30th European Safety and Reliability Conference",
+   "article-title": "The aramis data challenge: prognostics and health management in evolving environments",
+   "author": "Cannarile",
+   "year": "2020"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.ress.2025.111894_bib0048",
+   "doi-asserted-by": "crossref",
+   "first-page": "5",
+   "DOI": "10.3390/data6010005",
+   "article-title": "Aircraft engine run-to-failure dataset under real flight conditions for prognostics and diagnostics",
+   "volume": "6",
+   "author": "Chao",
+   "year": "2021",
+   "journal-title": "Data"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0049",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ymssp.2025.112403",
+   "article-title": "Fault detection and monitoring using a data-driven information-based strategy: Method, theory, and application",
+   "volume": "228",
+   "author": "Ramírez",
+   "year": "2025",
+   "journal-title": "Mech Syst Signal Process"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0050",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ins.2023.119914",
+   "article-title": "Refining one-class representation: a unified transformer for unsupervised time-series anomaly detection",
+   "volume": "656",
+   "author": "Zhong",
+   "year": "2024",
+   "journal-title": "Inf Sci (Ny)"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0051",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2021.115736",
+   "article-title": "Explaining anomalies detected by autoencoders using shapley additive explanations",
+   "volume": "186",
+   "author": "Antwarg",
+   "year": "2021",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0052",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.eswa.2023.123083",
+   "article-title": "A lightweight residual network based on improved knowledge transfer and quantized distillation for cross-domain fault diagnosis of rolling bearings",
+   "volume": "245",
+   "author": "Guo",
+   "year": "2024",
+   "journal-title": "Expert Syst Appl"
+  },
+  {
+   "key": "10.1016/j.ress.2025.111894_bib0053",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.compind.2023.104007",
+   "article-title": "OpenTwins: An open-source framework for the development of next-gen compositional digital twins",
+   "volume": "152",
+   "author": "Robles",
+   "year": "2023",
+   "journal-title": "Comput Ind"
+  }
+ ],
+ "container-title": [
+  "Reliability Engineering &amp; System Safety"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0951832025010944?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0951832025010944?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    12
+   ]
+  ],
+  "date-time": "2026-03-12T09:45:45Z",
+  "timestamp": 1773308745000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0951832025010944"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    3
+   ]
+  ]
+ },
+ "references-count": 53,
+ "alternative-id": [
+  "S0951832025010944"
+ ],
+ "URL": "https://doi.org/10.1016/j.ress.2025.111894",
+ "relation": {},
+ "ISSN": [
+  "0951-8320"
+ ],
+ "issn-type": [
+  {
+   "value": "0951-8320",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    3
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "An anomaly detection method for gas turbines in power plants using conditional variational autoencoder optimized with self-attention",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Reliability Engineering & System Safety",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.ress.2025.111894",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "111894"
+}

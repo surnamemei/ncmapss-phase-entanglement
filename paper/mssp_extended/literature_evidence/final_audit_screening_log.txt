@@ -1,0 +1,51 @@
+TASK 6 SCREENING LOG (2019-2026; Crossref query.bibliographic, OpenAlex search, one successful Semantic Scholar query)
+Raw query responses: raw/task6/cr_q*.json, raw/task6/oa_q*.json, raw/task6/oa_extra*_q*.json, raw/task6/s2_q02.json
+(most other S2 queries returned HTTP 429). Scripts: task6_search.py, oa_search.py, s2_search.py.
+Excluded because they were already known (per brief): Michau & Fink 2021; Toshkova 2020; Simon 2014 (ProDiMES); Lee 2025; Wang 2025 RESS;
+Clifton 2007; Zhao 2004; Zhao 2022 J Aerosp Eng; Nejjar 2024; Wilkinghoff 2025; Yue 2025; Jablonski & Mendrok 2025.
+
+SELECTED (8; see closest_prior_art.json):
+  hsu2023_phmconf         10.36001/phmconf.2023.v15i1.3444   full text
+  zhong2026_scirep        10.1038/s41598-026-67776-4         full text (Article in Press)
+  steland2024_statneerl   10.1111/stan.12352                 abstract (+ companion 10.1007/s10463-025-00970-9, arXiv abstract)
+  raymond2025_windenergy  10.1002/we.70050                   full text (HAL hal-05286005)
+  farouq2021_neurocomputing 10.1016/j.neucom.2021.08.016     metadata; thesis full text (DiVA diva2:1634156)
+  laguna2026_jpcs         10.1088/1742-6596/3224/6/062054    full text
+  aslansefat2020_isatrans 10.1016/j.isatra.2019.08.015       abstract (PubMed 31427063)
+  miao2024_sensors        10.3390/s24030941                  full text (PMC10856833)
+
+SCREENED, NOT SELECTED (the one-line reason is our judgement, based only on the abstract or text listed):
+  10.1016/j.ymssp.2019.106585  Hendrickx et al. 2020 MSSP 139:106585 "A general anomaly detection framework for fleet-based condition monitoring of machines".
+      Uses online peer comparison within a fleet; thresholds are not transported. Abstract: raw/task6/hendrickx2020.arxiv_abstract.txt. Worth citing as MSSP fleet context.
+  10.1016/j.isatra.2022.01.030 Wang, Li, Yang, Li 2022 ISA Trans 129:594-608 "Stream-data-clustering based adaptive alarm threshold setting approaches for industrial
+      processes with multiple operating conditions". Builds a per-operating-condition alarm threshold model (coal gasification). Process industry; no unit transport
+      evaluation stated. Abstract: raw/task6/pubmed_35164962_abstract.txt.
+  10.3390/s26123896            Nogueira et al. 2026 Sensors 26(12):3896. Persistence-based alarm confirmation: FAR vs detection-latency trade-off (wind turbines).
+      No condition-specific thresholds. Abstract: raw/task6/10.3390_s26123896.openalex_abstract.txt
+  10.3390/aerospace8080232     Perez-Ruiz, Tang, Loboda 2021 Aerospace 8(8):232. ProDiMES-based; fleet-average and individual engine baselines; detection latency;
+      operating regimes. ProDiMES is already known. MDPI full text returned 403. Abstract: raw/task6/10.3390_aerospace8080232.openalex_abstract.txt
+  10.1007/s10844-022-00744-2   Giannoulidis & Gounaris 2022 J Intell Inf Syst 60(2):521-547. Context-aware fleet PdM on a fleet benchmark built from original C-MAPSS
+      (not N-CMAPSS); iterative "2T" thresholding. Full text: raw/task6/giannoulidis2022.txt
+  10.3390/machines10020140     Weiss et al. 2022 Machines 10(2):140 "Steady-State Fault Detection with Full-Flight Data". PCA + OCSVM on steady-state points from
+      full-flight data. No phase-wise FPR calibration or transport in abstract. Abstract: raw/task6/10.3390_machines10020140.openalex_abstract.txt
+  10.3390/math14183413         Yan, Zhang, Gong 2026 Mathematics 14(18):3413. N-CMAPSS + QAR detector design; F1/ROC-AUC only in abstract.
+  10.48550/arxiv.2601.10269    Sanchez et al. 2026 arXiv (not peer-reviewed). CMAPSS; regression normalisation of operating conditions; adaptive threshold;
+      the abstract claims low false-alarm rates "across multiple operating regimes". Abstract: raw/task6/10.48550_arxiv.2601.10269.openalex_abstract.txt
+  10.1109/access.2025.3641209  Frederiksen et al. 2025 IEEE Access 13:211567-211578. Fleet-wide applicability with conditional DL (icing prediction); a model-transfer
+      question, not a threshold-transfer one.
+  10.1038/s41598-026-48227-6   Khan et al. 2026 Sci Rep. TEP; calibrated probabilities with a false-alarm budget; run-level split. No operating phases.
+  10.1109/tase.2026.3715417    Hu, Wei, Wang, Wei, Izadi 2026 IEEE TASE 23:13260-13273. Non-convex NOZ via grid partitioning; dynamic alarm limits that adjust to
+      operating context (abstract in raw/asaadi2025.s2_search.json). Process alarm systems; no unit transport.
+  10.1109/tase.2022.3222413    Wang, Wang, Hou 2024 IEEE TASE 21(1):452-462. Search-cone NOZ; dynamic alarm thresholds (abstract in raw/task6/oa_candidates_batch1.json).
+  10.1016/j.eswa.2021.116094   Ko, Na, Oh, Kim, Youn 2022 ESWA 189:116094 "A new auto-encoder-based dynamic threshold to reduce false alarm rate for anomaly
+      detection of steam turbines". Metadata only (raw/task6/ko2022.crossref.json); cited by Chen 2026 (bib0030).
+  10.1109/ddcls52934.2021.9455520 Zhao, Zhao, Sun 2021 (DDCLS 836-841), plus a journal version: Zhao & Zhao 2022, Control Eng. Pract. 124:105180,
+      doi 10.1016/j.conengprac.2022.105180 (raw/task6/cr_zhao2022cep.json). Dynamic multivariate threshold optimisation under varying conditions. Metadata only.
+  10.2139/ssrn.4663573         Wang, Baraldi, Zio, Brown, Gauthier 2023 SSRN preprint "Fleet-Based Transfer Learning for Anomaly Detection in Industrial Systems".
+      Abstract not accessed; peer-reviewed version not identified.
+  (Farouq et al. ESWA 2022, PII S095741742200313X, "A conformal anomaly detection based industrial fleet monitoring framework: A case study in district heating".
+      Seen in a WebSearch result list only; summarised as Paper-V in the Farouq thesis; not accessed separately.)
+
+NOTE: No peer-reviewed 2019-2026 paper was found that (i) calibrates anomaly-detection thresholds per flight phase and reports per-phase healthy false-alarm
+rates for aero-engines/gas turbines against a nominal target, or (ii) tests whether condition-specific thresholds calibrated on some engines/units transport to
+other units. This is a negative search result from the queries logged above. It does not prove that no such paper exists.

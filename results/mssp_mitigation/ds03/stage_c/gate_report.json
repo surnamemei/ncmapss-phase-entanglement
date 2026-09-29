@@ -1,0 +1,262 @@
+{
+  "stage": "C",
+  "dataset": "ds03",
+  "overall_status": "PASS",
+  "started_utc": "2026-09-27T14:27:31+00:00",
+  "finished_utc": "2026-09-27T14:31:11+00:00",
+  "seconds": 219.2,
+  "data_read": "A arrays fully; W and X_s only as contiguous healthy (hs = 1) row blocks of the development and official-test splits",
+  "abnormal_rows_read": false,
+  "healthy_blocks": {
+    "dev": [
+      [
+        0,
+        156353
+      ],
+      [
+        308489,
+        526120
+      ],
+      [
+        955653,
+        1167123
+      ],
+      [
+        1545490,
+        1752374
+      ],
+      [
+        2084577,
+        2236340
+      ],
+      [
+        2485720,
+        2754277
+      ],
+      [
+        3432229,
+        3656714
+      ],
+      [
+        4132089,
+        4383310
+      ],
+      [
+        5207095,
+        5368002
+      ]
+    ],
+    "test": [
+      [
+        0,
+        249848
+      ],
+      [
+        951109,
+        1212316
+      ],
+      [
+        1775601,
+        1931041
+      ],
+      [
+        2181010,
+        2432683
+      ],
+      [
+        3287902,
+        3447483
+      ],
+      [
+        3633386,
+        3850316
+      ]
+    ]
+  },
+  "rows": {
+    "calibration": 458105,
+    "healthy_audit": 1294679,
+    "model_fit": null
+  },
+  "descriptor_names": [
+    "alt",
+    "Mach",
+    "TRA",
+    "T2",
+    "d_alt",
+    "d_Mach",
+    "d_TRA",
+    "d_T2",
+    "mean30_alt",
+    "mean30_Mach",
+    "mean30_TRA",
+    "mean30_T2",
+    "std30_alt",
+    "std30_Mach",
+    "std30_TRA",
+    "std30_T2",
+    "slope30_alt",
+    "slope30_Mach",
+    "slope30_TRA",
+    "slope30_T2",
+    "mean120_alt",
+    "mean120_Mach",
+    "mean120_TRA",
+    "mean120_T2",
+    "std120_alt",
+    "std120_Mach",
+    "std120_TRA",
+    "std120_T2",
+    "slope120_alt",
+    "slope120_Mach",
+    "slope120_TRA",
+    "slope120_T2"
+  ],
+  "timings_seconds": {
+    "load_healthy_blocks": 0.6,
+    "fit_detectors": 13.6,
+    "score_healthy_rows": 21.7
+  },
+  "tables": [
+    {
+      "table": "rates",
+      "frozen_file": "results/confirmation_ds03/row_false_alarm_rates.csv",
+      "frozen_sha256": "50ccd105c2dab23bf45651d73a9dd6848f3d8712a24a636008f2f71f5aec9d84",
+      "regenerated_sha256": "50ccd105c2dab23bf45651d73a9dd6848f3d8712a24a636008f2f71f5aec9d84",
+      "byte_identical": true,
+      "rows_regenerated": 588,
+      "rows_frozen": 588,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "transfer",
+      "frozen_file": "results/confirmation_ds03/threshold_transfer_matrix.csv",
+      "frozen_sha256": "3634a3935568762e5d55f987586ec58b783c6cc4a074984b13bc539a67829d06",
+      "regenerated_sha256": "3634a3935568762e5d55f987586ec58b783c6cc4a074984b13bc539a67829d06",
+      "byte_identical": true,
+      "rows_regenerated": 1323,
+      "rows_frozen": 1323,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "detail",
+      "frozen_file": "results/confirmation_ds03/flight_alarm_detail.csv",
+      "frozen_sha256": "9555236bd2af4c35790fd2f75ac23ea465fdf886eba0d3cc96b8da678acbe8ef",
+      "regenerated_sha256": "9555236bd2af4c35790fd2f75ac23ea465fdf886eba0d3cc96b8da678acbe8ef",
+      "byte_identical": true,
+      "rows_regenerated": 12432,
+      "rows_frozen": 12432,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "summary",
+      "frozen_file": "results/confirmation_ds03/flight_alarm_summary.csv",
+      "frozen_sha256": "a1a15783c86f42556a7bf3799236b5f8e14af851492a05dd74125957b2680b2b",
+      "regenerated_sha256": "a1a15783c86f42556a7bf3799236b5f8e14af851492a05dd74125957b2680b2b",
+      "byte_identical": true,
+      "rows_regenerated": 588,
+      "rows_frozen": 588,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "canonical",
+      "frozen_file": "results/confirmation_ds03/canonical_results.csv",
+      "frozen_sha256": "6911385cbe8945af878424d2f9e4704092215d198cd91f703a009c4a31fa6062",
+      "regenerated_sha256": "6911385cbe8945af878424d2f9e4704092215d198cd91f703a009c4a31fa6062",
+      "byte_identical": true,
+      "rows_regenerated": 147,
+      "rows_frozen": 147,
+      "status": "exact",
+      "mismatched_columns": {}
+    },
+    {
+      "table": "bootstrap",
+      "frozen_file": "results/confirmation_ds03/hierarchical_bootstrap_ci.csv",
+      "frozen_sha256": "29b8a033601fdbf4776918a916e827eab36fcc485e182e1c5375b4f8611343c9",
+      "regenerated_sha256": "dab63a19cfe4f536ff2debe5108abc1b2120690757373f414549f18156075eec",
+      "byte_identical": false,
+      "rows_regenerated": 49,
+      "rows_frozen": 49,
+      "status": "exact",
+      "mismatched_columns": {}
+    }
+  ],
+  "threshold_lock": {
+    "frozen_file": "results/confirmation_ds03/calibration_lock.json",
+    "status": "exact",
+    "values_compared": 84,
+    "exact_values": 84
+  },
+  "environment": {
+    "python": "3.12.3",
+    "executable": "/home/mei/global-python/bin/python",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "requirements_lock": {
+      "torch": "2.14.0+cu130",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "lock_mismatches": {},
+    "cuda_runtime": "13.0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "cudnn": 92400,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "inputs": {
+    "manifest": {
+      "manifest": "docs/mssp/frozen_baseline.sha256",
+      "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+      "entries": 186,
+      "missing": [],
+      "mismatched": [],
+      "skipped_absent_git_ignored": [],
+      "ok": true
+    },
+    "h5_path": "N-CMAPSS/N-CMAPSS_DS03-012.h5",
+    "h5_md5": "a301cd2cfa9b7da6e6ec12051ded9afe",
+    "h5_bytes": 3693395776
+  },
+  "manifest_after": {
+    "manifest": "docs/mssp/frozen_baseline.sha256",
+    "manifest_sha256": "37c0cef26826bef2b3ee503d89823530a639581133fbea029d775821f2545a60",
+    "entries": 186,
+    "missing": [],
+    "mismatched": [],
+    "skipped_absent_git_ignored": [],
+    "ok": true
+  },
+  "provenance": {
+    "protocol": "docs/mssp/post_confirmation_mitigation_protocol.md",
+    "protocol_sha256": "b4a669cdd00d40753b4b7cca3576ab701f69a19b333a5ff216e21be86a33cacb",
+    "config_sha256": "23bb3b04559162f3538f6eaa3bdd14d5324df316b97f0d49be3ac11361cee144",
+    "module_sha256": "2764f27113a0c7af84772817c48cafe3a67efc24e807ad0efb9b25ed56fc113b",
+    "git": {
+      "head": "c2c49f1410a30c3b052bcec173429e393c3b4c3c",
+      "branch": "mssp-revision",
+      "modified_tracked": [],
+      "untracked": [
+        "paper/ress/cover_letter_final.txt",
+        "paper/ress/cover_letter_final.txt:Zone.Identifier",
+        "results/mssp_mitigation/"
+      ]
+    }
+  }
+}

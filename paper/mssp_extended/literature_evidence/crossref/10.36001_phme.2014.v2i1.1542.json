@@ -1,0 +1,189 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2024,
+    4,
+    24
+   ]
+  ],
+  "date-time": "2024-04-24T18:11:23Z",
+  "timestamp": 1713982283619
+ },
+ "reference-count": 0,
+ "publisher": "PHM Society",
+ "issue": "1",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "PHME_CONF"
+ ],
+ "abstract": "<jats:p>The “s or more threshold trespassings out of N consecutive watch periods” detection verification strategy is known to offer advantages in terms of threshold value not too extreme under the constraint of low false alert rate, PFA. Typically PFA &lt; 5%. The definition of PFA here considered is P(No degradation|Alert). It means the probability that there is no degradation given that degradation has been detected. The alert threshold placement has previously been addressed in the case where the abnormality score with no degradation has a stationary distribution and may be approached with a continuous non parametric Parzen distribution. This is illustrated on an abnormality score of the daily lubricant consumption estimation of an aircraft engine. The watch period is a day. The N consecutive watch periods are seven consecutive service days. The s or more trespassings are six or more trespassings out of seven consecutive days. In such configuration, the threshold is 0.21 l/h, which is inside the observed distribution. With an abnormality alert strategy with no verification, i.e. s = N = 1, the threshold is a more extreme value of 0.31 l/h which is outside the observed distribution. Two steps were considered. Step 1: Learning of the abnormality score distribution with no degradation by a non parametric Parzen fit. Step 2: Threshold set by quintile interpolation on the adjustment. This is extended to the case where the abnormality score with no degradation has a discrete distribution close to a Dirac distribution. This is typically the case for abnormality scores based on “out of range” counts for measurement chains along M clock increments of a watch period, corresponding to a flight cycle. With no degradation, most of the counts during a flight, but not all, are zero. Another example is an abnormality score based on a rough quantification of the time, “t SAV open”, between the open command and the start of movement of a starter air valve, during a watch period corresponding to a start sequence. With no degradation, most of the t SAV open of a start sequence are reported “zero”. Only a few start sequences trespass the few first quantification times. In these discrete cases close to Dirac the Parzen adjustment is no longer acceptable. A discrete degradation detection threshold, l, is set as a “l events or more count out of M” clock increments of a watch period, at each watch period for an “s out of N watch periods” confirmation strategy under the same constraint of P(No degradation| Alert) &lt; PFA. This is done according to a binomial as well as a Poisson distribution on the number of events. Like in the continuous case two steps are considered. Step 1: Estimation of the ratio of discrete events with α confidence level based on the number, r, of events during a learning phase of I time increments over watch periods with no degradation. Step 2: Alert threshold set as the limit, l, on a watch period of size M for a “s out of N limit trespassings” detection strategy.</jats:p>",
+ "DOI": "10.36001/phme.2014.v2i1.1542",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    3,
+    22
+   ]
+  ],
+  "date-time": "2024-03-22T01:34:17Z",
+  "timestamp": 1711071257000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Placement of alert thresholds on abnormality scores"
+ ],
+ "prefix": "10.36001",
+ "volume": "2",
+ "author": [
+  {
+   "given": "Jean-Rémi",
+   "family": "Massé",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Aurore",
+   "family": "Humeau",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Pierre",
+   "family": "Lalonde",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Armand",
+   "family": "Alimardani",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  }
+ ],
+ "member": "21056",
+ "published-online": {
+  "date-parts": [
+   [
+    2014,
+    7,
+    8
+   ]
+  ]
+ },
+ "container-title": [
+  "PHM Society European Conference"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://papers.phmsociety.org/index.php/phme/article/download/1542/510",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://papers.phmsociety.org/index.php/phme/article/download/1542/510",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    3,
+    22
+   ]
+  ],
+  "date-time": "2024-03-22T01:34:20Z",
+  "timestamp": 1711071260000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://papers.phmsociety.org/index.php/phme/article/view/1542"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2014,
+    7,
+    8
+   ]
+  ]
+ },
+ "references-count": 0,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2014,
+     7,
+     8
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.36001/phme.2014.v2i1.1542",
+ "relation": {},
+ "ISSN": [
+  "2325-016X",
+  "2325-016X"
+ ],
+ "issn-type": [
+  {
+   "value": "2325-016X",
+   "type": "electronic"
+  },
+  {
+   "value": "2325-016X",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2014,
+    7,
+    8
+   ]
+  ]
+ }
+}

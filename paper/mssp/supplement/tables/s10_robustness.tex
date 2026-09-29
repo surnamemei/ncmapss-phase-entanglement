@@ -1,0 +1,49 @@
+\begin{scriptsize}
+\begin{longtable}{lp{0.5\textwidth}rrrl}
+\caption{Target robustness of the post-confirmation claims: number of runs (of 7) in which each claim holds at the nominal targets 0.5\%, 1\% and 2\%, with the pre-specified classification.}\label{tab:s10_robustness}\\
+\toprule
+Dataset & Claim & 0.5\% & 1\% & 2\% & Class \\
+\midrule
+\endfirsthead
+\multicolumn{6}{l}{\emph{(continued)}}\\
+\toprule
+Dataset & Claim & 0.5\% & 1\% & 2\% & Class \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+DS02 & R1 descent is the highest pooled healthy-FPR phase (P) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R2 C reduces between-phase disparity (A1) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R3 C reduces max-abs nominal calibration error (A2) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R4 C reduces RMS nominal calibration error (A3) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R5 C mainly redistributes: |overall FPR change| $<$ 0.5 $\times$ |A1 change| & 6/7 & 7/7 & 7/7 & mostly invariant \\
+ & R6 C abnormal-state row alarm-rate ratio $\geq$ 0.9 & 7/7 & 7/7 & 7/7 & invariant \\
+ & R8 C is not earlier than P at matched false-flag burden & 4/7 & 4/7 & 3/7 & reversed \\
+ & R2 C$'$ reduces between-phase disparity (A1) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R3 C$'$ reduces max-abs nominal calibration error (A2) & 4/7 & 7/7 & 7/7 & mostly invariant \\
+ & R4 C$'$ reduces RMS nominal calibration error (A3) & 4/7 & 7/7 & 7/7 & mostly invariant \\
+ & R5 C$'$ mainly redistributes: |overall FPR change| $<$ 0.5 $\times$ |A1 change| & 2/7 & 7/7 & 7/7 & reversed \\
+ & R6 C$'$ abnormal-state row alarm-rate ratio $\geq$ 0.9 & 7/7 & 7/7 & 7/7 & invariant \\
+ & R8 C$'$ is not earlier than P at matched false-flag burden & 7/7 & 3/7 & 2/7 & not supported at 1\% \\
+ & R7 realized pooled healthy-flight FFR exceeds nominal 5\% (P) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R7 realized pooled healthy-flight FFR exceeds nominal 5\% (C) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R7 realized pooled healthy-flight FFR exceeds nominal 5\% (C$'$) & 7/7 & 7/7 & 7/7 & invariant \\
+\midrule
+DS03 & R1 descent is the highest pooled healthy-FPR phase (P) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R2 C reduces between-phase disparity (A1) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R3 C reduces max-abs nominal calibration error (A2) & 7/7 & 7/7 & 6/7 & mostly invariant \\
+ & R4 C reduces RMS nominal calibration error (A3) & 7/7 & 6/7 & 6/7 & mostly invariant \\
+ & R5 C mainly redistributes: |overall FPR change| $<$ 0.5 $\times$ |A1 change| & 7/7 & 7/7 & 7/7 & invariant \\
+ & R6 C abnormal-state row alarm-rate ratio $\geq$ 0.9 & 7/7 & 7/7 & 7/7 & invariant \\
+ & R8 C is not earlier than P at matched false-flag burden & 6/7 & 7/7 & 6/7 & mostly invariant \\
+ & R2 C$'$ reduces between-phase disparity (A1) & 7/7 & 7/7 & 7/7 & invariant \\
+ & R3 C$'$ reduces max-abs nominal calibration error (A2) & 6/7 & 7/7 & 6/7 & mostly invariant \\
+ & R4 C$'$ reduces RMS nominal calibration error (A3) & 4/7 & 6/7 & 5/7 & target-sensitive \\
+ & R5 C$'$ mainly redistributes: |overall FPR change| $<$ 0.5 $\times$ |A1 change| & 6/7 & 6/7 & 6/7 & mostly invariant \\
+ & R6 C$'$ abnormal-state row alarm-rate ratio $\geq$ 0.9 & 7/7 & 7/7 & 7/7 & invariant \\
+ & R8 C$'$ is not earlier than P at matched false-flag burden & 6/7 & 5/7 & 7/7 & mostly invariant \\
+ & R7 realized pooled healthy-flight FFR exceeds nominal 5\% (P) & 7/7 & 6/7 & 7/7 & mostly invariant \\
+ & R7 realized pooled healthy-flight FFR exceeds nominal 5\% (C) & 4/7 & 4/7 & 7/7 & target-sensitive \\
+ & R7 realized pooled healthy-flight FFR exceeds nominal 5\% (C$'$) & 7/7 & 7/7 & 7/7 & invariant \\
+\end{longtable}
+\end{scriptsize}

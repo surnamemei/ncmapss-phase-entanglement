@@ -1,0 +1,196 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    2
+   ]
+  ],
+  "date-time": "2026-09-02T01:26:19Z",
+  "timestamp": 1788312379366,
+  "version": "build-2803163510"
+ },
+ "reference-count": 0,
+ "publisher": "PHM Society",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      10,
+      26
+     ]
+    ],
+    "date-time": "2023-10-26T00:00:00Z",
+    "timestamp": 1698278400000
+   },
+   "content-version": "unspecified",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/3.0/us/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "PHM_CONF"
+ ],
+ "abstract": "<jats:p>An important initial step in fault detection for complex industrial systems is gaining an understanding of their health condition. Subsequently, continuous monitoring of this health condition becomes crucial to observe its evolution, track changes over time, and isolate faults. As faults are typically rare occurrences, it is essential to perform this monitoring in an unsupervised manner. Various approaches have been proposed not only to detect faults in an unsupervised manner but also to distinguish between different potential fault types. In this study, we perform a comprehensive comparison between two residual-based approaches: autoencoders, and theinput-output models that establish a mapping between operating conditions and sensor readings. We explore the sensorwise residuals and aggregated residuals for the entire system in both methods. The performance evaluation focuses on three tasks: health indicator construction, fault detection, and health indicator interpretation. To perform the comparison, we utilize the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) dynamical model, specifically a subset of the turbofan engine dataset containing three different fault types. All models are trained exclusively on healthy data. Fault detection is achieved by applying a threshold that is determined based on the healthy condition. The detection results reveal that both models are capable of detecting faults with an average delay of around 20 cycles and maintain a low false positive rate. While the fault detection performance is similar for both models, the input-output model provides better interpretability regarding potential fault types and the possible faulty components.</jats:p>",
+ "DOI": "10.36001/phmconf.2023.v15i1.3444",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    11,
+    9
+   ]
+  ],
+  "date-time": "2023-11-09T17:31:57Z",
+  "timestamp": 1699551117000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 13,
+ "title": [
+  "Comparison of Residual-based Methods on Fault Detection"
+ ],
+ "prefix": "10.36001",
+ "volume": "15",
+ "author": [
+  {
+   "given": "Chi-Ching",
+   "family": "Hsu",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Gaetan",
+   "family": "Frusque",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Olga",
+   "family": "Fink",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "21056",
+ "published-online": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    26
+   ]
+  ]
+ },
+ "container-title": [
+  "Annual Conference of the PHM Society"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "https://papers.phmsociety.org/index.php/phmconf/article/download/3444/phmc_23_3444",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://papers.phmsociety.org/index.php/phmconf/article/download/3444/phmc_23_3444",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2023,
+    11,
+    11
+   ]
+  ],
+  "date-time": "2023-11-11T05:54:52Z",
+  "timestamp": 1699682092000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://papers.phmsociety.org/index.php/phmconf/article/view/3444"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    26
+   ]
+  ]
+ },
+ "references-count": 0,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     10,
+     26
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.36001/phmconf.2023.v15i1.3444",
+ "relation": {},
+ "ISSN": [
+  "2325-0178",
+  "2325-0178"
+ ],
+ "issn-type": [
+  {
+   "value": "2325-0178",
+   "type": "electronic"
+  },
+  {
+   "value": "2325-0178",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    26
+   ]
+  ]
+ }
+}

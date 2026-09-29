@@ -1,0 +1,3 @@
+arm,statistic,point,ci_lower_95,ci_upper_95,replicates,engines,families
+pooled,median over families of family-median engine CE1 (median over runs),0.001106336664859809,-0.0003806948287779886,0.0017629120214355917,2000,26,4
+phase_conditioned,median over families of family-median engine CE1 (median over runs),0.0054580375433969045,0.0018489600395772154,0.011140307558780965,2000,26,4

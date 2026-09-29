@@ -1,0 +1,14 @@
+{
+ "figure": "ext_fig1_phase_fpr_by_subset",
+ "inputs": {
+  "results/extension/DS01/audit/transport_summary.csv": "e1ac8caceac596567be0bb0324205363dc99c1f5562ae3c9a9ac4730d73cc8a1",
+  "results/extension/DS02/audit/transport_summary.csv": "1cfdb6155a341d08f5bf03604d5cbea46371e2e1110f6a8d97378ff5222767f0",
+  "results/extension/DS03/audit/transport_summary.csv": "23707c802894431838d8e49f9a524424e1191f0c07bc1e967e9c1b9d6369a0d1",
+  "results/extension/DS04/audit/transport_summary.csv": "17051262dcde2c820cf6127420ae2dc9d523e74b4a5716a388ac086dc076fa57",
+  "results/extension/DS05/audit/transport_summary.csv": "0523a2327c58fb6b274a0aaa66c917d8119500408f61afa5d0025ee4979bfdc1",
+  "results/extension/DS06/audit/transport_summary.csv": "8606f6851124cdecfafde0239eb6b7e766a4210e8e5e836a39e4b589a79df0fd",
+  "results/extension/DS07/audit/transport_summary.csv": "b7bd9dbb7f77ed605a9faeefc07bc718a026b4bed10dec949021dde10950d3f0",
+  "results/extension/DS08a/audit/transport_summary.csv": "ae9c53cd0a7ae102b16955ff5428a7a1b872c5d17ce2a0f90f39d15dd547ec87",
+  "results/extension/DS08c/audit/transport_summary.csv": "4bdea1618014028ec44422f566c0ac18641d2490f54d0f6d8f6ff23488fda18b"
+ }
+}
