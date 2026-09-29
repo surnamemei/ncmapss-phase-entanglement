@@ -290,7 +290,25 @@ class CommittedOutputs(unittest.TestCase):
                            & (points.scheme == key[3])].reset_index(drop=True)
         self.assertEqual(len(again), len(committed))
         for column in ("ffr", "median_delay", "kappa_low", "kappa_high"):
-            self.assertTrue(np.array_equal(again[column].to_numpy(), committed[column].to_numpy()), column)
+            a = again[column].to_numpy()
+            b = committed[column].to_numpy()
+
+            if not np.array_equal(a, b):
+                mismatch = np.flatnonzero(a != b)
+                i = int(mismatch[0]) if len(mismatch) else -1
+                max_diff = np.nanmax(
+                    np.abs(
+                        a.astype(np.float64) -
+                        b.astype(np.float64)
+                    )
+                )
+                self.fail(
+                    f"{column}: first mismatch index={i}, "
+                    f"again={a[i]!r}, committed={b[i]!r}, "
+                    f"max_abs_diff={max_diff!r}, "
+                    f"again_hex={float(a[i]).hex()}, "
+                    f"committed_hex={float(b[i]).hex()}"
+                )
 
 
 if __name__ == "__main__":
